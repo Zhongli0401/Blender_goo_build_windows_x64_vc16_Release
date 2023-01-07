@@ -3,11 +3,6 @@
    linking to external resources instead of including content in-line.
    See 'releasetextreadme.html' for the end user read-me.
 
-About this
-==========
-This is a full pakage vs code for use no need to compile anything from source anymore.
-
-current version = Blender_3.3
 
 Blender
 =======
@@ -19,6 +14,7 @@ motion tracking and video editing.
 .. figure httpscode.blender.orgwp-contentuploads201812springrg.jpg
    scale 50 %
    align center
+
 
 
 Project Pages
