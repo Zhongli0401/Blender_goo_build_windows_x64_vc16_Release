@@ -9,7 +9,6 @@ This is a full pakage vs code for use no need to compile anything from source an
 
 current version = Blender_3.3
 
-
 Blender
 =======
 
