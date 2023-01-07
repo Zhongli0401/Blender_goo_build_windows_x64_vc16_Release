@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_cache.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_cycle.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_map.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_nodes.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_nodes_rig.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_nodes_scene.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_nodes_view_layer.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_pchanmap.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_relations.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_relations_drivers.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_relations_keys.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_relations_rig.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_relations_scene.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_relations_view_layer.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_remove_noop.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_rna.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_stack.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_transitive.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_all_objects.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_compositor.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_from_ids.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_render.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_view_layer.cc">
+      <Filter>intern\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\debug\deg_debug.cc">
+      <Filter>intern\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\debug\deg_debug_relations_graphviz.cc">
+      <Filter>intern\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\debug\deg_debug_stats_gnuplot.cc">
+      <Filter>intern\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval.cc">
+      <Filter>intern\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_copy_on_write.cc">
+      <Filter>intern\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_flush.cc">
+      <Filter>intern\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup.cc">
+      <Filter>intern\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_animation.cc">
+      <Filter>intern\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_gpencil.cc">
+      <Filter>intern\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_modifier.cc">
+      <Filter>intern\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_movieclip.cc">
+      <Filter>intern\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_object.cc">
+      <Filter>intern\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_pose.cc">
+      <Filter>intern\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_scene.cc">
+      <Filter>intern\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_sequence.cc">
+      <Filter>intern\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_sequencer.cc">
+      <Filter>intern\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_sound.cc">
+      <Filter>intern\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_volume.cc">
+      <Filter>intern\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_stats.cc">
+      <Filter>intern\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_visibility.cc">
+      <Filter>intern\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node.cc">
+      <Filter>intern\node</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_component.cc">
+      <Filter>intern\node</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_factory.cc">
+      <Filter>intern\node</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_id.cc">
+      <Filter>intern\node</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_operation.cc">
+      <Filter>intern\node</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_time.cc">
+      <Filter>intern\node</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_build.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_debug.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_eval.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_physics.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_query.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_query_foreach.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_query_iter.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_registry.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_relation.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_tag.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_type.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_update.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_visibility.h">
+      <Filter>intern\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\DEG_depsgraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\DEG_depsgraph_build.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\DEG_depsgraph_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\DEG_depsgraph_physics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\DEG_depsgraph_query.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_cache.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_cycle.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_map.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_nodes.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_pchanmap.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_relations.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_relations_drivers.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_relations_impl.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_remove_noop.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_rna.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_stack.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_transitive.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_all_objects.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_compositor.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_from_ids.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_render.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_view_layer.h">
+      <Filter>intern\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\debug\deg_debug.h">
+      <Filter>intern\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\debug\deg_time_average.h">
+      <Filter>intern\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval.h">
+      <Filter>intern\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_copy_on_write.h">
+      <Filter>intern\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_flush.h">
+      <Filter>intern\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup.h">
+      <Filter>intern\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_animation.h">
+      <Filter>intern\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_gpencil.h">
+      <Filter>intern\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_modifier.h">
+      <Filter>intern\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_movieclip.h">
+      <Filter>intern\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_object.h">
+      <Filter>intern\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_pose.h">
+      <Filter>intern\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_scene.h">
+      <Filter>intern\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_sequence.h">
+      <Filter>intern\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_sequencer.h">
+      <Filter>intern\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_sound.h">
+      <Filter>intern\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_volume.h">
+      <Filter>intern\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_stats.h">
+      <Filter>intern\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node.h">
+      <Filter>intern\node</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_component.h">
+      <Filter>intern\node</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_factory.h">
+      <Filter>intern\node</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_factory_impl.h">
+      <Filter>intern\node</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_id.h">
+      <Filter>intern\node</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_operation.h">
+      <Filter>intern\node</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_time.h">
+      <Filter>intern\node</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_physics.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_registry.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_relation.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_tag.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_type.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_update.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\blender\depsgraph\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF785239-3054-3D1C-9CBE-53CD9878A5F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{017BFF33-8AB9-35B3-9AF4-ED3EEF867E66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\builder">
+      <UniqueIdentifier>{6B11F26A-799F-3EAB-921D-A9F1DD528333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\debug">
+      <UniqueIdentifier>{F1E57E7D-15DB-371F-91E1-001DAC5CEE98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\eval">
+      <UniqueIdentifier>{1E61D93F-E820-3879-AED0-2478FFB34E08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\node">
+      <UniqueIdentifier>{F16BFCD3-D8E2-31C6-A4CA-8FBA607B0D4F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

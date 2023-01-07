@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\space_spreadsheet.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_cache.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_column.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_context.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_data_source.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_data_source_geometry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_dataset_draw.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_draw.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_layout.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_panels.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_row_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_row_filter_ui.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_cache.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_column.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_column_values.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_context.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_data_source.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_data_source_geometry.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_dataset_draw.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_draw.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_intern.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_layout.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_row_filter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\spreadsheet_row_filter_ui.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\blender\editors\space_spreadsheet\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF785239-3054-3D1C-9CBE-53CD9878A5F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1F461DDB-8F37-3AFA-B6E0-78FA459DB46E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

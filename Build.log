@@ -1,0 +1,5032 @@
+  Checking Build System
+  Building Custom Rule C:/blender-git/goo-engine/extern/smaa_areatex/CMakeLists.txt
+  smaa_areatex.cpp
+  Building Custom Rule C:/blender-git/goo-engine/intern/dualcon/CMakeLists.txt
+  manifold_table.cpp
+  marching_cubes_table.cpp
+  octree.cpp
+  Projections.cpp
+  dualcon_c_api.cpp
+  Building Custom Rule C:/blender-git/goo-engine/extern/audaspace/CMakeLists.txt
+  smaa_areatex.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\bin\Release\smaa_areatex.exe
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/io/alembic/CMakeLists.txt
+  abc_axis_conversion.cc
+  abc_customdata.cc
+  abc_reader_archive.cc
+  abc_reader_camera.cc
+  abc_reader_curves.cc
+  abc_reader_mesh.cc
+  abc_reader_nurbs.cc
+  abc_reader_object.cc
+  DefaultSynchronizer.cpp
+  DeviceManager.cpp
+  NULLDevice.cpp
+  ReadDevice.cpp
+  SoftwareDevice.cpp
+  ThreadedDevice.cpp
+  Exception.cpp
+  File.cpp
+  abc_reader_points.cc
+  FileManager.cpp
+  FileWriter.cpp
+  Accumulator.cpp
+  ADSR.cpp
+  ADSRReader.cpp
+  BaseIIRFilterReader.cpp
+  ButterworthCalculator.cpp
+  Butterworth.cpp
+  CallbackIIRFilterReader.cpp
+  Delay.cpp
+  DelayReader.cpp
+  DynamicIIRFilter.cpp
+  DynamicIIRFilterReader.cpp
+  DynamicMusic.cpp
+  Effect.cpp
+  abc_reader_transform.cc
+  EffectReader.cpp
+  Envelope.cpp
+  Fader.cpp
+  FaderReader.cpp
+  HighpassCalculator.cpp
+  Highpass.cpp
+  IIRFilter.cpp
+  abc_util.cc
+  IIRFilterReader.cpp
+  Limiter.cpp
+  alembic_capi.cc
+  LimiterReader.cpp
+  Loop.cpp
+  LoopReader.cpp
+  abc_archive.cc
+  LowpassCalculator.cpp
+  abc_custom_props.cc
+  Lowpass.cpp
+  abc_export_capi.cc
+  Modulator.cpp
+  ModulatorReader.cpp
+  MutableReader.cpp
+  MutableSound.cpp
+  Pitch.cpp
+  PitchReader.cpp
+  PlaybackManager.cpp
+  PlaybackCategory.cpp
+  abc_hierarchy_iterator.cc
+  Reverse.cpp
+  abc_subdiv_disabler.cc
+  ReverseReader.cpp
+  SoundList.cpp
+  Source.cpp
+  Sum.cpp
+  Threshold.cpp
+  Volume.cpp
+  VolumeReader.cpp
+  abc_writer_abstract.cc
+  VolumeSound.cpp
+  VolumeStorage.cpp
+  Sawtooth.cpp
+  SawtoothReader.cpp
+  abc_writer_camera.cc
+  abc_writer_curves.cc
+  Silence.cpp
+  SilenceReader.cpp
+  Sine.cpp
+  SineReader.cpp
+  abc_writer_hair.cc
+  Square.cpp
+  abc_writer_instance.cc
+  SquareReader.cpp
+  Triangle.cpp
+  TriangleReader.cpp
+  ChannelMapper.cpp
+  abc_writer_mball.cc
+  ChannelMapperReader.cpp
+  Converter.cpp
+  ConverterFunctions.cpp
+  ConverterReader.cpp
+  abc_writer_mesh.cc
+  JOSResample.cpp
+  JOSResampleReaderCoeff.cpp
+  JOSResampleReader.cpp
+  LinearResample.cpp
+  abc_writer_nurbs.cc
+  LinearResampleReader.cpp
+  Mixer.cpp
+  abc_writer_points.cc
+  ResampleReader.cpp
+  bf_intern_dualcon.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_dualcon.lib
+  SpecsChanger.cpp
+  AnimateableProperty.cpp
+  Double.cpp
+  abc_writer_transform.cc
+  DoubleReader.cpp
+  PingPong.cpp
+  Sequence.cpp
+  SequenceData.cpp
+  SequenceEntry.cpp
+  SequenceHandle.cpp
+  SequenceReader.cpp
+  Superpose.cpp
+  SuperposeReader.cpp
+  Barrier.cpp
+  Buffer.cpp
+  BufferReader.cpp
+  RingBuffer.cpp
+  StreamBuffer.cpp
+  ThreadPool.cpp
+  AUD_ThreadPool.cpp
+  AUD_Source.cpp
+  AUD_Device.cpp
+  AUD_DynamicMusic.cpp
+  AUD_Handle.cpp
+  AUD_PlaybackManager.cpp
+  AUD_Sequence.cpp
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/io/avi/CMakeLists.txt
+  AUD_Sound.cpp
+  AUD_Special.cpp
+  FFMPEG.cpp
+  FFMPEGReader.cpp
+  FFMPEGWriter.cpp
+  SndFile.cpp
+  SndFileReader.cpp
+  SndFileWriter.cpp
+  OpenALDevice.cpp
+  OpenALReader.cpp
+  SDLDevice.cpp
+  WASAPIDevice.cpp
+  PluginManager.cpp
+  avi.c
+  avi_codecs.c
+  avi_endian.c
+  avi_mjpeg.c
+  avi_options.c
+  avi_rgb.c
+  avi_rgb32.c
+  bf_alembic.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_alembic.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/blenfont/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/blenlib/CMakeLists.txt
+  blf.c
+  blf_default.c
+  blf_dir.c
+  blf_font.c
+  blf_font_default.c
+  blf_glyph.c
+  blf_thumbs.c
+  blf_util.c
+  blf_font_win32_compat.c
+  BLI_args.c
+  BLI_array.c
+  BLI_assert.c
+  BLI_dial_2d.c
+  BLI_dynstr.c
+  BLI_filelist.c
+  BLI_ghash.c
+  BLI_ghash_utils.c
+  BLI_heap.c
+  BLI_heap_simple.c
+  BLI_kdopbvh.c
+  BLI_linklist.c
+  BLI_linklist_lockfree.c
+  BLI_memarena.c
+  BLI_memblock.c
+  BLI_memiter.c
+  BLI_mempool.c
+  BLI_mmap.c
+  BLI_timer.c
+  DLRB_tree.c
+  array_store.c
+  array_store_utils.c
+  array_utils.c
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/blentranslation/CMakeLists.txt
+  astar.c
+  bitmap.c
+  bf_avi.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_avi.lib
+  bitmap_draw_2d.c
+  boxpack_2d.c
+  buffer.c
+  convexhull_2d.c
+  dynlib.c
+  easing.c
+  endian_switch.c
+  edgehash.c
+  expr_pylike_eval.c
+  filereader_file.c
+  filereader_gzip.c
+  filereader_memory.c
+  filereader_zstd.c
+  fnmatch.c
+  gsqueue.c
+  hash_md5.c
+  hash_mm2a.c
+  hash_mm3.c
+  jitter_2d.c
+  bf_blenfont.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_blenfont.lib
+  kdtree_1d.c
+  blt_lang.c
+  blt_translation.c
+  kdtree_2d.c
+  kdtree_3d.c
+  kdtree_4d.c
+  lasso_2d.c
+  listbase.c
+  math_base.c
+  math_color.c
+  math_geom.c
+  math_interp.c
+  math_matrix.c
+  Generating operations/COM_SMAAAreaTexture.h
+  math_solvers.c
+  math_statistics.c
+  math_time.c
+  math_vector.c
+  memory_utils.c
+  path_util.c
+  polyfill_2d.c
+  polyfill_2d_beautify.c
+  quadric.c
+  rct.c
+  scanfill.c
+  scanfill_utils.c
+  session_uuid.c
+  smallhash.c
+  sort.c
+  bf_blentranslation.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_blentranslation.lib
+  sort_utils.c
+  stack.c
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/compositor/CMakeLists.txt
+  storage.c
+  string.c
+  string_cursor_utf8.c
+  string_utf8.c
+  string_utils.c
+  system.c
+  task_iterator.c
+  time.c
+  timecode.c
+  uvproject.c
+  voronoi_2d.c
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/bmesh/CMakeLists.txt
+  voxel.c
+  winstuff.c
+  winstuff_dir.c
+  system_win32.c
+  audaspace.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\audaspace.lib
+  bmo_beautify.c
+  bmo_bevel.c
+  bmo_bisect_plane.c
+  bmo_bridge.c
+  bmo_connect.c
+  bmo_connect_concave.c
+  bmo_connect_nonplanar.c
+  bmo_connect_pair.c
+  bmo_create.c
+  bmo_dissolve.c
+  Building Custom Rule C:/blender-git/goo-engine/extern/audaspace/CMakeLists.txt
+  bmo_dupe.c
+  bmo_edgenet.c
+  bmo_extrude.c
+  bmo_fill_attribute.c
+  bmo_fill_edgeloop.c
+  bmo_fill_grid.c
+  bmo_fill_holes.c
+  bmo_hull.c
+  bmo_inset.c
+  bmo_join_triangles.c
+  bmo_mesh_convert.c
+  bmo_mirror.c
+  bmo_normals.c
+  bmo_offset_edgeloops.c
+  bmo_planar_faces.c
+  bmo_poke.c
+  bmo_primitive.c
+  bmo_removedoubles.c
+  BLI_color.cc
+  BLI_index_range.cc
+  cpp_type.cc
+  delaunay_2d.cc
+  PyAPI.cpp
+  dot_export.cc
+  bmo_rotate_edges.c
+  bmo_smooth_laplacian.c
+  generic_vector_array.cc
+  generic_virtual_array.cc
+  generic_virtual_vector_array.cc
+  PyDevice.cpp
+  PyDynamicMusic.cpp
+  PyHandle.cpp
+  bmo_split_edges.c
+  PyPlaybackManager.cpp
+  PySequence.cpp
+  bmo_subdivide.c
+  bmo_subdivide_edgering.c
+  PySequenceEntry.cpp
+  PySound.cpp
+  bmo_symmetrize.c
+  bmo_triangulate.c
+  bmo_unsubdivide.c
+  PySource.cpp
+  bmo_utils.c
+  bmo_wireframe.c
+  bmesh_callback_generic.c
+  index_mask.cc
+  bmesh_construct.c
+  bmesh_core.c
+  bmesh_delete.c
+  bmesh_edgeloop.c
+  PyThreadPool.cpp
+  bmesh_interp.c
+  length_parameterize.cc
+  bmesh_iterators.c
+  math_boolean.cc
+  bmesh_log.c
+  bmesh_marking.c
+  bmesh_mesh_debug.c
+  bmesh_mesh_duplicate.c
+  bmesh_mesh_normals.c
+  math_vec.cc
+  mesh_boolean.cc
+  bmesh_mesh_partial_update.c
+  bmesh_mesh_tessellate.c
+  bmesh_mesh_validate.c
+  mesh_intersect.cc
+  bmesh_mods.c
+  bmesh_opdefines.c
+  bmesh_operators.c
+  bmesh_polygon.c
+  bmesh_polygon_edgenet.c
+  bmesh_query.c
+  bmesh_query_uv.c
+  bmesh_structure.c
+  bmesh_walkers.c
+  rand.cc
+  bmesh_walkers_impl.c
+  bmesh_beautify.c
+  bmesh_bevel.c
+  bmesh_bisect_plane.c
+  bmesh_decimate_collapse.c
+  bmesh_decimate_dissolve.c
+  bmesh_decimate_unsubdivide.c
+  resource_scope.cc
+  serialize.cc
+  bmesh_edgenet.c
+  bmesh_edgesplit.c
+  string_search.cc
+  task_graph.cc
+  bmesh_intersect.c
+  task_pool.cc
+  audaspace-py.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\audaspace-py.lib
+  bmesh_intersect_edges.c
+  task_range.cc
+  bmesh_path.c
+  bmesh_path_region.c
+  bmesh_path_region_uv.c
+  bmesh_path_uv.c
+  bmesh_region_match.c
+  task_scheduler.cc
+  bmesh_separate.c
+  threads.cc
+  bmesh_triangulate.c
+  bmesh_wireframe.c
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/io/collada/CMakeLists.txt
+  timeit.cc
+  uuid.cc
+  bmesh_mesh.cc
+  bmesh_mesh_convert.cc
+  bmesh_boolean.cc
+  AnimationClipExporter.cpp
+  AnimationExporter.cpp
+  AnimationImporter.cpp
+  ArmatureExporter.cpp
+  ArmatureImporter.cpp
+  BCAnimationCurve.cpp
+  BCAnimationSampler.cpp
+  BCMath.cpp
+  BCSampleData.cpp
+  BlenderContext.cpp
+  CameraExporter.cpp
+  bf_bmesh.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_bmesh.lib
+  ControllerExporter.cpp
+  DocumentExporter.cpp
+  DocumentImporter.cpp
+  EffectExporter.cpp
+  fileops.c
+  ErrorHandler.cpp
+  ExportSettings.cpp
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/makesdna/intern/CMakeLists.txt
+  ExtraHandler.cpp
+  ExtraTags.cpp
+  GeometryExporter.cpp
+  ImageExporter.cpp
+  BLI_assert.c
+  BLI_ghash.c
+  BLI_ghash_utils.c
+  BLI_linklist.c
+  BLI_memarena.c
+  BLI_mempool.c
+  endian_switch.c
+  hash_mm2a.c
+  listbase.c
+  ImportSettings.cpp
+  fileops.cc
+  InstanceWriter.cpp
+  LightExporter.cpp
+  MaterialExporter.cpp
+  Materials.cpp
+  bf_dna_blenlib.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_dna_blenlib.lib
+  MeshImporter.cpp
+  math_rotation.c
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/geometry/CMakeLists.txt
+  SceneExporter.cpp
+  SkinInfo.cpp
+  TransformReader.cpp
+  TransformWriter.cpp
+  math_rotation.cc
+  collada.cpp
+  collada_internal.cpp
+  collada_utils.cpp
+  geometry_attributes.cc
+  geometry_ops.cc
+  noise.c
+  noise.cc
+  bf_editor_geometry.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_geometry.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/io/CMakeLists.txt
+  io_alembic.c
+  io_cache.c
+  io_collada.c
+  io_gpencil_export.c
+  io_gpencil_import.c
+  io_gpencil_utils.c
+  io_obj.c
+  io_ops.c
+  io_usd.c
+  io_stl_ops.c
+  bf_collada.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_collada.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/lattice/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/mask/CMakeLists.txt
+  editlattice_select.c
+  editlattice_tools.c
+  editlattice_undo.c
+  lattice_ops.c
+  bf_blenlib.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_blenlib.lib
+  mask_add.c
+  mask_draw.c
+  mask_edit.c
+  mask_editaction.c
+  mask_ops.c
+  mask_query.c
+  mask_relationships.c
+  mask_select.c
+  mask_shapekey.c
+  bf_editor_io.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_io.lib
+  bf_editor_lattice.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_lattice.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/metaball/CMakeLists.txt
+  bf_editor_mask.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_mask.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/scene/CMakeLists.txt
+  editmball_undo.c
+  mball_edit.c
+  mball_ops.c
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_api/CMakeLists.txt
+  scene_edit.c
+  spacetypes.c
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_console/CMakeLists.txt
+  bf_editor_metaball.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_metaball.lib
+  bf_editor_scene.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_scene.lib
+  console_draw.c
+  console_ops.c
+  space_console.c
+  bf_editor_space_api.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_api.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_script/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_text/CMakeLists.txt
+  script_edit.c
+  script_ops.c
+  space_script.c
+  space_text.c
+  text_autocomplete.c
+  text_draw.c
+  text_format.c
+  text_format_lua.c
+  text_format_osl.c
+  text_format_pov.c
+  text_format_pov_ini.c
+  text_format_py.c
+  text_header.c
+  text_ops.c
+  text_undo.c
+  bf_editor_space_console.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_console.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_userpref/CMakeLists.txt
+  bf_editor_space_script.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_script.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/undo/CMakeLists.txt
+  space_userpref.c
+  userpref_ops.c
+  ed_undo.c
+  memfile_undo.c
+  undo_system_types.c
+  bf_editor_space_text.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_text.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/functions/CMakeLists.txt
+  cpp_types.cc
+  field.cc
+  multi_function.cc
+  multi_function_builder.cc
+  multi_function_params.cc
+  multi_function_procedure.cc
+  multi_function_procedure_builder.cc
+  multi_function_procedure_executor.cc
+  bf_editor_space_userpref.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_userpref.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/io/gpencil/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/geometry/CMakeLists.txt
+  multi_function_procedure_optimization.cc
+  gpencil_io_base.cc
+  gpencil_io_capi.cc
+  gpencil_io_import_base.cc
+  gpencil_io_import_svg.cc
+  gpencil_io_export_svg.cc
+  add_curves_on_mesh.cc
+  gpencil_io_export_pdf.cc
+  fillet_curves.cc
+  mesh_merge_by_distance.cc
+  mesh_primitive_cuboid.cc
+  mesh_to_curve_convert.cc
+  mesh_to_volume.cc
+  point_merge_by_distance.cc
+  realize_instances.cc
+  resample_curves.cc
+  reverse_uv_sampler.cc
+  bf_gpencil.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_gpencil.lib
+  set_curve_type.cc
+  subdivide_curves.cc
+  bf_editor_undo.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_undo.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/ikplugin/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/imbuf/CMakeLists.txt
+  ikplugin_api.c
+  iksolver_plugin.c
+  allocimbuf.c
+  anim_movie.c
+  bmp.c
+  cache.c
+  colormanagement.c
+  divers.c
+  filetype.c
+  filter.c
+  imageprocess.c
+  indexer.c
+  iris.c
+  jpeg.c
+  metadata.c
+  module.c
+  png.c
+  readimage.c
+  rectop.c
+  rotate.c
+  scaling.c
+  stereoimbuf.c
+  targa.c
+  thumbs.c
+  thumbs_blend.c
+  thumbs_font.c
+  util.c
+  util_gpu.c
+  writeimage.c
+  bf_functions.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_functions.lib
+  tiff.c
+  jp2.c
+  radiance_hdr.c
+  webp.c
+  itasc_plugin.cpp
+  moviecache.cc
+  transform.cc
+  bf_imbuf.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_imbuf.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/imbuf/intern/cineon/CMakeLists.txt
+  cineon_dpx.c
+  cineonlib.c
+  dpxlib.c
+  logImageCore.c
+  logmemfile.c
+  bf_imbuf_cineon.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_imbuf_cineon.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/imbuf/intern/dds/CMakeLists.txt
+  BlockDXT.cpp
+  ColorBlock.cpp
+  DirectDrawSurface.cpp
+  FlipDXT.cpp
+  Image.cpp
+  Stream.cpp
+  dds_api.cpp
+  bf_ikplugin.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_ikplugin.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/imbuf/intern/openexr/CMakeLists.txt
+  openexr_api.cpp
+  bf_imbuf_dds.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_imbuf_dds.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/imbuf/intern/oiio/CMakeLists.txt
+  openimageio_api.cpp
+  bf_imbuf_openexr.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_imbuf_openexr.lib
+  Building Custom Rule C:/blender-git/goo-engine/intern/audaspace/CMakeLists.txt
+  AUD_Set.cpp
+  AUD_PyInit.cpp
+  bf_intern_audaspace.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_audaspace.lib
+  Building Custom Rule C:/blender-git/goo-engine/intern/clog/CMakeLists.txt
+  clog.c
+  bf_imbuf_openimageio.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_imbuf_openimageio.lib
+  Building Custom Rule C:/blender-git/goo-engine/intern/eigen/CMakeLists.txt
+  eigenvalues.cc
+  linear_solver.cc
+  matrix.cc
+  svd.cc
+  bf_intern_clog.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_clog.lib
+  Building Custom Rule C:/blender-git/goo-engine/intern/ghost/CMakeLists.txt
+  GHOST_Buttons.cpp
+  GHOST_C-api.cpp
+  GHOST_CallbackEventConsumer.cpp
+  GHOST_Context.cpp
+  GHOST_ContextNone.cpp
+  GHOST_DisplayManager.cpp
+  GHOST_EventManager.cpp
+  GHOST_ISystem.cpp
+  GHOST_ISystemPaths.cpp
+  GHOST_ModifierKeys.cpp
+  GHOST_Path-api.cpp
+  GHOST_Rect.cpp
+  GHOST_System.cpp
+  GHOST_TimerManager.cpp
+  GHOST_Window.cpp
+  GHOST_WindowManager.cpp
+  GHOST_NDOFManager.cpp
+  GHOST_ContextD3D.cpp
+  GHOST_DisplayManagerWin32.cpp
+  GHOST_DropTargetWin32.cpp
+  GHOST_SystemWin32.cpp
+  GHOST_TrackpadWin32.cpp
+  GHOST_WindowWin32.cpp
+  GHOST_Wintab.cpp
+  GHOST_ContextWGL.cpp
+  GHOST_ImeWin32.cpp
+  GHOST_NDOFManagerWin32.cpp
+  GHOST_SystemPathsWin32.cpp
+  GHOST_Xr.cpp
+  GHOST_XrAction.cpp
+  GHOST_XrContext.cpp
+  GHOST_XrControllerModel.cpp
+  GHOST_XrEvent.cpp
+  GHOST_XrGraphicsBinding.cpp
+  GHOST_XrSession.cpp
+  GHOST_XrSwapchain.cpp
+  bf_intern_eigen.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_eigen.lib
+  Building Custom Rule C:/blender-git/goo-engine/intern/glew-mx/CMakeLists.txt
+  glew-mx.c
+  bf_intern_glew_mx.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_glew_mx.lib
+  Building Custom Rule C:/blender-git/goo-engine/intern/guardedalloc/CMakeLists.txt
+  leak_detector.cc
+  mallocn.c
+  mallocn_guarded_impl.c
+  mallocn_lockfree_impl.c
+  bf_intern_guardedalloc.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_guardedalloc.lib
+  Building Custom Rule C:/blender-git/goo-engine/intern/iksolver/CMakeLists.txt
+  IK_QJacobian.cpp
+  IK_QJacobianSolver.cpp
+  IK_QSegment.cpp
+  IK_QTask.cpp
+  IK_Solver.cpp
+  uv_parametrizer.c
+  bf_intern_ghost.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_ghost.lib
+  Building Custom Rule C:/blender-git/goo-engine/intern/itasc/CMakeLists.txt
+  Armature.cpp
+  Cache.cpp
+  ConstraintSet.cpp
+  ControlledObject.cpp
+  CopyPose.cpp
+  Distance.cpp
+  FixedObject.cpp
+  MovingFrame.cpp
+  bf_geometry.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_geometry.lib
+  Scene.cpp
+  Building Custom Rule C:/blender-git/goo-engine/intern/libmv/CMakeLists.txt
+  UncontrolledObject.cpp
+  WDLSSolver.cpp
+  WSDLSSolver.cpp
+  WorldObject.cpp
+  autotrack.cc
+  eigen_types.cpp
+  chain.cpp
+  chainfksolverpos_recursive.cpp
+  chainjnttojacsolver.cpp
+  frameacc.cpp
+  frames.cpp
+  frames_io.cpp
+  framevel.cpp
+  inertia.cpp
+  jacobian.cpp
+  jntarray.cpp
+  jntarrayacc.cpp
+  camera_intrinsics.cc
+  jntarrayvel.cpp
+  joint.cpp
+  kinfam_io.cpp
+  segment.cpp
+  tree.cpp
+  treefksolverpos_recursive.cpp
+  treejnttojacsolver.cpp
+  error_stack.cpp
+  bf_intern_iksolver.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_iksolver.lib
+  utility.cpp
+  utility_io.cpp
+  Building Custom Rule C:/blender-git/goo-engine/intern/locale/CMakeLists.txt
+  boost_locale_wrapper.cpp
+  detector.cc
+  frame_accessor.cc
+  image.cc
+  logging.cc
+  tracksN.cc
+  predict_tracks.cc
+  aligned_malloc.cc
+  array_nd.cc
+  convolve.cc
+  conditioning.cc
+  euclidean_resection.cc
+  fundamental.cc
+  panography.cc
+  panography_kernel.cc
+  bf_intern_locale.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_locale.lib
+  projection.cc
+  Building Custom Rule C:/blender-git/goo-engine/intern/mantaflow/CMakeLists.txt
+  triangulation.cc
+  manta_python_API.cpp
+  manta_fluid_API.cpp
+  MANTA_main.cpp
+  numeric.cc
+  poly.cc
+  bundle.cc
+  bf_intern_itasc.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_itasc.lib
+  Building Custom Rule C:/blender-git/goo-engine/intern/memutil/CMakeLists.txt
+  detect.cc
+  distortion_models.cc
+  initialize_reconstruction.cc
+  intersect.cc
+  MEM_CacheLimiterC-Api.cpp
+  MEM_RefCountedC-Api.cpp
+  keyframe_selection.cc
+  bf_intern_mantaflow.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_mantaflow.lib
+  bf_intern_memutil.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_memutil.lib
+  modal_solver.cc
+  Building Custom Rule C:/blender-git/goo-engine/intern/opencolorio/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/intern/mikktspace/CMakeLists.txt
+  packed_intrinsics.cc
+  pipeline.cc
+  reconstruction_scale.cc
+  ocio_capi.cc
+  mikktspace.c
+  fallback_impl.cc
+  ocio_impl.cc
+  ocio_impl_glsl.cc
+  resect.cc
+  brute_region_tracker.cc
+  hybrid_region_tracker.cc
+  bf_intern_mikktspace.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_mikktspace.lib
+  klt_region_tracker.cc
+  Building Custom Rule C:/blender-git/goo-engine/intern/openvdb/CMakeLists.txt
+  bf_intern_opencolorio.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_opencolorio.lib
+  pyramid_region_tracker.cc
+  retrack_region_tracker.cc
+  Building Custom Rule C:/blender-git/goo-engine/intern/quadriflow/CMakeLists.txt
+  trklt_region_tracker.cc
+  openvdb_capi.cc
+  quadriflow_capi.cpp
+  bf_intern_openvdb.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_openvdb.lib
+  Building Custom Rule C:/blender-git/goo-engine/intern/rigidbody/CMakeLists.txt
+  bf_intern_quadriflow.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_quadriflow.lib
+  rb_bullet_api.cpp
+  Building Custom Rule C:/blender-git/goo-engine/intern/sky/CMakeLists.txt
+  rb_convex_hull_api.cpp
+  sky_model.cpp
+  sky_nishita.cpp
+  bf_intern_rigidbody.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_rigidbody.lib
+  bf_intern_sky.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_sky.lib
+  Building Custom Rule C:/blender-git/goo-engine/intern/utfconv/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/io/common/CMakeLists.txt
+  utfconv.c
+  utf_winfunc.c
+  abstract_hierarchy_iterator.cc
+  dupli_parent_finder.cc
+  dupli_persistent_id.cc
+  object_identifier.cc
+  path_util.cc
+  bf_intern_utfconv.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_utfconv.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/nodes/function/CMakeLists.txt
+  orientation.c
+  bf_io_common.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_io_common.lib
+  unity_1_cxx.cxx
+  unity_0_cxx.cxx
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/python/bmesh/CMakeLists.txt
+  bmesh_py_api.c
+  bmesh_py_geometry.c
+  bmesh_py_ops.c
+  bmesh_py_ops_call.c
+  bmesh_py_types.c
+  bmesh_py_types_customdata.c
+  bmesh_py_types_meshdata.c
+  bmesh_py_types_select.c
+  bmesh_py_utils.c
+  bf_python_bmesh.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_python_bmesh.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/python/generic/CMakeLists.txt
+  bgl.c
+  bl_math_py_api.c
+  blf_py_api.c
+  bpy_threads.c
+  idprop_py_api.c
+  idprop_py_ui_api.c
+  imbuf_py_api.c
+  py_capi_rna.c
+  py_capi_utils.c
+  bf_python_ext.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_python_ext.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/python/gpu/CMakeLists.txt
+  gpu_py.c
+  gpu_py_api.c
+  gpu_py_batch.c
+  gpu_py_buffer.c
+  gpu_py_capabilities.c
+  gpu_py_element.c
+  gpu_py_framebuffer.c
+  gpu_py_matrix.c
+  gpu_py_offscreen.c
+  gpu_py_platform.c
+  gpu_py_select.c
+  gpu_py_shader.c
+  gpu_py_state.c
+  gpu_py_texture.c
+  gpu_py_types.c
+  gpu_py_uniformbuffer.c
+  gpu_py_vertex_buffer.c
+  gpu_py_vertex_format.c
+  gpu_py_shader_create_info.cc
+  bf_python_gpu.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_python_gpu.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/python/mathutils/CMakeLists.txt
+  mathutils.c
+  mathutils_Color.c
+  mathutils_Euler.c
+  mathutils_Matrix.c
+  mathutils_Quaternion.c
+  mathutils_Vector.c
+  mathutils_bvhtree.c
+  mathutils_geometry.c
+  mathutils_interpolate.c
+  mathutils_kdtree.c
+  mathutils_noise.c
+  bf_python_mathutils.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_python_mathutils.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/render/CMakeLists.txt
+  bake.c
+  engine.c
+  initrender.c
+  multires_bake.c
+  pipeline.c
+  render_result.c
+  texture_image.c
+  texture_pointdensity.c
+  texture_procedural.c
+  zbuf.c
+  texture_margin.cc
+  bf_render.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_render.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/simulation/CMakeLists.txt
+  SIM_mass_spring.cpp
+  hair_volume.cpp
+  implicit_eigen.cpp
+  implicit_blender.c
+  bf_simulation.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_simulation.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/io/stl/CMakeLists.txt
+  IO_stl.cc
+  stl_import_mesh.cc
+  stl_import_ascii_reader.cc
+  stl_import_binary_reader.cc
+  stl_import.cc
+  bf_stl.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_stl.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/io/usd/CMakeLists.txt
+  usd_capi_export.cc
+  usd_capi_import.cc
+  usd_common.cc
+  usd_hierarchy_iterator.cc
+  usd_writer_abstract.cc
+  usd_writer_camera.cc
+  usd_writer_hair.cc
+  usd_writer_light.cc
+  usd_writer_material.cc
+  usd_writer_mesh.cc
+  usd_writer_metaball.cc
+  usd_writer_transform.cc
+  usd_writer_volume.cc
+  usd_reader_camera.cc
+  usd_reader_curve.cc
+  usd_reader_geom.cc
+  bf_nodes_function.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_nodes_function.lib
+  usd_reader_light.cc
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/io/wavefront_obj/CMakeLists.txt
+  IO_wavefront_obj.cc
+  obj_export_file_writer.cc
+  obj_export_mesh.cc
+  obj_export_mtl.cc
+  obj_export_nurbs.cc
+  obj_exporter.cc
+  importer_mesh_utils.cc
+  obj_import_file_reader.cc
+  obj_import_mesh.cc
+  obj_import_mtl.cc
+  obj_import_nurbs.cc
+  usd_reader_material.cc
+  obj_import_string_utils.cc
+  usd_reader_mesh.cc
+  homography.cc
+  obj_importer.cc
+  usd_reader_nurbs.cc
+  usd_reader_prim.cc
+  usd_reader_stage.cc
+  usd_reader_volume.cc
+  usd_reader_xform.cc
+  bf_wavefront_obj.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_wavefront_obj.lib
+  reconstruction.cc
+  Building Custom Rule C:/blender-git/goo-engine/source/creator/CMakeLists.txt
+  blender_launcher_win32.c
+  blender-launcher.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\bin\Release\blender-launcher.exe
+  Generating buildinfo.h_fake, buildinfo.h
+  track_region.cc
+  Building Custom Rule C:/blender-git/goo-engine/source/creator/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/source/creator/CMakeLists.txt
+  buildinfo.c
+  buildinfoobj.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\source\creator\buildinfoobj.dir\Release\buildinfoobj.lib
+  Generating node_absorption_volume.oso
+  Generating node_add_closure.oso
+  Generating node_ambient_occlusion.oso
+  Generating node_anisotropic_bsdf.oso
+  Generating node_attribute.oso
+  Generating node_background.oso
+  Generating node_bevel.oso
+  Generating node_blackbody.oso
+  Generating node_brick_texture.oso
+  Generating node_brightness.oso
+  Generating node_bump.oso
+  Generating node_camera.oso
+  Generating node_checker_texture.oso
+  Generating node_clamp.oso
+  Generating node_combine_color.oso
+  Generating node_combine_hsv.oso
+  Generating node_combine_rgb.oso
+  bf_usd.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_usd.lib
+  Generating node_combine_xyz.oso
+  Generating node_convert_from_color.oso
+  Generating node_convert_from_float.oso
+  Generating node_convert_from_int.oso
+  Generating node_convert_from_normal.oso
+  tracks.cc
+  Generating node_convert_from_point.oso
+  Building Custom Rule C:/blender-git/goo-engine/intern/cycles/subd/CMakeLists.txt
+  Generating node_convert_from_vector.oso
+  Generating node_diffuse_bsdf.oso
+  Generating node_displacement.oso
+  dice.cpp
+  patch.cpp
+  split.cpp
+  patch_table.cpp
+  Generating node_emission.oso
+  Generating node_environment_texture.oso
+  Generating node_float_curve.oso
+  Generating node_fresnel.oso
+  Generating node_gamma.oso
+  Generating node_geometry.oso
+  Generating node_glass_bsdf.oso
+  Generating node_glossy_bsdf.oso
+  Generating node_gradient_texture.oso
+  Generating node_hair_bsdf.oso
+  Generating node_hair_info.oso
+  Generating node_holdout.oso
+  Generating node_hsv.oso
+  Generating node_ies_light.oso
+  Generating node_image_texture.oso
+  Generating node_invert.oso
+  Generating node_layer_weight.oso
+  Generating node_light_falloff.oso
+  Generating node_light_path.oso
+  Generating node_magic_texture.oso
+  Generating node_map_range.oso
+  Generating node_mapping.oso
+  Generating node_math.oso
+  Generating node_mix.oso
+  Generating node_mix_closure.oso
+  Generating node_musgrave_texture.oso
+  Generating node_noise_texture.oso
+  Generating node_normal.oso
+  Generating node_normal_map.oso
+  Generating node_object_info.oso
+  Generating node_output_displacement.oso
+  Generating node_output_surface.oso
+  Generating node_output_volume.oso
+  Generating node_particle_info.oso
+  Generating node_point_info.oso
+  Generating node_principled_bsdf.oso
+  Generating node_principled_hair_bsdf.oso
+  Generating node_principled_volume.oso
+  Generating node_refraction_bsdf.oso
+  Generating node_rgb_curves.oso
+  Generating node_rgb_ramp.oso
+  Generating node_rgb_to_bw.oso
+  Generating node_scatter_volume.oso
+  autotrack.cc
+  Generating node_separate_color.oso
+  Generating node_separate_hsv.oso
+  Generating node_separate_rgb.oso
+  Generating node_separate_xyz.oso
+  Generating node_set_normal.oso
+  Generating node_sky_texture.oso
+  Generating node_subsurface_scattering.oso
+  Generating node_tangent.oso
+  Generating node_texture_coordinate.oso
+  Generating node_toon_bsdf.oso
+  Generating node_translucent_bsdf.oso
+  Generating node_transparent_bsdf.oso
+  Generating node_uv_map.oso
+  Generating node_value.oso
+  Generating node_vector_curves.oso
+  Generating node_vector_displacement.oso
+  Generating node_vector_map_range.oso
+  Generating node_vector_math.oso
+  Generating node_vector_rotate.oso
+  Generating node_vector_transform.oso
+  Generating node_velvet_bsdf.oso
+  Generating node_vertex_color.oso
+  Generating node_voronoi_texture.oso
+  Generating node_voxel_texture.oso
+  Generating node_wave_texture.oso
+  Generating node_wavelength.oso
+  Generating node_white_noise_texture.oso
+  Generating node_wireframe.oso
+  Building Custom Rule C:/blender-git/goo-engine/intern/cycles/kernel/osl/shaders/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/intern/cycles/util/CMakeLists.txt
+  cycles_subd.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\cycles_subd.lib
+  aligned_malloc.cpp
+  debug.cpp
+  ies.cpp
+  log.cpp
+  math_cdf.cpp
+  md5.cpp
+  murmurhash.cpp
+  path.cpp
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/datatoc/CMakeLists.txt
+  profiling.cpp
+  string.cpp
+  simd.cpp
+  system.cpp
+  datatoc.c
+  task.cpp
+  thread.cpp
+  time.cpp
+  transform.cpp
+  tracks.cc
+  windows.cpp
+  guarded_allocator.cpp
+  datatoc.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\bin\Release\datatoc.exe
+  Generating gpu_shader_display_transform_vert.glsl.c
+  Generating gpu_shader_display_transform_frag.glsl.c
+  Generating ocio_shader_shared.hh.c
+  Building Custom Rule C:/blender-git/goo-engine/intern/opencolorio/CMakeLists.txt
+  gpu_shader_display_transform_vert.glsl.c
+  gpu_shader_display_transform_frag.glsl.c
+  ocio_shader_shared.hh.c
+  bf_ocio_shaders.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_ocio_shaders.lib
+  Generating internal/evaluator/shaders/glsl_compute_kernel.glsl.c
+  Building Custom Rule C:/blender-git/goo-engine/intern/opensubdiv/CMakeLists.txt
+  transform_avx2.cpp
+  opensubdiv_capi.cc
+  type_convert.cc
+  util.cc
+  eval_output.cc
+  eval_output_cpu.cc
+  eval_output_gpu.cc
+  evaluator_cache_impl.cc
+  evaluator_capi.cc
+  evaluator_impl.cc
+  gl_compute_evaluator.cc
+  patch_map.cc
+  mesh_topology.cc
+  mesh_topology_compare.cc
+  homography.cc
+  transform_sse41.cpp
+  topology_refiner_capi.cc
+  topology_refiner_factory.cc
+  topology_refiner_impl.cc
+  topology_refiner_impl_compare.cc
+  cycles_util.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\cycles_util.lib
+  Building Custom Rule C:/blender-git/goo-engine/intern/cycles/graph/CMakeLists.txt
+  Generating GPU_shader_shared.h.c
+  Generating shaders/opengl/glsl_shader_defines.glsl.c
+  node.cpp
+  node_type.cpp
+  node_xml.cpp
+  Generating shaders/gpu_shader_depth_only_frag.glsl.c
+  Generating shaders/gpu_shader_uniform_color_frag.glsl.c
+  Generating shaders/gpu_shader_checker_frag.glsl.c
+  Generating shaders/gpu_shader_diag_stripes_frag.glsl.c
+  Generating shaders/gpu_shader_simple_lighting_frag.glsl.c
+  Generating shaders/gpu_shader_flat_color_frag.glsl.c
+  Generating shaders/gpu_shader_flat_color_alpha_test_0_frag.glsl.c
+  Generating shaders/gpu_shader_flat_id_frag.glsl.c
+  Generating shaders/gpu_shader_2D_vert.glsl.c
+  Generating shaders/gpu_shader_2D_area_borders_vert.glsl.c
+  Generating shaders/gpu_shader_2D_area_borders_frag.glsl.c
+  Generating shaders/gpu_shader_2D_widget_base_vert.glsl.c
+  Generating shaders/gpu_shader_2D_widget_base_frag.glsl.c
+  Generating shaders/gpu_shader_2D_widget_shadow_vert.glsl.c
+  Generating shaders/gpu_shader_2D_widget_shadow_frag.glsl.c
+  Generating shaders/gpu_shader_2D_nodelink_frag.glsl.c
+  Generating shaders/gpu_shader_2D_nodelink_vert.glsl.c
+  Generating shaders/gpu_shader_2D_flat_color_vert.glsl.c
+  Generating shaders/gpu_shader_2D_line_dashed_uniform_color_vert.glsl.c
+  Generating shaders/gpu_shader_2D_line_dashed_frag.glsl.c
+  Generating shaders/gpu_shader_2D_smooth_color_vert.glsl.c
+  Generating shaders/gpu_shader_2D_smooth_color_frag.glsl.c
+  Generating shaders/gpu_shader_2D_image_vert.glsl.c
+  Generating shaders/gpu_shader_2D_image_rect_vert.glsl.c
+  Generating shaders/gpu_shader_2D_image_multi_rect_vert.glsl.c
+  Generating shaders/gpu_shader_image_frag.glsl.c
+  Generating shaders/gpu_shader_image_desaturate_frag.glsl.c
+  Generating shaders/gpu_shader_image_overlays_merge_frag.glsl.c
+  Generating shaders/gpu_shader_image_overlays_stereo_merge_frag.glsl.c
+  Generating shaders/gpu_shader_image_modulate_alpha_frag.glsl.c
+  Generating shaders/gpu_shader_image_shuffle_color_frag.glsl.c
+  Generating shaders/gpu_shader_image_color_frag.glsl.c
+  Generating shaders/gpu_shader_image_varying_color_frag.glsl.c
+  Generating shaders/gpu_shader_3D_image_vert.glsl.c
+  Generating shaders/gpu_shader_3D_vert.glsl.c
+  Generating shaders/gpu_shader_3D_normal_vert.glsl.c
+  Generating shaders/gpu_shader_3D_flat_color_vert.glsl.c
+  Generating shaders/gpu_shader_3D_line_dashed_uniform_color_vert.glsl.c
+  Generating shaders/gpu_shader_3D_polyline_frag.glsl.c
+  Generating shaders/gpu_shader_3D_polyline_geom.glsl.c
+  Generating shaders/gpu_shader_3D_polyline_vert.glsl.c
+  Generating shaders/gpu_shader_3D_smooth_color_vert.glsl.c
+  Generating shaders/gpu_shader_3D_smooth_color_frag.glsl.c
+  Generating shaders/gpu_shader_3D_passthrough_vert.glsl.c
+  Generating shaders/gpu_shader_3D_clipped_uniform_color_vert.glsl.c
+  Generating shaders/gpu_shader_instance_variying_size_variying_color_vert.glsl.c
+  Generating shaders/gpu_shader_point_uniform_color_aa_frag.glsl.c
+  Generating shaders/gpu_shader_point_uniform_color_outline_aa_frag.glsl.c
+  Generating shaders/gpu_shader_point_varying_color_varying_outline_aa_frag.glsl.c
+  Generating shaders/gpu_shader_point_varying_color_frag.glsl.c
+  Generating shaders/gpu_shader_3D_point_fixed_size_varying_color_vert.glsl.c
+  Generating shaders/gpu_shader_3D_point_varying_size_varying_color_vert.glsl.c
+  Generating shaders/gpu_shader_3D_point_uniform_size_aa_vert.glsl.c
+  Generating shaders/gpu_shader_2D_point_varying_size_varying_color_vert.glsl.c
+  Generating shaders/gpu_shader_2D_point_uniform_size_aa_vert.glsl.c
+  Generating shaders/gpu_shader_2D_point_uniform_size_outline_aa_vert.glsl.c
+  Generating shaders/gpu_shader_text_vert.glsl.c
+  Generating shaders/gpu_shader_text_frag.glsl.c
+  Generating shaders/gpu_shader_keyframe_shape_vert.glsl.c
+  Generating shaders/gpu_shader_keyframe_shape_frag.glsl.c
+  Generating shaders/gpu_shader_codegen_lib.glsl.c
+  Generating shaders/common/gpu_shader_common_color_ramp.glsl.c
+  Generating shaders/common/gpu_shader_common_color_utils.glsl.c
+  Generating shaders/common/gpu_shader_common_curves.glsl.c
+  Generating shaders/common/gpu_shader_common_hash.glsl.c
+  Generating shaders/common/gpu_shader_common_math.glsl.c
+  Generating shaders/common/gpu_shader_common_math_utils.glsl.c
+  Generating shaders/common/gpu_shader_common_mix_rgb.glsl.c
+  Generating shaders/material/gpu_shader_material_add_shader.glsl.c
+  Generating shaders/material/gpu_shader_material_ambient_occlusion.glsl.c
+  Generating shaders/material/gpu_shader_material_anisotropic.glsl.c
+  Generating shaders/material/gpu_shader_material_attribute.glsl.c
+  Generating shaders/material/gpu_shader_material_background.glsl.c
+  Generating shaders/material/gpu_shader_material_bevel.glsl.c
+  Generating shaders/material/gpu_shader_material_wavelength.glsl.c
+  Generating shaders/material/gpu_shader_material_blackbody.glsl.c
+  Generating shaders/material/gpu_shader_material_bright_contrast.glsl.c
+  Generating shaders/material/gpu_shader_material_bump.glsl.c
+  Generating shaders/material/gpu_shader_material_camera.glsl.c
+  Generating shaders/material/gpu_shader_material_clamp.glsl.c
+  Generating shaders/material/gpu_shader_material_combine_color.glsl.c
+  Generating shaders/material/gpu_shader_material_combine_hsv.glsl.c
+  Generating shaders/material/gpu_shader_material_combine_rgb.glsl.c
+  Generating shaders/material/gpu_shader_material_combine_xyz.glsl.c
+  Generating shaders/material/gpu_shader_material_diffuse.glsl.c
+  Generating shaders/material/gpu_shader_material_displacement.glsl.c
+  cycles_graph.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\cycles_graph.lib
+  Generating shaders/material/gpu_shader_material_eevee_specular.glsl.c
+  Generating shaders/material/gpu_shader_material_emission.glsl.c
+  Generating shaders/material/gpu_shader_material_fractal_noise.glsl.c
+  Generating shaders/material/gpu_shader_material_fresnel.glsl.c
+  Generating shaders/material/gpu_shader_material_gamma.glsl.c
+  Generating shaders/material/gpu_shader_material_geometry.glsl.c
+  Generating shaders/material/gpu_shader_material_glass.glsl.c
+  Generating shaders/material/gpu_shader_material_glossy.glsl.c
+  Generating shaders/material/gpu_shader_material_hair_info.glsl.c
+  Generating shaders/material/gpu_shader_material_hair.glsl.c
+  Generating engines/eevee/shaders/ambient_occlusion_lib.glsl.c
+  Generating shaders/material/gpu_shader_material_holdout.glsl.c
+  Generating shaders/material/gpu_shader_material_hue_sat_val.glsl.c
+  Generating engines/eevee/shaders/background_vert.glsl.c
+  Generating shaders/material/gpu_shader_material_invert.glsl.c
+  Generating engines/eevee/shaders/common_uniforms_lib.glsl.c
+  Generating shaders/material/gpu_shader_material_layer_weight.glsl.c
+  Generating engines/eevee/shaders/common_utiltex_lib.glsl.c
+  Generating shaders/material/gpu_shader_material_light_falloff.glsl.c
+  Generating engines/eevee/shaders/lights_lib.glsl.c
+  Generating shaders/material/gpu_shader_material_light_path.glsl.c
+  Generating engines/eevee/shaders/lightprobe_lib.glsl.c
+  Generating shaders/material/gpu_shader_material_mapping.glsl.c
+  Generating engines/eevee/shaders/lightprobe_filter_glossy_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_map_range.glsl.c
+  Generating engines/eevee/shaders/lightprobe_filter_diffuse_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_mix_shader.glsl.c
+  Generating shaders/material/gpu_shader_material_noise.glsl.c
+  Generating engines/eevee/shaders/lightprobe_filter_visibility_frag.glsl.c
+  Generating engines/eevee/shaders/lightprobe_geom.glsl.c
+  Generating shaders/material/gpu_shader_material_normal.glsl.c
+  Generating shaders/material/gpu_shader_material_normal_map.glsl.c
+  Generating engines/eevee/shaders/lightprobe_vert.glsl.c
+  Generating engines/eevee/shaders/lightprobe_cube_display_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_object_info.glsl.c
+  Generating engines/eevee/shaders/lightprobe_cube_display_vert.glsl.c
+  Generating shaders/material/gpu_shader_material_output_aov.glsl.c
+  Generating shaders/material/gpu_shader_material_output_material.glsl.c
+  Generating engines/eevee/shaders/lightprobe_grid_display_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_output_world.glsl.c
+  Generating engines/eevee/shaders/lightprobe_grid_display_vert.glsl.c
+  Generating shaders/material/gpu_shader_material_particle_info.glsl.c
+  Generating engines/eevee/shaders/lightprobe_grid_fill_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_point_info.glsl.c
+  Generating engines/eevee/shaders/lightprobe_planar_display_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_principled.glsl.c
+  Generating engines/eevee/shaders/lightprobe_planar_display_vert.glsl.c
+  Generating engines/eevee/shaders/lookdev_world_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_refraction.glsl.c
+  Generating shaders/material/gpu_shader_material_rgb_to_bw.glsl.c
+  Generating engines/eevee/shaders/closure_eval_lib.glsl.c
+  Generating shaders/material/gpu_shader_material_separate_color.glsl.c
+  Generating engines/eevee/shaders/closure_eval_diffuse_lib.glsl.c
+  Generating shaders/material/gpu_shader_material_separate_hsv.glsl.c
+  Generating engines/eevee/shaders/closure_eval_glossy_lib.glsl.c
+  Generating shaders/material/gpu_shader_material_separate_rgb.glsl.c
+  Generating engines/eevee/shaders/closure_eval_surface_lib.glsl.c
+  Generating shaders/material/gpu_shader_material_separate_xyz.glsl.c
+  Generating engines/eevee/shaders/closure_eval_refraction_lib.glsl.c
+  Generating shaders/material/gpu_shader_material_set.glsl.c
+  Generating engines/eevee/shaders/closure_eval_volume_lib.glsl.c
+  Generating shaders/material/gpu_shader_material_shader_to_rgba.glsl.c
+  Generating engines/eevee/shaders/closure_eval_translucent_lib.glsl.c
+  Generating shaders/material/gpu_shader_material_squeeze.glsl.c
+  Generating engines/eevee/shaders/closure_type_lib.glsl.c
+  Generating shaders/material/gpu_shader_material_subsurface_scattering.glsl.c
+  Generating engines/eevee/shaders/eevee_empty.glsl.c
+  Generating shaders/material/gpu_shader_material_tangent.glsl.c
+  Generating engines/eevee/shaders/eevee_empty_volume.glsl.c
+  Generating shaders/material/gpu_shader_material_tex_brick.glsl.c
+  Generating engines/eevee/shaders/effect_bloom_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_tex_checker.glsl.c
+  Generating shaders/material/gpu_shader_material_tex_environment.glsl.c
+  Generating engines/eevee/shaders/effect_dof_bokeh_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_tex_gradient.glsl.c
+  Generating engines/eevee/shaders/effect_dof_dilate_tiles_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_tex_image.glsl.c
+  Generating engines/eevee/shaders/effect_dof_downsample_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_tex_magic.glsl.c
+  Generating engines/eevee/shaders/effect_dof_filter_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_tex_musgrave.glsl.c
+  Generating engines/eevee/shaders/effect_dof_flatten_tiles_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_tex_noise.glsl.c
+  Generating engines/eevee/shaders/effect_dof_gather_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_tex_sky.glsl.c
+  Generating engines/eevee/shaders/effect_dof_lib.glsl.c
+  Generating shaders/material/gpu_shader_material_texture_coordinates.glsl.c
+  Generating engines/eevee/shaders/effect_dof_reduce_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_tex_voronoi.glsl.c
+  Generating engines/eevee/shaders/effect_dof_resolve_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_tex_wave.glsl.c
+  Generating engines/eevee/shaders/effect_dof_scatter_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_tex_white_noise.glsl.c
+  Generating engines/eevee/shaders/effect_dof_scatter_vert.glsl.c
+  Generating shaders/material/gpu_shader_material_toon.glsl.c
+  Generating shaders/material/gpu_shader_material_transform_utils.glsl.c
+  Generating engines/eevee/shaders/effect_dof_setup_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_translucent.glsl.c
+  Generating engines/eevee/shaders/effect_reflection_lib.glsl.c
+  Generating shaders/material/gpu_shader_material_transparent.glsl.c
+  Generating engines/eevee/shaders/effect_reflection_resolve_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_uv_map.glsl.c
+  Generating engines/eevee/shaders/effect_reflection_trace_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_vector_displacement.glsl.c
+  Generating engines/eevee/shaders/effect_downsample_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_vector_math.glsl.c
+  Generating engines/eevee/shaders/effect_downsample_cube_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_vector_rotate.glsl.c
+  Generating engines/eevee/shaders/effect_gtao_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_velvet.glsl.c
+  Generating engines/eevee/shaders/effect_velocity_resolve_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_vertex_color.glsl.c
+  Generating engines/eevee/shaders/effect_velocity_tile_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_volume_absorption.glsl.c
+  Generating engines/eevee/shaders/effect_minmaxz_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_volume_principled.glsl.c
+  Generating engines/eevee/shaders/effect_mist_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_volume_scatter.glsl.c
+  Generating engines/eevee/shaders/effect_motion_blur_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_wireframe.glsl.c
+  Generating engines/eevee/shaders/effect_subsurface_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_world_normals.glsl.c
+  Generating engines/eevee/shaders/effect_translucency_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_screenspace_info.glsl.c
+  Generating engines/eevee/shaders/effect_temporal_aa.glsl.c
+  Generating shaders/material/gpu_shader_material_curvature.glsl.c
+  Generating engines/eevee/shaders/lightprobe_planar_downsample_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_shader_info.glsl.c
+  Generating engines/eevee/shaders/lightprobe_planar_downsample_geom.glsl.c
+  Generating shaders/material/gpu_shader_material_set_depth.glsl.c
+  Generating engines/eevee/shaders/lightprobe_planar_downsample_vert.glsl.c
+  Generating shaders/material/gpu_shader_material_sdf_primitive.glsl.c
+  Generating engines/eevee/shaders/object_motion_frag.glsl.c
+  Generating engines/eevee/shaders/object_motion_vert.glsl.c
+  Generating shaders/material/gpu_shader_material_sdf_op.glsl.c
+  Generating engines/eevee/shaders/prepass_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_sdf_vector_op.glsl.c
+  Generating engines/eevee/shaders/shadow_accum_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_sdf_noise.glsl.c
+  Generating engines/eevee/shaders/shadow_frag.glsl.c
+  Generating shaders/material/gpu_shader_material_sdf_util.glsl.c
+  Generating engines/eevee/shaders/shadow_vert.glsl.c
+  Generating shaders/gpu_shader_gpencil_stroke_vert.glsl.c
+  Generating engines/eevee/shaders/bsdf_lut_frag.glsl.c
+  Generating shaders/gpu_shader_gpencil_stroke_frag.glsl.c
+  Generating engines/eevee/shaders/btdf_lut_frag.glsl.c
+  Generating shaders/gpu_shader_gpencil_stroke_geom.glsl.c
+  Generating engines/eevee/shaders/bsdf_common_lib.glsl.c
+  Generating shaders/gpu_shader_cfg_world_clip_lib.glsl.c
+  Generating engines/eevee/shaders/irradiance_lib.glsl.c
+  Generating shaders/gpu_shader_colorspace_lib.glsl.c
+  Generating engines/eevee/shaders/octahedron_lib.glsl.c
+  Generating GPU_shader_shared_utils.h.c
+  Generating engines/eevee/shaders/cubemap_lib.glsl.c
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/gpu/CMakeLists.txt
+  Generating engines/eevee/shaders/bsdf_sampling_lib.glsl.c
+  Generating engines/eevee/shaders/random_lib.glsl.c
+  Generating engines/eevee/shaders/raytrace_lib.glsl.c
+  Generating engines/eevee/shaders/renderpass_lib.glsl.c
+  Generating engines/eevee/shaders/renderpass_postprocess_frag.glsl.c
+  Generating engines/eevee/shaders/cryptomatte_lib.glsl.c
+  Generating engines/eevee/shaders/cryptomatte_frag.glsl.c
+  Generating engines/eevee/shaders/cryptomatte_vert.glsl.c
+  GPU_shader_shared.h.c
+  glsl_shader_defines.glsl.c
+  gpu_shader_depth_only_frag.glsl.c
+  gpu_shader_uniform_color_frag.glsl.c
+  gpu_shader_checker_frag.glsl.c
+  gpu_shader_diag_stripes_frag.glsl.c
+  gpu_shader_simple_lighting_frag.glsl.c
+  gpu_shader_flat_color_frag.glsl.c
+  Generating engines/eevee/shaders/ltc_lib.glsl.c
+  gpu_shader_flat_color_alpha_test_0_frag.glsl.c
+  gpu_shader_flat_id_frag.glsl.c
+  gpu_shader_2D_vert.glsl.c
+  gpu_shader_2D_area_borders_vert.glsl.c
+  gpu_shader_2D_area_borders_frag.glsl.c
+  gpu_shader_2D_widget_base_vert.glsl.c
+  gpu_shader_2D_widget_base_frag.glsl.c
+  gpu_shader_2D_widget_shadow_vert.glsl.c
+  gpu_shader_2D_widget_shadow_frag.glsl.c
+  gpu_shader_2D_nodelink_frag.glsl.c
+  gpu_shader_2D_nodelink_vert.glsl.c
+  gpu_shader_2D_flat_color_vert.glsl.c
+  Generating engines/eevee/shaders/ssr_lib.glsl.c
+  gpu_shader_2D_line_dashed_uniform_color_vert.glsl.c
+  gpu_shader_2D_line_dashed_frag.glsl.c
+  gpu_shader_2D_smooth_color_vert.glsl.c
+  gpu_shader_2D_smooth_color_frag.glsl.c
+  gpu_shader_2D_image_vert.glsl.c
+  gpu_shader_2D_image_rect_vert.glsl.c
+  gpu_shader_2D_image_multi_rect_vert.glsl.c
+  gpu_shader_image_frag.glsl.c
+  gpu_shader_image_desaturate_frag.glsl.c
+  gpu_shader_image_overlays_merge_frag.glsl.c
+  gpu_shader_image_overlays_stereo_merge_frag.glsl.c
+  gpu_shader_image_modulate_alpha_frag.glsl.c
+  gpu_shader_image_shuffle_color_frag.glsl.c
+  gpu_shader_image_color_frag.glsl.c
+  gpu_shader_image_varying_color_frag.glsl.c
+  gpu_shader_3D_image_vert.glsl.c
+  gpu_shader_3D_vert.glsl.c
+  gpu_shader_3D_normal_vert.glsl.c
+  gpu_shader_3D_flat_color_vert.glsl.c
+  gpu_shader_3D_line_dashed_uniform_color_vert.glsl.c
+  gpu_shader_3D_polyline_frag.glsl.c
+  gpu_shader_3D_polyline_geom.glsl.c
+  gpu_shader_3D_polyline_vert.glsl.c
+  gpu_shader_3D_smooth_color_vert.glsl.c
+  gpu_shader_3D_smooth_color_frag.glsl.c
+  Generating engines/eevee/shaders/surface_frag.glsl.c
+  gpu_shader_3D_passthrough_vert.glsl.c
+  gpu_shader_3D_clipped_uniform_color_vert.glsl.c
+  gpu_shader_instance_variying_size_variying_color_vert.glsl.c
+  gpu_shader_point_uniform_color_aa_frag.glsl.c
+  gpu_shader_point_uniform_color_outline_aa_frag.glsl.c
+  gpu_shader_point_varying_color_varying_outline_aa_frag.glsl.c
+  gpu_shader_point_varying_color_frag.glsl.c
+  gpu_shader_3D_point_fixed_size_varying_color_vert.glsl.c
+  gpu_shader_3D_point_varying_size_varying_color_vert.glsl.c
+  gpu_shader_3D_point_uniform_size_aa_vert.glsl.c
+  gpu_shader_2D_point_varying_size_varying_color_vert.glsl.c
+  gpu_shader_2D_point_uniform_size_aa_vert.glsl.c
+  gpu_shader_2D_point_uniform_size_outline_aa_vert.glsl.c
+  gpu_shader_text_vert.glsl.c
+  gpu_shader_text_frag.glsl.c
+  gpu_shader_keyframe_shape_vert.glsl.c
+  gpu_shader_keyframe_shape_frag.glsl.c
+  gpu_shader_codegen_lib.glsl.c
+  gpu_shader_common_color_ramp.glsl.c
+  gpu_shader_common_color_utils.glsl.c
+  gpu_shader_common_curves.glsl.c
+  gpu_shader_common_hash.glsl.c
+  gpu_shader_common_math.glsl.c
+  Generating engines/eevee/shaders/surface_geom.glsl.c
+  gpu_shader_common_math_utils.glsl.c
+  gpu_shader_common_mix_rgb.glsl.c
+  gpu_shader_material_add_shader.glsl.c
+  gpu_shader_material_ambient_occlusion.glsl.c
+  gpu_shader_material_anisotropic.glsl.c
+  gpu_shader_material_attribute.glsl.c
+  gpu_shader_material_background.glsl.c
+  gpu_shader_material_bevel.glsl.c
+  gpu_shader_material_wavelength.glsl.c
+  gpu_shader_material_blackbody.glsl.c
+  gpu_shader_material_bright_contrast.glsl.c
+  gpu_shader_material_bump.glsl.c
+  gpu_shader_material_camera.glsl.c
+  gpu_shader_material_clamp.glsl.c
+  gpu_shader_material_combine_color.glsl.c
+  Generating engines/eevee/shaders/surface_lib.glsl.c
+  gpu_shader_material_combine_hsv.glsl.c
+  gpu_shader_material_combine_rgb.glsl.c
+  gpu_shader_material_combine_xyz.glsl.c
+  gpu_shader_material_diffuse.glsl.c
+  gpu_shader_material_displacement.glsl.c
+  gpu_shader_material_eevee_specular.glsl.c
+  gpu_shader_material_emission.glsl.c
+  gpu_shader_material_fractal_noise.glsl.c
+  gpu_shader_material_fresnel.glsl.c
+  gpu_shader_material_gamma.glsl.c
+  gpu_shader_material_geometry.glsl.c
+  gpu_shader_material_glass.glsl.c
+  gpu_shader_material_glossy.glsl.c
+  gpu_shader_material_hair_info.glsl.c
+  gpu_shader_material_hair.glsl.c
+  gpu_shader_material_holdout.glsl.c
+  gpu_shader_material_hue_sat_val.glsl.c
+  Generating engines/eevee/shaders/surface_vert.glsl.c
+  gpu_shader_material_invert.glsl.c
+  gpu_shader_material_layer_weight.glsl.c
+  gpu_shader_material_light_falloff.glsl.c
+  gpu_shader_material_light_path.glsl.c
+  gpu_shader_material_mapping.glsl.c
+  gpu_shader_material_map_range.glsl.c
+  gpu_shader_material_mix_shader.glsl.c
+  gpu_shader_material_noise.glsl.c
+  gpu_shader_material_normal.glsl.c
+  gpu_shader_material_normal_map.glsl.c
+  gpu_shader_material_object_info.glsl.c
+  gpu_shader_material_output_aov.glsl.c
+  gpu_shader_material_output_material.glsl.c
+  gpu_shader_material_output_world.glsl.c
+  gpu_shader_material_particle_info.glsl.c
+  gpu_shader_material_point_info.glsl.c
+  gpu_shader_material_principled.glsl.c
+  gpu_shader_material_refraction.glsl.c
+  gpu_shader_material_rgb_to_bw.glsl.c
+  gpu_shader_material_separate_color.glsl.c
+  gpu_shader_material_separate_hsv.glsl.c
+  gpu_shader_material_separate_rgb.glsl.c
+  gpu_shader_material_separate_xyz.glsl.c
+  gpu_shader_material_set.glsl.c
+  gpu_shader_material_shader_to_rgba.glsl.c
+  gpu_shader_material_squeeze.glsl.c
+  gpu_shader_material_subsurface_scattering.glsl.c
+  gpu_shader_material_tangent.glsl.c
+  gpu_shader_material_tex_brick.glsl.c
+  gpu_shader_material_tex_checker.glsl.c
+  gpu_shader_material_tex_environment.glsl.c
+  gpu_shader_material_tex_gradient.glsl.c
+  gpu_shader_material_tex_image.glsl.c
+  gpu_shader_material_tex_magic.glsl.c
+  Generating engines/eevee/shaders/update_noise_frag.glsl.c
+  gpu_shader_material_tex_musgrave.glsl.c
+  gpu_shader_material_tex_noise.glsl.c
+  gpu_shader_material_tex_sky.glsl.c
+  gpu_shader_material_texture_coordinates.glsl.c
+  gpu_shader_material_tex_voronoi.glsl.c
+  gpu_shader_material_tex_wave.glsl.c
+  gpu_shader_material_tex_white_noise.glsl.c
+  gpu_shader_material_toon.glsl.c
+  Generating engines/eevee/shaders/volumetric_accum_frag.glsl.c
+  gpu_shader_material_transform_utils.glsl.c
+  gpu_shader_material_translucent.glsl.c
+  gpu_shader_material_transparent.glsl.c
+  gpu_shader_material_uv_map.glsl.c
+  gpu_shader_material_vector_displacement.glsl.c
+  gpu_shader_material_vector_math.glsl.c
+  gpu_shader_material_vector_rotate.glsl.c
+  gpu_shader_material_velvet.glsl.c
+  gpu_shader_material_vertex_color.glsl.c
+  gpu_shader_material_volume_absorption.glsl.c
+  gpu_shader_material_volume_principled.glsl.c
+  gpu_shader_material_volume_scatter.glsl.c
+  gpu_shader_material_wireframe.glsl.c
+  Generating engines/eevee/shaders/volumetric_lib.glsl.c
+  gpu_shader_material_world_normals.glsl.c
+  gpu_shader_material_screenspace_info.glsl.c
+  gpu_shader_material_curvature.glsl.c
+  gpu_shader_material_shader_info.glsl.c
+  gpu_shader_material_set_depth.glsl.c
+  gpu_shader_material_sdf_primitive.glsl.c
+  gpu_shader_material_sdf_op.glsl.c
+  gpu_shader_material_sdf_vector_op.glsl.c
+  gpu_shader_material_sdf_noise.glsl.c
+  gpu_shader_material_sdf_util.glsl.c
+  gpu_shader_gpencil_stroke_vert.glsl.c
+  gpu_shader_gpencil_stroke_frag.glsl.c
+  gpu_shader_gpencil_stroke_geom.glsl.c
+  gpu_shader_cfg_world_clip_lib.glsl.c
+  gpu_shader_colorspace_lib.glsl.c
+  GPU_shader_shared_utils.h.c
+  Generating engines/eevee/shaders/volumetric_frag.glsl.c
+  Generating engines/eevee/shaders/volumetric_geom.glsl.c
+  Generating engines/eevee/shaders/volumetric_vert.glsl.c
+  Generating engines/eevee/shaders/volumetric_resolve_frag.glsl.c
+  Generating engines/eevee/shaders/volumetric_scatter_frag.glsl.c
+  glsl_compute_kernel.glsl.c
+  Generating engines/eevee/shaders/volumetric_integration_frag.glsl.c
+  Generating engines/eevee/shaders/world_vert.glsl.c
+  Generating engines/eevee_next/shaders/eevee_attributes_lib.glsl.c
+  Generating engines/eevee_next/shaders/eevee_camera_lib.glsl.c
+  Generating engines/eevee_next/shaders/eevee_film_comp.glsl.c
+  bf_intern_opensubdiv.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_opensubdiv.lib
+  Generating engines/eevee_next/shaders/eevee_film_frag.glsl.c
+  Generating engines/eevee_next/shaders/eevee_film_lib.glsl.c
+  Generating engines/eevee_next/shaders/eevee_geom_curves_vert.glsl.c
+  Generating engines/eevee_next/shaders/eevee_geom_gpencil_vert.glsl.c
+  Generating engines/eevee_next/shaders/eevee_geom_mesh_vert.glsl.c
+  Generating engines/eevee_next/shaders/eevee_geom_world_vert.glsl.c
+  Generating engines/eevee_next/shaders/eevee_nodetree_lib.glsl.c
+  Generating engines/eevee_next/shaders/eevee_surf_deferred_frag.glsl.c
+  Generating engines/eevee_next/shaders/eevee_surf_depth_frag.glsl.c
+  bf_gpu_shaders.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_gpu_shaders.lib
+  Generating engines/eevee_next/shaders/eevee_surf_forward_frag.glsl.c
+  Generating engines/eevee_next/shaders/eevee_surf_lib.glsl.c
+  Generating engines/eevee_next/shaders/eevee_surf_world_frag.glsl.c
+  Generating engines/eevee_next/shaders/eevee_velocity_lib.glsl.c
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/datatoc/CMakeLists.txt
+  Generating engines/eevee_next/eevee_defines.hh.c
+  Generating engines/eevee_next/eevee_shader_shared.hh.c
+  Generating engines/workbench/shaders/workbench_cavity_lib.glsl.c
+  Generating engines/workbench/shaders/workbench_common_lib.glsl.c
+  datatoc_icon.c
+  winstuff_dir.c
+  utfconv.c
+  Generating engines/workbench/shaders/workbench_composite_frag.glsl.c
+  Generating engines/workbench/shaders/workbench_curvature_lib.glsl.c
+  Generating engines/workbench/shaders/workbench_effect_cavity_frag.glsl.c
+  Generating engines/workbench/shaders/workbench_effect_dof_frag.glsl.c
+  Generating engines/workbench/shaders/workbench_effect_outline_frag.glsl.c
+  Generating engines/workbench/shaders/workbench_effect_smaa_frag.glsl.c
+  Generating engines/workbench/shaders/workbench_effect_smaa_vert.glsl.c
+  Generating engines/workbench/shaders/workbench_effect_taa_frag.glsl.c
+  Generating engines/workbench/shaders/workbench_image_lib.glsl.c
+  Generating engines/workbench/shaders/workbench_matcap_lib.glsl.c
+  Generating engines/workbench/shaders/workbench_material_lib.glsl.c
+  Generating engines/workbench/shaders/workbench_merge_infront_frag.glsl.c
+  Generating engines/workbench/shaders/workbench_prepass_frag.glsl.c
+  Generating engines/workbench/shaders/workbench_prepass_hair_vert.glsl.c
+  datatoc_icon.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\bin\Release\datatoc_icon.exe
+  Generating engines/workbench/shaders/workbench_prepass_pointcloud_vert.glsl.c
+  Generating engines/workbench/shaders/workbench_prepass_vert.glsl.c
+  Generating engines/workbench/shaders/workbench_shadow_caps_geom.glsl.c
+  Building Custom Rule C:/blender-git/goo-engine/extern/draco/draco/CMakeLists.txt
+  Generating engines/workbench/shaders/workbench_shadow_debug_frag.glsl.c
+  Generating engines/workbench/shaders/workbench_shadow_geom.glsl.c
+  Generating engines/workbench/shaders/workbench_shadow_vert.glsl.c
+  Generating engines/workbench/shaders/workbench_transparent_accum_frag.glsl.c
+  Generating engines/workbench/shaders/workbench_transparent_resolve_frag.glsl.c
+  Generating engines/workbench/shaders/workbench_volume_frag.glsl.c
+  keyframe_animation.cc
+  keyframe_animation_decoder.cc
+  keyframe_animation_encoder.cc
+  attribute_octahedron_transform.cc
+  attribute_quantization_transform.cc
+  attribute_transform.cc
+  geometry_attribute.cc
+  point_attribute.cc
+  attributes_decoder.cc
+  attributes_encoder.cc
+  Generating engines/workbench/shaders/workbench_volume_vert.glsl.c
+  kd_tree_attributes_decoder.cc
+  kd_tree_attributes_encoder.cc
+  prediction_scheme_encoder_factory.cc
+  sequential_attribute_decoder.cc
+  sequential_attribute_decoders_controller.cc
+  sequential_attribute_encoder.cc
+  Generating engines/workbench/shaders/workbench_world_light_lib.glsl.c
+  sequential_attribute_encoders_controller.cc
+  sequential_integer_attribute_decoder.cc
+  sequential_integer_attribute_encoder.cc
+  sequential_normal_attribute_decoder.cc
+  camera_intrinsics.cc
+  sequential_normal_attribute_encoder.cc
+  sequential_quantization_attribute_decoder.cc
+  Generating engines/workbench/workbench_shader_shared.h.c
+  sequential_quantization_attribute_encoder.cc
+  adaptive_rans_bit_decoder.cc
+  adaptive_rans_bit_encoder.cc
+  direct_bit_decoder.cc
+  direct_bit_encoder.cc
+  rans_bit_decoder.cc
+  rans_bit_encoder.cc
+  symbol_bit_decoder.cc
+  symbol_bit_encoder.cc
+  decode.cc
+  Generating intern/shaders/common_attribute_lib.glsl.c
+  encode.cc
+  shannon_entropy.cc
+  symbol_decoding.cc
+  symbol_encoding.cc
+  expert_encode.cc
+  mesh_decoder.cc
+  mesh_edgebreaker_decoder.cc
+  Generating intern/shaders/common_colormanagement_lib.glsl.c
+  reconstruction.cc
+  mesh_edgebreaker_decoder_impl.cc
+  mesh_edgebreaker_encoder.cc
+  mesh_edgebreaker_encoder_impl.cc
+  mesh_encoder.cc
+  mesh_sequential_decoder.cc
+  mesh_sequential_encoder.cc
+  dynamic_integer_points_kd_tree_decoder.cc
+  dynamic_integer_points_kd_tree_encoder.cc
+  float_points_tree_decoder.cc
+  Generating intern/shaders/common_globals_lib.glsl.c
+  float_points_tree_encoder.cc
+  integer_points_kd_tree_decoder.cc
+  integer_points_kd_tree_encoder.cc
+  point_cloud_decoder.cc
+  point_cloud_encoder.cc
+  point_cloud_kd_tree_decoder.cc
+  point_cloud_kd_tree_encoder.cc
+  point_cloud_sequential_decoder.cc
+  tracks.cc
+  point_cloud_sequential_encoder.cc
+  bit_utils.cc
+  bounding_box.cc
+  cycle_timer.cc
+  data_buffer.cc
+  Generating intern/shaders/common_gpencil_lib.glsl.c
+  decoder_buffer.cc
+  divide.cc
+  draco_types.cc
+  encoder_buffer.cc
+  hash_utils.cc
+  options.cc
+  quantization_utils.cc
+  corner_table.cc
+  mesh.cc
+  mesh_are_equivalent.cc
+  mesh_attribute_corner_table.cc
+  mesh_cleanup.cc
+  mesh_misc_functions.cc
+  Generating intern/shaders/common_pointcloud_lib.glsl.c
+  mesh_stripifier.cc
+  triangle_soup_mesh_builder.cc
+  geometry_metadata.cc
+  metadata.cc
+  metadata_decoder.cc
+  metadata_encoder.cc
+  point_cloud.cc
+  Generating intern/shaders/common_hair_lib.glsl.c
+  point_cloud_builder.cc
+  track_region.cc
+  Generating intern/shaders/common_hair_refine_vert.glsl.c
+  Generating intern/shaders/common_hair_refine_comp.glsl.c
+  Generating intern/shaders/common_math_lib.glsl.c
+  Generating intern/shaders/common_math_geom_lib.glsl.c
+  Generating intern/shaders/common_view_clipping_lib.glsl.c
+  Generating intern/shaders/common_view_lib.glsl.c
+  Generating intern/shaders/common_fxaa_lib.glsl.c
+  Generating intern/shaders/common_smaa_lib.glsl.c
+  Generating intern/shaders/common_fullscreen_vert.glsl.c
+  Generating intern/shaders/common_subdiv_custom_data_interp_comp.glsl.c
+  Generating intern/shaders/common_subdiv_ibo_lines_comp.glsl.c
+  Generating intern/shaders/common_subdiv_ibo_tris_comp.glsl.c
+  Generating intern/shaders/common_subdiv_lib.glsl.c
+  Generating intern/shaders/common_subdiv_normals_accumulate_comp.glsl.c
+  Generating intern/shaders/common_subdiv_normals_finalize_comp.glsl.c
+  Generating intern/shaders/common_subdiv_patch_evaluation_comp.glsl.c
+  Generating intern/shaders/common_subdiv_vbo_edge_fac_comp.glsl.c
+  Generating intern/shaders/common_subdiv_vbo_edituv_strech_angle_comp.glsl.c
+  Generating intern/shaders/common_subdiv_vbo_edituv_strech_area_comp.glsl.c
+  Generating intern/shaders/common_subdiv_vbo_lnor_comp.glsl.c
+  Generating intern/shaders/common_subdiv_vbo_sculpt_data_comp.glsl.c
+  draco.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\draco.lib
+  Generating intern/draw_common_shader_shared.h.c
+  Generating intern/draw_shader_shared.h.c
+  Generating engines/gpencil/shaders/gpencil_frag.glsl.c
+  Generating engines/gpencil/shaders/gpencil_vert.glsl.c
+  Building Custom Rule C:/blender-git/goo-engine/extern/bullet2/CMakeLists.txt
+  Generating engines/gpencil/shaders/gpencil_antialiasing_frag.glsl.c
+  Generating engines/gpencil/shaders/gpencil_antialiasing_vert.glsl.c
+  Generating engines/gpencil/shaders/gpencil_common_lib.glsl.c
+  Generating engines/gpencil/shaders/gpencil_layer_blend_frag.glsl.c
+  Generating engines/gpencil/shaders/gpencil_mask_invert_frag.glsl.c
+  Generating engines/gpencil/shaders/gpencil_depth_merge_frag.glsl.c
+  Generating engines/gpencil/shaders/gpencil_depth_merge_vert.glsl.c
+  btAxisSweep3.cpp
+  btBroadphaseProxy.cpp
+  btCollisionAlgorithm.cpp
+  btDbvt.cpp
+  Generating engines/gpencil/shaders/gpencil_vfx_frag.glsl.c
+  btDbvtBroadphase.cpp
+  btDispatcher.cpp
+  btOverlappingPairCache.cpp
+  btQuantizedBvh.cpp
+  btSimpleBroadphase.cpp
+  Generating engines/gpencil/gpencil_defines.h.c
+  SphereTriangleDetector.cpp
+  btActivatingCollisionAlgorithm.cpp
+  btBox2dBox2dCollisionAlgorithm.cpp
+  btBoxBoxCollisionAlgorithm.cpp
+  btBoxBoxDetector.cpp
+  btCollisionDispatcher.cpp
+  btCollisionObject.cpp
+  btCollisionWorld.cpp
+  btCollisionWorldImporter.cpp
+  btCompoundCollisionAlgorithm.cpp
+  btCompoundCompoundCollisionAlgorithm.cpp
+  Generating engines/gpencil/gpencil_shader_shared.h.c
+  btConvex2dConvex2dAlgorithm.cpp
+  btConvexConcaveCollisionAlgorithm.cpp
+  btConvexConvexAlgorithm.cpp
+  btConvexPlaneCollisionAlgorithm.cpp
+  btDefaultCollisionConfiguration.cpp
+  btEmptyCollisionAlgorithm.cpp
+  btGhostObject.cpp
+  btHashedSimplePairCache.cpp
+  btInternalEdgeUtility.cpp
+  btManifoldResult.cpp
+  btSimulationIslandManager.cpp
+  btSphereBoxCollisionAlgorithm.cpp
+  Generating engines/select/shaders/select_id_vert.glsl.c
+  btSphereSphereCollisionAlgorithm.cpp
+  btSphereTriangleCollisionAlgorithm.cpp
+  btUnionFind.cpp
+  btBox2dShape.cpp
+  btBoxShape.cpp
+  btBvhTriangleMeshShape.cpp
+  btCapsuleShape.cpp
+  btCollisionShape.cpp
+  btCompoundShape.cpp
+  btConcaveShape.cpp
+  btConeShape.cpp
+  btConvex2dShape.cpp
+  Generating engines/select/shaders/select_id_frag.glsl.c
+  btConvexHullShape.cpp
+  btConvexInternalShape.cpp
+  btConvexPointCloudShape.cpp
+  btConvexPolyhedron.cpp
+  btConvexShape.cpp
+  btConvexTriangleMeshShape.cpp
+  btCylinderShape.cpp
+  btEmptyShape.cpp
+  btHeightfieldTerrainShape.cpp
+  btMiniSDF.cpp
+  btMinkowskiSumShape.cpp
+  btMultiSphereShape.cpp
+  btMultimaterialTriangleMeshShape.cpp
+  btOptimizedBvh.cpp
+  btPolyhedralConvexShape.cpp
+  btScaledBvhTriangleMeshShape.cpp
+  btSdfCollisionShape.cpp
+  btShapeHull.cpp
+  btSphereShape.cpp
+  btStaticPlaneShape.cpp
+  Generating engines/basic/shaders/basic_conservative_depth_geom.glsl.c
+  btStridingMeshInterface.cpp
+  btTetrahedronShape.cpp
+  btTriangleBuffer.cpp
+  btTriangleCallback.cpp
+  btTriangleIndexVertexArray.cpp
+  btTriangleIndexVertexMaterialArray.cpp
+  btTriangleMesh.cpp
+  btTriangleMeshShape.cpp
+  btUniformScalingShape.cpp
+  btContactProcessing.cpp
+  Generating engines/basic/shaders/basic_depth_vert.glsl.c
+  btGImpactBvh.cpp
+  btGImpactCollisionAlgorithm.cpp
+  btGImpactQuantizedBvh.cpp
+  btGImpactShape.cpp
+  btGenericPoolAllocator.cpp
+  btTriangleShapeEx.cpp
+  gim_box_set.cpp
+  gim_contact.cpp
+  gim_memory.cpp
+  gim_tri_collision.cpp
+  btContinuousConvexCollision.cpp
+  Generating engines/basic/shaders/basic_depth_curves_vert.glsl.c
+  btConvexCast.cpp
+  btGjkConvexCast.cpp
+  btGjkEpa2.cpp
+  btGjkEpaPenetrationDepthSolver.cpp
+  btGjkPairDetector.cpp
+  btMinkowskiPenetrationDepthSolver.cpp
+  btPersistentManifold.cpp
+  btPolyhedralContactClipping.cpp
+  btRaycastCallback.cpp
+  btSubSimplexConvexCast.cpp
+  btVoronoiSimplexSolver.cpp
+  btKinematicCharacterController.cpp
+  btConeTwistConstraint.cpp
+  btContactConstraint.cpp
+  Generating engines/basic/shaders/basic_depth_pointcloud_vert.glsl.c
+  btFixedConstraint.cpp
+  btGearConstraint.cpp
+  btGeneric6DofConstraint.cpp
+  btGeneric6DofSpring2Constraint.cpp
+  btGeneric6DofSpringConstraint.cpp
+  btHinge2Constraint.cpp
+  btHingeConstraint.cpp
+  btNNCGConstraintSolver.cpp
+  Generating engines/basic/shaders/basic_depth_frag.glsl.c
+  btPoint2PointConstraint.cpp
+  btSequentialImpulseConstraintSolver.cpp
+  btSliderConstraint.cpp
+  btSolve2LinearConstraint.cpp
+  btTypedConstraint.cpp
+  btUniversalConstraint.cpp
+  Generating engines/overlay/shaders/overlay_antialiasing_frag.glsl.c
+  btDiscreteDynamicsWorld.cpp
+  btRigidBody.cpp
+  Generating engines/overlay/shaders/overlay_armature_dof_solid_frag.glsl.c
+  btSimpleDynamicsWorld.cpp
+  btMultiBody.cpp
+  btMultiBodyConstraint.cpp
+  btMultiBodyConstraintSolver.cpp
+  btMultiBodyDynamicsWorld.cpp
+  btMultiBodyJointLimitConstraint.cpp
+  btMultiBodyJointMotor.cpp
+  btMultiBodyPoint2Point.cpp
+  btDantzigLCP.cpp
+  btLemkeAlgorithm.cpp
+  Generating engines/overlay/shaders/overlay_armature_dof_vert.glsl.c
+  btMLCPSolver.cpp
+  btRaycastVehicle.cpp
+  btWheelInfo.cpp
+  btDefaultSoftBodySolver.cpp
+  btSoftBody.cpp
+  btSoftBodyConcaveCollisionAlgorithm.cpp
+  btSoftBodyHelpers.cpp
+  btSoftBodyRigidBodyCollisionConfiguration.cpp
+  btSoftRigidCollisionAlgorithm.cpp
+  btSoftRigidDynamicsWorld.cpp
+  btSoftSoftCollisionAlgorithm.cpp
+  Generating engines/overlay/shaders/overlay_armature_envelope_outline_vert.glsl.c
+  btAlignedAllocator.cpp
+  btConvexHull.cpp
+  btConvexHullComputer.cpp
+  btGeometryUtil.cpp
+  btPolarDecomposition.cpp
+  Generating engines/overlay/shaders/overlay_armature_envelope_solid_frag.glsl.c
+  btQuickprof.cpp
+  btSerializer.cpp
+  btSerializer64.cpp
+  btVector3.cpp
+  Generating engines/overlay/shaders/overlay_armature_envelope_solid_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_armature_shape_outline_geom.glsl.c
+  Generating engines/overlay/shaders/overlay_armature_shape_outline_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_armature_shape_solid_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_armature_shape_solid_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_armature_shape_wire_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_armature_sphere_outline_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_armature_sphere_solid_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_armature_sphere_solid_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_armature_stick_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_armature_stick_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_armature_wire_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_armature_wire_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_background_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_clipbound_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_common_lib.glsl.c
+  Generating engines/overlay/shaders/overlay_depth_only_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_depth_only_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_curve_handle_geom.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_curve_handle_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_curve_point_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_curve_wire_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_gpencil_canvas_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_gpencil_guide_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_gpencil_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_lattice_point_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_lattice_wire_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_mesh_analysis_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_mesh_analysis_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_mesh_common_lib.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_mesh_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_mesh_geom.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_mesh_normal_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_mesh_skin_root_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_mesh_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_particle_point_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_particle_strand_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_uv_edges_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_uv_edges_geom.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_uv_edges_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_uv_face_dots_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_uv_faces_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_uv_image_mask_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_uv_image_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_uv_stretching_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_uv_tiled_image_borders_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_uv_verts_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_edit_uv_verts_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_extra_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_extra_groundline_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_extra_lightprobe_grid_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_extra_loose_point_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_extra_loose_point_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_extra_point_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_extra_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_extra_wire_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_extra_wire_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_facing_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_facing_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_grid_background_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_grid_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_grid_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_image_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_image_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_motion_path_line_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_motion_path_line_geom.glsl.c
+  Generating engines/overlay/shaders/overlay_motion_path_line_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_motion_path_point_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_outline_detect_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_outline_prepass_curves_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_outline_prepass_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_outline_prepass_geom.glsl.c
+  Generating engines/overlay/shaders/overlay_outline_prepass_gpencil_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_outline_prepass_gpencil_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_outline_prepass_pointcloud_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_outline_prepass_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_paint_face_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_paint_point_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_paint_texture_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_paint_texture_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_paint_vertcol_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_paint_vertcol_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_paint_weight_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_paint_weight_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_paint_wire_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_particle_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_particle_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_point_varying_color_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_point_varying_color_varying_outline_aa_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_sculpt_curves_selection_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_sculpt_curves_selection_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_sculpt_mask_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_sculpt_mask_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_uniform_color_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_varying_color.glsl.c
+  Generating engines/overlay/shaders/overlay_volume_gridlines_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_volume_velocity_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_wireframe_frag.glsl.c
+  Generating engines/overlay/shaders/overlay_wireframe_vert.glsl.c
+  Generating engines/overlay/shaders/overlay_xray_fade_frag.glsl.c
+  Generating engines/overlay/overlay_shader_shared.h.c
+  Generating engines/image/shaders/image_engine_color_frag.glsl.c
+  Generating engines/image/shaders/image_engine_color_vert.glsl.c
+  Generating engines/image/shaders/image_engine_depth_frag.glsl.c
+  Generating engines/image/shaders/image_engine_depth_vert.glsl.c
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/draw/CMakeLists.txt
+  ambient_occlusion_lib.glsl.c
+  background_vert.glsl.c
+  common_uniforms_lib.glsl.c
+  common_utiltex_lib.glsl.c
+  lights_lib.glsl.c
+  lightprobe_lib.glsl.c
+  lightprobe_filter_glossy_frag.glsl.c
+  lightprobe_filter_diffuse_frag.glsl.c
+  lightprobe_filter_visibility_frag.glsl.c
+  lightprobe_geom.glsl.c
+  lightprobe_vert.glsl.c
+  lightprobe_cube_display_frag.glsl.c
+  lightprobe_cube_display_vert.glsl.c
+  lightprobe_grid_display_frag.glsl.c
+  lightprobe_grid_display_vert.glsl.c
+  lightprobe_grid_fill_frag.glsl.c
+  lightprobe_planar_display_frag.glsl.c
+  lightprobe_planar_display_vert.glsl.c
+  lookdev_world_frag.glsl.c
+  closure_eval_lib.glsl.c
+  closure_eval_diffuse_lib.glsl.c
+  closure_eval_glossy_lib.glsl.c
+  closure_eval_surface_lib.glsl.c
+  closure_eval_refraction_lib.glsl.c
+  closure_eval_volume_lib.glsl.c
+  closure_eval_translucent_lib.glsl.c
+  closure_type_lib.glsl.c
+  eevee_empty.glsl.c
+  eevee_empty_volume.glsl.c
+  effect_bloom_frag.glsl.c
+  effect_dof_bokeh_frag.glsl.c
+  effect_dof_dilate_tiles_frag.glsl.c
+  effect_dof_downsample_frag.glsl.c
+  effect_dof_filter_frag.glsl.c
+  effect_dof_flatten_tiles_frag.glsl.c
+  effect_dof_gather_frag.glsl.c
+  effect_dof_lib.glsl.c
+  effect_dof_reduce_frag.glsl.c
+  effect_dof_resolve_frag.glsl.c
+  effect_dof_scatter_frag.glsl.c
+  effect_dof_scatter_vert.glsl.c
+  effect_dof_setup_frag.glsl.c
+  effect_reflection_lib.glsl.c
+  effect_reflection_resolve_frag.glsl.c
+  effect_reflection_trace_frag.glsl.c
+  effect_downsample_frag.glsl.c
+  effect_downsample_cube_frag.glsl.c
+  effect_gtao_frag.glsl.c
+  effect_velocity_resolve_frag.glsl.c
+  effect_velocity_tile_frag.glsl.c
+  effect_minmaxz_frag.glsl.c
+  effect_mist_frag.glsl.c
+  effect_motion_blur_frag.glsl.c
+  effect_subsurface_frag.glsl.c
+  effect_translucency_frag.glsl.c
+  effect_temporal_aa.glsl.c
+  lightprobe_planar_downsample_frag.glsl.c
+  lightprobe_planar_downsample_geom.glsl.c
+  lightprobe_planar_downsample_vert.glsl.c
+  object_motion_frag.glsl.c
+  object_motion_vert.glsl.c
+  prepass_frag.glsl.c
+  shadow_accum_frag.glsl.c
+  shadow_frag.glsl.c
+  shadow_vert.glsl.c
+  bsdf_lut_frag.glsl.c
+  btdf_lut_frag.glsl.c
+  bsdf_common_lib.glsl.c
+  irradiance_lib.glsl.c
+  octahedron_lib.glsl.c
+  cubemap_lib.glsl.c
+  bsdf_sampling_lib.glsl.c
+  random_lib.glsl.c
+  raytrace_lib.glsl.c
+  renderpass_lib.glsl.c
+  renderpass_postprocess_frag.glsl.c
+  cryptomatte_lib.glsl.c
+  cryptomatte_frag.glsl.c
+  cryptomatte_vert.glsl.c
+  ltc_lib.glsl.c
+  ssr_lib.glsl.c
+  surface_frag.glsl.c
+  surface_geom.glsl.c
+  surface_lib.glsl.c
+  surface_vert.glsl.c
+  update_noise_frag.glsl.c
+  volumetric_accum_frag.glsl.c
+  volumetric_lib.glsl.c
+  volumetric_frag.glsl.c
+  volumetric_geom.glsl.c
+  volumetric_vert.glsl.c
+  volumetric_resolve_frag.glsl.c
+  volumetric_scatter_frag.glsl.c
+  volumetric_integration_frag.glsl.c
+  world_vert.glsl.c
+  eevee_attributes_lib.glsl.c
+  eevee_camera_lib.glsl.c
+  eevee_film_comp.glsl.c
+  eevee_film_frag.glsl.c
+  eevee_film_lib.glsl.c
+  eevee_geom_curves_vert.glsl.c
+  eevee_geom_gpencil_vert.glsl.c
+  eevee_geom_mesh_vert.glsl.c
+  eevee_geom_world_vert.glsl.c
+  eevee_nodetree_lib.glsl.c
+  eevee_surf_deferred_frag.glsl.c
+  eevee_surf_depth_frag.glsl.c
+  eevee_surf_forward_frag.glsl.c
+  eevee_surf_lib.glsl.c
+  eevee_surf_world_frag.glsl.c
+  eevee_velocity_lib.glsl.c
+  eevee_defines.hh.c
+  eevee_shader_shared.hh.c
+  workbench_cavity_lib.glsl.c
+  workbench_common_lib.glsl.c
+  workbench_composite_frag.glsl.c
+  workbench_curvature_lib.glsl.c
+  workbench_effect_cavity_frag.glsl.c
+  workbench_effect_dof_frag.glsl.c
+  workbench_effect_outline_frag.glsl.c
+  workbench_effect_smaa_frag.glsl.c
+  workbench_effect_smaa_vert.glsl.c
+  workbench_effect_taa_frag.glsl.c
+  workbench_image_lib.glsl.c
+  workbench_matcap_lib.glsl.c
+  workbench_material_lib.glsl.c
+  workbench_merge_infront_frag.glsl.c
+  workbench_prepass_frag.glsl.c
+  workbench_prepass_hair_vert.glsl.c
+  workbench_prepass_pointcloud_vert.glsl.c
+  workbench_prepass_vert.glsl.c
+  workbench_shadow_caps_geom.glsl.c
+  workbench_shadow_debug_frag.glsl.c
+  workbench_shadow_geom.glsl.c
+  workbench_shadow_vert.glsl.c
+  workbench_transparent_accum_frag.glsl.c
+  workbench_transparent_resolve_frag.glsl.c
+  workbench_volume_frag.glsl.c
+  workbench_volume_vert.glsl.c
+  workbench_world_light_lib.glsl.c
+  workbench_shader_shared.h.c
+  common_attribute_lib.glsl.c
+  common_colormanagement_lib.glsl.c
+  common_globals_lib.glsl.c
+  common_gpencil_lib.glsl.c
+  common_pointcloud_lib.glsl.c
+  common_hair_lib.glsl.c
+  common_hair_refine_vert.glsl.c
+  common_hair_refine_comp.glsl.c
+  common_math_lib.glsl.c
+  common_math_geom_lib.glsl.c
+  common_view_clipping_lib.glsl.c
+  common_view_lib.glsl.c
+  common_fxaa_lib.glsl.c
+  common_smaa_lib.glsl.c
+  common_fullscreen_vert.glsl.c
+  common_subdiv_custom_data_interp_comp.glsl.c
+  common_subdiv_ibo_lines_comp.glsl.c
+  common_subdiv_ibo_tris_comp.glsl.c
+  common_subdiv_lib.glsl.c
+  common_subdiv_normals_accumulate_comp.glsl.c
+  common_subdiv_normals_finalize_comp.glsl.c
+  common_subdiv_patch_evaluation_comp.glsl.c
+  common_subdiv_vbo_edge_fac_comp.glsl.c
+  common_subdiv_vbo_edituv_strech_angle_comp.glsl.c
+  common_subdiv_vbo_edituv_strech_area_comp.glsl.c
+  common_subdiv_vbo_lnor_comp.glsl.c
+  common_subdiv_vbo_sculpt_data_comp.glsl.c
+  draw_common_shader_shared.h.c
+  draw_shader_shared.h.c
+  gpencil_frag.glsl.c
+  gpencil_vert.glsl.c
+  gpencil_antialiasing_frag.glsl.c
+  gpencil_antialiasing_vert.glsl.c
+  gpencil_common_lib.glsl.c
+  gpencil_layer_blend_frag.glsl.c
+  gpencil_mask_invert_frag.glsl.c
+  gpencil_depth_merge_frag.glsl.c
+  gpencil_depth_merge_vert.glsl.c
+  gpencil_vfx_frag.glsl.c
+  gpencil_defines.h.c
+  gpencil_shader_shared.h.c
+  select_id_vert.glsl.c
+  select_id_frag.glsl.c
+  basic_conservative_depth_geom.glsl.c
+  basic_depth_vert.glsl.c
+  basic_depth_curves_vert.glsl.c
+  basic_depth_pointcloud_vert.glsl.c
+  basic_depth_frag.glsl.c
+  overlay_antialiasing_frag.glsl.c
+  overlay_armature_dof_solid_frag.glsl.c
+  overlay_armature_dof_vert.glsl.c
+  overlay_armature_envelope_outline_vert.glsl.c
+  overlay_armature_envelope_solid_frag.glsl.c
+  overlay_armature_envelope_solid_vert.glsl.c
+  overlay_armature_shape_outline_geom.glsl.c
+  overlay_armature_shape_outline_vert.glsl.c
+  overlay_armature_shape_solid_frag.glsl.c
+  overlay_armature_shape_solid_vert.glsl.c
+  overlay_armature_shape_wire_vert.glsl.c
+  overlay_armature_sphere_outline_vert.glsl.c
+  overlay_armature_sphere_solid_frag.glsl.c
+  overlay_armature_sphere_solid_vert.glsl.c
+  overlay_armature_stick_frag.glsl.c
+  overlay_armature_stick_vert.glsl.c
+  overlay_armature_wire_frag.glsl.c
+  overlay_armature_wire_vert.glsl.c
+  overlay_background_frag.glsl.c
+  overlay_clipbound_vert.glsl.c
+  overlay_common_lib.glsl.c
+  overlay_depth_only_frag.glsl.c
+  overlay_depth_only_vert.glsl.c
+  overlay_edit_curve_handle_geom.glsl.c
+  overlay_edit_curve_handle_vert.glsl.c
+  overlay_edit_curve_point_vert.glsl.c
+  overlay_edit_curve_wire_vert.glsl.c
+  overlay_edit_gpencil_canvas_vert.glsl.c
+  overlay_edit_gpencil_guide_vert.glsl.c
+  overlay_edit_gpencil_vert.glsl.c
+  overlay_edit_lattice_point_vert.glsl.c
+  overlay_edit_lattice_wire_vert.glsl.c
+  overlay_edit_mesh_analysis_frag.glsl.c
+  overlay_edit_mesh_analysis_vert.glsl.c
+  overlay_edit_mesh_common_lib.glsl.c
+  overlay_edit_mesh_frag.glsl.c
+  overlay_edit_mesh_geom.glsl.c
+  overlay_edit_mesh_normal_vert.glsl.c
+  overlay_edit_mesh_skin_root_vert.glsl.c
+  overlay_edit_mesh_vert.glsl.c
+  overlay_edit_particle_point_vert.glsl.c
+  overlay_edit_particle_strand_vert.glsl.c
+  overlay_edit_uv_edges_frag.glsl.c
+  overlay_edit_uv_edges_geom.glsl.c
+  overlay_edit_uv_edges_vert.glsl.c
+  overlay_edit_uv_face_dots_vert.glsl.c
+  overlay_edit_uv_faces_vert.glsl.c
+  overlay_edit_uv_image_mask_frag.glsl.c
+  overlay_edit_uv_image_vert.glsl.c
+  overlay_edit_uv_stretching_vert.glsl.c
+  overlay_edit_uv_tiled_image_borders_vert.glsl.c
+  overlay_edit_uv_verts_frag.glsl.c
+  overlay_edit_uv_verts_vert.glsl.c
+  overlay_extra_frag.glsl.c
+  overlay_extra_groundline_vert.glsl.c
+  overlay_extra_lightprobe_grid_vert.glsl.c
+  overlay_extra_loose_point_frag.glsl.c
+  overlay_extra_loose_point_vert.glsl.c
+  overlay_extra_point_vert.glsl.c
+  overlay_extra_vert.glsl.c
+  overlay_extra_wire_frag.glsl.c
+  overlay_extra_wire_vert.glsl.c
+  overlay_facing_frag.glsl.c
+  overlay_facing_vert.glsl.c
+  overlay_grid_background_frag.glsl.c
+  overlay_grid_frag.glsl.c
+  overlay_grid_vert.glsl.c
+  overlay_image_frag.glsl.c
+  overlay_image_vert.glsl.c
+  overlay_motion_path_line_frag.glsl.c
+  overlay_motion_path_line_geom.glsl.c
+  overlay_motion_path_line_vert.glsl.c
+  overlay_motion_path_point_vert.glsl.c
+  overlay_outline_detect_frag.glsl.c
+  overlay_outline_prepass_curves_vert.glsl.c
+  overlay_outline_prepass_frag.glsl.c
+  overlay_outline_prepass_geom.glsl.c
+  overlay_outline_prepass_gpencil_frag.glsl.c
+  overlay_outline_prepass_gpencil_vert.glsl.c
+  overlay_outline_prepass_pointcloud_vert.glsl.c
+  overlay_outline_prepass_vert.glsl.c
+  overlay_paint_face_vert.glsl.c
+  overlay_paint_point_vert.glsl.c
+  overlay_paint_texture_frag.glsl.c
+  overlay_paint_texture_vert.glsl.c
+  overlay_paint_vertcol_frag.glsl.c
+  overlay_paint_vertcol_vert.glsl.c
+  overlay_paint_weight_frag.glsl.c
+  overlay_paint_weight_vert.glsl.c
+  overlay_paint_wire_vert.glsl.c
+  overlay_particle_frag.glsl.c
+  overlay_particle_vert.glsl.c
+  overlay_point_varying_color_frag.glsl.c
+  overlay_point_varying_color_varying_outline_aa_frag.glsl.c
+  overlay_sculpt_curves_selection_frag.glsl.c
+  overlay_sculpt_curves_selection_vert.glsl.c
+  overlay_sculpt_mask_frag.glsl.c
+  overlay_sculpt_mask_vert.glsl.c
+  overlay_uniform_color_frag.glsl.c
+  overlay_varying_color.glsl.c
+  overlay_volume_gridlines_vert.glsl.c
+  overlay_volume_velocity_vert.glsl.c
+  overlay_wireframe_frag.glsl.c
+  overlay_wireframe_vert.glsl.c
+  overlay_xray_fade_frag.glsl.c
+  overlay_shader_shared.h.c
+  image_engine_color_frag.glsl.c
+  image_engine_color_vert.glsl.c
+  image_engine_depth_frag.glsl.c
+  image_engine_depth_vert.glsl.c
+  bf_draw_shaders.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_draw_shaders.lib
+  Generating ../../../../release/datafiles/bfont.pfb.c
+  Generating ../../../../release/datafiles/preview.blend.c
+  Generating ../../../../release/datafiles/preview_grease_pencil.blend.c
+  Generating ../../../../release/datafiles/splash.png.c
+  Generating ../../../../release/datafiles/alert_icons.png.c
+  Generating ../../../../release/datafiles/blender_logo.png.c
+  Generating ../../../../release/datafiles/blender_icons16.png, ../../../../release/datafiles/blender_icons16.png.c
+  Generating ../../../../release/datafiles/blender_icons32.png, ../../../../release/datafiles/blender_icons32.png.c
+  Generating ../../../../release/datafiles/prvicons.png.c
+  Generating ../../../../release/datafiles/brushicons/blob.png.c
+  Generating ../../../../release/datafiles/brushicons/blur.png.c
+  Generating ../../../../release/datafiles/brushicons/clay.png.c
+  Generating ../../../../release/datafiles/brushicons/claystrips.png.c
+  Generating ../../../../release/datafiles/brushicons/clone.png.c
+  Generating ../../../../release/datafiles/brushicons/crease.png.c
+  Generating ../../../../release/datafiles/brushicons/draw.png.c
+  Generating ../../../../release/datafiles/brushicons/fill.png.c
+  Generating ../../../../release/datafiles/brushicons/flatten.png.c
+  Generating ../../../../release/datafiles/brushicons/grab.png.c
+  Generating ../../../../release/datafiles/brushicons/inflate.png.c
+  Generating ../../../../release/datafiles/brushicons/layer.png.c
+  Generating ../../../../release/datafiles/brushicons/mask.png.c
+  Generating ../../../../release/datafiles/brushicons/mix.png.c
+  Generating ../../../../release/datafiles/brushicons/nudge.png.c
+  Generating ../../../../release/datafiles/brushicons/paint_select.png.c
+  Generating ../../../../release/datafiles/brushicons/pinch.png.c
+  Generating ../../../../release/datafiles/brushicons/scrape.png.c
+  Generating ../../../../release/datafiles/brushicons/smear.png.c
+  Generating ../../../../release/datafiles/brushicons/smooth.png.c
+  Generating ../../../../release/datafiles/brushicons/snake_hook.png.c
+  Generating ../../../../release/datafiles/brushicons/soften.png.c
+  Generating ../../../../release/datafiles/brushicons/texdraw.png.c
+  Generating ../../../../release/datafiles/brushicons/texfill.png.c
+  Generating ../../../../release/datafiles/brushicons/texmask.png.c
+  Generating ../../../../release/datafiles/brushicons/thumb.png.c
+  Generating ../../../../release/datafiles/brushicons/twist.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_smooth.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_thickness.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_strength.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_grab.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_push.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_twist.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_pinch.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_randomize.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_clone.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_weight.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_pencil.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_pen.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_ink.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_inknoise.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_block.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_marker.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_fill.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_airbrush.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_chisel.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_erase_soft.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_erase_hard.png.c
+  Generating ../../../../release/datafiles/brushicons/gp_brush_erase_stroke.png.c
+  Generating ../../../../release/datafiles/brushicons/curves_sculpt_add.png.c
+  Generating ../../../../release/datafiles/brushicons/curves_sculpt_comb.png.c
+  Generating ../../../../release/datafiles/brushicons/curves_sculpt_cut.png.c
+  Generating ../../../../release/datafiles/brushicons/curves_sculpt_delete.png.c
+  Generating ../../../../release/datafiles/brushicons/curves_sculpt_density.png.c
+  Generating ../../../../release/datafiles/brushicons/curves_sculpt_grow_shrink.png.c
+  Generating ../../../../release/datafiles/brushicons/curves_sculpt_pinch.png.c
+  Generating ../../../../release/datafiles/brushicons/curves_sculpt_puff.png.c
+  Generating ../../../../release/datafiles/brushicons/curves_sculpt_slide.png.c
+  Generating ../../../../release/datafiles/brushicons/curves_sculpt_smooth.png.c
+  Generating ../../../../release/datafiles/brushicons/curves_sculpt_snake_hook.png.c
+  Generating ../../../../release/datafiles/startup.blend.c
+  bf_intern_libmv.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_libmv.lib
+  Building Custom Rule C:/blender-git/goo-engine/extern/ceres/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/datafiles/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/extern/draco/CMakeLists.txt
+  accelerate_sparse.cc
+  array_utils.cc
+  block_evaluate_preparer.cc
+  block_jacobi_preconditioner.cc
+  block_jacobian_writer.cc
+  block_random_access_dense_matrix.cc
+  block_random_access_diagonal_matrix.cc
+  block_random_access_matrix.cc
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/gpu/CMakeLists.txt
+  block_random_access_sparse_matrix.cc
+  block_sparse_matrix.cc
+  block_structure.cc
+  c_api.cc
+  Building Custom Rule C:/blender-git/goo-engine/extern/clew/CMakeLists.txt
+  callbacks.cc
+  canonical_views_clustering.cc
+  cgnr_solver.cc
+  compressed_col_sparse_matrix_utils.cc
+  clew.c
+  compressed_row_jacobian_writer.cc
+  compressed_row_sparse_matrix.cc
+  conditioned_cost_function.cc
+  conjugate_gradients_solver.cc
+  context.cc
+  extern_clew.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\extern_clew.lib
+  context_impl.cc
+  gpu_batch.cc
+  coordinate_descent_minimizer.cc
+  corrector.cc
+  gpu_capabilities.cc
+  cost_function.cc
+  gpu_codegen.cc
+  gpu_compute.cc
+  gpu_context.cc
+  gpu_debug.cc
+  covariance.cc
+  gpu_drawlist.cc
+  gpu_framebuffer.cc
+  covariance_impl.cc
+  cxsparse.cc
+  dense_cholesky.cc
+  dense_normal_cholesky_solver.cc
+  dense_qr.cc
+  gpu_immediate.cc
+  dense_qr_solver.cc
+  gpu_index_buffer.cc
+  gpu_matrix.cc
+  gpu_platform.cc
+  gpu_query.cc
+  gpu_select_sample_query.cc
+  dense_sparse_matrix.cc
+  gpu_shader.cc
+  detect_structure.cc
+  gpu_shader_create_info.cc
+  gpu_shader_dependency.cc
+  gpu_shader_interface.cc
+  gpu_shader_log.cc
+  gpu_state.cc
+  gpu_storage_buffer.cc
+  dogleg_strategy.cc
+  dynamic_compressed_row_jacobian_writer.cc
+  gpu_texture.cc
+  gpu_uniform_buffer.cc
+  gpu_vertex_buffer.cc
+  gpu_vertex_format.cc
+  dynamic_compressed_row_sparse_matrix.cc
+  gl_backend.cc
+  gl_batch.cc
+  gl_compute.cc
+  dynamic_sparse_normal_cholesky_solver.cc
+  gl_context.cc
+  gl_debug.cc
+  gl_debug_layer.cc
+  eigensparse.cc
+  evaluation_callback.cc
+  gl_drawlist.cc
+  gl_framebuffer.cc
+  evaluator.cc
+  gl_immediate.cc
+  file.cc
+  first_order_function.cc
+  gl_index_buffer.cc
+  float_cxsparse.cc
+  gl_query.cc
+  gl_shader.cc
+  gl_shader_interface.cc
+  float_suitesparse.cc
+  function_sample.cc
+  gl_shader_log.cc
+  gl_state.cc
+  gl_storage_buffer.cc
+  gl_texture.cc
+  gl_uniform_buffer.cc
+  gl_vertex_array.cc
+  gradient_checker.cc
+  gl_vertex_buffer.cc
+  gradient_checking_cost_function.cc
+  gradient_problem.cc
+  gradient_problem_solver.cc
+  implicit_schur_complement.cc
+  inner_product_computer.cc
+  is_close.cc
+  iteration_callback.cc
+  iterative_refiner.cc
+  iterative_schur_complement_solver.cc
+  levenberg_marquardt_strategy.cc
+  line_search.cc
+  line_search_direction.cc
+  line_search_minimizer.cc
+  line_search_preprocessor.cc
+  linear_least_squares_problems.cc
+  linear_operator.cc
+  linear_solver.cc
+  local_parameterization.cc
+  loss_function.cc
+  low_rank_inverse_hessian.cc
+  manifold.cc
+  minimizer.cc
+  normal_prior.cc
+  parallel_for_cxx.cc
+  parallel_for_nothreads.cc
+  parallel_for_openmp.cc
+  parallel_utils.cc
+  parameter_block_ordering.cc
+  partitioned_matrix_view.cc
+  polynomial.cc
+  preconditioner.cc
+  preprocessor.cc
+  problem.cc
+  extern_bullet.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\extern_bullet.lib
+  problem_impl.cc
+  program.cc
+  reorder_program.cc
+  residual_block.cc
+  residual_block_utils.cc
+  schur_complement_solver.cc
+  common.cpp
+  decoder.cpp
+  encoder.cpp
+  schur_eliminator.cc
+  schur_jacobi_preconditioner.cc
+  schur_templates.cc
+     Creating library C:/blender-git/build_windows_x64_vc16_Release/lib/Release/extern_draco.lib and object C:/blender-git/build_windows_x64_vc16_Release/lib/Release/extern_draco.exp
+  scratch_evaluate_preparer.cc
+  single_linkage_clustering.cc
+  solver.cc
+  extern_draco.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\extern_draco.dll
+  solver_utils.cc
+  bfont.pfb.c
+  preview.blend.c
+  preview_grease_pencil.blend.c
+  splash.png.c
+  alert_icons.png.c
+  blender_logo.png.c
+  sparse_cholesky.cc
+  blender_icons16.png.c
+  blender_icons32.png.c
+  sparse_matrix.cc
+  prvicons.png.c
+  sparse_normal_cholesky_solver.cc
+  blob.png.c
+  blur.png.c
+  clay.png.c
+  claystrips.png.c
+  clone.png.c
+  stringprintf.cc
+  crease.png.c
+  draw.png.c
+  fill.png.c
+  flatten.png.c
+  grab.png.c
+  inflate.png.c
+  layer.png.c
+  mask.png.c
+  mix.png.c
+  nudge.png.c
+  paint_select.png.c
+  pinch.png.c
+  scrape.png.c
+  smear.png.c
+  smooth.png.c
+  subset_preconditioner.cc
+  suitesparse.cc
+  snake_hook.png.c
+  soften.png.c
+  texdraw.png.c
+  texfill.png.c
+  texmask.png.c
+  thumb.png.c
+  thread_pool.cc
+  twist.png.c
+  gp_brush_smooth.png.c
+  gp_brush_thickness.png.c
+  gp_brush_strength.png.c
+  gp_brush_grab.png.c
+  gp_brush_push.png.c
+  gp_brush_twist.png.c
+  gp_brush_pinch.png.c
+  gp_brush_randomize.png.c
+  gp_brush_clone.png.c
+  gp_brush_weight.png.c
+  gp_brush_pencil.png.c
+  gp_brush_pen.png.c
+  gp_brush_ink.png.c
+  gp_brush_inknoise.png.c
+  gp_brush_block.png.c
+  thread_token_provider.cc
+  gp_brush_marker.png.c
+  gp_brush_fill.png.c
+  gp_brush_airbrush.png.c
+  gp_brush_chisel.png.c
+  gp_brush_erase_soft.png.c
+  gp_brush_erase_hard.png.c
+  gp_brush_erase_stroke.png.c
+  curves_sculpt_add.png.c
+  curves_sculpt_comb.png.c
+  curves_sculpt_cut.png.c
+  curves_sculpt_delete.png.c
+  curves_sculpt_density.png.c
+  curves_sculpt_grow_shrink.png.c
+  curves_sculpt_pinch.png.c
+  triplet_sparse_matrix.cc
+  curves_sculpt_puff.png.c
+  curves_sculpt_slide.png.c
+  curves_sculpt_smooth.png.c
+  curves_sculpt_snake_hook.png.c
+  startup.blend.c
+  trust_region_minimizer.cc
+  trust_region_preprocessor.cc
+  trust_region_step_evaluator.cc
+  trust_region_strategy.cc
+  types.cc
+  visibility.cc
+  visibility_based_preconditioner.cc
+  wall_time.cc
+  partitioned_matrix_view_d_d_d.cc
+  bf_editor_datafiles.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_datafiles.lib
+  schur_eliminator_d_d_d.cc
+  partitioned_matrix_view_2_2_2.cc
+  partitioned_matrix_view_2_2_3.cc
+  partitioned_matrix_view_2_2_4.cc
+  partitioned_matrix_view_2_2_d.cc
+  Building Custom Rule C:/blender-git/goo-engine/extern/cuew/CMakeLists.txt
+  partitioned_matrix_view_2_3_3.cc
+  partitioned_matrix_view_2_3_4.cc
+  partitioned_matrix_view_2_3_6.cc
+  cuew.c
+  partitioned_matrix_view_2_3_9.cc
+  extern_cuew.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\extern_cuew.lib
+  partitioned_matrix_view_2_3_d.cc
+  Building Custom Rule C:/blender-git/goo-engine/extern/curve_fit_nd/CMakeLists.txt
+  partitioned_matrix_view_2_4_3.cc
+  partitioned_matrix_view_2_4_4.cc
+  partitioned_matrix_view_2_4_6.cc
+  curve_fit_cubic.c
+  curve_fit_cubic_refit.c
+  curve_fit_corners_detect.c
+  generic_heap.c
+  partitioned_matrix_view_2_4_8.cc
+  partitioned_matrix_view_2_4_9.cc
+  extern_curve_fit_nd.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\extern_curve_fit_nd.lib
+  partitioned_matrix_view_2_4_d.cc
+  partitioned_matrix_view_2_d_d.cc
+  Building Custom Rule C:/blender-git/goo-engine/extern/gflags/CMakeLists.txt
+  partitioned_matrix_view_3_3_3.cc
+  partitioned_matrix_view_4_4_2.cc
+  partitioned_matrix_view_4_4_3.cc
+  gflags.cc
+  gflags_completions.cc
+  gflags_reporting.cc
+  windows_port.cc
+  partitioned_matrix_view_4_4_4.cc
+  partitioned_matrix_view_4_4_d.cc
+  schur_eliminator_2_2_2.cc
+  schur_eliminator_2_2_3.cc
+  gpu_batch_presets.c
+  gpu_batch_utils.c
+  gpu_buffers.c
+  gpu_immediate_util.c
+  gpu_init_exit.c
+  gpu_material.c
+  gpu_node_graph.c
+  gpu_select.c
+  gpu_select_pick.c
+  gpu_shader_builtin.c
+  gpu_viewport.c
+  schur_eliminator_2_2_4.cc
+  schur_eliminator_2_2_d.cc
+  extern_gflags.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\extern_gflags.lib
+  schur_eliminator_2_3_3.cc
+  Building Custom Rule C:/blender-git/goo-engine/extern/glew/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/extern/glog/CMakeLists.txt
+  schur_eliminator_2_3_4.cc
+  demangle.cc
+  glew.c
+  logging.cc
+  raw_logging.cc
+  signalhandler.cc
+  symbolize.cc
+  utilities.cc
+  vlog_is_on.cc
+  port.cc
+  schur_eliminator_2_3_6.cc
+  schur_eliminator_2_3_9.cc
+  bf_gpu.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_gpu.lib
+  extern_glog.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\extern_glog.lib
+  extern_glew.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\extern_glew.lib
+  Building Custom Rule C:/blender-git/goo-engine/extern/hipew/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/extern/lzma/CMakeLists.txt
+  hipew.c
+  Alloc.c
+  LzFind.c
+  LzmaDec.c
+  LzmaEnc.c
+  LzmaLib.c
+  extern_hipew.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\extern_hipew.lib
+  Building Custom Rule C:/blender-git/goo-engine/extern/mantaflow/CMakeLists.txt
+  extern_lzma.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\extern_lzma.lib
+  Building Custom Rule C:/blender-git/goo-engine/intern/cycles/session/CMakeLists.txt
+  commonkernels.h.reg.cpp
+  conjugategrad.cpp
+  conjugategrad.h.reg.cpp
+  edgecollapse.cpp
+  edgecollapse.h.reg.cpp
+  fastmarch.cpp
+  fastmarch.h.reg.cpp
+  iogrids.cpp
+  Building Custom Rule C:/blender-git/goo-engine/extern/lzo/CMakeLists.txt
+  iomeshes.cpp
+  ioparticles.cpp
+  ioutil.cpp
+  iovdb.cpp
+  mantaio.cpp
+  mantaio.h.reg.cpp
+  fluidsolver.cpp
+  fluidsolver.h.reg.cpp
+  general.cpp
+  general.h.reg.cpp
+  minilzo.c
+  grid.cpp
+  grid.h.reg.cpp
+  grid4d.cpp
+  grid4d.h.reg.cpp
+  kernel.cpp
+  kernel.h.reg.cpp
+  levelset.cpp
+  schur_eliminator_2_3_d.cc
+  extern_minilzo.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\extern_minilzo.lib
+  levelset.h.reg.cpp
+  mesh.cpp
+  buffers.cpp
+  denoising.cpp
+  merge.cpp
+  session.cpp
+  tile.cpp
+  mesh.h.reg.cpp
+  movingobs.cpp
+  movingobs.h.reg.cpp
+  multigrid.cpp
+  multigrid.h.reg.cpp
+  noisefield.cpp
+  schur_eliminator_2_4_3.cc
+  schur_eliminator_2_4_4.cc
+  noisefield.h.reg.cpp
+  particle.cpp
+  particle.h.reg.cpp
+  advection.cpp
+  apic.cpp
+  extforces.cpp
+  fire.cpp
+  cycles_session.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\cycles_session.lib
+  flip.cpp
+  schur_eliminator_2_4_6.cc
+  fluidguiding.cpp
+  initplugins.cpp
+  kepsilon.cpp
+  Building Custom Rule C:/blender-git/goo-engine/intern/cycles/scene/CMakeLists.txt
+  schur_eliminator_2_4_8.cc
+  meshplugins.cpp
+  schur_eliminator_2_4_9.cc
+  pressure.cpp
+  ptsplugins.cpp
+  secondaryparticles.cpp
+  alembic.cpp
+  alembic_read.cpp
+  surfaceturbulence.cpp
+  attribute.cpp
+  viscosity.cpp
+  background.cpp
+  bake.cpp
+  camera.cpp
+  colorspace.cpp
+  constant_fold.cpp
+  schur_eliminator_2_4_d.cc
+  vortexplugins.cpp
+  waveletturbulence.cpp
+  waves.cpp
+  schur_eliminator_2_d_d.cc
+  defines.py.reg.cpp
+  registration.cpp
+  shapes.cpp
+  shapes.h.reg.cpp
+  test.cpp
+  film.cpp
+  timing.cpp
+  timing.h.reg.cpp
+  turbulencepart.cpp
+  turbulencepart.h.reg.cpp
+  geometry.cpp
+  hair.cpp
+  vortexpart.cpp
+  vortexpart.h.reg.cpp
+  vortexsheet.cpp
+  vortexsheet.h.reg.cpp
+  image.cpp
+  image_oiio.cpp
+  pclass.cpp
+  pconvert.cpp
+  image_sky.cpp
+  pvec3.cpp
+  registry.cpp
+  simpleimage.cpp
+  vector4d.cpp
+  vectorbase.cpp
+  image_vdb.cpp
+  integrator.cpp
+  jitter.cpp
+  light.cpp
+  mesh.cpp
+  mesh_displace.cpp
+  mesh_subdivision.cpp
+  procedural.cpp
+  pointcloud.cpp
+  schur_eliminator_3_3_3.cc
+  object.cpp
+  schur_eliminator_4_4_2.cc
+  particles.cpp
+  pass.cpp
+  curves.cpp
+  scene.cpp
+  shader.cpp
+  shader_graph.cpp
+  shader_nodes.cpp
+  sobol.cpp
+  stats.cpp
+  svm.cpp
+  tables.cpp
+  schur_eliminator_4_4_3.cc
+  volume.cpp
+  schur_eliminator_4_4_4.cc
+  extern_mantaflow.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\extern_mantaflow.lib
+  schur_eliminator_4_4_d.cc
+  Building Custom Rule C:/blender-git/goo-engine/extern/quadriflow/CMakeLists.txt
+  adjacent-matrix.cpp
+  dedge.cpp
+  hierarchy.cpp
+  loader.cpp
+  localsat.cpp
+  merge-vertex.cpp
+  optimizer.cpp
+  parametrizer.cpp
+  parametrizer-flip.cpp
+  parametrizer-int.cpp
+  parametrizer-mesh.cpp
+  parametrizer-scale.cpp
+  parametrizer-sing.cpp
+  subdivide.cpp
+  arg_parser.cc
+  base.cc
+  color.cc
+  lp_base.cc
+  lp_skeleton.cc
+  random.cc
+  windows.cc
+  extern_quadriflow.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\extern_quadriflow.lib
+  Building Custom Rule C:/blender-git/goo-engine/extern/rangetree/CMakeLists.txt
+  range_tree.c
+  extern_rangetree.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\extern_rangetree.lib
+  Building Custom Rule C:/blender-git/goo-engine/extern/wcwidth/CMakeLists.txt
+  wcwidth.c
+  extern_wcwidth.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\extern_wcwidth.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/blendthumb/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/blentranslation/msgfmt/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/makesdna/intern/CMakeLists.txt
+  dna_utils.c
+  makesdna.c
+  BLI_assert.c
+  BLI_ghash.c
+  BLI_ghash_utils.c
+  BLI_memarena.c
+  BLI_mempool.c
+  hash_mm2a.c
+  mallocn.c
+  mallocn_guarded_impl.c
+  mallocn_lockfree_impl.c
+  blendthumb_extract.cc
+  blendthumb_png.cc
+  blendthumb_win32.cc
+  blendthumb_win32_dll.cc
+  extern_ceres.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\extern_ceres.lib
+  leak_detector.cc
+  makesdna.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\bin\Release\makesdna.exe
+  msgfmt.c
+     Creating library C:/blender-git/build_windows_x64_vc16_Release/lib/Release/BlendThumb.lib and object C:/blender-git/build_windows_x64_vc16_Release/lib/Release/BlendThumb.exp
+  BlendThumb.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\BlendThumb.dll
+  msgfmt.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\bin\Release\msgfmt.exe
+  Generating dna.c, dna_type_offsets.h, dna_verify.c
+  Generating ab.mo
+  Generating ar.mo
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/makesdna/intern/CMakeLists.txt
+  Generating ca.mo
+  Generating cs.mo
+  Generating de.mo
+  Generating eo.mo
+  Generating es.mo
+  Generating es_ES.mo
+  Generating eu.mo
+  Generating fa.mo
+  Generating fi.mo
+  Generating fr.mo
+  Generating ha.mo
+  Generating he.mo
+  Generating hi.mo
+  Generating hr.mo
+  Generating hu.mo
+  Generating id.mo
+  Generating it.mo
+  Generating ja.mo
+  Generating ka.mo
+  Generating ko.mo
+  Generating ky.mo
+  Generating nl.mo
+  Generating pl.mo
+  Generating pt.mo
+  Generating pt_BR.mo
+  Generating ru.mo
+  Generating sk.mo
+  Generating sr.mo
+  Generating sr@latin.mo
+  Generating sv.mo
+  Generating th.mo
+  Generating tr.mo
+  Generating uk.mo
+  Generating vi.mo
+  Generating zh_CN.mo
+  Generating zh_TW.mo
+  Building Custom Rule C:/blender-git/goo-engine/source/creator/CMakeLists.txt
+  dna_defaults.c
+  dna_genfile.c
+  dna_utils.c
+  dna.c
+  dna_verify.c
+  bf_dna.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_dna.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/makesrna/intern/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/draw/CMakeLists.txt
+  makesrna.c
+  rna_define.c
+  rna_ID.c
+  rna_action.c
+  rna_animation.c
+  rna_animviz.c
+  rna_armature.c
+  rna_asset.c
+  draw_cache.c
+  draw_cache_impl_displist.c
+  rna_attribute.c
+  rna_boid.c
+  draw_cache_impl_gpencil.c
+  rna_brush.c
+  draw_cache_impl_lattice.c
+  draw_cache_impl_metaball.c
+  rna_cachefile.c
+  rna_camera.c
+  draw_cache_impl_particles.c
+  draw_cache_impl_pointcloud.c
+  rna_cloth.c
+  draw_cache_impl_volume.c
+  rna_collection.c
+  rna_color.c
+  draw_common.c
+  draw_debug.c
+  rna_constraint.c
+  draw_fluid.c
+  rna_context.c
+  draw_instance_data.c
+  rna_curve.c
+  rna_curveprofile.c
+  draw_manager.c
+  rna_curves.c
+  draw_manager_data.c
+  rna_depsgraph.c
+  rna_dynamicpaint.c
+  rna_fcurve.c
+  draw_manager_exec.c
+  draw_manager_profiling.c
+  draw_manager_shader.c
+  rna_fluid.c
+  draw_manager_text.c
+  rna_gpencil.c
+  rna_gpencil_modifier.c
+  draw_manager_texture.c
+  rna_image.c
+  draw_select_buffer.c
+  rna_key.c
+  rna_lattice.c
+  draw_view.c
+  rna_layer.c
+  smaa_textures.c
+  rna_light.c
+  basic_engine.c
+  basic_shader.c
+  eevee_bloom.c
+  eevee_cryptomatte.c
+  eevee_data.c
+  eevee_depth_of_field.c
+  rna_lightprobe.c
+  eevee_effects.c
+  rna_linestyle.c
+  eevee_lightcache.c
+  rna_main.c
+  rna_mask.c
+  eevee_lightprobes.c
+  rna_material.c
+  rna_mesh.c
+  rna_meta.c
+  eevee_lights.c
+  rna_modifier.c
+  rna_movieclip.c
+  eevee_lookdev.c
+  eevee_lut.c
+  rna_nla.c
+  rna_nodetree.c
+  eevee_lut_gen.c
+  rna_object.c
+  rna_object_force.c
+  eevee_materials.c
+  rna_packedfile.c
+  eevee_mist.c
+  rna_palette.c
+  eevee_motion_blur.c
+  rna_particle.c
+  eevee_occlusion.c
+  eevee_render.c
+  rna_pointcloud.c
+  eevee_renderpasses.c
+  rna_pose.c
+  eevee_screen_raytrace.c
+  rna_render.c
+  rna_rigidbody.c
+  eevee_shaders.c
+  rna_rna.c
+  eevee_shadows.c
+  rna_scene.c
+  eevee_shadows_cascade.c
+  rna_screen.c
+  rna_sculpt_paint.c
+  eevee_shadows_cube.c
+  rna_sequencer.c
+  eevee_subsurface.c
+  rna_shader_fx.c
+  eevee_temporal_sampling.c
+  rna_sound.c
+  rna_space.c
+  rna_speaker.c
+  rna_test.c
+  eevee_volumes.c
+  rna_text.c
+  workbench_data.c
+  rna_texture.c
+  rna_timeline.c
+  workbench_effect_antialiasing.c
+  rna_tracking.c
+  workbench_effect_cavity.c
+  rna_ui.c
+  rna_userdef.c
+  workbench_effect_dof.c
+  workbench_effect_outline.c
+  workbench_engine.c
+  workbench_materials.c
+  workbench_opaque.c
+  rna_vfont.c
+  rna_volume.c
+  workbench_render.c
+  rna_wm.c
+  rna_wm_gizmo.c
+  workbench_shadow.c
+  rna_workspace.c
+  workbench_transparent.c
+  rna_world.c
+  rna_xr.c
+  workbench_volume.c
+  external_engine.c
+  gpencil_antialiasing.c
+  rna_action_api.c
+  gpencil_cache_utils.c
+  rna_animation_api.c
+  gpencil_draw_data.c
+  rna_armature_api.c
+  rna_camera_api.c
+  gpencil_engine.c
+  gpencil_render.c
+  gpencil_shader.c
+  rna_curve_api.c
+  gpencil_shader_fx.c
+  rna_fcurve_api.c
+  select_draw_utils.c
+  rna_image_api.c
+  rna_lattice_api.c
+  select_engine.c
+  rna_main_api.c
+  overlay_antialiasing.c
+  rna_material_api.c
+  rna_mesh_api.c
+  rna_meta_api.c
+  overlay_armature.c
+  rna_object_api.c
+  rna_pose_api.c
+  overlay_background.c
+  overlay_edit_curve.c
+  rna_scene_api.c
+  overlay_edit_mesh.c
+  rna_sequencer_api.c
+  rna_sound_api.c
+  overlay_edit_text.c
+  rna_space_api.c
+  rna_text_api.c
+  overlay_edit_uv.c
+  rna_texture_api.c
+  overlay_engine.c
+  overlay_extra.c
+  rna_ui_api.c
+  overlay_facing.c
+  overlay_fade.c
+  rna_vfont_api.c
+  overlay_gpencil.c
+  overlay_grid.c
+  overlay_image.c
+  overlay_lattice.c
+  rna_wm_api.c
+  rna_wm_gizmo_api.c
+  rna_workspace_api.c
+  clog.c
+  overlay_metaball.c
+  mallocn.c
+  mallocn_guarded_impl.c
+  overlay_mode_transfer.c
+  mallocn_lockfree_impl.c
+  overlay_motion_path.c
+  userdef_default.c
+  overlay_outline.c
+  overlay_paint.c
+  overlay_particle.c
+  overlay_sculpt.c
+  userdef_default_theme.c
+  overlay_shader.c
+  overlay_volume.c
+  overlay_wireframe.c
+  leak_detector.cc
+  draw_cache_extract_mesh.cc
+  draw_cache_extract_mesh_render_data.cc
+  extract_mesh.cc
+  extract_mesh_ibo_edituv.cc
+  extract_mesh_ibo_fdots.cc
+  extract_mesh_ibo_lines.cc
+  extract_mesh_ibo_lines_adjacency.cc
+  extract_mesh_ibo_lines_paint_mask.cc
+  makesrna.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\bin\Release\makesrna.exe
+  extract_mesh_ibo_points.cc
+  extract_mesh_ibo_tris.cc
+  extract_mesh_vbo_attributes.cc
+  extract_mesh_vbo_edge_fac.cc
+  extract_mesh_vbo_edit_data.cc
+  extract_mesh_vbo_edituv_data.cc
+  Generating rna_ID_gen.c, rna_action_gen.c, rna_animation_gen.c, rna_animviz_gen.c, rna_armature_gen.c, rna_asset_gen.c, rna_attribute_gen.c, rna_boid_gen.c, rna_brush_gen.c, rna_cachefile_gen.c, rna_camera_gen.c, rna_cloth_gen.c, rna_collection_gen.c, rna_color_gen.c, rna_constraint_gen.c, rna_context_gen.c, rna_curve_gen.c, rna_curveprofile_gen.c, rna_curves_gen.c, rna_depsgraph_gen.c, rna_dynamicpaint_gen.c, rna_fcurve_gen.c, rna_fluid_gen.c, rna_gpencil_gen.c, rna_gpencil_modifier_gen.c, rna_image_gen.c, rna_key_gen.c, rna_lattice_gen.c, rna_layer_gen.c, rna_light_gen.c, rna_lightprobe_gen.c, rna_linestyle_gen.c, rna_main_gen.c, rna_mask_gen.c, rna_material_gen.c, rna_mesh_gen.c, rna_meta_gen.c, rna_modifier_gen.c, rna_movieclip_gen.c, rna_nla_gen.c, rna_nodetree_gen.c, rna_object_gen.c, rna_object_force_gen.c, rna_packedfile_gen.c, rna_palette_gen.c, rna_particle_gen.c, rna_pointcloud_gen.c, rna_pose_gen.c, rna_render_gen.c, rna_rigidbody_gen.c, rna_rna_gen.c, rna_scene_gen.c, rna_screen_gen.c, rna_sculpt_paint_gen.c, rna_sequencer_gen.c, rna_shader_fx_gen.c, rna_sound_gen.c, rna_space_gen.c, rna_speaker_gen.c, rna_test_gen.c, rna_text_gen.c, rna_texture_gen.c, rna_timeline_gen.c, rna_tracking_gen.c, rna_ui_gen.c, rna_userdef_gen.c, rna_vfont_gen.c, rna_volume_gen.c, rna_wm_gen.c, rna_wm_gizmo_gen.c, rna_workspace_gen.c, rna_world_gen.c, rna_xr_gen.c, rna_prototypes_gen.h, ../RNA_prototypes.h
+  extract_mesh_vbo_edituv_stretch_angle.cc
+  extract_mesh_vbo_edituv_stretch_area.cc
+  extract_mesh_vbo_fdots_edituv_data.cc
+  extract_mesh_vbo_fdots_nor.cc
+  extract_mesh_vbo_fdots_pos.cc
+  extract_mesh_vbo_fdots_uv.cc
+  extract_mesh_vbo_lnor.cc
+  extract_mesh_vbo_mesh_analysis.cc
+  extract_mesh_vbo_orco.cc
+  extract_mesh_vbo_pos_nor.cc
+  extract_mesh_vbo_sculpt_data.cc
+  extract_mesh_vbo_select_idx.cc
+  extract_mesh_vbo_skin_roots.cc
+  extract_mesh_vbo_tan.cc
+  extract_mesh_vbo_uv.cc
+  extract_mesh_vbo_weights.cc
+  draw_attributes.cc
+  draw_cache_impl_curve.cc
+  draw_cache_impl_curves.cc
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/makesrna/intern/CMakeLists.txt
+  draw_cache_impl_mesh.cc
+  draw_cache_impl_subdivision.cc
+  draw_color_management.cc
+  draw_curves.cc
+  draw_hair.cc
+  draw_shader.cc
+  draw_texture_pool.cc
+  rna_access.c
+  rna_access_compare_override.c
+  rna_ID_gen.c
+  rna_action_gen.c
+  rna_animation_gen.c
+  draw_view_data.cc
+  rna_animviz_gen.c
+  rna_armature_gen.c
+  rna_asset_gen.c
+  draw_volume.cc
+  rna_attribute_gen.c
+  image_engine.cc
+  rna_boid_gen.c
+  image_shader.cc
+  rna_brush_gen.c
+  rna_cachefile_gen.c
+  rna_camera_gen.c
+  eevee_shaders_extra.cc
+  rna_cloth_gen.c
+  rna_collection_gen.c
+  rna_color_gen.c
+  rna_constraint_gen.c
+  rna_context_gen.c
+  rna_curve_gen.c
+  eevee_camera.cc
+  rna_curveprofile_gen.c
+  rna_curves_gen.c
+  eevee_film.cc
+  rna_depsgraph_gen.c
+  rna_dynamicpaint_gen.c
+  rna_fcurve_gen.c
+  rna_fluid_gen.c
+  rna_gpencil_gen.c
+  eevee_instance.cc
+  rna_gpencil_modifier_gen.c
+  rna_image_gen.c
+  eevee_material.cc
+  rna_key_gen.c
+  rna_lattice_gen.c
+  rna_layer_gen.c
+  eevee_pipeline.cc
+  rna_light_gen.c
+  rna_lightprobe_gen.c
+  rna_linestyle_gen.c
+  rna_main_gen.c
+  rna_mask_gen.c
+  rna_material_gen.c
+  rna_mesh_gen.c
+  rna_meta_gen.c
+  rna_modifier_gen.c
+  eevee_renderbuffers.cc
+  rna_movieclip_gen.c
+  rna_nla_gen.c
+  eevee_shader.cc
+  rna_nodetree_gen.c
+  rna_object_gen.c
+  eevee_sync.cc
+  rna_object_force_gen.c
+  rna_packedfile_gen.c
+  rna_palette_gen.c
+  eevee_velocity.cc
+  rna_particle_gen.c
+  rna_pointcloud_gen.c
+  rna_pose_gen.c
+  rna_render_gen.c
+  eevee_view.cc
+  rna_rigidbody_gen.c
+  rna_rna_gen.c
+  eevee_world.cc
+  workbench_shader.cc
+  rna_scene_gen.c
+  rna_screen_gen.c
+  rna_sculpt_paint_gen.c
+  rna_sequencer_gen.c
+  rna_shader_fx_gen.c
+  rna_sound_gen.c
+  rna_space_gen.c
+  overlay_edit_curves.cc
+  rna_speaker_gen.c
+  overlay_sculpt_curves.cc
+  rna_test_gen.c
+  rna_text_gen.c
+  rna_texture_gen.c
+  rna_timeline_gen.c
+  rna_tracking_gen.c
+  rna_ui_gen.c
+  rna_userdef_gen.c
+  rna_vfont_gen.c
+  rna_volume_gen.c
+  rna_wm_gen.c
+  rna_wm_gizmo_gen.c
+  rna_workspace_gen.c
+  rna_world_gen.c
+  rna_xr_gen.c
+  eevee_engine.c
+  rna_path.cc
+  eevee_sampling.c
+  bf_rna.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_rna.lib
+  eevee_engine.cc
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/windowmanager/CMakeLists.txt
+  wm.c
+  wm_cursors.c
+  wm_draw.c
+  wm_event_query.c
+  wm_files.c
+  wm_files_link.c
+  wm_gesture.c
+  wm_gesture_ops.c
+  wm_init_exit.c
+  wm_jobs.c
+  wm_keymap.c
+  wm_keymap_utils.c
+  wm_menu_type.c
+  wm_operator_props.c
+  wm_operator_type.c
+  wm_operator_utils.c
+  wm_operators.c
+  wm_panel_type.c
+  wm_platform_support.c
+  wm_playanim.c
+  wm_splash_screen.c
+  wm_stereo.c
+  wm_subwindow.c
+  wm_surface.c
+  wm_toolsystem.c
+  wm_tooltip.c
+  wm_uilist_type.c
+  wm_utils.c
+  wm_window.c
+  wm_gizmo.c
+  wm_gizmo_group.c
+  wm_gizmo_group_type.c
+  wm_gizmo_map.c
+  wm_gizmo_target_props.c
+  wm_gizmo_type.c
+  wm_message_bus.c
+  wm_message_bus_rna.c
+  wm_message_bus_static.c
+  wm_xr.c
+  wm_xr_action.c
+  wm_xr_actionmap.c
+  wm_xr_draw.c
+  wm_xr_operators.c
+  wm_xr_session.c
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/shader_fx/CMakeLists.txt
+  eevee_sampling.cc
+  FX_ui_common.c
+  FX_shader_blur.c
+  FX_shader_colorize.c
+  FX_shader_flip.c
+  FX_shader_glow.c
+  FX_shader_pixel.c
+  FX_shader_rim.c
+  FX_shader_shadow.c
+  FX_shader_swirl.c
+  FX_shader_util.c
+  FX_shader_wave.c
+  osl.cpp
+  bf_shader_fx.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_shader_fx.lib
+  wm_dragdrop.cc
+  wm_event_system.cc
+  bf_draw.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_draw.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/sequencer/CMakeLists.txt
+  animation.c
+  channels.c
+  clipboard.c
+  disk_cache.c
+  effects.c
+  image_cache.c
+  iterator.c
+  modifier.c
+  multiview.c
+  prefetch.c
+  proxy.c
+  proxy_job.c
+  render.c
+  sequence_lookup.c
+  sequencer.c
+  sound.c
+  strip_add.c
+  strip_edit.c
+  strip_relations.c
+  strip_select.c
+  strip_time.c
+  strip_transform.c
+  utils.c
+  bf_windowmanager.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_windowmanager.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/python/intern/CMakeLists.txt
+  bpy.c
+  bpy_app.c
+  bpy_app_alembic.c
+  bpy_app_build_options.c
+  bpy_app_ffmpeg.c
+  bpy_app_handlers.c
+  bpy_app_icons.c
+  bpy_app_ocio.c
+  bpy_app_oiio.c
+  bpy_app_opensubdiv.c
+  bpy_app_openvdb.c
+  bpy_app_sdl.c
+  bpy_app_timers.c
+  bpy_app_translations.c
+  bpy_app_usd.c
+  bpy_capi_utils.c
+  bpy_driver.c
+  bpy_gizmo_wrap.c
+  bpy_interface.c
+  bpy_interface_atexit.c
+  bpy_interface_run.c
+  bpy_intern_string.c
+  bpy_library_load.c
+  bpy_library_write.c
+  bpy_msgbus.c
+  bpy_operator.c
+  bpy_operator_wrap.c
+  bpy_path.c
+  bpy_props.c
+  bpy_rna.c
+  bpy_rna_anim.c
+  bpy_rna_array.c
+  bpy_rna_callback.c
+  bpy_rna_context.c
+  bpy_rna_data.c
+  bpy_rna_driver.c
+  bpy_rna_gizmo.c
+  bpy_rna_id_collection.c
+  bpy_rna_operator.c
+  bpy_rna_text.c
+  bpy_rna_types_capi.c
+  bpy_rna_ui.c
+  bpy_traceback.c
+  bpy_utils_previews.c
+  bpy_utils_units.c
+  stubs.c
+  bf_python.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_python.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/nodes/texture/CMakeLists.txt
+  node_texture_at.c
+  node_texture_bricks.c
+  node_texture_checker.c
+  node_texture_combine_color.c
+  node_texture_common.c
+  node_texture_compose.c
+  node_texture_coord.c
+  node_texture_curves.c
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/nodes/shader/CMakeLists.txt
+  node_texture_decompose.c
+  node_texture_distance.c
+  node_texture_hueSatVal.c
+  node_texture_image.c
+  node_texture_invert.c
+  node_texture_math.c
+  node_texture_mixRgb.c
+  node_texture_output.c
+  node_texture_proc.c
+  node_texture_rotate.c
+  node_texture_scale.c
+  node_texture_separate_color.c
+  node_texture_texture.c
+  node_texture_translate.c
+  node_texture_valToNor.c
+  node_texture_valToRgb.c
+  node_texture_viewer.c
+  node_texture_tree.c
+  node_texture_util.c
+  unity_10_cxx.cxx
+  unity_9_cxx.cxx
+  unity_8_cxx.cxx
+  unity_7_cxx.cxx
+  unity_6_cxx.cxx
+  unity_5_cxx.cxx
+  unity_4_cxx.cxx
+  unity_3_cxx.cxx
+  bf_sequencer.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_sequencer.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/nodes/geometry/CMakeLists.txt
+  bf_nodes_texture.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_nodes_texture.lib
+  unity_13_cxx.cxx
+  cycles_scene.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\cycles_scene.lib
+  unity_12_cxx.cxx
+  unity_11_cxx.cxx
+  unity_10_cxx.cxx
+  unity_9_cxx.cxx
+  unity_8_cxx.cxx
+  unity_7_cxx.cxx
+  unity_6_cxx.cxx
+  unity_2_cxx.cxx
+  unity_1_cxx.cxx
+  Building Custom Rule C:/blender-git/goo-engine/intern/cycles/kernel/osl/CMakeLists.txt
+  unity_0_cxx.cxx
+  background.cpp
+  bsdf_diffuse_ramp.cpp
+  bsdf_phong_ramp.cpp
+  emissive.cpp
+  bssrdf.cpp
+  unity_5_cxx.cxx
+  closures.cpp
+  services.cpp
+  shader.cpp
+  unity_4_cxx.cxx
+  unity_3_cxx.cxx
+  unity_2_cxx.cxx
+  unity_1_cxx.cxx
+  unity_0_cxx.cxx
+  bf_nodes_shader.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_nodes_shader.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/nodes/composite/CMakeLists.txt
+  unity_8_cxx.cxx
+  unity_7_cxx.cxx
+  unity_6_cxx.cxx
+  unity_5_cxx.cxx
+  unity_4_cxx.cxx
+  unity_3_cxx.cxx
+  unity_2_cxx.cxx
+  unity_1_cxx.cxx
+  unity_0_cxx.cxx
+  bf_nodes_composite.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_nodes_composite.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/nodes/CMakeLists.txt
+  derived_node_tree.cc
+  geometry_nodes_eval_log.cc
+  math_functions.cc
+  node_common.cc
+  node_declaration.cc
+  node_exec.cc
+  node_geometry_exec.cc
+  node_multi_function.cc
+  node_socket.cc
+  node_socket_declarations.cc
+  node_tree_ref.cc
+  socket_search_link.cc
+  cycles_kernel_osl.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\cycles_kernel_osl.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/modifiers/CMakeLists.txt
+  MOD_armature.c
+  MOD_array.c
+  MOD_bevel.c
+  MOD_build.c
+  MOD_cast.c
+  MOD_cloth.c
+  MOD_collision.c
+  MOD_correctivesmooth.c
+  MOD_curve.c
+  MOD_datatransfer.c
+  MOD_decimate.c
+  MOD_displace.c
+  MOD_dynamicpaint.c
+  MOD_edgesplit.c
+  MOD_explode.c
+  MOD_fluid.c
+  MOD_hook.c
+  MOD_laplaciandeform.c
+  MOD_laplaciansmooth.c
+  MOD_lattice.c
+  node_util.c
+  MOD_meshcache.c
+  MOD_meshcache_mdd.c
+  MOD_meshcache_pc2.c
+  MOD_meshcache_util.c
+  MOD_meshdeform.c
+  MOD_mirror.c
+  MOD_multires.c
+  MOD_none.c
+  MOD_normal_edit.c
+  MOD_ocean.c
+  MOD_particleinstance.c
+  MOD_remesh.c
+  MOD_screw.c
+  MOD_shapekey.c
+  MOD_simpledeform.c
+  MOD_shrinkwrap.c
+  MOD_skin.c
+  MOD_smooth.c
+  MOD_softbody.c
+  MOD_solidify.c
+  MOD_solidify_extrude.c
+  MOD_solidify_nonmanifold.c
+  MOD_subsurf.c
+  MOD_surface.c
+  MOD_surfacedeform.c
+  MOD_triangulate.c
+  bf_nodes.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_nodes.lib
+  MOD_ui_common.c
+  MOD_util.c
+  MOD_uvproject.c
+  MOD_uvwarp.c
+  MOD_warp.c
+  MOD_wave.c
+  MOD_weighted_normal.c
+  MOD_weightvg_util.c
+  MOD_weightvgedit.c
+  MOD_weightvgmix.c
+  MOD_weightvgproximity.c
+  MOD_wireframe.c
+  Building Custom Rule C:/blender-git/goo-engine/intern/cycles/kernel/CMakeLists.txt
+  kernel.cpp
+  MOD_boolean.cc
+  MOD_mask.cc
+  MOD_mesh_to_volume.cc
+  MOD_meshsequencecache.cc
+  MOD_nodes.cc
+  MOD_nodes_evaluator.cc
+  MOD_particlesystem.cc
+  MOD_volume_displace.cc
+  MOD_volume_to_mesh.cc
+  MOD_weld.cc
+  bf_nodes_geometry.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_nodes_geometry.lib
+  Building Custom Rule C:/blender-git/goo-engine/intern/cycles/blender/CMakeLists.txt
+  camera.cpp
+  device.cpp
+  display_driver.cpp
+  image.cpp
+  geometry.cpp
+  light.cpp
+  mesh.cpp
+  object.cpp
+  object_cull.cpp
+  output_driver.cpp
+  particles.cpp
+  pointcloud.cpp
+  curves.cpp
+  logging.cpp
+  python.cpp
+  session.cpp
+  shader.cpp
+  sync.cpp
+  texture.cpp
+  viewport.cpp
+  volume.cpp
+  bf_intern_cycles.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_intern_cycles.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/gpencil_modifiers/CMakeLists.txt
+  MOD_gpencil_ui_common.c
+  MOD_gpencil_util.c
+  MOD_gpencilarmature.c
+  MOD_gpencilarray.c
+  MOD_gpencilbuild.c
+  MOD_gpencilcolor.c
+  MOD_gpencildash.c
+  MOD_gpencilenvelope.c
+  MOD_gpencilhook.c
+  MOD_gpencillattice.c
+  MOD_gpencillength.c
+  MOD_gpencillineart.c
+  MOD_gpencilmirror.c
+  MOD_gpencilmultiply.c
+  MOD_gpencilnoise.c
+  MOD_gpenciloffset.c
+  MOD_gpencilopacity.c
+  MOD_gpencilshrinkwrap.c
+  MOD_gpencilsimplify.c
+  MOD_gpencilsmooth.c
+  MOD_gpencilsubdiv.c
+  MOD_gpenciltexture.c
+  MOD_gpencilthick.c
+  MOD_gpenciltime.c
+  MOD_gpenciltint.c
+  MOD_gpencilweight_angle.c
+  MOD_gpencilweight_proximity.c
+  lineart_chain.c
+  lineart_cpu.c
+  lineart_ops.c
+  lineart_shadow.c
+  lineart_util.c
+  lineart_cpp_bridge.cc
+C:\blender-git\lib\win64_vc15\tbb\include\tbb/parallel_sort.h(125,1): warning C4180: qualifier applied to function type has no meaning; ignored [C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpencil_modifiers\bf_gpencil_modifiers.vcxproj]
+C:\blender-git\lib\win64_vc15\tbb\include\tbb/parallel_sort.h(176): message : see reference to class template instantiation 'tbb::interface9::internal::quick_sort_pretest_body<RandomAccessIterator,Compare>' being compiled [C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpencil_modifiers\bf_gpencil_modifiers.vcxproj]
+          with
+          [
+              RandomAccessIterator=LineartAdjacentEdge *,
+              Compare=bool (const LineartAdjacentEdge &,const LineartAdjacentEdge &)
+          ]
+C:\blender-git\lib\win64_vc15\tbb\include\tbb/parallel_sort.h(216): message : see reference to function template instantiation 'void tbb::interface9::internal::parallel_quick_sort<RandomAccessIterator,Compare>(RandomAccessIterator,RandomAccessIterator,Compare (__cdecl &))' being compiled [C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpencil_modifiers\bf_gpencil_modifiers.vcxproj]
+          with
+          [
+              RandomAccessIterator=LineartAdjacentEdge *,
+              Compare=bool (const LineartAdjacentEdge &,const LineartAdjacentEdge &)
+          ]
+C:\blender-git\goo-engine\source\blender\gpencil_modifiers\intern\lineart\lineart_cpp_bridge.cc(24): message : see reference to function template instantiation 'void tbb::parallel_sort<LineartAdjacentEdge*,bool(const LineartAdjacentEdge &,const LineartAdjacentEdge &)>(RandomAccessIterator,RandomAccessIterator,Compare (__cdecl &))' being compiled [C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpencil_modifiers\bf_gpencil_modifiers.vcxproj]
+          with
+          [
+              RandomAccessIterator=LineartAdjacentEdge *,
+              Compare=bool (const LineartAdjacentEdge &,const LineartAdjacentEdge &)
+          ]
+C:\blender-git\lib\win64_vc15\tbb\include\tbb/parallel_sort.h(128): warning C4180: qualifier applied to function type has no meaning; ignored [C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpencil_modifiers\bf_gpencil_modifiers.vcxproj]
+C:\blender-git\lib\win64_vc15\tbb\include\tbb/parallel_sort.h(128,1): warning C4180: qualifier applied to function type has no meaning; ignored [C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpencil_modifiers\bf_gpencil_modifiers.vcxproj]
+C:\blender-git\lib\win64_vc15\tbb\include\tbb/parallel_sort.h(102,1): warning C4180: qualifier applied to function type has no meaning; ignored [C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpencil_modifiers\bf_gpencil_modifiers.vcxproj]
+C:\blender-git\lib\win64_vc15\tbb\include\tbb/parallel_sort.h(183): message : see reference to class template instantiation 'tbb::interface9::internal::quick_sort_range<RandomAccessIterator,Compare>' being compiled [C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpencil_modifiers\bf_gpencil_modifiers.vcxproj]
+          with
+          [
+              RandomAccessIterator=LineartAdjacentEdge *,
+              Compare=bool (const LineartAdjacentEdge &,const LineartAdjacentEdge &)
+          ]
+C:\blender-git\lib\win64_vc15\tbb\include\tbb/parallel_sort.h(106): warning C4180: qualifier applied to function type has no meaning; ignored [C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpencil_modifiers\bf_gpencil_modifiers.vcxproj]
+C:\blender-git\lib\win64_vc15\tbb\include\tbb/parallel_sort.h(106,1): warning C4180: qualifier applied to function type has no meaning; ignored [C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpencil_modifiers\bf_gpencil_modifiers.vcxproj]
+  bf_gpencil_modifiers.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_gpencil_modifiers.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/freestyle/CMakeLists.txt
+  cmake_pch.cxx
+  bf_modifiers.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_modifiers.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/uvedit/CMakeLists.txt
+  uvedit_buttons.c
+  uvedit_draw.c
+  uvedit_islands.c
+  uvedit_ops.c
+  uvedit_path.c
+  uvedit_rip.c
+  uvedit_select.c
+  uvedit_smart_stitch.c
+  uvedit_unwrap_ops.c
+  bf_editor_uvedit.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_uvedit.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/util/CMakeLists.txt
+  AppCanvas.cpp
+  AppConfig.cpp
+  AppView.cpp
+  Controller.cpp
+  BlenderFileLoader.cpp
+  BlenderStrokeRenderer.cpp
+  FRS_freestyle.cpp
+  Bezier.cpp
+  ed_draw.c
+  FastGrid.cpp
+  ed_transverts.c
+  ed_util.c
+  ed_util_imbuf.c
+  gizmo_utils.c
+  numinput.c
+  FitCurve.cpp
+  select_utils.c
+  GeomCleaner.cpp
+  GeomUtils.cpp
+  Grid.cpp
+  GridHelpers.cpp
+  HashGrid.cpp
+  Noise.cpp
+  matrix_util.cpp
+  normal_cycle.cpp
+  GaussianFilter.cpp
+  ImagePyramid.cpp
+  BPy_BBox.cpp
+  BPy_BinaryPredicate0D.cpp
+  BPy_BinaryPredicate1D.cpp
+  BPy_ContextFunctions.cpp
+  BPy_Convert.cpp
+  BPy_Freestyle.cpp
+  BPy_FrsMaterial.cpp
+  ed_util_ops.cc
+  BPy_FrsNoise.cpp
+  BPy_Id.cpp
+  BPy_IntegrationType.cpp
+  BPy_Interface0D.cpp
+  BPy_Interface1D.cpp
+  BPy_Iterator.cpp
+  BPy_MediumType.cpp
+  BPy_Nature.cpp
+  BPy_Operators.cpp
+  BPy_SShape.cpp
+  BPy_StrokeAttribute.cpp
+  BPy_StrokeShader.cpp
+  BPy_UnaryFunction0D.cpp
+  BPy_UnaryFunction1D.cpp
+  BPy_UnaryPredicate0D.cpp
+  BPy_UnaryPredicate1D.cpp
+  BPy_ViewMap.cpp
+  BPy_ViewShape.cpp
+  BPy_FalseBP1D.cpp
+  BPy_Length2DBP1D.cpp
+  BPy_SameShapeIdBP1D.cpp
+  BPy_TrueBP1D.cpp
+  BPy_ViewMapGradientNormBP1D.cpp
+  Director.cpp
+  BPy_CurvePoint.cpp
+  BPy_SVertex.cpp
+  BPy_ViewVertex.cpp
+  BPy_StrokeVertex.cpp
+  BPy_NonTVertex.cpp
+  BPy_TVertex.cpp
+  BPy_FEdge.cpp
+  BPy_FrsCurve.cpp
+  BPy_Stroke.cpp
+  BPy_ViewEdge.cpp
+  BPy_Chain.cpp
+  BPy_FEdgeSharp.cpp
+  BPy_FEdgeSmooth.cpp
+  BPy_AdjacencyIterator.cpp
+  BPy_ChainPredicateIterator.cpp
+  BPy_ChainSilhouetteIterator.cpp
+  BPy_ChainingIterator.cpp
+  BPy_CurvePointIterator.cpp
+  BPy_Interface0DIterator.cpp
+  BPy_SVertexIterator.cpp
+  BPy_StrokeVertexIterator.cpp
+  BPy_ViewEdgeIterator.cpp
+  BPy_orientedViewEdgeIterator.cpp
+  BPy_BackboneStretcherShader.cpp
+  BPy_BezierCurveShader.cpp
+  BPy_BlenderTextureShader.cpp
+  BPy_CalligraphicShader.cpp
+  BPy_ColorNoiseShader.cpp
+  BPy_ConstantColorShader.cpp
+  BPy_ConstantThicknessShader.cpp
+  BPy_ConstrainedIncreasingThicknessShader.cpp
+  BPy_GuidingLinesShader.cpp
+  BPy_IncreasingColorShader.cpp
+  BPy_IncreasingThicknessShader.cpp
+  BPy_PolygonalizationShader.cpp
+  BPy_SamplingShader.cpp
+  BPy_SmoothingShader.cpp
+  BPy_SpatialNoiseShader.cpp
+  BPy_StrokeTextureStepShader.cpp
+  BPy_ThicknessNoiseShader.cpp
+  BPy_TipRemoverShader.cpp
+  BPy_UnaryFunction0DDouble.cpp
+  BPy_UnaryFunction0DEdgeNature.cpp
+  BPy_UnaryFunction0DFloat.cpp
+  BPy_UnaryFunction0DId.cpp
+  BPy_UnaryFunction0DMaterial.cpp
+  BPy_UnaryFunction0DUnsigned.cpp
+  BPy_UnaryFunction0DVec2f.cpp
+  BPy_UnaryFunction0DVec3f.cpp
+  BPy_UnaryFunction0DVectorViewShape.cpp
+  BPy_UnaryFunction0DViewShape.cpp
+  BPy_ShapeIdF0D.cpp
+  BPy_MaterialF0D.cpp
+  BPy_CurveNatureF0D.cpp
+  BPy_Normal2DF0D.cpp
+  BPy_VertexOrientation2DF0D.cpp
+  BPy_VertexOrientation3DF0D.cpp
+  BPy_GetOccludeeF0D.cpp
+  BPy_GetShapeF0D.cpp
+  BPy_Curvature2DAngleF0D.cpp
+  BPy_DensityF0D.cpp
+  BPy_GetProjectedXF0D.cpp
+  BPy_GetProjectedYF0D.cpp
+  BPy_GetProjectedZF0D.cpp
+  BPy_GetXF0D.cpp
+  BPy_GetYF0D.cpp
+  BPy_GetZF0D.cpp
+  BPy_LocalAverageDepthF0D.cpp
+  BPy_ZDiscontinuityF0D.cpp
+  BPy_GetCurvilinearAbscissaF0D.cpp
+  BPy_GetParameterF0D.cpp
+  bf_editor_util.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_util.lib
+  BPy_GetViewMapGradientNormF0D.cpp
+  BPy_ReadCompleteViewMapPixelF0D.cpp
+  BPy_ReadMapPixelF0D.cpp
+  BPy_ReadSteerableViewMapPixelF0D.cpp
+  BPy_QuantitativeInvisibilityF0D.cpp
+  BPy_GetOccludersF0D.cpp
+  BPy_UnaryFunction1DDouble.cpp
+  BPy_UnaryFunction1DEdgeNature.cpp
+  BPy_UnaryFunction1DFloat.cpp
+  BPy_UnaryFunction1DUnsigned.cpp
+  BPy_UnaryFunction1DVec2f.cpp
+  BPy_UnaryFunction1DVec3f.cpp
+  BPy_UnaryFunction1DVectorViewShape.cpp
+  BPy_UnaryFunction1DVoid.cpp
+  BPy_CurveNatureF1D.cpp
+  BPy_Normal2DF1D.cpp
+  BPy_Orientation2DF1D.cpp
+  BPy_Orientation3DF1D.cpp
+  BPy_Curvature2DAngleF1D.cpp
+  BPy_DensityF1D.cpp
+  BPy_GetCompleteViewMapDensityF1D.cpp
+  BPy_GetDirectionalViewMapDensityF1D.cpp
+  BPy_GetProjectedXF1D.cpp
+  BPy_GetProjectedYF1D.cpp
+  BPy_GetProjectedZF1D.cpp
+  BPy_GetSteerableViewMapDensityF1D.cpp
+  BPy_GetViewMapGradientNormF1D.cpp
+  BPy_GetXF1D.cpp
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/transform/CMakeLists.txt
+  BPy_GetYF1D.cpp
+  BPy_GetZF1D.cpp
+  BPy_LocalAverageDepthF1D.cpp
+  BPy_ZDiscontinuityF1D.cpp
+  BPy_QuantitativeInvisibilityF1D.cpp
+  BPy_GetOccludeeF1D.cpp
+  BPy_GetOccludersF1D.cpp
+  BPy_GetShapeF1D.cpp
+  BPy_ChainingTimeStampF1D.cpp
+  BPy_IncrementChainingTimeStampF1D.cpp
+  BPy_TimeStampF1D.cpp
+  BPy_FalseUP0D.cpp
+  BPy_TrueUP0D.cpp
+  BPy_ContourUP1D.cpp
+  BPy_DensityLowerThanUP1D.cpp
+  BPy_EqualToChainingTimeStampUP1D.cpp
+  BPy_EqualToTimeStampUP1D.cpp
+  BPy_ExternalContourUP1D.cpp
+  BPy_FalseUP1D.cpp
+  BPy_QuantitativeInvisibilityUP1D.cpp
+  BPy_ShapeUP1D.cpp
+  BPy_TrueUP1D.cpp
+  BPy_WithinImageBoundaryUP1D.cpp
+  IndexedFaceSet.cpp
+  LineRep.cpp
+  NodeCamera.cpp
+  NodeDrawingStyle.cpp
+  NodeGroup.cpp
+  NodeLight.cpp
+  NodeShape.cpp
+  NodeTransform.cpp
+  NodeViewLayer.cpp
+  OrientedLineRep.cpp
+  Rep.cpp
+  SceneHash.cpp
+  ScenePrettyPrinter.cpp
+  SceneVisitor.cpp
+  TriangleRep.cpp
+  VertexRep.cpp
+  AdvancedFunctions0D.cpp
+  AdvancedFunctions1D.cpp
+  AdvancedStrokeShaders.cpp
+  BasicStrokeShaders.cpp
+  Canvas.cpp
+  Chain.cpp
+  transform.c
+  transform_constraints.c
+  transform_convert.c
+  transform_convert_action.c
+  transform_convert_armature.c
+  transform_convert_cursor.c
+  transform_convert_curve.c
+  ChainingIterators.cpp
+  transform_convert_gpencil.c
+  ContextFunctions.cpp
+  Curve.cpp
+  Operators.cpp
+  PSStrokeRenderer.cpp
+  transform_convert_graph.c
+  Predicates0D.cpp
+  transform_convert_lattice.c
+  Predicates1D.cpp
+  transform_convert_mask.c
+  transform_convert_mball.c
+  Stroke.cpp
+  StrokeIO.cpp
+  StrokeLayer.cpp
+  transform_convert_mesh.c
+  StrokeRenderer.cpp
+  transform_convert_mesh_edge.c
+  transform_convert_mesh_skin.c
+  transform_convert_mesh_uv.c
+  transform_convert_mesh_vert_cdata.c
+  transform_convert_nla.c
+  transform_convert_node.c
+  transform_convert_object.c
+  StrokeRep.cpp
+  transform_convert_object_texspace.c
+  StrokeShader.cpp
+  StrokeTesselator.cpp
+  transform_convert_paintcurve.c
+  TextStrokeRenderer.cpp
+  transform_convert_particle.c
+  BaseObject.cpp
+  transform_convert_sculpt.c
+  transform_convert_sequencer.c
+  Exception.cpp
+  Iterator.cpp
+  transform_convert_sequencer_image.c
+  transform_convert_tracking.c
+  transform_draw_cursors.c
+  transform_generics.c
+  transform_gizmo_2d.c
+  transform_gizmo_3d.c
+  transform_gizmo_extrude_3d.c
+  transform_input.c
+  transform_mode.c
+  PseudoNoise.cpp
+  PythonInterpreter.cpp
+  RandGen.cpp
+  transform_mode_align.c
+  StringUtils.cpp
+  transform_mode_baketime.c
+  TimeStamp.cpp
+  ArbitraryGridDensityProvider.cpp
+  transform_mode_bbone_resize.c
+  transform_mode_bend.c
+  transform_mode_boneenvelope.c
+  transform_mode_boneroll.c
+  transform_mode_curveshrinkfatten.c
+  transform_mode_edge_bevelweight.c
+  transform_mode_edge_crease.c
+  AverageAreaGridDensityProvider.cpp
+  transform_mode_edge_rotate_normal.c
+  BoxGrid.cpp
+  CulledOccluderSource.cpp
+  FEdgeXDetector.cpp
+  transform_mode_edge_seq_slide.c
+  transform_mode_edge_slide.c
+  transform_mode_gpopacity.c
+  Functions0D.cpp
+  transform_mode_gpshrinkfatten.c
+  transform_mode_maskshrinkfatten.c
+  Functions1D.cpp
+  transform_mode_mirror.c
+  transform_mode_push_pull.c
+  transform_mode_resize.c
+  HeuristicGridDensityProviderFactory.cpp
+  transform_mode_rotate.c
+  transform_mode_shear.c
+  Interface0D.cpp
+  transform_mode_shrink_fatten.c
+  transform_mode_skin_resize.c
+  Interface1D.cpp
+  transform_mode_tilt.c
+  transform_mode_timescale.c
+  transform_mode_timeslide.c
+  transform_mode_timetranslate.c
+  OccluderSource.cpp
+  Pow23GridDensityProvider.cpp
+  transform_mode_tosphere.c
+  transform_mode_trackball.c
+  transform_mode_translate.c
+  transform_mode_vert_slide.c
+  Silhouette.cpp
+  SilhouetteGeomEngine.cpp
+  SphericalGrid.cpp
+  transform_ops.c
+  transform_orientations.c
+  transform_snap.c
+  SteerableViewMap.cpp
+  transform_snap_animation.c
+  ViewEdgeXBuilder.cpp
+  transform_snap_sequencer.c
+  ViewMap.cpp
+  ViewMapBuilder.cpp
+  ViewMapTesselator.cpp
+  Curvature.cpp
+  WEdge.cpp
+  WFillGrid.cpp
+  WSFillGrid.cpp
+  WXEdge.cpp
+  WXEdgeBuilder.cpp
+  WingedEdgeBuilder.cpp
+  transform_snap_object.cc
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_view3d/CMakeLists.txt
+  bf_editor_transform.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_transform.lib
+  drawobject.c
+  space_view3d.c
+  view3d_buttons.c
+  view3d_camera_control.c
+  view3d_cursor_snap.c
+  view3d_draw.c
+  view3d_edit.c
+  view3d_gizmo_armature.c
+  view3d_gizmo_camera.c
+  view3d_gizmo_empty.c
+  view3d_gizmo_forcefield.c
+  view3d_gizmo_light.c
+  view3d_gizmo_navigate.c
+  view3d_gizmo_navigate_type.c
+  view3d_gizmo_preselect.c
+  view3d_gizmo_preselect_type.c
+  view3d_gizmo_ruler.c
+  view3d_gizmo_tool_generic.c
+  view3d_header.c
+  view3d_iterators.c
+  view3d_navigate.c
+  view3d_navigate_dolly.c
+  view3d_navigate_fly.c
+  view3d_navigate_move.c
+  view3d_navigate_ndof.c
+  bf_freestyle.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_freestyle.lib
+  view3d_navigate_roll.c
+  view3d_navigate_rotate.c
+  view3d_navigate_smoothview.c
+  view3d_navigate_walk.c
+  view3d_navigate_zoom.c
+  view3d_navigate_zoom_border.c
+  view3d_ops.c
+  view3d_placement.c
+  view3d_project.c
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_topbar/CMakeLists.txt
+  view3d_select.c
+  view3d_snap.c
+  view3d_utils.c
+  view3d_view.c
+  space_topbar.c
+  bf_editor_space_topbar.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_topbar.lib
+  bf_editor_space_view3d.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_view3d.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_statusbar/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_spreadsheet/CMakeLists.txt
+  space_statusbar.c
+  space_spreadsheet.cc
+  spreadsheet_cache.cc
+  spreadsheet_column.cc
+  spreadsheet_context.cc
+  spreadsheet_data_source.cc
+  spreadsheet_data_source_geometry.cc
+  spreadsheet_dataset_draw.cc
+  spreadsheet_draw.cc
+  bf_editor_space_statusbar.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_statusbar.lib
+  spreadsheet_layout.cc
+  spreadsheet_ops.cc
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_sequencer/CMakeLists.txt
+  spreadsheet_panels.cc
+  spreadsheet_row_filter.cc
+  spreadsheet_row_filter_ui.cc
+  sequencer_add.c
+  sequencer_buttons.c
+  sequencer_channels_draw.c
+  sequencer_channels_edit.c
+  sequencer_drag_drop.c
+  sequencer_draw.c
+  sequencer_edit.c
+  sequencer_modifier.c
+  sequencer_ops.c
+  sequencer_preview.c
+  sequencer_proxy.c
+  sequencer_scopes.c
+  sequencer_select.c
+  sequencer_thumbnails.c
+  sequencer_view.c
+  space_sequencer.c
+  bf_editor_space_sequencer.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_sequencer.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_outliner/CMakeLists.txt
+  outliner_collections.cc
+  outliner_context.cc
+  outliner_dragdrop.cc
+  outliner_draw.cc
+  outliner_edit.cc
+  outliner_ops.cc
+  outliner_query.cc
+  outliner_select.cc
+  outliner_sync.cc
+  outliner_tools.cc
+  outliner_tree.cc
+  outliner_utils.cc
+  space_outliner.cc
+  common.cc
+  tree_display.cc
+  tree_display_data.cc
+  tree_display_libraries.cc
+  tree_display_orphaned.cc
+  tree_display_override_library_hierarchies.cc
+  tree_display_override_library_properties.cc
+  tree_display_scenes.cc
+  tree_display_sequencer.cc
+  tree_display_view_layer.cc
+  tree_element.cc
+  tree_element_anim_data.cc
+  tree_element_collection.cc
+  tree_element_driver.cc
+  tree_element_label.cc
+  tree_element_gpencil_layer.cc
+  tree_element_id.cc
+  tree_element_id_library.cc
+  tree_element_id_scene.cc
+  bf_editor_space_spreadsheet.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_spreadsheet.lib
+  tree_element_nla.cc
+  tree_element_overrides.cc
+  tree_element_rna.cc
+  tree_element_scene_objects.cc
+  tree_element_seq.cc
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_node/CMakeLists.txt
+  tree_element_view_layer.cc
+  tree_iterator.cc
+  drawnode.cc
+  link_drag_search.cc
+  node_add.cc
+  node_context_path.cc
+  node_draw.cc
+  node_edit.cc
+  node_geometry_attribute_search.cc
+  node_gizmo.cc
+  node_group.cc
+  bf_editor_space_outliner.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_outliner.lib
+  node_ops.cc
+  node_relationships.cc
+  node_select.cc
+  node_templates.cc
+  node_view.cc
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_nla/CMakeLists.txt
+  space_node.cc
+  nla_buttons.c
+  nla_channels.c
+  nla_draw.c
+  nla_edit.c
+  nla_ops.c
+  nla_select.c
+  space_nla.c
+  bf_editor_space_nla.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_nla.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_info/CMakeLists.txt
+  info_draw.c
+  info_ops.c
+  info_report.c
+  space_info.c
+  textview.c
+  bf_editor_space_node.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_node.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_image/CMakeLists.txt
+  info_stats.cc
+  image_buttons.c
+  image_draw.c
+  image_edit.c
+  image_ops.c
+  image_sequence.c
+  space_image.c
+  image_undo.cc
+  bf_editor_space_info.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_info.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_graph/CMakeLists.txt
+  graph_buttons.c
+  graph_draw.c
+  graph_edit.c
+  graph_ops.c
+  graph_select.c
+  graph_slider_ops.c
+  graph_utils.c
+  graph_view.c
+  space_graph.c
+  bf_editor_space_image.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_image.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_file/CMakeLists.txt
+  bf_editor_space_graph.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_graph.lib
+  asset_catalog_tree_view.cc
+  file_indexer.cc
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_clip/CMakeLists.txt
+  clip_buttons.c
+  clip_dopesheet_draw.c
+  clip_dopesheet_ops.c
+  clip_draw.c
+  clip_editor.c
+  clip_graph_draw.c
+  clip_graph_ops.c
+  clip_ops.c
+  clip_toolbar.c
+  clip_utils.c
+  space_clip.c
+  tracking_ops.c
+  tracking_ops_detect.c
+  tracking_ops_orient.c
+  tracking_ops_plane.c
+  tracking_ops_solve.c
+  tracking_ops_stabilize.c
+  tracking_ops_track.c
+  tracking_ops_utils.c
+  tracking_select.c
+  bf_editor_space_clip.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_clip.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_buttons/CMakeLists.txt
+  buttons_context.c
+  buttons_ops.c
+  buttons_texture.c
+  space_buttons.c
+  file_draw.c
+  file_ops.c
+  file_panels.c
+  file_utils.c
+  filelist.c
+  filesel.c
+  fsmenu.c
+  space_file.c
+  bf_editor_space_buttons.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_buttons.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/space_action/CMakeLists.txt
+  action_buttons.c
+  action_data.c
+  action_draw.c
+  action_edit.c
+  action_ops.c
+  action_select.c
+  space_action.c
+  bf_editor_space_action.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_action.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/sound/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/sculpt_paint/CMakeLists.txt
+  sound_ops.c
+  curves_sculpt_add.cc
+  curves_sculpt_brush.cc
+  curves_sculpt_comb.cc
+  curves_sculpt_delete.cc
+  curves_sculpt_density.cc
+  curves_sculpt_grow_shrink.cc
+  curves_sculpt_ops.cc
+  curves_sculpt_pinch.cc
+  bf_editor_space_file.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_space_file.lib
+  bf_editor_sound.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_sound.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/screen/CMakeLists.txt
+  curves_sculpt_puff.cc
+  curves_sculpt_selection_paint.cc
+  curves_sculpt_selection.cc
+  curves_sculpt_slide.cc
+  curves_sculpt_smooth.cc
+  curves_sculpt_snake_hook.cc
+  area.c
+  paint_canvas.cc
+  area_query.c
+  area_utils.c
+  paint_image.cc
+  glutil.c
+  screen_context.c
+  screen_draw.c
+  screen_edit.c
+  screen_geometry.c
+  screen_ops.c
+  screen_user_menu.c
+  screendump.c
+  workspace_edit.c
+  paint_image_2d_curve_mask.cc
+  workspace_layout_edit.c
+  paint_image_ops_paint.cc
+  paint_vertex.cc
+  paint_vertex_color_ops.cc
+  sculpt_automasking.cc
+  sculpt_paint_image.cc
+  bf_editor_screen.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_screen.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/render/CMakeLists.txt
+  render_internal.cc
+  render_opengl.cc
+  render_ops.cc
+  render_preview.cc
+  render_shading.cc
+  render_update.cc
+  render_view.cc
+  bf_editor_render.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_render.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/physics/CMakeLists.txt
+  dynamicpaint_ops.c
+  particle_boids.c
+  particle_edit.c
+  particle_edit_undo.c
+  particle_object.c
+  physics_fluid.c
+  physics_ops.c
+  physics_pointcache.c
+  rigidbody_constraint.c
+  rigidbody_object.c
+  rigidbody_world.c
+  bf_editor_physics.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_physics.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/object/CMakeLists.txt
+  object_add.cc
+  object_modifier.cc
+  object_remesh.cc
+  object_transform.cc
+  paint_cursor.c
+  paint_curve.c
+  paint_curve_undo.c
+  paint_hide.c
+  paint_image_2d.c
+  paint_image_proj.c
+  paint_mask.c
+  paint_ops.c
+  paint_stroke.c
+  paint_utils.c
+  paint_vertex_proj.c
+  paint_vertex_weight_ops.c
+  paint_vertex_weight_utils.c
+  sculpt.c
+  sculpt_boundary.c
+  sculpt_brush_types.c
+  sculpt_cloth.c
+  sculpt_detail.c
+  sculpt_dyntopo.c
+  sculpt_expand.c
+  sculpt_face_set.c
+  sculpt_filter_color.c
+  sculpt_filter_mask.c
+  sculpt_filter_mesh.c
+  sculpt_geodesic.c
+  sculpt_mask_expand.c
+  sculpt_mask_init.c
+  sculpt_multiplane_scrape.c
+  sculpt_ops.c
+  sculpt_paint_color.c
+  sculpt_pose.c
+  sculpt_smooth.c
+  sculpt_transform.c
+  sculpt_undo.c
+  sculpt_uv.c
+  object_bake.c
+  object_bake_api.c
+  object_collection.c
+  object_constraint.c
+  object_data_transfer.c
+  object_data_transform.c
+  object_edit.c
+  object_facemap_ops.c
+  object_gpencil_modifier.c
+  object_hook.c
+  object_modes.c
+  object_ops.c
+  object_random.c
+  object_relations.c
+  object_select.c
+  object_shader_fx.c
+  object_shapekey.c
+  object_utils.c
+  object_vgroup.c
+  object_volume.c
+  object_warp.c
+  bf_editor_sculpt_paint.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_sculpt_paint.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/mesh/CMakeLists.txt
+  editface.cc
+  mesh_data.cc
+  meshtools.cc
+  bf_editor_object.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_object.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/interface/CMakeLists.txt
+  interface_eyedropper.c
+  eyedropper_color.c
+  eyedropper_colorband.c
+  eyedropper_datablock.c
+  eyedropper_depth.c
+  eyedropper_driver.c
+  eyedropper_gpencil_color.c
+  interface_align.c
+  interface_anim.c
+  interface_button_group.c
+  interface_context_menu.c
+  interface_draw.c
+  interface_handlers.c
+  interface_icons.c
+  interface_icons_event.c
+  interface_layout.c
+  interface_ops.c
+  interface_panel.c
+  interface_region_tooltip.c
+  interface_template_search_operator.c
+  interface_templates.c
+  interface_undo.c
+  interface_widgets.c
+  resources.c
+  editmesh_add.c
+  editmesh_add_gizmo.c
+  editmesh_automerge.c
+  editmesh_bevel.c
+  editmesh_bisect.c
+  editmesh_extrude.c
+  editmesh_extrude_screw.c
+  editmesh_extrude_spin.c
+  editmesh_extrude_spin_gizmo.c
+  editmesh_inset.c
+  editmesh_intersect.c
+  editmesh_knife.c
+  editmesh_knife_project.c
+  editmesh_loopcut.c
+  editmesh_mask_extract.c
+  editmesh_path.c
+  editmesh_polybuild.c
+  editmesh_preselect_edgering.c
+  editmesh_preselect_elem.c
+  editmesh_rip.c
+  editmesh_rip_edge.c
+  editmesh_select.c
+  editmesh_select_similar.c
+  editmesh_tools.c
+  editmesh_undo.c
+  editmesh_utils.c
+  interface.cc
+  interface_context_path.cc
+  interface_drag.cc
+  interface_dropboxes.cc
+  interface_query.cc
+  interface_region_color_picker.cc
+  interface_region_hud.cc
+  mesh_mirror.c
+  mesh_ops.c
+  interface_region_menu_pie.cc
+  interface_region_menu_popup.cc
+  interface_region_popover.cc
+  interface_region_popup.cc
+  interface_region_search.cc
+  interface_regions.cc
+  interface_style.cc
+  interface_template_asset_view.cc
+  interface_template_attribute_search.cc
+  interface_template_list.cc
+  interface_template_search_menu.cc
+  interface_utils.cc
+  view2d.cc
+  view2d_draw.cc
+  bf_editor_mesh.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_mesh.lib
+  view2d_edge_pan.cc
+  view2d_gizmo_navigate.cc
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/gpencil/CMakeLists.txt
+  view2d_ops.cc
+  abstract_view.cc
+  abstract_view_item.cc
+  grid_view.cc
+  interface_view.cc
+  tree_view.cc
+  annotate_draw.c
+  annotate_paint.c
+  drawgpencil.c
+  editaction_gpencil.c
+  gpencil_add_blank.c
+  gpencil_add_lineart.c
+  gpencil_add_monkey.c
+  gpencil_add_stroke.c
+  gpencil_armature.c
+  gpencil_convert.c
+  gpencil_data.c
+  gpencil_edit.c
+  gpencil_edit_curve.c
+  gpencil_fill.c
+  gpencil_interpolate.c
+  gpencil_merge.c
+  gpencil_ops.c
+  gpencil_ops_versioning.c
+  gpencil_paint.c
+  gpencil_primitive.c
+  gpencil_sculpt_paint.c
+  gpencil_select.c
+  gpencil_undo.c
+  gpencil_utils.c
+  gpencil_uv.c
+  gpencil_vertex_ops.c
+  gpencil_vertex_paint.c
+  gpencil_weight_paint.c
+  gpencil_trace_ops.c
+  gpencil_trace_utils.c
+  bf_editor_interface.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_interface.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/gizmo_library/CMakeLists.txt
+  gpencil_bake_animation.cc
+  gpencil_mesh.cc
+  gizmo_draw_utils.c
+  gizmo_library_presets.c
+  gizmo_library_utils.c
+  geom_arrow_gizmo.c
+  geom_cube_gizmo.c
+  geom_dial_gizmo.c
+  arrow3d_gizmo.c
+  blank3d_gizmo.c
+  button2d_gizmo.c
+  cage2d_gizmo.c
+  cage3d_gizmo.c
+  dial3d_gizmo.c
+  move3d_gizmo.c
+  primitive3d_gizmo.c
+  snap3d_gizmo.c
+  bf_editor_gpencil.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_gpencil.lib
+  bf_editor_gizmo_library.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_gizmo_library.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/curves/CMakeLists.txt
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/curve/CMakeLists.txt
+  curves_add.cc
+  curves_ops.cc
+  curve_ops.c
+  editcurve.c
+  editcurve_add.c
+  editcurve_paint.c
+  editcurve_pen.c
+  editcurve_query.c
+  editcurve_select.c
+  editcurve_undo.c
+  editfont.c
+  editfont_undo.c
+  bf_editor_curve.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_curve.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/asset/CMakeLists.txt
+  asset_catalog.cc
+  asset_filter.cc
+  asset_handle.cc
+  asset_indexer.cc
+  asset_library_reference.cc
+  asset_library_reference_enum.cc
+  asset_list.cc
+  asset_mark_clear.cc
+  asset_ops.cc
+  asset_temp_id_consumer.cc
+  asset_type.cc
+  bf_editor_curves.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_curves.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/armature/CMakeLists.txt
+  armature_add.c
+  armature_edit.c
+  armature_naming.c
+  armature_ops.c
+  armature_relations.c
+  armature_select.c
+  armature_skinning.c
+  armature_utils.c
+  editarmature_undo.c
+  meshlaplacian.c
+  pose_edit.c
+  pose_group.c
+  pose_lib.c
+  pose_lib_2.c
+  pose_select.c
+  pose_slide.c
+  pose_transform.c
+  pose_utils.c
+  bf_editor_asset.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_asset.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/editors/animation/CMakeLists.txt
+  anim_channels_defines.c
+  anim_channels_edit.c
+  anim_deps.c
+  anim_draw.c
+  anim_filter.c
+  anim_ipo_utils.c
+  anim_markers.c
+  anim_motion_paths.c
+  pose_backup.cc
+  anim_ops.c
+  drivers.c
+  fmodifier_ui.c
+  keyframes_draw.c
+  keyframes_edit.c
+  keyframes_general.c
+  keyframing.c
+  keyingsets.c
+  time_scrub_ui.c
+  keyframes_keylist.cc
+  bf_editor_armature.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_armature.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/depsgraph/CMakeLists.txt
+  deg_builder.cc
+  deg_builder_cache.cc
+  deg_builder_cycle.cc
+  deg_builder_map.cc
+  deg_builder_nodes.cc
+  deg_builder_nodes_rig.cc
+  deg_builder_nodes_scene.cc
+  deg_builder_nodes_view_layer.cc
+  deg_builder_pchanmap.cc
+  deg_builder_relations.cc
+  deg_builder_relations_drivers.cc
+  deg_builder_relations_keys.cc
+  bf_editor_animation.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_editor_animation.lib
+  deg_builder_relations_rig.cc
+  deg_builder_relations_scene.cc
+  deg_builder_relations_view_layer.cc
+  deg_builder_remove_noop.cc
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/blenloader/CMakeLists.txt
+  deg_builder_rna.cc
+  deg_builder_stack.cc
+  deg_builder_transitive.cc
+  pipeline.cc
+  pipeline_all_objects.cc
+  pipeline_compositor.cc
+  pipeline_from_ids.cc
+  pipeline_render.cc
+  pipeline_view_layer.cc
+  deg_debug.cc
+  userdef_default_theme.c
+  blend_validate.c
+  readblenentry.c
+  readfile.c
+  readfile_tempload.c
+  undofile.c
+  versioning_250.c
+  versioning_260.c
+  versioning_270.c
+  deg_debug_relations_graphviz.cc
+  deg_debug_stats_gnuplot.cc
+  versioning_280.c
+  deg_eval.cc
+  deg_eval_copy_on_write.cc
+  versioning_290.c
+  deg_eval_flush.cc
+  deg_eval_runtime_backup.cc
+  versioning_300.c
+  versioning_cycles.c
+  deg_eval_runtime_backup_animation.cc
+  versioning_defaults.c
+  deg_eval_runtime_backup_gpencil.cc
+  deg_eval_runtime_backup_modifier.cc
+  versioning_dna.c
+  versioning_legacy.c
+  deg_eval_runtime_backup_movieclip.cc
+  versioning_userdef.c
+  deg_eval_runtime_backup_object.cc
+  writefile.c
+  deg_eval_runtime_backup_pose.cc
+  deg_eval_runtime_backup_scene.cc
+  deg_eval_runtime_backup_sequence.cc
+  deg_eval_runtime_backup_sequencer.cc
+  deg_eval_runtime_backup_sound.cc
+  deg_eval_runtime_backup_volume.cc
+  deg_eval_stats.cc
+  deg_eval_visibility.cc
+  deg_node.cc
+  deg_node_component.cc
+  deg_node_factory.cc
+  deg_node_id.cc
+  deg_node_operation.cc
+  deg_node_time.cc
+  depsgraph.cc
+  depsgraph_build.cc
+  depsgraph_debug.cc
+  depsgraph_eval.cc
+  depsgraph_physics.cc
+  depsgraph_query.cc
+  depsgraph_query_foreach.cc
+  depsgraph_query_iter.cc
+  depsgraph_registry.cc
+  depsgraph_relation.cc
+  depsgraph_tag.cc
+  depsgraph_type.cc
+  versioning_common.cc
+  depsgraph_update.cc
+  bf_blenloader.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_blenloader.lib
+  Generating operations/COM_OpenCLKernels.cl.h
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/compositor/CMakeLists.txt
+  cmake_pch.cxx
+  bf_depsgraph.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_depsgraph.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/blender/blenkernel/CMakeLists.txt
+  userdef_default.c
+  CCGSubSurf.c
+  CCGSubSurf_legacy.c
+  CCGSubSurf_util.c
+  action.c
+  action_mirror.c
+  addon.c
+  anim_data.c
+  anim_path.c
+  anim_sys.c
+  anim_visualization.c
+  appdir.c
+  armature.c
+  armature_deform.c
+  armature_update.c
+  autoexec.c
+  blender.c
+  blender_copybuffer.c
+  blender_undo.c
+  blender_user_menu.c
+  blendfile.c
+  blendfile_link_append.c
+  boids.c
+  bpath.c
+  cachefile.c
+  callbacks.c
+  camera.c
+  cdderivedmesh.c
+  cloth.c
+  collection.c
+  collision.c
+  colorband.c
+  colortools.c
+  constraint.c
+  context.c
+  curve_bevel.c
+  curve_convert.c
+  curve_decimate.c
+  unity_24_cxx.cxx
+  curve_deform.c
+  unity_23_cxx.cxx
+  unity_22_cxx.cxx
+  unity_21_cxx.cxx
+  unity_20_cxx.cxx
+  unity_19_cxx.cxx
+  unity_18_cxx.cxx
+  customdata_file.c
+  unity_17_cxx.cxx
+  data_transfer.c
+  deform.c
+  dynamicpaint.c
+  editlattice.c
+  editmesh.c
+  unity_16_cxx.cxx
+  editmesh_bvh.c
+  editmesh_tangent.c
+  effect.c
+  unity_15_cxx.cxx
+  fcurve.c
+  unity_14_cxx.cxx
+  fcurve_cache.c
+  fcurve_driver.c
+  fluid.c
+  unity_13_cxx.cxx
+  fmodifier.c
+  unity_12_cxx.cxx
+  freestyle.c
+  unity_11_cxx.cxx
+  unity_10_cxx.cxx
+  gpencil.c
+  unity_9_cxx.cxx
+  unity_8_cxx.cxx
+  unity_7_cxx.cxx
+  gpencil_curve.c
+  gpencil_modifier.c
+  unity_6_cxx.cxx
+  gpencil_update_cache.c
+  unity_5_cxx.cxx
+  icons_rasterize.c
+  unity_4_cxx.cxx
+  unity_3_cxx.cxx
+  idprop.c
+  unity_2_cxx.cxx
+  idprop_utils.c
+  idtype.c
+  unity_1_cxx.cxx
+  unity_0_cxx.cxx
+  image_gen.c
+  ipo.c
+  kelvinlet.c
+  key.c
+  keyconfig.c
+  lattice.c
+  lattice_deform.c
+  layer.c
+  layer_utils.c
+  lib_id.c
+  lib_id_delete.c
+  lib_id_eval.c
+  lib_override_proxy_conversion.c
+  lib_query.c
+  lib_remap.c
+  library.c
+  light.c
+  lightprobe.c
+  linestyle.c
+  main.c
+  main_idmap.c
+  mask.c
+  mask_evaluate.c
+  mask_rasterize.c
+  material.c
+  mball.c
+  mball_tessellate.c
+  mesh_iterators.c
+  mesh_mapping.c
+  mesh_merge.c
+  mesh_mirror.c
+  mesh_remap.c
+  mesh_tangent.c
+  modifier.c
+  movieclip.c
+  multires.c
+  multires_reshape.c
+  multires_reshape_apply_base.c
+  multires_reshape_ccg.c
+  multires_reshape_smooth.c
+  multires_reshape_subdivide.c
+  multires_reshape_util.c
+  multires_reshape_vertcos.c
+  multires_subdiv.c
+  multires_unsubdivide.c
+  multires_versioning.c
+  nla.c
+  object_deform.c
+  object_facemap.c
+  object_update.c
+  ocean.c
+  ocean_spectrum.c
+  outliner_treehash.c
+  packedFile.c
+  paint.c
+  paint_toolslots.c
+  particle.c
+  particle_child.c
+  particle_distribute.c
+  particle_system.c
+  pbvh_bmesh.c
+  bf_compositor.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_compositor.lib
+  pointcache.c
+  preferences.c
+  report.c
+  rigidbody.c
+  screen.c
+  shader_fx.c
+  shrinkwrap.c
+  softbody.c
+  sound.c
+  speaker.c
+  studiolight.c
+  subdiv.c
+  subdiv_ccg.c
+  subdiv_ccg_mask.c
+  subdiv_ccg_material.c
+  subdiv_converter.c
+  subdiv_converter_mesh.c
+  subdiv_deform.c
+  subdiv_displacement.c
+  subdiv_displacement_multires.c
+  subdiv_eval.c
+  subdiv_foreach.c
+  subdiv_mesh.c
+  subdiv_modifier.c
+  subdiv_stats.c
+  subdiv_topology.c
+  subsurf_ccg.c
+  text.c
+  text_suggestions.c
+  texture.c
+  tracking.c
+  tracking_auto.c
+  tracking_detect.c
+  tracking_plane_tracker.c
+  tracking_region_tracker.c
+  tracking_solver.c
+  tracking_stabilize.c
+  tracking_util.c
+  undo_system.c
+  unit.c
+  vfont.c
+  vfontdata_freetype.c
+  workspace.c
+  world.c
+  writeavi.c
+  writeffmpeg.c
+  DerivedMesh.cc
+  action_bones.cc
+  anonymous_attribute.cc
+  armature_pose.cc
+  armature_selection.cc
+  asset.cc
+  asset_catalog.cc
+  asset_catalog_path.cc
+  asset_library.cc
+  asset_library_service.cc
+  attribute.cc
+  attribute_access.cc
+  attribute_math.cc
+  brush.cc
+  bvhutils.cc
+  crazyspace.cc
+  cryptomatte.cc
+  curve.cc
+  curve_bezier.cc
+  curve_catmull_rom.cc
+  curve_eval.cc
+  curve_legacy_convert.cc
+  curve_nurbs.cc
+  kernel_sse2.cpp
+  kernel_sse3.cpp
+  kernel_sse41.cpp
+  curve_poly.cc
+  curve_to_mesh_convert.cc
+  curveprofile.cc
+  curves.cc
+  curves_geometry.cc
+  curves_utils.cc
+  customdata.cc
+  displist.cc
+  editmesh_cache.cc
+  geometry_component_curve.cc
+  geometry_component_curves.cc
+  geometry_component_edit_data.cc
+  geometry_component_instances.cc
+  geometry_component_mesh.cc
+  geometry_component_pointcloud.cc
+  geometry_component_volume.cc
+  geometry_set.cc
+  geometry_set_instances.cc
+  gpencil_geom.cc
+  icons.cc
+  idprop_create.cc
+  idprop_serialize.cc
+  image.cc
+  image_format.cc
+  image_gpu.cc
+  image_partial_update.cc
+  image_save.cc
+  lib_id_remapper.cc
+  lib_override.cc
+  main_namemap.cc
+  mesh.cc
+  mesh_boolean_convert.cc
+  mesh_calc_edges.cc
+  mesh_convert.cc
+  mesh_debug.cc
+  mesh_evaluate.cc
+  mesh_fair.cc
+  mesh_legacy_convert.cc
+  mesh_merge_customdata.cc
+  mesh_normals.cc
+  mesh_remesh_voxel.cc
+  mesh_runtime.cc
+  mesh_sample.cc
+  mesh_tessellate.cc
+  mesh_validate.cc
+  mesh_wrapper.cc
+  node.cc
+  node_tree_update.cc
+  object.cc
+  object_dupli.cc
+  paint_canvas.cc
+  pbvh_pixels.cc
+  pointcloud.cc
+  scene.cc
+  simulation.cc
+  spline_base.cc
+  spline_bezier.cc
+  spline_nurbs.cc
+  spline_poly.cc
+  type_conversions.cc
+  volume.cc
+  volume_render.cc
+  volume_to_mesh.cc
+  pbvh.c
+  pbvh.cc
+  bf_blenkernel.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\bf_blenkernel.lib
+  kernel_avx.cpp
+  kernel_avx2.cpp
+  kernel.cpp
+  cycles_kernel.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\cycles_kernel.lib
+  Building Custom Rule C:/blender-git/goo-engine/intern/cycles/integrator/CMakeLists.txt
+  adaptive_sampling.cpp
+  denoiser.cpp
+  denoiser_device.cpp
+  denoiser_oidn.cpp
+  denoiser_optix.cpp
+  path_trace.cpp
+  tile.cpp
+  pass_accessor.cpp
+  pass_accessor_cpu.cpp
+  pass_accessor_gpu.cpp
+  path_trace_display.cpp
+  path_trace_tile.cpp
+  path_trace_work.cpp
+  path_trace_work_cpu.cpp
+  path_trace_work_gpu.cpp
+  render_scheduler.cpp
+  shader_eval.cpp
+  work_balancer.cpp
+  work_tile_scheduler.cpp
+  cycles_integrator.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\cycles_integrator.lib
+  Building Custom Rule C:/blender-git/goo-engine/intern/cycles/device/CMakeLists.txt
+  device.cpp
+  denoise.cpp
+  memory.cpp
+  kernel_thread_globals.cpp
+  graphics_interop.cpp
+  kernel.cpp
+  queue.cpp
+  device.cpp
+  device_impl.cpp
+  kernel.cpp
+  device.cpp
+  device_impl.cpp
+  graphics_interop.cpp
+  kernel.cpp
+  queue.cpp
+  util.cpp
+  device.cpp
+  device_impl.cpp
+  graphics_interop.cpp
+  kernel.cpp
+  queue.cpp
+  util.cpp
+  device.cpp
+  device.cpp
+  device.cpp
+  device_impl.cpp
+  queue.cpp
+  device_impl.cpp
+  device.cpp
+  queue.cpp
+  cycles_device.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\cycles_device.lib
+  Building Custom Rule C:/blender-git/goo-engine/intern/cycles/bvh/CMakeLists.txt
+  bvh.cpp
+  bvh2.cpp
+  binning.cpp
+  build.cpp
+  embree.cpp
+  multi.cpp
+  node.cpp
+  optix.cpp
+  sort.cpp
+  split.cpp
+  unaligned.cpp
+  cycles_bvh.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\lib\Release\cycles_bvh.lib
+  Building Custom Rule C:/blender-git/goo-engine/source/creator/CMakeLists.txt
+  creator.c
+  creator_args.c
+  creator_signals.c
+  buildinfo.c
+     Creating library C:/blender-git/build_windows_x64_vc16_Release/bin/Release/blender.lib and object C:/blender-git/build_windows_x64_vc16_Release/bin/Release/blender.exp
+  blender.vcxproj -> C:\blender-git\build_windows_x64_vc16_Release\bin\Release\blender.exe
+  Building Custom Rule C:/blender-git/goo-engine/CMakeLists.txt
+
+Build succeeded.
+
+C:\blender-git\lib\win64_vc15\tbb\include\tbb/parallel_sort.h(125,1): warning C4180: qualifier applied to function type has no meaning; ignored [C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpencil_modifiers\bf_gpencil_modifiers.vcxproj]
+C:\blender-git\lib\win64_vc15\tbb\include\tbb/parallel_sort.h(128): warning C4180: qualifier applied to function type has no meaning; ignored [C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpencil_modifiers\bf_gpencil_modifiers.vcxproj]
+C:\blender-git\lib\win64_vc15\tbb\include\tbb/parallel_sort.h(128,1): warning C4180: qualifier applied to function type has no meaning; ignored [C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpencil_modifiers\bf_gpencil_modifiers.vcxproj]
+C:\blender-git\lib\win64_vc15\tbb\include\tbb/parallel_sort.h(102,1): warning C4180: qualifier applied to function type has no meaning; ignored [C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpencil_modifiers\bf_gpencil_modifiers.vcxproj]
+C:\blender-git\lib\win64_vc15\tbb\include\tbb/parallel_sort.h(106): warning C4180: qualifier applied to function type has no meaning; ignored [C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpencil_modifiers\bf_gpencil_modifiers.vcxproj]
+C:\blender-git\lib\win64_vc15\tbb\include\tbb/parallel_sort.h(106,1): warning C4180: qualifier applied to function type has no meaning; ignored [C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpencil_modifiers\bf_gpencil_modifiers.vcxproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:22:30.19

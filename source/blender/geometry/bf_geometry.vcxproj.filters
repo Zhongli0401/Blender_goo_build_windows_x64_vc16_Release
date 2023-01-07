@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\geometry\intern\add_curves_on_mesh.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\geometry\intern\fillet_curves.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\geometry\intern\mesh_merge_by_distance.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\geometry\intern\mesh_primitive_cuboid.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\geometry\intern\mesh_to_curve_convert.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\geometry\intern\mesh_to_volume.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\geometry\intern\point_merge_by_distance.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\geometry\intern\realize_instances.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\geometry\intern\resample_curves.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\geometry\intern\reverse_uv_sampler.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\geometry\intern\set_curve_type.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\geometry\intern\subdivide_curves.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\geometry\intern\uv_parametrizer.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\geometry\GEO_add_curves_on_mesh.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\geometry\GEO_fillet_curves.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\geometry\GEO_mesh_merge_by_distance.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\geometry\GEO_mesh_primitive_cuboid.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\geometry\GEO_mesh_to_curve.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\geometry\GEO_mesh_to_volume.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\geometry\GEO_point_merge_by_distance.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\geometry\GEO_realize_instances.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\geometry\GEO_resample_curves.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\geometry\GEO_reverse_uv_sampler.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\geometry\GEO_set_curve_type.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\geometry\GEO_subdivide_curves.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\geometry\GEO_uv_parametrizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\blender\geometry\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF785239-3054-3D1C-9CBE-53CD9878A5F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{017BFF33-8AB9-35B3-9AF4-ED3EEF867E66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

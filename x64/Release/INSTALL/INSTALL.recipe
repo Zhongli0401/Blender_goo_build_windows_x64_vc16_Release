@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\blender-git\build_windows_x64_vc16_Release\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\blender-git\build_windows_x64_vc16_Release\lib\Release\BlendThumb.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\blender-git\build_windows_x64_vc16_Release\bin\Release\makesdna.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\blender-git\build_windows_x64_vc16_Release\bin\Release\makesrna.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\blender-git\build_windows_x64_vc16_Release\bin\Release\datatoc.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\blender-git\build_windows_x64_vc16_Release\bin\Release\smaa_areatex.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\x64\Release\smaa_areatex_header</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\blender-git\build_windows_x64_vc16_Release\bin\Release\datatoc_icon.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\blender-git\build_windows_x64_vc16_Release\source\creator\x64\Release\buildinfo</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\blender-git\build_windows_x64_vc16_Release\bin\Release\msgfmt.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\blender-git\build_windows_x64_vc16_Release\source\creator\x64\Release\locales</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\blender-git\build_windows_x64_vc16_Release\bin\Release\blender.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\blender-git\build_windows_x64_vc16_Release\bin\Release\blender-launcher.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\blender-git\build_windows_x64_vc16_Release\intern\cycles\kernel\osl\shaders\x64\Release\cycles_osl_shaders</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\blender-git\build_windows_x64_vc16_Release\lib\Release\extern_draco.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\blender-git\build_windows_x64_vc16_Release\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\blender-git\build_windows_x64_vc16_Release\x64\Release\INSTALL</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

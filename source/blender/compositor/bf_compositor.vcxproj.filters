@@ -1,0 +1,1614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_24_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_23_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_22_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_21_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_20_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_19_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_18_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_17_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_16_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_15_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_14_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_13_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_12_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_11_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_10_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_9_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_8_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_7_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_6_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_5_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_4_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_3_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_2_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_1_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Unity\unity_0_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_BufferOperation.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_CPUDevice.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_ChunkOrder.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_ChunkOrderHotspot.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_CompositorContext.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_ConstantFolder.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_Converter.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_Debug.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_Device.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_Enums.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_ExecutionGroup.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_ExecutionModel.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_ExecutionSystem.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_FullFrameExecutionModel.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_MemoryBuffer.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_MemoryProxy.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_MetaData.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_MultiThreadedOperation.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_MultiThreadedRowOperation.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_Node.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_NodeConverter.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_NodeGraph.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_NodeOperation.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_NodeOperationBuilder.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_OpenCLDevice.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_SharedOperationBuffers.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_SingleThreadedOperation.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_TiledExecutionModel.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_WorkPackage.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_WorkScheduler.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_compositor.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_QualityStepHelper.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SocketProxyNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_BokehImageNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ColorNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ImageNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_MaskNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_MovieClipNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_OutputFileNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_RenderLayersNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SceneTimeNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SwitchNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SwitchViewNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_TextureNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_TimeNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ValueNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_CompositorNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SplitViewerNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ViewLevelsNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ViewerNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_CalculateMeanOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_CalculateStandardDeviationOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_FlipNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_RotateNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ScaleNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_TranslateNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_DisplaceNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_MapUVNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ChannelMatteNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ChromaMatteNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ColorMatteNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_DifferenceMatteNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_DistanceMatteNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_LensDistortionNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_LuminanceMatteNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_GlareNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SunBeamsNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SunBeamsOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_CryptomatteNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_CryptomatteOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_CornerPinNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_PlaneTrackDeformNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_CropNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_CropOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_DefocusNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_MovieDistortionNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_Stabilize2dNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_TransformNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_AlphaOverNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_BrightnessNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ColorBalanceNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ColorCorrectionNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ColorCurveNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ColorExposureNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ColorRampNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ColorToBWNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ConvertAlphaNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ConvertColorSpaceNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_GammaNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_HueSaturationValueCorrectNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_HueSaturationValueNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_InvertNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_MixNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SetAlphaNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_TonemapNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_VectorCurveNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ZCombineNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_TonemapOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_CombineColorNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_CombineColorNodeLegacy.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_CombineXYZNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_IDMaskNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SeparateColorNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SeparateColorNodeLegacy.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SeparateXYZNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_MapRangeNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_MapValueNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_MathNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_NormalNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_NormalizeNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_NormalizeOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_PixelateNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_PixelateOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_BilateralBlurNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_BilateralBlurOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_VectorBlurNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_VectorBlurOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_AntiAliasingNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_BlurNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_BokehBlurNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_DenoiseNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_DespeckleNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_DilateErodeNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_DirectionalBlurNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_FilterNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_InpaintNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_PosterizeNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_BlurBaseOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_BokehBlurOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DirectionalBlurOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_FastGaussianBlurOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GammaCorrectOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GaussianAlphaBlurBaseOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GaussianAlphaXBlurOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GaussianAlphaYBlurOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GaussianBlurBaseOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GaussianBokehBlurOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GaussianXBlurOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GaussianYBlurOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MovieClipAttributeOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MovieDistortionOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_PosterizeOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SMAAOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_VariableSizeBokehBlurOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_BoxMaskNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ColorSpillNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_DoubleEdgeMaskNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_EllipseMaskNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DoubleEdgeMaskOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_KeyingScreenNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_KeyingScreenOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_TrackPositionNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_TrackPositionOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_KeyingNode.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_KeyingBlurOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_KeyingClipOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_KeyingDespillOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_KeyingOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ColorSpillOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_RenderLayersProg.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_BokehImageOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ImageOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MultilayerImageOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_TextureOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SocketProxyOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_CompositorOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ConvertDepthToRadiusOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_OutputFileMultiViewOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_OutputFileOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_PreviewOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SplitOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ViewerOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ZCombineOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ChangeHSVOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ChannelMatteOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ChromaMatteOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ColorCurveOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ColorExposureOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ColorMatteOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ColorRampOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_CurveBaseOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DifferenceMatteOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DistanceRGBMatteOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DistanceYCCMatteOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_HueSaturationValueCorrectOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_LuminanceMatteOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_VectorCurveOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_BrightnessOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ColorCorrectionOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ConstantOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GammaOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MixOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ReadBufferOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SetColorOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SetValueOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SetVectorOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_WriteBufferOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MathBaseOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_AlphaOverKeyOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_AlphaOverMixedOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_AlphaOverPremultiplyOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ColorBalanceASCCDLOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ColorBalanceLGGOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_InvertOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MapRangeOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MapValueOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SetAlphaMultiplyOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SetAlphaReplaceOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DisplaceOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DisplaceSimpleOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_FlipOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MapUVOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_PlaneCornerPinOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_PlaneDistortCommonOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_PlaneTrackOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ProjectorLensDistortionOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_RotateOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ScaleOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ScreenLensDistortionOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_TransformOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_TranslateOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_WrapOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ConvolutionEdgeFilterOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ConvolutionFilterOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DenoiseOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DespeckleOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DilateErodeOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GlareBaseOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GlareFogGlowOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GlareGhostOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GlareSimpleStarOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GlareStreaksOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GlareThresholdOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_InpaintOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SetSamplerOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ConvertOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_IDMaskOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ConvertColorSpaceOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DotproductOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_BoxMaskOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_EllipseMaskOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ConvertColorProfileOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MovieClipOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_AntiAliasOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MaskOperation.cc">
+      <Filter>operations</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\COM_compositor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\COM_defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_BufferArea.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_BufferOperation.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_BufferRange.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_BuffersIterator.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_CPUDevice.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_ChunkOrder.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_ChunkOrderHotspot.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_CompositorContext.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_ConstantFolder.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_Converter.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_Debug.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_Device.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_Enums.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_ExecutionGroup.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_ExecutionModel.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_ExecutionSystem.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_FullFrameExecutionModel.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_MemoryBuffer.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_MemoryProxy.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_MetaData.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_MultiThreadedOperation.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_MultiThreadedRowOperation.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_Node.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_NodeConverter.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_NodeGraph.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_NodeOperation.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_NodeOperationBuilder.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_OpenCLDevice.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_SharedOperationBuffers.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_SingleThreadedOperation.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_TiledExecutionModel.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_WorkPackage.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\intern\COM_WorkScheduler.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_QualityStepHelper.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SocketProxyNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_BokehImageNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ColorNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ImageNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_MaskNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_MovieClipNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_OutputFileNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_RenderLayersNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SceneTimeNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SwitchNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SwitchViewNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_TextureNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_TimeNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ValueNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_CompositorNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SplitViewerNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ViewLevelsNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ViewerNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_CalculateMeanOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_CalculateStandardDeviationOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_FlipNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_RotateNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ScaleNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_TranslateNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_DisplaceNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_MapUVNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ChannelMatteNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ChromaMatteNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ColorMatteNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_DifferenceMatteNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_DistanceMatteNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_LensDistortionNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_LuminanceMatteNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_GlareNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SunBeamsNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SunBeamsOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_CryptomatteNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_CryptomatteOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_CornerPinNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_PlaneTrackDeformNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_CropNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_CropOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_DefocusNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_MovieDistortionNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_Stabilize2dNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_TransformNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_AlphaOverNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_BrightnessNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ColorBalanceNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ColorCorrectionNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ColorCurveNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ColorExposureNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ColorRampNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ColorToBWNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ConvertAlphaNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ConvertColorSpaceNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_GammaNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_HueSaturationValueCorrectNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_HueSaturationValueNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_InvertNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_MixNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SetAlphaNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_TonemapNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_VectorCurveNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ZCombineNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_TonemapOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_CombineColorNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_CombineColorNodeLegacy.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_CombineXYZNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_IDMaskNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SeparateColorNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SeparateColorNodeLegacy.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_SeparateXYZNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_MapRangeNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_MapValueNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_MathNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_NormalNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_NormalizeNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_NormalizeOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_PixelateNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_PixelateOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_BilateralBlurNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_BilateralBlurOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_VectorBlurNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_VectorBlurOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_AntiAliasingNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_BlurNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_BokehBlurNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_DenoiseNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_DespeckleNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_DilateErodeNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_DirectionalBlurNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_FilterNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_InpaintNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_PosterizeNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_BlurBaseOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_BokehBlurOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DirectionalBlurOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_FastGaussianBlurOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GammaCorrectOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GaussianAlphaBlurBaseOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GaussianAlphaXBlurOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GaussianAlphaYBlurOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GaussianBlurBaseOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GaussianBokehBlurOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GaussianXBlurOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GaussianYBlurOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MovieClipAttributeOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MovieDistortionOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_PosterizeOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SMAAOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_VariableSizeBokehBlurOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_BoxMaskNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_ColorSpillNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_DoubleEdgeMaskNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_EllipseMaskNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DoubleEdgeMaskOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_KeyingScreenNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_KeyingScreenOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_TrackPositionNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_TrackPositionOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\nodes\COM_KeyingNode.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_KeyingBlurOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_KeyingClipOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_KeyingDespillOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_KeyingOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ColorSpillOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_RenderLayersProg.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_BokehImageOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ImageOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MultilayerImageOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_TextureOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SocketProxyOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_CompositorOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ConvertDepthToRadiusOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_OutputFileMultiViewOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_OutputFileOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_PreviewOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SplitOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ViewerOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ZCombineOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ChangeHSVOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ChannelMatteOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ChromaMatteOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ColorCurveOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ColorExposureOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ColorMatteOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ColorRampOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_CurveBaseOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DifferenceMatteOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DistanceRGBMatteOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DistanceYCCMatteOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_HueSaturationValueCorrectOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_LuminanceMatteOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_VectorCurveOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_BrightnessOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ColorCorrectionOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ConstantOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GammaOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MixOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ReadBufferOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SetColorOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SetValueOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SetVectorOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_WriteBufferOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MathBaseOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_AlphaOverKeyOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_AlphaOverMixedOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_AlphaOverPremultiplyOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ColorBalanceASCCDLOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ColorBalanceLGGOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_InvertOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MapRangeOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MapValueOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SetAlphaMultiplyOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SetAlphaReplaceOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DisplaceOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DisplaceSimpleOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_FlipOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MapUVOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_PlaneCornerPinOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_PlaneDistortCommonOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_PlaneTrackOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ProjectorLensDistortionOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_RotateOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ScaleOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ScreenLensDistortionOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_TransformOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_TranslateOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_WrapOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ConvolutionEdgeFilterOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ConvolutionFilterOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DenoiseOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DespeckleOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DilateErodeOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GlareBaseOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GlareFogGlowOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GlareGhostOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GlareSimpleStarOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GlareStreaksOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_GlareThresholdOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_InpaintOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_SetSamplerOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ConvertOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_IDMaskOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ConvertColorSpaceOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_DotproductOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_BoxMaskOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_EllipseMaskOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_ConvertColorProfileOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MovieClipOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_AntiAliasOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\compositor\operations\COM_MaskOperation.h">
+      <Filter>operations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\operations\COM_OpenCLKernels.cl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\operations\COM_SMAAAreaTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\CMakeFiles\bf_compositor.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\8011971c5673546a32e964579d28ce8a\COM_OpenCLKernels.cl.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\blender\compositor\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{93D321BE-D925-34CD-9F6A-689691A7BFE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF785239-3054-3D1C-9CBE-53CD9878A5F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{C140AC00-060A-3569-9F9D-1811158321D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1F461DDB-8F37-3AFA-B6E0-78FA459DB46E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{017BFF33-8AB9-35B3-9AF4-ED3EEF867E66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nodes">
+      <UniqueIdentifier>{4C7A092E-D99A-3067-8DF0-77AE3928B35E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="operations">
+      <UniqueIdentifier>{0544D87E-52E5-30BA-8A23-74599E0FBFAE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

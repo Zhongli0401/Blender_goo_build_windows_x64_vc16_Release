@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A526A92C-1F14-361D-B5DD-270749A21EC3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>extern_mantaflow</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">extern_mantaflow.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">extern_mantaflow</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">extern_mantaflow.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">extern_mantaflow</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">extern_mantaflow.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">extern_mantaflow</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">extern_mantaflow.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">extern_mantaflow</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\mantaflow\preprocessed;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\python;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin;C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper;C:\blender-git\goo-engine\extern\mantaflow\helper\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/lib/win64_vc15/python/310/include" /external:I "C:/blender-git/lib/win64_vc15/zlib/include" /external:I "C:/blender-git/lib/win64_vc15/tbb/include" /external:I "C:/blender-git/lib/win64_vc15/openvdb/include" /external:I "C:/blender-git/lib/win64_vc15/boost/include" /external:I "C:/blender-git/lib/win64_vc15/openexr/include" /external:I "C:/blender-git/lib/win64_vc15/imath/include" /external:I "C:/blender-git/lib/win64_vc15/imath/include/Imath" /external:I "C:/blender-git/lib/win64_vc15/openexr/include/OpenEXR" /w34062 /w34115 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848;4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;DEBUG;_DEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FLUID=1;NO_CNPY=1;TBB=1;OPENVDB=1;TBB_SUPPRESS_DEPRECATED_MESSAGES=1;OPENVDB_BLOSC=1;_USE_MATH_DEFINES;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;DEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FLUID=1;NO_CNPY=1;TBB=1;OPENVDB=1;TBB_SUPPRESS_DEPRECATED_MESSAGES=1;OPENVDB_BLOSC=1;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\mantaflow\preprocessed;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\python;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin;C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper;C:\blender-git\goo-engine\extern\mantaflow\helper\util;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\lib\win64_vc15\python\310\include;C:\blender-git\lib\win64_vc15\zlib\include;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\lib\win64_vc15\openvdb\include;C:\blender-git\lib\win64_vc15\boost\include;C:\blender-git\lib\win64_vc15\openexr\include;C:\blender-git\lib\win64_vc15\imath\include;C:\blender-git\lib\win64_vc15\imath\include\Imath;C:\blender-git\lib\win64_vc15\openexr\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\mantaflow\preprocessed;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\python;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin;C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper;C:\blender-git\goo-engine\extern\mantaflow\helper\util;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\lib\win64_vc15\python\310\include;C:\blender-git\lib\win64_vc15\zlib\include;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\lib\win64_vc15\openvdb\include;C:\blender-git\lib\win64_vc15\boost\include;C:\blender-git\lib\win64_vc15\openexr\include;C:\blender-git\lib\win64_vc15\imath\include;C:\blender-git\lib\win64_vc15\imath\include\Imath;C:\blender-git\lib\win64_vc15\openexr\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\mantaflow\preprocessed;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\python;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin;C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper;C:\blender-git\goo-engine\extern\mantaflow\helper\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/lib/win64_vc15/python/310/include" /external:I "C:/blender-git/lib/win64_vc15/zlib/include" /external:I "C:/blender-git/lib/win64_vc15/tbb/include" /external:I "C:/blender-git/lib/win64_vc15/openvdb/include" /external:I "C:/blender-git/lib/win64_vc15/boost/include" /external:I "C:/blender-git/lib/win64_vc15/openexr/include" /external:I "C:/blender-git/lib/win64_vc15/imath/include" /external:I "C:/blender-git/lib/win64_vc15/imath/include/Imath" /external:I "C:/blender-git/lib/win64_vc15/openexr/include/OpenEXR" /w34062 /w34115 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848;4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FLUID=1;NO_CNPY=1;TBB=1;OPENVDB=1;TBB_SUPPRESS_DEPRECATED_MESSAGES=1;OPENVDB_BLOSC=1;_USE_MATH_DEFINES;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FLUID=1;NO_CNPY=1;TBB=1;OPENVDB=1;TBB_SUPPRESS_DEPRECATED_MESSAGES=1;OPENVDB_BLOSC=1;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\mantaflow\preprocessed;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\python;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin;C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper;C:\blender-git\goo-engine\extern\mantaflow\helper\util;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\lib\win64_vc15\python\310\include;C:\blender-git\lib\win64_vc15\zlib\include;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\lib\win64_vc15\openvdb\include;C:\blender-git\lib\win64_vc15\boost\include;C:\blender-git\lib\win64_vc15\openexr\include;C:\blender-git\lib\win64_vc15\imath\include;C:\blender-git\lib\win64_vc15\imath\include\Imath;C:\blender-git\lib\win64_vc15\openexr\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\mantaflow\preprocessed;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\python;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin;C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper;C:\blender-git\goo-engine\extern\mantaflow\helper\util;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\lib\win64_vc15\python\310\include;C:\blender-git\lib\win64_vc15\zlib\include;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\lib\win64_vc15\openvdb\include;C:\blender-git\lib\win64_vc15\boost\include;C:\blender-git\lib\win64_vc15\openexr\include;C:\blender-git\lib\win64_vc15\imath\include;C:\blender-git\lib\win64_vc15\imath\include\Imath;C:\blender-git\lib\win64_vc15\openexr\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\mantaflow\preprocessed;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\python;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin;C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper;C:\blender-git\goo-engine\extern\mantaflow\helper\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/lib/win64_vc15/python/310/include" /external:I "C:/blender-git/lib/win64_vc15/zlib/include" /external:I "C:/blender-git/lib/win64_vc15/tbb/include" /external:I "C:/blender-git/lib/win64_vc15/openvdb/include" /external:I "C:/blender-git/lib/win64_vc15/boost/include" /external:I "C:/blender-git/lib/win64_vc15/openexr/include" /external:I "C:/blender-git/lib/win64_vc15/imath/include" /external:I "C:/blender-git/lib/win64_vc15/imath/include/Imath" /external:I "C:/blender-git/lib/win64_vc15/openexr/include/OpenEXR" /w34062 /w34115 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848;4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FLUID=1;NO_CNPY=1;TBB=1;OPENVDB=1;TBB_SUPPRESS_DEPRECATED_MESSAGES=1;OPENVDB_BLOSC=1;_USE_MATH_DEFINES;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FLUID=1;NO_CNPY=1;TBB=1;OPENVDB=1;TBB_SUPPRESS_DEPRECATED_MESSAGES=1;OPENVDB_BLOSC=1;_USE_MATH_DEFINES;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\mantaflow\preprocessed;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\python;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin;C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper;C:\blender-git\goo-engine\extern\mantaflow\helper\util;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\lib\win64_vc15\python\310\include;C:\blender-git\lib\win64_vc15\zlib\include;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\lib\win64_vc15\openvdb\include;C:\blender-git\lib\win64_vc15\boost\include;C:\blender-git\lib\win64_vc15\openexr\include;C:\blender-git\lib\win64_vc15\imath\include;C:\blender-git\lib\win64_vc15\imath\include\Imath;C:\blender-git\lib\win64_vc15\openexr\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\mantaflow\preprocessed;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\python;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin;C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper;C:\blender-git\goo-engine\extern\mantaflow\helper\util;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\lib\win64_vc15\python\310\include;C:\blender-git\lib\win64_vc15\zlib\include;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\lib\win64_vc15\openvdb\include;C:\blender-git\lib\win64_vc15\boost\include;C:\blender-git\lib\win64_vc15\openexr\include;C:\blender-git\lib\win64_vc15\imath\include;C:\blender-git\lib\win64_vc15\imath\include\Imath;C:\blender-git\lib\win64_vc15\openexr\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\mantaflow\preprocessed;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\python;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin;C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper;C:\blender-git\goo-engine\extern\mantaflow\helper\util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/lib/win64_vc15/python/310/include" /external:I "C:/blender-git/lib/win64_vc15/zlib/include" /external:I "C:/blender-git/lib/win64_vc15/tbb/include" /external:I "C:/blender-git/lib/win64_vc15/openvdb/include" /external:I "C:/blender-git/lib/win64_vc15/boost/include" /external:I "C:/blender-git/lib/win64_vc15/openexr/include" /external:I "C:/blender-git/lib/win64_vc15/imath/include" /external:I "C:/blender-git/lib/win64_vc15/imath/include/Imath" /external:I "C:/blender-git/lib/win64_vc15/openexr/include/OpenEXR" /w34062 /w34115 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848;4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FLUID=1;NO_CNPY=1;TBB=1;OPENVDB=1;TBB_SUPPRESS_DEPRECATED_MESSAGES=1;OPENVDB_BLOSC=1;_USE_MATH_DEFINES;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FLUID=1;NO_CNPY=1;TBB=1;OPENVDB=1;TBB_SUPPRESS_DEPRECATED_MESSAGES=1;OPENVDB_BLOSC=1;_USE_MATH_DEFINES;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\mantaflow\preprocessed;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\python;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin;C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper;C:\blender-git\goo-engine\extern\mantaflow\helper\util;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\lib\win64_vc15\python\310\include;C:\blender-git\lib\win64_vc15\zlib\include;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\lib\win64_vc15\openvdb\include;C:\blender-git\lib\win64_vc15\boost\include;C:\blender-git\lib\win64_vc15\openexr\include;C:\blender-git\lib\win64_vc15\imath\include;C:\blender-git\lib\win64_vc15\imath\include\Imath;C:\blender-git\lib\win64_vc15\openexr\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\mantaflow\preprocessed;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\python;C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin;C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper;C:\blender-git\goo-engine\extern\mantaflow\helper\util;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\lib\win64_vc15\python\310\include;C:\blender-git\lib\win64_vc15\zlib\include;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\lib\win64_vc15\openvdb\include;C:\blender-git\lib\win64_vc15\boost\include;C:\blender-git\lib\win64_vc15\openexr\include;C:\blender-git\lib\win64_vc15\imath\include;C:\blender-git\lib\win64_vc15\imath\include\Imath;C:\blender-git\lib\win64_vc15\openexr\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\extern\mantaflow\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/blender-git/goo-engine/extern/mantaflow/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/extern/mantaflow/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\extern\mantaflow\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/blender-git/goo-engine/extern/mantaflow/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/extern/mantaflow/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\extern\mantaflow\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/blender-git/goo-engine/extern/mantaflow/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/extern/mantaflow/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\extern\mantaflow\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/blender-git/goo-engine/extern/mantaflow/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/extern/mantaflow/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\extern\mantaflow\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\commonkernels.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\commonkernels.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\conjugategrad.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\conjugategrad.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\conjugategrad.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\edgecollapse.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\edgecollapse.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\edgecollapse.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fastmarch.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fastmarch.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fastmarch.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio\iogrids.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio\iomeshes.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio\ioparticles.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio\ioutil.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio\iovdb.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio\mantaio.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio\mantaio.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio\mantaio.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fluidsolver.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fluidsolver.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fluidsolver.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\general.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\general.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\general.h.reg.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\gitinfo.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\grid.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\grid.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\grid.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\grid4d.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\grid4d.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\grid4d.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\kernel.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\kernel.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\kernel.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\levelset.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\levelset.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\levelset.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\mesh.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\mesh.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\mesh.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\movingobs.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\movingobs.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\movingobs.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\multigrid.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\multigrid.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\multigrid.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\noisefield.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\noisefield.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\noisefield.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\particle.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\particle.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\particle.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\advection.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\apic.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\extforces.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\fire.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\flip.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\fluidguiding.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\initplugins.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\kepsilon.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\meshplugins.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\pressure.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\ptsplugins.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\secondaryparticles.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\surfaceturbulence.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\viscosity.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\vortexplugins.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\waveletturbulence.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\waves.cpp" />
+    <None Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\python\defines.py">
+    </None>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\python\defines.py.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\registration.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\shapes.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\shapes.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\shapes.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\test.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\timing.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\timing.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\timing.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\turbulencepart.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\turbulencepart.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\turbulencepart.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\vortexpart.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\vortexpart.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\vortexpart.h.reg.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\vortexsheet.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\vortexsheet.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\vortexsheet.h.reg.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper\manta.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper\pclass.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper\pclass.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper\pconvert.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper\pconvert.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper\pvec3.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper\pythonInclude.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper\registry.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper\registry.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\integrator.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\interpol.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\interpolHigh.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\matrixbase.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\mcubes.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\quaternion.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\randomstream.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\rcmatrix.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\simpleimage.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\simpleimage.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\solvana.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\vector4d.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\vector4d.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\vectorbase.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\vectorbase.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\ZERO_CHECK.vcxproj">
+      <Project>{0B18E108-1544-3A9C-9810-3B45BB3BAEA5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

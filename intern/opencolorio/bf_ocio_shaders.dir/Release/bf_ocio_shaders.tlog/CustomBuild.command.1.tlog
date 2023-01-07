@@ -1,0 +1,46 @@
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\53D5268BAD6D763285235025922F60B1\GPU_SHADER_DISPLAY_TRANSFORM_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/intern/opencolorio
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/intern/opencolorio/gpu_shader_display_transform_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/intern/opencolorio/gpu_shader_display_transform_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\53D5268BAD6D763285235025922F60B1\GPU_SHADER_DISPLAY_TRANSFORM_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/intern/opencolorio
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/intern/opencolorio/gpu_shader_display_transform_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/intern/opencolorio/gpu_shader_display_transform_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\53D5268BAD6D763285235025922F60B1\OCIO_SHADER_SHARED.HH.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/intern/opencolorio
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/intern/opencolorio/ocio_shader_shared.hh C:/blender-git/build_windows_x64_vc16_Release/intern/opencolorio/ocio_shader_shared.hh.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\GOO-ENGINE\INTERN\OPENCOLORIO\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/intern/opencolorio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

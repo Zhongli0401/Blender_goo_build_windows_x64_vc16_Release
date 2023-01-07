@@ -1,0 +1,2062 @@
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A4483A5DE8E8F6723279980B65301F9A\GPU_SHADER_SHARED.H.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/GPU_shader_shared.h C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/GPU_shader_shared.h.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\84F70518B03823EC6FA699BD12255255\GLSL_SHADER_DEFINES.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/opengl
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/opengl/glsl_shader_defines.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/opengl/glsl_shader_defines.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_DEPTH_ONLY_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_depth_only_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_depth_only_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_UNIFORM_COLOR_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_uniform_color_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_uniform_color_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_CHECKER_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_checker_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_checker_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_DIAG_STRIPES_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_diag_stripes_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_diag_stripes_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_SIMPLE_LIGHTING_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_simple_lighting_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_simple_lighting_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_FLAT_COLOR_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_flat_color_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_flat_color_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_FLAT_COLOR_ALPHA_TEST_0_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_flat_color_alpha_test_0_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_flat_color_alpha_test_0_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_FLAT_ID_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_flat_id_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_flat_id_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_AREA_BORDERS_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_area_borders_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_area_borders_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_AREA_BORDERS_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_area_borders_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_area_borders_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_WIDGET_BASE_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_widget_base_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_widget_base_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_WIDGET_BASE_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_widget_base_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_widget_base_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_WIDGET_SHADOW_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_widget_shadow_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_widget_shadow_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_WIDGET_SHADOW_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_widget_shadow_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_widget_shadow_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_NODELINK_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_nodelink_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_nodelink_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_NODELINK_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_nodelink_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_nodelink_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_FLAT_COLOR_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_flat_color_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_flat_color_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_LINE_DASHED_UNIFORM_COLOR_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_line_dashed_uniform_color_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_line_dashed_uniform_color_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_LINE_DASHED_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_line_dashed_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_line_dashed_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_SMOOTH_COLOR_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_smooth_color_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_smooth_color_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_SMOOTH_COLOR_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_smooth_color_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_smooth_color_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_IMAGE_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_image_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_image_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_IMAGE_RECT_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_image_rect_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_image_rect_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_IMAGE_MULTI_RECT_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_image_multi_rect_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_image_multi_rect_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_IMAGE_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_image_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_image_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_IMAGE_DESATURATE_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_image_desaturate_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_image_desaturate_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_IMAGE_OVERLAYS_MERGE_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_image_overlays_merge_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_image_overlays_merge_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_IMAGE_OVERLAYS_STEREO_MERGE_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_image_overlays_stereo_merge_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_image_overlays_stereo_merge_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_IMAGE_MODULATE_ALPHA_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_image_modulate_alpha_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_image_modulate_alpha_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_IMAGE_SHUFFLE_COLOR_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_image_shuffle_color_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_image_shuffle_color_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_IMAGE_COLOR_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_image_color_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_image_color_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_IMAGE_VARYING_COLOR_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_image_varying_color_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_image_varying_color_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_3D_IMAGE_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_3D_image_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_3D_image_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_3D_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_3D_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_3D_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_3D_NORMAL_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_3D_normal_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_3D_normal_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_3D_FLAT_COLOR_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_3D_flat_color_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_3D_flat_color_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_3D_LINE_DASHED_UNIFORM_COLOR_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_3D_line_dashed_uniform_color_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_3D_line_dashed_uniform_color_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_3D_POLYLINE_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_3D_polyline_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_3D_polyline_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_3D_POLYLINE_GEOM.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_3D_polyline_geom.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_3D_polyline_geom.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_3D_POLYLINE_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_3D_polyline_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_3D_polyline_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_3D_SMOOTH_COLOR_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_3D_smooth_color_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_3D_smooth_color_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_3D_SMOOTH_COLOR_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_3D_smooth_color_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_3D_smooth_color_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_3D_PASSTHROUGH_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_3D_passthrough_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_3D_passthrough_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_3D_CLIPPED_UNIFORM_COLOR_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_3D_clipped_uniform_color_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_3D_clipped_uniform_color_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_INSTANCE_VARIYING_SIZE_VARIYING_COLOR_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_instance_variying_size_variying_color_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_instance_variying_size_variying_color_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_POINT_UNIFORM_COLOR_AA_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_point_uniform_color_aa_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_point_uniform_color_aa_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_POINT_UNIFORM_COLOR_OUTLINE_AA_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_point_uniform_color_outline_aa_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_point_uniform_color_outline_aa_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_POINT_VARYING_COLOR_VARYING_OUTLINE_AA_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_point_varying_color_varying_outline_aa_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_point_varying_color_varying_outline_aa_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_POINT_VARYING_COLOR_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_point_varying_color_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_point_varying_color_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_3D_POINT_FIXED_SIZE_VARYING_COLOR_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_3D_point_fixed_size_varying_color_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_3D_point_fixed_size_varying_color_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_3D_POINT_VARYING_SIZE_VARYING_COLOR_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_3D_point_varying_size_varying_color_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_3D_point_varying_size_varying_color_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_3D_POINT_UNIFORM_SIZE_AA_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_3D_point_uniform_size_aa_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_3D_point_uniform_size_aa_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_POINT_VARYING_SIZE_VARYING_COLOR_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_point_varying_size_varying_color_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_point_varying_size_varying_color_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_POINT_UNIFORM_SIZE_AA_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_point_uniform_size_aa_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_point_uniform_size_aa_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_2D_POINT_UNIFORM_SIZE_OUTLINE_AA_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_2D_point_uniform_size_outline_aa_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_2D_point_uniform_size_outline_aa_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_TEXT_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_text_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_text_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_TEXT_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_text_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_text_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_KEYFRAME_SHAPE_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_keyframe_shape_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_keyframe_shape_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_KEYFRAME_SHAPE_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_keyframe_shape_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_keyframe_shape_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_CODEGEN_LIB.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_codegen_lib.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_codegen_lib.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\6690CE1B8FFE87CEF6BE2509F733596A\GPU_SHADER_COMMON_COLOR_RAMP.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/common
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/common/gpu_shader_common_color_ramp.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/common/gpu_shader_common_color_ramp.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\6690CE1B8FFE87CEF6BE2509F733596A\GPU_SHADER_COMMON_COLOR_UTILS.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/common
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/common/gpu_shader_common_color_utils.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/common/gpu_shader_common_color_utils.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\6690CE1B8FFE87CEF6BE2509F733596A\GPU_SHADER_COMMON_CURVES.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/common
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/common/gpu_shader_common_curves.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/common/gpu_shader_common_curves.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\6690CE1B8FFE87CEF6BE2509F733596A\GPU_SHADER_COMMON_HASH.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/common
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/common/gpu_shader_common_hash.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/common/gpu_shader_common_hash.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\6690CE1B8FFE87CEF6BE2509F733596A\GPU_SHADER_COMMON_MATH.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/common
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/common/gpu_shader_common_math.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/common/gpu_shader_common_math.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\6690CE1B8FFE87CEF6BE2509F733596A\GPU_SHADER_COMMON_MATH_UTILS.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/common
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/common/gpu_shader_common_math_utils.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/common/gpu_shader_common_math_utils.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\6690CE1B8FFE87CEF6BE2509F733596A\GPU_SHADER_COMMON_MIX_RGB.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/common
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/common/gpu_shader_common_mix_rgb.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/common/gpu_shader_common_mix_rgb.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_ADD_SHADER.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_add_shader.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_add_shader.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_AMBIENT_OCCLUSION.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_ambient_occlusion.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_ambient_occlusion.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_ANISOTROPIC.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_anisotropic.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_anisotropic.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_ATTRIBUTE.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_attribute.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_attribute.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_BACKGROUND.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_background.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_background.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_BEVEL.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_bevel.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_bevel.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_WAVELENGTH.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_wavelength.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_wavelength.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_BLACKBODY.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_blackbody.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_blackbody.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_BRIGHT_CONTRAST.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_bright_contrast.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_bright_contrast.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_BUMP.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_bump.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_bump.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_CAMERA.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_camera.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_camera.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_CLAMP.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_clamp.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_clamp.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_COMBINE_COLOR.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_combine_color.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_combine_color.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_COMBINE_HSV.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_combine_hsv.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_combine_hsv.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_COMBINE_RGB.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_combine_rgb.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_combine_rgb.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_COMBINE_XYZ.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_combine_xyz.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_combine_xyz.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_DIFFUSE.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_diffuse.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_diffuse.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_DISPLACEMENT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_displacement.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_displacement.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_EEVEE_SPECULAR.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_eevee_specular.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_eevee_specular.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_EMISSION.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_emission.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_emission.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_FRACTAL_NOISE.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_fractal_noise.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_fractal_noise.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_FRESNEL.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_fresnel.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_fresnel.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_GAMMA.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_gamma.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_gamma.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_GEOMETRY.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_geometry.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_geometry.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_GLASS.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_glass.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_glass.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_GLOSSY.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_glossy.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_glossy.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_HAIR_INFO.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_hair_info.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_hair_info.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_HAIR.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_hair.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_hair.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_HOLDOUT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_holdout.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_holdout.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_HUE_SAT_VAL.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_hue_sat_val.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_hue_sat_val.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_INVERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_invert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_invert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_LAYER_WEIGHT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_layer_weight.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_layer_weight.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_LIGHT_FALLOFF.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_light_falloff.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_light_falloff.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_LIGHT_PATH.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_light_path.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_light_path.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_MAPPING.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_mapping.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_mapping.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_MAP_RANGE.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_map_range.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_map_range.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_MIX_SHADER.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_mix_shader.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_mix_shader.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_NOISE.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_noise.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_noise.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_NORMAL.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_normal.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_normal.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_NORMAL_MAP.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_normal_map.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_normal_map.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_OBJECT_INFO.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_object_info.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_object_info.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_OUTPUT_AOV.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_output_aov.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_output_aov.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_OUTPUT_MATERIAL.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_output_material.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_output_material.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_OUTPUT_WORLD.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_output_world.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_output_world.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_PARTICLE_INFO.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_particle_info.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_particle_info.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_POINT_INFO.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_point_info.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_point_info.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_PRINCIPLED.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_principled.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_principled.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_REFRACTION.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_refraction.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_refraction.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_RGB_TO_BW.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_rgb_to_bw.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_rgb_to_bw.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_SEPARATE_COLOR.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_separate_color.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_separate_color.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_SEPARATE_HSV.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_separate_hsv.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_separate_hsv.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_SEPARATE_RGB.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_separate_rgb.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_separate_rgb.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_SEPARATE_XYZ.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_separate_xyz.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_separate_xyz.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_SET.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_set.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_set.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_SHADER_TO_RGBA.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_shader_to_rgba.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_shader_to_rgba.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_SQUEEZE.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_squeeze.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_squeeze.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_SUBSURFACE_SCATTERING.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_subsurface_scattering.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_subsurface_scattering.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_TANGENT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_tangent.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_tangent.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_TEX_BRICK.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_tex_brick.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_tex_brick.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_TEX_CHECKER.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_tex_checker.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_tex_checker.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_TEX_ENVIRONMENT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_tex_environment.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_tex_environment.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_TEX_GRADIENT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_tex_gradient.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_tex_gradient.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_TEX_IMAGE.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_tex_image.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_tex_image.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_TEX_MAGIC.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_tex_magic.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_tex_magic.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_TEX_MUSGRAVE.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_tex_musgrave.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_tex_musgrave.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_TEX_NOISE.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_tex_noise.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_tex_noise.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_TEX_SKY.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_tex_sky.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_tex_sky.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_TEXTURE_COORDINATES.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_texture_coordinates.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_texture_coordinates.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_TEX_VORONOI.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_tex_voronoi.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_tex_voronoi.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_TEX_WAVE.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_tex_wave.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_tex_wave.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_TEX_WHITE_NOISE.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_tex_white_noise.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_tex_white_noise.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_TOON.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_toon.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_toon.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_TRANSFORM_UTILS.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_transform_utils.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_transform_utils.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_TRANSLUCENT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_translucent.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_translucent.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_TRANSPARENT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_transparent.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_transparent.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_UV_MAP.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_uv_map.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_uv_map.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_VECTOR_DISPLACEMENT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_vector_displacement.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_vector_displacement.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_VECTOR_MATH.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_vector_math.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_vector_math.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_VECTOR_ROTATE.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_vector_rotate.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_vector_rotate.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_VELVET.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_velvet.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_velvet.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_VERTEX_COLOR.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_vertex_color.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_vertex_color.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_VOLUME_ABSORPTION.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_volume_absorption.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_volume_absorption.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_VOLUME_PRINCIPLED.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_volume_principled.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_volume_principled.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_VOLUME_SCATTER.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_volume_scatter.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_volume_scatter.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_WIREFRAME.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_wireframe.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_wireframe.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_WORLD_NORMALS.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_world_normals.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_world_normals.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_SCREENSPACE_INFO.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_screenspace_info.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_screenspace_info.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_CURVATURE.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_curvature.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_curvature.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_SHADER_INFO.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_shader_info.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_shader_info.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_SET_DEPTH.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_set_depth.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_set_depth.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_SDF_PRIMITIVE.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_sdf_primitive.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_sdf_primitive.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_SDF_OP.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_sdf_op.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_sdf_op.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_SDF_VECTOR_OP.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_sdf_vector_op.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_sdf_vector_op.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_SDF_NOISE.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_sdf_noise.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_sdf_noise.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\02507BD8AF17B5519FA21FDB6C76F9E1\GPU_SHADER_MATERIAL_SDF_UTIL.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/material/gpu_shader_material_sdf_util.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/material/gpu_shader_material_sdf_util.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_GPENCIL_STROKE_VERT.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_gpencil_stroke_vert.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_gpencil_stroke_vert.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_GPENCIL_STROKE_FRAG.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_gpencil_stroke_frag.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_gpencil_stroke_frag.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_GPENCIL_STROKE_GEOM.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_gpencil_stroke_geom.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_gpencil_stroke_geom.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_CFG_WORLD_CLIP_LIB.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_cfg_world_clip_lib.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_cfg_world_clip_lib.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\C7F7891A369B4DCCC3D244A3FD79BB3C\GPU_SHADER_COLORSPACE_LIB.GLSL.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/shaders/gpu_shader_colorspace_lib.glsl C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/shaders/gpu_shader_colorspace_lib.glsl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A4483A5DE8E8F6723279980B65301F9A\GPU_SHADER_SHARED_UTILS.H.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/gpu/GPU_shader_shared_utils.h C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/GPU_shader_shared_utils.h.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\GOO-ENGINE\SOURCE\BLENDER\GPU\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

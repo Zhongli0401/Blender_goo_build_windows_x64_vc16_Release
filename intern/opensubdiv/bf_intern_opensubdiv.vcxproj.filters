@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\base\opensubdiv_capi.cc">
+      <Filter>internal\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\base\type_convert.cc">
+      <Filter>internal\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\base\util.cc">
+      <Filter>internal\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\evaluator\eval_output.cc">
+      <Filter>internal\evaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\evaluator\eval_output_cpu.cc">
+      <Filter>internal\evaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\evaluator\eval_output_gpu.cc">
+      <Filter>internal\evaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\evaluator\evaluator_cache_impl.cc">
+      <Filter>internal\evaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\evaluator\evaluator_capi.cc">
+      <Filter>internal\evaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\evaluator\evaluator_impl.cc">
+      <Filter>internal\evaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\evaluator\gl_compute_evaluator.cc">
+      <Filter>internal\evaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\evaluator\patch_map.cc">
+      <Filter>internal\evaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\topology\mesh_topology.cc">
+      <Filter>internal\topology</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\topology\mesh_topology_compare.cc">
+      <Filter>internal\topology</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\topology\topology_refiner_capi.cc">
+      <Filter>internal\topology</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\topology\topology_refiner_factory.cc">
+      <Filter>internal\topology</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\topology\topology_refiner_impl.cc">
+      <Filter>internal\topology</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\topology\topology_refiner_impl_compare.cc">
+      <Filter>internal\topology</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\intern\opensubdiv\internal\evaluator\shaders\glsl_compute_kernel.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\opensubdiv\opensubdiv_capi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\opensubdiv\opensubdiv_capi_type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\opensubdiv\opensubdiv_converter_capi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\opensubdiv\opensubdiv_evaluator_capi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\opensubdiv\opensubdiv_topology_refiner_capi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\base\memory.h">
+      <Filter>internal\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\base\type.h">
+      <Filter>internal\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\base\type_convert.h">
+      <Filter>internal\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\base\util.h">
+      <Filter>internal\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\evaluator\eval_output.h">
+      <Filter>internal\evaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\evaluator\eval_output_cpu.h">
+      <Filter>internal\evaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\evaluator\eval_output_gpu.h">
+      <Filter>internal\evaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\evaluator\evaluator_cache_impl.h">
+      <Filter>internal\evaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\evaluator\evaluator_impl.h">
+      <Filter>internal\evaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\evaluator\gl_compute_evaluator.h">
+      <Filter>internal\evaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\evaluator\patch_map.h">
+      <Filter>internal\evaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\topology\mesh_topology.h">
+      <Filter>internal\topology</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\topology\topology_refiner_impl.h">
+      <Filter>internal\topology</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\7bf574ba9c32658499e91f7f8e2e7ca3\glsl_compute_kernel.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\goo-engine\intern\opensubdiv\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\blender-git\goo-engine\intern\opensubdiv\internal\evaluator\shaders\glsl_compute_kernel.glsl">
+      <Filter>internal\evaluator\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{93D321BE-D925-34CD-9F6A-689691A7BFE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{2C01B952-6754-3379-B1CA-FF75F50311DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF785239-3054-3D1C-9CBE-53CD9878A5F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal">
+      <UniqueIdentifier>{2B80A937-9CF2-38B3-83FA-40B30E50A251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal\base">
+      <UniqueIdentifier>{56653F13-B1F2-3539-BC41-9256545744A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal\evaluator">
+      <UniqueIdentifier>{366CBB1A-2976-37A1-B55B-36003F6B582F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal\evaluator\shaders">
+      <UniqueIdentifier>{A7454F43-48CD-3DDD-8BA8-05DF757ECBD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal\topology">
+      <UniqueIdentifier>{59F66C18-ADBD-3AB3-B756-17E96AF347EE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

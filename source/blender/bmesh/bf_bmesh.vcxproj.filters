@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_beautify.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_bevel.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_bisect_plane.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_bridge.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_connect.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_connect_concave.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_connect_nonplanar.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_connect_pair.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_create.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_dissolve.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_dupe.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_edgenet.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_extrude.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_fill_attribute.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_fill_edgeloop.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_fill_grid.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_fill_holes.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_hull.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_inset.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_join_triangles.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_mesh_convert.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_mirror.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_normals.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_offset_edgeloops.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_planar_faces.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_poke.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_primitive.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_removedoubles.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_rotate_edges.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_smooth_laplacian.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_split_edges.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_subdivide.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_subdivide_edgering.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_symmetrize.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_triangulate.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_unsubdivide.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_utils.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\operators\bmo_wireframe.c">
+      <Filter>operators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_callback_generic.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_construct.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_core.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_delete.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_edgeloop.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_interp.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_iterators.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_log.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_marking.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_mesh.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_mesh_convert.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_mesh_debug.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_mesh_duplicate.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_mesh_normals.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_mesh_partial_update.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_mesh_tessellate.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_mesh_validate.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_mods.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_opdefines.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_operators.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_polygon.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_polygon_edgenet.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_query.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_query_uv.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_structure.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_walkers.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_walkers_impl.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_beautify.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_bevel.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_bisect_plane.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_boolean.cc">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_decimate_collapse.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_decimate_dissolve.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_decimate_unsubdivide.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_edgenet.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_edgesplit.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_intersect.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_intersect_edges.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_path.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_path_region.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_path_region_uv.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_path_uv.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_region_match.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_separate.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_triangulate.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_wireframe.c">
+      <Filter>tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_callback_generic.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_construct.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_core.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_delete.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_edgeloop.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_inline.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_interp.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_iterators.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_iterators_inline.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_log.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_marking.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_mesh.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_mesh_convert.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_mesh_debug.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_mesh_duplicate.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_mesh_normals.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_mesh_partial_update.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_mesh_tessellate.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_mesh_validate.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_mods.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_operator_api_inline.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_operators.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_operators_private.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_polygon.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_polygon_edgenet.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_private.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_query.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_query_inline.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_query_uv.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_structure.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_structure_inline.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_walkers.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_walkers_private.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_error.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\intern\bmesh_operator_api.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_beautify.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_bevel.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_bisect_plane.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_boolean.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_decimate.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_edgenet.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_edgesplit.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_intersect.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_intersect_edges.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_path.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_path_region.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_path_region_uv.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_path_uv.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_region_match.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_separate.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_triangulate.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\tools\bmesh_wireframe.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\bmesh_class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\bmesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\bmesh\bmesh_tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\blender\bmesh\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF785239-3054-3D1C-9CBE-53CD9878A5F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{017BFF33-8AB9-35B3-9AF4-ED3EEF867E66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="operators">
+      <UniqueIdentifier>{9FA93B84-04FC-3D1A-9EEE-3D511035542A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{456DD485-F225-3D40-896B-00A3497BBCE5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

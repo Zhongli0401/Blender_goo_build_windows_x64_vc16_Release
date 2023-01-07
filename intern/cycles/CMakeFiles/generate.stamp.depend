@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+C:/blender-git/goo-engine/build_files/cmake/Modules/FindOptiX.cmake
+C:/blender-git/goo-engine/intern/cycles/CMakeLists.txt
+C:/blender-git/goo-engine/intern/cycles/cmake/external_libs.cmake
+C:/blender-git/goo-engine/intern/cycles/cmake/macros.cmake

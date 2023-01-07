@@ -1,0 +1,854 @@
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\0DD546AE9D72F6578EE1EDB440A6089A\BFONT.PFB.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/bfont.pfb C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/bfont.pfb.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\0DD546AE9D72F6578EE1EDB440A6089A\PREVIEW.BLEND.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/preview.blend C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/preview.blend.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\0DD546AE9D72F6578EE1EDB440A6089A\PREVIEW_GREASE_PENCIL.BLEND.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/preview_grease_pencil.blend C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/preview_grease_pencil.blend.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\0DD546AE9D72F6578EE1EDB440A6089A\SPLASH.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/splash.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/splash.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\0DD546AE9D72F6578EE1EDB440A6089A\ALERT_ICONS.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/alert_icons.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/alert_icons.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\0DD546AE9D72F6578EE1EDB440A6089A\BLENDER_LOGO.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/blender_logo.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/blender_logo.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\0DD546AE9D72F6578EE1EDB440A6089A\BLENDER_ICONS16.PNG.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc_icon.exe C:/blender-git/goo-engine/release/datafiles/blender_icons16 C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/blender_icons16.png
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/blender_icons16.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/blender_icons16.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\0DD546AE9D72F6578EE1EDB440A6089A\BLENDER_ICONS32.PNG.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc_icon.exe C:/blender-git/goo-engine/release/datafiles/blender_icons32 C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/blender_icons32.png
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/blender_icons32.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/blender_icons32.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\0DD546AE9D72F6578EE1EDB440A6089A\PRVICONS.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/prvicons.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/prvicons.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\BLOB.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/blob.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/blob.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\BLUR.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/blur.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/blur.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\CLAY.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/clay.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/clay.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\CLAYSTRIPS.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/claystrips.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/claystrips.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\CLONE.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/clone.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/clone.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\CREASE.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/crease.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/crease.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\DRAW.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/draw.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/draw.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\FILL.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/fill.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/fill.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\FLATTEN.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/flatten.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/flatten.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GRAB.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/grab.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/grab.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\INFLATE.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/inflate.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/inflate.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\LAYER.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/layer.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/layer.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\MASK.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/mask.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/mask.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\MIX.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/mix.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/mix.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\NUDGE.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/nudge.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/nudge.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\PAINT_SELECT.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/paint_select.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/paint_select.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\PINCH.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/pinch.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/pinch.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\SCRAPE.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/scrape.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/scrape.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\SMEAR.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/smear.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/smear.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\SMOOTH.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/smooth.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/smooth.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\SNAKE_HOOK.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/snake_hook.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/snake_hook.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\SOFTEN.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/soften.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/soften.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\TEXDRAW.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/texdraw.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/texdraw.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\TEXFILL.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/texfill.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/texfill.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\TEXMASK.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/texmask.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/texmask.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\THUMB.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/thumb.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/thumb.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\TWIST.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/twist.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/twist.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_SMOOTH.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_smooth.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_smooth.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_THICKNESS.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_thickness.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_thickness.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_STRENGTH.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_strength.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_strength.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_GRAB.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_grab.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_grab.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_PUSH.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_push.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_push.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_TWIST.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_twist.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_twist.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_PINCH.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_pinch.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_pinch.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_RANDOMIZE.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_randomize.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_randomize.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_CLONE.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_clone.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_clone.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_WEIGHT.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_weight.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_weight.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_PENCIL.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_pencil.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_pencil.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_PEN.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_pen.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_pen.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_INK.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_ink.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_ink.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_INKNOISE.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_inknoise.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_inknoise.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_BLOCK.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_block.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_block.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_MARKER.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_marker.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_marker.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_FILL.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_fill.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_fill.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_AIRBRUSH.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_airbrush.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_airbrush.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_CHISEL.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_chisel.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_chisel.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_ERASE_SOFT.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_erase_soft.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_erase_soft.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_ERASE_HARD.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_erase_hard.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_erase_hard.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\GP_BRUSH_ERASE_STROKE.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/gp_brush_erase_stroke.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/gp_brush_erase_stroke.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\CURVES_SCULPT_ADD.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/curves_sculpt_add.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/curves_sculpt_add.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\CURVES_SCULPT_COMB.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/curves_sculpt_comb.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/curves_sculpt_comb.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\CURVES_SCULPT_CUT.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/curves_sculpt_cut.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/curves_sculpt_cut.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\CURVES_SCULPT_DELETE.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/curves_sculpt_delete.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/curves_sculpt_delete.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\CURVES_SCULPT_DENSITY.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/curves_sculpt_density.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/curves_sculpt_density.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\CURVES_SCULPT_GROW_SHRINK.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/curves_sculpt_grow_shrink.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/curves_sculpt_grow_shrink.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\CURVES_SCULPT_PINCH.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/curves_sculpt_pinch.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/curves_sculpt_pinch.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\CURVES_SCULPT_PUFF.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/curves_sculpt_puff.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/curves_sculpt_puff.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\CURVES_SCULPT_SLIDE.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/curves_sculpt_slide.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/curves_sculpt_slide.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\CURVES_SCULPT_SMOOTH.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/curves_sculpt_smooth.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/curves_sculpt_smooth.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\A3D674ED2E2BE4D427F8B4324C029DBD\CURVES_SCULPT_SNAKE_HOOK.PNG.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/brushicons/curves_sculpt_snake_hook.png C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/brushicons/curves_sculpt_snake_hook.png.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\0DD546AE9D72F6578EE1EDB440A6089A\STARTUP.BLEND.C.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/release/datafiles
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/release/datafiles/startup.blend C:/blender-git/build_windows_x64_vc16_Release/release/datafiles/startup.blend.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\GOO-ENGINE\SOURCE\BLENDER\EDITORS\DATAFILES\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/blender/editors/datafiles/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

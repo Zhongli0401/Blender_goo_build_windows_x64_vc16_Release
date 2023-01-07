@@ -1,0 +1,984 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0EE54949-4B1B-3B2A-9FCC-B406C3A5D701}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>blender</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="blender.Cpp.user.props" Condition="exists('blender.Cpp.user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">blender.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">blender</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">blender.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">blender</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">blender.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">blender</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">blender.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">blender</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\blenloader;C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\render;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\utfconv;C:\blender-git\goo-engine\intern\libmv;C:\blender-git\goo-engine\intern\cycles\blender;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\goo-engine\source\blender\freestyle;C:\blender-git\lib\win64_vc15\gmp\include;C:\blender-git\build_windows_x64_vc16_Release\source\creator;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w34189 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;DEBUG;_DEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_LIBMV;WITH_CYCLES_LOGGING;WITH_FFMPEG;WITH_PYTHON;WITH_PYTHON_SECURITY;WITH_SDL;WITH_FREESTYLE;WITH_XR_OPENXR;WITH_GMP;WITH_OCIO;BLEN_VER_RC_STR="3.3";BLEN_VER_RC_1=3;BLEN_VER_RC_2=3;BLEN_VER_RC_3=2;BLEN_VER_RC_4=0;WITH_BUILDINFO;WITH_BUILDINFO_HEADER;WITH_USD;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;DEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_LIBMV;WITH_CYCLES_LOGGING;WITH_FFMPEG;WITH_PYTHON;WITH_PYTHON_SECURITY;WITH_SDL;WITH_FREESTYLE;WITH_XR_OPENXR;WITH_GMP;WITH_OCIO;BLEN_VER_RC_STR=\"3.3\";BLEN_VER_RC_1=3;BLEN_VER_RC_2=3;BLEN_VER_RC_3=2;BLEN_VER_RC_4=0;WITH_BUILDINFO;WITH_BUILDINFO_HEADER;WITH_USD;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\blenloader;C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\render;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\utfconv;C:\blender-git\goo-engine\intern\libmv;C:\blender-git\goo-engine\intern\cycles\blender;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\goo-engine\source\blender\freestyle;C:\blender-git\lib\win64_vc15\gmp\include;C:\blender-git\build_windows_x64_vc16_Release\source\creator;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\blenloader;C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\render;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\utfconv;C:\blender-git\goo-engine\intern\libmv;C:\blender-git\goo-engine\intern\cycles\blender;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\goo-engine\source\blender\freestyle;C:\blender-git\lib\win64_vc15\gmp\include;C:\blender-git\build_windows_x64_vc16_Release\source\creator;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\bf_blenkernel.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\tbb\lib\tbb_debug.lib;..\..\lib\Debug\bf_windowmanager.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\tbb\lib\tbbmalloc_debug.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;ws2_32.lib;vfw32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;Comctl32.lib;version.lib;advapi32.lib;shfolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;psapi.lib;Dbghelp.lib;Shlwapi.lib;pathcch.lib;Shcore.lib;Dwmapi.lib;imm32.lib;..\..\lib\Debug\bf_blenloader.lib;..\..\lib\Debug\bf_blentranslation.lib;..\..\lib\Debug\bf_bmesh.lib;..\..\lib\Debug\bf_depsgraph.lib;..\..\lib\Debug\bf_draw.lib;..\..\lib\Debug\bf_imbuf.lib;..\..\lib\Debug\bf_modifiers.lib;..\..\lib\Debug\bf_nodes.lib;..\..\lib\Debug\bf_rna.lib;..\..\lib\Debug\bf_simulation.lib;..\..\lib\Debug\bf_python.lib;..\..\lib\Debug\bf_python_bmesh.lib;..\..\lib\Debug\bf_editor_screen.lib;..\..\lib\Debug\bf_sequencer.lib;..\..\lib\Debug\bf_compositor.lib;..\..\lib\Debug\bf_alembic.lib;..\..\lib\Debug\bf_usd.lib;..\..\lib\Debug\bf_nodes_geometry.lib;..\..\lib\Debug\bf_nodes_shader.lib;..\..\lib\Debug\bf_nodes_texture.lib;..\..\lib\Debug\bf_editor_space_api.lib;..\..\lib\Debug\bf_editor_animation.lib;..\..\lib\Debug\bf_editor_armature.lib;..\..\lib\Debug\bf_editor_asset.lib;..\..\lib\Debug\bf_editor_curve.lib;..\..\lib\Debug\bf_editor_curves.lib;..\..\lib\Debug\bf_editor_gpencil.lib;..\..\lib\Debug\bf_editor_io.lib;..\..\lib\Debug\bf_editor_mesh.lib;..\..\lib\Debug\bf_editor_object.lib;..\..\lib\Debug\bf_editor_physics.lib;..\..\lib\Debug\bf_editor_scene.lib;..\..\lib\Debug\bf_editor_sculpt_paint.lib;..\..\lib\Debug\bf_editor_sound.lib;..\..\lib\Debug\bf_editor_transform.lib;..\..\lib\Debug\bf_editor_undo.lib;..\..\lib\Debug\bf_editor_interface.lib;..\..\lib\Debug\bf_python_mathutils.lib;..\..\lib\Debug\bf_editor_space_sequencer.lib;..\..\lib\Debug\bf_io_common.lib;..\..\lib\Debug\bf_geometry.lib;..\..\lib\Debug\bf_editor_geometry.lib;..\..\lib\Debug\bf_editor_space_action.lib;..\..\lib\Debug\bf_editor_space_clip.lib;..\..\lib\Debug\bf_editor_space_console.lib;..\..\lib\Debug\bf_editor_space_file.lib;..\..\lib\Debug\bf_editor_space_graph.lib;..\..\lib\Debug\bf_editor_space_image.lib;..\..\lib\Debug\bf_editor_space_nla.lib;..\..\lib\Debug\bf_editor_space_node.lib;..\..\lib\Debug\bf_editor_space_outliner.lib;..\..\lib\Debug\bf_editor_space_statusbar.lib;..\..\lib\Debug\bf_editor_space_text.lib;..\..\lib\Debug\bf_editor_space_view3d.lib;..\..\lib\Debug\bf_wavefront_obj.lib;..\..\lib\Debug\bf_stl.lib;..\..\lib\Debug\bf_gpencil.lib;..\..\lib\Debug\bf_render.lib;..\..\lib\Debug\bf_editor_uvedit.lib;..\..\lib\Debug\bf_freestyle.lib;..\..\lib\Debug\bf_blenkernel.lib;..\..\lib\Debug\bf_windowmanager.lib;..\..\lib\Debug\bf_blenloader.lib;..\..\lib\Debug\bf_blentranslation.lib;..\..\lib\Debug\bf_bmesh.lib;..\..\lib\Debug\bf_depsgraph.lib;..\..\lib\Debug\bf_draw.lib;..\..\lib\Debug\bf_imbuf.lib;..\..\lib\Debug\bf_modifiers.lib;..\..\lib\Debug\bf_nodes.lib;..\..\lib\Debug\bf_rna.lib;..\..\lib\Debug\bf_simulation.lib;..\..\lib\Debug\bf_python.lib;..\..\lib\Debug\bf_python_bmesh.lib;..\..\lib\Debug\bf_editor_screen.lib;..\..\lib\Debug\bf_sequencer.lib;..\..\lib\Debug\bf_compositor.lib;..\..\lib\Debug\bf_alembic.lib;..\..\lib\Debug\bf_usd.lib;..\..\lib\Debug\bf_nodes_geometry.lib;..\..\lib\Debug\bf_nodes_shader.lib;..\..\lib\Debug\bf_nodes_texture.lib;..\..\lib\Debug\bf_editor_space_api.lib;..\..\lib\Debug\bf_editor_animation.lib;..\..\lib\Debug\bf_editor_armature.lib;..\..\lib\Debug\bf_editor_asset.lib;..\..\lib\Debug\bf_editor_curve.lib;..\..\lib\Debug\bf_editor_curves.lib;..\..\lib\Debug\bf_editor_gpencil.lib;..\..\lib\Debug\bf_editor_io.lib;..\..\lib\Debug\bf_editor_mesh.lib;..\..\lib\Debug\bf_editor_object.lib;..\..\lib\Debug\bf_editor_physics.lib;..\..\lib\Debug\bf_editor_scene.lib;..\..\lib\Debug\bf_editor_sculpt_paint.lib;..\..\lib\Debug\bf_editor_sound.lib;..\..\lib\Debug\bf_editor_transform.lib;..\..\lib\Debug\bf_editor_undo.lib;..\..\lib\Debug\bf_editor_interface.lib;..\..\lib\Debug\bf_python_mathutils.lib;..\..\lib\Debug\bf_editor_space_sequencer.lib;..\..\lib\Debug\bf_io_common.lib;..\..\lib\Debug\bf_geometry.lib;..\..\lib\Debug\bf_editor_geometry.lib;..\..\lib\Debug\bf_editor_space_action.lib;..\..\lib\Debug\bf_editor_space_clip.lib;..\..\lib\Debug\bf_editor_space_console.lib;..\..\lib\Debug\bf_editor_space_file.lib;..\..\lib\Debug\bf_editor_space_graph.lib;..\..\lib\Debug\bf_editor_space_image.lib;..\..\lib\Debug\bf_editor_space_nla.lib;..\..\lib\Debug\bf_editor_space_node.lib;..\..\lib\Debug\bf_editor_space_outliner.lib;..\..\lib\Debug\bf_editor_space_statusbar.lib;..\..\lib\Debug\bf_editor_space_text.lib;..\..\lib\Debug\bf_editor_space_view3d.lib;..\..\lib\Debug\bf_wavefront_obj.lib;..\..\lib\Debug\bf_stl.lib;..\..\lib\Debug\bf_gpencil.lib;..\..\lib\Debug\bf_render.lib;..\..\lib\Debug\bf_editor_uvedit.lib;..\..\lib\Debug\bf_freestyle.lib;..\..\lib\Debug\bf_gpencil_modifiers.lib;..\..\lib\Debug\bf_ikplugin.lib;..\..\lib\Debug\bf_intern_iksolver.lib;..\..\lib\Debug\bf_intern_itasc.lib;..\..\lib\Debug\bf_intern_clog.lib;..\..\lib\Debug\bf_intern_ghost.lib;..\..\lib\Debug\bf_intern_glew_mx.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\xr_openxr_sdk\lib\openxr_loaderd.lib;shlwapi.lib;..\..\lib\Debug\bf_intern_libmv.lib;..\..\lib\Debug\extern_ceres.lib;..\..\lib\Debug\bf_intern_mikktspace.lib;..\..\lib\Debug\bf_intern_opensubdiv.lib;..\..\lib\Debug\bf_shader_fx.lib;..\..\lib\Debug\bf_intern_rigidbody.lib;..\..\lib\Debug\extern_minilzo.lib;..\..\lib\Debug\extern_lzma.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\fftw3\lib\libfftw.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opensubdiv\lib\osdCPU_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opensubdiv\lib\osdGPU_d.lib;..\..\lib\Debug\bf_intern_quadriflow.lib;..\..\lib\Debug\extern_quadriflow.lib;..\..\lib\Debug\bf_intern_locale.lib;..\..\lib\Debug\extern_rangetree.lib;..\..\lib\Debug\bf_intern_memutil.lib;..\..\lib\Debug\bf_intern_opencolorio.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\png\lib\libpng.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\tiff\lib\libtiff.lib;..\..\lib\Debug\bf_imbuf_openimageio.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openjpeg\lib\openjp2.lib;..\..\lib\Debug\bf_avi.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\jpeg\lib\libjpeg.lib;..\..\lib\Debug\bf_imbuf_dds.lib;..\..\lib\Debug\bf_imbuf_cineon.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\webp\lib\webp.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\webp\lib\webpdemux.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\webp\lib\webpmux.lib;..\..\lib\Debug\bf_intern_dualcon.lib;..\..\lib\Debug\bf_nodes_composite.lib;..\..\lib\Debug\bf_nodes_function.lib;..\..\lib\Debug\bf_dna.lib;..\..\lib\Debug\bf_editor_gizmo_library.lib;..\..\lib\Debug\bf_editor_render.lib;..\..\lib\Debug\bf_python_gpu.lib;..\..\lib\Debug\bf_intern_cycles.lib;..\..\lib\Debug\extern_glog.lib;..\..\lib\Debug\extern_gflags.lib;..\..\lib\Debug\cycles_graph.lib;..\..\lib\Debug\cycles_bvh.lib;..\..\lib\Debug\cycles_device.lib;..\..\lib\Debug\cycles_kernel.lib;..\..\lib\Debug\cycles_scene.lib;..\..\lib\Debug\cycles_session.lib;..\..\lib\Debug\cycles_kernel_osl.lib;..\..\lib\Debug\cycles_integrator.lib;..\..\lib\Debug\cycles_bvh.lib;..\..\lib\Debug\cycles_device.lib;..\..\lib\Debug\cycles_kernel.lib;..\..\lib\Debug\cycles_scene.lib;..\..\lib\Debug\cycles_session.lib;..\..\lib\Debug\cycles_kernel_osl.lib;..\..\lib\Debug\cycles_integrator.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\embree3_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\embree_avx2_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\embree_avx_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\embree_sse42_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\lexers_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\math_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\simd_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\sys_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\tasking_d.lib;..\..\lib\Debug\extern_cuew.lib;..\..\lib\Debug\extern_hipew.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenColorIO\lib\OpencolorIO_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenColorIO\lib\libyaml-cpp_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenColorIO\lib\libexpatdMD.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenColorIO\lib\pystring_d.lib;C:\blender-git\lib\win64_vc15\osl\lib\oslexec_d.lib;C:\blender-git\lib\win64_vc15\osl\lib\oslcomp_d.lib;C:\blender-git\lib\win64_vc15\osl\lib\oslquery_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageIO\lib\OpenImageIO_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageIO\lib\OpenImageIO_Util_d.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMAggressiveInstCombine.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMAnalysis.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMAsmParser.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMAsmPrinter.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMBinaryFormat.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMBitReader.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMBitWriter.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMBitstreamReader.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMCFGuard.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMCodeGen.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMCore.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMCoroutines.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMCoverage.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMDWARFLinker.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMDebugInfoCodeView.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMDebugInfoDWARF.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMDebugInfoGSYM.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMDebugInfoMSF.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMDebugInfoPDB.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMDemangle.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMDlltoolDriver.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMExecutionEngine.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMExtensions.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMFileCheck.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMFrontendOpenACC.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMFrontendOpenMP.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMFuzzMutate.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMGlobalISel.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMHelloNew.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMIRReader.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMInstCombine.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMInstrumentation.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMInterfaceStub.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMInterpreter.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMJITLink.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMLTO.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMLibDriver.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMLineEditor.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMLinker.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMMC.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMMCA.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMMCDisassembler.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMMCJIT.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMMCParser.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMMIRParser.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMObjCARCOpts.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMObject.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMObjectYAML.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMOption.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMOrcJIT.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMOrcShared.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMOrcTargetProcess.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMPasses.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMProfileData.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMRemarks.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMRuntimeDyld.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMScalarOpts.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMSelectionDAG.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMSupport.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMSymbolize.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMTableGen.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMTarget.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMTextAPI.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMTransformUtils.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMVectorize.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMWindowsManifest.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMX86AsmParser.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMX86CodeGen.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMX86Desc.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMX86Disassembler.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMX86Info.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMXRay.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LLVMipo.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\LTO.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\Remarks.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangAPINotes.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangARCMigrate.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangAST.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangASTMatchers.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangAnalysis.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangBasic.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangCodeGen.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangCrossTU.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangDependencyScanning.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangDirectoryWatcher.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangDriver.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangDynamicASTMatchers.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangEdit.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangFormat.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangFrontend.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangFrontendTool.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangHandleCXX.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangHandleLLVM.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangIndex.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangIndexSerialization.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangLex.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangParse.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangRewrite.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangRewriteFrontend.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangSema.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangSerialization.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangStaticAnalyzerCheckers.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangStaticAnalyzerCore.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangStaticAnalyzerFrontend.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangTesting.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangTooling.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangToolingASTDiff.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangToolingCore.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangToolingInclusions.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangToolingRefactoring.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangToolingSyntax.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\clangTransformer.lib;C:\blender-git\lib\win64_vc15\llvm\debug\lib\libclang.lib;..\..\lib\Debug\cycles_subd.lib;..\..\lib\Debug\cycles_util.lib;..\..\lib\Debug\extern_clew.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageDenoise\lib\OpenImageDenoise_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageDenoise\lib\common_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageDenoise\lib\dnnl_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\alembic\lib\Alembic_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\usd\lib\usd_usd_m_d.lib;..\..\lib\Debug\extern_bullet.lib;..\..\lib\Debug\bf_functions.lib;..\..\lib\Debug\bf_intern_sky.lib;..\..\lib\Debug\bf_editor_space_buttons.lib;..\..\lib\Debug\bf_editor_space_info.lib;..\..\lib\Debug\bf_editor_space_script.lib;..\..\lib\Debug\bf_editor_space_spreadsheet.lib;..\..\lib\Debug\bf_editor_space_topbar.lib;..\..\lib\Debug\bf_editor_space_userpref.lib;..\..\lib\Debug\extern_curve_fit_nd.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\potrace\lib\potrace.lib;..\..\lib\Debug\bf_collada.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\OpenCOLLADASaxFrameworkLoader_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\OpenCOLLADAFramework_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\OpenCOLLADABaseUtils_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\OpenCOLLADAStreamWriter_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\MathMLSolver_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\GeneratedSaxParser_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\buffer_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\ftoa_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\xml2\lib\libxml2s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\UTF.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\pcre_d.lib;..\..\lib\Debug\bf_intern_mantaflow.lib;..\..\lib\Debug\extern_mantaflow.lib;..\..\lib\Debug\bf_blenfont.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\freetype\lib\freetype2ST.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\brotli\lib\brotlidec-static.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\brotli\lib\brotlicommon-static.lib;..\..\lib\Debug\bf_gpu.lib;..\..\lib\Debug\bf_draw_shaders.lib;opengl32.lib;..\..\lib\Debug\extern_glew.lib;..\..\lib\Debug\bf_gpu_shaders.lib;..\..\lib\Debug\bf_ocio_shaders.lib;..\..\lib\Debug\bf_editor_mask.lib;..\..\lib\Debug\bf_editor_metaball.lib;..\..\lib\Debug\bf_python_ext.lib;..\..\lib\Debug\bf_editor_util.lib;..\..\lib\Debug\bf_intern_openvdb.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openVDB\lib\openvdb_d.lib;..\..\lib\Debug\bf_editor_datafiles.lib;..\..\lib\Debug\bf_intern_audaspace.lib;..\..\lib\Debug\audaspace-py.lib;..\..\lib\Debug\audaspace.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\avcodec.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\avformat.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\avdevice.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\avutil.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\swscale.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\sndfile\lib\libsndfile-1.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openal\lib\openal32.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\sdl\lib\SDL2.lib;ksuser.lib;..\..\lib\Debug\bf_editor_lattice.lib;..\..\lib\Debug\bf_blenlib.lib;..\..\lib\Debug\bf_intern_guardedalloc.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\zlib\lib\libz_st.lib;..\..\lib\Debug\bf_intern_eigen.lib;..\..\lib\Debug\extern_wcwidth.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\zstd\lib\zstd_static.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\tbb\lib\tbb_debug.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\gmp\lib\libgmp-10.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\gmp\lib\libgmpxx_d.lib;..\..\lib\Debug\bf_intern_utfconv.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\pugixml\lib\pugixml_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\haru\lib\libhpdfs.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_date_time-vc142-mt-gd-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_filesystem-vc142-mt-gd-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_regex-vc142-mt-gd-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_system-vc142-mt-gd-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_thread-vc142-mt-gd-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_chrono-vc142-mt-gd-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_wave-vc142-mt-gd-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_locale-vc142-mt-gd-x64-1_78.lib;..\..\lib\Debug\bf_imbuf_openexr.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\Iex_s_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\IlmThread_s_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\OpenEXR_s_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\OpenEXRCore_s_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\OpenEXRUtil_s_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\imath\lib\Imath_s_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\libs\python310_d.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/blender-git/goo-engine/../lib/win64_vc15/tbb/lib;C:/blender-git/goo-engine/../lib/win64_vc15/tbb/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4099 /ignore:4049 /ignore:4217 /ignore:4221 /IGNORE:4099 delayimp.lib /WHOLEARCHIVE:C:/blender-git/goo-engine/../lib/win64_vc15/usd/lib/usd_usd_m_d.lib</AdditionalOptions>
+      <DelayLoadDLLs>vcomp140d.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;msvcrt.lib;libcmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/blender-git/build_windows_x64_vc16_Release/bin/Debug/blender.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/blender-git/build_windows_x64_vc16_Release/source/creator/Debug/blender_private.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2097152</StackReserveSize>
+      <StripPrivateSymbols>C:/blender-git/build_windows_x64_vc16_Release/source/creator/$(Configuration)/blender_public.pdb</StripPrivateSymbols>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>C:\blender-git\build_windows_x64_vc16_Release\blender.exe.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\blenloader;C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\render;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\utfconv;C:\blender-git\goo-engine\intern\libmv;C:\blender-git\goo-engine\intern\cycles\blender;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\goo-engine\source\blender\freestyle;C:\blender-git\lib\win64_vc15\gmp\include;C:\blender-git\build_windows_x64_vc16_Release\source\creator;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w34189 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_LIBMV;WITH_CYCLES_LOGGING;WITH_FFMPEG;WITH_PYTHON;WITH_PYTHON_SECURITY;WITH_SDL;WITH_FREESTYLE;WITH_XR_OPENXR;WITH_GMP;WITH_OCIO;BLEN_VER_RC_STR="3.3";BLEN_VER_RC_1=3;BLEN_VER_RC_2=3;BLEN_VER_RC_3=2;BLEN_VER_RC_4=0;WITH_BUILDINFO;WITH_BUILDINFO_HEADER;WITH_USD;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_LIBMV;WITH_CYCLES_LOGGING;WITH_FFMPEG;WITH_PYTHON;WITH_PYTHON_SECURITY;WITH_SDL;WITH_FREESTYLE;WITH_XR_OPENXR;WITH_GMP;WITH_OCIO;BLEN_VER_RC_STR=\"3.3\";BLEN_VER_RC_1=3;BLEN_VER_RC_2=3;BLEN_VER_RC_3=2;BLEN_VER_RC_4=0;WITH_BUILDINFO;WITH_BUILDINFO_HEADER;WITH_USD;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\blenloader;C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\render;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\utfconv;C:\blender-git\goo-engine\intern\libmv;C:\blender-git\goo-engine\intern\cycles\blender;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\goo-engine\source\blender\freestyle;C:\blender-git\lib\win64_vc15\gmp\include;C:\blender-git\build_windows_x64_vc16_Release\source\creator;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\blenloader;C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\render;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\utfconv;C:\blender-git\goo-engine\intern\libmv;C:\blender-git\goo-engine\intern\cycles\blender;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\goo-engine\source\blender\freestyle;C:\blender-git\lib\win64_vc15\gmp\include;C:\blender-git\build_windows_x64_vc16_Release\source\creator;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\bf_blenkernel.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\tbb\lib\tbb.lib;..\..\lib\Release\bf_windowmanager.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\tbb\lib\tbbmalloc.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;ws2_32.lib;vfw32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;Comctl32.lib;version.lib;advapi32.lib;shfolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;psapi.lib;Dbghelp.lib;Shlwapi.lib;pathcch.lib;Shcore.lib;Dwmapi.lib;imm32.lib;..\..\lib\Release\bf_blenloader.lib;..\..\lib\Release\bf_blentranslation.lib;..\..\lib\Release\bf_bmesh.lib;..\..\lib\Release\bf_depsgraph.lib;..\..\lib\Release\bf_draw.lib;..\..\lib\Release\bf_imbuf.lib;..\..\lib\Release\bf_modifiers.lib;..\..\lib\Release\bf_nodes.lib;..\..\lib\Release\bf_rna.lib;..\..\lib\Release\bf_simulation.lib;..\..\lib\Release\bf_python.lib;..\..\lib\Release\bf_python_bmesh.lib;..\..\lib\Release\bf_editor_screen.lib;..\..\lib\Release\bf_sequencer.lib;..\..\lib\Release\bf_compositor.lib;..\..\lib\Release\bf_alembic.lib;..\..\lib\Release\bf_usd.lib;..\..\lib\Release\bf_nodes_geometry.lib;..\..\lib\Release\bf_nodes_shader.lib;..\..\lib\Release\bf_nodes_texture.lib;..\..\lib\Release\bf_editor_space_api.lib;..\..\lib\Release\bf_editor_animation.lib;..\..\lib\Release\bf_editor_armature.lib;..\..\lib\Release\bf_editor_asset.lib;..\..\lib\Release\bf_editor_curve.lib;..\..\lib\Release\bf_editor_curves.lib;..\..\lib\Release\bf_editor_gpencil.lib;..\..\lib\Release\bf_editor_io.lib;..\..\lib\Release\bf_editor_mesh.lib;..\..\lib\Release\bf_editor_object.lib;..\..\lib\Release\bf_editor_physics.lib;..\..\lib\Release\bf_editor_scene.lib;..\..\lib\Release\bf_editor_sculpt_paint.lib;..\..\lib\Release\bf_editor_sound.lib;..\..\lib\Release\bf_editor_transform.lib;..\..\lib\Release\bf_editor_undo.lib;..\..\lib\Release\bf_editor_interface.lib;..\..\lib\Release\bf_python_mathutils.lib;..\..\lib\Release\bf_editor_space_sequencer.lib;..\..\lib\Release\bf_io_common.lib;..\..\lib\Release\bf_geometry.lib;..\..\lib\Release\bf_editor_geometry.lib;..\..\lib\Release\bf_editor_space_action.lib;..\..\lib\Release\bf_editor_space_clip.lib;..\..\lib\Release\bf_editor_space_console.lib;..\..\lib\Release\bf_editor_space_file.lib;..\..\lib\Release\bf_editor_space_graph.lib;..\..\lib\Release\bf_editor_space_image.lib;..\..\lib\Release\bf_editor_space_nla.lib;..\..\lib\Release\bf_editor_space_node.lib;..\..\lib\Release\bf_editor_space_outliner.lib;..\..\lib\Release\bf_editor_space_statusbar.lib;..\..\lib\Release\bf_editor_space_text.lib;..\..\lib\Release\bf_editor_space_view3d.lib;..\..\lib\Release\bf_wavefront_obj.lib;..\..\lib\Release\bf_stl.lib;..\..\lib\Release\bf_gpencil.lib;..\..\lib\Release\bf_render.lib;..\..\lib\Release\bf_editor_uvedit.lib;..\..\lib\Release\bf_freestyle.lib;..\..\lib\Release\bf_blenkernel.lib;..\..\lib\Release\bf_windowmanager.lib;..\..\lib\Release\bf_blenloader.lib;..\..\lib\Release\bf_blentranslation.lib;..\..\lib\Release\bf_bmesh.lib;..\..\lib\Release\bf_depsgraph.lib;..\..\lib\Release\bf_draw.lib;..\..\lib\Release\bf_imbuf.lib;..\..\lib\Release\bf_modifiers.lib;..\..\lib\Release\bf_nodes.lib;..\..\lib\Release\bf_rna.lib;..\..\lib\Release\bf_simulation.lib;..\..\lib\Release\bf_python.lib;..\..\lib\Release\bf_python_bmesh.lib;..\..\lib\Release\bf_editor_screen.lib;..\..\lib\Release\bf_sequencer.lib;..\..\lib\Release\bf_compositor.lib;..\..\lib\Release\bf_alembic.lib;..\..\lib\Release\bf_usd.lib;..\..\lib\Release\bf_nodes_geometry.lib;..\..\lib\Release\bf_nodes_shader.lib;..\..\lib\Release\bf_nodes_texture.lib;..\..\lib\Release\bf_editor_space_api.lib;..\..\lib\Release\bf_editor_animation.lib;..\..\lib\Release\bf_editor_armature.lib;..\..\lib\Release\bf_editor_asset.lib;..\..\lib\Release\bf_editor_curve.lib;..\..\lib\Release\bf_editor_curves.lib;..\..\lib\Release\bf_editor_gpencil.lib;..\..\lib\Release\bf_editor_io.lib;..\..\lib\Release\bf_editor_mesh.lib;..\..\lib\Release\bf_editor_object.lib;..\..\lib\Release\bf_editor_physics.lib;..\..\lib\Release\bf_editor_scene.lib;..\..\lib\Release\bf_editor_sculpt_paint.lib;..\..\lib\Release\bf_editor_sound.lib;..\..\lib\Release\bf_editor_transform.lib;..\..\lib\Release\bf_editor_undo.lib;..\..\lib\Release\bf_editor_interface.lib;..\..\lib\Release\bf_python_mathutils.lib;..\..\lib\Release\bf_editor_space_sequencer.lib;..\..\lib\Release\bf_io_common.lib;..\..\lib\Release\bf_geometry.lib;..\..\lib\Release\bf_editor_geometry.lib;..\..\lib\Release\bf_editor_space_action.lib;..\..\lib\Release\bf_editor_space_clip.lib;..\..\lib\Release\bf_editor_space_console.lib;..\..\lib\Release\bf_editor_space_file.lib;..\..\lib\Release\bf_editor_space_graph.lib;..\..\lib\Release\bf_editor_space_image.lib;..\..\lib\Release\bf_editor_space_nla.lib;..\..\lib\Release\bf_editor_space_node.lib;..\..\lib\Release\bf_editor_space_outliner.lib;..\..\lib\Release\bf_editor_space_statusbar.lib;..\..\lib\Release\bf_editor_space_text.lib;..\..\lib\Release\bf_editor_space_view3d.lib;..\..\lib\Release\bf_wavefront_obj.lib;..\..\lib\Release\bf_stl.lib;..\..\lib\Release\bf_gpencil.lib;..\..\lib\Release\bf_render.lib;..\..\lib\Release\bf_editor_uvedit.lib;..\..\lib\Release\bf_freestyle.lib;..\..\lib\Release\bf_gpencil_modifiers.lib;..\..\lib\Release\bf_ikplugin.lib;..\..\lib\Release\bf_intern_iksolver.lib;..\..\lib\Release\bf_intern_itasc.lib;..\..\lib\Release\bf_intern_clog.lib;..\..\lib\Release\bf_intern_ghost.lib;..\..\lib\Release\bf_intern_glew_mx.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\xr_openxr_sdk\lib\openxr_loader.lib;shlwapi.lib;..\..\lib\Release\bf_intern_libmv.lib;..\..\lib\Release\extern_ceres.lib;..\..\lib\Release\bf_intern_mikktspace.lib;..\..\lib\Release\bf_intern_opensubdiv.lib;..\..\lib\Release\bf_shader_fx.lib;..\..\lib\Release\bf_intern_rigidbody.lib;..\..\lib\Release\extern_minilzo.lib;..\..\lib\Release\extern_lzma.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\fftw3\lib\libfftw.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opensubdiv\lib\osdCPU.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opensubdiv\lib\osdGPU.lib;..\..\lib\Release\bf_intern_quadriflow.lib;..\..\lib\Release\extern_quadriflow.lib;..\..\lib\Release\bf_intern_locale.lib;..\..\lib\Release\extern_rangetree.lib;..\..\lib\Release\bf_intern_memutil.lib;..\..\lib\Release\bf_intern_opencolorio.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\png\lib\libpng.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\tiff\lib\libtiff.lib;..\..\lib\Release\bf_imbuf_openimageio.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openjpeg\lib\openjp2.lib;..\..\lib\Release\bf_avi.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\jpeg\lib\libjpeg.lib;..\..\lib\Release\bf_imbuf_dds.lib;..\..\lib\Release\bf_imbuf_cineon.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\webp\lib\webp.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\webp\lib\webpdemux.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\webp\lib\webpmux.lib;..\..\lib\Release\bf_intern_dualcon.lib;..\..\lib\Release\bf_nodes_composite.lib;..\..\lib\Release\bf_nodes_function.lib;..\..\lib\Release\bf_dna.lib;..\..\lib\Release\bf_editor_gizmo_library.lib;..\..\lib\Release\bf_editor_render.lib;..\..\lib\Release\bf_python_gpu.lib;..\..\lib\Release\bf_intern_cycles.lib;..\..\lib\Release\extern_glog.lib;..\..\lib\Release\extern_gflags.lib;..\..\lib\Release\cycles_graph.lib;..\..\lib\Release\cycles_bvh.lib;..\..\lib\Release\cycles_device.lib;..\..\lib\Release\cycles_kernel.lib;..\..\lib\Release\cycles_scene.lib;..\..\lib\Release\cycles_session.lib;..\..\lib\Release\cycles_kernel_osl.lib;..\..\lib\Release\cycles_integrator.lib;..\..\lib\Release\cycles_bvh.lib;..\..\lib\Release\cycles_device.lib;..\..\lib\Release\cycles_kernel.lib;..\..\lib\Release\cycles_scene.lib;..\..\lib\Release\cycles_session.lib;..\..\lib\Release\cycles_kernel_osl.lib;..\..\lib\Release\cycles_integrator.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\embree3.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\embree_avx2.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\embree_avx.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\embree_sse42.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\lexers.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\math.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\simd.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\sys.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\tasking.lib;..\..\lib\Release\extern_cuew.lib;..\..\lib\Release\extern_hipew.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenColorIO\lib\OpenColorIO.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenColorIO\lib\libyaml-cpp.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenColorIO\lib\libexpatMD.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenColorIO\lib\pystring.lib;C:\blender-git\lib\win64_vc15\osl\lib\oslcomp.lib;C:\blender-git\lib\win64_vc15\osl\lib\oslexec.lib;C:\blender-git\lib\win64_vc15\osl\lib\oslquery.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageIO\lib\OpenImageIO.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageIO\lib\OpenImageIO_Util.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMAggressiveInstCombine.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMAnalysis.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMAsmParser.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMAsmPrinter.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMBinaryFormat.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMBitReader.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMBitWriter.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMBitstreamReader.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMCFGuard.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMCodeGen.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMCore.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMCoroutines.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMCoverage.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDWARFLinker.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDebugInfoCodeView.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDebugInfoDWARF.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDebugInfoGSYM.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDebugInfoMSF.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDebugInfoPDB.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDemangle.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDlltoolDriver.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMExecutionEngine.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMExtensions.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMFileCheck.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMFrontendOpenACC.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMFrontendOpenMP.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMFuzzMutate.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMGlobalISel.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMHelloNew.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMIRReader.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMInstCombine.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMInstrumentation.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMInterfaceStub.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMInterpreter.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMJITLink.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMLTO.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMLibDriver.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMLineEditor.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMLinker.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMMC.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMMCA.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMMCDisassembler.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMMCJIT.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMMCParser.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMMIRParser.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMObjCARCOpts.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMObject.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMObjectYAML.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMOption.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMOrcJIT.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMOrcShared.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMOrcTargetProcess.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMPasses.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMProfileData.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMRemarks.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMRuntimeDyld.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMScalarOpts.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMSelectionDAG.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMSupport.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMSymbolize.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMTableGen.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMTarget.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMTextAPI.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMTransformUtils.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMVectorize.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMWindowsManifest.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMX86AsmParser.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMX86CodeGen.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMX86Desc.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMX86Disassembler.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMX86Info.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMXRay.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMipo.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LTO.lib;C:\blender-git\lib\win64_vc15\llvm\lib\Remarks.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangAPINotes.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangARCMigrate.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangAST.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangASTMatchers.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangAnalysis.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangBasic.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangCodeGen.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangCrossTU.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangDependencyScanning.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangDirectoryWatcher.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangDriver.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangDynamicASTMatchers.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangEdit.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangFormat.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangFrontend.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangFrontendTool.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangHandleCXX.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangHandleLLVM.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangIndex.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangIndexSerialization.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangLex.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangParse.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangRewrite.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangRewriteFrontend.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangSema.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangSerialization.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangStaticAnalyzerCheckers.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangStaticAnalyzerCore.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangStaticAnalyzerFrontend.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangTesting.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangTooling.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangToolingASTDiff.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangToolingCore.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangToolingInclusions.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangToolingRefactoring.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangToolingSyntax.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangTransformer.lib;C:\blender-git\lib\win64_vc15\llvm\lib\libclang.lib;..\..\lib\Release\cycles_subd.lib;..\..\lib\Release\cycles_util.lib;..\..\lib\Release\extern_clew.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageDenoise\lib\OpenImageDenoise.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageDenoise\lib\common.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageDenoise\lib\dnnl.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\alembic\lib\Alembic.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\usd\lib\usd_usd_m.lib;..\..\lib\Release\extern_bullet.lib;..\..\lib\Release\bf_functions.lib;..\..\lib\Release\bf_intern_sky.lib;..\..\lib\Release\bf_editor_space_buttons.lib;..\..\lib\Release\bf_editor_space_info.lib;..\..\lib\Release\bf_editor_space_script.lib;..\..\lib\Release\bf_editor_space_spreadsheet.lib;..\..\lib\Release\bf_editor_space_topbar.lib;..\..\lib\Release\bf_editor_space_userpref.lib;..\..\lib\Release\extern_curve_fit_nd.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\potrace\lib\potrace.lib;..\..\lib\Release\bf_collada.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\OpenCOLLADASaxFrameworkLoader.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\OpenCOLLADAFramework.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\OpenCOLLADABaseUtils.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\OpenCOLLADAStreamWriter.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\MathMLSolver.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\GeneratedSaxParser.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\buffer.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\ftoa.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\xml2\lib\libxml2s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\UTF.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\pcre.lib;..\..\lib\Release\bf_intern_mantaflow.lib;..\..\lib\Release\extern_mantaflow.lib;..\..\lib\Release\bf_blenfont.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\freetype\lib\freetype2ST.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\brotli\lib\brotlidec-static.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\brotli\lib\brotlicommon-static.lib;..\..\lib\Release\bf_gpu.lib;..\..\lib\Release\bf_draw_shaders.lib;opengl32.lib;..\..\lib\Release\extern_glew.lib;..\..\lib\Release\bf_gpu_shaders.lib;..\..\lib\Release\bf_ocio_shaders.lib;..\..\lib\Release\bf_editor_mask.lib;..\..\lib\Release\bf_editor_metaball.lib;..\..\lib\Release\bf_python_ext.lib;..\..\lib\Release\bf_editor_util.lib;..\..\lib\Release\bf_intern_openvdb.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openVDB\lib\openvdb.lib;..\..\lib\Release\bf_editor_datafiles.lib;..\..\lib\Release\bf_intern_audaspace.lib;..\..\lib\Release\audaspace-py.lib;..\..\lib\Release\audaspace.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\avcodec.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\avformat.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\avdevice.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\avutil.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\swscale.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\sndfile\lib\libsndfile-1.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openal\lib\openal32.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\sdl\lib\SDL2.lib;ksuser.lib;..\..\lib\Release\bf_editor_lattice.lib;..\..\lib\Release\bf_blenlib.lib;..\..\lib\Release\bf_intern_guardedalloc.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\zlib\lib\libz_st.lib;..\..\lib\Release\bf_intern_eigen.lib;..\..\lib\Release\extern_wcwidth.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\zstd\lib\zstd_static.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\tbb\lib\tbb.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\gmp\lib\libgmp-10.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\gmp\lib\libgmpxx.lib;..\..\lib\Release\bf_intern_utfconv.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\pugixml\lib\pugixml.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\haru\lib\libhpdfs.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_date_time-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_filesystem-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_regex-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_system-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_thread-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_chrono-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_wave-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_locale-vc142-mt-x64-1_78.lib;..\..\lib\Release\bf_imbuf_openexr.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\Iex_s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\IlmThread_s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\OpenEXR_s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\OpenEXRCore_s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\OpenEXRUtil_s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\imath\lib\Imath_s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\libs\python310.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/blender-git/goo-engine/../lib/win64_vc15/tbb/lib;C:/blender-git/goo-engine/../lib/win64_vc15/tbb/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4099 /ignore:4049 /ignore:4217 /ignore:4221 /ignore:4049 /ignore:4217 /ignore:4221 delayimp.lib /WHOLEARCHIVE:C:/blender-git/goo-engine/../lib/win64_vc15/usd/lib/usd_usd_m.lib</AdditionalOptions>
+      <DelayLoadDLLs>vcomp140.dll</DelayLoadDLLs>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/blender-git/build_windows_x64_vc16_Release/bin/Release/blender.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/blender-git/build_windows_x64_vc16_Release/source/creator/Release/blender_private.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2097152</StackReserveSize>
+      <StripPrivateSymbols>C:/blender-git/build_windows_x64_vc16_Release/source/creator/$(Configuration)/blender_public.pdb</StripPrivateSymbols>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>C:\blender-git\build_windows_x64_vc16_Release\blender.exe.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\blenloader;C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\render;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\utfconv;C:\blender-git\goo-engine\intern\libmv;C:\blender-git\goo-engine\intern\cycles\blender;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\goo-engine\source\blender\freestyle;C:\blender-git\lib\win64_vc15\gmp\include;C:\blender-git\build_windows_x64_vc16_Release\source\creator;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w34189 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_LIBMV;WITH_CYCLES_LOGGING;WITH_FFMPEG;WITH_PYTHON;WITH_PYTHON_SECURITY;WITH_SDL;WITH_FREESTYLE;WITH_XR_OPENXR;WITH_GMP;WITH_OCIO;BLEN_VER_RC_STR="3.3";BLEN_VER_RC_1=3;BLEN_VER_RC_2=3;BLEN_VER_RC_3=2;BLEN_VER_RC_4=0;WITH_BUILDINFO;WITH_BUILDINFO_HEADER;WITH_USD;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_LIBMV;WITH_CYCLES_LOGGING;WITH_FFMPEG;WITH_PYTHON;WITH_PYTHON_SECURITY;WITH_SDL;WITH_FREESTYLE;WITH_XR_OPENXR;WITH_GMP;WITH_OCIO;BLEN_VER_RC_STR=\"3.3\";BLEN_VER_RC_1=3;BLEN_VER_RC_2=3;BLEN_VER_RC_3=2;BLEN_VER_RC_4=0;WITH_BUILDINFO;WITH_BUILDINFO_HEADER;WITH_USD;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\blenloader;C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\render;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\utfconv;C:\blender-git\goo-engine\intern\libmv;C:\blender-git\goo-engine\intern\cycles\blender;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\goo-engine\source\blender\freestyle;C:\blender-git\lib\win64_vc15\gmp\include;C:\blender-git\build_windows_x64_vc16_Release\source\creator;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\blenloader;C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\render;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\utfconv;C:\blender-git\goo-engine\intern\libmv;C:\blender-git\goo-engine\intern\cycles\blender;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\goo-engine\source\blender\freestyle;C:\blender-git\lib\win64_vc15\gmp\include;C:\blender-git\build_windows_x64_vc16_Release\source\creator;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\bf_blenkernel.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\tbb\lib\tbb.lib;..\..\lib\MinSizeRel\bf_windowmanager.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\tbb\lib\tbbmalloc.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;ws2_32.lib;vfw32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;Comctl32.lib;version.lib;advapi32.lib;shfolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;psapi.lib;Dbghelp.lib;Shlwapi.lib;pathcch.lib;Shcore.lib;Dwmapi.lib;imm32.lib;..\..\lib\MinSizeRel\bf_blenloader.lib;..\..\lib\MinSizeRel\bf_blentranslation.lib;..\..\lib\MinSizeRel\bf_bmesh.lib;..\..\lib\MinSizeRel\bf_depsgraph.lib;..\..\lib\MinSizeRel\bf_draw.lib;..\..\lib\MinSizeRel\bf_imbuf.lib;..\..\lib\MinSizeRel\bf_modifiers.lib;..\..\lib\MinSizeRel\bf_nodes.lib;..\..\lib\MinSizeRel\bf_rna.lib;..\..\lib\MinSizeRel\bf_simulation.lib;..\..\lib\MinSizeRel\bf_python.lib;..\..\lib\MinSizeRel\bf_python_bmesh.lib;..\..\lib\MinSizeRel\bf_editor_screen.lib;..\..\lib\MinSizeRel\bf_sequencer.lib;..\..\lib\MinSizeRel\bf_compositor.lib;..\..\lib\MinSizeRel\bf_alembic.lib;..\..\lib\MinSizeRel\bf_usd.lib;..\..\lib\MinSizeRel\bf_nodes_geometry.lib;..\..\lib\MinSizeRel\bf_nodes_shader.lib;..\..\lib\MinSizeRel\bf_nodes_texture.lib;..\..\lib\MinSizeRel\bf_editor_space_api.lib;..\..\lib\MinSizeRel\bf_editor_animation.lib;..\..\lib\MinSizeRel\bf_editor_armature.lib;..\..\lib\MinSizeRel\bf_editor_asset.lib;..\..\lib\MinSizeRel\bf_editor_curve.lib;..\..\lib\MinSizeRel\bf_editor_curves.lib;..\..\lib\MinSizeRel\bf_editor_gpencil.lib;..\..\lib\MinSizeRel\bf_editor_io.lib;..\..\lib\MinSizeRel\bf_editor_mesh.lib;..\..\lib\MinSizeRel\bf_editor_object.lib;..\..\lib\MinSizeRel\bf_editor_physics.lib;..\..\lib\MinSizeRel\bf_editor_scene.lib;..\..\lib\MinSizeRel\bf_editor_sculpt_paint.lib;..\..\lib\MinSizeRel\bf_editor_sound.lib;..\..\lib\MinSizeRel\bf_editor_transform.lib;..\..\lib\MinSizeRel\bf_editor_undo.lib;..\..\lib\MinSizeRel\bf_editor_interface.lib;..\..\lib\MinSizeRel\bf_python_mathutils.lib;..\..\lib\MinSizeRel\bf_editor_space_sequencer.lib;..\..\lib\MinSizeRel\bf_io_common.lib;..\..\lib\MinSizeRel\bf_geometry.lib;..\..\lib\MinSizeRel\bf_editor_geometry.lib;..\..\lib\MinSizeRel\bf_editor_space_action.lib;..\..\lib\MinSizeRel\bf_editor_space_clip.lib;..\..\lib\MinSizeRel\bf_editor_space_console.lib;..\..\lib\MinSizeRel\bf_editor_space_file.lib;..\..\lib\MinSizeRel\bf_editor_space_graph.lib;..\..\lib\MinSizeRel\bf_editor_space_image.lib;..\..\lib\MinSizeRel\bf_editor_space_nla.lib;..\..\lib\MinSizeRel\bf_editor_space_node.lib;..\..\lib\MinSizeRel\bf_editor_space_outliner.lib;..\..\lib\MinSizeRel\bf_editor_space_statusbar.lib;..\..\lib\MinSizeRel\bf_editor_space_text.lib;..\..\lib\MinSizeRel\bf_editor_space_view3d.lib;..\..\lib\MinSizeRel\bf_wavefront_obj.lib;..\..\lib\MinSizeRel\bf_stl.lib;..\..\lib\MinSizeRel\bf_gpencil.lib;..\..\lib\MinSizeRel\bf_render.lib;..\..\lib\MinSizeRel\bf_editor_uvedit.lib;..\..\lib\MinSizeRel\bf_freestyle.lib;..\..\lib\MinSizeRel\bf_blenkernel.lib;..\..\lib\MinSizeRel\bf_windowmanager.lib;..\..\lib\MinSizeRel\bf_blenloader.lib;..\..\lib\MinSizeRel\bf_blentranslation.lib;..\..\lib\MinSizeRel\bf_bmesh.lib;..\..\lib\MinSizeRel\bf_depsgraph.lib;..\..\lib\MinSizeRel\bf_draw.lib;..\..\lib\MinSizeRel\bf_imbuf.lib;..\..\lib\MinSizeRel\bf_modifiers.lib;..\..\lib\MinSizeRel\bf_nodes.lib;..\..\lib\MinSizeRel\bf_rna.lib;..\..\lib\MinSizeRel\bf_simulation.lib;..\..\lib\MinSizeRel\bf_python.lib;..\..\lib\MinSizeRel\bf_python_bmesh.lib;..\..\lib\MinSizeRel\bf_editor_screen.lib;..\..\lib\MinSizeRel\bf_sequencer.lib;..\..\lib\MinSizeRel\bf_compositor.lib;..\..\lib\MinSizeRel\bf_alembic.lib;..\..\lib\MinSizeRel\bf_usd.lib;..\..\lib\MinSizeRel\bf_nodes_geometry.lib;..\..\lib\MinSizeRel\bf_nodes_shader.lib;..\..\lib\MinSizeRel\bf_nodes_texture.lib;..\..\lib\MinSizeRel\bf_editor_space_api.lib;..\..\lib\MinSizeRel\bf_editor_animation.lib;..\..\lib\MinSizeRel\bf_editor_armature.lib;..\..\lib\MinSizeRel\bf_editor_asset.lib;..\..\lib\MinSizeRel\bf_editor_curve.lib;..\..\lib\MinSizeRel\bf_editor_curves.lib;..\..\lib\MinSizeRel\bf_editor_gpencil.lib;..\..\lib\MinSizeRel\bf_editor_io.lib;..\..\lib\MinSizeRel\bf_editor_mesh.lib;..\..\lib\MinSizeRel\bf_editor_object.lib;..\..\lib\MinSizeRel\bf_editor_physics.lib;..\..\lib\MinSizeRel\bf_editor_scene.lib;..\..\lib\MinSizeRel\bf_editor_sculpt_paint.lib;..\..\lib\MinSizeRel\bf_editor_sound.lib;..\..\lib\MinSizeRel\bf_editor_transform.lib;..\..\lib\MinSizeRel\bf_editor_undo.lib;..\..\lib\MinSizeRel\bf_editor_interface.lib;..\..\lib\MinSizeRel\bf_python_mathutils.lib;..\..\lib\MinSizeRel\bf_editor_space_sequencer.lib;..\..\lib\MinSizeRel\bf_io_common.lib;..\..\lib\MinSizeRel\bf_geometry.lib;..\..\lib\MinSizeRel\bf_editor_geometry.lib;..\..\lib\MinSizeRel\bf_editor_space_action.lib;..\..\lib\MinSizeRel\bf_editor_space_clip.lib;..\..\lib\MinSizeRel\bf_editor_space_console.lib;..\..\lib\MinSizeRel\bf_editor_space_file.lib;..\..\lib\MinSizeRel\bf_editor_space_graph.lib;..\..\lib\MinSizeRel\bf_editor_space_image.lib;..\..\lib\MinSizeRel\bf_editor_space_nla.lib;..\..\lib\MinSizeRel\bf_editor_space_node.lib;..\..\lib\MinSizeRel\bf_editor_space_outliner.lib;..\..\lib\MinSizeRel\bf_editor_space_statusbar.lib;..\..\lib\MinSizeRel\bf_editor_space_text.lib;..\..\lib\MinSizeRel\bf_editor_space_view3d.lib;..\..\lib\MinSizeRel\bf_wavefront_obj.lib;..\..\lib\MinSizeRel\bf_stl.lib;..\..\lib\MinSizeRel\bf_gpencil.lib;..\..\lib\MinSizeRel\bf_render.lib;..\..\lib\MinSizeRel\bf_editor_uvedit.lib;..\..\lib\MinSizeRel\bf_freestyle.lib;..\..\lib\MinSizeRel\bf_gpencil_modifiers.lib;..\..\lib\MinSizeRel\bf_ikplugin.lib;..\..\lib\MinSizeRel\bf_intern_iksolver.lib;..\..\lib\MinSizeRel\bf_intern_itasc.lib;..\..\lib\MinSizeRel\bf_intern_clog.lib;..\..\lib\MinSizeRel\bf_intern_ghost.lib;..\..\lib\MinSizeRel\bf_intern_glew_mx.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\xr_openxr_sdk\lib\openxr_loader.lib;shlwapi.lib;..\..\lib\MinSizeRel\bf_intern_libmv.lib;..\..\lib\MinSizeRel\extern_ceres.lib;..\..\lib\MinSizeRel\bf_intern_mikktspace.lib;..\..\lib\MinSizeRel\bf_intern_opensubdiv.lib;..\..\lib\MinSizeRel\bf_shader_fx.lib;..\..\lib\MinSizeRel\bf_intern_rigidbody.lib;..\..\lib\MinSizeRel\extern_minilzo.lib;..\..\lib\MinSizeRel\extern_lzma.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\fftw3\lib\libfftw.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opensubdiv\lib\osdCPU.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opensubdiv\lib\osdGPU.lib;..\..\lib\MinSizeRel\bf_intern_quadriflow.lib;..\..\lib\MinSizeRel\extern_quadriflow.lib;..\..\lib\MinSizeRel\bf_intern_locale.lib;..\..\lib\MinSizeRel\extern_rangetree.lib;..\..\lib\MinSizeRel\bf_intern_memutil.lib;..\..\lib\MinSizeRel\bf_intern_opencolorio.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\png\lib\libpng.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\tiff\lib\libtiff.lib;..\..\lib\MinSizeRel\bf_imbuf_openimageio.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openjpeg\lib\openjp2.lib;..\..\lib\MinSizeRel\bf_avi.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\jpeg\lib\libjpeg.lib;..\..\lib\MinSizeRel\bf_imbuf_dds.lib;..\..\lib\MinSizeRel\bf_imbuf_cineon.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\webp\lib\webp.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\webp\lib\webpdemux.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\webp\lib\webpmux.lib;..\..\lib\MinSizeRel\bf_intern_dualcon.lib;..\..\lib\MinSizeRel\bf_nodes_composite.lib;..\..\lib\MinSizeRel\bf_nodes_function.lib;..\..\lib\MinSizeRel\bf_dna.lib;..\..\lib\MinSizeRel\bf_editor_gizmo_library.lib;..\..\lib\MinSizeRel\bf_editor_render.lib;..\..\lib\MinSizeRel\bf_python_gpu.lib;..\..\lib\MinSizeRel\bf_intern_cycles.lib;..\..\lib\MinSizeRel\extern_glog.lib;..\..\lib\MinSizeRel\extern_gflags.lib;..\..\lib\MinSizeRel\cycles_graph.lib;..\..\lib\MinSizeRel\cycles_bvh.lib;..\..\lib\MinSizeRel\cycles_device.lib;..\..\lib\MinSizeRel\cycles_kernel.lib;..\..\lib\MinSizeRel\cycles_scene.lib;..\..\lib\MinSizeRel\cycles_session.lib;..\..\lib\MinSizeRel\cycles_kernel_osl.lib;..\..\lib\MinSizeRel\cycles_integrator.lib;..\..\lib\MinSizeRel\cycles_bvh.lib;..\..\lib\MinSizeRel\cycles_device.lib;..\..\lib\MinSizeRel\cycles_kernel.lib;..\..\lib\MinSizeRel\cycles_scene.lib;..\..\lib\MinSizeRel\cycles_session.lib;..\..\lib\MinSizeRel\cycles_kernel_osl.lib;..\..\lib\MinSizeRel\cycles_integrator.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\embree3.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\embree_avx2.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\embree_avx.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\embree_sse42.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\lexers.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\math.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\simd.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\sys.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\tasking.lib;..\..\lib\MinSizeRel\extern_cuew.lib;..\..\lib\MinSizeRel\extern_hipew.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenColorIO\lib\OpenColorIO.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenColorIO\lib\libyaml-cpp.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenColorIO\lib\libexpatMD.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenColorIO\lib\pystring.lib;C:\blender-git\lib\win64_vc15\osl\lib\oslcomp.lib;C:\blender-git\lib\win64_vc15\osl\lib\oslexec.lib;C:\blender-git\lib\win64_vc15\osl\lib\oslquery.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageIO\lib\OpenImageIO.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageIO\lib\OpenImageIO_Util.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMAggressiveInstCombine.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMAnalysis.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMAsmParser.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMAsmPrinter.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMBinaryFormat.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMBitReader.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMBitWriter.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMBitstreamReader.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMCFGuard.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMCodeGen.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMCore.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMCoroutines.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMCoverage.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDWARFLinker.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDebugInfoCodeView.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDebugInfoDWARF.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDebugInfoGSYM.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDebugInfoMSF.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDebugInfoPDB.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDemangle.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDlltoolDriver.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMExecutionEngine.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMExtensions.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMFileCheck.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMFrontendOpenACC.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMFrontendOpenMP.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMFuzzMutate.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMGlobalISel.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMHelloNew.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMIRReader.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMInstCombine.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMInstrumentation.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMInterfaceStub.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMInterpreter.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMJITLink.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMLTO.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMLibDriver.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMLineEditor.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMLinker.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMMC.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMMCA.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMMCDisassembler.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMMCJIT.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMMCParser.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMMIRParser.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMObjCARCOpts.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMObject.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMObjectYAML.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMOption.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMOrcJIT.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMOrcShared.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMOrcTargetProcess.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMPasses.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMProfileData.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMRemarks.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMRuntimeDyld.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMScalarOpts.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMSelectionDAG.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMSupport.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMSymbolize.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMTableGen.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMTarget.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMTextAPI.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMTransformUtils.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMVectorize.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMWindowsManifest.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMX86AsmParser.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMX86CodeGen.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMX86Desc.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMX86Disassembler.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMX86Info.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMXRay.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMipo.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LTO.lib;C:\blender-git\lib\win64_vc15\llvm\lib\Remarks.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangAPINotes.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangARCMigrate.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangAST.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangASTMatchers.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangAnalysis.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangBasic.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangCodeGen.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangCrossTU.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangDependencyScanning.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangDirectoryWatcher.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangDriver.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangDynamicASTMatchers.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangEdit.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangFormat.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangFrontend.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangFrontendTool.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangHandleCXX.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangHandleLLVM.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangIndex.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangIndexSerialization.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangLex.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangParse.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangRewrite.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangRewriteFrontend.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangSema.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangSerialization.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangStaticAnalyzerCheckers.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangStaticAnalyzerCore.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangStaticAnalyzerFrontend.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangTesting.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangTooling.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangToolingASTDiff.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangToolingCore.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangToolingInclusions.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangToolingRefactoring.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangToolingSyntax.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangTransformer.lib;C:\blender-git\lib\win64_vc15\llvm\lib\libclang.lib;..\..\lib\MinSizeRel\cycles_subd.lib;..\..\lib\MinSizeRel\cycles_util.lib;..\..\lib\MinSizeRel\extern_clew.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageDenoise\lib\OpenImageDenoise.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageDenoise\lib\common.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageDenoise\lib\dnnl.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\alembic\lib\Alembic.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\usd\lib\usd_usd_m.lib;..\..\lib\MinSizeRel\extern_bullet.lib;..\..\lib\MinSizeRel\bf_functions.lib;..\..\lib\MinSizeRel\bf_intern_sky.lib;..\..\lib\MinSizeRel\bf_editor_space_buttons.lib;..\..\lib\MinSizeRel\bf_editor_space_info.lib;..\..\lib\MinSizeRel\bf_editor_space_script.lib;..\..\lib\MinSizeRel\bf_editor_space_spreadsheet.lib;..\..\lib\MinSizeRel\bf_editor_space_topbar.lib;..\..\lib\MinSizeRel\bf_editor_space_userpref.lib;..\..\lib\MinSizeRel\extern_curve_fit_nd.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\potrace\lib\potrace.lib;..\..\lib\MinSizeRel\bf_collada.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\OpenCOLLADASaxFrameworkLoader.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\OpenCOLLADAFramework.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\OpenCOLLADABaseUtils.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\OpenCOLLADAStreamWriter.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\MathMLSolver.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\GeneratedSaxParser.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\buffer.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\ftoa.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\xml2\lib\libxml2s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\UTF.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\pcre.lib;..\..\lib\MinSizeRel\bf_intern_mantaflow.lib;..\..\lib\MinSizeRel\extern_mantaflow.lib;..\..\lib\MinSizeRel\bf_blenfont.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\freetype\lib\freetype2ST.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\brotli\lib\brotlidec-static.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\brotli\lib\brotlicommon-static.lib;..\..\lib\MinSizeRel\bf_gpu.lib;..\..\lib\MinSizeRel\bf_draw_shaders.lib;opengl32.lib;..\..\lib\MinSizeRel\extern_glew.lib;..\..\lib\MinSizeRel\bf_gpu_shaders.lib;..\..\lib\MinSizeRel\bf_ocio_shaders.lib;..\..\lib\MinSizeRel\bf_editor_mask.lib;..\..\lib\MinSizeRel\bf_editor_metaball.lib;..\..\lib\MinSizeRel\bf_python_ext.lib;..\..\lib\MinSizeRel\bf_editor_util.lib;..\..\lib\MinSizeRel\bf_intern_openvdb.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openVDB\lib\openvdb.lib;..\..\lib\MinSizeRel\bf_editor_datafiles.lib;..\..\lib\MinSizeRel\bf_intern_audaspace.lib;..\..\lib\MinSizeRel\audaspace-py.lib;..\..\lib\MinSizeRel\audaspace.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\avcodec.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\avformat.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\avdevice.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\avutil.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\swscale.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\sndfile\lib\libsndfile-1.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openal\lib\openal32.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\sdl\lib\SDL2.lib;ksuser.lib;..\..\lib\MinSizeRel\bf_editor_lattice.lib;..\..\lib\MinSizeRel\bf_blenlib.lib;..\..\lib\MinSizeRel\bf_intern_guardedalloc.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\zlib\lib\libz_st.lib;..\..\lib\MinSizeRel\bf_intern_eigen.lib;..\..\lib\MinSizeRel\extern_wcwidth.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\zstd\lib\zstd_static.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\tbb\lib\tbb.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\gmp\lib\libgmp-10.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\gmp\lib\libgmpxx.lib;..\..\lib\MinSizeRel\bf_intern_utfconv.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\pugixml\lib\pugixml.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\haru\lib\libhpdfs.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_date_time-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_filesystem-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_regex-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_system-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_thread-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_chrono-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_wave-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_locale-vc142-mt-x64-1_78.lib;..\..\lib\MinSizeRel\bf_imbuf_openexr.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\Iex_s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\IlmThread_s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\OpenEXR_s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\OpenEXRCore_s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\OpenEXRUtil_s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\imath\lib\Imath_s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\libs\python310.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/blender-git/goo-engine/../lib/win64_vc15/tbb/lib;C:/blender-git/goo-engine/../lib/win64_vc15/tbb/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4099 /ignore:4049 /ignore:4217 /ignore:4221 delayimp.lib /WHOLEARCHIVE:C:/blender-git/goo-engine/../lib/win64_vc15/usd/lib/usd_usd_m.lib</AdditionalOptions>
+      <DelayLoadDLLs>vcomp140.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/blender-git/build_windows_x64_vc16_Release/bin/MinSizeRel/blender.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/blender-git/build_windows_x64_vc16_Release/source/creator/MinSizeRel/blender_private.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2097152</StackReserveSize>
+      <StripPrivateSymbols>C:/blender-git/build_windows_x64_vc16_Release/source/creator/$(Configuration)/blender_public.pdb</StripPrivateSymbols>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>C:\blender-git\build_windows_x64_vc16_Release\blender.exe.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\blenloader;C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\render;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\utfconv;C:\blender-git\goo-engine\intern\libmv;C:\blender-git\goo-engine\intern\cycles\blender;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\goo-engine\source\blender\freestyle;C:\blender-git\lib\win64_vc15\gmp\include;C:\blender-git\build_windows_x64_vc16_Release\source\creator;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w34189 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_LIBMV;WITH_CYCLES_LOGGING;WITH_FFMPEG;WITH_PYTHON;WITH_PYTHON_SECURITY;WITH_SDL;WITH_FREESTYLE;WITH_XR_OPENXR;WITH_GMP;WITH_OCIO;BLEN_VER_RC_STR="3.3";BLEN_VER_RC_1=3;BLEN_VER_RC_2=3;BLEN_VER_RC_3=2;BLEN_VER_RC_4=0;WITH_BUILDINFO;WITH_BUILDINFO_HEADER;WITH_USD;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_LIBMV;WITH_CYCLES_LOGGING;WITH_FFMPEG;WITH_PYTHON;WITH_PYTHON_SECURITY;WITH_SDL;WITH_FREESTYLE;WITH_XR_OPENXR;WITH_GMP;WITH_OCIO;BLEN_VER_RC_STR=\"3.3\";BLEN_VER_RC_1=3;BLEN_VER_RC_2=3;BLEN_VER_RC_3=2;BLEN_VER_RC_4=0;WITH_BUILDINFO;WITH_BUILDINFO_HEADER;WITH_USD;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\blenloader;C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\render;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\utfconv;C:\blender-git\goo-engine\intern\libmv;C:\blender-git\goo-engine\intern\cycles\blender;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\goo-engine\source\blender\freestyle;C:\blender-git\lib\win64_vc15\gmp\include;C:\blender-git\build_windows_x64_vc16_Release\source\creator;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\blenloader;C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\render;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\utfconv;C:\blender-git\goo-engine\intern\libmv;C:\blender-git\goo-engine\intern\cycles\blender;C:\blender-git\lib\win64_vc15\tbb\include;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\goo-engine\source\blender\freestyle;C:\blender-git\lib\win64_vc15\gmp\include;C:\blender-git\build_windows_x64_vc16_Release\source\creator;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\bf_blenkernel.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\tbb\lib\tbb.lib;..\..\lib\RelWithDebInfo\bf_windowmanager.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\tbb\lib\tbbmalloc.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;ws2_32.lib;vfw32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;Comctl32.lib;version.lib;advapi32.lib;shfolder.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;psapi.lib;Dbghelp.lib;Shlwapi.lib;pathcch.lib;Shcore.lib;Dwmapi.lib;imm32.lib;..\..\lib\RelWithDebInfo\bf_blenloader.lib;..\..\lib\RelWithDebInfo\bf_blentranslation.lib;..\..\lib\RelWithDebInfo\bf_bmesh.lib;..\..\lib\RelWithDebInfo\bf_depsgraph.lib;..\..\lib\RelWithDebInfo\bf_draw.lib;..\..\lib\RelWithDebInfo\bf_imbuf.lib;..\..\lib\RelWithDebInfo\bf_modifiers.lib;..\..\lib\RelWithDebInfo\bf_nodes.lib;..\..\lib\RelWithDebInfo\bf_rna.lib;..\..\lib\RelWithDebInfo\bf_simulation.lib;..\..\lib\RelWithDebInfo\bf_python.lib;..\..\lib\RelWithDebInfo\bf_python_bmesh.lib;..\..\lib\RelWithDebInfo\bf_editor_screen.lib;..\..\lib\RelWithDebInfo\bf_sequencer.lib;..\..\lib\RelWithDebInfo\bf_compositor.lib;..\..\lib\RelWithDebInfo\bf_alembic.lib;..\..\lib\RelWithDebInfo\bf_usd.lib;..\..\lib\RelWithDebInfo\bf_nodes_geometry.lib;..\..\lib\RelWithDebInfo\bf_nodes_shader.lib;..\..\lib\RelWithDebInfo\bf_nodes_texture.lib;..\..\lib\RelWithDebInfo\bf_editor_space_api.lib;..\..\lib\RelWithDebInfo\bf_editor_animation.lib;..\..\lib\RelWithDebInfo\bf_editor_armature.lib;..\..\lib\RelWithDebInfo\bf_editor_asset.lib;..\..\lib\RelWithDebInfo\bf_editor_curve.lib;..\..\lib\RelWithDebInfo\bf_editor_curves.lib;..\..\lib\RelWithDebInfo\bf_editor_gpencil.lib;..\..\lib\RelWithDebInfo\bf_editor_io.lib;..\..\lib\RelWithDebInfo\bf_editor_mesh.lib;..\..\lib\RelWithDebInfo\bf_editor_object.lib;..\..\lib\RelWithDebInfo\bf_editor_physics.lib;..\..\lib\RelWithDebInfo\bf_editor_scene.lib;..\..\lib\RelWithDebInfo\bf_editor_sculpt_paint.lib;..\..\lib\RelWithDebInfo\bf_editor_sound.lib;..\..\lib\RelWithDebInfo\bf_editor_transform.lib;..\..\lib\RelWithDebInfo\bf_editor_undo.lib;..\..\lib\RelWithDebInfo\bf_editor_interface.lib;..\..\lib\RelWithDebInfo\bf_python_mathutils.lib;..\..\lib\RelWithDebInfo\bf_editor_space_sequencer.lib;..\..\lib\RelWithDebInfo\bf_io_common.lib;..\..\lib\RelWithDebInfo\bf_geometry.lib;..\..\lib\RelWithDebInfo\bf_editor_geometry.lib;..\..\lib\RelWithDebInfo\bf_editor_space_action.lib;..\..\lib\RelWithDebInfo\bf_editor_space_clip.lib;..\..\lib\RelWithDebInfo\bf_editor_space_console.lib;..\..\lib\RelWithDebInfo\bf_editor_space_file.lib;..\..\lib\RelWithDebInfo\bf_editor_space_graph.lib;..\..\lib\RelWithDebInfo\bf_editor_space_image.lib;..\..\lib\RelWithDebInfo\bf_editor_space_nla.lib;..\..\lib\RelWithDebInfo\bf_editor_space_node.lib;..\..\lib\RelWithDebInfo\bf_editor_space_outliner.lib;..\..\lib\RelWithDebInfo\bf_editor_space_statusbar.lib;..\..\lib\RelWithDebInfo\bf_editor_space_text.lib;..\..\lib\RelWithDebInfo\bf_editor_space_view3d.lib;..\..\lib\RelWithDebInfo\bf_wavefront_obj.lib;..\..\lib\RelWithDebInfo\bf_stl.lib;..\..\lib\RelWithDebInfo\bf_gpencil.lib;..\..\lib\RelWithDebInfo\bf_render.lib;..\..\lib\RelWithDebInfo\bf_editor_uvedit.lib;..\..\lib\RelWithDebInfo\bf_freestyle.lib;..\..\lib\RelWithDebInfo\bf_blenkernel.lib;..\..\lib\RelWithDebInfo\bf_windowmanager.lib;..\..\lib\RelWithDebInfo\bf_blenloader.lib;..\..\lib\RelWithDebInfo\bf_blentranslation.lib;..\..\lib\RelWithDebInfo\bf_bmesh.lib;..\..\lib\RelWithDebInfo\bf_depsgraph.lib;..\..\lib\RelWithDebInfo\bf_draw.lib;..\..\lib\RelWithDebInfo\bf_imbuf.lib;..\..\lib\RelWithDebInfo\bf_modifiers.lib;..\..\lib\RelWithDebInfo\bf_nodes.lib;..\..\lib\RelWithDebInfo\bf_rna.lib;..\..\lib\RelWithDebInfo\bf_simulation.lib;..\..\lib\RelWithDebInfo\bf_python.lib;..\..\lib\RelWithDebInfo\bf_python_bmesh.lib;..\..\lib\RelWithDebInfo\bf_editor_screen.lib;..\..\lib\RelWithDebInfo\bf_sequencer.lib;..\..\lib\RelWithDebInfo\bf_compositor.lib;..\..\lib\RelWithDebInfo\bf_alembic.lib;..\..\lib\RelWithDebInfo\bf_usd.lib;..\..\lib\RelWithDebInfo\bf_nodes_geometry.lib;..\..\lib\RelWithDebInfo\bf_nodes_shader.lib;..\..\lib\RelWithDebInfo\bf_nodes_texture.lib;..\..\lib\RelWithDebInfo\bf_editor_space_api.lib;..\..\lib\RelWithDebInfo\bf_editor_animation.lib;..\..\lib\RelWithDebInfo\bf_editor_armature.lib;..\..\lib\RelWithDebInfo\bf_editor_asset.lib;..\..\lib\RelWithDebInfo\bf_editor_curve.lib;..\..\lib\RelWithDebInfo\bf_editor_curves.lib;..\..\lib\RelWithDebInfo\bf_editor_gpencil.lib;..\..\lib\RelWithDebInfo\bf_editor_io.lib;..\..\lib\RelWithDebInfo\bf_editor_mesh.lib;..\..\lib\RelWithDebInfo\bf_editor_object.lib;..\..\lib\RelWithDebInfo\bf_editor_physics.lib;..\..\lib\RelWithDebInfo\bf_editor_scene.lib;..\..\lib\RelWithDebInfo\bf_editor_sculpt_paint.lib;..\..\lib\RelWithDebInfo\bf_editor_sound.lib;..\..\lib\RelWithDebInfo\bf_editor_transform.lib;..\..\lib\RelWithDebInfo\bf_editor_undo.lib;..\..\lib\RelWithDebInfo\bf_editor_interface.lib;..\..\lib\RelWithDebInfo\bf_python_mathutils.lib;..\..\lib\RelWithDebInfo\bf_editor_space_sequencer.lib;..\..\lib\RelWithDebInfo\bf_io_common.lib;..\..\lib\RelWithDebInfo\bf_geometry.lib;..\..\lib\RelWithDebInfo\bf_editor_geometry.lib;..\..\lib\RelWithDebInfo\bf_editor_space_action.lib;..\..\lib\RelWithDebInfo\bf_editor_space_clip.lib;..\..\lib\RelWithDebInfo\bf_editor_space_console.lib;..\..\lib\RelWithDebInfo\bf_editor_space_file.lib;..\..\lib\RelWithDebInfo\bf_editor_space_graph.lib;..\..\lib\RelWithDebInfo\bf_editor_space_image.lib;..\..\lib\RelWithDebInfo\bf_editor_space_nla.lib;..\..\lib\RelWithDebInfo\bf_editor_space_node.lib;..\..\lib\RelWithDebInfo\bf_editor_space_outliner.lib;..\..\lib\RelWithDebInfo\bf_editor_space_statusbar.lib;..\..\lib\RelWithDebInfo\bf_editor_space_text.lib;..\..\lib\RelWithDebInfo\bf_editor_space_view3d.lib;..\..\lib\RelWithDebInfo\bf_wavefront_obj.lib;..\..\lib\RelWithDebInfo\bf_stl.lib;..\..\lib\RelWithDebInfo\bf_gpencil.lib;..\..\lib\RelWithDebInfo\bf_render.lib;..\..\lib\RelWithDebInfo\bf_editor_uvedit.lib;..\..\lib\RelWithDebInfo\bf_freestyle.lib;..\..\lib\RelWithDebInfo\bf_gpencil_modifiers.lib;..\..\lib\RelWithDebInfo\bf_ikplugin.lib;..\..\lib\RelWithDebInfo\bf_intern_iksolver.lib;..\..\lib\RelWithDebInfo\bf_intern_itasc.lib;..\..\lib\RelWithDebInfo\bf_intern_clog.lib;..\..\lib\RelWithDebInfo\bf_intern_ghost.lib;..\..\lib\RelWithDebInfo\bf_intern_glew_mx.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\xr_openxr_sdk\lib\openxr_loader.lib;shlwapi.lib;..\..\lib\RelWithDebInfo\bf_intern_libmv.lib;..\..\lib\RelWithDebInfo\extern_ceres.lib;..\..\lib\RelWithDebInfo\bf_intern_mikktspace.lib;..\..\lib\RelWithDebInfo\bf_intern_opensubdiv.lib;..\..\lib\RelWithDebInfo\bf_shader_fx.lib;..\..\lib\RelWithDebInfo\bf_intern_rigidbody.lib;..\..\lib\RelWithDebInfo\extern_minilzo.lib;..\..\lib\RelWithDebInfo\extern_lzma.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\fftw3\lib\libfftw.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opensubdiv\lib\osdCPU.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opensubdiv\lib\osdGPU.lib;..\..\lib\RelWithDebInfo\bf_intern_quadriflow.lib;..\..\lib\RelWithDebInfo\extern_quadriflow.lib;..\..\lib\RelWithDebInfo\bf_intern_locale.lib;..\..\lib\RelWithDebInfo\extern_rangetree.lib;..\..\lib\RelWithDebInfo\bf_intern_memutil.lib;..\..\lib\RelWithDebInfo\bf_intern_opencolorio.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\png\lib\libpng.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\tiff\lib\libtiff.lib;..\..\lib\RelWithDebInfo\bf_imbuf_openimageio.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openjpeg\lib\openjp2.lib;..\..\lib\RelWithDebInfo\bf_avi.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\jpeg\lib\libjpeg.lib;..\..\lib\RelWithDebInfo\bf_imbuf_dds.lib;..\..\lib\RelWithDebInfo\bf_imbuf_cineon.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\webp\lib\webp.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\webp\lib\webpdemux.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\webp\lib\webpmux.lib;..\..\lib\RelWithDebInfo\bf_intern_dualcon.lib;..\..\lib\RelWithDebInfo\bf_nodes_composite.lib;..\..\lib\RelWithDebInfo\bf_nodes_function.lib;..\..\lib\RelWithDebInfo\bf_dna.lib;..\..\lib\RelWithDebInfo\bf_editor_gizmo_library.lib;..\..\lib\RelWithDebInfo\bf_editor_render.lib;..\..\lib\RelWithDebInfo\bf_python_gpu.lib;..\..\lib\RelWithDebInfo\bf_intern_cycles.lib;..\..\lib\RelWithDebInfo\extern_glog.lib;..\..\lib\RelWithDebInfo\extern_gflags.lib;..\..\lib\RelWithDebInfo\cycles_graph.lib;..\..\lib\RelWithDebInfo\cycles_bvh.lib;..\..\lib\RelWithDebInfo\cycles_device.lib;..\..\lib\RelWithDebInfo\cycles_kernel.lib;..\..\lib\RelWithDebInfo\cycles_scene.lib;..\..\lib\RelWithDebInfo\cycles_session.lib;..\..\lib\RelWithDebInfo\cycles_kernel_osl.lib;..\..\lib\RelWithDebInfo\cycles_integrator.lib;..\..\lib\RelWithDebInfo\cycles_bvh.lib;..\..\lib\RelWithDebInfo\cycles_device.lib;..\..\lib\RelWithDebInfo\cycles_kernel.lib;..\..\lib\RelWithDebInfo\cycles_scene.lib;..\..\lib\RelWithDebInfo\cycles_session.lib;..\..\lib\RelWithDebInfo\cycles_kernel_osl.lib;..\..\lib\RelWithDebInfo\cycles_integrator.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\embree3.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\embree_avx2.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\embree_avx.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\embree_sse42.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\lexers.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\math.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\simd.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\sys.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\embree\lib\tasking.lib;..\..\lib\RelWithDebInfo\extern_cuew.lib;..\..\lib\RelWithDebInfo\extern_hipew.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenColorIO\lib\OpenColorIO.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenColorIO\lib\libyaml-cpp.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenColorIO\lib\libexpatMD.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenColorIO\lib\pystring.lib;C:\blender-git\lib\win64_vc15\osl\lib\oslcomp.lib;C:\blender-git\lib\win64_vc15\osl\lib\oslexec.lib;C:\blender-git\lib\win64_vc15\osl\lib\oslquery.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageIO\lib\OpenImageIO.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageIO\lib\OpenImageIO_Util.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMAggressiveInstCombine.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMAnalysis.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMAsmParser.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMAsmPrinter.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMBinaryFormat.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMBitReader.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMBitWriter.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMBitstreamReader.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMCFGuard.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMCodeGen.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMCore.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMCoroutines.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMCoverage.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDWARFLinker.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDebugInfoCodeView.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDebugInfoDWARF.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDebugInfoGSYM.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDebugInfoMSF.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDebugInfoPDB.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDemangle.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMDlltoolDriver.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMExecutionEngine.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMExtensions.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMFileCheck.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMFrontendOpenACC.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMFrontendOpenMP.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMFuzzMutate.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMGlobalISel.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMHelloNew.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMIRReader.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMInstCombine.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMInstrumentation.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMInterfaceStub.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMInterpreter.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMJITLink.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMLTO.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMLibDriver.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMLineEditor.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMLinker.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMMC.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMMCA.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMMCDisassembler.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMMCJIT.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMMCParser.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMMIRParser.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMObjCARCOpts.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMObject.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMObjectYAML.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMOption.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMOrcJIT.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMOrcShared.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMOrcTargetProcess.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMPasses.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMProfileData.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMRemarks.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMRuntimeDyld.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMScalarOpts.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMSelectionDAG.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMSupport.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMSymbolize.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMTableGen.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMTarget.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMTextAPI.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMTransformUtils.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMVectorize.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMWindowsManifest.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMX86AsmParser.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMX86CodeGen.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMX86Desc.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMX86Disassembler.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMX86Info.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMXRay.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LLVMipo.lib;C:\blender-git\lib\win64_vc15\llvm\lib\LTO.lib;C:\blender-git\lib\win64_vc15\llvm\lib\Remarks.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangAPINotes.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangARCMigrate.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangAST.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangASTMatchers.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangAnalysis.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangBasic.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangCodeGen.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangCrossTU.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangDependencyScanning.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangDirectoryWatcher.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangDriver.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangDynamicASTMatchers.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangEdit.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangFormat.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangFrontend.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangFrontendTool.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangHandleCXX.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangHandleLLVM.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangIndex.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangIndexSerialization.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangLex.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangParse.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangRewrite.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangRewriteFrontend.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangSema.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangSerialization.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangStaticAnalyzerCheckers.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangStaticAnalyzerCore.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangStaticAnalyzerFrontend.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangTesting.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangTooling.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangToolingASTDiff.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangToolingCore.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangToolingInclusions.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangToolingRefactoring.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangToolingSyntax.lib;C:\blender-git\lib\win64_vc15\llvm\lib\clangTransformer.lib;C:\blender-git\lib\win64_vc15\llvm\lib\libclang.lib;..\..\lib\RelWithDebInfo\cycles_subd.lib;..\..\lib\RelWithDebInfo\cycles_util.lib;..\..\lib\RelWithDebInfo\extern_clew.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageDenoise\lib\OpenImageDenoise.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageDenoise\lib\common.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\OpenImageDenoise\lib\dnnl.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\alembic\lib\Alembic.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\usd\lib\usd_usd_m.lib;..\..\lib\RelWithDebInfo\extern_bullet.lib;..\..\lib\RelWithDebInfo\bf_functions.lib;..\..\lib\RelWithDebInfo\bf_intern_sky.lib;..\..\lib\RelWithDebInfo\bf_editor_space_buttons.lib;..\..\lib\RelWithDebInfo\bf_editor_space_info.lib;..\..\lib\RelWithDebInfo\bf_editor_space_script.lib;..\..\lib\RelWithDebInfo\bf_editor_space_spreadsheet.lib;..\..\lib\RelWithDebInfo\bf_editor_space_topbar.lib;..\..\lib\RelWithDebInfo\bf_editor_space_userpref.lib;..\..\lib\RelWithDebInfo\extern_curve_fit_nd.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\potrace\lib\potrace.lib;..\..\lib\RelWithDebInfo\bf_collada.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\OpenCOLLADASaxFrameworkLoader.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\OpenCOLLADAFramework.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\OpenCOLLADABaseUtils.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\OpenCOLLADAStreamWriter.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\MathMLSolver.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\GeneratedSaxParser.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\buffer.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\ftoa.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\xml2\lib\libxml2s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\UTF.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\opencollada\lib\opencollada\pcre.lib;..\..\lib\RelWithDebInfo\bf_intern_mantaflow.lib;..\..\lib\RelWithDebInfo\extern_mantaflow.lib;..\..\lib\RelWithDebInfo\bf_blenfont.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\freetype\lib\freetype2ST.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\brotli\lib\brotlidec-static.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\brotli\lib\brotlicommon-static.lib;..\..\lib\RelWithDebInfo\bf_gpu.lib;..\..\lib\RelWithDebInfo\bf_draw_shaders.lib;opengl32.lib;..\..\lib\RelWithDebInfo\extern_glew.lib;..\..\lib\RelWithDebInfo\bf_gpu_shaders.lib;..\..\lib\RelWithDebInfo\bf_ocio_shaders.lib;..\..\lib\RelWithDebInfo\bf_editor_mask.lib;..\..\lib\RelWithDebInfo\bf_editor_metaball.lib;..\..\lib\RelWithDebInfo\bf_python_ext.lib;..\..\lib\RelWithDebInfo\bf_editor_util.lib;..\..\lib\RelWithDebInfo\bf_intern_openvdb.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openVDB\lib\openvdb.lib;..\..\lib\RelWithDebInfo\bf_editor_datafiles.lib;..\..\lib\RelWithDebInfo\bf_intern_audaspace.lib;..\..\lib\RelWithDebInfo\audaspace-py.lib;..\..\lib\RelWithDebInfo\audaspace.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\avcodec.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\avformat.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\avdevice.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\avutil.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\lib\swscale.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\sndfile\lib\libsndfile-1.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openal\lib\openal32.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\sdl\lib\SDL2.lib;ksuser.lib;..\..\lib\RelWithDebInfo\bf_editor_lattice.lib;..\..\lib\RelWithDebInfo\bf_blenlib.lib;..\..\lib\RelWithDebInfo\bf_intern_guardedalloc.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\zlib\lib\libz_st.lib;..\..\lib\RelWithDebInfo\bf_intern_eigen.lib;..\..\lib\RelWithDebInfo\extern_wcwidth.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\zstd\lib\zstd_static.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\tbb\lib\tbb.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\gmp\lib\libgmp-10.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\gmp\lib\libgmpxx.lib;..\..\lib\RelWithDebInfo\bf_intern_utfconv.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\pugixml\lib\pugixml.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\haru\lib\libhpdfs.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_date_time-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_filesystem-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_regex-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_system-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_thread-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_chrono-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_wave-vc142-mt-x64-1_78.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\boost\lib\libboost_locale-vc142-mt-x64-1_78.lib;..\..\lib\RelWithDebInfo\bf_imbuf_openexr.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\Iex_s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\IlmThread_s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\OpenEXR_s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\OpenEXRCore_s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\openexr\lib\OpenEXRUtil_s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\imath\lib\Imath_s.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\libs\python310.lib;C:\blender-git\goo-engine\..\lib\win64_vc15\pthreads\lib\pthreadVC3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/blender-git/goo-engine/../lib/win64_vc15/tbb/lib;C:/blender-git/goo-engine/../lib/win64_vc15/tbb/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4099 /ignore:4049 /ignore:4217 /ignore:4221 delayimp.lib /WHOLEARCHIVE:C:/blender-git/goo-engine/../lib/win64_vc15/usd/lib/usd_usd_m.lib</AdditionalOptions>
+      <DelayLoadDLLs>vcomp140.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/blender-git/build_windows_x64_vc16_Release/bin/RelWithDebInfo/blender.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/blender-git/build_windows_x64_vc16_Release/source/creator/RelWithDebInfo/blender_private.pdb</ProgramDataBaseFile>
+      <StackReserveSize>2097152</StackReserveSize>
+      <StripPrivateSymbols>C:/blender-git/build_windows_x64_vc16_Release/source/creator/$(Configuration)/blender_public.pdb</StripPrivateSymbols>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>C:\blender-git\build_windows_x64_vc16_Release\blender.exe.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\creator\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/blender-git/goo-engine/source/creator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/creator/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\goo-engine\build_files\cmake\buildinfo_static.h.in;C:\blender-git\goo-engine\release\text\readme.html;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\creator\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/blender-git/goo-engine/source/creator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/creator/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\goo-engine\build_files\cmake\buildinfo_static.h.in;C:\blender-git\goo-engine\release\text\readme.html;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\creator\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/blender-git/goo-engine/source/creator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/creator/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\goo-engine\build_files\cmake\buildinfo_static.h.in;C:\blender-git\goo-engine\release\text\readme.html;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\creator\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/blender-git/goo-engine/source/creator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/creator/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\goo-engine\build_files\cmake\buildinfo_static.h.in;C:\blender-git\goo-engine\release\text\readme.html;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\creator\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\source\creator\creator.c" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\creator\creator_args.c" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\creator\creator_signals.c" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\creator\creator_intern.h" />
+    <ResourceCompile Include="C:\blender-git\goo-engine\release\windows\icons\winblender.rc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\creator\buildinfo.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\ZERO_CHECK.vcxproj">
+      <Project>{0B18E108-1544-3A9C-9810-3B45BB3BAEA5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace\audaspace.vcxproj">
+      <Project>{794E8DE5-D123-3CEE-B5F7-93087591DD60}</Project>
+      <Name>audaspace</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace\audaspace-py.vcxproj">
+      <Project>{EBAB6E99-20F5-314F-B9D9-3EDBF497BF20}</Project>
+      <Name>audaspace-py</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\io\alembic\bf_alembic.vcxproj">
+      <Project>{C25584A4-6CF0-30BD-9AFF-706F40A53B42}</Project>
+      <Name>bf_alembic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\io\avi\bf_avi.vcxproj">
+      <Project>{D52F63E7-2307-3692-BD0C-F7D786B8420F}</Project>
+      <Name>bf_avi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\blenfont\bf_blenfont.vcxproj">
+      <Project>{EBEC4B2B-DCE4-3E0A-9C82-7539469389F8}</Project>
+      <Name>bf_blenfont</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\blenkernel\bf_blenkernel.vcxproj">
+      <Project>{625F0508-E1CD-36D4-A982-83861D0E32C6}</Project>
+      <Name>bf_blenkernel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\blenlib\bf_blenlib.vcxproj">
+      <Project>{B3290A60-5C74-35BF-B5FE-05EFFAF085F9}</Project>
+      <Name>bf_blenlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\blenloader\bf_blenloader.vcxproj">
+      <Project>{233B8108-B1F0-3C6E-8EF3-37F03F9DF5AD}</Project>
+      <Name>bf_blenloader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\blentranslation\bf_blentranslation.vcxproj">
+      <Project>{8375E158-B97C-3FCC-AACA-2140333AAAE4}</Project>
+      <Name>bf_blentranslation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\bmesh\bf_bmesh.vcxproj">
+      <Project>{27AE23D6-90D1-399A-A612-E62D558F40A3}</Project>
+      <Name>bf_bmesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\io\collada\bf_collada.vcxproj">
+      <Project>{D4108916-007D-39D9-89DB-718316F5878E}</Project>
+      <Name>bf_collada</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\bf_compositor.vcxproj">
+      <Project>{B110C058-01DD-37DD-A815-3DE9471B3EA3}</Project>
+      <Name>bf_compositor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\depsgraph\bf_depsgraph.vcxproj">
+      <Project>{76C5797E-74B8-3051-915C-D06C89A927C3}</Project>
+      <Name>bf_depsgraph</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\bf_dna.vcxproj">
+      <Project>{4CB048FC-D778-32AF-8B73-3F31A7761587}</Project>
+      <Name>bf_dna</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw\bf_draw.vcxproj">
+      <Project>{67AD5E0D-618B-3653-8BAC-7E55A1C5A64F}</Project>
+      <Name>bf_draw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw\bf_draw_shaders.vcxproj">
+      <Project>{DEEF2354-DA9F-3B31-B408-9A99E5C4BCA7}</Project>
+      <Name>bf_draw_shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\animation\bf_editor_animation.vcxproj">
+      <Project>{EC739F48-1BD5-3D1D-94C6-1761D2607752}</Project>
+      <Name>bf_editor_animation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\armature\bf_editor_armature.vcxproj">
+      <Project>{B149CEBB-4F83-36E7-8351-A12B6E68C2EA}</Project>
+      <Name>bf_editor_armature</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\asset\bf_editor_asset.vcxproj">
+      <Project>{70B58315-2838-3628-9B4B-CB257789493B}</Project>
+      <Name>bf_editor_asset</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\curve\bf_editor_curve.vcxproj">
+      <Project>{417B6476-2931-38A4-A6FD-9469A6BDCBA4}</Project>
+      <Name>bf_editor_curve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\curves\bf_editor_curves.vcxproj">
+      <Project>{BE20A689-DEDE-38D1-AC79-69A7A90F86C6}</Project>
+      <Name>bf_editor_curves</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\datafiles\bf_editor_datafiles.vcxproj">
+      <Project>{824613DA-6A53-3AD9-8CC4-1BEF84D78EC7}</Project>
+      <Name>bf_editor_datafiles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\geometry\bf_editor_geometry.vcxproj">
+      <Project>{425CFC17-C0AA-32B3-B391-0118200C2372}</Project>
+      <Name>bf_editor_geometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\gizmo_library\bf_editor_gizmo_library.vcxproj">
+      <Project>{9A2E29D8-3B7D-3ACD-8FCA-73503320BB83}</Project>
+      <Name>bf_editor_gizmo_library</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\gpencil\bf_editor_gpencil.vcxproj">
+      <Project>{D84894B5-40FD-3039-BD13-4E6F5C2C462C}</Project>
+      <Name>bf_editor_gpencil</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\interface\bf_editor_interface.vcxproj">
+      <Project>{6FC851F7-F2E8-3FCD-AB69-2AF79DACC5D3}</Project>
+      <Name>bf_editor_interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\io\bf_editor_io.vcxproj">
+      <Project>{7CF8AB1F-527A-33E3-B1D9-02545643D1FD}</Project>
+      <Name>bf_editor_io</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\lattice\bf_editor_lattice.vcxproj">
+      <Project>{B30361FC-9EC4-3337-8F62-7709906A171D}</Project>
+      <Name>bf_editor_lattice</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\mask\bf_editor_mask.vcxproj">
+      <Project>{138C6562-2DE2-3BE1-8887-6F4505B70632}</Project>
+      <Name>bf_editor_mask</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\mesh\bf_editor_mesh.vcxproj">
+      <Project>{20EBBA76-D951-3B58-9736-98E6CE1A6A81}</Project>
+      <Name>bf_editor_mesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\metaball\bf_editor_metaball.vcxproj">
+      <Project>{1E81909B-7042-34C0-A310-E39037F44F34}</Project>
+      <Name>bf_editor_metaball</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\object\bf_editor_object.vcxproj">
+      <Project>{4AB86658-18D5-3CCB-8F26-ADECB65AADEF}</Project>
+      <Name>bf_editor_object</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\physics\bf_editor_physics.vcxproj">
+      <Project>{1AC4B890-DCAC-33D6-BBE2-D73344E8F177}</Project>
+      <Name>bf_editor_physics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\render\bf_editor_render.vcxproj">
+      <Project>{3E08AEFB-2161-399C-8B78-57F498AF1163}</Project>
+      <Name>bf_editor_render</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\scene\bf_editor_scene.vcxproj">
+      <Project>{95932BAA-3141-3CBE-93AF-96CE743B82C4}</Project>
+      <Name>bf_editor_scene</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\screen\bf_editor_screen.vcxproj">
+      <Project>{96A6DE91-9DE8-3EBB-B463-0A79F1102304}</Project>
+      <Name>bf_editor_screen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\sculpt_paint\bf_editor_sculpt_paint.vcxproj">
+      <Project>{C579EA30-20CA-3AC6-B029-D351F739A633}</Project>
+      <Name>bf_editor_sculpt_paint</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\sound\bf_editor_sound.vcxproj">
+      <Project>{471749DD-F850-3873-AACD-14A7A00755EF}</Project>
+      <Name>bf_editor_sound</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_action\bf_editor_space_action.vcxproj">
+      <Project>{AF4E4125-848A-3D8A-968A-F711EF6F883E}</Project>
+      <Name>bf_editor_space_action</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_api\bf_editor_space_api.vcxproj">
+      <Project>{10C0E388-AC0B-3888-AB3D-5C6810870A73}</Project>
+      <Name>bf_editor_space_api</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_buttons\bf_editor_space_buttons.vcxproj">
+      <Project>{A5263441-BF77-3CE6-BB59-E1D02234A6EB}</Project>
+      <Name>bf_editor_space_buttons</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_clip\bf_editor_space_clip.vcxproj">
+      <Project>{83EFE247-1134-3B53-A40A-572DE5D65FF5}</Project>
+      <Name>bf_editor_space_clip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_console\bf_editor_space_console.vcxproj">
+      <Project>{D9266F8B-A5D5-373B-A01B-36CE810F7BDE}</Project>
+      <Name>bf_editor_space_console</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_file\bf_editor_space_file.vcxproj">
+      <Project>{9C23A21D-524F-31C6-AE79-EC4240207B24}</Project>
+      <Name>bf_editor_space_file</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_graph\bf_editor_space_graph.vcxproj">
+      <Project>{8B502863-A7D9-3B2A-9344-53B396605F8F}</Project>
+      <Name>bf_editor_space_graph</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_image\bf_editor_space_image.vcxproj">
+      <Project>{5712EF26-9FEE-3FEB-A856-5195A664565B}</Project>
+      <Name>bf_editor_space_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_info\bf_editor_space_info.vcxproj">
+      <Project>{C594E600-B5A5-37E6-9103-EB7D8BA0499E}</Project>
+      <Name>bf_editor_space_info</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_nla\bf_editor_space_nla.vcxproj">
+      <Project>{C3304A25-4299-3689-942E-B9C7F350ACD4}</Project>
+      <Name>bf_editor_space_nla</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_node\bf_editor_space_node.vcxproj">
+      <Project>{D64F6AC3-2083-38FB-A31D-DB6D6755F9BB}</Project>
+      <Name>bf_editor_space_node</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_outliner\bf_editor_space_outliner.vcxproj">
+      <Project>{2435BF79-3A20-3950-9A9A-0F9FA66E6C54}</Project>
+      <Name>bf_editor_space_outliner</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_script\bf_editor_space_script.vcxproj">
+      <Project>{4A22721B-08C5-317C-B6C7-56000242F71E}</Project>
+      <Name>bf_editor_space_script</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_sequencer\bf_editor_space_sequencer.vcxproj">
+      <Project>{2AF703C5-15A3-3DDB-BE46-D36418B752EB}</Project>
+      <Name>bf_editor_space_sequencer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_spreadsheet\bf_editor_space_spreadsheet.vcxproj">
+      <Project>{7C1DEDEA-5FFB-3F2F-A846-1E306FC551FE}</Project>
+      <Name>bf_editor_space_spreadsheet</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_statusbar\bf_editor_space_statusbar.vcxproj">
+      <Project>{18D6B203-13A8-3743-BAEB-338DCFA534A2}</Project>
+      <Name>bf_editor_space_statusbar</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_text\bf_editor_space_text.vcxproj">
+      <Project>{69E3D5ED-FB41-3BBF-9FF4-9DD36CED740B}</Project>
+      <Name>bf_editor_space_text</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_topbar\bf_editor_space_topbar.vcxproj">
+      <Project>{6CBD6D4E-DD63-378E-9D17-1F516EC70C36}</Project>
+      <Name>bf_editor_space_topbar</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_userpref\bf_editor_space_userpref.vcxproj">
+      <Project>{04FE4281-329F-32C3-BFB6-6A33251582E3}</Project>
+      <Name>bf_editor_space_userpref</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_view3d\bf_editor_space_view3d.vcxproj">
+      <Project>{7D06EF96-59D3-32A4-8ED3-134C09B367F5}</Project>
+      <Name>bf_editor_space_view3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\transform\bf_editor_transform.vcxproj">
+      <Project>{57F77EF4-AD4D-36F9-AF30-9401DF66EF3F}</Project>
+      <Name>bf_editor_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\undo\bf_editor_undo.vcxproj">
+      <Project>{815AD368-0C57-30F3-9F38-B8DA4E8FB03C}</Project>
+      <Name>bf_editor_undo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\util\bf_editor_util.vcxproj">
+      <Project>{302CD877-4F21-338B-9BA0-7B38EF537FC7}</Project>
+      <Name>bf_editor_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\uvedit\bf_editor_uvedit.vcxproj">
+      <Project>{B9145C4F-386A-3B21-B5DD-B66569A7940E}</Project>
+      <Name>bf_editor_uvedit</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\freestyle\bf_freestyle.vcxproj">
+      <Project>{E19596C1-0EEA-3875-9EF3-4B6EE2DB70E6}</Project>
+      <Name>bf_freestyle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\functions\bf_functions.vcxproj">
+      <Project>{912A0C63-3E8D-37EC-9CBC-AFBC1789E18F}</Project>
+      <Name>bf_functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\geometry\bf_geometry.vcxproj">
+      <Project>{EA7EF631-2210-3DD9-83E8-F53BF3F25DBF}</Project>
+      <Name>bf_geometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\io\gpencil\bf_gpencil.vcxproj">
+      <Project>{8886AE00-CB47-306F-A169-4FB3751F4EC6}</Project>
+      <Name>bf_gpencil</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpencil_modifiers\bf_gpencil_modifiers.vcxproj">
+      <Project>{04910E78-842C-3F20-B81C-02B2019BD085}</Project>
+      <Name>bf_gpencil_modifiers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\bf_gpu.vcxproj">
+      <Project>{166ABBDE-CF44-3C3D-9F77-192B7C7C806F}</Project>
+      <Name>bf_gpu</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\bf_gpu_shaders.vcxproj">
+      <Project>{75D22550-2488-3B41-91B9-1517CA827020}</Project>
+      <Name>bf_gpu_shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\ikplugin\bf_ikplugin.vcxproj">
+      <Project>{0257BF6E-377C-3C18-8B32-801066CC4EBF}</Project>
+      <Name>bf_ikplugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\imbuf\bf_imbuf.vcxproj">
+      <Project>{44C3914F-A5B2-3DD7-BC07-D1F9B70402AE}</Project>
+      <Name>bf_imbuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\imbuf\intern\cineon\bf_imbuf_cineon.vcxproj">
+      <Project>{897AA41D-33C2-38AA-83E7-920265D5E16D}</Project>
+      <Name>bf_imbuf_cineon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\imbuf\intern\dds\bf_imbuf_dds.vcxproj">
+      <Project>{22CBEE98-BF68-342C-9AE6-550366537942}</Project>
+      <Name>bf_imbuf_dds</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\imbuf\intern\openexr\bf_imbuf_openexr.vcxproj">
+      <Project>{5A6D0720-50F3-38ED-BDB1-A38BF262C3D1}</Project>
+      <Name>bf_imbuf_openexr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\imbuf\intern\oiio\bf_imbuf_openimageio.vcxproj">
+      <Project>{0AACB51C-F92E-3368-9F71-D724DAE7927D}</Project>
+      <Name>bf_imbuf_openimageio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\audaspace\bf_intern_audaspace.vcxproj">
+      <Project>{8108F8F2-6D16-320A-8CA7-D36F928735B6}</Project>
+      <Name>bf_intern_audaspace</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\clog\bf_intern_clog.vcxproj">
+      <Project>{5E01FEA6-1001-3B8F-90A4-F30180AD17FE}</Project>
+      <Name>bf_intern_clog</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\cycles\blender\bf_intern_cycles.vcxproj">
+      <Project>{4158E862-20C7-38BD-9282-51BDF362E95C}</Project>
+      <Name>bf_intern_cycles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\dualcon\bf_intern_dualcon.vcxproj">
+      <Project>{9ED36DA6-AB01-3515-A34D-B0D91AEC485F}</Project>
+      <Name>bf_intern_dualcon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\eigen\bf_intern_eigen.vcxproj">
+      <Project>{F4F7C64A-A555-3C39-A425-67602FD33D9F}</Project>
+      <Name>bf_intern_eigen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\ghost\bf_intern_ghost.vcxproj">
+      <Project>{BBD40CB0-E480-3266-96BF-528F9F7FDF4D}</Project>
+      <Name>bf_intern_ghost</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\glew-mx\bf_intern_glew_mx.vcxproj">
+      <Project>{07ED3EEB-B552-35F6-A3C8-1796909A4FC3}</Project>
+      <Name>bf_intern_glew_mx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\guardedalloc\bf_intern_guardedalloc.vcxproj">
+      <Project>{E5128D0C-0C93-37FB-8B8F-930F7DCABEB9}</Project>
+      <Name>bf_intern_guardedalloc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\iksolver\bf_intern_iksolver.vcxproj">
+      <Project>{C444F26E-3A4A-3ABE-AAC3-614827EDADAD}</Project>
+      <Name>bf_intern_iksolver</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\itasc\bf_intern_itasc.vcxproj">
+      <Project>{13AAF74C-AF2E-3FAE-B281-3E8E0DCB460A}</Project>
+      <Name>bf_intern_itasc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\libmv\bf_intern_libmv.vcxproj">
+      <Project>{61AA03DB-B432-3301-BC4C-CBFAE1B47D68}</Project>
+      <Name>bf_intern_libmv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\locale\bf_intern_locale.vcxproj">
+      <Project>{B0724FDB-9F54-384E-B663-6FD90EFF2DA5}</Project>
+      <Name>bf_intern_locale</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\mantaflow\bf_intern_mantaflow.vcxproj">
+      <Project>{09376B55-B794-3AEA-B2EA-0823901E6535}</Project>
+      <Name>bf_intern_mantaflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\memutil\bf_intern_memutil.vcxproj">
+      <Project>{974EDF0B-2F61-3235-877C-4C5B9C679735}</Project>
+      <Name>bf_intern_memutil</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\mikktspace\bf_intern_mikktspace.vcxproj">
+      <Project>{1A167DE9-E383-3540-B9E1-D8CAA4D0B78B}</Project>
+      <Name>bf_intern_mikktspace</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio\bf_intern_opencolorio.vcxproj">
+      <Project>{2DAB043C-97B6-3159-9BAD-10D1DBDA62C3}</Project>
+      <Name>bf_intern_opencolorio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\opensubdiv\bf_intern_opensubdiv.vcxproj">
+      <Project>{171B7B36-25D7-36AA-9189-A5AE9F115A48}</Project>
+      <Name>bf_intern_opensubdiv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\openvdb\bf_intern_openvdb.vcxproj">
+      <Project>{463AF280-AF53-3F7B-8C6F-E0345AEAAFBA}</Project>
+      <Name>bf_intern_openvdb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\quadriflow\bf_intern_quadriflow.vcxproj">
+      <Project>{F7B2F77B-B2FD-38B3-B485-8526DBF3704A}</Project>
+      <Name>bf_intern_quadriflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\rigidbody\bf_intern_rigidbody.vcxproj">
+      <Project>{AD412C8C-E51B-3FD4-8058-3E2D4FCFA1B8}</Project>
+      <Name>bf_intern_rigidbody</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\sky\bf_intern_sky.vcxproj">
+      <Project>{9CBCD157-3C56-3841-906C-E0AB3B393447}</Project>
+      <Name>bf_intern_sky</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\utfconv\bf_intern_utfconv.vcxproj">
+      <Project>{37371110-EC5E-33F9-B72E-6724EA9071AB}</Project>
+      <Name>bf_intern_utfconv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\io\common\bf_io_common.vcxproj">
+      <Project>{6BA7ABDA-DF8B-3D40-AFFC-F5BBC995463C}</Project>
+      <Name>bf_io_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\modifiers\bf_modifiers.vcxproj">
+      <Project>{672B06F8-3848-332E-ACEE-66E14C3C3D05}</Project>
+      <Name>bf_modifiers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\bf_nodes.vcxproj">
+      <Project>{B20DD7A2-265D-3F80-A799-34333D55CB6D}</Project>
+      <Name>bf_nodes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\composite\bf_nodes_composite.vcxproj">
+      <Project>{B7AB8ED5-1515-3BC3-BC73-877747F06A6E}</Project>
+      <Name>bf_nodes_composite</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\function\bf_nodes_function.vcxproj">
+      <Project>{B3CAC74E-9BA7-38A5-92B8-FAF1B1E6058E}</Project>
+      <Name>bf_nodes_function</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\geometry\bf_nodes_geometry.vcxproj">
+      <Project>{8DA12187-0840-385B-802E-B8518D4D5FDD}</Project>
+      <Name>bf_nodes_geometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\shader\bf_nodes_shader.vcxproj">
+      <Project>{D0726852-DCCA-3E36-8A17-F28A0A969D11}</Project>
+      <Name>bf_nodes_shader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\texture\bf_nodes_texture.vcxproj">
+      <Project>{019F1A57-57DA-33C9-82FB-69537FA8AF28}</Project>
+      <Name>bf_nodes_texture</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio\bf_ocio_shaders.vcxproj">
+      <Project>{1C355F05-F441-3F97-9A85-409D8E6D4E71}</Project>
+      <Name>bf_ocio_shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\python\intern\bf_python.vcxproj">
+      <Project>{97DED3CF-FE3E-35A6-A8E0-7EE010E897E8}</Project>
+      <Name>bf_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\python\bmesh\bf_python_bmesh.vcxproj">
+      <Project>{906B4361-7953-35FE-A788-A1D8B1327497}</Project>
+      <Name>bf_python_bmesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\python\generic\bf_python_ext.vcxproj">
+      <Project>{6A71D027-BE60-35DA-8392-168A44FF997C}</Project>
+      <Name>bf_python_ext</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\python\gpu\bf_python_gpu.vcxproj">
+      <Project>{C1733236-5087-3504-87C8-4488EF7E8E37}</Project>
+      <Name>bf_python_gpu</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\python\mathutils\bf_python_mathutils.vcxproj">
+      <Project>{AACEB1EA-286F-3AFA-BE23-7C3A8DA6A623}</Project>
+      <Name>bf_python_mathutils</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\render\bf_render.vcxproj">
+      <Project>{DC23B3E0-7CFF-38ED-8873-F4D2902451B2}</Project>
+      <Name>bf_render</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesrna\intern\bf_rna.vcxproj">
+      <Project>{8E378990-EEA1-3E2D-82F1-844DD892F6E3}</Project>
+      <Name>bf_rna</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\sequencer\bf_sequencer.vcxproj">
+      <Project>{D641982B-9311-33AE-8C38-DC3146B7994A}</Project>
+      <Name>bf_sequencer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\shader_fx\bf_shader_fx.vcxproj">
+      <Project>{38B80712-F315-3C5C-9EBE-7FCFECE063DB}</Project>
+      <Name>bf_shader_fx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\simulation\bf_simulation.vcxproj">
+      <Project>{E3460A3F-DAF1-3657-8FD9-981E55C6F45B}</Project>
+      <Name>bf_simulation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\io\stl\bf_stl.vcxproj">
+      <Project>{16FF5910-D0FA-3301-9A21-5A38D7700134}</Project>
+      <Name>bf_stl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\io\usd\bf_usd.vcxproj">
+      <Project>{02CFCCE5-D13E-3181-B87D-3D5EEE3CDBDB}</Project>
+      <Name>bf_usd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\io\wavefront_obj\bf_wavefront_obj.vcxproj">
+      <Project>{35ED0D1F-D5B0-389A-B1BD-F368ABF9EFFB}</Project>
+      <Name>bf_wavefront_obj</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\windowmanager\bf_windowmanager.vcxproj">
+      <Project>{836D8A1E-7026-3C46-B3F7-FF0857CEF4F5}</Project>
+      <Name>bf_windowmanager</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\creator\buildinfo.vcxproj">
+      <Project>{DF8AC951-4084-393D-8CA2-C4DCD915E35A}</Project>
+      <Name>buildinfo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\cycles\bvh\cycles_bvh.vcxproj">
+      <Project>{DBFCE481-4CC9-3F3A-A99C-70C4026BEE06}</Project>
+      <Name>cycles_bvh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\cycles\graph\cycles_graph.vcxproj">
+      <Project>{88E66DB5-AD91-320D-A694-C5F3B38C55E9}</Project>
+      <Name>cycles_graph</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\cycles\subd\cycles_subd.vcxproj">
+      <Project>{57668231-85B1-3895-89AF-D4AB6AF8E2C1}</Project>
+      <Name>cycles_subd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\cycles\util\cycles_util.vcxproj">
+      <Project>{6EC027E9-816F-3DCB-8D73-4C0DBD7A42B0}</Project>
+      <Name>cycles_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\bullet2\extern_bullet.vcxproj">
+      <Project>{A4315204-643C-39C9-9E0B-BA94925A0ED6}</Project>
+      <Name>extern_bullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\ceres\extern_ceres.vcxproj">
+      <Project>{AC7D9D07-E94B-34ED-8FA1-C4B77C774E88}</Project>
+      <Name>extern_ceres</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\clew\extern_clew.vcxproj">
+      <Project>{1C85E036-BAD3-3C9A-930E-18D3633F6ADF}</Project>
+      <Name>extern_clew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\cuew\extern_cuew.vcxproj">
+      <Project>{7F2B162B-2A77-3987-917B-ED4A405F30CA}</Project>
+      <Name>extern_cuew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\curve_fit_nd\extern_curve_fit_nd.vcxproj">
+      <Project>{DDBB7FD5-A0DE-3F58-982B-5AD62560902A}</Project>
+      <Name>extern_curve_fit_nd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\gflags\extern_gflags.vcxproj">
+      <Project>{8DF991FB-6CF9-3AFE-B935-1399A4C8CB07}</Project>
+      <Name>extern_gflags</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\glew\extern_glew.vcxproj">
+      <Project>{1FD1AE55-8E43-3D53-9E65-E553F08560C7}</Project>
+      <Name>extern_glew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\glog\extern_glog.vcxproj">
+      <Project>{50DE0616-A97F-3EE8-8E57-290DEBB6BFAA}</Project>
+      <Name>extern_glog</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\hipew\extern_hipew.vcxproj">
+      <Project>{2ABE616C-9AAE-3956-A7D3-D0DF29BAD995}</Project>
+      <Name>extern_hipew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\lzma\extern_lzma.vcxproj">
+      <Project>{BD9D6616-FA27-3BA3-9F3E-85A3600343DA}</Project>
+      <Name>extern_lzma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\mantaflow\extern_mantaflow.vcxproj">
+      <Project>{A526A92C-1F14-361D-B5DD-270749A21EC3}</Project>
+      <Name>extern_mantaflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\lzo\extern_minilzo.vcxproj">
+      <Project>{D80F40B7-D965-3998-9FEB-F82C915EF5E8}</Project>
+      <Name>extern_minilzo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\quadriflow\extern_quadriflow.vcxproj">
+      <Project>{B86B364A-7053-33BC-8320-C5972649F178}</Project>
+      <Name>extern_quadriflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\rangetree\extern_rangetree.vcxproj">
+      <Project>{B34DEC0E-A1EC-3D0F-914F-ADE558B4C7E8}</Project>
+      <Name>extern_rangetree</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\wcwidth\extern_wcwidth.vcxproj">
+      <Project>{EA28E0ED-E261-3C74-8E49-042504517EF9}</Project>
+      <Name>extern_wcwidth</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\creator\locales.vcxproj">
+      <Project>{C723A1F7-94AA-3BBC-8167-BEB22BFB0475}</Project>
+      <Name>locales</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\makesdna.vcxproj">
+      <Project>{E4262AE0-54D3-3158-AD21-8E14F606187A}</Project>
+      <Name>makesdna</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\F96F3D9554B57977B27F1E5D29930687\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

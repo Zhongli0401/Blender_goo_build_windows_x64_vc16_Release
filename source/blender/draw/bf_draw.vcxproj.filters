@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_cache.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_cache_extract_mesh.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_cache_extract_mesh_render_data.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_ibo_edituv.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_ibo_fdots.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_ibo_lines.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_ibo_lines_adjacency.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_ibo_lines_paint_mask.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_ibo_points.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_ibo_tris.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_attributes.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_edge_fac.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_edit_data.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_edituv_data.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_edituv_stretch_angle.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_edituv_stretch_area.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_fdots_edituv_data.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_fdots_nor.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_fdots_pos.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_fdots_uv.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_lnor.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_mesh_analysis.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_orco.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_pos_nor.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_sculpt_data.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_select_idx.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_skin_roots.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_tan.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_uv.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh_vbo_weights.cc">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_attributes.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_cache_impl_curve.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_cache_impl_curves.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_cache_impl_displist.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_cache_impl_gpencil.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_cache_impl_lattice.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_cache_impl_mesh.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_cache_impl_metaball.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_cache_impl_particles.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_cache_impl_pointcloud.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_cache_impl_subdivision.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_cache_impl_volume.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_color_management.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_common.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_curves.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_debug.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_fluid.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_hair.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_instance_data.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_manager.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_manager_data.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_manager_exec.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_manager_profiling.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_manager_shader.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_manager_text.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_manager_texture.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_select_buffer.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_shader.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_texture_pool.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_view.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_view_data.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_volume.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\intern\smaa_textures.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\basic\basic_engine.c">
+      <Filter>engines\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\basic\basic_shader.c">
+      <Filter>engines\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\image\image_engine.cc">
+      <Filter>engines\image</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\image\image_shader.cc">
+      <Filter>engines\image</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_bloom.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_cryptomatte.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_data.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_depth_of_field.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_effects.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_engine.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_lightcache.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_lightprobes.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_lights.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_lookdev.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_lut.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_lut_gen.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_materials.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_mist.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_motion_blur.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_occlusion.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_render.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_renderpasses.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_sampling.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_screen_raytrace.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_shaders.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_shaders_extra.cc">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_shadows.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_shadows_cascade.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_shadows_cube.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_subsurface.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_temporal_sampling.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_volumes.c">
+      <Filter>engines\eevee</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next\eevee_camera.cc">
+      <Filter>engines\eevee_next</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next\eevee_engine.cc">
+      <Filter>engines\eevee_next</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next\eevee_film.cc">
+      <Filter>engines\eevee_next</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next\eevee_instance.cc">
+      <Filter>engines\eevee_next</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next\eevee_material.cc">
+      <Filter>engines\eevee_next</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next\eevee_pipeline.cc">
+      <Filter>engines\eevee_next</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next\eevee_renderbuffers.cc">
+      <Filter>engines\eevee_next</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next\eevee_sampling.cc">
+      <Filter>engines\eevee_next</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next\eevee_shader.cc">
+      <Filter>engines\eevee_next</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next\eevee_sync.cc">
+      <Filter>engines\eevee_next</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next\eevee_velocity.cc">
+      <Filter>engines\eevee_next</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next\eevee_view.cc">
+      <Filter>engines\eevee_next</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next\eevee_world.cc">
+      <Filter>engines\eevee_next</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\workbench\workbench_data.c">
+      <Filter>engines\workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\workbench\workbench_effect_antialiasing.c">
+      <Filter>engines\workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\workbench\workbench_effect_cavity.c">
+      <Filter>engines\workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\workbench\workbench_effect_dof.c">
+      <Filter>engines\workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\workbench\workbench_effect_outline.c">
+      <Filter>engines\workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\workbench\workbench_engine.c">
+      <Filter>engines\workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\workbench\workbench_materials.c">
+      <Filter>engines\workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\workbench\workbench_opaque.c">
+      <Filter>engines\workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\workbench\workbench_render.c">
+      <Filter>engines\workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\workbench\workbench_shader.cc">
+      <Filter>engines\workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\workbench\workbench_shadow.c">
+      <Filter>engines\workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\workbench\workbench_transparent.c">
+      <Filter>engines\workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\workbench\workbench_volume.c">
+      <Filter>engines\workbench</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\external\external_engine.c">
+      <Filter>engines\external</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\gpencil\gpencil_antialiasing.c">
+      <Filter>engines\gpencil</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\gpencil\gpencil_cache_utils.c">
+      <Filter>engines\gpencil</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\gpencil\gpencil_draw_data.c">
+      <Filter>engines\gpencil</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\gpencil\gpencil_engine.c">
+      <Filter>engines\gpencil</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\gpencil\gpencil_render.c">
+      <Filter>engines\gpencil</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\gpencil\gpencil_shader.c">
+      <Filter>engines\gpencil</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\gpencil\gpencil_shader_fx.c">
+      <Filter>engines\gpencil</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\select\select_draw_utils.c">
+      <Filter>engines\select</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\select\select_engine.c">
+      <Filter>engines\select</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_antialiasing.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_armature.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_background.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_edit_curve.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_edit_curves.cc">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_edit_mesh.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_edit_text.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_edit_uv.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_engine.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_extra.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_facing.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_fade.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_gpencil.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_grid.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_image.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_lattice.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_metaball.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_mode_transfer.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_motion_path.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_outline.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_paint.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_particle.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_sculpt.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_sculpt_curves.cc">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_shader.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_volume.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_wireframe.c">
+      <Filter>engines\overlay</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\gpencil\gpencil_engine.h">
+      <Filter>engines\gpencil</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\DRW_engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\DRW_select_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\DRW_gpu_wrapper.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\DRW_render.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_attributes.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_cache.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_cache_extract.hh">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_cache_impl.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_cache_inline.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_color_management.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_common.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_common_shader_shared.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_curves_private.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_debug.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_hair_private.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_instance_data.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_manager.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_manager_profiling.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_manager_testing.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_manager_text.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_shader.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_shader_shared.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_subdivision.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_texture_pool.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_view.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\draw_view_data.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\mesh_extractors\extract_mesh.hh">
+      <Filter>intern\mesh_extractors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\intern\smaa_textures.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\basic\basic_engine.h">
+      <Filter>engines\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\basic\basic_private.h">
+      <Filter>engines\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_engine.h">
+      <Filter>engines\eevee</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_lightcache.h">
+      <Filter>engines\eevee</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_lut.h">
+      <Filter>engines\eevee</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee\eevee_private.h">
+      <Filter>engines\eevee</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next\eevee_engine.h">
+      <Filter>engines\eevee_next</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\external\external_engine.h">
+      <Filter>engines\external</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\image\image_batches.hh">
+      <Filter>engines\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\image\image_buffer_cache.hh">
+      <Filter>engines\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\image\image_drawing_mode.hh">
+      <Filter>engines\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\image\image_engine.h">
+      <Filter>engines\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\image\image_instance_data.hh">
+      <Filter>engines\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\image\image_partial_updater.hh">
+      <Filter>engines\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\image\image_private.hh">
+      <Filter>engines\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\image\image_shader_params.hh">
+      <Filter>engines\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\image\image_space.hh">
+      <Filter>engines\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\image\image_space_image.hh">
+      <Filter>engines\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\image\image_space_node.hh">
+      <Filter>engines\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\image\image_texture_info.hh">
+      <Filter>engines\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\image\image_usage.hh">
+      <Filter>engines\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\workbench\workbench_engine.h">
+      <Filter>engines\workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\workbench\workbench_private.h">
+      <Filter>engines\workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\workbench\workbench_shader_shared.h">
+      <Filter>engines\workbench</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\select\select_engine.h">
+      <Filter>engines\select</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\select\select_private.h">
+      <Filter>engines\select</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_engine.h">
+      <Filter>engines\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\draw\engines\overlay\overlay_private.h">
+      <Filter>engines\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw\glsl_draw_source_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\blender\draw\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF785239-3054-3D1C-9CBE-53CD9878A5F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engines">
+      <UniqueIdentifier>{37CA768B-EA48-3BF5-BF57-AFEE3B0807EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engines\basic">
+      <UniqueIdentifier>{CFAB0455-D94F-3B24-BB0D-098CEA1919EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engines\eevee">
+      <UniqueIdentifier>{0B9689B9-26C0-3250-986D-DB9BA4671EB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engines\eevee_next">
+      <UniqueIdentifier>{030A8230-9FAE-3739-B2E3-3EB71126E587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engines\external">
+      <UniqueIdentifier>{6A1C9276-3F8E-3FA5-9CE2-6D1849B3ABE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engines\gpencil">
+      <UniqueIdentifier>{60156541-21D3-3E55-93DF-7AA5E1F21D77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engines\image">
+      <UniqueIdentifier>{8D3F3A82-85DD-35DC-AFA9-904AF36F8790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engines\overlay">
+      <UniqueIdentifier>{ACE511F1-5B78-3FCB-91DE-0B90C7992456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engines\select">
+      <UniqueIdentifier>{4D0FB41E-1CD3-3D63-B753-0F91C012F01A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engines\workbench">
+      <UniqueIdentifier>{336370B9-1EDC-392E-AFFE-F925A02ACBA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{017BFF33-8AB9-35B3-9AF4-ED3EEF867E66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\mesh_extractors">
+      <UniqueIdentifier>{EDDBF75D-867F-3CEF-8BD0-37DD6588107F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

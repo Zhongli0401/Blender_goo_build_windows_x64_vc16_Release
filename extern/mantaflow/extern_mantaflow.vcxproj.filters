@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\commonkernels.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\conjugategrad.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\conjugategrad.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\edgecollapse.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\edgecollapse.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fastmarch.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fastmarch.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio\iogrids.cpp">
+      <Filter>preprocessed\fileio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio\iomeshes.cpp">
+      <Filter>preprocessed\fileio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio\ioparticles.cpp">
+      <Filter>preprocessed\fileio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio\ioutil.cpp">
+      <Filter>preprocessed\fileio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio\iovdb.cpp">
+      <Filter>preprocessed\fileio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio\mantaio.cpp">
+      <Filter>preprocessed\fileio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio\mantaio.h.reg.cpp">
+      <Filter>preprocessed\fileio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fluidsolver.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fluidsolver.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\general.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\general.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\grid.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\grid.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\grid4d.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\grid4d.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\kernel.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\kernel.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\levelset.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\levelset.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\mesh.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\mesh.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\movingobs.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\movingobs.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\multigrid.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\multigrid.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\noisefield.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\noisefield.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\particle.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\particle.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\advection.cpp">
+      <Filter>preprocessed\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\apic.cpp">
+      <Filter>preprocessed\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\extforces.cpp">
+      <Filter>preprocessed\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\fire.cpp">
+      <Filter>preprocessed\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\flip.cpp">
+      <Filter>preprocessed\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\fluidguiding.cpp">
+      <Filter>preprocessed\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\initplugins.cpp">
+      <Filter>preprocessed\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\kepsilon.cpp">
+      <Filter>preprocessed\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\meshplugins.cpp">
+      <Filter>preprocessed\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\pressure.cpp">
+      <Filter>preprocessed\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\ptsplugins.cpp">
+      <Filter>preprocessed\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\secondaryparticles.cpp">
+      <Filter>preprocessed\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\surfaceturbulence.cpp">
+      <Filter>preprocessed\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\viscosity.cpp">
+      <Filter>preprocessed\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\vortexplugins.cpp">
+      <Filter>preprocessed\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\waveletturbulence.cpp">
+      <Filter>preprocessed\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\plugin\waves.cpp">
+      <Filter>preprocessed\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\python\defines.py.reg.cpp">
+      <Filter>preprocessed\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\registration.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\shapes.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\shapes.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\test.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\timing.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\timing.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\turbulencepart.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\turbulencepart.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\vortexpart.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\vortexpart.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\vortexsheet.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\vortexsheet.h.reg.cpp">
+      <Filter>preprocessed</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper\pclass.cpp">
+      <Filter>helper\pwrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper\pconvert.cpp">
+      <Filter>helper\pwrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper\pvec3.cpp">
+      <Filter>helper\pwrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper\registry.cpp">
+      <Filter>helper\pwrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\simpleimage.cpp">
+      <Filter>helper\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\vector4d.cpp">
+      <Filter>helper\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\vectorbase.cpp">
+      <Filter>helper\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\commonkernels.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\conjugategrad.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\edgecollapse.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fastmarch.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fileio\mantaio.h">
+      <Filter>preprocessed\fileio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\fluidsolver.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\general.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\gitinfo.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\grid.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\grid4d.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\kernel.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\levelset.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\mesh.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\movingobs.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\multigrid.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\noisefield.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\particle.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\shapes.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\timing.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\turbulencepart.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\vortexpart.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\vortexsheet.h">
+      <Filter>preprocessed</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper\manta.h">
+      <Filter>helper\pwrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper\pclass.h">
+      <Filter>helper\pwrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper\pconvert.h">
+      <Filter>helper\pwrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper\pythonInclude.h">
+      <Filter>helper\pwrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\pwrapper\registry.h">
+      <Filter>helper\pwrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\integrator.h">
+      <Filter>helper\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\interpol.h">
+      <Filter>helper\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\interpolHigh.h">
+      <Filter>helper\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\matrixbase.h">
+      <Filter>helper\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\mcubes.h">
+      <Filter>helper\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\quaternion.h">
+      <Filter>helper\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\randomstream.h">
+      <Filter>helper\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\rcmatrix.h">
+      <Filter>helper\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\simpleimage.h">
+      <Filter>helper\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\solvana.h">
+      <Filter>helper\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\vector4d.h">
+      <Filter>helper\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\mantaflow\helper\util\vectorbase.h">
+      <Filter>helper\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\extern\mantaflow\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\blender-git\goo-engine\extern\mantaflow\preprocessed\python\defines.py">
+      <Filter>preprocessed\python</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="helper">
+      <UniqueIdentifier>{C710ECC8-AAD3-3B36-BC7C-27E099E76F0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper\pwrapper">
+      <UniqueIdentifier>{00075432-EE59-37E4-A465-F149256BF4C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper\util">
+      <UniqueIdentifier>{863BBCCC-D041-30B6-A52E-8D3DCEA0FE6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="preprocessed">
+      <UniqueIdentifier>{377B8D68-8DCA-3B32-A3EB-D3A5D3036779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="preprocessed\fileio">
+      <UniqueIdentifier>{E3B26F77-1262-3975-B9DD-2C330ADFA15A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="preprocessed\plugin">
+      <UniqueIdentifier>{94AAFE15-B6F5-3ED2-B90B-AEBA8C080AD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="preprocessed\python">
+      <UniqueIdentifier>{F50E444D-98B1-384E-B43D-CF5B8CB73AF7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

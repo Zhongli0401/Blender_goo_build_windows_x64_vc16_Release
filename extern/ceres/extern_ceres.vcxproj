@@ -1,0 +1,652 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AC7D9D07-E94B-34ED-8FA1-C4B77C774E88}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>extern_ceres</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">extern_ceres.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">extern_ceres</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">extern_ceres.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">extern_ceres</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">extern_ceres.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">extern_ceres</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">extern_ceres.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">extern_ceres</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\ceres;C:\blender-git\goo-engine\extern\ceres\include;C:\blender-git\goo-engine\extern\ceres\internal;C:\blender-git\goo-engine\extern\ceres\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/goo-engine/extern/Eigen3" /external:I "C:/blender-git/goo-engine/extern/gflags/src" /external:I "C:/blender-git/goo-engine/extern/glog/src/windows" /w34062 /w34115 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;DEBUG;_DEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;GFLAGS_DLL_DEFINE_FLAG=;GFLAGS_DLL_DECLARE_FLAG=;GFLAGS_DLL_DECL=;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;DEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;GFLAGS_DLL_DEFINE_FLAG=;GFLAGS_DLL_DECLARE_FLAG=;GFLAGS_DLL_DECL=;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\ceres;C:\blender-git\goo-engine\extern\ceres\include;C:\blender-git\goo-engine\extern\ceres\internal;C:\blender-git\goo-engine\extern\ceres\config;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\goo-engine\extern\Eigen3;C:\blender-git\goo-engine\extern\gflags\src;C:\blender-git\goo-engine\extern\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\ceres;C:\blender-git\goo-engine\extern\ceres\include;C:\blender-git\goo-engine\extern\ceres\internal;C:\blender-git\goo-engine\extern\ceres\config;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\goo-engine\extern\Eigen3;C:\blender-git\goo-engine\extern\gflags\src;C:\blender-git\goo-engine\extern\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\ceres;C:\blender-git\goo-engine\extern\ceres\include;C:\blender-git\goo-engine\extern\ceres\internal;C:\blender-git\goo-engine\extern\ceres\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/goo-engine/extern/Eigen3" /external:I "C:/blender-git/goo-engine/extern/gflags/src" /external:I "C:/blender-git/goo-engine/extern/glog/src/windows" /w34062 /w34115 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;GFLAGS_DLL_DEFINE_FLAG=;GFLAGS_DLL_DECLARE_FLAG=;GFLAGS_DLL_DECL=;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;GFLAGS_DLL_DEFINE_FLAG=;GFLAGS_DLL_DECLARE_FLAG=;GFLAGS_DLL_DECL=;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\ceres;C:\blender-git\goo-engine\extern\ceres\include;C:\blender-git\goo-engine\extern\ceres\internal;C:\blender-git\goo-engine\extern\ceres\config;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\goo-engine\extern\Eigen3;C:\blender-git\goo-engine\extern\gflags\src;C:\blender-git\goo-engine\extern\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\ceres;C:\blender-git\goo-engine\extern\ceres\include;C:\blender-git\goo-engine\extern\ceres\internal;C:\blender-git\goo-engine\extern\ceres\config;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\goo-engine\extern\Eigen3;C:\blender-git\goo-engine\extern\gflags\src;C:\blender-git\goo-engine\extern\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\ceres;C:\blender-git\goo-engine\extern\ceres\include;C:\blender-git\goo-engine\extern\ceres\internal;C:\blender-git\goo-engine\extern\ceres\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/goo-engine/extern/Eigen3" /external:I "C:/blender-git/goo-engine/extern/gflags/src" /external:I "C:/blender-git/goo-engine/extern/glog/src/windows" /w34062 /w34115 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;GFLAGS_DLL_DEFINE_FLAG=;GFLAGS_DLL_DECLARE_FLAG=;GFLAGS_DLL_DECL=;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;GFLAGS_DLL_DEFINE_FLAG=;GFLAGS_DLL_DECLARE_FLAG=;GFLAGS_DLL_DECL=;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\ceres;C:\blender-git\goo-engine\extern\ceres\include;C:\blender-git\goo-engine\extern\ceres\internal;C:\blender-git\goo-engine\extern\ceres\config;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\goo-engine\extern\Eigen3;C:\blender-git\goo-engine\extern\gflags\src;C:\blender-git\goo-engine\extern\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\ceres;C:\blender-git\goo-engine\extern\ceres\include;C:\blender-git\goo-engine\extern\ceres\internal;C:\blender-git\goo-engine\extern\ceres\config;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\goo-engine\extern\Eigen3;C:\blender-git\goo-engine\extern\gflags\src;C:\blender-git\goo-engine\extern\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\ceres;C:\blender-git\goo-engine\extern\ceres\include;C:\blender-git\goo-engine\extern\ceres\internal;C:\blender-git\goo-engine\extern\ceres\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/goo-engine/extern/Eigen3" /external:I "C:/blender-git/goo-engine/extern/gflags/src" /external:I "C:/blender-git/goo-engine/extern/glog/src/windows" /w34062 /w34115 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;GFLAGS_DLL_DEFINE_FLAG=;GFLAGS_DLL_DECLARE_FLAG=;GFLAGS_DLL_DECL=;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;GFLAGS_DLL_DEFINE_FLAG=;GFLAGS_DLL_DECLARE_FLAG=;GFLAGS_DLL_DECL=;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\ceres;C:\blender-git\goo-engine\extern\ceres\include;C:\blender-git\goo-engine\extern\ceres\internal;C:\blender-git\goo-engine\extern\ceres\config;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\goo-engine\extern\Eigen3;C:\blender-git\goo-engine\extern\gflags\src;C:\blender-git\goo-engine\extern\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\ceres;C:\blender-git\goo-engine\extern\ceres\include;C:\blender-git\goo-engine\extern\ceres\internal;C:\blender-git\goo-engine\extern\ceres\config;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\goo-engine\extern\Eigen3;C:\blender-git\goo-engine\extern\gflags\src;C:\blender-git\goo-engine\extern\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\extern\ceres\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/blender-git/goo-engine/extern/ceres/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/extern/ceres/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\extern\ceres\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/blender-git/goo-engine/extern/ceres/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/extern/ceres/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\extern\ceres\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/blender-git/goo-engine/extern/ceres/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/extern/ceres/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\extern\ceres\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/blender-git/goo-engine/extern/ceres/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/extern/ceres/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\extern\ceres\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\autodiff_cost_function.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\autodiff_first_order_function.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\autodiff_local_parameterization.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\autodiff_manifold.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\c_api.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\ceres.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\conditioned_cost_function.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\context.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\cost_function.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\cost_function_to_functor.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\covariance.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\crs_matrix.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\cubic_interpolation.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\dynamic_autodiff_cost_function.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\dynamic_cost_function.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\dynamic_cost_function_to_functor.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\dynamic_numeric_diff_cost_function.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\evaluation_callback.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\first_order_function.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\gradient_checker.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\gradient_problem.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\gradient_problem_solver.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\iteration_callback.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\jet.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\jet_fwd.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\line_manifold.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\local_parameterization.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\loss_function.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\manifold.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\manifold_test_utils.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\normal_prior.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\numeric_diff_cost_function.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\numeric_diff_first_order_function.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\numeric_diff_options.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\ordered_groups.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\problem.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\product_manifold.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\rotation.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\sized_cost_function.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\solver.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\sphere_manifold.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\tiny_solver.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\tiny_solver_autodiff_function.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\tiny_solver_cost_function_adapter.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\version.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\internal\array_selector.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\internal\autodiff.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\internal\disable_warnings.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\internal\eigen.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\internal\fixed_array.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\internal\householder_vector.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\internal\integer_sequence_algorithm.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\internal\jet_traits.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\internal\line_parameterization.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\internal\memory.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\internal\numeric_diff.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\internal\parameter_dims.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\internal\port.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\internal\reenable_warnings.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\internal\sphere_manifold_functions.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\include\ceres\internal\variadic_evaluate.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\accelerate_sparse.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\accelerate_sparse.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\array_utils.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\array_utils.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\block_evaluate_preparer.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\block_evaluate_preparer.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\block_jacobi_preconditioner.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\block_jacobi_preconditioner.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\block_jacobian_writer.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\block_jacobian_writer.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\block_random_access_dense_matrix.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\block_random_access_dense_matrix.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\block_random_access_diagonal_matrix.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\block_random_access_diagonal_matrix.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\block_random_access_matrix.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\block_random_access_matrix.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\block_random_access_sparse_matrix.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\block_random_access_sparse_matrix.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\block_sparse_matrix.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\block_sparse_matrix.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\block_structure.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\block_structure.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\c_api.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\callbacks.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\callbacks.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\canonical_views_clustering.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\canonical_views_clustering.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\casts.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\cgnr_linear_operator.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\cgnr_solver.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\cgnr_solver.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\compressed_col_sparse_matrix_utils.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\compressed_col_sparse_matrix_utils.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\compressed_row_jacobian_writer.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\compressed_row_jacobian_writer.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\compressed_row_sparse_matrix.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\compressed_row_sparse_matrix.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\concurrent_queue.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\conditioned_cost_function.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\conjugate_gradients_solver.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\conjugate_gradients_solver.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\context.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\context_impl.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\context_impl.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\coordinate_descent_minimizer.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\coordinate_descent_minimizer.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\corrector.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\corrector.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\cost_function.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\covariance.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\covariance_impl.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\covariance_impl.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\cuda_buffer.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\cxsparse.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\cxsparse.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dense_cholesky.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dense_cholesky.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dense_jacobian_writer.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dense_normal_cholesky_solver.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dense_normal_cholesky_solver.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dense_qr.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dense_qr.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dense_qr_solver.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dense_qr_solver.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dense_sparse_matrix.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dense_sparse_matrix.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\detect_structure.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\detect_structure.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dogleg_strategy.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dogleg_strategy.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dynamic_compressed_row_finalizer.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dynamic_compressed_row_jacobian_writer.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dynamic_compressed_row_jacobian_writer.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dynamic_compressed_row_sparse_matrix.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dynamic_compressed_row_sparse_matrix.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dynamic_sparse_normal_cholesky_solver.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\dynamic_sparse_normal_cholesky_solver.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\eigensparse.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\eigensparse.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\evaluation_callback.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\evaluator.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\evaluator.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\execution_summary.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\file.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\file.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\first_order_function.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\float_cxsparse.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\float_cxsparse.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\float_suitesparse.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\float_suitesparse.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\function_sample.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\function_sample.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\gradient_checker.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\gradient_checking_cost_function.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\gradient_checking_cost_function.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\gradient_problem.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\gradient_problem_evaluator.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\gradient_problem_solver.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\graph.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\graph_algorithms.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\implicit_schur_complement.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\implicit_schur_complement.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\inner_product_computer.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\inner_product_computer.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\invert_psd_matrix.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\is_close.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\is_close.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\iteration_callback.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\iterative_refiner.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\iterative_refiner.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\iterative_schur_complement_solver.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\iterative_schur_complement_solver.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\levenberg_marquardt_strategy.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\levenberg_marquardt_strategy.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\line_search.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\line_search.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\line_search_direction.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\line_search_direction.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\line_search_minimizer.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\line_search_minimizer.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\line_search_preprocessor.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\line_search_preprocessor.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\linear_least_squares_problems.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\linear_least_squares_problems.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\linear_operator.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\linear_operator.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\linear_solver.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\linear_solver.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\local_parameterization.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\loss_function.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\low_rank_inverse_hessian.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\low_rank_inverse_hessian.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\manifold.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\manifold_adapter.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\map_util.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\minimizer.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\minimizer.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\normal_prior.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\pair_hash.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\parallel_for.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\parallel_for_cxx.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\parallel_for_nothreads.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\parallel_for_openmp.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\parallel_utils.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\parallel_utils.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\parameter_block.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\parameter_block_ordering.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\parameter_block_ordering.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\partitioned_matrix_view.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\partitioned_matrix_view.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\partitioned_matrix_view_impl.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\polynomial.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\polynomial.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\preconditioner.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\preconditioner.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\preprocessor.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\preprocessor.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\problem.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\problem_impl.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\problem_impl.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\program.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\program.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\program_evaluator.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\random.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\reorder_program.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\reorder_program.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\residual_block.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\residual_block.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\residual_block_utils.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\residual_block_utils.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\schur_complement_solver.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\schur_complement_solver.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\schur_eliminator.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\schur_eliminator.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\schur_eliminator_impl.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\schur_jacobi_preconditioner.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\schur_jacobi_preconditioner.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\schur_templates.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\schur_templates.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\scoped_thread_token.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\scratch_evaluate_preparer.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\scratch_evaluate_preparer.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\single_linkage_clustering.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\single_linkage_clustering.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\small_blas.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\small_blas_generic.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\solver.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\solver_utils.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\solver_utils.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\sparse_cholesky.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\sparse_cholesky.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\sparse_matrix.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\sparse_matrix.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\sparse_normal_cholesky_solver.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\sparse_normal_cholesky_solver.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\stl_util.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\stringprintf.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\stringprintf.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\subset_preconditioner.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\subset_preconditioner.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\suitesparse.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\suitesparse.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\thread_pool.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\thread_pool.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\thread_token_provider.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\thread_token_provider.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\triplet_sparse_matrix.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\triplet_sparse_matrix.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\trust_region_minimizer.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\trust_region_minimizer.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\trust_region_preprocessor.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\trust_region_preprocessor.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\trust_region_step_evaluator.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\trust_region_step_evaluator.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\trust_region_strategy.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\trust_region_strategy.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\types.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\visibility.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\visibility.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\visibility_based_preconditioner.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\visibility_based_preconditioner.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\wall_time.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\wall_time.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_d_d_d.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_d_d_d.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_2_2_2.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_2_2_3.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_2_2_4.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_2_2_d.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_2_3_3.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_2_3_4.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_2_3_6.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_2_3_9.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_2_3_d.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_2_4_3.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_2_4_4.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_2_4_6.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_2_4_8.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_2_4_9.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_2_4_d.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_2_d_d.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_3_3_3.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_4_4_2.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_4_4_3.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_4_4_4.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\partitioned_matrix_view_4_4_d.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_2_2_2.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_2_2_3.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_2_2_4.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_2_2_d.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_2_3_3.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_2_3_4.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_2_3_6.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_2_3_9.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_2_3_d.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_2_4_3.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_2_4_4.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_2_4_6.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_2_4_8.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_2_4_9.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_2_4_d.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_2_d_d.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_3_3_3.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_4_4_2.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_4_4_3.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_4_4_4.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\ceres\internal\ceres\generated\schur_eliminator_4_4_d.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\ZERO_CHECK.vcxproj">
+      <Project>{0B18E108-1544-3A9C-9810-3B45BB3BAEA5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

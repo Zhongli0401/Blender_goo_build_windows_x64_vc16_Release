@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\ab.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\ar.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\ca.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\cs.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\de.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\eo.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\es.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\es_ES.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\eu.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\fa.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\fi.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\fr.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\ha.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\he.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\hi.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\hr.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\hu.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\id.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\it.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\ja.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\ka.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\ko.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\ky.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\nl.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\pl.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\pt.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\pt_BR.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\ru.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\sk.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\sr.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\sr@latin.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\sv.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\th.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\tr.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\uk.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\vi.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\zh_CN.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b835c38b6dc34cf5379a2b2928af7523\zh_TW.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\ea443ab04b1978ce883c54b52044560b\locales.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\creator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\blender-git\build_windows_x64_vc16_Release\source\creator\CMakeFiles\locales" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{93D321BE-D925-34CD-9F6A-689691A7BFE0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

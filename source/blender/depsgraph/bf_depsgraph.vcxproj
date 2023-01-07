@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76C5797E-74B8-3051-915C-D06C89A927C3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>bf_depsgraph</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bf_depsgraph.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bf_depsgraph</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bf_depsgraph.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bf_depsgraph</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">bf_depsgraph.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">bf_depsgraph</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">bf_depsgraph.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">bf_depsgraph</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\functions;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\modifiers;C:\blender-git\goo-engine\source\blender\sequencer;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\python;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w34189 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;DEBUG;_DEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_PYTHON;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;DEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_PYTHON;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\functions;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\modifiers;C:\blender-git\goo-engine\source\blender\sequencer;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\functions;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\modifiers;C:\blender-git\goo-engine\source\blender\sequencer;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\functions;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\modifiers;C:\blender-git\goo-engine\source\blender\sequencer;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\python;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w34189 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_PYTHON;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_PYTHON;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\functions;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\modifiers;C:\blender-git\goo-engine\source\blender\sequencer;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\functions;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\modifiers;C:\blender-git\goo-engine\source\blender\sequencer;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\functions;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\modifiers;C:\blender-git\goo-engine\source\blender\sequencer;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\python;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w34189 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_PYTHON;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_PYTHON;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\functions;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\modifiers;C:\blender-git\goo-engine\source\blender\sequencer;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\functions;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\modifiers;C:\blender-git\goo-engine\source\blender\sequencer;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\functions;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\modifiers;C:\blender-git\goo-engine\source\blender\sequencer;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\python;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w34189 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_PYTHON;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_PYTHON;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\functions;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\modifiers;C:\blender-git\goo-engine\source\blender\sequencer;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\depsgraph;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\functions;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\modifiers;C:\blender-git\goo-engine\source\blender\sequencer;C:\blender-git\goo-engine\source\blender\windowmanager;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\python;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\blender\depsgraph\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/blender-git/goo-engine/source/blender/depsgraph/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/blender/depsgraph/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\blender\depsgraph\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/blender-git/goo-engine/source/blender/depsgraph/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/blender/depsgraph/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\blender\depsgraph\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/blender-git/goo-engine/source/blender/depsgraph/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/blender/depsgraph/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\blender\depsgraph\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/blender-git/goo-engine/source/blender/depsgraph/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/blender/depsgraph/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\blender\depsgraph\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_cache.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_cycle.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_map.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_nodes.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_nodes_rig.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_nodes_scene.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_nodes_view_layer.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_pchanmap.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_relations.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_relations_drivers.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_relations_keys.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_relations_rig.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_relations_scene.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_relations_view_layer.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_remove_noop.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_rna.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_stack.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_transitive.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_all_objects.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_compositor.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_from_ids.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_render.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_view_layer.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\debug\deg_debug.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\debug\deg_debug_relations_graphviz.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\debug\deg_debug_stats_gnuplot.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_copy_on_write.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_flush.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_animation.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_gpencil.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_modifier.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_movieclip.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_object.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_pose.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_scene.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_sequence.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_sequencer.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_sound.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_volume.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_stats.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_visibility.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_visibility.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_component.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_factory.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_id.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_operation.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_time.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_build.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_debug.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_eval.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_physics.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_query.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_query_foreach.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_query_iter.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_registry.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_relation.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_tag.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_type.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_update.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\DEG_depsgraph.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\DEG_depsgraph_build.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\DEG_depsgraph_debug.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\DEG_depsgraph_physics.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\DEG_depsgraph_query.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_cache.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_cycle.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_map.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_nodes.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_pchanmap.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_relations.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_relations_drivers.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_relations_impl.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_remove_noop.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_rna.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_stack.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\deg_builder_transitive.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_all_objects.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_compositor.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_from_ids.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_render.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\builder\pipeline_view_layer.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\debug\deg_debug.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\debug\deg_time_average.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_copy_on_write.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_flush.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_animation.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_gpencil.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_modifier.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_movieclip.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_object.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_pose.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_scene.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_sequence.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_sequencer.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_sound.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_runtime_backup_volume.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\eval\deg_eval_stats.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_component.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_factory.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_factory_impl.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_id.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_operation.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\node\deg_node_time.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_physics.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_registry.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_relation.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_tag.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_type.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\depsgraph\intern\depsgraph_update.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\ZERO_CHECK.vcxproj">
+      <Project>{0B18E108-1544-3A9C-9810-3B45BB3BAEA5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesrna\intern\bf_rna.vcxproj">
+      <Project>{8E378990-EEA1-3E2D-82F1-844DD892F6E3}</Project>
+      <Name>bf_rna</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

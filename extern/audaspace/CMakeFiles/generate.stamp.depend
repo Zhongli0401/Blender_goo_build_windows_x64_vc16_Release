@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeDependentOption.cmake
+C:/blender-git/goo-engine/extern/audaspace/CMakeLists.txt
+C:/blender-git/goo-engine/extern/audaspace/blender_config.cmake
+C:/blender-git/goo-engine/extern/audaspace/config/Audaspace.h.in
+C:/blender-git/goo-engine/extern/audaspace/src/plugin/PluginManagerWindows.cpp.in

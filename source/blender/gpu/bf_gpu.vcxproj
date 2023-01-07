@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{166ABBDE-CF44-3C3D-9F77-192B7C7C806F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>bf_gpu</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bf_gpu.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bf_gpu</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bf_gpu.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bf_gpu</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">bf_gpu.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">bf_gpu</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">bf_gpu.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">bf_gpu</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\gpu\intern;C:\blender-git\goo-engine\source\blender\gpu\metal;C:\blender-git\goo-engine\source\blender\gpu\opengl;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next;C:\blender-git\goo-engine\source\blender\nodes;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\ghost;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/goo-engine/extern/glew/include" /w34062 /w34115 /w34189 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;DEBUG;_DEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FLUID;WITH_GL_PROFILE_CORE;GLEW_STATIC;GLEW_NO_ES;GLEW_NO_GLU;WITH_DDS;WITH_OCIO;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;DEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FLUID;WITH_GL_PROFILE_CORE;GLEW_STATIC;GLEW_NO_ES;GLEW_NO_GLU;WITH_DDS;WITH_OCIO;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\gpu\intern;C:\blender-git\goo-engine\source\blender\gpu\metal;C:\blender-git\goo-engine\source\blender\gpu\opengl;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next;C:\blender-git\goo-engine\source\blender\nodes;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\ghost;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\goo-engine\extern\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\gpu\intern;C:\blender-git\goo-engine\source\blender\gpu\metal;C:\blender-git\goo-engine\source\blender\gpu\opengl;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next;C:\blender-git\goo-engine\source\blender\nodes;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\ghost;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\goo-engine\extern\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\gpu\intern;C:\blender-git\goo-engine\source\blender\gpu\metal;C:\blender-git\goo-engine\source\blender\gpu\opengl;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next;C:\blender-git\goo-engine\source\blender\nodes;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\ghost;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/goo-engine/extern/glew/include" /w34062 /w34115 /w34189 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FLUID;WITH_GL_PROFILE_CORE;GLEW_STATIC;GLEW_NO_ES;GLEW_NO_GLU;WITH_DDS;WITH_OCIO;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FLUID;WITH_GL_PROFILE_CORE;GLEW_STATIC;GLEW_NO_ES;GLEW_NO_GLU;WITH_DDS;WITH_OCIO;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\gpu\intern;C:\blender-git\goo-engine\source\blender\gpu\metal;C:\blender-git\goo-engine\source\blender\gpu\opengl;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next;C:\blender-git\goo-engine\source\blender\nodes;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\ghost;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\goo-engine\extern\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\gpu\intern;C:\blender-git\goo-engine\source\blender\gpu\metal;C:\blender-git\goo-engine\source\blender\gpu\opengl;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next;C:\blender-git\goo-engine\source\blender\nodes;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\ghost;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\goo-engine\extern\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\gpu\intern;C:\blender-git\goo-engine\source\blender\gpu\metal;C:\blender-git\goo-engine\source\blender\gpu\opengl;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next;C:\blender-git\goo-engine\source\blender\nodes;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\ghost;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/goo-engine/extern/glew/include" /w34062 /w34115 /w34189 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FLUID;WITH_GL_PROFILE_CORE;GLEW_STATIC;GLEW_NO_ES;GLEW_NO_GLU;WITH_DDS;WITH_OCIO;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FLUID;WITH_GL_PROFILE_CORE;GLEW_STATIC;GLEW_NO_ES;GLEW_NO_GLU;WITH_DDS;WITH_OCIO;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\gpu\intern;C:\blender-git\goo-engine\source\blender\gpu\metal;C:\blender-git\goo-engine\source\blender\gpu\opengl;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next;C:\blender-git\goo-engine\source\blender\nodes;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\ghost;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\goo-engine\extern\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\gpu\intern;C:\blender-git\goo-engine\source\blender\gpu\metal;C:\blender-git\goo-engine\source\blender\gpu\opengl;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next;C:\blender-git\goo-engine\source\blender\nodes;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\ghost;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\goo-engine\extern\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\gpu\intern;C:\blender-git\goo-engine\source\blender\gpu\metal;C:\blender-git\goo-engine\source\blender\gpu\opengl;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next;C:\blender-git\goo-engine\source\blender\nodes;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\ghost;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /external:I "C:/blender-git/goo-engine/extern/glew/include" /w34062 /w34115 /w34189 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FLUID;WITH_GL_PROFILE_CORE;GLEW_STATIC;GLEW_NO_ES;GLEW_NO_GLU;WITH_DDS;WITH_OCIO;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FLUID;WITH_GL_PROFILE_CORE;GLEW_STATIC;GLEW_NO_ES;GLEW_NO_GLU;WITH_DDS;WITH_OCIO;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\gpu\intern;C:\blender-git\goo-engine\source\blender\gpu\metal;C:\blender-git\goo-engine\source\blender\gpu\opengl;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next;C:\blender-git\goo-engine\source\blender\nodes;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\ghost;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\goo-engine\extern\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\source\blender\gpu;C:\blender-git\goo-engine\source\blender\gpu\intern;C:\blender-git\goo-engine\source\blender\gpu\metal;C:\blender-git\goo-engine\source\blender\gpu\opengl;C:\blender-git\goo-engine\source\blender\blenkernel;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\bmesh;C:\blender-git\goo-engine\source\blender\draw;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\goo-engine\source\blender\makesrna;C:\blender-git\goo-engine\source\blender\editors\include;C:\blender-git\goo-engine\source\blender\draw\engines\eevee_next;C:\blender-git\goo-engine\source\blender\nodes;C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\clog;C:\blender-git\goo-engine\intern\ghost;C:\blender-git\goo-engine\intern\glew-mx;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\intern\mantaflow\extern;C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu;C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw;C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio;C:\blender-git\lib\win64_vc15\pthreads\include;C:\blender-git\goo-engine\extern\glew\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\blender\gpu\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/blender-git/goo-engine/source/blender/gpu/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/blender-git/goo-engine/source/blender/gpu/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/blender-git/goo-engine/source/blender/gpu/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/blender-git/goo-engine/source/blender/gpu/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/blender/gpu/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_batch.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_batch_presets.c" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_batch_utils.c" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_buffers.c" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_capabilities.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_codegen.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_compute.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_context.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_debug.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_drawlist.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_framebuffer.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_immediate.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_immediate_util.c" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_index_buffer.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_init_exit.c" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_material.c" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_matrix.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_node_graph.c" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_platform.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_query.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_select.c" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_select_pick.c" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_select_sample_query.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_shader.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_shader_builtin.c" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_shader_create_info.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_shader_dependency.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_shader_interface.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_shader_log.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_state.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_storage_buffer.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_texture.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_uniform_buffer.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_vertex_buffer.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_vertex_format.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_viewport.c" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_batch.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_batch_presets.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_batch_utils.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_buffers.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_capabilities.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_common.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_common_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_compute.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_context.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_debug.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_drawlist.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_framebuffer.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_glew.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_immediate.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_immediate_util.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_index_buffer.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_init_exit.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_legacy_stubs.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_material.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_matrix.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_platform.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_primitive.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_select.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_shader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_shader_shared.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_state.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_storage_buffer.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_texture.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_uniform_buffer.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_vertex_buffer.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_vertex_format.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_viewport.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_backend.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_batch_private.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_capabilities_private.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_codegen.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_context_private.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_debug_private.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_drawlist_private.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_framebuffer_private.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_immediate_private.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_index_buffer_private.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_material_library.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_matrix_private.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_node_graph.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_platform_private.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_private.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_query.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_select_private.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_shader_create_info.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_shader_create_info_private.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_shader_dependency_private.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_shader_interface.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_shader_private.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_state_private.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_storage_buffer_private.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_texture_private.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_uniform_buffer_private.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_vertex_buffer_private.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\intern\gpu_vertex_format_private.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_backend.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_batch.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_compute.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_context.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_debug.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_debug_layer.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_drawlist.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_framebuffer.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_immediate.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_index_buffer.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_query.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_shader.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_shader_interface.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_shader_log.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_state.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_storage_buffer.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_texture.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_uniform_buffer.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_vertex_array.cc" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_vertex_buffer.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_backend.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_batch.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_compute.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_context.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_debug.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_drawlist.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_framebuffer.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_immediate.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_index_buffer.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_primitive.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_query.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_shader.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_shader_interface.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_state.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_storage_buffer.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_texture.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_uniform_buffer.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_vertex_array.hh" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\opengl\gl_vertex_buffer.hh" />
+    <ClInclude Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\glsl_gpu_source_list.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\ZERO_CHECK.vcxproj">
+      <Project>{0B18E108-1544-3A9C-9810-3B45BB3BAEA5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw\bf_draw_shaders.vcxproj">
+      <Project>{DEEF2354-DA9F-3B31-B408-9A99E5C4BCA7}</Project>
+      <Name>bf_draw_shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\bf_gpu_shaders.vcxproj">
+      <Project>{75D22550-2488-3B41-91B9-1517CA827020}</Project>
+      <Name>bf_gpu_shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio\bf_ocio_shaders.vcxproj">
+      <Project>{1C355F05-F441-3F97-9A85-409D8E6D4E71}</Project>
+      <Name>bf_ocio_shaders</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

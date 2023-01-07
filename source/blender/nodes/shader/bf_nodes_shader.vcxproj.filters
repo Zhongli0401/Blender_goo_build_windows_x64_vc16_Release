@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\shader\CMakeFiles\bf_nodes_shader.dir\Unity\unity_10_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\shader\CMakeFiles\bf_nodes_shader.dir\Unity\unity_9_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\shader\CMakeFiles\bf_nodes_shader.dir\Unity\unity_8_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\shader\CMakeFiles\bf_nodes_shader.dir\Unity\unity_7_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\shader\CMakeFiles\bf_nodes_shader.dir\Unity\unity_6_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\shader\CMakeFiles\bf_nodes_shader.dir\Unity\unity_5_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\shader\CMakeFiles\bf_nodes_shader.dir\Unity\unity_4_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\shader\CMakeFiles\bf_nodes_shader.dir\Unity\unity_3_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\shader\CMakeFiles\bf_nodes_shader.dir\Unity\unity_2_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\shader\CMakeFiles\bf_nodes_shader.dir\Unity\unity_1_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\shader\CMakeFiles\bf_nodes_shader.dir\Unity\unity_0_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_add_shader.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_ambient_occlusion.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_attribute.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_background.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_bevel.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_blackbody.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_brightness.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_bsdf_anisotropic.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_bsdf_diffuse.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_bsdf_glass.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_bsdf_glossy.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_bsdf_hair.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_bsdf_hair_principled.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_bsdf_principled.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_bsdf_refraction.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_bsdf_toon.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_bsdf_translucent.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_bsdf_transparent.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_bsdf_velvet.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_bump.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_camera.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_clamp.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_color_ramp.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_common.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_curves.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_displacement.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_eevee_specular.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_emission.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_fresnel.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_gamma.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_geometry.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_hair_info.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_holdout.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_hueSatVal.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_ies_light.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_invert.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_layer_weight.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_light_falloff.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_light_path.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_map_range.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_mapping.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_math.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_mix_rgb.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_mix_shader.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_normal.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_normal_map.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_object_info.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_output_aov.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_output_light.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_output_linestyle.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_output_material.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_output_world.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_particle_info.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_point_info.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_rgb.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_rgb_to_bw.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_script.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_sepcomb_color.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_sepcomb_hsv.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_sepcomb_rgb.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_sepcomb_xyz.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_shader_to_rgb.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_squeeze.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_subsurface_scattering.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_tangent.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_tex_brick.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_tex_checker.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_tex_coord.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_tex_environment.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_tex_gradient.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_tex_image.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_tex_magic.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_tex_musgrave.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_tex_noise.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_tex_pointdensity.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_tex_sky.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_tex_voronoi.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_tex_wave.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_tex_white_noise.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_uv_along_stroke.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_uvmap.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_value.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_vector_displacement.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_vector_math.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_vector_rotate.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_vector_transform.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_vertex_color.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_volume_absorption.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_volume_info.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_volume_principled.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_volume_scatter.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_wavelength.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_wireframe.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_screenspace_info.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_curvature.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_shader_info.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_set_depth.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_sdf_primitive.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_sdf_op.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_sdf_vector_op.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\nodes\node_shader_sdf_noise.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\node_shader_tree.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\shader\node_shader_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\nodes\shader\node_shader_util.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\blender\nodes\shader\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF785239-3054-3D1C-9CBE-53CD9878A5F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1F461DDB-8F37-3AFA-B6E0-78FA459DB46E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nodes">
+      <UniqueIdentifier>{4C7A092E-D99A-3067-8DF0-77AE3928B35E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

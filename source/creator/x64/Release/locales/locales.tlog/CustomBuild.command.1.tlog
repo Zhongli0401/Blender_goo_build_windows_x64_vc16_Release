@@ -1,0 +1,474 @@
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\AB.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/ab.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/ab.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\AR.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/ar.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/ar.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\CA.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/ca.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/ca.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\CS.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/cs.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/cs.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\DE.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/de.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/de.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\EO.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/eo.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/eo.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\ES.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/es.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/es.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\ES_ES.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/es_ES.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/es_ES.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\EU.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/eu.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/eu.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\FA.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/fa.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/fa.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\FI.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/fi.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/fi.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\FR.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/fr.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/fr.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\HA.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/ha.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/ha.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\HE.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/he.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/he.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\HI.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/hi.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/hi.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\HR.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/hr.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/hr.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\HU.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/hu.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/hu.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\ID.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/id.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/id.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\IT.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/it.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/it.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\JA.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/ja.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/ja.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\KA.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/ka.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/ka.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\KO.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/ko.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/ko.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\KY.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/ky.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/ky.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\NL.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/nl.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/nl.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\PL.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/pl.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/pl.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\PT.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/pt.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/pt.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\PT_BR.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/pt_BR.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/pt_BR.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\RU.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/ru.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/ru.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\SK.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/sk.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/sk.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\SR.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/sr.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/sr.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\SR@LATIN.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/sr@latin.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/sr@latin.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\SV.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/sv.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/sv.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\TH.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/th.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/th.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\TR.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/tr.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/tr.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\UK.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/uk.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/uk.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\VI.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/vi.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/vi.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\ZH_CN.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/zh_CN.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/zh_CN.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\B835C38B6DC34CF5379A2B2928AF7523\ZH_TW.MO.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/creator
+if %errorlevel% neq 0 goto :cmEnd
+..\..\bin\Release\msgfmt.exe C:/blender-git/goo-engine/release/datafiles/locale/po/zh_TW.po C:/blender-git/build_windows_x64_vc16_Release/source/creator/zh_TW.mo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\EA443AB04B1978CE883C54B52044560B\LOCALES.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\GOO-ENGINE\SOURCE\CREATOR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/creator/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\b91fd5d4acb463d25023d58cea227c50\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{93D321BE-D925-34CD-9F6A-689691A7BFE0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

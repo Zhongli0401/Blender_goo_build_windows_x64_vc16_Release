@@ -1,0 +1,1170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btAxisSweep3.cpp">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btBroadphaseProxy.cpp">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.cpp">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btDbvt.cpp">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btDbvtBroadphase.cpp">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btDispatcher.cpp">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btOverlappingPairCache.cpp">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btQuantizedBvh.cpp">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btSimpleBroadphase.cpp">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\SphereTriangleDetector.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btBoxBoxDetector.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btCollisionDispatcher.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btCollisionObject.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btCollisionWorld.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btCollisionWorldImporter.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btCompoundCompoundCollisionAlgorithm.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btGhostObject.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btHashedSimplePairCache.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btInternalEdgeUtility.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btManifoldResult.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btSimulationIslandManager.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btUnionFind.cpp">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btBox2dShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btBoxShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btCapsuleShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btCollisionShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btCompoundShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btConcaveShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btConeShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btConvex2dShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btConvexHullShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btConvexInternalShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btConvexPointCloudShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btConvexPolyhedron.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btConvexShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btCylinderShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btEmptyShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btMiniSDF.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btMinkowskiSumShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btMultiSphereShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btOptimizedBvh.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btPolyhedralConvexShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btSdfCollisionShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btShapeHull.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btSphereShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btStaticPlaneShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btStridingMeshInterface.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btTetrahedronShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btTriangleBuffer.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btTriangleCallback.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btTriangleMesh.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btTriangleMeshShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btUniformScalingShape.cpp">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btContactProcessing.cpp">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btGImpactBvh.cpp">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.cpp">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btGImpactQuantizedBvh.cpp">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btGImpactShape.cpp">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btGenericPoolAllocator.cpp">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btTriangleShapeEx.cpp">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_box_set.cpp">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_contact.cpp">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_memory.cpp">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_tri_collision.cpp">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.cpp">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btConvexCast.cpp">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.cpp">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btGjkEpa2.cpp">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.cpp">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.cpp">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btPolyhedralContactClipping.cpp">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btRaycastCallback.cpp">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.cpp">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.cpp">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Character\btKinematicCharacterController.cpp">
+      <Filter>src\BulletDynamics\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btContactConstraint.cpp">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btFixedConstraint.cpp">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btGearConstraint.cpp">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.cpp">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.cpp">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.cpp">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btHinge2Constraint.cpp">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.cpp">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.cpp">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btSliderConstraint.cpp">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.cpp">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btTypedConstraint.cpp">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btUniversalConstraint.cpp">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp">
+      <Filter>src\BulletDynamics\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Dynamics\btRigidBody.cpp">
+      <Filter>src\BulletDynamics\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Dynamics\btSimpleDynamicsWorld.cpp">
+      <Filter>src\BulletDynamics\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Featherstone\btMultiBody.cpp">
+      <Filter>src\BulletDynamics\Featherstone</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Featherstone\btMultiBodyConstraint.cpp">
+      <Filter>src\BulletDynamics\Featherstone</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.cpp">
+      <Filter>src\BulletDynamics\Featherstone</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp">
+      <Filter>src\BulletDynamics\Featherstone</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.cpp">
+      <Filter>src\BulletDynamics\Featherstone</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Featherstone\btMultiBodyJointMotor.cpp">
+      <Filter>src\BulletDynamics\Featherstone</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Featherstone\btMultiBodyPoint2Point.cpp">
+      <Filter>src\BulletDynamics\Featherstone</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\MLCPSolvers\btDantzigLCP.cpp">
+      <Filter>src\BulletDynamics\MLCPSolvers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.cpp">
+      <Filter>src\BulletDynamics\MLCPSolvers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\MLCPSolvers\btMLCPSolver.cpp">
+      <Filter>src\BulletDynamics\MLCPSolvers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Vehicle\btRaycastVehicle.cpp">
+      <Filter>src\BulletDynamics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Vehicle\btWheelInfo.cpp">
+      <Filter>src\BulletDynamics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btDefaultSoftBodySolver.cpp">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSoftBody.cpp">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.cpp">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSoftBodyHelpers.cpp">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.cpp">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSoftRigidCollisionAlgorithm.cpp">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSoftRigidDynamicsWorld.cpp">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSoftSoftCollisionAlgorithm.cpp">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btAlignedAllocator.cpp">
+      <Filter>src\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btConvexHull.cpp">
+      <Filter>src\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btConvexHullComputer.cpp">
+      <Filter>src\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btGeometryUtil.cpp">
+      <Filter>src\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btPolarDecomposition.cpp">
+      <Filter>src\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btQuickprof.cpp">
+      <Filter>src\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btSerializer.cpp">
+      <Filter>src\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btSerializer64.cpp">
+      <Filter>src\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btVector3.cpp">
+      <Filter>src\LinearMath</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btAxisSweep3.h">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btBroadphaseInterface.h">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btBroadphaseProxy.h">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.h">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btDbvt.h">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btDbvtBroadphase.h">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btDispatcher.h">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btOverlappingPairCache.h">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btOverlappingPairCallback.h">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btQuantizedBvh.h">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\BroadphaseCollision\btSimpleBroadphase.h">
+      <Filter>src\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\SphereTriangleDetector.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btBoxBoxDetector.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btCollisionConfiguration.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btCollisionCreateFunc.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btCollisionDispatcher.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btCollisionObject.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btCollisionObjectWrapper.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btCollisionWorld.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btCollisionWorldImporter.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btCompoundCompoundCollisionAlgorithm.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btGhostObject.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btHashedSimplePairCache.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btInternalEdgeUtility.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btManifoldResult.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btSimulationIslandManager.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionDispatch\btUnionFind.h">
+      <Filter>src\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btBox2dShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btBoxShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btCapsuleShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btCollisionMargin.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btCollisionShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btCompoundShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btConcaveShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btConeShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btConvex2dShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btConvexHullShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btConvexInternalShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btConvexPointCloudShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btConvexPolyhedron.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btConvexShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btCylinderShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btEmptyShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btMaterial.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btMiniSDF.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btMinkowskiSumShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btMultiSphereShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btOptimizedBvh.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btPolyhedralConvexShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btSdfCollisionShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btShapeHull.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btSphereShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btStaticPlaneShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btStridingMeshInterface.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btTetrahedronShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btTriangleBuffer.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btTriangleCallback.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btTriangleInfoMap.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btTriangleMesh.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btTriangleMeshShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btTriangleShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\CollisionShapes\btUniformScalingShape.h">
+      <Filter>src\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btBoxCollision.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btClipPolygon.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btCompoundFromGimpact.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btContactProcessing.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btGImpactBvh.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btGImpactMassUtil.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btGImpactQuantizedBvh.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btGImpactShape.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btGenericPoolAllocator.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btGeometryOperations.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btQuantization.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\btTriangleShapeEx.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_array.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_basic_geometry_operations.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_bitset.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_box_collision.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_box_set.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_clip_polygon.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_contact.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_geom_types.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_geometry.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_hash_table.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_linear_math.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_math.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_memory.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_radixsort.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\Gimpact\gim_tri_collision.h">
+      <Filter>src\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btComputeGjkEpaPenetration.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btConvexCast.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btConvexPenetrationDepthSolver.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btDiscreteCollisionDetectorInterface.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btGjkCollisionDescription.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btGjkEpa2.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btGjkEpa3.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btManifoldPoint.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btMprPenetration.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btPersistentManifold.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btPointCollector.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btPolyhedralContactClipping.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btRaycastCallback.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btSimplexSolverInterface.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.h">
+      <Filter>src\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Character\btCharacterControllerInterface.h">
+      <Filter>src\BulletDynamics\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Character\btKinematicCharacterController.h">
+      <Filter>src\BulletDynamics\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btConstraintSolver.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btContactConstraint.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btContactSolverInfo.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btFixedConstraint.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btGearConstraint.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btHinge2Constraint.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btHingeConstraint.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btJacobianEntry.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btSliderConstraint.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btSolverBody.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btSolverConstraint.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btTypedConstraint.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\ConstraintSolver\btUniversalConstraint.h">
+      <Filter>src\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Dynamics\btActionInterface.h">
+      <Filter>src\BulletDynamics\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.h">
+      <Filter>src\BulletDynamics\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Dynamics\btDynamicsWorld.h">
+      <Filter>src\BulletDynamics\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Dynamics\btRigidBody.h">
+      <Filter>src\BulletDynamics\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Dynamics\btSimpleDynamicsWorld.h">
+      <Filter>src\BulletDynamics\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Featherstone\btMultiBody.h">
+      <Filter>src\BulletDynamics\Featherstone</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Featherstone\btMultiBodyConstraint.h">
+      <Filter>src\BulletDynamics\Featherstone</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.h">
+      <Filter>src\BulletDynamics\Featherstone</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.h">
+      <Filter>src\BulletDynamics\Featherstone</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Featherstone\btMultiBodyJointFeedback.h">
+      <Filter>src\BulletDynamics\Featherstone</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.h">
+      <Filter>src\BulletDynamics\Featherstone</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Featherstone\btMultiBodyJointMotor.h">
+      <Filter>src\BulletDynamics\Featherstone</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Featherstone\btMultiBodyLink.h">
+      <Filter>src\BulletDynamics\Featherstone</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Featherstone\btMultiBodyLinkCollider.h">
+      <Filter>src\BulletDynamics\Featherstone</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Featherstone\btMultiBodyPoint2Point.h">
+      <Filter>src\BulletDynamics\Featherstone</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Featherstone\btMultiBodySolverConstraint.h">
+      <Filter>src\BulletDynamics\Featherstone</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\MLCPSolvers\btDantzigLCP.h">
+      <Filter>src\BulletDynamics\MLCPSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\MLCPSolvers\btDantzigSolver.h">
+      <Filter>src\BulletDynamics\MLCPSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.h">
+      <Filter>src\BulletDynamics\MLCPSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\MLCPSolvers\btLemkeSolver.h">
+      <Filter>src\BulletDynamics\MLCPSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\MLCPSolvers\btMLCPSolver.h">
+      <Filter>src\BulletDynamics\MLCPSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\MLCPSolvers\btMLCPSolverInterface.h">
+      <Filter>src\BulletDynamics\MLCPSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\MLCPSolvers\btPATHSolver.h">
+      <Filter>src\BulletDynamics\MLCPSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\MLCPSolvers\btSolveProjectedGaussSeidel.h">
+      <Filter>src\BulletDynamics\MLCPSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Vehicle\btRaycastVehicle.h">
+      <Filter>src\BulletDynamics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Vehicle\btVehicleRaycaster.h">
+      <Filter>src\BulletDynamics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletDynamics\Vehicle\btWheelInfo.h">
+      <Filter>src\BulletDynamics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btDefaultSoftBodySolver.h">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSoftBody.h">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.h">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSoftBodyData.h">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSoftBodyHelpers.h">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSoftBodyInternals.h">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.h">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSoftBodySolverVertexBuffer.h">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSoftBodySolvers.h">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSoftRigidCollisionAlgorithm.h">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSoftRigidDynamicsWorld.h">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSoftSoftCollisionAlgorithm.h">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\BulletSoftBody\btSparseSDF.h">
+      <Filter>src\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btAabbUtil2.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btAlignedAllocator.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btAlignedObjectArray.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btConvexHull.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btConvexHullComputer.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btCpuFeatureUtility.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btDefaultMotionState.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btGeometryUtil.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btGrahamScan2dConvexHull.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btHashMap.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btIDebugDraw.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btList.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btMatrix3x3.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btMatrixX.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btMinMax.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btMotionState.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btPolarDecomposition.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btPoolAllocator.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btQuadWord.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btQuaternion.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btQuickprof.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btRandom.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btScalar.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btSerializer.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btSpatialAlgebra.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btStackAlloc.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btTransform.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btTransformUtil.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\LinearMath\btVector3.h">
+      <Filter>src\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\btBulletCollisionCommon.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\bullet2\src\btBulletDynamicsCommon.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\extern\bullet2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{99A74A51-D7F5-3E41-8CF7-501A18D81587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BulletCollision">
+      <UniqueIdentifier>{F2AD4387-7203-31B1-9A24-9BEFC2C78F4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BulletCollision\BroadphaseCollision">
+      <UniqueIdentifier>{06C6075F-85C5-3903-8489-D05E10854004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BulletCollision\CollisionDispatch">
+      <UniqueIdentifier>{5C7DC1FF-EAF0-3139-9607-6F00488BB359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BulletCollision\CollisionShapes">
+      <UniqueIdentifier>{ACB2E2C8-55C6-3A35-B900-9B4528EB7487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BulletCollision\Gimpact">
+      <UniqueIdentifier>{6542E79C-A9ED-3277-BD18-D80AF2E8E716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BulletCollision\NarrowPhaseCollision">
+      <UniqueIdentifier>{F173B3B9-613D-3119-B3BE-A0DB0E1515C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BulletDynamics">
+      <UniqueIdentifier>{1CED6B04-7311-3A3D-9634-F77026CB5FA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BulletDynamics\Character">
+      <UniqueIdentifier>{D6340244-C1FC-3E42-9364-EF8666038DDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BulletDynamics\ConstraintSolver">
+      <UniqueIdentifier>{E646C7F6-5C41-3192-AE25-8294C20BD2C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BulletDynamics\Dynamics">
+      <UniqueIdentifier>{8574B666-4F5A-30DE-99C7-309330D7A15A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BulletDynamics\Featherstone">
+      <UniqueIdentifier>{6FB38C14-B41C-329D-8323-AEE6D2C598FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BulletDynamics\MLCPSolvers">
+      <UniqueIdentifier>{04634310-272F-33D9-A62E-35D5502D6AF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BulletDynamics\Vehicle">
+      <UniqueIdentifier>{8FB472F4-75C0-30FB-8543-C661E28ADB69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BulletSoftBody">
+      <UniqueIdentifier>{5ACCA480-677D-353D-B7F2-62069B376FC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\LinearMath">
+      <UniqueIdentifier>{BDF0539F-74E9-35CA-8732-F2342F6ACF54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

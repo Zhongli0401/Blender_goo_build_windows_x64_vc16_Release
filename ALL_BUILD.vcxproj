@@ -1,0 +1,802 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{52ACEA2A-010B-313D-B1BA-74DDD5376244}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/blender-git/goo-engine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.25\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.25\Templates\CPackConfig.cmake.in;C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\3.25.1\CMakeSystem.cmake;C:\blender-git\goo-engine\build_files\cmake\macros.cmake;C:\blender-git\goo-engine\build_files\cmake\packaging.cmake;C:\blender-git\goo-engine\build_files\cmake\platform\platform_old_libs_update.cmake;C:\blender-git\goo-engine\build_files\cmake\platform\platform_win32.cmake;C:\blender-git\goo-engine\build_files\cmake\platform\platform_win32_bundle_crt.cmake;C:\blender-git\goo-engine\release\windows\manifest\Blender.CRT.MANIFEST.in;C:\blender-git\goo-engine\release\windows\manifest\blender.exe.manifest.in;C:\blender-git\goo-engine\source\blender\blenkernel\BKE_blender_version.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/blender-git/goo-engine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.25\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.25\Templates\CPackConfig.cmake.in;C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\3.25.1\CMakeSystem.cmake;C:\blender-git\goo-engine\build_files\cmake\macros.cmake;C:\blender-git\goo-engine\build_files\cmake\packaging.cmake;C:\blender-git\goo-engine\build_files\cmake\platform\platform_old_libs_update.cmake;C:\blender-git\goo-engine\build_files\cmake\platform\platform_win32.cmake;C:\blender-git\goo-engine\build_files\cmake\platform\platform_win32_bundle_crt.cmake;C:\blender-git\goo-engine\release\windows\manifest\Blender.CRT.MANIFEST.in;C:\blender-git\goo-engine\release\windows\manifest\blender.exe.manifest.in;C:\blender-git\goo-engine\source\blender\blenkernel\BKE_blender_version.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/blender-git/goo-engine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.25\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.25\Templates\CPackConfig.cmake.in;C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\3.25.1\CMakeSystem.cmake;C:\blender-git\goo-engine\build_files\cmake\macros.cmake;C:\blender-git\goo-engine\build_files\cmake\packaging.cmake;C:\blender-git\goo-engine\build_files\cmake\platform\platform_old_libs_update.cmake;C:\blender-git\goo-engine\build_files\cmake\platform\platform_win32.cmake;C:\blender-git\goo-engine\build_files\cmake\platform\platform_win32_bundle_crt.cmake;C:\blender-git\goo-engine\release\windows\manifest\Blender.CRT.MANIFEST.in;C:\blender-git\goo-engine\release\windows\manifest\blender.exe.manifest.in;C:\blender-git\goo-engine\source\blender\blenkernel\BKE_blender_version.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/blender-git/goo-engine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.25\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.25\Templates\CPackConfig.cmake.in;C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\3.25.1\CMakeSystem.cmake;C:\blender-git\goo-engine\build_files\cmake\macros.cmake;C:\blender-git\goo-engine\build_files\cmake\packaging.cmake;C:\blender-git\goo-engine\build_files\cmake\platform\platform_old_libs_update.cmake;C:\blender-git\goo-engine\build_files\cmake\platform\platform_win32.cmake;C:\blender-git\goo-engine\build_files\cmake\platform\platform_win32_bundle_crt.cmake;C:\blender-git\goo-engine\release\windows\manifest\Blender.CRT.MANIFEST.in;C:\blender-git\goo-engine\release\windows\manifest\blender.exe.manifest.in;C:\blender-git\goo-engine\source\blender\blenkernel\BKE_blender_version.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\ZERO_CHECK.vcxproj">
+      <Project>{0B18E108-1544-3A9C-9810-3B45BB3BAEA5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\blendthumb\BlendThumb.vcxproj">
+      <Project>{925E6BE7-F8EB-36D2-88FA-793649FF2FC1}</Project>
+      <Name>BlendThumb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace\audaspace.vcxproj">
+      <Project>{794E8DE5-D123-3CEE-B5F7-93087591DD60}</Project>
+      <Name>audaspace</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace\audaspace-py.vcxproj">
+      <Project>{EBAB6E99-20F5-314F-B9D9-3EDBF497BF20}</Project>
+      <Name>audaspace-py</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\io\alembic\bf_alembic.vcxproj">
+      <Project>{C25584A4-6CF0-30BD-9AFF-706F40A53B42}</Project>
+      <Name>bf_alembic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\io\avi\bf_avi.vcxproj">
+      <Project>{D52F63E7-2307-3692-BD0C-F7D786B8420F}</Project>
+      <Name>bf_avi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\blenfont\bf_blenfont.vcxproj">
+      <Project>{EBEC4B2B-DCE4-3E0A-9C82-7539469389F8}</Project>
+      <Name>bf_blenfont</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\blenkernel\bf_blenkernel.vcxproj">
+      <Project>{625F0508-E1CD-36D4-A982-83861D0E32C6}</Project>
+      <Name>bf_blenkernel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\blenlib\bf_blenlib.vcxproj">
+      <Project>{B3290A60-5C74-35BF-B5FE-05EFFAF085F9}</Project>
+      <Name>bf_blenlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\blenloader\bf_blenloader.vcxproj">
+      <Project>{233B8108-B1F0-3C6E-8EF3-37F03F9DF5AD}</Project>
+      <Name>bf_blenloader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\blentranslation\bf_blentranslation.vcxproj">
+      <Project>{8375E158-B97C-3FCC-AACA-2140333AAAE4}</Project>
+      <Name>bf_blentranslation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\bmesh\bf_bmesh.vcxproj">
+      <Project>{27AE23D6-90D1-399A-A612-E62D558F40A3}</Project>
+      <Name>bf_bmesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\io\collada\bf_collada.vcxproj">
+      <Project>{D4108916-007D-39D9-89DB-718316F5878E}</Project>
+      <Name>bf_collada</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\compositor\bf_compositor.vcxproj">
+      <Project>{B110C058-01DD-37DD-A815-3DE9471B3EA3}</Project>
+      <Name>bf_compositor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\depsgraph\bf_depsgraph.vcxproj">
+      <Project>{76C5797E-74B8-3051-915C-D06C89A927C3}</Project>
+      <Name>bf_depsgraph</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\bf_dna.vcxproj">
+      <Project>{4CB048FC-D778-32AF-8B73-3F31A7761587}</Project>
+      <Name>bf_dna</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\bf_dna_blenlib.vcxproj">
+      <Project>{758EE312-2BF7-3E57-BD01-36803E521731}</Project>
+      <Name>bf_dna_blenlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw\bf_draw.vcxproj">
+      <Project>{67AD5E0D-618B-3653-8BAC-7E55A1C5A64F}</Project>
+      <Name>bf_draw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\draw\bf_draw_shaders.vcxproj">
+      <Project>{DEEF2354-DA9F-3B31-B408-9A99E5C4BCA7}</Project>
+      <Name>bf_draw_shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\animation\bf_editor_animation.vcxproj">
+      <Project>{EC739F48-1BD5-3D1D-94C6-1761D2607752}</Project>
+      <Name>bf_editor_animation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\armature\bf_editor_armature.vcxproj">
+      <Project>{B149CEBB-4F83-36E7-8351-A12B6E68C2EA}</Project>
+      <Name>bf_editor_armature</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\asset\bf_editor_asset.vcxproj">
+      <Project>{70B58315-2838-3628-9B4B-CB257789493B}</Project>
+      <Name>bf_editor_asset</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\curve\bf_editor_curve.vcxproj">
+      <Project>{417B6476-2931-38A4-A6FD-9469A6BDCBA4}</Project>
+      <Name>bf_editor_curve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\curves\bf_editor_curves.vcxproj">
+      <Project>{BE20A689-DEDE-38D1-AC79-69A7A90F86C6}</Project>
+      <Name>bf_editor_curves</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\datafiles\bf_editor_datafiles.vcxproj">
+      <Project>{824613DA-6A53-3AD9-8CC4-1BEF84D78EC7}</Project>
+      <Name>bf_editor_datafiles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\geometry\bf_editor_geometry.vcxproj">
+      <Project>{425CFC17-C0AA-32B3-B391-0118200C2372}</Project>
+      <Name>bf_editor_geometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\gizmo_library\bf_editor_gizmo_library.vcxproj">
+      <Project>{9A2E29D8-3B7D-3ACD-8FCA-73503320BB83}</Project>
+      <Name>bf_editor_gizmo_library</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\gpencil\bf_editor_gpencil.vcxproj">
+      <Project>{D84894B5-40FD-3039-BD13-4E6F5C2C462C}</Project>
+      <Name>bf_editor_gpencil</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\interface\bf_editor_interface.vcxproj">
+      <Project>{6FC851F7-F2E8-3FCD-AB69-2AF79DACC5D3}</Project>
+      <Name>bf_editor_interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\io\bf_editor_io.vcxproj">
+      <Project>{7CF8AB1F-527A-33E3-B1D9-02545643D1FD}</Project>
+      <Name>bf_editor_io</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\lattice\bf_editor_lattice.vcxproj">
+      <Project>{B30361FC-9EC4-3337-8F62-7709906A171D}</Project>
+      <Name>bf_editor_lattice</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\mask\bf_editor_mask.vcxproj">
+      <Project>{138C6562-2DE2-3BE1-8887-6F4505B70632}</Project>
+      <Name>bf_editor_mask</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\mesh\bf_editor_mesh.vcxproj">
+      <Project>{20EBBA76-D951-3B58-9736-98E6CE1A6A81}</Project>
+      <Name>bf_editor_mesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\metaball\bf_editor_metaball.vcxproj">
+      <Project>{1E81909B-7042-34C0-A310-E39037F44F34}</Project>
+      <Name>bf_editor_metaball</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\object\bf_editor_object.vcxproj">
+      <Project>{4AB86658-18D5-3CCB-8F26-ADECB65AADEF}</Project>
+      <Name>bf_editor_object</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\physics\bf_editor_physics.vcxproj">
+      <Project>{1AC4B890-DCAC-33D6-BBE2-D73344E8F177}</Project>
+      <Name>bf_editor_physics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\render\bf_editor_render.vcxproj">
+      <Project>{3E08AEFB-2161-399C-8B78-57F498AF1163}</Project>
+      <Name>bf_editor_render</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\scene\bf_editor_scene.vcxproj">
+      <Project>{95932BAA-3141-3CBE-93AF-96CE743B82C4}</Project>
+      <Name>bf_editor_scene</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\screen\bf_editor_screen.vcxproj">
+      <Project>{96A6DE91-9DE8-3EBB-B463-0A79F1102304}</Project>
+      <Name>bf_editor_screen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\sculpt_paint\bf_editor_sculpt_paint.vcxproj">
+      <Project>{C579EA30-20CA-3AC6-B029-D351F739A633}</Project>
+      <Name>bf_editor_sculpt_paint</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\sound\bf_editor_sound.vcxproj">
+      <Project>{471749DD-F850-3873-AACD-14A7A00755EF}</Project>
+      <Name>bf_editor_sound</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_action\bf_editor_space_action.vcxproj">
+      <Project>{AF4E4125-848A-3D8A-968A-F711EF6F883E}</Project>
+      <Name>bf_editor_space_action</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_api\bf_editor_space_api.vcxproj">
+      <Project>{10C0E388-AC0B-3888-AB3D-5C6810870A73}</Project>
+      <Name>bf_editor_space_api</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_buttons\bf_editor_space_buttons.vcxproj">
+      <Project>{A5263441-BF77-3CE6-BB59-E1D02234A6EB}</Project>
+      <Name>bf_editor_space_buttons</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_clip\bf_editor_space_clip.vcxproj">
+      <Project>{83EFE247-1134-3B53-A40A-572DE5D65FF5}</Project>
+      <Name>bf_editor_space_clip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_console\bf_editor_space_console.vcxproj">
+      <Project>{D9266F8B-A5D5-373B-A01B-36CE810F7BDE}</Project>
+      <Name>bf_editor_space_console</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_file\bf_editor_space_file.vcxproj">
+      <Project>{9C23A21D-524F-31C6-AE79-EC4240207B24}</Project>
+      <Name>bf_editor_space_file</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_graph\bf_editor_space_graph.vcxproj">
+      <Project>{8B502863-A7D9-3B2A-9344-53B396605F8F}</Project>
+      <Name>bf_editor_space_graph</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_image\bf_editor_space_image.vcxproj">
+      <Project>{5712EF26-9FEE-3FEB-A856-5195A664565B}</Project>
+      <Name>bf_editor_space_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_info\bf_editor_space_info.vcxproj">
+      <Project>{C594E600-B5A5-37E6-9103-EB7D8BA0499E}</Project>
+      <Name>bf_editor_space_info</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_nla\bf_editor_space_nla.vcxproj">
+      <Project>{C3304A25-4299-3689-942E-B9C7F350ACD4}</Project>
+      <Name>bf_editor_space_nla</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_node\bf_editor_space_node.vcxproj">
+      <Project>{D64F6AC3-2083-38FB-A31D-DB6D6755F9BB}</Project>
+      <Name>bf_editor_space_node</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_outliner\bf_editor_space_outliner.vcxproj">
+      <Project>{2435BF79-3A20-3950-9A9A-0F9FA66E6C54}</Project>
+      <Name>bf_editor_space_outliner</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_script\bf_editor_space_script.vcxproj">
+      <Project>{4A22721B-08C5-317C-B6C7-56000242F71E}</Project>
+      <Name>bf_editor_space_script</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_sequencer\bf_editor_space_sequencer.vcxproj">
+      <Project>{2AF703C5-15A3-3DDB-BE46-D36418B752EB}</Project>
+      <Name>bf_editor_space_sequencer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_spreadsheet\bf_editor_space_spreadsheet.vcxproj">
+      <Project>{7C1DEDEA-5FFB-3F2F-A846-1E306FC551FE}</Project>
+      <Name>bf_editor_space_spreadsheet</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_statusbar\bf_editor_space_statusbar.vcxproj">
+      <Project>{18D6B203-13A8-3743-BAEB-338DCFA534A2}</Project>
+      <Name>bf_editor_space_statusbar</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_text\bf_editor_space_text.vcxproj">
+      <Project>{69E3D5ED-FB41-3BBF-9FF4-9DD36CED740B}</Project>
+      <Name>bf_editor_space_text</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_topbar\bf_editor_space_topbar.vcxproj">
+      <Project>{6CBD6D4E-DD63-378E-9D17-1F516EC70C36}</Project>
+      <Name>bf_editor_space_topbar</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_userpref\bf_editor_space_userpref.vcxproj">
+      <Project>{04FE4281-329F-32C3-BFB6-6A33251582E3}</Project>
+      <Name>bf_editor_space_userpref</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\space_view3d\bf_editor_space_view3d.vcxproj">
+      <Project>{7D06EF96-59D3-32A4-8ED3-134C09B367F5}</Project>
+      <Name>bf_editor_space_view3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\transform\bf_editor_transform.vcxproj">
+      <Project>{57F77EF4-AD4D-36F9-AF30-9401DF66EF3F}</Project>
+      <Name>bf_editor_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\undo\bf_editor_undo.vcxproj">
+      <Project>{815AD368-0C57-30F3-9F38-B8DA4E8FB03C}</Project>
+      <Name>bf_editor_undo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\util\bf_editor_util.vcxproj">
+      <Project>{302CD877-4F21-338B-9BA0-7B38EF537FC7}</Project>
+      <Name>bf_editor_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\editors\uvedit\bf_editor_uvedit.vcxproj">
+      <Project>{B9145C4F-386A-3B21-B5DD-B66569A7940E}</Project>
+      <Name>bf_editor_uvedit</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\freestyle\bf_freestyle.vcxproj">
+      <Project>{E19596C1-0EEA-3875-9EF3-4B6EE2DB70E6}</Project>
+      <Name>bf_freestyle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\functions\bf_functions.vcxproj">
+      <Project>{912A0C63-3E8D-37EC-9CBC-AFBC1789E18F}</Project>
+      <Name>bf_functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\geometry\bf_geometry.vcxproj">
+      <Project>{EA7EF631-2210-3DD9-83E8-F53BF3F25DBF}</Project>
+      <Name>bf_geometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\io\gpencil\bf_gpencil.vcxproj">
+      <Project>{8886AE00-CB47-306F-A169-4FB3751F4EC6}</Project>
+      <Name>bf_gpencil</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpencil_modifiers\bf_gpencil_modifiers.vcxproj">
+      <Project>{04910E78-842C-3F20-B81C-02B2019BD085}</Project>
+      <Name>bf_gpencil_modifiers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\bf_gpu.vcxproj">
+      <Project>{166ABBDE-CF44-3C3D-9F77-192B7C7C806F}</Project>
+      <Name>bf_gpu</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\bf_gpu_shaders.vcxproj">
+      <Project>{75D22550-2488-3B41-91B9-1517CA827020}</Project>
+      <Name>bf_gpu_shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\ikplugin\bf_ikplugin.vcxproj">
+      <Project>{0257BF6E-377C-3C18-8B32-801066CC4EBF}</Project>
+      <Name>bf_ikplugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\imbuf\bf_imbuf.vcxproj">
+      <Project>{44C3914F-A5B2-3DD7-BC07-D1F9B70402AE}</Project>
+      <Name>bf_imbuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\imbuf\intern\cineon\bf_imbuf_cineon.vcxproj">
+      <Project>{897AA41D-33C2-38AA-83E7-920265D5E16D}</Project>
+      <Name>bf_imbuf_cineon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\imbuf\intern\dds\bf_imbuf_dds.vcxproj">
+      <Project>{22CBEE98-BF68-342C-9AE6-550366537942}</Project>
+      <Name>bf_imbuf_dds</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\imbuf\intern\openexr\bf_imbuf_openexr.vcxproj">
+      <Project>{5A6D0720-50F3-38ED-BDB1-A38BF262C3D1}</Project>
+      <Name>bf_imbuf_openexr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\imbuf\intern\oiio\bf_imbuf_openimageio.vcxproj">
+      <Project>{0AACB51C-F92E-3368-9F71-D724DAE7927D}</Project>
+      <Name>bf_imbuf_openimageio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\audaspace\bf_intern_audaspace.vcxproj">
+      <Project>{8108F8F2-6D16-320A-8CA7-D36F928735B6}</Project>
+      <Name>bf_intern_audaspace</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\clog\bf_intern_clog.vcxproj">
+      <Project>{5E01FEA6-1001-3B8F-90A4-F30180AD17FE}</Project>
+      <Name>bf_intern_clog</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\cycles\blender\bf_intern_cycles.vcxproj">
+      <Project>{4158E862-20C7-38BD-9282-51BDF362E95C}</Project>
+      <Name>bf_intern_cycles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\dualcon\bf_intern_dualcon.vcxproj">
+      <Project>{9ED36DA6-AB01-3515-A34D-B0D91AEC485F}</Project>
+      <Name>bf_intern_dualcon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\eigen\bf_intern_eigen.vcxproj">
+      <Project>{F4F7C64A-A555-3C39-A425-67602FD33D9F}</Project>
+      <Name>bf_intern_eigen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\ghost\bf_intern_ghost.vcxproj">
+      <Project>{BBD40CB0-E480-3266-96BF-528F9F7FDF4D}</Project>
+      <Name>bf_intern_ghost</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\glew-mx\bf_intern_glew_mx.vcxproj">
+      <Project>{07ED3EEB-B552-35F6-A3C8-1796909A4FC3}</Project>
+      <Name>bf_intern_glew_mx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\guardedalloc\bf_intern_guardedalloc.vcxproj">
+      <Project>{E5128D0C-0C93-37FB-8B8F-930F7DCABEB9}</Project>
+      <Name>bf_intern_guardedalloc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\iksolver\bf_intern_iksolver.vcxproj">
+      <Project>{C444F26E-3A4A-3ABE-AAC3-614827EDADAD}</Project>
+      <Name>bf_intern_iksolver</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\itasc\bf_intern_itasc.vcxproj">
+      <Project>{13AAF74C-AF2E-3FAE-B281-3E8E0DCB460A}</Project>
+      <Name>bf_intern_itasc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\libmv\bf_intern_libmv.vcxproj">
+      <Project>{61AA03DB-B432-3301-BC4C-CBFAE1B47D68}</Project>
+      <Name>bf_intern_libmv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\locale\bf_intern_locale.vcxproj">
+      <Project>{B0724FDB-9F54-384E-B663-6FD90EFF2DA5}</Project>
+      <Name>bf_intern_locale</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\mantaflow\bf_intern_mantaflow.vcxproj">
+      <Project>{09376B55-B794-3AEA-B2EA-0823901E6535}</Project>
+      <Name>bf_intern_mantaflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\memutil\bf_intern_memutil.vcxproj">
+      <Project>{974EDF0B-2F61-3235-877C-4C5B9C679735}</Project>
+      <Name>bf_intern_memutil</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\mikktspace\bf_intern_mikktspace.vcxproj">
+      <Project>{1A167DE9-E383-3540-B9E1-D8CAA4D0B78B}</Project>
+      <Name>bf_intern_mikktspace</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio\bf_intern_opencolorio.vcxproj">
+      <Project>{2DAB043C-97B6-3159-9BAD-10D1DBDA62C3}</Project>
+      <Name>bf_intern_opencolorio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\opensubdiv\bf_intern_opensubdiv.vcxproj">
+      <Project>{171B7B36-25D7-36AA-9189-A5AE9F115A48}</Project>
+      <Name>bf_intern_opensubdiv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\openvdb\bf_intern_openvdb.vcxproj">
+      <Project>{463AF280-AF53-3F7B-8C6F-E0345AEAAFBA}</Project>
+      <Name>bf_intern_openvdb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\quadriflow\bf_intern_quadriflow.vcxproj">
+      <Project>{F7B2F77B-B2FD-38B3-B485-8526DBF3704A}</Project>
+      <Name>bf_intern_quadriflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\rigidbody\bf_intern_rigidbody.vcxproj">
+      <Project>{AD412C8C-E51B-3FD4-8058-3E2D4FCFA1B8}</Project>
+      <Name>bf_intern_rigidbody</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\sky\bf_intern_sky.vcxproj">
+      <Project>{9CBCD157-3C56-3841-906C-E0AB3B393447}</Project>
+      <Name>bf_intern_sky</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\utfconv\bf_intern_utfconv.vcxproj">
+      <Project>{37371110-EC5E-33F9-B72E-6724EA9071AB}</Project>
+      <Name>bf_intern_utfconv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\io\common\bf_io_common.vcxproj">
+      <Project>{6BA7ABDA-DF8B-3D40-AFFC-F5BBC995463C}</Project>
+      <Name>bf_io_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\modifiers\bf_modifiers.vcxproj">
+      <Project>{672B06F8-3848-332E-ACEE-66E14C3C3D05}</Project>
+      <Name>bf_modifiers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\bf_nodes.vcxproj">
+      <Project>{B20DD7A2-265D-3F80-A799-34333D55CB6D}</Project>
+      <Name>bf_nodes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\composite\bf_nodes_composite.vcxproj">
+      <Project>{B7AB8ED5-1515-3BC3-BC73-877747F06A6E}</Project>
+      <Name>bf_nodes_composite</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\function\bf_nodes_function.vcxproj">
+      <Project>{B3CAC74E-9BA7-38A5-92B8-FAF1B1E6058E}</Project>
+      <Name>bf_nodes_function</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\geometry\bf_nodes_geometry.vcxproj">
+      <Project>{8DA12187-0840-385B-802E-B8518D4D5FDD}</Project>
+      <Name>bf_nodes_geometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\shader\bf_nodes_shader.vcxproj">
+      <Project>{D0726852-DCCA-3E36-8A17-F28A0A969D11}</Project>
+      <Name>bf_nodes_shader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\texture\bf_nodes_texture.vcxproj">
+      <Project>{019F1A57-57DA-33C9-82FB-69537FA8AF28}</Project>
+      <Name>bf_nodes_texture</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\opencolorio\bf_ocio_shaders.vcxproj">
+      <Project>{1C355F05-F441-3F97-9A85-409D8E6D4E71}</Project>
+      <Name>bf_ocio_shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\python\intern\bf_python.vcxproj">
+      <Project>{97DED3CF-FE3E-35A6-A8E0-7EE010E897E8}</Project>
+      <Name>bf_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\python\bmesh\bf_python_bmesh.vcxproj">
+      <Project>{906B4361-7953-35FE-A788-A1D8B1327497}</Project>
+      <Name>bf_python_bmesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\python\generic\bf_python_ext.vcxproj">
+      <Project>{6A71D027-BE60-35DA-8392-168A44FF997C}</Project>
+      <Name>bf_python_ext</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\python\gpu\bf_python_gpu.vcxproj">
+      <Project>{C1733236-5087-3504-87C8-4488EF7E8E37}</Project>
+      <Name>bf_python_gpu</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\python\mathutils\bf_python_mathutils.vcxproj">
+      <Project>{AACEB1EA-286F-3AFA-BE23-7C3A8DA6A623}</Project>
+      <Name>bf_python_mathutils</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\render\bf_render.vcxproj">
+      <Project>{DC23B3E0-7CFF-38ED-8873-F4D2902451B2}</Project>
+      <Name>bf_render</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesrna\intern\bf_rna.vcxproj">
+      <Project>{8E378990-EEA1-3E2D-82F1-844DD892F6E3}</Project>
+      <Name>bf_rna</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\sequencer\bf_sequencer.vcxproj">
+      <Project>{D641982B-9311-33AE-8C38-DC3146B7994A}</Project>
+      <Name>bf_sequencer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\shader_fx\bf_shader_fx.vcxproj">
+      <Project>{38B80712-F315-3C5C-9EBE-7FCFECE063DB}</Project>
+      <Name>bf_shader_fx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\simulation\bf_simulation.vcxproj">
+      <Project>{E3460A3F-DAF1-3657-8FD9-981E55C6F45B}</Project>
+      <Name>bf_simulation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\io\stl\bf_stl.vcxproj">
+      <Project>{16FF5910-D0FA-3301-9A21-5A38D7700134}</Project>
+      <Name>bf_stl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\io\usd\bf_usd.vcxproj">
+      <Project>{02CFCCE5-D13E-3181-B87D-3D5EEE3CDBDB}</Project>
+      <Name>bf_usd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\io\wavefront_obj\bf_wavefront_obj.vcxproj">
+      <Project>{35ED0D1F-D5B0-389A-B1BD-F368ABF9EFFB}</Project>
+      <Name>bf_wavefront_obj</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\windowmanager\bf_windowmanager.vcxproj">
+      <Project>{836D8A1E-7026-3C46-B3F7-FF0857CEF4F5}</Project>
+      <Name>bf_windowmanager</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\creator\blender.vcxproj">
+      <Project>{0EE54949-4B1B-3B2A-9FCC-B406C3A5D701}</Project>
+      <Name>blender</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\creator\blender-launcher.vcxproj">
+      <Project>{0EF0AA9E-F573-3751-A4BE-932F628EA9A5}</Project>
+      <Name>blender-launcher</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\creator\buildinfo.vcxproj">
+      <Project>{DF8AC951-4084-393D-8CA2-C4DCD915E35A}</Project>
+      <Name>buildinfo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\creator\buildinfoobj.vcxproj">
+      <Project>{942103F1-9A5F-3EC9-9DD2-34BFD85E3A08}</Project>
+      <Name>buildinfoobj</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\cycles\bvh\cycles_bvh.vcxproj">
+      <Project>{DBFCE481-4CC9-3F3A-A99C-70C4026BEE06}</Project>
+      <Name>cycles_bvh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\cycles\graph\cycles_graph.vcxproj">
+      <Project>{88E66DB5-AD91-320D-A694-C5F3B38C55E9}</Project>
+      <Name>cycles_graph</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\cycles\kernel\osl\shaders\cycles_osl_shaders.vcxproj">
+      <Project>{99A436D3-91E7-3B20-B1BE-0F3D4D5B446A}</Project>
+      <Name>cycles_osl_shaders</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\cycles\subd\cycles_subd.vcxproj">
+      <Project>{57668231-85B1-3895-89AF-D4AB6AF8E2C1}</Project>
+      <Name>cycles_subd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\intern\cycles\util\cycles_util.vcxproj">
+      <Project>{6EC027E9-816F-3DCB-8D73-4C0DBD7A42B0}</Project>
+      <Name>cycles_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\datatoc\datatoc.vcxproj">
+      <Project>{6E928A2E-7863-3B23-AB3F-5F5BC1A02359}</Project>
+      <Name>datatoc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\datatoc\datatoc_icon.vcxproj">
+      <Project>{6206BCC7-028E-3461-87E4-18192F273F15}</Project>
+      <Name>datatoc_icon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\draco\draco\draco.vcxproj">
+      <Project>{CFFBACFA-FFA8-33B0-8B4F-44C1EC162B50}</Project>
+      <Name>draco</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\bullet2\extern_bullet.vcxproj">
+      <Project>{A4315204-643C-39C9-9E0B-BA94925A0ED6}</Project>
+      <Name>extern_bullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\ceres\extern_ceres.vcxproj">
+      <Project>{AC7D9D07-E94B-34ED-8FA1-C4B77C774E88}</Project>
+      <Name>extern_ceres</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\clew\extern_clew.vcxproj">
+      <Project>{1C85E036-BAD3-3C9A-930E-18D3633F6ADF}</Project>
+      <Name>extern_clew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\cuew\extern_cuew.vcxproj">
+      <Project>{7F2B162B-2A77-3987-917B-ED4A405F30CA}</Project>
+      <Name>extern_cuew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\curve_fit_nd\extern_curve_fit_nd.vcxproj">
+      <Project>{DDBB7FD5-A0DE-3F58-982B-5AD62560902A}</Project>
+      <Name>extern_curve_fit_nd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\draco\extern_draco.vcxproj">
+      <Project>{1FC34491-6D07-3449-9DE3-301429962393}</Project>
+      <Name>extern_draco</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\gflags\extern_gflags.vcxproj">
+      <Project>{8DF991FB-6CF9-3AFE-B935-1399A4C8CB07}</Project>
+      <Name>extern_gflags</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\glew\extern_glew.vcxproj">
+      <Project>{1FD1AE55-8E43-3D53-9E65-E553F08560C7}</Project>
+      <Name>extern_glew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\glog\extern_glog.vcxproj">
+      <Project>{50DE0616-A97F-3EE8-8E57-290DEBB6BFAA}</Project>
+      <Name>extern_glog</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\hipew\extern_hipew.vcxproj">
+      <Project>{2ABE616C-9AAE-3956-A7D3-D0DF29BAD995}</Project>
+      <Name>extern_hipew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\lzma\extern_lzma.vcxproj">
+      <Project>{BD9D6616-FA27-3BA3-9F3E-85A3600343DA}</Project>
+      <Name>extern_lzma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\mantaflow\extern_mantaflow.vcxproj">
+      <Project>{A526A92C-1F14-361D-B5DD-270749A21EC3}</Project>
+      <Name>extern_mantaflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\lzo\extern_minilzo.vcxproj">
+      <Project>{D80F40B7-D965-3998-9FEB-F82C915EF5E8}</Project>
+      <Name>extern_minilzo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\quadriflow\extern_quadriflow.vcxproj">
+      <Project>{B86B364A-7053-33BC-8320-C5972649F178}</Project>
+      <Name>extern_quadriflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\rangetree\extern_rangetree.vcxproj">
+      <Project>{B34DEC0E-A1EC-3D0F-914F-ADE558B4C7E8}</Project>
+      <Name>extern_rangetree</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\wcwidth\extern_wcwidth.vcxproj">
+      <Project>{EA28E0ED-E261-3C74-8E49-042504517EF9}</Project>
+      <Name>extern_wcwidth</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\makesdna.vcxproj">
+      <Project>{E4262AE0-54D3-3158-AD21-8E14F606187A}</Project>
+      <Name>makesdna</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesrna\intern\makesrna.vcxproj">
+      <Project>{8E535917-F410-388B-B392-2C3AF93DBBE8}</Project>
+      <Name>makesrna</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\blentranslation\msgfmt\msgfmt.vcxproj">
+      <Project>{598DB65F-3A96-31BF-A77D-4F1EF2473525}</Project>
+      <Name>msgfmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\extern\smaa_areatex\smaa_areatex.vcxproj">
+      <Project>{F39E040D-7F63-3FC8-AE10-9162E9F3950B}</Project>
+      <Name>smaa_areatex</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

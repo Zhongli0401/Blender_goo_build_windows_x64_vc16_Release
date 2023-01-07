@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\composite\CMakeFiles\bf_nodes_composite.dir\Unity\unity_8_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\composite\CMakeFiles\bf_nodes_composite.dir\Unity\unity_7_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\composite\CMakeFiles\bf_nodes_composite.dir\Unity\unity_6_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\composite\CMakeFiles\bf_nodes_composite.dir\Unity\unity_5_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\composite\CMakeFiles\bf_nodes_composite.dir\Unity\unity_4_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\composite\CMakeFiles\bf_nodes_composite.dir\Unity\unity_3_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\composite\CMakeFiles\bf_nodes_composite.dir\Unity\unity_2_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\composite\CMakeFiles\bf_nodes_composite.dir\Unity\unity_1_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\composite\CMakeFiles\bf_nodes_composite.dir\Unity\unity_0_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_alpha_over.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_antialiasing.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_bilateralblur.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_blur.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_bokehblur.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_bokehimage.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_boxmask.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_brightness.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_channel_matte.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_chroma_matte.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_color_matte.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_color_spill.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_colorbalance.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_colorcorrection.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_common.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_composite.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_convert_color_space.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_cornerpin.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_crop.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_cryptomatte.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_curves.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_defocus.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_denoise.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_despeckle.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_diff_matte.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_dilate.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_directionalblur.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_displace.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_distance_matte.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_double_edge_mask.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_ellipsemask.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_exposure.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_filter.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_flip.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_gamma.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_glare.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_hue_sat_val.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_huecorrect.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_id_mask.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_image.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_inpaint.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_invert.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_keying.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_keyingscreen.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_lensdist.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_levels.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_luma_matte.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_map_range.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_map_uv.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_map_value.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_mask.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_math.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_mixrgb.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_movieclip.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_moviedistortion.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_normal.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_normalize.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_output_file.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_pixelate.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_planetrackdeform.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_posterize.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_premulkey.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_rgb.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_rotate.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_scale.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_scene_time.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_sepcomb_color.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_sepcomb_hsva.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_sepcomb_rgba.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_sepcomb_xyz.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_sepcomb_ycca.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_sepcomb_yuva.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_setalpha.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_split_viewer.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_stabilize2d.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_sunbeams.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_switch.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_switchview.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_texture.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_tonemap.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_trackpos.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_transform.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_translate.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_val_to_rgb.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_value.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_vec_blur.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_viewer.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\nodes\node_composite_zcombine.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\node_composite_tree.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\composite\node_composite_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\nodes\composite\node_composite_util.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\blender\nodes\composite\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF785239-3054-3D1C-9CBE-53CD9878A5F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1F461DDB-8F37-3AFA-B6E0-78FA459DB46E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nodes">
+      <UniqueIdentifier>{4C7A092E-D99A-3067-8DF0-77AE3928B35E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

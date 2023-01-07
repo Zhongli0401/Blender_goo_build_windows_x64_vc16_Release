@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\function\CMakeFiles\bf_nodes_function.dir\Unity\unity_1_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\nodes\function\CMakeFiles\bf_nodes_function.dir\Unity\unity_0_cxx.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\nodes\node_fn_align_euler_to_vector.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\nodes\node_fn_boolean_math.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\nodes\node_fn_combine_color.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\nodes\node_fn_compare.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\nodes\node_fn_float_to_int.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\nodes\node_fn_input_bool.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\nodes\node_fn_input_color.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\nodes\node_fn_input_int.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\nodes\node_fn_input_special_characters.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\nodes\node_fn_input_string.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\nodes\node_fn_input_vector.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\nodes\node_fn_random_value.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\nodes\node_fn_replace_string.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\nodes\node_fn_rotate_euler.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\nodes\node_fn_separate_color.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\nodes\node_fn_slice_string.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\nodes\node_fn_string_length.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\nodes\node_fn_value_to_string.cc">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\nodes\function\node_function_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\nodes\function\node_function_util.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\blender\nodes\function\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF785239-3054-3D1C-9CBE-53CD9878A5F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1F461DDB-8F37-3AFA-B6E0-78FA459DB46E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nodes">
+      <UniqueIdentifier>{4C7A092E-D99A-3067-8DF0-77AE3928B35E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

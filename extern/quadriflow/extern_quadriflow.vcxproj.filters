@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\src\adjacent-matrix.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\src\dedge.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\src\hierarchy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\src\loader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\src\localsat.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\src\merge-vertex.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\src\optimizer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\src\parametrizer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\src\parametrizer-flip.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\src\parametrizer-int.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\src\parametrizer-mesh.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\src\parametrizer-scale.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\src\parametrizer-sing.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\src\subdivide.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\3rd\lemon-1.3.1\lemon\arg_parser.cc">
+      <Filter>3rd\lemon-1.3.1\lemon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\3rd\lemon-1.3.1\lemon\base.cc">
+      <Filter>3rd\lemon-1.3.1\lemon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\3rd\lemon-1.3.1\lemon\color.cc">
+      <Filter>3rd\lemon-1.3.1\lemon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\3rd\lemon-1.3.1\lemon\lp_base.cc">
+      <Filter>3rd\lemon-1.3.1\lemon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\3rd\lemon-1.3.1\lemon\lp_skeleton.cc">
+      <Filter>3rd\lemon-1.3.1\lemon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\3rd\lemon-1.3.1\lemon\random.cc">
+      <Filter>3rd\lemon-1.3.1\lemon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\quadriflow\3rd\lemon-1.3.1\lemon\bits\windows.cc">
+      <Filter>3rd\lemon-1.3.1\lemon\bits</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\quadriflow\src\adjacent-matrix.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\quadriflow\src\compare-key.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\quadriflow\src\config.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\quadriflow\src\dedge.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\quadriflow\src\disajoint-tree.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\quadriflow\src\dset.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\quadriflow\src\field-math.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\quadriflow\src\flow.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\quadriflow\src\hierarchy.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\quadriflow\src\loader.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\quadriflow\src\localsat.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\quadriflow\src\merge-vertex.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\quadriflow\src\optimizer.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\quadriflow\src\parametrizer.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\quadriflow\src\serialize.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\quadriflow\src\subdivide.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\extern\quadriflow\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="3rd">
+      <UniqueIdentifier>{AC734FD3-21D1-3D0D-B5B8-C23936BE5635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\lemon-1.3.1">
+      <UniqueIdentifier>{F2BA8655-C1DD-3ADE-9975-7279F9E9BC4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\lemon-1.3.1\lemon">
+      <UniqueIdentifier>{26FB6EB6-6FBA-360E-8F58-A9FC44B06C89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\lemon-1.3.1\lemon\bits">
+      <UniqueIdentifier>{05C1492D-A503-3686-811A-BA1CEE136006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{99A74A51-D7F5-3E41-8CF7-501A18D81587}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

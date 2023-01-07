@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{794E8DE5-D123-3CEE-B5F7-93087591DD60}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>audaspace</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">audaspace.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">audaspace</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">audaspace.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">audaspace</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">audaspace.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">audaspace</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">audaspace.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">audaspace</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace;C:\blender-git\goo-engine\extern\audaspace\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\goo-engine\..\lib\win64_vc15\sndfile\include;C:\blender-git\goo-engine\..\lib\win64_vc15\openal\include\AL;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\include;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\lib\site-packages\numpy\core\include;C:\blender-git\goo-engine\..\lib\win64_vc15\sdl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;DEBUG;_DEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;_USE_MATH_DEFINES;NOMINMAX;_STDINT_H;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;DEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;_USE_MATH_DEFINES;NOMINMAX;_STDINT_H;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace;C:\blender-git\goo-engine\extern\audaspace\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\goo-engine\..\lib\win64_vc15\sndfile\include;C:\blender-git\goo-engine\..\lib\win64_vc15\openal\include\AL;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\include;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\lib\site-packages\numpy\core\include;C:\blender-git\goo-engine\..\lib\win64_vc15\sdl\include;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace;C:\blender-git\goo-engine\extern\audaspace\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\goo-engine\..\lib\win64_vc15\sndfile\include;C:\blender-git\goo-engine\..\lib\win64_vc15\openal\include\AL;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\include;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\lib\site-packages\numpy\core\include;C:\blender-git\goo-engine\..\lib\win64_vc15\sdl\include;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace;C:\blender-git\goo-engine\extern\audaspace\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\goo-engine\..\lib\win64_vc15\sndfile\include;C:\blender-git\goo-engine\..\lib\win64_vc15\openal\include\AL;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\include;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\lib\site-packages\numpy\core\include;C:\blender-git\goo-engine\..\lib\win64_vc15\sdl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;_USE_MATH_DEFINES;NOMINMAX;_STDINT_H;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;_USE_MATH_DEFINES;NOMINMAX;_STDINT_H;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace;C:\blender-git\goo-engine\extern\audaspace\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\goo-engine\..\lib\win64_vc15\sndfile\include;C:\blender-git\goo-engine\..\lib\win64_vc15\openal\include\AL;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\include;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\lib\site-packages\numpy\core\include;C:\blender-git\goo-engine\..\lib\win64_vc15\sdl\include;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace;C:\blender-git\goo-engine\extern\audaspace\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\goo-engine\..\lib\win64_vc15\sndfile\include;C:\blender-git\goo-engine\..\lib\win64_vc15\openal\include\AL;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\include;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\lib\site-packages\numpy\core\include;C:\blender-git\goo-engine\..\lib\win64_vc15\sdl\include;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace;C:\blender-git\goo-engine\extern\audaspace\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\goo-engine\..\lib\win64_vc15\sndfile\include;C:\blender-git\goo-engine\..\lib\win64_vc15\openal\include\AL;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\include;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\lib\site-packages\numpy\core\include;C:\blender-git\goo-engine\..\lib\win64_vc15\sdl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;_USE_MATH_DEFINES;NOMINMAX;_STDINT_H;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;_USE_MATH_DEFINES;NOMINMAX;_STDINT_H;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace;C:\blender-git\goo-engine\extern\audaspace\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\goo-engine\..\lib\win64_vc15\sndfile\include;C:\blender-git\goo-engine\..\lib\win64_vc15\openal\include\AL;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\include;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\lib\site-packages\numpy\core\include;C:\blender-git\goo-engine\..\lib\win64_vc15\sdl\include;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace;C:\blender-git\goo-engine\extern\audaspace\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\goo-engine\..\lib\win64_vc15\sndfile\include;C:\blender-git\goo-engine\..\lib\win64_vc15\openal\include\AL;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\include;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\lib\site-packages\numpy\core\include;C:\blender-git\goo-engine\..\lib\win64_vc15\sdl\include;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace;C:\blender-git\goo-engine\extern\audaspace\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\goo-engine\..\lib\win64_vc15\sndfile\include;C:\blender-git\goo-engine\..\lib\win64_vc15\openal\include\AL;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\include;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\lib\site-packages\numpy\core\include;C:\blender-git\goo-engine\..\lib\win64_vc15\sdl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;_USE_MATH_DEFINES;NOMINMAX;_STDINT_H;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;_USE_MATH_DEFINES;NOMINMAX;_STDINT_H;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace;C:\blender-git\goo-engine\extern\audaspace\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\goo-engine\..\lib\win64_vc15\sndfile\include;C:\blender-git\goo-engine\..\lib\win64_vc15\openal\include\AL;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\include;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\lib\site-packages\numpy\core\include;C:\blender-git\goo-engine\..\lib\win64_vc15\sdl\include;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace;C:\blender-git\goo-engine\extern\audaspace\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include;C:\blender-git\goo-engine\..\lib\win64_vc15\ffmpeg\include\msvc;C:\blender-git\goo-engine\..\lib\win64_vc15\sndfile\include;C:\blender-git\goo-engine\..\lib\win64_vc15\openal\include\AL;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\include;C:\blender-git\goo-engine\..\lib\win64_vc15\python\310\lib\site-packages\numpy\core\include;C:\blender-git\goo-engine\..\lib\win64_vc15\sdl\include;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\extern\audaspace\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/blender-git/goo-engine/extern/audaspace/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/extern/audaspace/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake;C:\blender-git\goo-engine\extern\audaspace\blender_config.cmake;C:\blender-git\goo-engine\extern\audaspace\config\Audaspace.h.in;C:\blender-git\goo-engine\extern\audaspace\src\plugin\PluginManagerWindows.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/blender-git/goo-engine/extern/audaspace/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/extern/audaspace/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake;C:\blender-git\goo-engine\extern\audaspace\blender_config.cmake;C:\blender-git\goo-engine\extern\audaspace\config\Audaspace.h.in;C:\blender-git\goo-engine\extern\audaspace\src\plugin\PluginManagerWindows.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/blender-git/goo-engine/extern/audaspace/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/extern/audaspace/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake;C:\blender-git\goo-engine\extern\audaspace\blender_config.cmake;C:\blender-git\goo-engine\extern\audaspace\config\Audaspace.h.in;C:\blender-git\goo-engine\extern\audaspace\src\plugin\PluginManagerWindows.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/blender-git/goo-engine/extern/audaspace/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/extern/audaspace/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake;C:\blender-git\goo-engine\extern\audaspace\blender_config.cmake;C:\blender-git\goo-engine\extern\audaspace\config\Audaspace.h.in;C:\blender-git\goo-engine\extern\audaspace\src\plugin\PluginManagerWindows.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\devices\DefaultSynchronizer.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\devices\DeviceManager.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\devices\NULLDevice.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\devices\ReadDevice.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\devices\SoftwareDevice.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\devices\ThreadedDevice.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\Exception.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\file\File.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\file\FileManager.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\file\FileWriter.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\Accumulator.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\ADSR.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\ADSRReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\BaseIIRFilterReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\ButterworthCalculator.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\Butterworth.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\CallbackIIRFilterReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\Delay.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\DelayReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\DynamicIIRFilter.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\DynamicIIRFilterReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\DynamicMusic.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\Effect.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\EffectReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\Envelope.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\Fader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\FaderReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\HighpassCalculator.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\Highpass.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\IIRFilter.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\IIRFilterReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\Limiter.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\LimiterReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\Loop.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\LoopReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\LowpassCalculator.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\Lowpass.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\Modulator.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\ModulatorReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\MutableReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\MutableSound.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\Pitch.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\PitchReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\PlaybackManager.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\PlaybackCategory.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\Reverse.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\ReverseReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\SoundList.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\Source.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\Sum.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\Threshold.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\Volume.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\VolumeReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\VolumeSound.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\fx\VolumeStorage.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\generator\Sawtooth.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\generator\SawtoothReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\generator\Silence.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\generator\SilenceReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\generator\Sine.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\generator\SineReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\generator\Square.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\generator\SquareReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\generator\Triangle.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\generator\TriangleReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\respec\ChannelMapper.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\respec\ChannelMapperReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\respec\Converter.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\respec\ConverterFunctions.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\respec\ConverterReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\respec\JOSResample.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\respec\JOSResampleReaderCoeff.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\respec\JOSResampleReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\respec\LinearResample.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\respec\LinearResampleReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\respec\Mixer.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\respec\ResampleReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\respec\SpecsChanger.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\sequence\AnimateableProperty.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\sequence\Double.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\sequence\DoubleReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\sequence\PingPong.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\sequence\Sequence.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\sequence\SequenceData.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\sequence\SequenceEntry.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\sequence\SequenceHandle.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\sequence\SequenceReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\sequence\Superpose.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\sequence\SuperposeReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\util\Barrier.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\util\Buffer.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\util\BufferReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\util\RingBuffer.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\util\StreamBuffer.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\src\util\ThreadPool.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_ThreadPool.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_Source.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_Device.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_DynamicMusic.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_Handle.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_PlaybackManager.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_Sequence.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_Sound.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_Special.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\plugins\ffmpeg\FFMPEG.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\plugins\ffmpeg\FFMPEGReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\plugins\ffmpeg\FFMPEGWriter.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\plugins\libsndfile\SndFile.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\plugins\libsndfile\SndFileReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\plugins\libsndfile\SndFileWriter.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\plugins\openal\OpenALDevice.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\plugins\openal\OpenALReader.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\plugins\sdl\SDLDevice.cpp" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\audaspace\plugins\wasapi\WASAPIDevice.cpp" />
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace\PluginManager.cpp" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\src\sequence\SequenceHandle.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\devices\DefaultSynchronizer.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\devices\DeviceManager.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\devices\I3DDevice.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\devices\I3DHandle.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\devices\IDeviceFactory.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\devices\IDevice.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\devices\IHandle.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\devices\ISynchronizer.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\devices\NULLDevice.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\devices\ReadDevice.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\devices\SoftwareDevice.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\devices\ThreadedDevice.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\Exception.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\file\File.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\file\FileInfo.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\file\FileManager.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\file\FileWriter.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\file\IFileInput.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\file\IFileOutput.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\file\IWriter.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\Accumulator.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\ADSR.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\ADSRReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\BaseIIRFilterReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\ButterworthCalculator.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\Butterworth.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\CallbackIIRFilterReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\Delay.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\DelayReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\DynamicIIRFilter.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\DynamicIIRFilterReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\DynamicMusic.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\Effect.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\EffectReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\Envelope.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\Fader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\FaderReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\HighpassCalculator.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\Highpass.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\IDynamicIIRFilterCalculator.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\IIRFilter.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\IIRFilterReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\Limiter.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\LimiterReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\Loop.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\LoopReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\LowpassCalculator.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\Lowpass.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\Modulator.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\ModulatorReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\MutableReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\MutableSound.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\Pitch.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\PitchReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\PlaybackManager.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\PlaybackCategory.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\Reverse.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\ReverseReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\SoundList.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\Source.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\Sum.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\Threshold.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\Volume.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\VolumeReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\VolumeSound.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\fx\VolumeStorage.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\generator\Sawtooth.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\generator\SawtoothReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\generator\Silence.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\generator\SilenceReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\generator\Sine.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\generator\SineReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\generator\Square.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\generator\SquareReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\generator\Triangle.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\generator\TriangleReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\IReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\ISound.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\plugin\PluginManager.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\respec\ChannelMapper.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\respec\ChannelMapperReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\respec\ConverterFunctions.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\respec\Converter.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\respec\ConverterReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\respec\JOSResample.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\respec\JOSResampleReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\respec\LinearResample.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\respec\LinearResampleReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\respec\Mixer.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\respec\ResampleReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\respec\Specification.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\respec\SpecsChanger.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\sequence\AnimateableProperty.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\sequence\Double.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\sequence\DoubleReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\sequence\PingPong.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\sequence\SequenceData.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\sequence\SequenceEntry.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\sequence\Sequence.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\sequence\SequenceReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\sequence\Superpose.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\sequence\SuperposeReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\util\Barrier.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\util\Buffer.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\util\BufferReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\util\ILockable.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\util\Math3D.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\util\RingBuffer.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\util\StreamBuffer.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\include\util\ThreadPool.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_ThreadPool.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_Source.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_Device.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_DynamicMusic.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_Handle.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_PlaybackManager.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_Sequence.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_Sound.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_Special.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\bindings\C\AUD_Types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\plugins\ffmpeg\FFMPEG.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\plugins\ffmpeg\FFMPEGReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\plugins\ffmpeg\FFMPEGWriter.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\plugins\libsndfile\SndFile.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\plugins\libsndfile\SndFileReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\plugins\libsndfile\SndFileWriter.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\plugins\openal\OpenALDevice.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\plugins\openal\OpenALReader.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\plugins\sdl\SDLDevice.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\audaspace\plugins\wasapi\WASAPIDevice.h" />
+    <ClInclude Include="C:\blender-git\build_windows_x64_vc16_Release\extern\audaspace\Audaspace.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\ZERO_CHECK.vcxproj">
+      <Project>{0B18E108-1544-3A9C-9810-3B45BB3BAEA5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

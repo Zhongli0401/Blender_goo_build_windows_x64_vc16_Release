@@ -1,0 +1,17261 @@
+
+/* Automatically generated struct definitions for the Data API.
+ * Do not edit manually, changes will be overwritten.           */
+
+#define RNA_RUNTIME
+
+#include <float.h>
+#include <stdio.h>
+#include <limits.h>
+#include <string.h>
+
+#include <stddef.h>
+
+#include "MEM_guardedalloc.h"
+
+#include "DNA_ID.h"
+#include "DNA_scene_types.h"
+#include "DNA_node_types.h"
+#include "BLI_blenlib.h"
+
+#include "BLI_utildefines.h"
+
+#include "BKE_context.h"
+#include "BKE_lib_id.h"
+#include "BKE_main.h"
+#include "BKE_report.h"
+#include "RNA_define.h"
+#include "RNA_types.h"
+#include "rna_internal.h"
+
+#include "rna_prototypes_gen.h"
+
+#include "rna_scene.c"
+#include "rna_scene_api.c"
+
+/* Auto-generated Functions. */
+
+
+extern CollectionPropertyRNA rna_ID_rna_properties;
+extern PointerPropertyRNA rna_ID_rna_type;
+extern StringPropertyRNA rna_ID_name;
+extern StringPropertyRNA rna_ID_name_full;
+extern BoolPropertyRNA rna_ID_is_evaluated;
+extern PointerPropertyRNA rna_ID_original;
+extern IntPropertyRNA rna_ID_users;
+extern BoolPropertyRNA rna_ID_use_fake_user;
+extern BoolPropertyRNA rna_ID_use_extra_user;
+extern BoolPropertyRNA rna_ID_is_embedded_data;
+extern BoolPropertyRNA rna_ID_tag;
+extern BoolPropertyRNA rna_ID_is_library_indirect;
+extern PointerPropertyRNA rna_ID_library;
+extern PointerPropertyRNA rna_ID_library_weak_reference;
+extern PointerPropertyRNA rna_ID_asset_data;
+extern PointerPropertyRNA rna_ID_override_library;
+extern PointerPropertyRNA rna_ID_preview;
+
+PointerPropertyRNA rna_Scene_camera;
+PointerPropertyRNA rna_Scene_background_set;
+PointerPropertyRNA rna_Scene_world;
+CollectionPropertyRNA rna_Scene_objects;
+IntPropertyRNA rna_Scene_frame_current;
+FloatPropertyRNA rna_Scene_frame_subframe;
+FloatPropertyRNA rna_Scene_frame_float;
+IntPropertyRNA rna_Scene_frame_start;
+IntPropertyRNA rna_Scene_frame_end;
+IntPropertyRNA rna_Scene_frame_step;
+FloatPropertyRNA rna_Scene_frame_current_final;
+BoolPropertyRNA rna_Scene_lock_frame_selection_to_range;
+BoolPropertyRNA rna_Scene_use_preview_range;
+IntPropertyRNA rna_Scene_frame_preview_start;
+IntPropertyRNA rna_Scene_frame_preview_end;
+BoolPropertyRNA rna_Scene_show_subframe;
+BoolPropertyRNA rna_Scene_show_keys_from_selected_only;
+StringPropertyRNA rna_Scene_use_stamp_note;
+PointerPropertyRNA rna_Scene_animation_data;
+BoolPropertyRNA rna_Scene_is_nla_tweakmode;
+EnumPropertyRNA rna_Scene_sync_mode;
+PointerPropertyRNA rna_Scene_node_tree;
+BoolPropertyRNA rna_Scene_use_nodes;
+PointerPropertyRNA rna_Scene_sequence_editor;
+CollectionPropertyRNA rna_Scene_keying_sets;
+CollectionPropertyRNA rna_Scene_keying_sets_all;
+PointerPropertyRNA rna_Scene_rigidbody_world;
+PointerPropertyRNA rna_Scene_tool_settings;
+PointerPropertyRNA rna_Scene_unit_settings;
+FloatPropertyRNA rna_Scene_gravity;
+BoolPropertyRNA rna_Scene_use_gravity;
+PointerPropertyRNA rna_Scene_render;
+PointerPropertyRNA rna_Scene_safe_areas;
+CollectionPropertyRNA rna_Scene_timeline_markers;
+CollectionPropertyRNA rna_Scene_transform_orientation_slots;
+PointerPropertyRNA rna_Scene_cursor;
+BoolPropertyRNA rna_Scene_use_audio;
+BoolPropertyRNA rna_Scene_use_audio_scrub;
+FloatPropertyRNA rna_Scene_audio_doppler_speed;
+FloatPropertyRNA rna_Scene_audio_doppler_factor;
+EnumPropertyRNA rna_Scene_audio_distance_model;
+FloatPropertyRNA rna_Scene_audio_volume;
+PointerPropertyRNA rna_Scene_grease_pencil;
+PointerPropertyRNA rna_Scene_active_clip;
+PointerPropertyRNA rna_Scene_view_settings;
+PointerPropertyRNA rna_Scene_display_settings;
+PointerPropertyRNA rna_Scene_sequencer_colorspace_settings;
+CollectionPropertyRNA rna_Scene_view_layers;
+PointerPropertyRNA rna_Scene_collection;
+PointerPropertyRNA rna_Scene_display;
+PointerPropertyRNA rna_Scene_eevee;
+PointerPropertyRNA rna_Scene_grease_pencil_settings;
+
+extern FunctionRNA rna_ID_evaluated_get_func;
+extern PointerPropertyRNA rna_ID_evaluated_get_depsgraph;
+extern PointerPropertyRNA rna_ID_evaluated_get_id;
+
+extern FunctionRNA rna_ID_copy_func;
+extern PointerPropertyRNA rna_ID_copy_id;
+
+extern FunctionRNA rna_ID_asset_mark_func;
+extern FunctionRNA rna_ID_asset_clear_func;
+extern FunctionRNA rna_ID_asset_generate_preview_func;
+extern FunctionRNA rna_ID_override_create_func;
+extern PointerPropertyRNA rna_ID_override_create_id;
+extern BoolPropertyRNA rna_ID_override_create_remap_local_usages;
+
+extern FunctionRNA rna_ID_override_hierarchy_create_func;
+extern PointerPropertyRNA rna_ID_override_hierarchy_create_id;
+extern PointerPropertyRNA rna_ID_override_hierarchy_create_scene;
+extern PointerPropertyRNA rna_ID_override_hierarchy_create_view_layer;
+extern PointerPropertyRNA rna_ID_override_hierarchy_create_reference;
+
+extern FunctionRNA rna_ID_override_template_create_func;
+extern FunctionRNA rna_ID_user_clear_func;
+extern FunctionRNA rna_ID_user_remap_func;
+extern PointerPropertyRNA rna_ID_user_remap_new_id;
+
+extern FunctionRNA rna_ID_make_local_func;
+extern BoolPropertyRNA rna_ID_make_local_clear_proxy;
+extern PointerPropertyRNA rna_ID_make_local_id;
+
+extern FunctionRNA rna_ID_user_of_id_func;
+extern PointerPropertyRNA rna_ID_user_of_id_id;
+extern IntPropertyRNA rna_ID_user_of_id_count;
+
+extern FunctionRNA rna_ID_animation_data_create_func;
+extern PointerPropertyRNA rna_ID_animation_data_create_anim_data;
+
+extern FunctionRNA rna_ID_animation_data_clear_func;
+extern FunctionRNA rna_ID_update_tag_func;
+extern EnumPropertyRNA rna_ID_update_tag_refresh;
+
+extern FunctionRNA rna_ID_preview_ensure_func;
+extern PointerPropertyRNA rna_ID_preview_ensure_preview_image;
+
+
+extern FunctionRNA rna_Scene_update_render_engine_func;
+extern FunctionRNA rna_Scene_statistics_func;
+extern PointerPropertyRNA rna_Scene_statistics_view_layer;
+extern StringPropertyRNA rna_Scene_statistics_statistics;
+
+extern FunctionRNA rna_Scene_frame_set_func;
+extern IntPropertyRNA rna_Scene_frame_set_frame;
+extern FloatPropertyRNA rna_Scene_frame_set_subframe;
+
+extern FunctionRNA rna_Scene_uvedit_aspect_func;
+extern PointerPropertyRNA rna_Scene_uvedit_aspect_object;
+extern FloatPropertyRNA rna_Scene_uvedit_aspect_result;
+
+extern FunctionRNA rna_Scene_ray_cast_func;
+extern PointerPropertyRNA rna_Scene_ray_cast_depsgraph;
+extern FloatPropertyRNA rna_Scene_ray_cast_origin;
+extern FloatPropertyRNA rna_Scene_ray_cast_direction;
+extern FloatPropertyRNA rna_Scene_ray_cast_distance;
+extern BoolPropertyRNA rna_Scene_ray_cast_result;
+extern FloatPropertyRNA rna_Scene_ray_cast_location;
+extern FloatPropertyRNA rna_Scene_ray_cast_normal;
+extern IntPropertyRNA rna_Scene_ray_cast_index;
+extern PointerPropertyRNA rna_Scene_ray_cast_object;
+extern FloatPropertyRNA rna_Scene_ray_cast_matrix;
+
+extern FunctionRNA rna_Scene_sequence_editor_create_func;
+extern PointerPropertyRNA rna_Scene_sequence_editor_create_sequence_editor;
+
+extern FunctionRNA rna_Scene_sequence_editor_clear_func;
+extern FunctionRNA rna_Scene_alembic_export_func;
+extern StringPropertyRNA rna_Scene_alembic_export_filepath;
+extern IntPropertyRNA rna_Scene_alembic_export_frame_start;
+extern IntPropertyRNA rna_Scene_alembic_export_frame_end;
+extern IntPropertyRNA rna_Scene_alembic_export_xform_samples;
+extern IntPropertyRNA rna_Scene_alembic_export_geom_samples;
+extern FloatPropertyRNA rna_Scene_alembic_export_shutter_open;
+extern FloatPropertyRNA rna_Scene_alembic_export_shutter_close;
+extern BoolPropertyRNA rna_Scene_alembic_export_selected_only;
+extern BoolPropertyRNA rna_Scene_alembic_export_uvs;
+extern BoolPropertyRNA rna_Scene_alembic_export_normals;
+extern BoolPropertyRNA rna_Scene_alembic_export_vcolors;
+extern BoolPropertyRNA rna_Scene_alembic_export_apply_subdiv;
+extern BoolPropertyRNA rna_Scene_alembic_export_flatten;
+extern BoolPropertyRNA rna_Scene_alembic_export_visible_objects_only;
+extern BoolPropertyRNA rna_Scene_alembic_export_face_sets;
+extern BoolPropertyRNA rna_Scene_alembic_export_subdiv_schema;
+extern BoolPropertyRNA rna_Scene_alembic_export_export_hair;
+extern BoolPropertyRNA rna_Scene_alembic_export_export_particles;
+extern BoolPropertyRNA rna_Scene_alembic_export_packuv;
+extern FloatPropertyRNA rna_Scene_alembic_export_scale;
+extern BoolPropertyRNA rna_Scene_alembic_export_triangulate;
+extern EnumPropertyRNA rna_Scene_alembic_export_quad_method;
+extern EnumPropertyRNA rna_Scene_alembic_export_ngon_method;
+
+
+
+CollectionPropertyRNA rna_SceneObjects_rna_properties;
+PointerPropertyRNA rna_SceneObjects_rna_type;
+
+
+CollectionPropertyRNA rna_KeyingSets_rna_properties;
+PointerPropertyRNA rna_KeyingSets_rna_type;
+PointerPropertyRNA rna_KeyingSets_active;
+IntPropertyRNA rna_KeyingSets_active_index;
+
+extern FunctionRNA rna_KeyingSets_new_func;
+extern StringPropertyRNA rna_KeyingSets_new_idname;
+extern StringPropertyRNA rna_KeyingSets_new_name;
+extern PointerPropertyRNA rna_KeyingSets_new_keyingset;
+
+
+
+CollectionPropertyRNA rna_KeyingSetsAll_rna_properties;
+PointerPropertyRNA rna_KeyingSetsAll_rna_type;
+PointerPropertyRNA rna_KeyingSetsAll_active;
+IntPropertyRNA rna_KeyingSetsAll_active_index;
+
+
+CollectionPropertyRNA rna_TimelineMarkers_rna_properties;
+PointerPropertyRNA rna_TimelineMarkers_rna_type;
+
+extern FunctionRNA rna_TimelineMarkers_new_func;
+extern StringPropertyRNA rna_TimelineMarkers_new_name;
+extern IntPropertyRNA rna_TimelineMarkers_new_frame;
+extern PointerPropertyRNA rna_TimelineMarkers_new_marker;
+
+extern FunctionRNA rna_TimelineMarkers_remove_func;
+extern PointerPropertyRNA rna_TimelineMarkers_remove_marker;
+
+extern FunctionRNA rna_TimelineMarkers_clear_func;
+
+
+CollectionPropertyRNA rna_ViewLayers_rna_properties;
+PointerPropertyRNA rna_ViewLayers_rna_type;
+
+extern FunctionRNA rna_ViewLayers_new_func;
+extern StringPropertyRNA rna_ViewLayers_new_name;
+extern PointerPropertyRNA rna_ViewLayers_new_result;
+
+extern FunctionRNA rna_ViewLayers_remove_func;
+extern PointerPropertyRNA rna_ViewLayers_remove_layer;
+
+
+
+CollectionPropertyRNA rna_ToolSettings_rna_properties;
+PointerPropertyRNA rna_ToolSettings_rna_type;
+PointerPropertyRNA rna_ToolSettings_sculpt;
+PointerPropertyRNA rna_ToolSettings_curves_sculpt;
+BoolPropertyRNA rna_ToolSettings_use_auto_normalize;
+BoolPropertyRNA rna_ToolSettings_use_lock_relative;
+BoolPropertyRNA rna_ToolSettings_use_multipaint;
+EnumPropertyRNA rna_ToolSettings_vertex_group_user;
+EnumPropertyRNA rna_ToolSettings_vertex_group_subset;
+PointerPropertyRNA rna_ToolSettings_vertex_paint;
+PointerPropertyRNA rna_ToolSettings_weight_paint;
+PointerPropertyRNA rna_ToolSettings_image_paint;
+PointerPropertyRNA rna_ToolSettings_paint_mode;
+PointerPropertyRNA rna_ToolSettings_uv_sculpt;
+PointerPropertyRNA rna_ToolSettings_gpencil_paint;
+PointerPropertyRNA rna_ToolSettings_gpencil_vertex_paint;
+PointerPropertyRNA rna_ToolSettings_gpencil_sculpt_paint;
+PointerPropertyRNA rna_ToolSettings_gpencil_weight_paint;
+PointerPropertyRNA rna_ToolSettings_particle_edit;
+BoolPropertyRNA rna_ToolSettings_uv_sculpt_lock_borders;
+BoolPropertyRNA rna_ToolSettings_uv_sculpt_all_islands;
+EnumPropertyRNA rna_ToolSettings_uv_relax_method;
+BoolPropertyRNA rna_ToolSettings_lock_object_mode;
+EnumPropertyRNA rna_ToolSettings_workspace_tool_type;
+BoolPropertyRNA rna_ToolSettings_use_proportional_edit;
+BoolPropertyRNA rna_ToolSettings_use_proportional_edit_objects;
+BoolPropertyRNA rna_ToolSettings_use_proportional_projected;
+BoolPropertyRNA rna_ToolSettings_use_proportional_connected;
+BoolPropertyRNA rna_ToolSettings_use_proportional_edit_mask;
+BoolPropertyRNA rna_ToolSettings_use_proportional_action;
+BoolPropertyRNA rna_ToolSettings_use_proportional_fcurve;
+BoolPropertyRNA rna_ToolSettings_lock_markers;
+EnumPropertyRNA rna_ToolSettings_proportional_edit_falloff;
+FloatPropertyRNA rna_ToolSettings_proportional_size;
+FloatPropertyRNA rna_ToolSettings_double_threshold;
+EnumPropertyRNA rna_ToolSettings_transform_pivot_point;
+BoolPropertyRNA rna_ToolSettings_use_transform_pivot_point_align;
+BoolPropertyRNA rna_ToolSettings_use_transform_data_origin;
+BoolPropertyRNA rna_ToolSettings_use_transform_skip_children;
+BoolPropertyRNA rna_ToolSettings_use_transform_correct_face_attributes;
+BoolPropertyRNA rna_ToolSettings_use_transform_correct_keep_connected;
+BoolPropertyRNA rna_ToolSettings_use_mesh_automerge;
+BoolPropertyRNA rna_ToolSettings_use_mesh_automerge_and_split;
+BoolPropertyRNA rna_ToolSettings_use_snap;
+BoolPropertyRNA rna_ToolSettings_use_snap_node;
+BoolPropertyRNA rna_ToolSettings_use_snap_sequencer;
+BoolPropertyRNA rna_ToolSettings_use_snap_uv;
+BoolPropertyRNA rna_ToolSettings_use_snap_align_rotation;
+BoolPropertyRNA rna_ToolSettings_use_snap_grid_absolute;
+EnumPropertyRNA rna_ToolSettings_snap_elements;
+IntPropertyRNA rna_ToolSettings_snap_face_nearest_steps;
+BoolPropertyRNA rna_ToolSettings_use_snap_to_same_target;
+EnumPropertyRNA rna_ToolSettings_snap_node_element;
+EnumPropertyRNA rna_ToolSettings_snap_uv_element;
+BoolPropertyRNA rna_ToolSettings_use_snap_uv_grid_absolute;
+EnumPropertyRNA rna_ToolSettings_snap_target;
+BoolPropertyRNA rna_ToolSettings_use_snap_peel_object;
+BoolPropertyRNA rna_ToolSettings_use_snap_project;
+BoolPropertyRNA rna_ToolSettings_use_snap_backface_culling;
+BoolPropertyRNA rna_ToolSettings_use_snap_self;
+BoolPropertyRNA rna_ToolSettings_use_snap_edit;
+BoolPropertyRNA rna_ToolSettings_use_snap_nonedit;
+BoolPropertyRNA rna_ToolSettings_use_snap_selectable;
+BoolPropertyRNA rna_ToolSettings_use_snap_translate;
+BoolPropertyRNA rna_ToolSettings_use_snap_rotate;
+BoolPropertyRNA rna_ToolSettings_use_snap_scale;
+BoolPropertyRNA rna_ToolSettings_use_gpencil_draw_additive;
+BoolPropertyRNA rna_ToolSettings_use_gpencil_draw_onback;
+BoolPropertyRNA rna_ToolSettings_use_gpencil_thumbnail_list;
+BoolPropertyRNA rna_ToolSettings_use_gpencil_weight_data_add;
+BoolPropertyRNA rna_ToolSettings_use_gpencil_automerge_strokes;
+PointerPropertyRNA rna_ToolSettings_gpencil_sculpt;
+PointerPropertyRNA rna_ToolSettings_gpencil_interpolate;
+EnumPropertyRNA rna_ToolSettings_gpencil_stroke_placement_view3d;
+EnumPropertyRNA rna_ToolSettings_gpencil_stroke_snap_mode;
+BoolPropertyRNA rna_ToolSettings_use_gpencil_stroke_endpoints;
+EnumPropertyRNA rna_ToolSettings_gpencil_selectmode_edit;
+BoolPropertyRNA rna_ToolSettings_use_gpencil_select_mask_point;
+BoolPropertyRNA rna_ToolSettings_use_gpencil_select_mask_stroke;
+BoolPropertyRNA rna_ToolSettings_use_gpencil_select_mask_segment;
+BoolPropertyRNA rna_ToolSettings_use_gpencil_vertex_select_mask_point;
+BoolPropertyRNA rna_ToolSettings_use_gpencil_vertex_select_mask_stroke;
+BoolPropertyRNA rna_ToolSettings_use_gpencil_vertex_select_mask_segment;
+EnumPropertyRNA rna_ToolSettings_annotation_stroke_placement_view2d;
+EnumPropertyRNA rna_ToolSettings_annotation_stroke_placement_view3d;
+IntPropertyRNA rna_ToolSettings_annotation_thickness;
+BoolPropertyRNA rna_ToolSettings_use_keyframe_insert_auto;
+EnumPropertyRNA rna_ToolSettings_auto_keying_mode;
+BoolPropertyRNA rna_ToolSettings_use_record_with_nla;
+BoolPropertyRNA rna_ToolSettings_use_keyframe_insert_keyingset;
+BoolPropertyRNA rna_ToolSettings_use_keyframe_cycle_aware;
+EnumPropertyRNA rna_ToolSettings_keyframe_type;
+EnumPropertyRNA rna_ToolSettings_uv_select_mode;
+EnumPropertyRNA rna_ToolSettings_uv_sticky_select_mode;
+BoolPropertyRNA rna_ToolSettings_use_uv_select_sync;
+BoolPropertyRNA rna_ToolSettings_show_uv_local_view;
+BoolPropertyRNA rna_ToolSettings_mesh_select_mode;
+FloatPropertyRNA rna_ToolSettings_vertex_group_weight;
+BoolPropertyRNA rna_ToolSettings_use_edge_path_live_unwrap;
+FloatPropertyRNA rna_ToolSettings_normal_vector;
+PointerPropertyRNA rna_ToolSettings_unified_paint_settings;
+PointerPropertyRNA rna_ToolSettings_curve_paint_settings;
+PointerPropertyRNA rna_ToolSettings_statvis;
+PointerPropertyRNA rna_ToolSettings_custom_bevel_profile_preset;
+PointerPropertyRNA rna_ToolSettings_sequencer_tool_settings;
+
+
+CollectionPropertyRNA rna_GPencilInterpolateSettings_rna_properties;
+PointerPropertyRNA rna_GPencilInterpolateSettings_rna_type;
+PointerPropertyRNA rna_GPencilInterpolateSettings_interpolation_curve;
+
+
+CollectionPropertyRNA rna_UnifiedPaintSettings_rna_properties;
+PointerPropertyRNA rna_UnifiedPaintSettings_rna_type;
+BoolPropertyRNA rna_UnifiedPaintSettings_use_unified_size;
+BoolPropertyRNA rna_UnifiedPaintSettings_use_unified_strength;
+BoolPropertyRNA rna_UnifiedPaintSettings_use_unified_weight;
+BoolPropertyRNA rna_UnifiedPaintSettings_use_unified_color;
+IntPropertyRNA rna_UnifiedPaintSettings_size;
+FloatPropertyRNA rna_UnifiedPaintSettings_unprojected_radius;
+FloatPropertyRNA rna_UnifiedPaintSettings_strength;
+FloatPropertyRNA rna_UnifiedPaintSettings_weight;
+FloatPropertyRNA rna_UnifiedPaintSettings_color;
+FloatPropertyRNA rna_UnifiedPaintSettings_secondary_color;
+EnumPropertyRNA rna_UnifiedPaintSettings_use_locked_size;
+
+
+CollectionPropertyRNA rna_CurvePaintSettings_rna_properties;
+PointerPropertyRNA rna_CurvePaintSettings_rna_type;
+EnumPropertyRNA rna_CurvePaintSettings_curve_type;
+BoolPropertyRNA rna_CurvePaintSettings_use_corners_detect;
+BoolPropertyRNA rna_CurvePaintSettings_use_pressure_radius;
+BoolPropertyRNA rna_CurvePaintSettings_use_stroke_endpoints;
+BoolPropertyRNA rna_CurvePaintSettings_use_offset_absolute;
+IntPropertyRNA rna_CurvePaintSettings_error_threshold;
+EnumPropertyRNA rna_CurvePaintSettings_fit_method;
+FloatPropertyRNA rna_CurvePaintSettings_corner_angle;
+FloatPropertyRNA rna_CurvePaintSettings_radius_min;
+FloatPropertyRNA rna_CurvePaintSettings_radius_max;
+FloatPropertyRNA rna_CurvePaintSettings_radius_taper_start;
+FloatPropertyRNA rna_CurvePaintSettings_radius_taper_end;
+FloatPropertyRNA rna_CurvePaintSettings_surface_offset;
+EnumPropertyRNA rna_CurvePaintSettings_depth_mode;
+EnumPropertyRNA rna_CurvePaintSettings_surface_plane;
+
+
+CollectionPropertyRNA rna_SequencerToolSettings_rna_properties;
+PointerPropertyRNA rna_SequencerToolSettings_rna_type;
+EnumPropertyRNA rna_SequencerToolSettings_fit_method;
+BoolPropertyRNA rna_SequencerToolSettings_snap_to_current_frame;
+BoolPropertyRNA rna_SequencerToolSettings_snap_to_hold_offset;
+BoolPropertyRNA rna_SequencerToolSettings_snap_ignore_muted;
+BoolPropertyRNA rna_SequencerToolSettings_snap_ignore_sound;
+BoolPropertyRNA rna_SequencerToolSettings_use_snap_current_frame_to_strips;
+IntPropertyRNA rna_SequencerToolSettings_snap_distance;
+EnumPropertyRNA rna_SequencerToolSettings_overlap_mode;
+EnumPropertyRNA rna_SequencerToolSettings_pivot_point;
+
+
+CollectionPropertyRNA rna_MeshStatVis_rna_properties;
+PointerPropertyRNA rna_MeshStatVis_rna_type;
+EnumPropertyRNA rna_MeshStatVis_type;
+FloatPropertyRNA rna_MeshStatVis_overhang_min;
+FloatPropertyRNA rna_MeshStatVis_overhang_max;
+EnumPropertyRNA rna_MeshStatVis_overhang_axis;
+FloatPropertyRNA rna_MeshStatVis_thickness_min;
+FloatPropertyRNA rna_MeshStatVis_thickness_max;
+IntPropertyRNA rna_MeshStatVis_thickness_samples;
+FloatPropertyRNA rna_MeshStatVis_distort_min;
+FloatPropertyRNA rna_MeshStatVis_distort_max;
+FloatPropertyRNA rna_MeshStatVis_sharp_min;
+FloatPropertyRNA rna_MeshStatVis_sharp_max;
+
+
+CollectionPropertyRNA rna_UnitSettings_rna_properties;
+PointerPropertyRNA rna_UnitSettings_rna_type;
+EnumPropertyRNA rna_UnitSettings_system;
+EnumPropertyRNA rna_UnitSettings_system_rotation;
+FloatPropertyRNA rna_UnitSettings_scale_length;
+BoolPropertyRNA rna_UnitSettings_use_separate;
+EnumPropertyRNA rna_UnitSettings_length_unit;
+EnumPropertyRNA rna_UnitSettings_mass_unit;
+EnumPropertyRNA rna_UnitSettings_time_unit;
+EnumPropertyRNA rna_UnitSettings_temperature_unit;
+
+
+CollectionPropertyRNA rna_Stereo3dFormat_rna_properties;
+PointerPropertyRNA rna_Stereo3dFormat_rna_type;
+EnumPropertyRNA rna_Stereo3dFormat_display_mode;
+EnumPropertyRNA rna_Stereo3dFormat_anaglyph_type;
+EnumPropertyRNA rna_Stereo3dFormat_interlace_type;
+BoolPropertyRNA rna_Stereo3dFormat_use_interlace_swap;
+BoolPropertyRNA rna_Stereo3dFormat_use_sidebyside_crosseyed;
+BoolPropertyRNA rna_Stereo3dFormat_use_squeezed_frame;
+
+
+CollectionPropertyRNA rna_ImageFormatSettings_rna_properties;
+PointerPropertyRNA rna_ImageFormatSettings_rna_type;
+EnumPropertyRNA rna_ImageFormatSettings_file_format;
+EnumPropertyRNA rna_ImageFormatSettings_color_mode;
+EnumPropertyRNA rna_ImageFormatSettings_color_depth;
+IntPropertyRNA rna_ImageFormatSettings_quality;
+IntPropertyRNA rna_ImageFormatSettings_compression;
+BoolPropertyRNA rna_ImageFormatSettings_use_zbuffer;
+BoolPropertyRNA rna_ImageFormatSettings_use_preview;
+EnumPropertyRNA rna_ImageFormatSettings_exr_codec;
+BoolPropertyRNA rna_ImageFormatSettings_use_jpeg2k_ycc;
+BoolPropertyRNA rna_ImageFormatSettings_use_jpeg2k_cinema_preset;
+BoolPropertyRNA rna_ImageFormatSettings_use_jpeg2k_cinema_48;
+EnumPropertyRNA rna_ImageFormatSettings_jpeg2k_codec;
+EnumPropertyRNA rna_ImageFormatSettings_tiff_codec;
+BoolPropertyRNA rna_ImageFormatSettings_use_cineon_log;
+IntPropertyRNA rna_ImageFormatSettings_cineon_black;
+IntPropertyRNA rna_ImageFormatSettings_cineon_white;
+FloatPropertyRNA rna_ImageFormatSettings_cineon_gamma;
+EnumPropertyRNA rna_ImageFormatSettings_views_format;
+PointerPropertyRNA rna_ImageFormatSettings_stereo_3d_format;
+EnumPropertyRNA rna_ImageFormatSettings_color_management;
+PointerPropertyRNA rna_ImageFormatSettings_view_settings;
+PointerPropertyRNA rna_ImageFormatSettings_display_settings;
+PointerPropertyRNA rna_ImageFormatSettings_linear_colorspace_settings;
+BoolPropertyRNA rna_ImageFormatSettings_has_linear_colorspace;
+
+
+CollectionPropertyRNA rna_TransformOrientation_rna_properties;
+PointerPropertyRNA rna_TransformOrientation_rna_type;
+FloatPropertyRNA rna_TransformOrientation_matrix;
+StringPropertyRNA rna_TransformOrientation_name;
+
+
+CollectionPropertyRNA rna_TransformOrientationSlot_rna_properties;
+PointerPropertyRNA rna_TransformOrientationSlot_rna_type;
+EnumPropertyRNA rna_TransformOrientationSlot_type;
+PointerPropertyRNA rna_TransformOrientationSlot_custom_orientation;
+BoolPropertyRNA rna_TransformOrientationSlot_use;
+
+
+CollectionPropertyRNA rna_View3DCursor_rna_properties;
+PointerPropertyRNA rna_View3DCursor_rna_type;
+FloatPropertyRNA rna_View3DCursor_location;
+FloatPropertyRNA rna_View3DCursor_rotation_quaternion;
+FloatPropertyRNA rna_View3DCursor_rotation_axis_angle;
+FloatPropertyRNA rna_View3DCursor_rotation_euler;
+EnumPropertyRNA rna_View3DCursor_rotation_mode;
+FloatPropertyRNA rna_View3DCursor_matrix;
+
+
+extern CollectionPropertyRNA rna_PropertyGroup_rna_properties;
+extern PointerPropertyRNA rna_PropertyGroup_rna_type;
+extern StringPropertyRNA rna_PropertyGroup_name;
+
+IntPropertyRNA rna_SelectedUvElement_element_index;
+IntPropertyRNA rna_SelectedUvElement_face_index;
+
+
+CollectionPropertyRNA rna_DisplaySafeAreas_rna_properties;
+PointerPropertyRNA rna_DisplaySafeAreas_rna_type;
+FloatPropertyRNA rna_DisplaySafeAreas_title;
+FloatPropertyRNA rna_DisplaySafeAreas_action;
+FloatPropertyRNA rna_DisplaySafeAreas_title_center;
+FloatPropertyRNA rna_DisplaySafeAreas_action_center;
+
+
+CollectionPropertyRNA rna_SceneDisplay_rna_properties;
+PointerPropertyRNA rna_SceneDisplay_rna_type;
+FloatPropertyRNA rna_SceneDisplay_light_direction;
+FloatPropertyRNA rna_SceneDisplay_shadow_shift;
+FloatPropertyRNA rna_SceneDisplay_shadow_focus;
+FloatPropertyRNA rna_SceneDisplay_matcap_ssao_distance;
+FloatPropertyRNA rna_SceneDisplay_matcap_ssao_attenuation;
+IntPropertyRNA rna_SceneDisplay_matcap_ssao_samples;
+EnumPropertyRNA rna_SceneDisplay_render_aa;
+EnumPropertyRNA rna_SceneDisplay_viewport_aa;
+PointerPropertyRNA rna_SceneDisplay_shading;
+
+
+CollectionPropertyRNA rna_SceneEEVEE_rna_properties;
+PointerPropertyRNA rna_SceneEEVEE_rna_type;
+IntPropertyRNA rna_SceneEEVEE_gi_diffuse_bounces;
+EnumPropertyRNA rna_SceneEEVEE_gi_cubemap_resolution;
+EnumPropertyRNA rna_SceneEEVEE_gi_visibility_resolution;
+FloatPropertyRNA rna_SceneEEVEE_gi_irradiance_smoothing;
+FloatPropertyRNA rna_SceneEEVEE_gi_glossy_clamp;
+FloatPropertyRNA rna_SceneEEVEE_gi_filter_quality;
+BoolPropertyRNA rna_SceneEEVEE_gi_show_irradiance;
+BoolPropertyRNA rna_SceneEEVEE_gi_show_cubemaps;
+FloatPropertyRNA rna_SceneEEVEE_gi_irradiance_display_size;
+FloatPropertyRNA rna_SceneEEVEE_gi_cubemap_display_size;
+BoolPropertyRNA rna_SceneEEVEE_gi_auto_bake;
+StringPropertyRNA rna_SceneEEVEE_gi_cache_info;
+IntPropertyRNA rna_SceneEEVEE_taa_samples;
+IntPropertyRNA rna_SceneEEVEE_taa_render_samples;
+BoolPropertyRNA rna_SceneEEVEE_use_taa_reprojection;
+IntPropertyRNA rna_SceneEEVEE_sss_samples;
+FloatPropertyRNA rna_SceneEEVEE_sss_jitter_threshold;
+BoolPropertyRNA rna_SceneEEVEE_use_ssr;
+BoolPropertyRNA rna_SceneEEVEE_use_ssr_refraction;
+BoolPropertyRNA rna_SceneEEVEE_use_ssr_halfres;
+FloatPropertyRNA rna_SceneEEVEE_ssr_quality;
+FloatPropertyRNA rna_SceneEEVEE_ssr_max_roughness;
+FloatPropertyRNA rna_SceneEEVEE_ssr_thickness;
+FloatPropertyRNA rna_SceneEEVEE_ssr_border_fade;
+FloatPropertyRNA rna_SceneEEVEE_ssr_firefly_fac;
+FloatPropertyRNA rna_SceneEEVEE_volumetric_start;
+FloatPropertyRNA rna_SceneEEVEE_volumetric_end;
+EnumPropertyRNA rna_SceneEEVEE_volumetric_tile_size;
+IntPropertyRNA rna_SceneEEVEE_volumetric_samples;
+FloatPropertyRNA rna_SceneEEVEE_volumetric_sample_distribution;
+BoolPropertyRNA rna_SceneEEVEE_use_volumetric_lights;
+FloatPropertyRNA rna_SceneEEVEE_volumetric_light_clamp;
+BoolPropertyRNA rna_SceneEEVEE_use_volumetric_shadows;
+IntPropertyRNA rna_SceneEEVEE_volumetric_shadow_samples;
+BoolPropertyRNA rna_SceneEEVEE_use_gtao;
+BoolPropertyRNA rna_SceneEEVEE_use_gtao_bent_normals;
+BoolPropertyRNA rna_SceneEEVEE_use_gtao_bounce;
+FloatPropertyRNA rna_SceneEEVEE_gtao_factor;
+FloatPropertyRNA rna_SceneEEVEE_gtao_quality;
+FloatPropertyRNA rna_SceneEEVEE_gtao_distance;
+FloatPropertyRNA rna_SceneEEVEE_bokeh_max_size;
+FloatPropertyRNA rna_SceneEEVEE_bokeh_threshold;
+FloatPropertyRNA rna_SceneEEVEE_bokeh_neighbor_max;
+FloatPropertyRNA rna_SceneEEVEE_bokeh_denoise_fac;
+BoolPropertyRNA rna_SceneEEVEE_use_bokeh_high_quality_slight_defocus;
+BoolPropertyRNA rna_SceneEEVEE_use_bokeh_jittered;
+FloatPropertyRNA rna_SceneEEVEE_bokeh_overblur;
+BoolPropertyRNA rna_SceneEEVEE_use_bloom;
+FloatPropertyRNA rna_SceneEEVEE_bloom_threshold;
+FloatPropertyRNA rna_SceneEEVEE_bloom_color;
+FloatPropertyRNA rna_SceneEEVEE_bloom_knee;
+FloatPropertyRNA rna_SceneEEVEE_bloom_radius;
+FloatPropertyRNA rna_SceneEEVEE_bloom_clamp;
+FloatPropertyRNA rna_SceneEEVEE_bloom_intensity;
+BoolPropertyRNA rna_SceneEEVEE_use_motion_blur;
+FloatPropertyRNA rna_SceneEEVEE_motion_blur_shutter;
+FloatPropertyRNA rna_SceneEEVEE_motion_blur_depth_scale;
+IntPropertyRNA rna_SceneEEVEE_motion_blur_max;
+IntPropertyRNA rna_SceneEEVEE_motion_blur_steps;
+EnumPropertyRNA rna_SceneEEVEE_motion_blur_position;
+EnumPropertyRNA rna_SceneEEVEE_shadow_cube_size;
+EnumPropertyRNA rna_SceneEEVEE_shadow_cascade_size;
+BoolPropertyRNA rna_SceneEEVEE_use_shadow_high_bitdepth;
+BoolPropertyRNA rna_SceneEEVEE_use_shadow_id_high_bitdepth;
+BoolPropertyRNA rna_SceneEEVEE_use_soft_shadows;
+FloatPropertyRNA rna_SceneEEVEE_light_threshold;
+BoolPropertyRNA rna_SceneEEVEE_use_overscan;
+FloatPropertyRNA rna_SceneEEVEE_overscan_size;
+
+
+CollectionPropertyRNA rna_AOV_rna_properties;
+PointerPropertyRNA rna_AOV_rna_type;
+StringPropertyRNA rna_AOV_name;
+BoolPropertyRNA rna_AOV_is_valid;
+EnumPropertyRNA rna_AOV_type;
+
+
+CollectionPropertyRNA rna_Lightgroup_rna_properties;
+PointerPropertyRNA rna_Lightgroup_rna_type;
+StringPropertyRNA rna_Lightgroup_name;
+
+
+CollectionPropertyRNA rna_ViewLayerEEVEE_rna_properties;
+PointerPropertyRNA rna_ViewLayerEEVEE_rna_type;
+BoolPropertyRNA rna_ViewLayerEEVEE_use_pass_volume_direct;
+BoolPropertyRNA rna_ViewLayerEEVEE_use_pass_bloom;
+
+
+CollectionPropertyRNA rna_SceneGpencil_rna_properties;
+PointerPropertyRNA rna_SceneGpencil_rna_type;
+FloatPropertyRNA rna_SceneGpencil_antialias_threshold;
+
+
+CollectionPropertyRNA rna_FFmpegSettings_rna_properties;
+PointerPropertyRNA rna_FFmpegSettings_rna_type;
+EnumPropertyRNA rna_FFmpegSettings_format;
+EnumPropertyRNA rna_FFmpegSettings_codec;
+IntPropertyRNA rna_FFmpegSettings_video_bitrate;
+IntPropertyRNA rna_FFmpegSettings_minrate;
+IntPropertyRNA rna_FFmpegSettings_maxrate;
+IntPropertyRNA rna_FFmpegSettings_muxrate;
+IntPropertyRNA rna_FFmpegSettings_gopsize;
+IntPropertyRNA rna_FFmpegSettings_max_b_frames;
+BoolPropertyRNA rna_FFmpegSettings_use_max_b_frames;
+IntPropertyRNA rna_FFmpegSettings_buffersize;
+IntPropertyRNA rna_FFmpegSettings_packetsize;
+EnumPropertyRNA rna_FFmpegSettings_constant_rate_factor;
+EnumPropertyRNA rna_FFmpegSettings_ffmpeg_preset;
+BoolPropertyRNA rna_FFmpegSettings_use_autosplit;
+BoolPropertyRNA rna_FFmpegSettings_use_lossless_output;
+EnumPropertyRNA rna_FFmpegSettings_audio_codec;
+IntPropertyRNA rna_FFmpegSettings_audio_bitrate;
+FloatPropertyRNA rna_FFmpegSettings_audio_volume;
+IntPropertyRNA rna_FFmpegSettings_audio_mixrate;
+EnumPropertyRNA rna_FFmpegSettings_audio_channels;
+
+
+CollectionPropertyRNA rna_RenderSettings_rna_properties;
+PointerPropertyRNA rna_RenderSettings_rna_type;
+PointerPropertyRNA rna_RenderSettings_image_settings;
+IntPropertyRNA rna_RenderSettings_resolution_x;
+IntPropertyRNA rna_RenderSettings_resolution_y;
+IntPropertyRNA rna_RenderSettings_resolution_percentage;
+EnumPropertyRNA rna_RenderSettings_preview_pixel_size;
+FloatPropertyRNA rna_RenderSettings_pixel_aspect_x;
+FloatPropertyRNA rna_RenderSettings_pixel_aspect_y;
+PointerPropertyRNA rna_RenderSettings_ffmpeg;
+IntPropertyRNA rna_RenderSettings_fps;
+FloatPropertyRNA rna_RenderSettings_fps_base;
+IntPropertyRNA rna_RenderSettings_frame_map_old;
+IntPropertyRNA rna_RenderSettings_frame_map_new;
+FloatPropertyRNA rna_RenderSettings_dither_intensity;
+FloatPropertyRNA rna_RenderSettings_filter_size;
+BoolPropertyRNA rna_RenderSettings_film_transparent;
+BoolPropertyRNA rna_RenderSettings_use_freestyle;
+IntPropertyRNA rna_RenderSettings_threads;
+EnumPropertyRNA rna_RenderSettings_threads_mode;
+BoolPropertyRNA rna_RenderSettings_use_motion_blur;
+FloatPropertyRNA rna_RenderSettings_motion_blur_shutter;
+PointerPropertyRNA rna_RenderSettings_motion_blur_shutter_curve;
+EnumPropertyRNA rna_RenderSettings_hair_type;
+IntPropertyRNA rna_RenderSettings_hair_subdiv;
+BoolPropertyRNA rna_RenderSettings_use_high_quality_normals;
+BoolPropertyRNA rna_RenderSettings_use_border;
+FloatPropertyRNA rna_RenderSettings_border_min_x;
+FloatPropertyRNA rna_RenderSettings_border_min_y;
+FloatPropertyRNA rna_RenderSettings_border_max_x;
+FloatPropertyRNA rna_RenderSettings_border_max_y;
+BoolPropertyRNA rna_RenderSettings_use_crop_to_border;
+BoolPropertyRNA rna_RenderSettings_use_placeholder;
+BoolPropertyRNA rna_RenderSettings_use_overwrite;
+BoolPropertyRNA rna_RenderSettings_use_compositing;
+BoolPropertyRNA rna_RenderSettings_use_sequencer;
+BoolPropertyRNA rna_RenderSettings_use_file_extension;
+StringPropertyRNA rna_RenderSettings_file_extension;
+BoolPropertyRNA rna_RenderSettings_is_movie_format;
+BoolPropertyRNA rna_RenderSettings_use_lock_interface;
+StringPropertyRNA rna_RenderSettings_filepath;
+BoolPropertyRNA rna_RenderSettings_use_render_cache;
+EnumPropertyRNA rna_RenderSettings_bake_type;
+BoolPropertyRNA rna_RenderSettings_use_bake_selected_to_active;
+BoolPropertyRNA rna_RenderSettings_use_bake_clear;
+IntPropertyRNA rna_RenderSettings_bake_margin;
+EnumPropertyRNA rna_RenderSettings_bake_margin_type;
+FloatPropertyRNA rna_RenderSettings_bake_bias;
+BoolPropertyRNA rna_RenderSettings_use_bake_multires;
+BoolPropertyRNA rna_RenderSettings_use_bake_lores_mesh;
+IntPropertyRNA rna_RenderSettings_bake_samples;
+BoolPropertyRNA rna_RenderSettings_use_bake_user_scale;
+FloatPropertyRNA rna_RenderSettings_bake_user_scale;
+BoolPropertyRNA rna_RenderSettings_use_stamp_time;
+BoolPropertyRNA rna_RenderSettings_use_stamp_date;
+BoolPropertyRNA rna_RenderSettings_use_stamp_frame;
+BoolPropertyRNA rna_RenderSettings_use_stamp_frame_range;
+BoolPropertyRNA rna_RenderSettings_use_stamp_camera;
+BoolPropertyRNA rna_RenderSettings_use_stamp_lens;
+BoolPropertyRNA rna_RenderSettings_use_stamp_scene;
+BoolPropertyRNA rna_RenderSettings_use_stamp_note;
+BoolPropertyRNA rna_RenderSettings_use_stamp_marker;
+BoolPropertyRNA rna_RenderSettings_use_stamp_filename;
+BoolPropertyRNA rna_RenderSettings_use_stamp_sequencer_strip;
+BoolPropertyRNA rna_RenderSettings_use_stamp_render_time;
+StringPropertyRNA rna_RenderSettings_stamp_note_text;
+BoolPropertyRNA rna_RenderSettings_use_stamp;
+BoolPropertyRNA rna_RenderSettings_use_stamp_labels;
+EnumPropertyRNA rna_RenderSettings_metadata_input;
+BoolPropertyRNA rna_RenderSettings_use_stamp_memory;
+BoolPropertyRNA rna_RenderSettings_use_stamp_hostname;
+IntPropertyRNA rna_RenderSettings_stamp_font_size;
+FloatPropertyRNA rna_RenderSettings_stamp_foreground;
+FloatPropertyRNA rna_RenderSettings_stamp_background;
+EnumPropertyRNA rna_RenderSettings_sequencer_gl_preview;
+BoolPropertyRNA rna_RenderSettings_use_sequencer_override_scene_strip;
+BoolPropertyRNA rna_RenderSettings_use_single_layer;
+CollectionPropertyRNA rna_RenderSettings_views;
+CollectionPropertyRNA rna_RenderSettings_stereo_views;
+BoolPropertyRNA rna_RenderSettings_use_multiview;
+EnumPropertyRNA rna_RenderSettings_views_format;
+EnumPropertyRNA rna_RenderSettings_engine;
+BoolPropertyRNA rna_RenderSettings_has_multiple_engines;
+BoolPropertyRNA rna_RenderSettings_use_spherical_stereo;
+BoolPropertyRNA rna_RenderSettings_use_simplify;
+IntPropertyRNA rna_RenderSettings_simplify_subdivision;
+FloatPropertyRNA rna_RenderSettings_simplify_child_particles;
+IntPropertyRNA rna_RenderSettings_simplify_subdivision_render;
+FloatPropertyRNA rna_RenderSettings_simplify_child_particles_render;
+FloatPropertyRNA rna_RenderSettings_simplify_volumes;
+BoolPropertyRNA rna_RenderSettings_simplify_gpencil;
+BoolPropertyRNA rna_RenderSettings_simplify_gpencil_onplay;
+BoolPropertyRNA rna_RenderSettings_simplify_gpencil_antialiasing;
+BoolPropertyRNA rna_RenderSettings_simplify_gpencil_view_fill;
+BoolPropertyRNA rna_RenderSettings_simplify_gpencil_modifier;
+BoolPropertyRNA rna_RenderSettings_simplify_gpencil_shader_fx;
+BoolPropertyRNA rna_RenderSettings_simplify_gpencil_tint;
+BoolPropertyRNA rna_RenderSettings_use_persistent_data;
+EnumPropertyRNA rna_RenderSettings_line_thickness_mode;
+FloatPropertyRNA rna_RenderSettings_line_thickness;
+PointerPropertyRNA rna_RenderSettings_bake;
+
+extern FunctionRNA rna_RenderSettings_frame_path_func;
+extern IntPropertyRNA rna_RenderSettings_frame_path_frame;
+extern BoolPropertyRNA rna_RenderSettings_frame_path_preview;
+extern StringPropertyRNA rna_RenderSettings_frame_path_view;
+extern StringPropertyRNA rna_RenderSettings_frame_path_filepath;
+
+
+
+CollectionPropertyRNA rna_RenderViews_rna_properties;
+PointerPropertyRNA rna_RenderViews_rna_type;
+IntPropertyRNA rna_RenderViews_active_index;
+PointerPropertyRNA rna_RenderViews_active;
+
+extern FunctionRNA rna_RenderViews_new_func;
+extern StringPropertyRNA rna_RenderViews_new_name;
+extern PointerPropertyRNA rna_RenderViews_new_result;
+
+extern FunctionRNA rna_RenderViews_remove_func;
+extern PointerPropertyRNA rna_RenderViews_remove_view;
+
+
+
+CollectionPropertyRNA rna_BakeSettings_rna_properties;
+PointerPropertyRNA rna_BakeSettings_rna_type;
+PointerPropertyRNA rna_BakeSettings_cage_object;
+StringPropertyRNA rna_BakeSettings_filepath;
+IntPropertyRNA rna_BakeSettings_width;
+IntPropertyRNA rna_BakeSettings_height;
+IntPropertyRNA rna_BakeSettings_margin;
+EnumPropertyRNA rna_BakeSettings_margin_type;
+FloatPropertyRNA rna_BakeSettings_max_ray_distance;
+FloatPropertyRNA rna_BakeSettings_cage_extrusion;
+EnumPropertyRNA rna_BakeSettings_normal_space;
+EnumPropertyRNA rna_BakeSettings_normal_r;
+EnumPropertyRNA rna_BakeSettings_normal_g;
+EnumPropertyRNA rna_BakeSettings_normal_b;
+PointerPropertyRNA rna_BakeSettings_image_settings;
+EnumPropertyRNA rna_BakeSettings_target;
+EnumPropertyRNA rna_BakeSettings_save_mode;
+BoolPropertyRNA rna_BakeSettings_use_selected_to_active;
+BoolPropertyRNA rna_BakeSettings_use_clear;
+BoolPropertyRNA rna_BakeSettings_use_split_materials;
+BoolPropertyRNA rna_BakeSettings_use_automatic_name;
+BoolPropertyRNA rna_BakeSettings_use_cage;
+BoolPropertyRNA rna_BakeSettings_use_pass_emit;
+BoolPropertyRNA rna_BakeSettings_use_pass_direct;
+BoolPropertyRNA rna_BakeSettings_use_pass_indirect;
+BoolPropertyRNA rna_BakeSettings_use_pass_color;
+BoolPropertyRNA rna_BakeSettings_use_pass_diffuse;
+BoolPropertyRNA rna_BakeSettings_use_pass_glossy;
+BoolPropertyRNA rna_BakeSettings_use_pass_transmission;
+EnumPropertyRNA rna_BakeSettings_pass_filter;
+
+
+CollectionPropertyRNA rna_SceneRenderView_rna_properties;
+PointerPropertyRNA rna_SceneRenderView_rna_type;
+StringPropertyRNA rna_SceneRenderView_name;
+StringPropertyRNA rna_SceneRenderView_file_suffix;
+StringPropertyRNA rna_SceneRenderView_camera_suffix;
+BoolPropertyRNA rna_SceneRenderView_use;
+
+PointerRNA Scene_camera_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_Object, data->camera);
+}
+
+void Scene_camera_set(PointerRNA *ptr, PointerRNA value, struct ReportList *reports)
+{
+    Scene *data = (Scene *)(ptr->data);
+    if (value.data) {
+        id_lib_extern((ID *)value.data);
+    }
+    data->camera = value.data;
+}
+
+PointerRNA Scene_background_set_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_Scene, data->set);
+}
+
+void Scene_background_set_set(PointerRNA *ptr, PointerRNA value, struct ReportList *reports)
+{
+    rna_Scene_set_set(ptr, value, reports);
+}
+
+PointerRNA Scene_world_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_World, data->world);
+}
+
+void Scene_world_set(PointerRNA *ptr, PointerRNA value, struct ReportList *reports)
+{
+    Scene *data = (Scene *)(ptr->data);
+
+    if (data->world) {
+        id_us_min((ID *)data->world);
+    }
+    if (value.data) {
+        id_us_plus((ID *)value.data);
+    }
+    data->world = value.data;
+}
+
+static PointerRNA Scene_objects_get(CollectionPropertyIterator *iter)
+{
+    return rna_Scene_objects_get(iter);
+}
+
+void Scene_objects_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_Scene_objects;
+
+    rna_Scene_objects_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = Scene_objects_get(iter);
+    }
+}
+
+void Scene_objects_next(CollectionPropertyIterator *iter)
+{
+    rna_Scene_objects_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = Scene_objects_get(iter);
+    }
+}
+
+void Scene_objects_end(CollectionPropertyIterator *iter)
+{
+    rna_Scene_objects_end(iter);
+}
+
+int Scene_frame_current_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return (int)(data->r.cfra);
+}
+
+void Scene_frame_current_set(PointerRNA *ptr, int value)
+{
+    rna_Scene_frame_current_set(ptr, value);
+}
+
+float Scene_frame_subframe_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return (float)(data->r.subframe);
+}
+
+void Scene_frame_subframe_set(PointerRNA *ptr, float value)
+{
+    Scene *data = (Scene *)(ptr->data);
+    data->r.subframe = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+float Scene_frame_float_get(PointerRNA *ptr)
+{
+    return rna_Scene_frame_float_get(ptr);
+}
+
+void Scene_frame_float_set(PointerRNA *ptr, float value)
+{
+    rna_Scene_frame_float_set(ptr, value);
+}
+
+int Scene_frame_start_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return (int)(data->r.sfra);
+}
+
+void Scene_frame_start_set(PointerRNA *ptr, int value)
+{
+    rna_Scene_start_frame_set(ptr, value);
+}
+
+int Scene_frame_end_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return (int)(data->r.efra);
+}
+
+void Scene_frame_end_set(PointerRNA *ptr, int value)
+{
+    rna_Scene_end_frame_set(ptr, value);
+}
+
+int Scene_frame_step_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return (int)(data->r.frame_step);
+}
+
+void Scene_frame_step_set(PointerRNA *ptr, int value)
+{
+    Scene *data = (Scene *)(ptr->data);
+    data->r.frame_step = CLAMPIS(value, 0, 1048574);
+}
+
+float Scene_frame_current_final_get(PointerRNA *ptr)
+{
+    return rna_Scene_frame_current_final_get(ptr);
+}
+
+bool Scene_lock_frame_selection_to_range_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return (((data->r.flag) & 2) != 0);
+}
+
+void Scene_lock_frame_selection_to_range_set(PointerRNA *ptr, bool value)
+{
+    Scene *data = (Scene *)(ptr->data);
+    if (value) { data->r.flag |= 2; }
+    else { data->r.flag &= ~2; }
+}
+
+bool Scene_use_preview_range_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return (((data->r.flag) & 1) != 0);
+}
+
+void Scene_use_preview_range_set(PointerRNA *ptr, bool value)
+{
+    rna_Scene_use_preview_range_set(ptr, value);
+}
+
+int Scene_frame_preview_start_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return (int)(data->r.psfra);
+}
+
+void Scene_frame_preview_start_set(PointerRNA *ptr, int value)
+{
+    rna_Scene_preview_range_start_frame_set(ptr, value);
+}
+
+int Scene_frame_preview_end_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return (int)(data->r.pefra);
+}
+
+void Scene_frame_preview_end_set(PointerRNA *ptr, int value)
+{
+    rna_Scene_preview_range_end_frame_set(ptr, value);
+}
+
+bool Scene_show_subframe_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return (((data->r.flag) & 8) != 0);
+}
+
+void Scene_show_subframe_set(PointerRNA *ptr, bool value)
+{
+    Scene *data = (Scene *)(ptr->data);
+    if (value) { data->r.flag |= 8; }
+    else { data->r.flag &= ~8; }
+}
+
+bool Scene_show_keys_from_selected_only_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return !(((data->flag) & 16) != 0);
+}
+
+void Scene_show_keys_from_selected_only_set(PointerRNA *ptr, bool value)
+{
+    Scene *data = (Scene *)(ptr->data);
+    if (!value) { data->flag |= 16; }
+    else { data->flag &= ~16; }
+}
+
+void Scene_use_stamp_note_get(PointerRNA *ptr, char *value)
+{
+    Scene *data = (Scene *)(ptr->data);
+    BLI_strncpy_utf8(value, data->r.stamp_udata, 768);
+}
+
+int Scene_use_stamp_note_length(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return strlen(data->r.stamp_udata);
+}
+
+void Scene_use_stamp_note_set(PointerRNA *ptr, const char *value)
+{
+    Scene *data = (Scene *)(ptr->data);
+    BLI_strncpy_utf8(data->r.stamp_udata, value, 768);
+}
+
+PointerRNA Scene_animation_data_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_AnimData, data->adt);
+}
+
+bool Scene_is_nla_tweakmode_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return (((data->flag) & 4) != 0);
+}
+
+int Scene_sync_mode_get(PointerRNA *ptr)
+{
+    return rna_Scene_sync_mode_get(ptr);
+}
+
+void Scene_sync_mode_set(PointerRNA *ptr, int value)
+{
+    rna_Scene_sync_mode_set(ptr, value);
+}
+
+PointerRNA Scene_node_tree_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_NodeTree, data->nodetree);
+}
+
+bool Scene_use_nodes_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return (((data->use_nodes) & 1) != 0);
+}
+
+void Scene_use_nodes_set(PointerRNA *ptr, bool value)
+{
+    Scene *data = (Scene *)(ptr->data);
+    if (value) { data->use_nodes |= 1; }
+    else { data->use_nodes &= ~1; }
+}
+
+PointerRNA Scene_sequence_editor_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_SequenceEditor, data->ed);
+}
+
+static PointerRNA Scene_keying_sets_get(CollectionPropertyIterator *iter)
+{
+    return rna_pointer_inherit_refine(&iter->parent, &RNA_KeyingSet, rna_iterator_listbase_get(iter));
+}
+
+void Scene_keying_sets_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_Scene_keying_sets;
+
+    rna_iterator_listbase_begin(iter, &data->keyingsets, NULL);
+
+    if (iter->valid) {
+        iter->ptr = Scene_keying_sets_get(iter);
+    }
+}
+
+void Scene_keying_sets_next(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = Scene_keying_sets_get(iter);
+    }
+}
+
+void Scene_keying_sets_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int Scene_keying_sets_lookup_int(PointerRNA *ptr, int index, PointerRNA *r_ptr)
+{
+    int found = 0;
+    CollectionPropertyIterator iter;
+
+    Scene_keying_sets_begin(&iter, ptr);
+
+    if (iter.valid) {
+        ListBaseIterator *internal = &iter.internal.listbase;
+        if (internal->skip) {
+            while (index-- > 0 && iter.valid) {
+                rna_iterator_listbase_next(&iter);
+            }
+            found = (index == -1 && iter.valid);
+        }
+        else {
+            while (index-- > 0 && internal->link) {
+                internal->link = internal->link->next;
+            }
+            found = (index == -1 && internal->link);
+        }
+        if (found) { *r_ptr = Scene_keying_sets_get(&iter); }
+    }
+
+    Scene_keying_sets_end(&iter);
+
+    return found;
+}
+
+int Scene_keying_sets_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    extern int KeyingSet_bl_label_length(PointerRNA *);
+    extern void KeyingSet_bl_label_get(PointerRNA *, char *);
+
+    bool found = false;
+    CollectionPropertyIterator iter;
+    char namebuf[1024];
+    char *name;
+
+    Scene_keying_sets_begin(&iter, ptr);
+
+    while (iter.valid) {
+        if (iter.ptr.data) {
+            int namelen = KeyingSet_bl_label_length(&iter.ptr);
+            if (namelen < 1024) {
+                KeyingSet_bl_label_get(&iter.ptr, namebuf);
+                if (strcmp(namebuf, key) == 0) {
+                    found = true;
+                    *r_ptr = iter.ptr;
+                    break;
+                }
+            }
+            else {
+                name = MEM_mallocN(namelen+1, "name string");
+                KeyingSet_bl_label_get(&iter.ptr, name);
+                if (strcmp(name, key) == 0) {
+                    MEM_freeN(name);
+
+                    found = true;
+                    *r_ptr = iter.ptr;
+                    break;
+                }
+                else {
+                    MEM_freeN(name);
+                }
+            }
+        }
+        Scene_keying_sets_next(&iter);
+    }
+    Scene_keying_sets_end(&iter);
+
+    return found;
+}
+
+static PointerRNA Scene_keying_sets_all_get(CollectionPropertyIterator *iter)
+{
+    return rna_pointer_inherit_refine(&iter->parent, &RNA_KeyingSet, rna_iterator_listbase_get(iter));
+}
+
+void Scene_keying_sets_all_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_Scene_keying_sets_all;
+
+    rna_Scene_all_keyingsets_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = Scene_keying_sets_all_get(iter);
+    }
+}
+
+void Scene_keying_sets_all_next(CollectionPropertyIterator *iter)
+{
+    rna_Scene_all_keyingsets_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = Scene_keying_sets_all_get(iter);
+    }
+}
+
+void Scene_keying_sets_all_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+PointerRNA Scene_rigidbody_world_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_RigidBodyWorld, data->rigidbody_world);
+}
+
+PointerRNA Scene_tool_settings_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_ToolSettings, data->toolsettings);
+}
+
+PointerRNA Scene_unit_settings_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_UnitSettings, &data->unit);
+}
+
+void Scene_gravity_get(PointerRNA *ptr, float values[3])
+{
+    Scene *data = (Scene *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 3; i++) {
+        values[i] = (float)(((float *)data->physics_settings.gravity)[i]);
+    }
+}
+
+void Scene_gravity_set(PointerRNA *ptr, const float values[3])
+{
+    Scene *data = (Scene *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 3; i++) {
+        ((float *)data->physics_settings.gravity)[i] = values[i];
+    }
+}
+
+bool Scene_use_gravity_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return (((data->physics_settings.flag) & 1) != 0);
+}
+
+void Scene_use_gravity_set(PointerRNA *ptr, bool value)
+{
+    Scene *data = (Scene *)(ptr->data);
+    if (value) { data->physics_settings.flag |= 1; }
+    else { data->physics_settings.flag &= ~1; }
+}
+
+PointerRNA Scene_render_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_RenderSettings, &data->r);
+}
+
+PointerRNA Scene_safe_areas_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_DisplaySafeAreas, &data->safe_areas);
+}
+
+static PointerRNA Scene_timeline_markers_get(CollectionPropertyIterator *iter)
+{
+    return rna_pointer_inherit_refine(&iter->parent, &RNA_TimelineMarker, rna_iterator_listbase_get(iter));
+}
+
+void Scene_timeline_markers_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_Scene_timeline_markers;
+
+    rna_iterator_listbase_begin(iter, &data->markers, NULL);
+
+    if (iter->valid) {
+        iter->ptr = Scene_timeline_markers_get(iter);
+    }
+}
+
+void Scene_timeline_markers_next(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = Scene_timeline_markers_get(iter);
+    }
+}
+
+void Scene_timeline_markers_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int Scene_timeline_markers_lookup_int(PointerRNA *ptr, int index, PointerRNA *r_ptr)
+{
+    int found = 0;
+    CollectionPropertyIterator iter;
+
+    Scene_timeline_markers_begin(&iter, ptr);
+
+    if (iter.valid) {
+        ListBaseIterator *internal = &iter.internal.listbase;
+        if (internal->skip) {
+            while (index-- > 0 && iter.valid) {
+                rna_iterator_listbase_next(&iter);
+            }
+            found = (index == -1 && iter.valid);
+        }
+        else {
+            while (index-- > 0 && internal->link) {
+                internal->link = internal->link->next;
+            }
+            found = (index == -1 && internal->link);
+        }
+        if (found) { *r_ptr = Scene_timeline_markers_get(&iter); }
+    }
+
+    Scene_timeline_markers_end(&iter);
+
+    return found;
+}
+
+int Scene_timeline_markers_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    extern int TimelineMarker_name_length(PointerRNA *);
+    extern void TimelineMarker_name_get(PointerRNA *, char *);
+
+    bool found = false;
+    CollectionPropertyIterator iter;
+    char namebuf[1024];
+    char *name;
+
+    Scene_timeline_markers_begin(&iter, ptr);
+
+    while (iter.valid) {
+        if (iter.ptr.data) {
+            int namelen = TimelineMarker_name_length(&iter.ptr);
+            if (namelen < 1024) {
+                TimelineMarker_name_get(&iter.ptr, namebuf);
+                if (strcmp(namebuf, key) == 0) {
+                    found = true;
+                    *r_ptr = iter.ptr;
+                    break;
+                }
+            }
+            else {
+                name = MEM_mallocN(namelen+1, "name string");
+                TimelineMarker_name_get(&iter.ptr, name);
+                if (strcmp(name, key) == 0) {
+                    MEM_freeN(name);
+
+                    found = true;
+                    *r_ptr = iter.ptr;
+                    break;
+                }
+                else {
+                    MEM_freeN(name);
+                }
+            }
+        }
+        Scene_timeline_markers_next(&iter);
+    }
+    Scene_timeline_markers_end(&iter);
+
+    return found;
+}
+
+int Scene_transform_orientation_slots_length(PointerRNA *ptr)
+{
+    return rna_Scene_transform_orientation_slots_length(ptr);
+}
+
+static PointerRNA Scene_transform_orientation_slots_get(CollectionPropertyIterator *iter)
+{
+    return rna_pointer_inherit_refine(&iter->parent, &RNA_TransformOrientationSlot, rna_iterator_array_get(iter));
+}
+
+void Scene_transform_orientation_slots_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_Scene_transform_orientation_slots;
+
+    rna_Scene_transform_orientation_slots_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = Scene_transform_orientation_slots_get(iter);
+    }
+}
+
+void Scene_transform_orientation_slots_next(CollectionPropertyIterator *iter)
+{
+    rna_iterator_array_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = Scene_transform_orientation_slots_get(iter);
+    }
+}
+
+void Scene_transform_orientation_slots_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_array_end(iter);
+}
+
+PointerRNA Scene_cursor_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_View3DCursor, &data->cursor);
+}
+
+bool Scene_use_audio_get(PointerRNA *ptr)
+{
+    return rna_Scene_use_audio_get(ptr);
+}
+
+void Scene_use_audio_set(PointerRNA *ptr, bool value)
+{
+    rna_Scene_use_audio_set(ptr, value);
+}
+
+bool Scene_use_audio_scrub_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return (((data->audio.flag) & 4) != 0);
+}
+
+void Scene_use_audio_scrub_set(PointerRNA *ptr, bool value)
+{
+    Scene *data = (Scene *)(ptr->data);
+    if (value) { data->audio.flag |= 4; }
+    else { data->audio.flag &= ~4; }
+}
+
+float Scene_audio_doppler_speed_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return (float)(data->audio.speed_of_sound);
+}
+
+void Scene_audio_doppler_speed_set(PointerRNA *ptr, float value)
+{
+    Scene *data = (Scene *)(ptr->data);
+    data->audio.speed_of_sound = CLAMPIS(value, 0.0099999998f, FLT_MAX);
+}
+
+float Scene_audio_doppler_factor_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return (float)(data->audio.doppler_factor);
+}
+
+void Scene_audio_doppler_factor_set(PointerRNA *ptr, float value)
+{
+    Scene *data = (Scene *)(ptr->data);
+    data->audio.doppler_factor = CLAMPIS(value, 0.0f, FLT_MAX);
+}
+
+int Scene_audio_distance_model_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return ((data->audio.distance_model) & 7);
+}
+
+void Scene_audio_distance_model_set(PointerRNA *ptr, int value)
+{
+    Scene *data = (Scene *)(ptr->data);
+    data->audio.distance_model &= ~7;
+    data->audio.distance_model |= value;
+}
+
+float Scene_audio_volume_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return (float)(data->audio.volume);
+}
+
+void Scene_audio_volume_set(PointerRNA *ptr, float value)
+{
+    Scene *data = (Scene *)(ptr->data);
+    data->audio.volume = CLAMPIS(value, 0.0f, 100.0f);
+}
+
+PointerRNA Scene_grease_pencil_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_GreasePencil, data->gpd);
+}
+
+void Scene_grease_pencil_set(PointerRNA *ptr, PointerRNA value, struct ReportList *reports)
+{
+    Scene *data = (Scene *)(ptr->data);
+
+    if (data->gpd) {
+        id_us_min((ID *)data->gpd);
+    }
+    if (value.data) {
+        id_us_plus((ID *)value.data);
+    }
+    data->gpd = value.data;
+}
+
+PointerRNA Scene_active_clip_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_MovieClip, data->clip);
+}
+
+void Scene_active_clip_set(PointerRNA *ptr, PointerRNA value, struct ReportList *reports)
+{
+    Scene *data = (Scene *)(ptr->data);
+
+    if (data->clip) {
+        id_us_min((ID *)data->clip);
+    }
+    if (value.data) {
+        id_us_plus((ID *)value.data);
+    }
+    data->clip = value.data;
+}
+
+PointerRNA Scene_view_settings_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_ColorManagedViewSettings, &data->view_settings);
+}
+
+PointerRNA Scene_display_settings_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_ColorManagedDisplaySettings, &data->display_settings);
+}
+
+PointerRNA Scene_sequencer_colorspace_settings_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_ColorManagedSequencerColorspaceSettings, &data->sequencer_colorspace_settings);
+}
+
+static PointerRNA Scene_view_layers_get(CollectionPropertyIterator *iter)
+{
+    return rna_pointer_inherit_refine(&iter->parent, &RNA_ViewLayer, rna_iterator_listbase_get(iter));
+}
+
+void Scene_view_layers_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_Scene_view_layers;
+
+    rna_iterator_listbase_begin(iter, &data->view_layers, NULL);
+
+    if (iter->valid) {
+        iter->ptr = Scene_view_layers_get(iter);
+    }
+}
+
+void Scene_view_layers_next(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = Scene_view_layers_get(iter);
+    }
+}
+
+void Scene_view_layers_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int Scene_view_layers_lookup_int(PointerRNA *ptr, int index, PointerRNA *r_ptr)
+{
+    int found = 0;
+    CollectionPropertyIterator iter;
+
+    Scene_view_layers_begin(&iter, ptr);
+
+    if (iter.valid) {
+        ListBaseIterator *internal = &iter.internal.listbase;
+        if (internal->skip) {
+            while (index-- > 0 && iter.valid) {
+                rna_iterator_listbase_next(&iter);
+            }
+            found = (index == -1 && iter.valid);
+        }
+        else {
+            while (index-- > 0 && internal->link) {
+                internal->link = internal->link->next;
+            }
+            found = (index == -1 && internal->link);
+        }
+        if (found) { *r_ptr = Scene_view_layers_get(&iter); }
+    }
+
+    Scene_view_layers_end(&iter);
+
+    return found;
+}
+
+int Scene_view_layers_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    extern int ViewLayer_name_length(PointerRNA *);
+    extern void ViewLayer_name_get(PointerRNA *, char *);
+
+    bool found = false;
+    CollectionPropertyIterator iter;
+    char namebuf[1024];
+    char *name;
+
+    Scene_view_layers_begin(&iter, ptr);
+
+    while (iter.valid) {
+        if (iter.ptr.data) {
+            int namelen = ViewLayer_name_length(&iter.ptr);
+            if (namelen < 1024) {
+                ViewLayer_name_get(&iter.ptr, namebuf);
+                if (strcmp(namebuf, key) == 0) {
+                    found = true;
+                    *r_ptr = iter.ptr;
+                    break;
+                }
+            }
+            else {
+                name = MEM_mallocN(namelen+1, "name string");
+                ViewLayer_name_get(&iter.ptr, name);
+                if (strcmp(name, key) == 0) {
+                    MEM_freeN(name);
+
+                    found = true;
+                    *r_ptr = iter.ptr;
+                    break;
+                }
+                else {
+                    MEM_freeN(name);
+                }
+            }
+        }
+        Scene_view_layers_next(&iter);
+    }
+    Scene_view_layers_end(&iter);
+
+    return found;
+}
+
+PointerRNA Scene_collection_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_Collection, data->master_collection);
+}
+
+PointerRNA Scene_display_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_SceneDisplay, &data->display);
+}
+
+PointerRNA Scene_eevee_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_SceneEEVEE, &data->eevee);
+}
+
+PointerRNA Scene_grease_pencil_settings_get(PointerRNA *ptr)
+{
+    Scene *data = (Scene *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_SceneGpencil, &data->grease_pencil_settings);
+}
+
+static PointerRNA SceneObjects_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void SceneObjects_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_SceneObjects_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = SceneObjects_rna_properties_get(iter);
+    }
+}
+
+void SceneObjects_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = SceneObjects_rna_properties_get(iter);
+    }
+}
+
+void SceneObjects_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int SceneObjects_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA SceneObjects_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+static PointerRNA KeyingSets_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void KeyingSets_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_KeyingSets_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = KeyingSets_rna_properties_get(iter);
+    }
+}
+
+void KeyingSets_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = KeyingSets_rna_properties_get(iter);
+    }
+}
+
+void KeyingSets_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int KeyingSets_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA KeyingSets_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+PointerRNA KeyingSets_active_get(PointerRNA *ptr)
+{
+    return rna_Scene_active_keying_set_get(ptr);
+}
+
+void KeyingSets_active_set(PointerRNA *ptr, PointerRNA value, struct ReportList *reports)
+{
+    rna_Scene_active_keying_set_set(ptr, value, reports);
+}
+
+int KeyingSets_active_index_get(PointerRNA *ptr)
+{
+    return rna_Scene_active_keying_set_index_get(ptr);
+}
+
+void KeyingSets_active_index_set(PointerRNA *ptr, int value)
+{
+    rna_Scene_active_keying_set_index_set(ptr, value);
+}
+
+static PointerRNA KeyingSetsAll_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void KeyingSetsAll_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_KeyingSetsAll_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = KeyingSetsAll_rna_properties_get(iter);
+    }
+}
+
+void KeyingSetsAll_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = KeyingSetsAll_rna_properties_get(iter);
+    }
+}
+
+void KeyingSetsAll_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int KeyingSetsAll_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA KeyingSetsAll_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+PointerRNA KeyingSetsAll_active_get(PointerRNA *ptr)
+{
+    return rna_Scene_active_keying_set_get(ptr);
+}
+
+void KeyingSetsAll_active_set(PointerRNA *ptr, PointerRNA value, struct ReportList *reports)
+{
+    rna_Scene_active_keying_set_set(ptr, value, reports);
+}
+
+int KeyingSetsAll_active_index_get(PointerRNA *ptr)
+{
+    return rna_Scene_active_keying_set_index_get(ptr);
+}
+
+void KeyingSetsAll_active_index_set(PointerRNA *ptr, int value)
+{
+    rna_Scene_active_keying_set_index_set(ptr, value);
+}
+
+static PointerRNA TimelineMarkers_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void TimelineMarkers_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_TimelineMarkers_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = TimelineMarkers_rna_properties_get(iter);
+    }
+}
+
+void TimelineMarkers_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = TimelineMarkers_rna_properties_get(iter);
+    }
+}
+
+void TimelineMarkers_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int TimelineMarkers_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA TimelineMarkers_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+static PointerRNA ViewLayers_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void ViewLayers_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_ViewLayers_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = ViewLayers_rna_properties_get(iter);
+    }
+}
+
+void ViewLayers_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = ViewLayers_rna_properties_get(iter);
+    }
+}
+
+void ViewLayers_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int ViewLayers_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA ViewLayers_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+static PointerRNA ToolSettings_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void ToolSettings_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_ToolSettings_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = ToolSettings_rna_properties_get(iter);
+    }
+}
+
+void ToolSettings_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = ToolSettings_rna_properties_get(iter);
+    }
+}
+
+void ToolSettings_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int ToolSettings_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA ToolSettings_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+PointerRNA ToolSettings_sculpt_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_Sculpt, data->sculpt);
+}
+
+PointerRNA ToolSettings_curves_sculpt_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_CurvesSculpt, data->curves_sculpt);
+}
+
+bool ToolSettings_use_auto_normalize_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->auto_normalize) & 1) != 0);
+}
+
+void ToolSettings_use_auto_normalize_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->auto_normalize |= 1; }
+    else { data->auto_normalize &= ~1; }
+}
+
+bool ToolSettings_use_lock_relative_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->wpaint_lock_relative) & 1) != 0);
+}
+
+void ToolSettings_use_lock_relative_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->wpaint_lock_relative |= 1; }
+    else { data->wpaint_lock_relative &= ~1; }
+}
+
+bool ToolSettings_use_multipaint_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->multipaint) & 1) != 0);
+}
+
+void ToolSettings_use_multipaint_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->multipaint |= 1; }
+    else { data->multipaint &= ~1; }
+}
+
+int ToolSettings_vertex_group_user_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (int)(data->weightuser);
+}
+
+void ToolSettings_vertex_group_user_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->weightuser = value;
+}
+
+int ToolSettings_vertex_group_subset_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (int)(data->vgroupsubset);
+}
+
+void ToolSettings_vertex_group_subset_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->vgroupsubset = value;
+}
+
+PointerRNA ToolSettings_vertex_paint_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_VertexPaint, data->vpaint);
+}
+
+PointerRNA ToolSettings_weight_paint_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_VertexPaint, data->wpaint);
+}
+
+PointerRNA ToolSettings_image_paint_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_ImagePaint, &data->imapaint);
+}
+
+PointerRNA ToolSettings_paint_mode_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_PaintModeSettings, &data->paint_mode);
+}
+
+PointerRNA ToolSettings_uv_sculpt_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_UvSculpt, data->uvsculpt);
+}
+
+PointerRNA ToolSettings_gpencil_paint_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_GpPaint, data->gp_paint);
+}
+
+PointerRNA ToolSettings_gpencil_vertex_paint_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_GpVertexPaint, data->gp_vertexpaint);
+}
+
+PointerRNA ToolSettings_gpencil_sculpt_paint_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_GpSculptPaint, data->gp_sculptpaint);
+}
+
+PointerRNA ToolSettings_gpencil_weight_paint_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_GpWeightPaint, data->gp_weightpaint);
+}
+
+PointerRNA ToolSettings_particle_edit_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_ParticleEdit, &data->particle);
+}
+
+bool ToolSettings_uv_sculpt_lock_borders_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->uv_sculpt_settings) & 1) != 0);
+}
+
+void ToolSettings_uv_sculpt_lock_borders_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->uv_sculpt_settings |= 1; }
+    else { data->uv_sculpt_settings &= ~1; }
+}
+
+bool ToolSettings_uv_sculpt_all_islands_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->uv_sculpt_settings) & 2) != 0);
+}
+
+void ToolSettings_uv_sculpt_all_islands_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->uv_sculpt_settings |= 2; }
+    else { data->uv_sculpt_settings &= ~2; }
+}
+
+int ToolSettings_uv_relax_method_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (int)(data->uv_relax_method);
+}
+
+void ToolSettings_uv_relax_method_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->uv_relax_method = value;
+}
+
+bool ToolSettings_lock_object_mode_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->object_flag) & 1) != 0);
+}
+
+void ToolSettings_lock_object_mode_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->object_flag |= 1; }
+    else { data->object_flag &= ~1; }
+}
+
+int ToolSettings_workspace_tool_type_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (int)(data->workspace_tool_type);
+}
+
+void ToolSettings_workspace_tool_type_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->workspace_tool_type = value;
+}
+
+bool ToolSettings_use_proportional_edit_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->proportional_edit) & 1) != 0);
+}
+
+void ToolSettings_use_proportional_edit_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->proportional_edit |= 1; }
+    else { data->proportional_edit &= ~1; }
+}
+
+bool ToolSettings_use_proportional_edit_objects_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (bool)(data->proportional_objects);
+}
+
+void ToolSettings_use_proportional_edit_objects_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->proportional_objects = value;
+}
+
+bool ToolSettings_use_proportional_projected_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->proportional_edit) & 4) != 0);
+}
+
+void ToolSettings_use_proportional_projected_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->proportional_edit |= 4; }
+    else { data->proportional_edit &= ~4; }
+}
+
+bool ToolSettings_use_proportional_connected_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->proportional_edit) & 2) != 0);
+}
+
+void ToolSettings_use_proportional_connected_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->proportional_edit |= 2; }
+    else { data->proportional_edit &= ~2; }
+}
+
+bool ToolSettings_use_proportional_edit_mask_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (bool)(data->proportional_mask);
+}
+
+void ToolSettings_use_proportional_edit_mask_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->proportional_mask = value;
+}
+
+bool ToolSettings_use_proportional_action_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (bool)(data->proportional_action);
+}
+
+void ToolSettings_use_proportional_action_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->proportional_action = value;
+}
+
+bool ToolSettings_use_proportional_fcurve_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (bool)(data->proportional_fcurve);
+}
+
+void ToolSettings_use_proportional_fcurve_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->proportional_fcurve = value;
+}
+
+bool ToolSettings_lock_markers_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (bool)(data->lock_markers);
+}
+
+void ToolSettings_lock_markers_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->lock_markers = value;
+}
+
+int ToolSettings_proportional_edit_falloff_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (int)(data->prop_mode);
+}
+
+void ToolSettings_proportional_edit_falloff_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->prop_mode = value;
+}
+
+float ToolSettings_proportional_size_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (float)(data->proportional_size);
+}
+
+void ToolSettings_proportional_size_set(PointerRNA *ptr, float value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->proportional_size = CLAMPIS(value, 0.0000100000f, 5000.0f);
+}
+
+float ToolSettings_double_threshold_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (float)(data->doublimit);
+}
+
+void ToolSettings_double_threshold_set(PointerRNA *ptr, float value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->doublimit = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+int ToolSettings_transform_pivot_point_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (int)(data->transform_pivot_point);
+}
+
+void ToolSettings_transform_pivot_point_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->transform_pivot_point = value;
+}
+
+bool ToolSettings_use_transform_pivot_point_align_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->transform_flag) & 1) != 0);
+}
+
+void ToolSettings_use_transform_pivot_point_align_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->transform_flag |= 1; }
+    else { data->transform_flag &= ~1; }
+}
+
+bool ToolSettings_use_transform_data_origin_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->transform_flag) & 2) != 0);
+}
+
+void ToolSettings_use_transform_data_origin_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->transform_flag |= 2; }
+    else { data->transform_flag &= ~2; }
+}
+
+bool ToolSettings_use_transform_skip_children_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->transform_flag) & 4) != 0);
+}
+
+void ToolSettings_use_transform_skip_children_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->transform_flag |= 4; }
+    else { data->transform_flag &= ~4; }
+}
+
+bool ToolSettings_use_transform_correct_face_attributes_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->uvcalc_flag) & 16) != 0);
+}
+
+void ToolSettings_use_transform_correct_face_attributes_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->uvcalc_flag |= 16; }
+    else { data->uvcalc_flag &= ~16; }
+}
+
+bool ToolSettings_use_transform_correct_keep_connected_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->uvcalc_flag) & 32) != 0);
+}
+
+void ToolSettings_use_transform_correct_keep_connected_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->uvcalc_flag |= 32; }
+    else { data->uvcalc_flag &= ~32; }
+}
+
+bool ToolSettings_use_mesh_automerge_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->automerge) & 1) != 0);
+}
+
+void ToolSettings_use_mesh_automerge_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->automerge |= 1; }
+    else { data->automerge &= ~1; }
+}
+
+bool ToolSettings_use_mesh_automerge_and_split_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->automerge) & 2) != 0);
+}
+
+void ToolSettings_use_mesh_automerge_and_split_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->automerge |= 2; }
+    else { data->automerge &= ~2; }
+}
+
+bool ToolSettings_use_snap_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->snap_flag) & 1) != 0);
+}
+
+void ToolSettings_use_snap_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->snap_flag |= 1; }
+    else { data->snap_flag &= ~1; }
+}
+
+bool ToolSettings_use_snap_node_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->snap_flag_node) & 1) != 0);
+}
+
+void ToolSettings_use_snap_node_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->snap_flag_node |= 1; }
+    else { data->snap_flag_node &= ~1; }
+}
+
+bool ToolSettings_use_snap_sequencer_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->snap_flag_seq) & 1) != 0);
+}
+
+void ToolSettings_use_snap_sequencer_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->snap_flag_seq |= 1; }
+    else { data->snap_flag_seq &= ~1; }
+}
+
+bool ToolSettings_use_snap_uv_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->snap_uv_flag) & 1) != 0);
+}
+
+void ToolSettings_use_snap_uv_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->snap_uv_flag |= 1; }
+    else { data->snap_uv_flag &= ~1; }
+}
+
+bool ToolSettings_use_snap_align_rotation_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->snap_flag) & 2) != 0);
+}
+
+void ToolSettings_use_snap_align_rotation_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->snap_flag |= 2; }
+    else { data->snap_flag &= ~2; }
+}
+
+bool ToolSettings_use_snap_grid_absolute_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->snap_flag) & 32) != 0);
+}
+
+void ToolSettings_use_snap_grid_absolute_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->snap_flag |= 32; }
+    else { data->snap_flag &= ~32; }
+}
+
+int ToolSettings_snap_elements_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return ((data->snap_mode) & 383);
+}
+
+void ToolSettings_snap_elements_set(PointerRNA *ptr, int value)
+{
+    rna_ToolSettings_snap_mode_set(ptr, value);
+}
+
+int ToolSettings_snap_face_nearest_steps_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (int)(data->snap_face_nearest_steps);
+}
+
+void ToolSettings_snap_face_nearest_steps_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->snap_face_nearest_steps = CLAMPIS(value, 1, 100);
+}
+
+bool ToolSettings_use_snap_to_same_target_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->snap_flag) & 128) != 0);
+}
+
+void ToolSettings_use_snap_to_same_target_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->snap_flag |= 128; }
+    else { data->snap_flag &= ~128; }
+}
+
+int ToolSettings_snap_node_element_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return ((data->snap_node_mode) & 131);
+}
+
+void ToolSettings_snap_node_element_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->snap_node_mode &= ~131;
+    data->snap_node_mode |= value;
+}
+
+int ToolSettings_snap_uv_element_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return ((data->snap_uv_mode) & 65);
+}
+
+void ToolSettings_snap_uv_element_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->snap_uv_mode &= ~65;
+    data->snap_uv_mode |= value;
+}
+
+bool ToolSettings_use_snap_uv_grid_absolute_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->snap_uv_flag) & 32) != 0);
+}
+
+void ToolSettings_use_snap_uv_grid_absolute_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->snap_uv_flag |= 32; }
+    else { data->snap_uv_flag &= ~32; }
+}
+
+int ToolSettings_snap_target_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (int)(data->snap_target);
+}
+
+void ToolSettings_snap_target_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->snap_target = value;
+}
+
+bool ToolSettings_use_snap_peel_object_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->snap_flag) & 4) != 0);
+}
+
+void ToolSettings_use_snap_peel_object_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->snap_flag |= 4; }
+    else { data->snap_flag &= ~4; }
+}
+
+bool ToolSettings_use_snap_project_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->snap_flag) & 8) != 0);
+}
+
+void ToolSettings_use_snap_project_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->snap_flag |= 8; }
+    else { data->snap_flag &= ~8; }
+}
+
+bool ToolSettings_use_snap_backface_culling_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->snap_flag) & 64) != 0);
+}
+
+void ToolSettings_use_snap_backface_culling_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->snap_flag |= 64; }
+    else { data->snap_flag &= ~64; }
+}
+
+bool ToolSettings_use_snap_self_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return !(((data->snap_flag) & 16) != 0);
+}
+
+void ToolSettings_use_snap_self_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (!value) { data->snap_flag |= 16; }
+    else { data->snap_flag &= ~16; }
+}
+
+bool ToolSettings_use_snap_edit_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->snap_flag) & 256) != 0);
+}
+
+void ToolSettings_use_snap_edit_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->snap_flag |= 256; }
+    else { data->snap_flag &= ~256; }
+}
+
+bool ToolSettings_use_snap_nonedit_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->snap_flag) & 512) != 0);
+}
+
+void ToolSettings_use_snap_nonedit_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->snap_flag |= 512; }
+    else { data->snap_flag &= ~512; }
+}
+
+bool ToolSettings_use_snap_selectable_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->snap_flag) & 1024) != 0);
+}
+
+void ToolSettings_use_snap_selectable_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->snap_flag |= 1024; }
+    else { data->snap_flag &= ~1024; }
+}
+
+bool ToolSettings_use_snap_translate_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->snap_transform_mode_flag) & 1) != 0);
+}
+
+void ToolSettings_use_snap_translate_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->snap_transform_mode_flag |= 1; }
+    else { data->snap_transform_mode_flag &= ~1; }
+}
+
+bool ToolSettings_use_snap_rotate_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->snap_transform_mode_flag) & 2) != 0);
+}
+
+void ToolSettings_use_snap_rotate_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->snap_transform_mode_flag |= 2; }
+    else { data->snap_transform_mode_flag &= ~2; }
+}
+
+bool ToolSettings_use_snap_scale_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->snap_transform_mode_flag) & 4) != 0);
+}
+
+void ToolSettings_use_snap_scale_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->snap_transform_mode_flag |= 4; }
+    else { data->snap_transform_mode_flag &= ~4; }
+}
+
+bool ToolSettings_use_gpencil_draw_additive_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->gpencil_flags) & 2) != 0);
+}
+
+void ToolSettings_use_gpencil_draw_additive_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->gpencil_flags |= 2; }
+    else { data->gpencil_flags &= ~2; }
+}
+
+bool ToolSettings_use_gpencil_draw_onback_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->gpencil_flags) & 4) != 0);
+}
+
+void ToolSettings_use_gpencil_draw_onback_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->gpencil_flags |= 4; }
+    else { data->gpencil_flags &= ~4; }
+}
+
+bool ToolSettings_use_gpencil_thumbnail_list_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return !(((data->gpencil_flags) & 8) != 0);
+}
+
+void ToolSettings_use_gpencil_thumbnail_list_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (!value) { data->gpencil_flags |= 8; }
+    else { data->gpencil_flags &= ~8; }
+}
+
+bool ToolSettings_use_gpencil_weight_data_add_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->gpencil_flags) & 16) != 0);
+}
+
+void ToolSettings_use_gpencil_weight_data_add_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->gpencil_flags |= 16; }
+    else { data->gpencil_flags &= ~16; }
+}
+
+bool ToolSettings_use_gpencil_automerge_strokes_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->gpencil_flags) & 32) != 0);
+}
+
+void ToolSettings_use_gpencil_automerge_strokes_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->gpencil_flags |= 32; }
+    else { data->gpencil_flags &= ~32; }
+}
+
+PointerRNA ToolSettings_gpencil_sculpt_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_GPencilSculptSettings, &data->gp_sculpt);
+}
+
+PointerRNA ToolSettings_gpencil_interpolate_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_GPencilInterpolateSettings, &data->gp_interpolate);
+}
+
+int ToolSettings_gpencil_stroke_placement_view3d_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return ((data->gpencil_v3d_align) & 45);
+}
+
+void ToolSettings_gpencil_stroke_placement_view3d_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->gpencil_v3d_align &= ~45;
+    data->gpencil_v3d_align |= value;
+}
+
+int ToolSettings_gpencil_stroke_snap_mode_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return ((data->gpencil_v3d_align) & 80);
+}
+
+void ToolSettings_gpencil_stroke_snap_mode_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->gpencil_v3d_align &= ~80;
+    data->gpencil_v3d_align |= value;
+}
+
+bool ToolSettings_use_gpencil_stroke_endpoints_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->gpencil_v3d_align) & 16) != 0);
+}
+
+void ToolSettings_use_gpencil_stroke_endpoints_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->gpencil_v3d_align |= 16; }
+    else { data->gpencil_v3d_align &= ~16; }
+}
+
+int ToolSettings_gpencil_selectmode_edit_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (int)(data->gpencil_selectmode_edit);
+}
+
+void ToolSettings_gpencil_selectmode_edit_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->gpencil_selectmode_edit = value;
+}
+
+bool ToolSettings_use_gpencil_select_mask_point_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->gpencil_selectmode_sculpt) & 1) != 0);
+}
+
+void ToolSettings_use_gpencil_select_mask_point_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->gpencil_selectmode_sculpt |= 1; }
+    else { data->gpencil_selectmode_sculpt &= ~1; }
+}
+
+bool ToolSettings_use_gpencil_select_mask_stroke_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->gpencil_selectmode_sculpt) & 2) != 0);
+}
+
+void ToolSettings_use_gpencil_select_mask_stroke_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->gpencil_selectmode_sculpt |= 2; }
+    else { data->gpencil_selectmode_sculpt &= ~2; }
+}
+
+bool ToolSettings_use_gpencil_select_mask_segment_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->gpencil_selectmode_sculpt) & 4) != 0);
+}
+
+void ToolSettings_use_gpencil_select_mask_segment_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->gpencil_selectmode_sculpt |= 4; }
+    else { data->gpencil_selectmode_sculpt &= ~4; }
+}
+
+bool ToolSettings_use_gpencil_vertex_select_mask_point_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->gpencil_selectmode_vertex) & 1) != 0);
+}
+
+void ToolSettings_use_gpencil_vertex_select_mask_point_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->gpencil_selectmode_vertex |= 1; }
+    else { data->gpencil_selectmode_vertex &= ~1; }
+}
+
+bool ToolSettings_use_gpencil_vertex_select_mask_stroke_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->gpencil_selectmode_vertex) & 2) != 0);
+}
+
+void ToolSettings_use_gpencil_vertex_select_mask_stroke_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->gpencil_selectmode_vertex |= 2; }
+    else { data->gpencil_selectmode_vertex &= ~2; }
+}
+
+bool ToolSettings_use_gpencil_vertex_select_mask_segment_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->gpencil_selectmode_vertex) & 4) != 0);
+}
+
+void ToolSettings_use_gpencil_vertex_select_mask_segment_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->gpencil_selectmode_vertex |= 4; }
+    else { data->gpencil_selectmode_vertex &= ~4; }
+}
+
+int ToolSettings_annotation_stroke_placement_view2d_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return ((data->gpencil_v2d_align) & 33);
+}
+
+void ToolSettings_annotation_stroke_placement_view2d_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->gpencil_v2d_align &= ~33;
+    data->gpencil_v2d_align |= value;
+}
+
+int ToolSettings_annotation_stroke_placement_view3d_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return ((data->annotate_v3d_align) & 37);
+}
+
+void ToolSettings_annotation_stroke_placement_view3d_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->annotate_v3d_align &= ~37;
+    data->annotate_v3d_align |= value;
+}
+
+int ToolSettings_annotation_thickness_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (int)(data->annotate_thickness);
+}
+
+void ToolSettings_annotation_thickness_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->annotate_thickness = CLAMPIS(value, 1, 10);
+}
+
+bool ToolSettings_use_keyframe_insert_auto_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->autokey_mode) & 1) != 0);
+}
+
+void ToolSettings_use_keyframe_insert_auto_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->autokey_mode |= 1; }
+    else { data->autokey_mode &= ~1; }
+}
+
+int ToolSettings_auto_keying_mode_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return ((data->autokey_mode) & 6);
+}
+
+void ToolSettings_auto_keying_mode_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->autokey_mode &= ~6;
+    data->autokey_mode |= value;
+}
+
+bool ToolSettings_use_record_with_nla_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->autokey_flag) & 1024) != 0);
+}
+
+void ToolSettings_use_record_with_nla_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->autokey_flag |= 1024; }
+    else { data->autokey_flag &= ~1024; }
+}
+
+bool ToolSettings_use_keyframe_insert_keyingset_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->autokey_flag) & 64) != 0);
+}
+
+void ToolSettings_use_keyframe_insert_keyingset_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->autokey_flag |= 64; }
+    else { data->autokey_flag &= ~64; }
+}
+
+bool ToolSettings_use_keyframe_cycle_aware_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->autokey_flag) & 256) != 0);
+}
+
+void ToolSettings_use_keyframe_cycle_aware_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->autokey_flag |= 256; }
+    else { data->autokey_flag &= ~256; }
+}
+
+int ToolSettings_keyframe_type_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (int)(data->keyframe_type);
+}
+
+void ToolSettings_keyframe_type_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->keyframe_type = value;
+}
+
+int ToolSettings_uv_select_mode_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (int)(data->uv_selectmode);
+}
+
+void ToolSettings_uv_select_mode_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->uv_selectmode = value;
+}
+
+int ToolSettings_uv_sticky_select_mode_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (int)(data->uv_sticky);
+}
+
+void ToolSettings_uv_sticky_select_mode_set(PointerRNA *ptr, int value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->uv_sticky = value;
+}
+
+bool ToolSettings_use_uv_select_sync_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->uv_flag) & 1) != 0);
+}
+
+void ToolSettings_use_uv_select_sync_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->uv_flag |= 1; }
+    else { data->uv_flag &= ~1; }
+}
+
+bool ToolSettings_show_uv_local_view_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->uv_flag) & 2) != 0);
+}
+
+void ToolSettings_show_uv_local_view_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->uv_flag |= 2; }
+    else { data->uv_flag &= ~2; }
+}
+
+void ToolSettings_mesh_select_mode_get(PointerRNA *ptr, bool values[3])
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 3; i++) {
+        values[i] = ((data->selectmode & (1 << i)) != 0);
+    }
+}
+
+void ToolSettings_mesh_select_mode_set(PointerRNA *ptr, const bool values[3])
+{
+    rna_Scene_editmesh_select_mode_set(ptr, values);
+}
+
+float ToolSettings_vertex_group_weight_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (float)(data->vgroup_weight);
+}
+
+void ToolSettings_vertex_group_weight_set(PointerRNA *ptr, float value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    data->vgroup_weight = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+bool ToolSettings_use_edge_path_live_unwrap_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return (((data->edge_mode_live_unwrap) & 1) != 0);
+}
+
+void ToolSettings_use_edge_path_live_unwrap_set(PointerRNA *ptr, bool value)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    if (value) { data->edge_mode_live_unwrap |= 1; }
+    else { data->edge_mode_live_unwrap &= ~1; }
+}
+
+void ToolSettings_normal_vector_get(PointerRNA *ptr, float values[3])
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 3; i++) {
+        values[i] = (float)(((float *)data->normal_vector)[i]);
+    }
+}
+
+void ToolSettings_normal_vector_set(PointerRNA *ptr, const float values[3])
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 3; i++) {
+        ((float *)data->normal_vector)[i] = values[i];
+    }
+}
+
+PointerRNA ToolSettings_unified_paint_settings_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_UnifiedPaintSettings, &data->unified_paint_settings);
+}
+
+PointerRNA ToolSettings_curve_paint_settings_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_CurvePaintSettings, &data->curve_paint_settings);
+}
+
+PointerRNA ToolSettings_statvis_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_MeshStatVis, &data->statvis);
+}
+
+PointerRNA ToolSettings_custom_bevel_profile_preset_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_CurveProfile, data->custom_bevel_profile_preset);
+}
+
+PointerRNA ToolSettings_sequencer_tool_settings_get(PointerRNA *ptr)
+{
+    ToolSettings *data = (ToolSettings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_SequencerToolSettings, data->sequencer_tool_settings);
+}
+
+static PointerRNA GPencilInterpolateSettings_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void GPencilInterpolateSettings_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_GPencilInterpolateSettings_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = GPencilInterpolateSettings_rna_properties_get(iter);
+    }
+}
+
+void GPencilInterpolateSettings_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = GPencilInterpolateSettings_rna_properties_get(iter);
+    }
+}
+
+void GPencilInterpolateSettings_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int GPencilInterpolateSettings_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA GPencilInterpolateSettings_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+PointerRNA GPencilInterpolateSettings_interpolation_curve_get(PointerRNA *ptr)
+{
+    GP_Interpolate_Settings *data = (GP_Interpolate_Settings *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_CurveMapping, data->custom_ipo);
+}
+
+static PointerRNA UnifiedPaintSettings_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void UnifiedPaintSettings_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_UnifiedPaintSettings_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = UnifiedPaintSettings_rna_properties_get(iter);
+    }
+}
+
+void UnifiedPaintSettings_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = UnifiedPaintSettings_rna_properties_get(iter);
+    }
+}
+
+void UnifiedPaintSettings_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int UnifiedPaintSettings_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA UnifiedPaintSettings_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+bool UnifiedPaintSettings_use_unified_size_get(PointerRNA *ptr)
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    return (((data->flag) & 1) != 0);
+}
+
+void UnifiedPaintSettings_use_unified_size_set(PointerRNA *ptr, bool value)
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    if (value) { data->flag |= 1; }
+    else { data->flag &= ~1; }
+}
+
+bool UnifiedPaintSettings_use_unified_strength_get(PointerRNA *ptr)
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    return (((data->flag) & 2) != 0);
+}
+
+void UnifiedPaintSettings_use_unified_strength_set(PointerRNA *ptr, bool value)
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    if (value) { data->flag |= 2; }
+    else { data->flag &= ~2; }
+}
+
+bool UnifiedPaintSettings_use_unified_weight_get(PointerRNA *ptr)
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    return (((data->flag) & 32) != 0);
+}
+
+void UnifiedPaintSettings_use_unified_weight_set(PointerRNA *ptr, bool value)
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    if (value) { data->flag |= 32; }
+    else { data->flag &= ~32; }
+}
+
+bool UnifiedPaintSettings_use_unified_color_get(PointerRNA *ptr)
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    return (((data->flag) & 64) != 0);
+}
+
+void UnifiedPaintSettings_use_unified_color_set(PointerRNA *ptr, bool value)
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    if (value) { data->flag |= 64; }
+    else { data->flag &= ~64; }
+}
+
+int UnifiedPaintSettings_size_get(PointerRNA *ptr)
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    return (int)(data->size);
+}
+
+void UnifiedPaintSettings_size_set(PointerRNA *ptr, int value)
+{
+    rna_UnifiedPaintSettings_size_set(ptr, value);
+}
+
+float UnifiedPaintSettings_unprojected_radius_get(PointerRNA *ptr)
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    return (float)(data->unprojected_radius);
+}
+
+void UnifiedPaintSettings_unprojected_radius_set(PointerRNA *ptr, float value)
+{
+    rna_UnifiedPaintSettings_unprojected_radius_set(ptr, value);
+}
+
+float UnifiedPaintSettings_strength_get(PointerRNA *ptr)
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    return (float)(data->alpha);
+}
+
+void UnifiedPaintSettings_strength_set(PointerRNA *ptr, float value)
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    data->alpha = CLAMPIS(value, 0.0f, 10.0f);
+}
+
+float UnifiedPaintSettings_weight_get(PointerRNA *ptr)
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    return (float)(data->weight);
+}
+
+void UnifiedPaintSettings_weight_set(PointerRNA *ptr, float value)
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    data->weight = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+void UnifiedPaintSettings_color_get(PointerRNA *ptr, float values[3])
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 3; i++) {
+        values[i] = (float)(((float *)data->rgb)[i]);
+    }
+}
+
+void UnifiedPaintSettings_color_set(PointerRNA *ptr, const float values[3])
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 3; i++) {
+        ((float *)data->rgb)[i] = CLAMPIS(values[i], 0.0f, 1.0f);
+    }
+}
+
+void UnifiedPaintSettings_secondary_color_get(PointerRNA *ptr, float values[3])
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 3; i++) {
+        values[i] = (float)(((float *)data->secondary_rgb)[i]);
+    }
+}
+
+void UnifiedPaintSettings_secondary_color_set(PointerRNA *ptr, const float values[3])
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 3; i++) {
+        ((float *)data->secondary_rgb)[i] = CLAMPIS(values[i], 0.0f, 1.0f);
+    }
+}
+
+int UnifiedPaintSettings_use_locked_size_get(PointerRNA *ptr)
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    return ((data->flag) & 4);
+}
+
+void UnifiedPaintSettings_use_locked_size_set(PointerRNA *ptr, int value)
+{
+    UnifiedPaintSettings *data = (UnifiedPaintSettings *)(ptr->data);
+    data->flag &= ~4;
+    data->flag |= value;
+}
+
+static PointerRNA CurvePaintSettings_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void CurvePaintSettings_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_CurvePaintSettings_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = CurvePaintSettings_rna_properties_get(iter);
+    }
+}
+
+void CurvePaintSettings_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = CurvePaintSettings_rna_properties_get(iter);
+    }
+}
+
+void CurvePaintSettings_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int CurvePaintSettings_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA CurvePaintSettings_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+int CurvePaintSettings_curve_type_get(PointerRNA *ptr)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    return (int)(data->curve_type);
+}
+
+void CurvePaintSettings_curve_type_set(PointerRNA *ptr, int value)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    data->curve_type = value;
+}
+
+bool CurvePaintSettings_use_corners_detect_get(PointerRNA *ptr)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    return (((data->flag) & 1) != 0);
+}
+
+void CurvePaintSettings_use_corners_detect_set(PointerRNA *ptr, bool value)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    if (value) { data->flag |= 1; }
+    else { data->flag &= ~1; }
+}
+
+bool CurvePaintSettings_use_pressure_radius_get(PointerRNA *ptr)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    return (((data->flag) & 2) != 0);
+}
+
+void CurvePaintSettings_use_pressure_radius_set(PointerRNA *ptr, bool value)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    if (value) { data->flag |= 2; }
+    else { data->flag &= ~2; }
+}
+
+bool CurvePaintSettings_use_stroke_endpoints_get(PointerRNA *ptr)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    return (((data->flag) & 4) != 0);
+}
+
+void CurvePaintSettings_use_stroke_endpoints_set(PointerRNA *ptr, bool value)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    if (value) { data->flag |= 4; }
+    else { data->flag &= ~4; }
+}
+
+bool CurvePaintSettings_use_offset_absolute_get(PointerRNA *ptr)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    return (((data->flag) & 8) != 0);
+}
+
+void CurvePaintSettings_use_offset_absolute_set(PointerRNA *ptr, bool value)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    if (value) { data->flag |= 8; }
+    else { data->flag &= ~8; }
+}
+
+int CurvePaintSettings_error_threshold_get(PointerRNA *ptr)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    return (int)(data->error_threshold);
+}
+
+void CurvePaintSettings_error_threshold_set(PointerRNA *ptr, int value)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    data->error_threshold = CLAMPIS(value, 1, 100);
+}
+
+int CurvePaintSettings_fit_method_get(PointerRNA *ptr)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    return (int)(data->fit_method);
+}
+
+void CurvePaintSettings_fit_method_set(PointerRNA *ptr, int value)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    data->fit_method = value;
+}
+
+float CurvePaintSettings_corner_angle_get(PointerRNA *ptr)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    return (float)(data->corner_angle);
+}
+
+void CurvePaintSettings_corner_angle_set(PointerRNA *ptr, float value)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    data->corner_angle = CLAMPIS(value, 0.0f, 3.1415927410f);
+}
+
+float CurvePaintSettings_radius_min_get(PointerRNA *ptr)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    return (float)(data->radius_min);
+}
+
+void CurvePaintSettings_radius_min_set(PointerRNA *ptr, float value)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    data->radius_min = CLAMPIS(value, 0.0f, 100.0f);
+}
+
+float CurvePaintSettings_radius_max_get(PointerRNA *ptr)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    return (float)(data->radius_max);
+}
+
+void CurvePaintSettings_radius_max_set(PointerRNA *ptr, float value)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    data->radius_max = CLAMPIS(value, 0.0f, 100.0f);
+}
+
+float CurvePaintSettings_radius_taper_start_get(PointerRNA *ptr)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    return (float)(data->radius_taper_start);
+}
+
+void CurvePaintSettings_radius_taper_start_set(PointerRNA *ptr, float value)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    data->radius_taper_start = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+float CurvePaintSettings_radius_taper_end_get(PointerRNA *ptr)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    return (float)(data->radius_taper_end);
+}
+
+void CurvePaintSettings_radius_taper_end_set(PointerRNA *ptr, float value)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    data->radius_taper_end = CLAMPIS(value, 0.0f, 10.0f);
+}
+
+float CurvePaintSettings_surface_offset_get(PointerRNA *ptr)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    return (float)(data->surface_offset);
+}
+
+void CurvePaintSettings_surface_offset_set(PointerRNA *ptr, float value)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    data->surface_offset = CLAMPIS(value, -10.0f, 10.0f);
+}
+
+int CurvePaintSettings_depth_mode_get(PointerRNA *ptr)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    return (int)(data->depth_mode);
+}
+
+void CurvePaintSettings_depth_mode_set(PointerRNA *ptr, int value)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    data->depth_mode = value;
+}
+
+int CurvePaintSettings_surface_plane_get(PointerRNA *ptr)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    return (int)(data->surface_plane);
+}
+
+void CurvePaintSettings_surface_plane_set(PointerRNA *ptr, int value)
+{
+    CurvePaintSettings *data = (CurvePaintSettings *)(ptr->data);
+    data->surface_plane = value;
+}
+
+static PointerRNA SequencerToolSettings_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void SequencerToolSettings_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_SequencerToolSettings_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = SequencerToolSettings_rna_properties_get(iter);
+    }
+}
+
+void SequencerToolSettings_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = SequencerToolSettings_rna_properties_get(iter);
+    }
+}
+
+void SequencerToolSettings_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int SequencerToolSettings_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA SequencerToolSettings_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+int SequencerToolSettings_fit_method_get(PointerRNA *ptr)
+{
+    SequencerToolSettings *data = (SequencerToolSettings *)(ptr->data);
+    return (int)(data->fit_method);
+}
+
+void SequencerToolSettings_fit_method_set(PointerRNA *ptr, int value)
+{
+    SequencerToolSettings *data = (SequencerToolSettings *)(ptr->data);
+    data->fit_method = value;
+}
+
+bool SequencerToolSettings_snap_to_current_frame_get(PointerRNA *ptr)
+{
+    SequencerToolSettings *data = (SequencerToolSettings *)(ptr->data);
+    return (((data->snap_mode) & 2) != 0);
+}
+
+void SequencerToolSettings_snap_to_current_frame_set(PointerRNA *ptr, bool value)
+{
+    SequencerToolSettings *data = (SequencerToolSettings *)(ptr->data);
+    if (value) { data->snap_mode |= 2; }
+    else { data->snap_mode &= ~2; }
+}
+
+bool SequencerToolSettings_snap_to_hold_offset_get(PointerRNA *ptr)
+{
+    SequencerToolSettings *data = (SequencerToolSettings *)(ptr->data);
+    return (((data->snap_mode) & 4) != 0);
+}
+
+void SequencerToolSettings_snap_to_hold_offset_set(PointerRNA *ptr, bool value)
+{
+    SequencerToolSettings *data = (SequencerToolSettings *)(ptr->data);
+    if (value) { data->snap_mode |= 4; }
+    else { data->snap_mode &= ~4; }
+}
+
+bool SequencerToolSettings_snap_ignore_muted_get(PointerRNA *ptr)
+{
+    SequencerToolSettings *data = (SequencerToolSettings *)(ptr->data);
+    return (((data->snap_flag) & 1) != 0);
+}
+
+void SequencerToolSettings_snap_ignore_muted_set(PointerRNA *ptr, bool value)
+{
+    SequencerToolSettings *data = (SequencerToolSettings *)(ptr->data);
+    if (value) { data->snap_flag |= 1; }
+    else { data->snap_flag &= ~1; }
+}
+
+bool SequencerToolSettings_snap_ignore_sound_get(PointerRNA *ptr)
+{
+    SequencerToolSettings *data = (SequencerToolSettings *)(ptr->data);
+    return (((data->snap_flag) & 2) != 0);
+}
+
+void SequencerToolSettings_snap_ignore_sound_set(PointerRNA *ptr, bool value)
+{
+    SequencerToolSettings *data = (SequencerToolSettings *)(ptr->data);
+    if (value) { data->snap_flag |= 2; }
+    else { data->snap_flag &= ~2; }
+}
+
+bool SequencerToolSettings_use_snap_current_frame_to_strips_get(PointerRNA *ptr)
+{
+    SequencerToolSettings *data = (SequencerToolSettings *)(ptr->data);
+    return (((data->snap_flag) & 4) != 0);
+}
+
+void SequencerToolSettings_use_snap_current_frame_to_strips_set(PointerRNA *ptr, bool value)
+{
+    SequencerToolSettings *data = (SequencerToolSettings *)(ptr->data);
+    if (value) { data->snap_flag |= 4; }
+    else { data->snap_flag &= ~4; }
+}
+
+int SequencerToolSettings_snap_distance_get(PointerRNA *ptr)
+{
+    SequencerToolSettings *data = (SequencerToolSettings *)(ptr->data);
+    return (int)(data->snap_distance);
+}
+
+void SequencerToolSettings_snap_distance_set(PointerRNA *ptr, int value)
+{
+    SequencerToolSettings *data = (SequencerToolSettings *)(ptr->data);
+    data->snap_distance = value;
+}
+
+int SequencerToolSettings_overlap_mode_get(PointerRNA *ptr)
+{
+    SequencerToolSettings *data = (SequencerToolSettings *)(ptr->data);
+    return (int)(data->overlap_mode);
+}
+
+void SequencerToolSettings_overlap_mode_set(PointerRNA *ptr, int value)
+{
+    SequencerToolSettings *data = (SequencerToolSettings *)(ptr->data);
+    data->overlap_mode = value;
+}
+
+int SequencerToolSettings_pivot_point_get(PointerRNA *ptr)
+{
+    SequencerToolSettings *data = (SequencerToolSettings *)(ptr->data);
+    return (int)(data->pivot_point);
+}
+
+void SequencerToolSettings_pivot_point_set(PointerRNA *ptr, int value)
+{
+    SequencerToolSettings *data = (SequencerToolSettings *)(ptr->data);
+    data->pivot_point = value;
+}
+
+static PointerRNA MeshStatVis_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void MeshStatVis_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_MeshStatVis_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = MeshStatVis_rna_properties_get(iter);
+    }
+}
+
+void MeshStatVis_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = MeshStatVis_rna_properties_get(iter);
+    }
+}
+
+void MeshStatVis_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int MeshStatVis_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA MeshStatVis_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+int MeshStatVis_type_get(PointerRNA *ptr)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    return (int)(data->type);
+}
+
+void MeshStatVis_type_set(PointerRNA *ptr, int value)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    data->type = value;
+}
+
+float MeshStatVis_overhang_min_get(PointerRNA *ptr)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    return (float)(data->overhang_min);
+}
+
+void MeshStatVis_overhang_min_set(PointerRNA *ptr, float value)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    data->overhang_min = CLAMPIS(value, 0.0f, 3.1415927410f);
+}
+
+float MeshStatVis_overhang_max_get(PointerRNA *ptr)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    return (float)(data->overhang_max);
+}
+
+void MeshStatVis_overhang_max_set(PointerRNA *ptr, float value)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    data->overhang_max = CLAMPIS(value, 0.0f, 3.1415927410f);
+}
+
+int MeshStatVis_overhang_axis_get(PointerRNA *ptr)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    return (int)(data->overhang_axis);
+}
+
+void MeshStatVis_overhang_axis_set(PointerRNA *ptr, int value)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    data->overhang_axis = value;
+}
+
+float MeshStatVis_thickness_min_get(PointerRNA *ptr)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    return (float)(data->thickness_min);
+}
+
+void MeshStatVis_thickness_min_set(PointerRNA *ptr, float value)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    data->thickness_min = CLAMPIS(value, 0.0f, 1000.0f);
+}
+
+float MeshStatVis_thickness_max_get(PointerRNA *ptr)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    return (float)(data->thickness_max);
+}
+
+void MeshStatVis_thickness_max_set(PointerRNA *ptr, float value)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    data->thickness_max = CLAMPIS(value, 0.0f, 1000.0f);
+}
+
+int MeshStatVis_thickness_samples_get(PointerRNA *ptr)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    return (int)(data->thickness_samples);
+}
+
+void MeshStatVis_thickness_samples_set(PointerRNA *ptr, int value)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    data->thickness_samples = CLAMPIS(value, 1, 32);
+}
+
+float MeshStatVis_distort_min_get(PointerRNA *ptr)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    return (float)(data->distort_min);
+}
+
+void MeshStatVis_distort_min_set(PointerRNA *ptr, float value)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    data->distort_min = CLAMPIS(value, 0.0f, 3.1415927410f);
+}
+
+float MeshStatVis_distort_max_get(PointerRNA *ptr)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    return (float)(data->distort_max);
+}
+
+void MeshStatVis_distort_max_set(PointerRNA *ptr, float value)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    data->distort_max = CLAMPIS(value, 0.0f, 3.1415927410f);
+}
+
+float MeshStatVis_sharp_min_get(PointerRNA *ptr)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    return (float)(data->sharp_min);
+}
+
+void MeshStatVis_sharp_min_set(PointerRNA *ptr, float value)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    data->sharp_min = CLAMPIS(value, -3.1415927410f, 3.1415927410f);
+}
+
+float MeshStatVis_sharp_max_get(PointerRNA *ptr)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    return (float)(data->sharp_max);
+}
+
+void MeshStatVis_sharp_max_set(PointerRNA *ptr, float value)
+{
+    MeshStatVis *data = (MeshStatVis *)(ptr->data);
+    data->sharp_max = CLAMPIS(value, -3.1415927410f, 3.1415927410f);
+}
+
+static PointerRNA UnitSettings_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void UnitSettings_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_UnitSettings_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = UnitSettings_rna_properties_get(iter);
+    }
+}
+
+void UnitSettings_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = UnitSettings_rna_properties_get(iter);
+    }
+}
+
+void UnitSettings_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int UnitSettings_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA UnitSettings_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+int UnitSettings_system_get(PointerRNA *ptr)
+{
+    UnitSettings *data = (UnitSettings *)(ptr->data);
+    return (int)(data->system);
+}
+
+void UnitSettings_system_set(PointerRNA *ptr, int value)
+{
+    UnitSettings *data = (UnitSettings *)(ptr->data);
+    data->system = value;
+}
+
+int UnitSettings_system_rotation_get(PointerRNA *ptr)
+{
+    UnitSettings *data = (UnitSettings *)(ptr->data);
+    return (int)(data->system_rotation);
+}
+
+void UnitSettings_system_rotation_set(PointerRNA *ptr, int value)
+{
+    UnitSettings *data = (UnitSettings *)(ptr->data);
+    data->system_rotation = value;
+}
+
+float UnitSettings_scale_length_get(PointerRNA *ptr)
+{
+    UnitSettings *data = (UnitSettings *)(ptr->data);
+    return (float)(data->scale_length);
+}
+
+void UnitSettings_scale_length_set(PointerRNA *ptr, float value)
+{
+    UnitSettings *data = (UnitSettings *)(ptr->data);
+    data->scale_length = CLAMPIS(value, 0.0000000010f, 1000000000.0f);
+}
+
+bool UnitSettings_use_separate_get(PointerRNA *ptr)
+{
+    UnitSettings *data = (UnitSettings *)(ptr->data);
+    return (((data->flag) & 1) != 0);
+}
+
+void UnitSettings_use_separate_set(PointerRNA *ptr, bool value)
+{
+    UnitSettings *data = (UnitSettings *)(ptr->data);
+    if (value) { data->flag |= 1; }
+    else { data->flag &= ~1; }
+}
+
+int UnitSettings_length_unit_get(PointerRNA *ptr)
+{
+    UnitSettings *data = (UnitSettings *)(ptr->data);
+    return (int)(data->length_unit);
+}
+
+void UnitSettings_length_unit_set(PointerRNA *ptr, int value)
+{
+    UnitSettings *data = (UnitSettings *)(ptr->data);
+    data->length_unit = value;
+}
+
+int UnitSettings_mass_unit_get(PointerRNA *ptr)
+{
+    UnitSettings *data = (UnitSettings *)(ptr->data);
+    return (int)(data->mass_unit);
+}
+
+void UnitSettings_mass_unit_set(PointerRNA *ptr, int value)
+{
+    UnitSettings *data = (UnitSettings *)(ptr->data);
+    data->mass_unit = value;
+}
+
+int UnitSettings_time_unit_get(PointerRNA *ptr)
+{
+    UnitSettings *data = (UnitSettings *)(ptr->data);
+    return (int)(data->time_unit);
+}
+
+void UnitSettings_time_unit_set(PointerRNA *ptr, int value)
+{
+    UnitSettings *data = (UnitSettings *)(ptr->data);
+    data->time_unit = value;
+}
+
+int UnitSettings_temperature_unit_get(PointerRNA *ptr)
+{
+    UnitSettings *data = (UnitSettings *)(ptr->data);
+    return (int)(data->temperature_unit);
+}
+
+void UnitSettings_temperature_unit_set(PointerRNA *ptr, int value)
+{
+    UnitSettings *data = (UnitSettings *)(ptr->data);
+    data->temperature_unit = value;
+}
+
+static PointerRNA Stereo3dFormat_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void Stereo3dFormat_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_Stereo3dFormat_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = Stereo3dFormat_rna_properties_get(iter);
+    }
+}
+
+void Stereo3dFormat_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = Stereo3dFormat_rna_properties_get(iter);
+    }
+}
+
+void Stereo3dFormat_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int Stereo3dFormat_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA Stereo3dFormat_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+int Stereo3dFormat_display_mode_get(PointerRNA *ptr)
+{
+    Stereo3dFormat *data = (Stereo3dFormat *)(ptr->data);
+    return (int)(data->display_mode);
+}
+
+void Stereo3dFormat_display_mode_set(PointerRNA *ptr, int value)
+{
+    Stereo3dFormat *data = (Stereo3dFormat *)(ptr->data);
+    data->display_mode = value;
+}
+
+int Stereo3dFormat_anaglyph_type_get(PointerRNA *ptr)
+{
+    Stereo3dFormat *data = (Stereo3dFormat *)(ptr->data);
+    return (int)(data->anaglyph_type);
+}
+
+void Stereo3dFormat_anaglyph_type_set(PointerRNA *ptr, int value)
+{
+    Stereo3dFormat *data = (Stereo3dFormat *)(ptr->data);
+    data->anaglyph_type = value;
+}
+
+int Stereo3dFormat_interlace_type_get(PointerRNA *ptr)
+{
+    Stereo3dFormat *data = (Stereo3dFormat *)(ptr->data);
+    return (int)(data->interlace_type);
+}
+
+void Stereo3dFormat_interlace_type_set(PointerRNA *ptr, int value)
+{
+    Stereo3dFormat *data = (Stereo3dFormat *)(ptr->data);
+    data->interlace_type = value;
+}
+
+bool Stereo3dFormat_use_interlace_swap_get(PointerRNA *ptr)
+{
+    Stereo3dFormat *data = (Stereo3dFormat *)(ptr->data);
+    return (((data->flag) & 1) != 0);
+}
+
+void Stereo3dFormat_use_interlace_swap_set(PointerRNA *ptr, bool value)
+{
+    Stereo3dFormat *data = (Stereo3dFormat *)(ptr->data);
+    if (value) { data->flag |= 1; }
+    else { data->flag &= ~1; }
+}
+
+bool Stereo3dFormat_use_sidebyside_crosseyed_get(PointerRNA *ptr)
+{
+    Stereo3dFormat *data = (Stereo3dFormat *)(ptr->data);
+    return (((data->flag) & 2) != 0);
+}
+
+void Stereo3dFormat_use_sidebyside_crosseyed_set(PointerRNA *ptr, bool value)
+{
+    Stereo3dFormat *data = (Stereo3dFormat *)(ptr->data);
+    if (value) { data->flag |= 2; }
+    else { data->flag &= ~2; }
+}
+
+bool Stereo3dFormat_use_squeezed_frame_get(PointerRNA *ptr)
+{
+    Stereo3dFormat *data = (Stereo3dFormat *)(ptr->data);
+    return (((data->flag) & 4) != 0);
+}
+
+void Stereo3dFormat_use_squeezed_frame_set(PointerRNA *ptr, bool value)
+{
+    Stereo3dFormat *data = (Stereo3dFormat *)(ptr->data);
+    if (value) { data->flag |= 4; }
+    else { data->flag &= ~4; }
+}
+
+static PointerRNA ImageFormatSettings_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void ImageFormatSettings_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_ImageFormatSettings_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = ImageFormatSettings_rna_properties_get(iter);
+    }
+}
+
+void ImageFormatSettings_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = ImageFormatSettings_rna_properties_get(iter);
+    }
+}
+
+void ImageFormatSettings_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int ImageFormatSettings_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA ImageFormatSettings_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+int ImageFormatSettings_file_format_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return (int)(data->imtype);
+}
+
+void ImageFormatSettings_file_format_set(PointerRNA *ptr, int value)
+{
+    rna_ImageFormatSettings_file_format_set(ptr, value);
+}
+
+int ImageFormatSettings_color_mode_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return ((data->planes) & 56);
+}
+
+void ImageFormatSettings_color_mode_set(PointerRNA *ptr, int value)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    data->planes &= ~56;
+    data->planes |= value;
+}
+
+int ImageFormatSettings_color_depth_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return ((data->depth) & 94);
+}
+
+void ImageFormatSettings_color_depth_set(PointerRNA *ptr, int value)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    data->depth &= ~94;
+    data->depth |= value;
+}
+
+int ImageFormatSettings_quality_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return (int)(data->quality);
+}
+
+void ImageFormatSettings_quality_set(PointerRNA *ptr, int value)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    data->quality = CLAMPIS(value, 0, 100);
+}
+
+int ImageFormatSettings_compression_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return (int)(data->compress);
+}
+
+void ImageFormatSettings_compression_set(PointerRNA *ptr, int value)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    data->compress = CLAMPIS(value, 0, 100);
+}
+
+bool ImageFormatSettings_use_zbuffer_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return (((data->flag) & 1) != 0);
+}
+
+void ImageFormatSettings_use_zbuffer_set(PointerRNA *ptr, bool value)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    if (value) { data->flag |= 1; }
+    else { data->flag &= ~1; }
+}
+
+bool ImageFormatSettings_use_preview_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return (((data->flag) & 2) != 0);
+}
+
+void ImageFormatSettings_use_preview_set(PointerRNA *ptr, bool value)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    if (value) { data->flag |= 2; }
+    else { data->flag &= ~2; }
+}
+
+int ImageFormatSettings_exr_codec_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return (int)(data->exr_codec);
+}
+
+void ImageFormatSettings_exr_codec_set(PointerRNA *ptr, int value)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    data->exr_codec = value;
+}
+
+bool ImageFormatSettings_use_jpeg2k_ycc_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return (((data->jp2_flag) & 1) != 0);
+}
+
+void ImageFormatSettings_use_jpeg2k_ycc_set(PointerRNA *ptr, bool value)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    if (value) { data->jp2_flag |= 1; }
+    else { data->jp2_flag &= ~1; }
+}
+
+bool ImageFormatSettings_use_jpeg2k_cinema_preset_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return (((data->jp2_flag) & 2) != 0);
+}
+
+void ImageFormatSettings_use_jpeg2k_cinema_preset_set(PointerRNA *ptr, bool value)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    if (value) { data->jp2_flag |= 2; }
+    else { data->jp2_flag &= ~2; }
+}
+
+bool ImageFormatSettings_use_jpeg2k_cinema_48_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return (((data->jp2_flag) & 4) != 0);
+}
+
+void ImageFormatSettings_use_jpeg2k_cinema_48_set(PointerRNA *ptr, bool value)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    if (value) { data->jp2_flag |= 4; }
+    else { data->jp2_flag &= ~4; }
+}
+
+int ImageFormatSettings_jpeg2k_codec_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return (int)(data->jp2_codec);
+}
+
+void ImageFormatSettings_jpeg2k_codec_set(PointerRNA *ptr, int value)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    data->jp2_codec = value;
+}
+
+int ImageFormatSettings_tiff_codec_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return (int)(data->tiff_codec);
+}
+
+void ImageFormatSettings_tiff_codec_set(PointerRNA *ptr, int value)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    data->tiff_codec = value;
+}
+
+bool ImageFormatSettings_use_cineon_log_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return (((data->cineon_flag) & 1) != 0);
+}
+
+void ImageFormatSettings_use_cineon_log_set(PointerRNA *ptr, bool value)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    if (value) { data->cineon_flag |= 1; }
+    else { data->cineon_flag &= ~1; }
+}
+
+int ImageFormatSettings_cineon_black_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return (int)(data->cineon_black);
+}
+
+void ImageFormatSettings_cineon_black_set(PointerRNA *ptr, int value)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    data->cineon_black = CLAMPIS(value, 0, 1024);
+}
+
+int ImageFormatSettings_cineon_white_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return (int)(data->cineon_white);
+}
+
+void ImageFormatSettings_cineon_white_set(PointerRNA *ptr, int value)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    data->cineon_white = CLAMPIS(value, 0, 1024);
+}
+
+float ImageFormatSettings_cineon_gamma_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return (float)(data->cineon_gamma);
+}
+
+void ImageFormatSettings_cineon_gamma_set(PointerRNA *ptr, float value)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    data->cineon_gamma = CLAMPIS(value, 0.0f, 10.0f);
+}
+
+int ImageFormatSettings_views_format_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return (int)(data->views_format);
+}
+
+void ImageFormatSettings_views_format_set(PointerRNA *ptr, int value)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    data->views_format = value;
+}
+
+PointerRNA ImageFormatSettings_stereo_3d_format_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_Stereo3dFormat, &data->stereo3d_format);
+}
+
+int ImageFormatSettings_color_management_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return (int)(data->color_management);
+}
+
+void ImageFormatSettings_color_management_set(PointerRNA *ptr, int value)
+{
+    rna_ImageFormatSettings_color_management_set(ptr, value);
+}
+
+PointerRNA ImageFormatSettings_view_settings_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_ColorManagedViewSettings, &data->view_settings);
+}
+
+PointerRNA ImageFormatSettings_display_settings_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_ColorManagedDisplaySettings, &data->display_settings);
+}
+
+PointerRNA ImageFormatSettings_linear_colorspace_settings_get(PointerRNA *ptr)
+{
+    ImageFormatData *data = (ImageFormatData *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_ColorManagedInputColorspaceSettings, &data->linear_colorspace_settings);
+}
+
+bool ImageFormatSettings_has_linear_colorspace_get(PointerRNA *ptr)
+{
+    return rna_ImageFormatSettings_has_linear_colorspace_get(ptr);
+}
+
+static PointerRNA TransformOrientation_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void TransformOrientation_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_TransformOrientation_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = TransformOrientation_rna_properties_get(iter);
+    }
+}
+
+void TransformOrientation_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = TransformOrientation_rna_properties_get(iter);
+    }
+}
+
+void TransformOrientation_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int TransformOrientation_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA TransformOrientation_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+void TransformOrientation_matrix_get(PointerRNA *ptr, float values[9])
+{
+    TransformOrientation *data = (TransformOrientation *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 9; i++) {
+        values[i] = (float)(((float *)data->mat)[i]);
+    }
+}
+
+void TransformOrientation_matrix_set(PointerRNA *ptr, const float values[9])
+{
+    TransformOrientation *data = (TransformOrientation *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 9; i++) {
+        ((float *)data->mat)[i] = values[i];
+    }
+}
+
+void TransformOrientation_name_get(PointerRNA *ptr, char *value)
+{
+    TransformOrientation *data = (TransformOrientation *)(ptr->data);
+    BLI_strncpy_utf8(value, data->name, 64);
+}
+
+int TransformOrientation_name_length(PointerRNA *ptr)
+{
+    TransformOrientation *data = (TransformOrientation *)(ptr->data);
+    return strlen(data->name);
+}
+
+void TransformOrientation_name_set(PointerRNA *ptr, const char *value)
+{
+    TransformOrientation *data = (TransformOrientation *)(ptr->data);
+    BLI_strncpy_utf8(data->name, value, 64);
+}
+
+static PointerRNA TransformOrientationSlot_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void TransformOrientationSlot_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_TransformOrientationSlot_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = TransformOrientationSlot_rna_properties_get(iter);
+    }
+}
+
+void TransformOrientationSlot_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = TransformOrientationSlot_rna_properties_get(iter);
+    }
+}
+
+void TransformOrientationSlot_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int TransformOrientationSlot_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA TransformOrientationSlot_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+int TransformOrientationSlot_type_get(PointerRNA *ptr)
+{
+    return rna_TransformOrientationSlot_type_get(ptr);
+}
+
+void TransformOrientationSlot_type_set(PointerRNA *ptr, int value)
+{
+    rna_TransformOrientationSlot_type_set(ptr, value);
+}
+
+PointerRNA TransformOrientationSlot_custom_orientation_get(PointerRNA *ptr)
+{
+    return rna_TransformOrientationSlot_get(ptr);
+}
+
+bool TransformOrientationSlot_use_get(PointerRNA *ptr)
+{
+    TransformOrientationSlot *data = (TransformOrientationSlot *)(ptr->data);
+    return (((data->flag) & 1) != 0);
+}
+
+void TransformOrientationSlot_use_set(PointerRNA *ptr, bool value)
+{
+    TransformOrientationSlot *data = (TransformOrientationSlot *)(ptr->data);
+    if (value) { data->flag |= 1; }
+    else { data->flag &= ~1; }
+}
+
+static PointerRNA View3DCursor_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void View3DCursor_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_View3DCursor_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = View3DCursor_rna_properties_get(iter);
+    }
+}
+
+void View3DCursor_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = View3DCursor_rna_properties_get(iter);
+    }
+}
+
+void View3DCursor_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int View3DCursor_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA View3DCursor_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+void View3DCursor_location_get(PointerRNA *ptr, float values[3])
+{
+    View3DCursor *data = (View3DCursor *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 3; i++) {
+        values[i] = (float)(((float *)data->location)[i]);
+    }
+}
+
+void View3DCursor_location_set(PointerRNA *ptr, const float values[3])
+{
+    View3DCursor *data = (View3DCursor *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 3; i++) {
+        ((float *)data->location)[i] = values[i];
+    }
+}
+
+void View3DCursor_rotation_quaternion_get(PointerRNA *ptr, float values[4])
+{
+    View3DCursor *data = (View3DCursor *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 4; i++) {
+        values[i] = (float)(((float *)data->rotation_quaternion)[i]);
+    }
+}
+
+void View3DCursor_rotation_quaternion_set(PointerRNA *ptr, const float values[4])
+{
+    View3DCursor *data = (View3DCursor *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 4; i++) {
+        ((float *)data->rotation_quaternion)[i] = values[i];
+    }
+}
+
+void View3DCursor_rotation_axis_angle_get(PointerRNA *ptr, float values[4])
+{
+    rna_View3DCursor_rotation_axis_angle_get(ptr, values);
+}
+
+void View3DCursor_rotation_axis_angle_set(PointerRNA *ptr, const float values[4])
+{
+    rna_View3DCursor_rotation_axis_angle_set(ptr, values);
+}
+
+void View3DCursor_rotation_euler_get(PointerRNA *ptr, float values[3])
+{
+    View3DCursor *data = (View3DCursor *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 3; i++) {
+        values[i] = (float)(((float *)data->rotation_euler)[i]);
+    }
+}
+
+void View3DCursor_rotation_euler_set(PointerRNA *ptr, const float values[3])
+{
+    View3DCursor *data = (View3DCursor *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 3; i++) {
+        ((float *)data->rotation_euler)[i] = values[i];
+    }
+}
+
+int View3DCursor_rotation_mode_get(PointerRNA *ptr)
+{
+    View3DCursor *data = (View3DCursor *)(ptr->data);
+    return (int)(data->rotation_mode);
+}
+
+void View3DCursor_rotation_mode_set(PointerRNA *ptr, int value)
+{
+    rna_View3DCursor_rotation_mode_set(ptr, value);
+}
+
+void View3DCursor_matrix_get(PointerRNA *ptr, float values[16])
+{
+    rna_View3DCursor_matrix_get(ptr, values);
+}
+
+void View3DCursor_matrix_set(PointerRNA *ptr, const float values[16])
+{
+    rna_View3DCursor_matrix_set(ptr, values);
+}
+
+static PointerRNA DisplaySafeAreas_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void DisplaySafeAreas_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_DisplaySafeAreas_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = DisplaySafeAreas_rna_properties_get(iter);
+    }
+}
+
+void DisplaySafeAreas_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = DisplaySafeAreas_rna_properties_get(iter);
+    }
+}
+
+void DisplaySafeAreas_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int DisplaySafeAreas_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA DisplaySafeAreas_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+void DisplaySafeAreas_title_get(PointerRNA *ptr, float values[2])
+{
+    DisplaySafeAreas *data = (DisplaySafeAreas *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 2; i++) {
+        values[i] = (float)(((float *)data->title)[i]);
+    }
+}
+
+void DisplaySafeAreas_title_set(PointerRNA *ptr, const float values[2])
+{
+    DisplaySafeAreas *data = (DisplaySafeAreas *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 2; i++) {
+        ((float *)data->title)[i] = CLAMPIS(values[i], 0.0f, 1.0f);
+    }
+}
+
+void DisplaySafeAreas_action_get(PointerRNA *ptr, float values[2])
+{
+    DisplaySafeAreas *data = (DisplaySafeAreas *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 2; i++) {
+        values[i] = (float)(((float *)data->action)[i]);
+    }
+}
+
+void DisplaySafeAreas_action_set(PointerRNA *ptr, const float values[2])
+{
+    DisplaySafeAreas *data = (DisplaySafeAreas *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 2; i++) {
+        ((float *)data->action)[i] = CLAMPIS(values[i], 0.0f, 1.0f);
+    }
+}
+
+void DisplaySafeAreas_title_center_get(PointerRNA *ptr, float values[2])
+{
+    DisplaySafeAreas *data = (DisplaySafeAreas *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 2; i++) {
+        values[i] = (float)(((float *)data->title_center)[i]);
+    }
+}
+
+void DisplaySafeAreas_title_center_set(PointerRNA *ptr, const float values[2])
+{
+    DisplaySafeAreas *data = (DisplaySafeAreas *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 2; i++) {
+        ((float *)data->title_center)[i] = CLAMPIS(values[i], 0.0f, 1.0f);
+    }
+}
+
+void DisplaySafeAreas_action_center_get(PointerRNA *ptr, float values[2])
+{
+    DisplaySafeAreas *data = (DisplaySafeAreas *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 2; i++) {
+        values[i] = (float)(((float *)data->action_center)[i]);
+    }
+}
+
+void DisplaySafeAreas_action_center_set(PointerRNA *ptr, const float values[2])
+{
+    DisplaySafeAreas *data = (DisplaySafeAreas *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 2; i++) {
+        ((float *)data->action_center)[i] = CLAMPIS(values[i], 0.0f, 1.0f);
+    }
+}
+
+static PointerRNA SceneDisplay_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void SceneDisplay_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_SceneDisplay_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = SceneDisplay_rna_properties_get(iter);
+    }
+}
+
+void SceneDisplay_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = SceneDisplay_rna_properties_get(iter);
+    }
+}
+
+void SceneDisplay_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int SceneDisplay_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA SceneDisplay_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+void SceneDisplay_light_direction_get(PointerRNA *ptr, float values[3])
+{
+    SceneDisplay *data = (SceneDisplay *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 3; i++) {
+        values[i] = (float)(((float *)data->light_direction)[i]);
+    }
+}
+
+void SceneDisplay_light_direction_set(PointerRNA *ptr, const float values[3])
+{
+    SceneDisplay *data = (SceneDisplay *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 3; i++) {
+        ((float *)data->light_direction)[i] = values[i];
+    }
+}
+
+float SceneDisplay_shadow_shift_get(PointerRNA *ptr)
+{
+    SceneDisplay *data = (SceneDisplay *)(ptr->data);
+    return (float)(data->shadow_shift);
+}
+
+void SceneDisplay_shadow_shift_set(PointerRNA *ptr, float value)
+{
+    SceneDisplay *data = (SceneDisplay *)(ptr->data);
+    data->shadow_shift = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+float SceneDisplay_shadow_focus_get(PointerRNA *ptr)
+{
+    SceneDisplay *data = (SceneDisplay *)(ptr->data);
+    return (float)(data->shadow_focus);
+}
+
+void SceneDisplay_shadow_focus_set(PointerRNA *ptr, float value)
+{
+    SceneDisplay *data = (SceneDisplay *)(ptr->data);
+    data->shadow_focus = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+float SceneDisplay_matcap_ssao_distance_get(PointerRNA *ptr)
+{
+    SceneDisplay *data = (SceneDisplay *)(ptr->data);
+    return (float)(data->matcap_ssao_distance);
+}
+
+void SceneDisplay_matcap_ssao_distance_set(PointerRNA *ptr, float value)
+{
+    SceneDisplay *data = (SceneDisplay *)(ptr->data);
+    data->matcap_ssao_distance = CLAMPIS(value, 0.0f, 100000.0f);
+}
+
+float SceneDisplay_matcap_ssao_attenuation_get(PointerRNA *ptr)
+{
+    SceneDisplay *data = (SceneDisplay *)(ptr->data);
+    return (float)(data->matcap_ssao_attenuation);
+}
+
+void SceneDisplay_matcap_ssao_attenuation_set(PointerRNA *ptr, float value)
+{
+    SceneDisplay *data = (SceneDisplay *)(ptr->data);
+    data->matcap_ssao_attenuation = CLAMPIS(value, 1.0f, 100000.0f);
+}
+
+int SceneDisplay_matcap_ssao_samples_get(PointerRNA *ptr)
+{
+    SceneDisplay *data = (SceneDisplay *)(ptr->data);
+    return (int)(data->matcap_ssao_samples);
+}
+
+void SceneDisplay_matcap_ssao_samples_set(PointerRNA *ptr, int value)
+{
+    SceneDisplay *data = (SceneDisplay *)(ptr->data);
+    data->matcap_ssao_samples = CLAMPIS(value, 1, 500);
+}
+
+int SceneDisplay_render_aa_get(PointerRNA *ptr)
+{
+    SceneDisplay *data = (SceneDisplay *)(ptr->data);
+    return (int)(data->render_aa);
+}
+
+void SceneDisplay_render_aa_set(PointerRNA *ptr, int value)
+{
+    SceneDisplay *data = (SceneDisplay *)(ptr->data);
+    data->render_aa = value;
+}
+
+int SceneDisplay_viewport_aa_get(PointerRNA *ptr)
+{
+    SceneDisplay *data = (SceneDisplay *)(ptr->data);
+    return (int)(data->viewport_aa);
+}
+
+void SceneDisplay_viewport_aa_set(PointerRNA *ptr, int value)
+{
+    SceneDisplay *data = (SceneDisplay *)(ptr->data);
+    data->viewport_aa = value;
+}
+
+PointerRNA SceneDisplay_shading_get(PointerRNA *ptr)
+{
+    SceneDisplay *data = (SceneDisplay *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_View3DShading, &data->shading);
+}
+
+static PointerRNA SceneEEVEE_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void SceneEEVEE_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_SceneEEVEE_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = SceneEEVEE_rna_properties_get(iter);
+    }
+}
+
+void SceneEEVEE_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = SceneEEVEE_rna_properties_get(iter);
+    }
+}
+
+void SceneEEVEE_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int SceneEEVEE_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA SceneEEVEE_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+int SceneEEVEE_gi_diffuse_bounces_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (int)(data->gi_diffuse_bounces);
+}
+
+void SceneEEVEE_gi_diffuse_bounces_set(PointerRNA *ptr, int value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->gi_diffuse_bounces = CLAMPIS(value, 0, INT_MAX);
+}
+
+int SceneEEVEE_gi_cubemap_resolution_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (int)(data->gi_cubemap_resolution);
+}
+
+void SceneEEVEE_gi_cubemap_resolution_set(PointerRNA *ptr, int value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->gi_cubemap_resolution = value;
+}
+
+int SceneEEVEE_gi_visibility_resolution_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (int)(data->gi_visibility_resolution);
+}
+
+void SceneEEVEE_gi_visibility_resolution_set(PointerRNA *ptr, int value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->gi_visibility_resolution = value;
+}
+
+float SceneEEVEE_gi_irradiance_smoothing_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->gi_irradiance_smoothing);
+}
+
+void SceneEEVEE_gi_irradiance_smoothing_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->gi_irradiance_smoothing = CLAMPIS(value, 0.0f, FLT_MAX);
+}
+
+float SceneEEVEE_gi_glossy_clamp_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->gi_glossy_clamp);
+}
+
+void SceneEEVEE_gi_glossy_clamp_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->gi_glossy_clamp = CLAMPIS(value, 0.0f, FLT_MAX);
+}
+
+float SceneEEVEE_gi_filter_quality_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->gi_filter_quality);
+}
+
+void SceneEEVEE_gi_filter_quality_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->gi_filter_quality = CLAMPIS(value, 1.0f, 8.0f);
+}
+
+bool SceneEEVEE_gi_show_irradiance_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 131072) != 0);
+}
+
+void SceneEEVEE_gi_show_irradiance_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 131072; }
+    else { data->flag &= ~131072; }
+}
+
+bool SceneEEVEE_gi_show_cubemaps_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 262144) != 0);
+}
+
+void SceneEEVEE_gi_show_cubemaps_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 262144; }
+    else { data->flag &= ~262144; }
+}
+
+float SceneEEVEE_gi_irradiance_display_size_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->gi_irradiance_draw_size);
+}
+
+void SceneEEVEE_gi_irradiance_display_size_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->gi_irradiance_draw_size = CLAMPIS(value, 0.0500000007f, 10.0f);
+}
+
+float SceneEEVEE_gi_cubemap_display_size_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->gi_cubemap_draw_size);
+}
+
+void SceneEEVEE_gi_cubemap_display_size_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->gi_cubemap_draw_size = CLAMPIS(value, 0.0500000007f, 10.0f);
+}
+
+bool SceneEEVEE_gi_auto_bake_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 524288) != 0);
+}
+
+void SceneEEVEE_gi_auto_bake_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 524288; }
+    else { data->flag &= ~524288; }
+}
+
+void SceneEEVEE_gi_cache_info_get(PointerRNA *ptr, char *value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    BLI_strncpy_utf8(value, data->light_cache_info, 64);
+}
+
+int SceneEEVEE_gi_cache_info_length(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return strlen(data->light_cache_info);
+}
+
+int SceneEEVEE_taa_samples_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (int)(data->taa_samples);
+}
+
+void SceneEEVEE_taa_samples_set(PointerRNA *ptr, int value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->taa_samples = CLAMPIS(value, 0, INT_MAX);
+}
+
+int SceneEEVEE_taa_render_samples_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (int)(data->taa_render_samples);
+}
+
+void SceneEEVEE_taa_render_samples_set(PointerRNA *ptr, int value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->taa_render_samples = CLAMPIS(value, 1, INT_MAX);
+}
+
+bool SceneEEVEE_use_taa_reprojection_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 2048) != 0);
+}
+
+void SceneEEVEE_use_taa_reprojection_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 2048; }
+    else { data->flag &= ~2048; }
+}
+
+int SceneEEVEE_sss_samples_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (int)(data->sss_samples);
+}
+
+void SceneEEVEE_sss_samples_set(PointerRNA *ptr, int value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->sss_samples = CLAMPIS(value, 1, 32);
+}
+
+float SceneEEVEE_sss_jitter_threshold_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->sss_jitter_threshold);
+}
+
+void SceneEEVEE_sss_jitter_threshold_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->sss_jitter_threshold = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+bool SceneEEVEE_use_ssr_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 16384) != 0);
+}
+
+void SceneEEVEE_use_ssr_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 16384; }
+    else { data->flag &= ~16384; }
+}
+
+bool SceneEEVEE_use_ssr_refraction_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 32768) != 0);
+}
+
+void SceneEEVEE_use_ssr_refraction_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 32768; }
+    else { data->flag &= ~32768; }
+}
+
+bool SceneEEVEE_use_ssr_halfres_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 65536) != 0);
+}
+
+void SceneEEVEE_use_ssr_halfres_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 65536; }
+    else { data->flag &= ~65536; }
+}
+
+float SceneEEVEE_ssr_quality_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->ssr_quality);
+}
+
+void SceneEEVEE_ssr_quality_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->ssr_quality = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+float SceneEEVEE_ssr_max_roughness_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->ssr_max_roughness);
+}
+
+void SceneEEVEE_ssr_max_roughness_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->ssr_max_roughness = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+float SceneEEVEE_ssr_thickness_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->ssr_thickness);
+}
+
+void SceneEEVEE_ssr_thickness_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->ssr_thickness = CLAMPIS(value, 0.0000010000f, FLT_MAX);
+}
+
+float SceneEEVEE_ssr_border_fade_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->ssr_border_fade);
+}
+
+void SceneEEVEE_ssr_border_fade_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->ssr_border_fade = CLAMPIS(value, 0.0f, 0.5000000000f);
+}
+
+float SceneEEVEE_ssr_firefly_fac_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->ssr_firefly_fac);
+}
+
+void SceneEEVEE_ssr_firefly_fac_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->ssr_firefly_fac = CLAMPIS(value, 0.0f, FLT_MAX);
+}
+
+float SceneEEVEE_volumetric_start_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->volumetric_start);
+}
+
+void SceneEEVEE_volumetric_start_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->volumetric_start = CLAMPIS(value, 0.0000010000f, FLT_MAX);
+}
+
+float SceneEEVEE_volumetric_end_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->volumetric_end);
+}
+
+void SceneEEVEE_volumetric_end_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->volumetric_end = CLAMPIS(value, 0.0000010000f, FLT_MAX);
+}
+
+int SceneEEVEE_volumetric_tile_size_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (int)(data->volumetric_tile_size);
+}
+
+void SceneEEVEE_volumetric_tile_size_set(PointerRNA *ptr, int value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->volumetric_tile_size = value;
+}
+
+int SceneEEVEE_volumetric_samples_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (int)(data->volumetric_samples);
+}
+
+void SceneEEVEE_volumetric_samples_set(PointerRNA *ptr, int value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->volumetric_samples = CLAMPIS(value, 1, 256);
+}
+
+float SceneEEVEE_volumetric_sample_distribution_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->volumetric_sample_distribution);
+}
+
+void SceneEEVEE_volumetric_sample_distribution_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->volumetric_sample_distribution = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+bool SceneEEVEE_use_volumetric_lights_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 2) != 0);
+}
+
+void SceneEEVEE_use_volumetric_lights_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 2; }
+    else { data->flag &= ~2; }
+}
+
+float SceneEEVEE_volumetric_light_clamp_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->volumetric_light_clamp);
+}
+
+void SceneEEVEE_volumetric_light_clamp_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->volumetric_light_clamp = CLAMPIS(value, 0.0f, FLT_MAX);
+}
+
+bool SceneEEVEE_use_volumetric_shadows_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 4) != 0);
+}
+
+void SceneEEVEE_use_volumetric_shadows_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 4; }
+    else { data->flag &= ~4; }
+}
+
+int SceneEEVEE_volumetric_shadow_samples_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (int)(data->volumetric_shadow_samples);
+}
+
+void SceneEEVEE_volumetric_shadow_samples_set(PointerRNA *ptr, int value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->volumetric_shadow_samples = CLAMPIS(value, 1, 128);
+}
+
+bool SceneEEVEE_use_gtao_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 16) != 0);
+}
+
+void SceneEEVEE_use_gtao_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 16; }
+    else { data->flag &= ~16; }
+}
+
+bool SceneEEVEE_use_gtao_bent_normals_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 32) != 0);
+}
+
+void SceneEEVEE_use_gtao_bent_normals_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 32; }
+    else { data->flag &= ~32; }
+}
+
+bool SceneEEVEE_use_gtao_bounce_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 64) != 0);
+}
+
+void SceneEEVEE_use_gtao_bounce_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 64; }
+    else { data->flag &= ~64; }
+}
+
+float SceneEEVEE_gtao_factor_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->gtao_factor);
+}
+
+void SceneEEVEE_gtao_factor_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->gtao_factor = CLAMPIS(value, 0.0f, FLT_MAX);
+}
+
+float SceneEEVEE_gtao_quality_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->gtao_quality);
+}
+
+void SceneEEVEE_gtao_quality_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->gtao_quality = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+float SceneEEVEE_gtao_distance_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->gtao_distance);
+}
+
+void SceneEEVEE_gtao_distance_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->gtao_distance = CLAMPIS(value, 0.0f, 100000.0f);
+}
+
+float SceneEEVEE_bokeh_max_size_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->bokeh_max_size);
+}
+
+void SceneEEVEE_bokeh_max_size_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->bokeh_max_size = CLAMPIS(value, 0.0f, 2000.0f);
+}
+
+float SceneEEVEE_bokeh_threshold_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->bokeh_threshold);
+}
+
+void SceneEEVEE_bokeh_threshold_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->bokeh_threshold = CLAMPIS(value, 0.0f, 100000.0f);
+}
+
+float SceneEEVEE_bokeh_neighbor_max_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->bokeh_neighbor_max);
+}
+
+void SceneEEVEE_bokeh_neighbor_max_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->bokeh_neighbor_max = CLAMPIS(value, 0.0f, 100000.0f);
+}
+
+float SceneEEVEE_bokeh_denoise_fac_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->bokeh_denoise_fac);
+}
+
+void SceneEEVEE_bokeh_denoise_fac_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->bokeh_denoise_fac = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+bool SceneEEVEE_use_bokeh_high_quality_slight_defocus_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 4194304) != 0);
+}
+
+void SceneEEVEE_use_bokeh_high_quality_slight_defocus_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 4194304; }
+    else { data->flag &= ~4194304; }
+}
+
+bool SceneEEVEE_use_bokeh_jittered_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 8388608) != 0);
+}
+
+void SceneEEVEE_use_bokeh_jittered_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 8388608; }
+    else { data->flag &= ~8388608; }
+}
+
+float SceneEEVEE_bokeh_overblur_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->bokeh_overblur);
+}
+
+void SceneEEVEE_bokeh_overblur_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->bokeh_overblur = CLAMPIS(value, 0.0f, 100.0f);
+}
+
+bool SceneEEVEE_use_bloom_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 256) != 0);
+}
+
+void SceneEEVEE_use_bloom_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 256; }
+    else { data->flag &= ~256; }
+}
+
+float SceneEEVEE_bloom_threshold_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->bloom_threshold);
+}
+
+void SceneEEVEE_bloom_threshold_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->bloom_threshold = CLAMPIS(value, 0.0f, 100000.0f);
+}
+
+void SceneEEVEE_bloom_color_get(PointerRNA *ptr, float values[3])
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 3; i++) {
+        values[i] = (float)(((float *)data->bloom_color)[i]);
+    }
+}
+
+void SceneEEVEE_bloom_color_set(PointerRNA *ptr, const float values[3])
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 3; i++) {
+        ((float *)data->bloom_color)[i] = CLAMPIS(values[i], 0.0f, FLT_MAX);
+    }
+}
+
+float SceneEEVEE_bloom_knee_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->bloom_knee);
+}
+
+void SceneEEVEE_bloom_knee_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->bloom_knee = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+float SceneEEVEE_bloom_radius_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->bloom_radius);
+}
+
+void SceneEEVEE_bloom_radius_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->bloom_radius = CLAMPIS(value, 0.0f, 100.0f);
+}
+
+float SceneEEVEE_bloom_clamp_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->bloom_clamp);
+}
+
+void SceneEEVEE_bloom_clamp_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->bloom_clamp = CLAMPIS(value, 0.0f, 100000.0f);
+}
+
+float SceneEEVEE_bloom_intensity_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->bloom_intensity);
+}
+
+void SceneEEVEE_bloom_intensity_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->bloom_intensity = CLAMPIS(value, 0.0f, 10000.0f);
+}
+
+bool SceneEEVEE_use_motion_blur_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 512) != 0);
+}
+
+void SceneEEVEE_use_motion_blur_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 512; }
+    else { data->flag &= ~512; }
+}
+
+float SceneEEVEE_motion_blur_shutter_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->motion_blur_shutter);
+}
+
+void SceneEEVEE_motion_blur_shutter_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->motion_blur_shutter = CLAMPIS(value, 0.0f, FLT_MAX);
+}
+
+float SceneEEVEE_motion_blur_depth_scale_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->motion_blur_depth_scale);
+}
+
+void SceneEEVEE_motion_blur_depth_scale_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->motion_blur_depth_scale = CLAMPIS(value, 0.0f, FLT_MAX);
+}
+
+int SceneEEVEE_motion_blur_max_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (int)(data->motion_blur_max);
+}
+
+void SceneEEVEE_motion_blur_max_set(PointerRNA *ptr, int value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->motion_blur_max = CLAMPIS(value, 0, 2048);
+}
+
+int SceneEEVEE_motion_blur_steps_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (int)(data->motion_blur_steps);
+}
+
+void SceneEEVEE_motion_blur_steps_set(PointerRNA *ptr, int value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->motion_blur_steps = CLAMPIS(value, 1, INT_MAX);
+}
+
+int SceneEEVEE_motion_blur_position_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (int)(data->motion_blur_position);
+}
+
+void SceneEEVEE_motion_blur_position_set(PointerRNA *ptr, int value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->motion_blur_position = value;
+}
+
+int SceneEEVEE_shadow_cube_size_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (int)(data->shadow_cube_size);
+}
+
+void SceneEEVEE_shadow_cube_size_set(PointerRNA *ptr, int value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->shadow_cube_size = value;
+}
+
+int SceneEEVEE_shadow_cascade_size_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (int)(data->shadow_cascade_size);
+}
+
+void SceneEEVEE_shadow_cascade_size_set(PointerRNA *ptr, int value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->shadow_cascade_size = value;
+}
+
+bool SceneEEVEE_use_shadow_high_bitdepth_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 1024) != 0);
+}
+
+void SceneEEVEE_use_shadow_high_bitdepth_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 1024; }
+    else { data->flag &= ~1024; }
+}
+
+bool SceneEEVEE_use_shadow_id_high_bitdepth_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 16777216) != 0);
+}
+
+void SceneEEVEE_use_shadow_id_high_bitdepth_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 16777216; }
+    else { data->flag &= ~16777216; }
+}
+
+bool SceneEEVEE_use_soft_shadows_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 1048576) != 0);
+}
+
+void SceneEEVEE_use_soft_shadows_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 1048576; }
+    else { data->flag &= ~1048576; }
+}
+
+float SceneEEVEE_light_threshold_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->light_threshold);
+}
+
+void SceneEEVEE_light_threshold_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->light_threshold = CLAMPIS(value, 0.0f, FLT_MAX);
+}
+
+bool SceneEEVEE_use_overscan_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (((data->flag) & 2097152) != 0);
+}
+
+void SceneEEVEE_use_overscan_set(PointerRNA *ptr, bool value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    if (value) { data->flag |= 2097152; }
+    else { data->flag &= ~2097152; }
+}
+
+float SceneEEVEE_overscan_size_get(PointerRNA *ptr)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    return (float)(data->overscan);
+}
+
+void SceneEEVEE_overscan_size_set(PointerRNA *ptr, float value)
+{
+    SceneEEVEE *data = (SceneEEVEE *)(ptr->data);
+    data->overscan = CLAMPIS(value, 0.0f, 50.0f);
+}
+
+static PointerRNA AOV_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void AOV_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_AOV_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = AOV_rna_properties_get(iter);
+    }
+}
+
+void AOV_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = AOV_rna_properties_get(iter);
+    }
+}
+
+void AOV_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int AOV_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA AOV_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+void AOV_name_get(PointerRNA *ptr, char *value)
+{
+    ViewLayerAOV *data = (ViewLayerAOV *)(ptr->data);
+    BLI_strncpy_utf8(value, data->name, 64);
+}
+
+int AOV_name_length(PointerRNA *ptr)
+{
+    ViewLayerAOV *data = (ViewLayerAOV *)(ptr->data);
+    return strlen(data->name);
+}
+
+void AOV_name_set(PointerRNA *ptr, const char *value)
+{
+    ViewLayerAOV *data = (ViewLayerAOV *)(ptr->data);
+    BLI_strncpy_utf8(data->name, value, 64);
+}
+
+bool AOV_is_valid_get(PointerRNA *ptr)
+{
+    ViewLayerAOV *data = (ViewLayerAOV *)(ptr->data);
+    return !(((data->flag) & 1) != 0);
+}
+
+void AOV_is_valid_set(PointerRNA *ptr, bool value)
+{
+    ViewLayerAOV *data = (ViewLayerAOV *)(ptr->data);
+    if (!value) { data->flag |= 1; }
+    else { data->flag &= ~1; }
+}
+
+int AOV_type_get(PointerRNA *ptr)
+{
+    ViewLayerAOV *data = (ViewLayerAOV *)(ptr->data);
+    return (int)(data->type);
+}
+
+void AOV_type_set(PointerRNA *ptr, int value)
+{
+    ViewLayerAOV *data = (ViewLayerAOV *)(ptr->data);
+    data->type = value;
+}
+
+static PointerRNA Lightgroup_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void Lightgroup_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_Lightgroup_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = Lightgroup_rna_properties_get(iter);
+    }
+}
+
+void Lightgroup_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = Lightgroup_rna_properties_get(iter);
+    }
+}
+
+void Lightgroup_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int Lightgroup_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA Lightgroup_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+void Lightgroup_name_get(PointerRNA *ptr, char *value)
+{
+    rna_ViewLayerLightgroup_name_get(ptr, value);
+}
+
+int Lightgroup_name_length(PointerRNA *ptr)
+{
+    return rna_ViewLayerLightgroup_name_length(ptr);
+}
+
+void Lightgroup_name_set(PointerRNA *ptr, const char *value)
+{
+    rna_ViewLayerLightgroup_name_set(ptr, value);
+}
+
+static PointerRNA ViewLayerEEVEE_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void ViewLayerEEVEE_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_ViewLayerEEVEE_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = ViewLayerEEVEE_rna_properties_get(iter);
+    }
+}
+
+void ViewLayerEEVEE_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = ViewLayerEEVEE_rna_properties_get(iter);
+    }
+}
+
+void ViewLayerEEVEE_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int ViewLayerEEVEE_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA ViewLayerEEVEE_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+bool ViewLayerEEVEE_use_pass_volume_direct_get(PointerRNA *ptr)
+{
+    ViewLayerEEVEE *data = (ViewLayerEEVEE *)(ptr->data);
+    return (((data->render_passes) & 512) != 0);
+}
+
+void ViewLayerEEVEE_use_pass_volume_direct_set(PointerRNA *ptr, bool value)
+{
+    ViewLayerEEVEE *data = (ViewLayerEEVEE *)(ptr->data);
+    if (value) { data->render_passes |= 512; }
+    else { data->render_passes &= ~512; }
+}
+
+bool ViewLayerEEVEE_use_pass_bloom_get(PointerRNA *ptr)
+{
+    ViewLayerEEVEE *data = (ViewLayerEEVEE *)(ptr->data);
+    return (((data->render_passes) & 16384) != 0);
+}
+
+void ViewLayerEEVEE_use_pass_bloom_set(PointerRNA *ptr, bool value)
+{
+    ViewLayerEEVEE *data = (ViewLayerEEVEE *)(ptr->data);
+    if (value) { data->render_passes |= 16384; }
+    else { data->render_passes &= ~16384; }
+}
+
+static PointerRNA SceneGpencil_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void SceneGpencil_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_SceneGpencil_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = SceneGpencil_rna_properties_get(iter);
+    }
+}
+
+void SceneGpencil_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = SceneGpencil_rna_properties_get(iter);
+    }
+}
+
+void SceneGpencil_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int SceneGpencil_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA SceneGpencil_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+float SceneGpencil_antialias_threshold_get(PointerRNA *ptr)
+{
+    SceneGpencil *data = (SceneGpencil *)(ptr->data);
+    return (float)(data->smaa_threshold);
+}
+
+void SceneGpencil_antialias_threshold_set(PointerRNA *ptr, float value)
+{
+    SceneGpencil *data = (SceneGpencil *)(ptr->data);
+    data->smaa_threshold = CLAMPIS(value, 0.0f, FLT_MAX);
+}
+
+static PointerRNA FFmpegSettings_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void FFmpegSettings_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_FFmpegSettings_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = FFmpegSettings_rna_properties_get(iter);
+    }
+}
+
+void FFmpegSettings_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = FFmpegSettings_rna_properties_get(iter);
+    }
+}
+
+void FFmpegSettings_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int FFmpegSettings_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA FFmpegSettings_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+int FFmpegSettings_format_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return ((data->type) & 15);
+}
+
+void FFmpegSettings_format_set(PointerRNA *ptr, int value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    data->type &= ~15;
+    data->type |= value;
+}
+
+int FFmpegSettings_codec_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return ((data->codec) & 255);
+}
+
+void FFmpegSettings_codec_set(PointerRNA *ptr, int value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    data->codec &= ~255;
+    data->codec |= value;
+}
+
+int FFmpegSettings_video_bitrate_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return (int)(data->video_bitrate);
+}
+
+void FFmpegSettings_video_bitrate_set(PointerRNA *ptr, int value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    data->video_bitrate = value;
+}
+
+int FFmpegSettings_minrate_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return (int)(data->rc_min_rate);
+}
+
+void FFmpegSettings_minrate_set(PointerRNA *ptr, int value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    data->rc_min_rate = value;
+}
+
+int FFmpegSettings_maxrate_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return (int)(data->rc_max_rate);
+}
+
+void FFmpegSettings_maxrate_set(PointerRNA *ptr, int value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    data->rc_max_rate = value;
+}
+
+int FFmpegSettings_muxrate_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return (int)(data->mux_rate);
+}
+
+void FFmpegSettings_muxrate_set(PointerRNA *ptr, int value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    data->mux_rate = CLAMPIS(value, 0, 100000000);
+}
+
+int FFmpegSettings_gopsize_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return (int)(data->gop_size);
+}
+
+void FFmpegSettings_gopsize_set(PointerRNA *ptr, int value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    data->gop_size = CLAMPIS(value, 0, 500);
+}
+
+int FFmpegSettings_max_b_frames_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return (int)(data->max_b_frames);
+}
+
+void FFmpegSettings_max_b_frames_set(PointerRNA *ptr, int value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    data->max_b_frames = CLAMPIS(value, 0, 16);
+}
+
+bool FFmpegSettings_use_max_b_frames_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return (((data->flags) & 8) != 0);
+}
+
+void FFmpegSettings_use_max_b_frames_set(PointerRNA *ptr, bool value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    if (value) { data->flags |= 8; }
+    else { data->flags &= ~8; }
+}
+
+int FFmpegSettings_buffersize_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return (int)(data->rc_buffer_size);
+}
+
+void FFmpegSettings_buffersize_set(PointerRNA *ptr, int value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    data->rc_buffer_size = CLAMPIS(value, 0, 2000);
+}
+
+int FFmpegSettings_packetsize_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return (int)(data->mux_packet_size);
+}
+
+void FFmpegSettings_packetsize_set(PointerRNA *ptr, int value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    data->mux_packet_size = CLAMPIS(value, 0, 16384);
+}
+
+int FFmpegSettings_constant_rate_factor_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return (int)(data->constant_rate_factor);
+}
+
+void FFmpegSettings_constant_rate_factor_set(PointerRNA *ptr, int value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    data->constant_rate_factor = value;
+}
+
+int FFmpegSettings_ffmpeg_preset_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return ((data->ffmpeg_preset) & 15);
+}
+
+void FFmpegSettings_ffmpeg_preset_set(PointerRNA *ptr, int value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    data->ffmpeg_preset &= ~15;
+    data->ffmpeg_preset |= value;
+}
+
+bool FFmpegSettings_use_autosplit_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return (((data->flags) & 2) != 0);
+}
+
+void FFmpegSettings_use_autosplit_set(PointerRNA *ptr, bool value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    if (value) { data->flags |= 2; }
+    else { data->flags &= ~2; }
+}
+
+bool FFmpegSettings_use_lossless_output_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return (((data->flags) & 4) != 0);
+}
+
+void FFmpegSettings_use_lossless_output_set(PointerRNA *ptr, bool value)
+{
+    rna_FFmpegSettings_lossless_output_set(ptr, value);
+}
+
+int FFmpegSettings_audio_codec_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return ((data->audio_codec) & 86079);
+}
+
+void FFmpegSettings_audio_codec_set(PointerRNA *ptr, int value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    data->audio_codec &= ~86079;
+    data->audio_codec |= value;
+}
+
+int FFmpegSettings_audio_bitrate_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return (int)(data->audio_bitrate);
+}
+
+void FFmpegSettings_audio_bitrate_set(PointerRNA *ptr, int value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    data->audio_bitrate = CLAMPIS(value, 32, 384);
+}
+
+float FFmpegSettings_audio_volume_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return (float)(data->audio_volume);
+}
+
+void FFmpegSettings_audio_volume_set(PointerRNA *ptr, float value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    data->audio_volume = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+int FFmpegSettings_audio_mixrate_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return (int)(data->audio_mixrate);
+}
+
+void FFmpegSettings_audio_mixrate_set(PointerRNA *ptr, int value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    data->audio_mixrate = CLAMPIS(value, 8000, 192000);
+}
+
+int FFmpegSettings_audio_channels_get(PointerRNA *ptr)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    return (int)(data->audio_channels);
+}
+
+void FFmpegSettings_audio_channels_set(PointerRNA *ptr, int value)
+{
+    FFMpegCodecData *data = (FFMpegCodecData *)(ptr->data);
+    data->audio_channels = value;
+}
+
+static PointerRNA RenderSettings_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void RenderSettings_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_RenderSettings_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = RenderSettings_rna_properties_get(iter);
+    }
+}
+
+void RenderSettings_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = RenderSettings_rna_properties_get(iter);
+    }
+}
+
+void RenderSettings_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int RenderSettings_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA RenderSettings_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+PointerRNA RenderSettings_image_settings_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_ImageFormatSettings, &data->im_format);
+}
+
+int RenderSettings_resolution_x_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (int)(data->xsch);
+}
+
+void RenderSettings_resolution_x_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->xsch = CLAMPIS(value, 4, 65536);
+}
+
+int RenderSettings_resolution_y_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (int)(data->ysch);
+}
+
+void RenderSettings_resolution_y_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->ysch = CLAMPIS(value, 4, 65536);
+}
+
+int RenderSettings_resolution_percentage_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (int)(data->size);
+}
+
+void RenderSettings_resolution_percentage_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->size = CLAMPIS(value, 1, 32767);
+}
+
+int RenderSettings_preview_pixel_size_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (int)(data->preview_pixel_size);
+}
+
+void RenderSettings_preview_pixel_size_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->preview_pixel_size = value;
+}
+
+float RenderSettings_pixel_aspect_x_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (float)(data->xasp);
+}
+
+void RenderSettings_pixel_aspect_x_set(PointerRNA *ptr, float value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->xasp = CLAMPIS(value, 1.0f, 200.0f);
+}
+
+float RenderSettings_pixel_aspect_y_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (float)(data->yasp);
+}
+
+void RenderSettings_pixel_aspect_y_set(PointerRNA *ptr, float value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->yasp = CLAMPIS(value, 1.0f, 200.0f);
+}
+
+PointerRNA RenderSettings_ffmpeg_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_FFmpegSettings, &data->ffcodecdata);
+}
+
+int RenderSettings_fps_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (int)(data->frs_sec);
+}
+
+void RenderSettings_fps_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->frs_sec = CLAMPIS(value, 1, 32767);
+}
+
+float RenderSettings_fps_base_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (float)(data->frs_sec_base);
+}
+
+void RenderSettings_fps_base_set(PointerRNA *ptr, float value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->frs_sec_base = CLAMPIS(value, 0.0000100000f, 1000000.0f);
+}
+
+int RenderSettings_frame_map_old_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (int)(data->framapto);
+}
+
+void RenderSettings_frame_map_old_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->framapto = CLAMPIS(value, 1, 900);
+}
+
+int RenderSettings_frame_map_new_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (int)(data->images);
+}
+
+void RenderSettings_frame_map_new_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->images = CLAMPIS(value, 1, 900);
+}
+
+float RenderSettings_dither_intensity_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (float)(data->dither_intensity);
+}
+
+void RenderSettings_dither_intensity_set(PointerRNA *ptr, float value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->dither_intensity = CLAMPIS(value, 0.0f, FLT_MAX);
+}
+
+float RenderSettings_filter_size_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (float)(data->gauss);
+}
+
+void RenderSettings_filter_size_set(PointerRNA *ptr, float value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->gauss = CLAMPIS(value, 0.0f, 500.0f);
+}
+
+bool RenderSettings_film_transparent_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->alphamode) & 1) != 0);
+}
+
+void RenderSettings_film_transparent_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->alphamode |= 1; }
+    else { data->alphamode &= ~1; }
+}
+
+bool RenderSettings_use_freestyle_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->mode) & 33554432) != 0);
+}
+
+void RenderSettings_use_freestyle_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->mode |= 33554432; }
+    else { data->mode &= ~33554432; }
+}
+
+int RenderSettings_threads_get(PointerRNA *ptr)
+{
+    return rna_RenderSettings_threads_get(ptr);
+}
+
+void RenderSettings_threads_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->threads = CLAMPIS(value, 1, 1024);
+}
+
+int RenderSettings_threads_mode_get(PointerRNA *ptr)
+{
+    return rna_RenderSettings_threads_mode_get(ptr);
+}
+
+void RenderSettings_threads_mode_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->mode &= ~524288;
+    data->mode |= value;
+}
+
+bool RenderSettings_use_motion_blur_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->mode) & 16384) != 0);
+}
+
+void RenderSettings_use_motion_blur_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->mode |= 16384; }
+    else { data->mode &= ~16384; }
+}
+
+float RenderSettings_motion_blur_shutter_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (float)(data->blurfac);
+}
+
+void RenderSettings_motion_blur_shutter_set(PointerRNA *ptr, float value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->blurfac = CLAMPIS(value, 0.0f, FLT_MAX);
+}
+
+PointerRNA RenderSettings_motion_blur_shutter_curve_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_CurveMapping, &data->mblur_shutter_curve);
+}
+
+int RenderSettings_hair_type_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (int)(data->hair_type);
+}
+
+void RenderSettings_hair_type_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->hair_type = value;
+}
+
+int RenderSettings_hair_subdiv_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (int)(data->hair_subdiv);
+}
+
+void RenderSettings_hair_subdiv_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->hair_subdiv = CLAMPIS(value, 0, 3);
+}
+
+bool RenderSettings_use_high_quality_normals_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->perf_flag) & 1) != 0);
+}
+
+void RenderSettings_use_high_quality_normals_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->perf_flag |= 1; }
+    else { data->perf_flag &= ~1; }
+}
+
+bool RenderSettings_use_border_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->mode) & 512) != 0);
+}
+
+void RenderSettings_use_border_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->mode |= 512; }
+    else { data->mode &= ~512; }
+}
+
+float RenderSettings_border_min_x_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (float)(data->border.xmin);
+}
+
+void RenderSettings_border_min_x_set(PointerRNA *ptr, float value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->border.xmin = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+float RenderSettings_border_min_y_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (float)(data->border.ymin);
+}
+
+void RenderSettings_border_min_y_set(PointerRNA *ptr, float value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->border.ymin = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+float RenderSettings_border_max_x_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (float)(data->border.xmax);
+}
+
+void RenderSettings_border_max_x_set(PointerRNA *ptr, float value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->border.xmax = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+float RenderSettings_border_max_y_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (float)(data->border.ymax);
+}
+
+void RenderSettings_border_max_y_set(PointerRNA *ptr, float value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->border.ymax = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+bool RenderSettings_use_crop_to_border_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->mode) & 2048) != 0);
+}
+
+void RenderSettings_use_crop_to_border_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->mode |= 2048; }
+    else { data->mode &= ~2048; }
+}
+
+bool RenderSettings_use_placeholder_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->mode) & 8388608) != 0);
+}
+
+void RenderSettings_use_placeholder_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->mode |= 8388608; }
+    else { data->mode &= ~8388608; }
+}
+
+bool RenderSettings_use_overwrite_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return !(((data->mode) & 4194304) != 0);
+}
+
+void RenderSettings_use_overwrite_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (!value) { data->mode |= 4194304; }
+    else { data->mode &= ~4194304; }
+}
+
+bool RenderSettings_use_compositing_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->scemode) & 64) != 0);
+}
+
+void RenderSettings_use_compositing_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->scemode |= 64; }
+    else { data->scemode &= ~64; }
+}
+
+bool RenderSettings_use_sequencer_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->scemode) & 1) != 0);
+}
+
+void RenderSettings_use_sequencer_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->scemode |= 1; }
+    else { data->scemode &= ~1; }
+}
+
+bool RenderSettings_use_file_extension_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->scemode) & 16) != 0);
+}
+
+void RenderSettings_use_file_extension_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->scemode |= 16; }
+    else { data->scemode &= ~16; }
+}
+
+void RenderSettings_file_extension_get(PointerRNA *ptr, char *value)
+{
+    rna_SceneRender_file_ext_get(ptr, value);
+}
+
+int RenderSettings_file_extension_length(PointerRNA *ptr)
+{
+    return rna_SceneRender_file_ext_length(ptr);
+}
+
+bool RenderSettings_is_movie_format_get(PointerRNA *ptr)
+{
+    return rna_RenderSettings_is_movie_format_get(ptr);
+}
+
+bool RenderSettings_use_lock_interface_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->use_lock_interface) & 1) != 0);
+}
+
+void RenderSettings_use_lock_interface_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->use_lock_interface |= 1; }
+    else { data->use_lock_interface &= ~1; }
+}
+
+void RenderSettings_filepath_get(PointerRNA *ptr, char *value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    BLI_strncpy(value, data->pic, 1024);
+}
+
+int RenderSettings_filepath_length(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return strlen(data->pic);
+}
+
+void RenderSettings_filepath_set(PointerRNA *ptr, const char *value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    BLI_strncpy(data->pic, value, 1024);
+}
+
+bool RenderSettings_use_render_cache_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->scemode) & 1048576) != 0);
+}
+
+void RenderSettings_use_render_cache_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->scemode |= 1048576; }
+    else { data->scemode &= ~1048576; }
+}
+
+int RenderSettings_bake_type_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return ((data->bake_mode) & 1);
+}
+
+void RenderSettings_bake_type_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->bake_mode &= ~1;
+    data->bake_mode |= value;
+}
+
+bool RenderSettings_use_bake_selected_to_active_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->bake_flag) & 4) != 0);
+}
+
+void RenderSettings_use_bake_selected_to_active_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->bake_flag |= 4; }
+    else { data->bake_flag &= ~4; }
+}
+
+bool RenderSettings_use_bake_clear_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->bake_flag) & 1) != 0);
+}
+
+void RenderSettings_use_bake_clear_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->bake_flag |= 1; }
+    else { data->bake_flag &= ~1; }
+}
+
+int RenderSettings_bake_margin_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (int)(data->bake_margin);
+}
+
+void RenderSettings_bake_margin_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->bake_margin = CLAMPIS(value, 0, 64);
+}
+
+int RenderSettings_bake_margin_type_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (int)(data->bake_margin_type);
+}
+
+void RenderSettings_bake_margin_type_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->bake_margin_type = value;
+}
+
+float RenderSettings_bake_bias_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (float)(data->bake_biasdist);
+}
+
+void RenderSettings_bake_bias_set(PointerRNA *ptr, float value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->bake_biasdist = CLAMPIS(value, 0.0f, 1000.0f);
+}
+
+bool RenderSettings_use_bake_multires_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->bake_flag) & 16) != 0);
+}
+
+void RenderSettings_use_bake_multires_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->bake_flag |= 16; }
+    else { data->bake_flag &= ~16; }
+}
+
+bool RenderSettings_use_bake_lores_mesh_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->bake_flag) & 32) != 0);
+}
+
+void RenderSettings_use_bake_lores_mesh_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->bake_flag |= 32; }
+    else { data->bake_flag &= ~32; }
+}
+
+int RenderSettings_bake_samples_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (int)(data->bake_samples);
+}
+
+void RenderSettings_bake_samples_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->bake_samples = CLAMPIS(value, 64, 1024);
+}
+
+bool RenderSettings_use_bake_user_scale_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->bake_flag) & 128) != 0);
+}
+
+void RenderSettings_use_bake_user_scale_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->bake_flag |= 128; }
+    else { data->bake_flag &= ~128; }
+}
+
+float RenderSettings_bake_user_scale_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (float)(data->bake_user_scale);
+}
+
+void RenderSettings_bake_user_scale_set(PointerRNA *ptr, float value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->bake_user_scale = CLAMPIS(value, 0.0f, 1000.0f);
+}
+
+bool RenderSettings_use_stamp_time_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->stamp) & 1) != 0);
+}
+
+void RenderSettings_use_stamp_time_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->stamp |= 1; }
+    else { data->stamp &= ~1; }
+}
+
+bool RenderSettings_use_stamp_date_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->stamp) & 4) != 0);
+}
+
+void RenderSettings_use_stamp_date_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->stamp |= 4; }
+    else { data->stamp &= ~4; }
+}
+
+bool RenderSettings_use_stamp_frame_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->stamp) & 2) != 0);
+}
+
+void RenderSettings_use_stamp_frame_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->stamp |= 2; }
+    else { data->stamp &= ~2; }
+}
+
+bool RenderSettings_use_stamp_frame_range_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->stamp) & 32768) != 0);
+}
+
+void RenderSettings_use_stamp_frame_range_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->stamp |= 32768; }
+    else { data->stamp &= ~32768; }
+}
+
+bool RenderSettings_use_stamp_camera_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->stamp) & 8) != 0);
+}
+
+void RenderSettings_use_stamp_camera_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->stamp |= 8; }
+    else { data->stamp &= ~8; }
+}
+
+bool RenderSettings_use_stamp_lens_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->stamp) & 2048) != 0);
+}
+
+void RenderSettings_use_stamp_lens_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->stamp |= 2048; }
+    else { data->stamp &= ~2048; }
+}
+
+bool RenderSettings_use_stamp_scene_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->stamp) & 16) != 0);
+}
+
+void RenderSettings_use_stamp_scene_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->stamp |= 16; }
+    else { data->stamp &= ~16; }
+}
+
+bool RenderSettings_use_stamp_note_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->stamp) & 32) != 0);
+}
+
+void RenderSettings_use_stamp_note_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->stamp |= 32; }
+    else { data->stamp &= ~32; }
+}
+
+bool RenderSettings_use_stamp_marker_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->stamp) & 128) != 0);
+}
+
+void RenderSettings_use_stamp_marker_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->stamp |= 128; }
+    else { data->stamp &= ~128; }
+}
+
+bool RenderSettings_use_stamp_filename_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->stamp) & 256) != 0);
+}
+
+void RenderSettings_use_stamp_filename_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->stamp |= 256; }
+    else { data->stamp &= ~256; }
+}
+
+bool RenderSettings_use_stamp_sequencer_strip_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->stamp) & 512) != 0);
+}
+
+void RenderSettings_use_stamp_sequencer_strip_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->stamp |= 512; }
+    else { data->stamp &= ~512; }
+}
+
+bool RenderSettings_use_stamp_render_time_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->stamp) & 1024) != 0);
+}
+
+void RenderSettings_use_stamp_render_time_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->stamp |= 1024; }
+    else { data->stamp &= ~1024; }
+}
+
+void RenderSettings_stamp_note_text_get(PointerRNA *ptr, char *value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    BLI_strncpy_utf8(value, data->stamp_udata, 768);
+}
+
+int RenderSettings_stamp_note_text_length(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return strlen(data->stamp_udata);
+}
+
+void RenderSettings_stamp_note_text_set(PointerRNA *ptr, const char *value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    BLI_strncpy_utf8(data->stamp_udata, value, 768);
+}
+
+bool RenderSettings_use_stamp_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->stamp) & 64) != 0);
+}
+
+void RenderSettings_use_stamp_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->stamp |= 64; }
+    else { data->stamp &= ~64; }
+}
+
+bool RenderSettings_use_stamp_labels_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return !(((data->stamp) & 16384) != 0);
+}
+
+void RenderSettings_use_stamp_labels_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (!value) { data->stamp |= 16384; }
+    else { data->stamp &= ~16384; }
+}
+
+int RenderSettings_metadata_input_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return ((data->stamp) & 4096);
+}
+
+void RenderSettings_metadata_input_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->stamp &= ~4096;
+    data->stamp |= value;
+}
+
+bool RenderSettings_use_stamp_memory_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->stamp) & 8192) != 0);
+}
+
+void RenderSettings_use_stamp_memory_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->stamp |= 8192; }
+    else { data->stamp &= ~8192; }
+}
+
+bool RenderSettings_use_stamp_hostname_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->stamp) & 65536) != 0);
+}
+
+void RenderSettings_use_stamp_hostname_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->stamp |= 65536; }
+    else { data->stamp &= ~65536; }
+}
+
+int RenderSettings_stamp_font_size_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (int)(data->stamp_font_id);
+}
+
+void RenderSettings_stamp_font_size_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->stamp_font_id = CLAMPIS(value, 8, 64);
+}
+
+void RenderSettings_stamp_foreground_get(PointerRNA *ptr, float values[4])
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 4; i++) {
+        values[i] = (float)(((float *)data->fg_stamp)[i]);
+    }
+}
+
+void RenderSettings_stamp_foreground_set(PointerRNA *ptr, const float values[4])
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 4; i++) {
+        ((float *)data->fg_stamp)[i] = CLAMPIS(values[i], 0.0f, 1.0f);
+    }
+}
+
+void RenderSettings_stamp_background_get(PointerRNA *ptr, float values[4])
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 4; i++) {
+        values[i] = (float)(((float *)data->bg_stamp)[i]);
+    }
+}
+
+void RenderSettings_stamp_background_set(PointerRNA *ptr, const float values[4])
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    unsigned int i;
+
+    for (i = 0; i < 4; i++) {
+        ((float *)data->bg_stamp)[i] = CLAMPIS(values[i], 0.0f, 1.0f);
+    }
+}
+
+int RenderSettings_sequencer_gl_preview_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (int)(data->seq_prev_type);
+}
+
+void RenderSettings_sequencer_gl_preview_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->seq_prev_type = value;
+}
+
+bool RenderSettings_use_sequencer_override_scene_strip_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->seq_flag) & 32) != 0);
+}
+
+void RenderSettings_use_sequencer_override_scene_strip_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->seq_flag |= 32; }
+    else { data->seq_flag &= ~32; }
+}
+
+bool RenderSettings_use_single_layer_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->scemode) & 512) != 0);
+}
+
+void RenderSettings_use_single_layer_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->scemode |= 512; }
+    else { data->scemode &= ~512; }
+}
+
+static PointerRNA RenderSettings_views_get(CollectionPropertyIterator *iter)
+{
+    return rna_pointer_inherit_refine(&iter->parent, &RNA_SceneRenderView, rna_iterator_listbase_get(iter));
+}
+
+void RenderSettings_views_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_RenderSettings_views;
+
+    rna_iterator_listbase_begin(iter, &data->views, NULL);
+
+    if (iter->valid) {
+        iter->ptr = RenderSettings_views_get(iter);
+    }
+}
+
+void RenderSettings_views_next(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = RenderSettings_views_get(iter);
+    }
+}
+
+void RenderSettings_views_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int RenderSettings_views_lookup_int(PointerRNA *ptr, int index, PointerRNA *r_ptr)
+{
+    int found = 0;
+    CollectionPropertyIterator iter;
+
+    RenderSettings_views_begin(&iter, ptr);
+
+    if (iter.valid) {
+        ListBaseIterator *internal = &iter.internal.listbase;
+        if (internal->skip) {
+            while (index-- > 0 && iter.valid) {
+                rna_iterator_listbase_next(&iter);
+            }
+            found = (index == -1 && iter.valid);
+        }
+        else {
+            while (index-- > 0 && internal->link) {
+                internal->link = internal->link->next;
+            }
+            found = (index == -1 && internal->link);
+        }
+        if (found) { *r_ptr = RenderSettings_views_get(&iter); }
+    }
+
+    RenderSettings_views_end(&iter);
+
+    return found;
+}
+
+int RenderSettings_views_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    extern int SceneRenderView_name_length(PointerRNA *);
+    extern void SceneRenderView_name_get(PointerRNA *, char *);
+
+    bool found = false;
+    CollectionPropertyIterator iter;
+    char namebuf[1024];
+    char *name;
+
+    RenderSettings_views_begin(&iter, ptr);
+
+    while (iter.valid) {
+        if (iter.ptr.data) {
+            int namelen = SceneRenderView_name_length(&iter.ptr);
+            if (namelen < 1024) {
+                SceneRenderView_name_get(&iter.ptr, namebuf);
+                if (strcmp(namebuf, key) == 0) {
+                    found = true;
+                    *r_ptr = iter.ptr;
+                    break;
+                }
+            }
+            else {
+                name = MEM_mallocN(namelen+1, "name string");
+                SceneRenderView_name_get(&iter.ptr, name);
+                if (strcmp(name, key) == 0) {
+                    MEM_freeN(name);
+
+                    found = true;
+                    *r_ptr = iter.ptr;
+                    break;
+                }
+                else {
+                    MEM_freeN(name);
+                }
+            }
+        }
+        RenderSettings_views_next(&iter);
+    }
+    RenderSettings_views_end(&iter);
+
+    return found;
+}
+
+static PointerRNA RenderSettings_stereo_views_get(CollectionPropertyIterator *iter)
+{
+    return rna_pointer_inherit_refine(&iter->parent, &RNA_SceneRenderView, rna_iterator_listbase_get(iter));
+}
+
+void RenderSettings_stereo_views_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_RenderSettings_stereo_views;
+
+    rna_RenderSettings_stereoViews_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = RenderSettings_stereo_views_get(iter);
+    }
+}
+
+void RenderSettings_stereo_views_next(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = RenderSettings_stereo_views_get(iter);
+    }
+}
+
+void RenderSettings_stereo_views_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int RenderSettings_stereo_views_lookup_int(PointerRNA *ptr, int index, PointerRNA *r_ptr)
+{
+    int found = 0;
+    CollectionPropertyIterator iter;
+
+    RenderSettings_stereo_views_begin(&iter, ptr);
+
+    if (iter.valid) {
+        ListBaseIterator *internal = &iter.internal.listbase;
+        if (internal->skip) {
+            while (index-- > 0 && iter.valid) {
+                rna_iterator_listbase_next(&iter);
+            }
+            found = (index == -1 && iter.valid);
+        }
+        else {
+            while (index-- > 0 && internal->link) {
+                internal->link = internal->link->next;
+            }
+            found = (index == -1 && internal->link);
+        }
+        if (found) { *r_ptr = RenderSettings_stereo_views_get(&iter); }
+    }
+
+    RenderSettings_stereo_views_end(&iter);
+
+    return found;
+}
+
+int RenderSettings_stereo_views_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    extern int SceneRenderView_name_length(PointerRNA *);
+    extern void SceneRenderView_name_get(PointerRNA *, char *);
+
+    bool found = false;
+    CollectionPropertyIterator iter;
+    char namebuf[1024];
+    char *name;
+
+    RenderSettings_stereo_views_begin(&iter, ptr);
+
+    while (iter.valid) {
+        if (iter.ptr.data) {
+            int namelen = SceneRenderView_name_length(&iter.ptr);
+            if (namelen < 1024) {
+                SceneRenderView_name_get(&iter.ptr, namebuf);
+                if (strcmp(namebuf, key) == 0) {
+                    found = true;
+                    *r_ptr = iter.ptr;
+                    break;
+                }
+            }
+            else {
+                name = MEM_mallocN(namelen+1, "name string");
+                SceneRenderView_name_get(&iter.ptr, name);
+                if (strcmp(name, key) == 0) {
+                    MEM_freeN(name);
+
+                    found = true;
+                    *r_ptr = iter.ptr;
+                    break;
+                }
+                else {
+                    MEM_freeN(name);
+                }
+            }
+        }
+        RenderSettings_stereo_views_next(&iter);
+    }
+    RenderSettings_stereo_views_end(&iter);
+
+    return found;
+}
+
+bool RenderSettings_use_multiview_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->scemode) & 2097152) != 0);
+}
+
+void RenderSettings_use_multiview_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->scemode |= 2097152; }
+    else { data->scemode &= ~2097152; }
+}
+
+int RenderSettings_views_format_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (int)(data->views_format);
+}
+
+void RenderSettings_views_format_set(PointerRNA *ptr, int value)
+{
+    rna_RenderSettings_views_format_set(ptr, value);
+}
+
+int RenderSettings_engine_get(PointerRNA *ptr)
+{
+    return rna_RenderSettings_engine_get(ptr);
+}
+
+void RenderSettings_engine_set(PointerRNA *ptr, int value)
+{
+    rna_RenderSettings_engine_set(ptr, value);
+}
+
+bool RenderSettings_has_multiple_engines_get(PointerRNA *ptr)
+{
+    return rna_RenderSettings_multiple_engines_get(ptr);
+}
+
+bool RenderSettings_use_spherical_stereo_get(PointerRNA *ptr)
+{
+    return rna_RenderSettings_use_spherical_stereo_get(ptr);
+}
+
+bool RenderSettings_use_simplify_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->mode) & 16777216) != 0);
+}
+
+void RenderSettings_use_simplify_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->mode |= 16777216; }
+    else { data->mode &= ~16777216; }
+}
+
+int RenderSettings_simplify_subdivision_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (int)(data->simplify_subsurf);
+}
+
+void RenderSettings_simplify_subdivision_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->simplify_subsurf = CLAMPIS(value, 0, 32767);
+}
+
+float RenderSettings_simplify_child_particles_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (float)(data->simplify_particles);
+}
+
+void RenderSettings_simplify_child_particles_set(PointerRNA *ptr, float value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->simplify_particles = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+int RenderSettings_simplify_subdivision_render_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (int)(data->simplify_subsurf_render);
+}
+
+void RenderSettings_simplify_subdivision_render_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->simplify_subsurf_render = CLAMPIS(value, 0, 32767);
+}
+
+float RenderSettings_simplify_child_particles_render_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (float)(data->simplify_particles_render);
+}
+
+void RenderSettings_simplify_child_particles_render_set(PointerRNA *ptr, float value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->simplify_particles_render = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+float RenderSettings_simplify_volumes_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (float)(data->simplify_volumes);
+}
+
+void RenderSettings_simplify_volumes_set(PointerRNA *ptr, float value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->simplify_volumes = CLAMPIS(value, 0.0f, 1.0f);
+}
+
+bool RenderSettings_simplify_gpencil_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->simplify_gpencil) & 1) != 0);
+}
+
+void RenderSettings_simplify_gpencil_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->simplify_gpencil |= 1; }
+    else { data->simplify_gpencil &= ~1; }
+}
+
+bool RenderSettings_simplify_gpencil_onplay_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->simplify_gpencil) & 2) != 0);
+}
+
+void RenderSettings_simplify_gpencil_onplay_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->simplify_gpencil |= 2; }
+    else { data->simplify_gpencil &= ~2; }
+}
+
+bool RenderSettings_simplify_gpencil_antialiasing_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return !(((data->simplify_gpencil) & 256) != 0);
+}
+
+void RenderSettings_simplify_gpencil_antialiasing_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (!value) { data->simplify_gpencil |= 256; }
+    else { data->simplify_gpencil &= ~256; }
+}
+
+bool RenderSettings_simplify_gpencil_view_fill_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return !(((data->simplify_gpencil) & 4) != 0);
+}
+
+void RenderSettings_simplify_gpencil_view_fill_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (!value) { data->simplify_gpencil |= 4; }
+    else { data->simplify_gpencil &= ~4; }
+}
+
+bool RenderSettings_simplify_gpencil_modifier_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return !(((data->simplify_gpencil) & 8) != 0);
+}
+
+void RenderSettings_simplify_gpencil_modifier_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (!value) { data->simplify_gpencil |= 8; }
+    else { data->simplify_gpencil &= ~8; }
+}
+
+bool RenderSettings_simplify_gpencil_shader_fx_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return !(((data->simplify_gpencil) & 32) != 0);
+}
+
+void RenderSettings_simplify_gpencil_shader_fx_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (!value) { data->simplify_gpencil |= 32; }
+    else { data->simplify_gpencil &= ~32; }
+}
+
+bool RenderSettings_simplify_gpencil_tint_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return !(((data->simplify_gpencil) & 128) != 0);
+}
+
+void RenderSettings_simplify_gpencil_tint_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (!value) { data->simplify_gpencil |= 128; }
+    else { data->simplify_gpencil &= ~128; }
+}
+
+bool RenderSettings_use_persistent_data_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (((data->mode) & 67108864) != 0);
+}
+
+void RenderSettings_use_persistent_data_set(PointerRNA *ptr, bool value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    if (value) { data->mode |= 67108864; }
+    else { data->mode &= ~67108864; }
+}
+
+int RenderSettings_line_thickness_mode_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (int)(data->line_thickness_mode);
+}
+
+void RenderSettings_line_thickness_mode_set(PointerRNA *ptr, int value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->line_thickness_mode = value;
+}
+
+float RenderSettings_line_thickness_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return (float)(data->unit_line_thickness);
+}
+
+void RenderSettings_line_thickness_set(PointerRNA *ptr, float value)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    data->unit_line_thickness = CLAMPIS(value, 0.0f, 10000.0f);
+}
+
+PointerRNA RenderSettings_bake_get(PointerRNA *ptr)
+{
+    RenderData *data = (RenderData *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_BakeSettings, &data->bake);
+}
+
+static PointerRNA RenderViews_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void RenderViews_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_RenderViews_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = RenderViews_rna_properties_get(iter);
+    }
+}
+
+void RenderViews_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = RenderViews_rna_properties_get(iter);
+    }
+}
+
+void RenderViews_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int RenderViews_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA RenderViews_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+int RenderViews_active_index_get(PointerRNA *ptr)
+{
+    return rna_RenderSettings_active_view_index_get(ptr);
+}
+
+void RenderViews_active_index_set(PointerRNA *ptr, int value)
+{
+    rna_RenderSettings_active_view_index_set(ptr, value);
+}
+
+PointerRNA RenderViews_active_get(PointerRNA *ptr)
+{
+    return rna_RenderSettings_active_view_get(ptr);
+}
+
+void RenderViews_active_set(PointerRNA *ptr, PointerRNA value, struct ReportList *reports)
+{
+    rna_RenderSettings_active_view_set(ptr, value, reports);
+}
+
+static PointerRNA BakeSettings_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void BakeSettings_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_BakeSettings_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = BakeSettings_rna_properties_get(iter);
+    }
+}
+
+void BakeSettings_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = BakeSettings_rna_properties_get(iter);
+    }
+}
+
+void BakeSettings_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int BakeSettings_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA BakeSettings_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+PointerRNA BakeSettings_cage_object_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_Object, data->cage_object);
+}
+
+void BakeSettings_cage_object_set(PointerRNA *ptr, PointerRNA value, struct ReportList *reports)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    if (value.data) {
+        id_lib_extern((ID *)value.data);
+    }
+    data->cage_object = value.data;
+}
+
+void BakeSettings_filepath_get(PointerRNA *ptr, char *value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    BLI_strncpy(value, data->filepath, 1024);
+}
+
+int BakeSettings_filepath_length(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return strlen(data->filepath);
+}
+
+void BakeSettings_filepath_set(PointerRNA *ptr, const char *value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    BLI_strncpy(data->filepath, value, 1024);
+}
+
+int BakeSettings_width_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (int)(data->width);
+}
+
+void BakeSettings_width_set(PointerRNA *ptr, int value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    data->width = CLAMPIS(value, 4, 10000);
+}
+
+int BakeSettings_height_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (int)(data->height);
+}
+
+void BakeSettings_height_set(PointerRNA *ptr, int value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    data->height = CLAMPIS(value, 4, 10000);
+}
+
+int BakeSettings_margin_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (int)(data->margin);
+}
+
+void BakeSettings_margin_set(PointerRNA *ptr, int value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    data->margin = CLAMPIS(value, 0, 32767);
+}
+
+int BakeSettings_margin_type_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (int)(data->margin_type);
+}
+
+void BakeSettings_margin_type_set(PointerRNA *ptr, int value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    data->margin_type = value;
+}
+
+float BakeSettings_max_ray_distance_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (float)(data->max_ray_distance);
+}
+
+void BakeSettings_max_ray_distance_set(PointerRNA *ptr, float value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    data->max_ray_distance = CLAMPIS(value, 0.0f, FLT_MAX);
+}
+
+float BakeSettings_cage_extrusion_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (float)(data->cage_extrusion);
+}
+
+void BakeSettings_cage_extrusion_set(PointerRNA *ptr, float value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    data->cage_extrusion = CLAMPIS(value, 0.0f, FLT_MAX);
+}
+
+int BakeSettings_normal_space_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return ((data->normal_space) & 3);
+}
+
+void BakeSettings_normal_space_set(PointerRNA *ptr, int value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    data->normal_space &= ~3;
+    data->normal_space |= value;
+}
+
+int BakeSettings_normal_r_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return ((data->normal_swizzle[0]) & 7);
+}
+
+void BakeSettings_normal_r_set(PointerRNA *ptr, int value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    data->normal_swizzle[0] &= ~7;
+    data->normal_swizzle[0] |= value;
+}
+
+int BakeSettings_normal_g_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return ((data->normal_swizzle[1]) & 7);
+}
+
+void BakeSettings_normal_g_set(PointerRNA *ptr, int value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    data->normal_swizzle[1] &= ~7;
+    data->normal_swizzle[1] |= value;
+}
+
+int BakeSettings_normal_b_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return ((data->normal_swizzle[2]) & 7);
+}
+
+void BakeSettings_normal_b_set(PointerRNA *ptr, int value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    data->normal_swizzle[2] &= ~7;
+    data->normal_swizzle[2] |= value;
+}
+
+PointerRNA BakeSettings_image_settings_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return rna_pointer_inherit_refine(ptr, &RNA_ImageFormatSettings, &data->im_format);
+}
+
+int BakeSettings_target_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (int)(data->target);
+}
+
+void BakeSettings_target_set(PointerRNA *ptr, int value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    data->target = value;
+}
+
+int BakeSettings_save_mode_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return ((data->save_mode) & 1);
+}
+
+void BakeSettings_save_mode_set(PointerRNA *ptr, int value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    data->save_mode &= ~1;
+    data->save_mode |= value;
+}
+
+bool BakeSettings_use_selected_to_active_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (((data->flag) & 4) != 0);
+}
+
+void BakeSettings_use_selected_to_active_set(PointerRNA *ptr, bool value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    if (value) { data->flag |= 4; }
+    else { data->flag &= ~4; }
+}
+
+bool BakeSettings_use_clear_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (((data->flag) & 1) != 0);
+}
+
+void BakeSettings_use_clear_set(PointerRNA *ptr, bool value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    if (value) { data->flag |= 1; }
+    else { data->flag &= ~1; }
+}
+
+bool BakeSettings_use_split_materials_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (((data->flag) & 512) != 0);
+}
+
+void BakeSettings_use_split_materials_set(PointerRNA *ptr, bool value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    if (value) { data->flag |= 512; }
+    else { data->flag &= ~512; }
+}
+
+bool BakeSettings_use_automatic_name_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (((data->flag) & 1024) != 0);
+}
+
+void BakeSettings_use_automatic_name_set(PointerRNA *ptr, bool value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    if (value) { data->flag |= 1024; }
+    else { data->flag &= ~1024; }
+}
+
+bool BakeSettings_use_cage_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (((data->flag) & 256) != 0);
+}
+
+void BakeSettings_use_cage_set(PointerRNA *ptr, bool value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    if (value) { data->flag |= 256; }
+    else { data->flag &= ~256; }
+}
+
+bool BakeSettings_use_pass_emit_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (((data->pass_filter) & 2) != 0);
+}
+
+void BakeSettings_use_pass_emit_set(PointerRNA *ptr, bool value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    if (value) { data->pass_filter |= 2; }
+    else { data->pass_filter &= ~2; }
+}
+
+bool BakeSettings_use_pass_direct_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (((data->pass_filter) & 64) != 0);
+}
+
+void BakeSettings_use_pass_direct_set(PointerRNA *ptr, bool value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    if (value) { data->pass_filter |= 64; }
+    else { data->pass_filter &= ~64; }
+}
+
+bool BakeSettings_use_pass_indirect_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (((data->pass_filter) & 128) != 0);
+}
+
+void BakeSettings_use_pass_indirect_set(PointerRNA *ptr, bool value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    if (value) { data->pass_filter |= 128; }
+    else { data->pass_filter &= ~128; }
+}
+
+bool BakeSettings_use_pass_color_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (((data->pass_filter) & 256) != 0);
+}
+
+void BakeSettings_use_pass_color_set(PointerRNA *ptr, bool value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    if (value) { data->pass_filter |= 256; }
+    else { data->pass_filter &= ~256; }
+}
+
+bool BakeSettings_use_pass_diffuse_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (((data->pass_filter) & 4) != 0);
+}
+
+void BakeSettings_use_pass_diffuse_set(PointerRNA *ptr, bool value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    if (value) { data->pass_filter |= 4; }
+    else { data->pass_filter &= ~4; }
+}
+
+bool BakeSettings_use_pass_glossy_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (((data->pass_filter) & 8) != 0);
+}
+
+void BakeSettings_use_pass_glossy_set(PointerRNA *ptr, bool value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    if (value) { data->pass_filter |= 8; }
+    else { data->pass_filter &= ~8; }
+}
+
+bool BakeSettings_use_pass_transmission_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (((data->pass_filter) & 16) != 0);
+}
+
+void BakeSettings_use_pass_transmission_set(PointerRNA *ptr, bool value)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    if (value) { data->pass_filter |= 16; }
+    else { data->pass_filter &= ~16; }
+}
+
+int BakeSettings_pass_filter_get(PointerRNA *ptr)
+{
+    BakeData *data = (BakeData *)(ptr->data);
+    return (int)(data->pass_filter);
+}
+
+static PointerRNA SceneRenderView_rna_properties_get(CollectionPropertyIterator *iter)
+{
+    return rna_builtin_properties_get(iter);
+}
+
+void SceneRenderView_rna_properties_begin(CollectionPropertyIterator *iter, PointerRNA *ptr)
+{
+
+    memset(iter, 0, sizeof(*iter));
+    iter->parent = *ptr;
+    iter->prop = (PropertyRNA *)&rna_SceneRenderView_rna_properties;
+
+    rna_builtin_properties_begin(iter, ptr);
+
+    if (iter->valid) {
+        iter->ptr = SceneRenderView_rna_properties_get(iter);
+    }
+}
+
+void SceneRenderView_rna_properties_next(CollectionPropertyIterator *iter)
+{
+    rna_builtin_properties_next(iter);
+
+    if (iter->valid) {
+        iter->ptr = SceneRenderView_rna_properties_get(iter);
+    }
+}
+
+void SceneRenderView_rna_properties_end(CollectionPropertyIterator *iter)
+{
+    rna_iterator_listbase_end(iter);
+}
+
+int SceneRenderView_rna_properties_lookup_string(PointerRNA *ptr, const char *key, PointerRNA *r_ptr)
+{
+    return rna_builtin_properties_lookup_string(ptr, key, r_ptr);
+}
+
+PointerRNA SceneRenderView_rna_type_get(PointerRNA *ptr)
+{
+    return rna_builtin_type_get(ptr);
+}
+
+void SceneRenderView_name_get(PointerRNA *ptr, char *value)
+{
+    SceneRenderView *data = (SceneRenderView *)(ptr->data);
+    BLI_strncpy_utf8(value, data->name, 64);
+}
+
+int SceneRenderView_name_length(PointerRNA *ptr)
+{
+    SceneRenderView *data = (SceneRenderView *)(ptr->data);
+    return strlen(data->name);
+}
+
+void SceneRenderView_name_set(PointerRNA *ptr, const char *value)
+{
+    rna_SceneRenderView_name_set(ptr, value);
+}
+
+void SceneRenderView_file_suffix_get(PointerRNA *ptr, char *value)
+{
+    SceneRenderView *data = (SceneRenderView *)(ptr->data);
+    BLI_strncpy_utf8(value, data->suffix, 64);
+}
+
+int SceneRenderView_file_suffix_length(PointerRNA *ptr)
+{
+    SceneRenderView *data = (SceneRenderView *)(ptr->data);
+    return strlen(data->suffix);
+}
+
+void SceneRenderView_file_suffix_set(PointerRNA *ptr, const char *value)
+{
+    SceneRenderView *data = (SceneRenderView *)(ptr->data);
+    BLI_strncpy_utf8(data->suffix, value, 64);
+}
+
+void SceneRenderView_camera_suffix_get(PointerRNA *ptr, char *value)
+{
+    SceneRenderView *data = (SceneRenderView *)(ptr->data);
+    BLI_strncpy_utf8(value, data->suffix, 64);
+}
+
+int SceneRenderView_camera_suffix_length(PointerRNA *ptr)
+{
+    SceneRenderView *data = (SceneRenderView *)(ptr->data);
+    return strlen(data->suffix);
+}
+
+void SceneRenderView_camera_suffix_set(PointerRNA *ptr, const char *value)
+{
+    SceneRenderView *data = (SceneRenderView *)(ptr->data);
+    BLI_strncpy_utf8(data->suffix, value, 64);
+}
+
+bool SceneRenderView_use_get(PointerRNA *ptr)
+{
+    SceneRenderView *data = (SceneRenderView *)(ptr->data);
+    return !(((data->viewflag) & 1) != 0);
+}
+
+void SceneRenderView_use_set(PointerRNA *ptr, bool value)
+{
+    SceneRenderView *data = (SceneRenderView *)(ptr->data);
+    if (!value) { data->viewflag |= 1; }
+    else { data->viewflag &= ~1; }
+}
+
+void Scene_update_render_engine_func(Main *bmain)
+{
+	rna_Scene_update_render_engine(bmain);
+}
+
+void Scene_update_render_engine_call(bContext *C, ReportList *reports, PointerRNA *_ptr, ParameterList *_parms)
+{
+	
+	rna_Scene_update_render_engine(CTX_data_main(C));
+}
+
+const char * Scene_statistics_func(struct Scene *_self, Main *bmain, ReportList *reports, struct ViewLayer *view_layer)
+{
+	return rna_Scene_statistics_string_get(_self, bmain, reports, view_layer);
+}
+
+void Scene_statistics_call(bContext *C, ReportList *reports, PointerRNA *_ptr, ParameterList *_parms)
+{
+	struct Scene *_self;
+	struct ViewLayer *view_layer;
+	const char * statistics;
+	char *_data, *_retdata;
+	
+	_self = (struct Scene *)_ptr->data;
+	_data = (char *)_parms->data;
+	view_layer = *((struct ViewLayer **)_data);
+	_data += 8;
+	_retdata = _data;
+	
+	statistics = rna_Scene_statistics_string_get(_self, CTX_data_main(C), reports, view_layer);
+	*((const char * *)_retdata) = statistics;
+}
+
+void Scene_frame_set_func(struct Scene *_self, Main *bmain, int frame, float subframe)
+{
+	rna_Scene_frame_set(_self, bmain, frame, subframe);
+}
+
+void Scene_frame_set_call(bContext *C, ReportList *reports, PointerRNA *_ptr, ParameterList *_parms)
+{
+	struct Scene *_self;
+	int frame;
+	float subframe;
+	char *_data;
+	
+	_self = (struct Scene *)_ptr->data;
+	_data = (char *)_parms->data;
+	frame = *((int *)_data);
+	_data += 8;
+	subframe = *((float *)_data);
+	
+	rna_Scene_frame_set(_self, CTX_data_main(C), frame, subframe);
+}
+
+void Scene_uvedit_aspect_func(struct Scene *_self, struct Object *object, float result[2])
+{
+	rna_Scene_uvedit_aspect(_self, object, result);
+}
+
+void Scene_uvedit_aspect_call(bContext *C, ReportList *reports, PointerRNA *_ptr, ParameterList *_parms)
+{
+	struct Scene *_self;
+	struct Object *object;
+	float *result;
+	char *_data;
+	
+	_self = (struct Scene *)_ptr->data;
+	_data = (char *)_parms->data;
+	object = *((struct Object **)_data);
+	_data += 8;
+	result = ((float *)_data);
+	
+	rna_Scene_uvedit_aspect(_self, object, result);
+}
+
+void Scene_ray_cast_func(struct Scene *_self, struct Depsgraph *depsgraph, float origin[3], float direction[3], float distance, bool *result, float location[3], float normal[3], int *index, struct Object **object, float matrix[16])
+{
+	rna_Scene_ray_cast(_self, depsgraph, origin, direction, distance, result, location, normal, index, object, matrix);
+}
+
+void Scene_ray_cast_call(bContext *C, ReportList *reports, PointerRNA *_ptr, ParameterList *_parms)
+{
+	struct Scene *_self;
+	struct Depsgraph *depsgraph;
+	float *origin;
+	float *direction;
+	float distance;
+	bool *result;
+	float *location;
+	float *normal;
+	int *index;
+	struct Object **object;
+	float *matrix;
+	char *_data;
+	
+	_self = (struct Scene *)_ptr->data;
+	_data = (char *)_parms->data;
+	depsgraph = *((struct Depsgraph **)_data);
+	_data += 8;
+	origin = ((float *)_data);
+	_data += 16;
+	direction = ((float *)_data);
+	_data += 16;
+	distance = *((float *)_data);
+	_data += 8;
+	result = ((bool *)_data);
+	_data += 8;
+	location = ((float *)_data);
+	_data += 16;
+	normal = ((float *)_data);
+	_data += 16;
+	index = ((int *)_data);
+	_data += 8;
+	object = ((struct Object **)_data);
+	_data += 8;
+	matrix = ((float *)_data);
+	
+	rna_Scene_ray_cast(_self, depsgraph, origin, direction, distance, result, location, normal, index, object, matrix);
+}
+
+struct Editing *Scene_sequence_editor_create_func(struct Scene *_self)
+{
+	return SEQ_editing_ensure(_self);
+}
+
+void Scene_sequence_editor_create_call(bContext *C, ReportList *reports, PointerRNA *_ptr, ParameterList *_parms)
+{
+	struct Scene *_self;
+	struct Editing *sequence_editor;
+	char *_data, *_retdata;
+	
+	_self = (struct Scene *)_ptr->data;
+	_data = (char *)_parms->data;
+	_retdata = _data;
+	
+	sequence_editor = SEQ_editing_ensure(_self);
+	*((struct Editing **)_retdata) = sequence_editor;
+}
+
+void Scene_sequence_editor_clear_func(struct Scene *_self)
+{
+	rna_Scene_sequencer_editing_free(_self);
+}
+
+void Scene_sequence_editor_clear_call(bContext *C, ReportList *reports, PointerRNA *_ptr, ParameterList *_parms)
+{
+	struct Scene *_self;
+	_self = (struct Scene *)_ptr->data;
+	
+	rna_Scene_sequencer_editing_free(_self);
+}
+
+void Scene_alembic_export_func(struct Scene *_self, bContext *C, const char * filepath, int frame_start, int frame_end, int xform_samples, int geom_samples, float shutter_open, float shutter_close, bool selected_only, bool uvs, bool normals, bool vcolors, bool apply_subdiv, bool flatten, bool visible_objects_only, bool face_sets, bool subdiv_schema, bool export_hair, bool export_particles, bool packuv, float scale, bool triangulate, int quad_method, int ngon_method)
+{
+	rna_Scene_alembic_export(_self, C, filepath, frame_start, frame_end, xform_samples, geom_samples, shutter_open, shutter_close, selected_only, uvs, normals, vcolors, apply_subdiv, flatten, visible_objects_only, face_sets, subdiv_schema, export_hair, export_particles, packuv, scale, triangulate, quad_method, ngon_method);
+}
+
+void Scene_alembic_export_call(bContext *C, ReportList *reports, PointerRNA *_ptr, ParameterList *_parms)
+{
+	struct Scene *_self;
+	const char * filepath;
+	int frame_start;
+	int frame_end;
+	int xform_samples;
+	int geom_samples;
+	float shutter_open;
+	float shutter_close;
+	bool selected_only;
+	bool uvs;
+	bool normals;
+	bool vcolors;
+	bool apply_subdiv;
+	bool flatten;
+	bool visible_objects_only;
+	bool face_sets;
+	bool subdiv_schema;
+	bool export_hair;
+	bool export_particles;
+	bool packuv;
+	float scale;
+	bool triangulate;
+	int quad_method;
+	int ngon_method;
+	char *_data;
+	
+	_self = (struct Scene *)_ptr->data;
+	_data = (char *)_parms->data;
+	filepath = *((const char * *)_data);
+	_data += 8;
+	frame_start = *((int *)_data);
+	_data += 8;
+	frame_end = *((int *)_data);
+	_data += 8;
+	xform_samples = *((int *)_data);
+	_data += 8;
+	geom_samples = *((int *)_data);
+	_data += 8;
+	shutter_open = *((float *)_data);
+	_data += 8;
+	shutter_close = *((float *)_data);
+	_data += 8;
+	selected_only = *((bool *)_data);
+	_data += 8;
+	uvs = *((bool *)_data);
+	_data += 8;
+	normals = *((bool *)_data);
+	_data += 8;
+	vcolors = *((bool *)_data);
+	_data += 8;
+	apply_subdiv = *((bool *)_data);
+	_data += 8;
+	flatten = *((bool *)_data);
+	_data += 8;
+	visible_objects_only = *((bool *)_data);
+	_data += 8;
+	face_sets = *((bool *)_data);
+	_data += 8;
+	subdiv_schema = *((bool *)_data);
+	_data += 8;
+	export_hair = *((bool *)_data);
+	_data += 8;
+	export_particles = *((bool *)_data);
+	_data += 8;
+	packuv = *((bool *)_data);
+	_data += 8;
+	scale = *((float *)_data);
+	_data += 8;
+	triangulate = *((bool *)_data);
+	_data += 8;
+	quad_method = *((int *)_data);
+	_data += 8;
+	ngon_method = *((int *)_data);
+	
+	rna_Scene_alembic_export(_self, C, filepath, frame_start, frame_end, xform_samples, geom_samples, shutter_open, shutter_close, selected_only, uvs, normals, vcolors, apply_subdiv, flatten, visible_objects_only, face_sets, subdiv_schema, export_hair, export_particles, packuv, scale, triangulate, quad_method, ngon_method);
+}
+
+/* Repeated prototypes to detect errors */
+
+void rna_Scene_update_render_engine(Main *bmain);
+const char * rna_Scene_statistics_string_get(struct Scene *_self, Main *bmain, ReportList *reports, struct ViewLayer *view_layer);
+void rna_Scene_frame_set(struct Scene *_self, Main *bmain, int frame, float subframe);
+void rna_Scene_uvedit_aspect(struct Scene *_self, struct Object *object, float result[2]);
+void rna_Scene_ray_cast(struct Scene *_self, struct Depsgraph *depsgraph, float origin[3], float direction[3], float distance, bool *result, float location[3], float normal[3], int *index, struct Object **object, float matrix[16]);
+struct Editing *SEQ_editing_ensure(struct Scene *_self);
+void rna_Scene_sequencer_editing_free(struct Scene *_self);
+void rna_Scene_alembic_export(struct Scene *_self, bContext *C, const char * filepath, int frame_start, int frame_end, int xform_samples, int geom_samples, float shutter_open, float shutter_close, bool selected_only, bool uvs, bool normals, bool vcolors, bool apply_subdiv, bool flatten, bool visible_objects_only, bool face_sets, bool subdiv_schema, bool export_hair, bool export_particles, bool packuv, float scale, bool triangulate, int quad_method, int ngon_method);
+
+
+struct KeyingSet *KeyingSets_new_func(struct Scene *_self, ReportList *reports, const char * idname, const char * name)
+{
+	return rna_Scene_keying_set_new(_self, reports, idname, name);
+}
+
+void KeyingSets_new_call(bContext *C, ReportList *reports, PointerRNA *_ptr, ParameterList *_parms)
+{
+	struct Scene *_self;
+	const char * idname;
+	const char * name;
+	struct KeyingSet *keyingset;
+	char *_data, *_retdata;
+	
+	_self = (struct Scene *)_ptr->data;
+	_data = (char *)_parms->data;
+	idname = *((const char * *)_data);
+	_data += 8;
+	name = *((const char * *)_data);
+	_data += 8;
+	_retdata = _data;
+	
+	keyingset = rna_Scene_keying_set_new(_self, reports, idname, name);
+	*((struct KeyingSet **)_retdata) = keyingset;
+}
+
+/* Repeated prototypes to detect errors */
+
+struct KeyingSet *rna_Scene_keying_set_new(struct Scene *_self, ReportList *reports, const char * idname, const char * name);
+
+
+struct TimeMarker *TimelineMarkers_new_func(struct Scene *_self, const char * name, int frame)
+{
+	return rna_TimeLine_add(_self, name, frame);
+}
+
+void TimelineMarkers_new_call(bContext *C, ReportList *reports, PointerRNA *_ptr, ParameterList *_parms)
+{
+	struct Scene *_self;
+	const char * name;
+	int frame;
+	struct TimeMarker *marker;
+	char *_data, *_retdata;
+	
+	_self = (struct Scene *)_ptr->data;
+	_data = (char *)_parms->data;
+	name = *((const char * *)_data);
+	_data += 8;
+	frame = *((int *)_data);
+	_data += 8;
+	_retdata = _data;
+	
+	marker = rna_TimeLine_add(_self, name, frame);
+	*((struct TimeMarker **)_retdata) = marker;
+}
+
+void TimelineMarkers_remove_func(struct Scene *_self, ReportList *reports, struct PointerRNA *marker)
+{
+	rna_TimeLine_remove(_self, reports, marker);
+}
+
+void TimelineMarkers_remove_call(bContext *C, ReportList *reports, PointerRNA *_ptr, ParameterList *_parms)
+{
+	struct Scene *_self;
+	struct PointerRNA *marker;
+	char *_data;
+	
+	_self = (struct Scene *)_ptr->data;
+	_data = (char *)_parms->data;
+	marker = *((struct PointerRNA **)_data);
+	
+	rna_TimeLine_remove(_self, reports, marker);
+}
+
+void TimelineMarkers_clear_func(struct Scene *_self)
+{
+	rna_TimeLine_clear(_self);
+}
+
+void TimelineMarkers_clear_call(bContext *C, ReportList *reports, PointerRNA *_ptr, ParameterList *_parms)
+{
+	struct Scene *_self;
+	_self = (struct Scene *)_ptr->data;
+	
+	rna_TimeLine_clear(_self);
+}
+
+/* Repeated prototypes to detect errors */
+
+struct TimeMarker *rna_TimeLine_add(struct Scene *_self, const char * name, int frame);
+void rna_TimeLine_remove(struct Scene *_self, ReportList *reports, struct PointerRNA *marker);
+void rna_TimeLine_clear(struct Scene *_self);
+
+struct ViewLayer *ViewLayers_new_func(struct ID *_selfid, struct Scene *_self, Main *bmain, const char * name)
+{
+	return rna_ViewLayer_new(_selfid, _self, bmain, name);
+}
+
+void ViewLayers_new_call(bContext *C, ReportList *reports, PointerRNA *_ptr, ParameterList *_parms)
+{
+	struct ID *_selfid;
+	struct Scene *_self;
+	const char * name;
+	struct ViewLayer *result;
+	char *_data, *_retdata;
+	
+	_selfid = (struct ID *)_ptr->owner_id;
+	_self = (struct Scene *)_ptr->data;
+	_data = (char *)_parms->data;
+	name = *((const char * *)_data);
+	_data += 8;
+	_retdata = _data;
+	
+	result = rna_ViewLayer_new(_selfid, _self, CTX_data_main(C), name);
+	*((struct ViewLayer **)_retdata) = result;
+}
+
+void ViewLayers_remove_func(struct ID *_selfid, struct Scene *_self, Main *bmain, ReportList *reports, struct PointerRNA *layer)
+{
+	rna_ViewLayer_remove(_selfid, _self, bmain, reports, layer);
+}
+
+void ViewLayers_remove_call(bContext *C, ReportList *reports, PointerRNA *_ptr, ParameterList *_parms)
+{
+	struct ID *_selfid;
+	struct Scene *_self;
+	struct PointerRNA *layer;
+	char *_data;
+	
+	_selfid = (struct ID *)_ptr->owner_id;
+	_self = (struct Scene *)_ptr->data;
+	_data = (char *)_parms->data;
+	layer = *((struct PointerRNA **)_data);
+	
+	rna_ViewLayer_remove(_selfid, _self, CTX_data_main(C), reports, layer);
+}
+
+/* Repeated prototypes to detect errors */
+
+struct ViewLayer *rna_ViewLayer_new(struct ID *_selfid, struct Scene *_self, Main *bmain, const char * name);
+void rna_ViewLayer_remove(struct ID *_selfid, struct Scene *_self, Main *bmain, ReportList *reports, struct PointerRNA *layer);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+void RenderSettings_frame_path_func(struct RenderData *_self, Main *bmain, int frame, bool preview, const char * view, char * filepath)
+{
+	rna_SceneRender_get_frame_path(_self, bmain, frame, preview, view, filepath);
+}
+
+void RenderSettings_frame_path_call(bContext *C, ReportList *reports, PointerRNA *_ptr, ParameterList *_parms)
+{
+	struct RenderData *_self;
+	int frame;
+	bool preview;
+	const char * view;
+	char * filepath;
+	char *_data;
+	
+	_self = (struct RenderData *)_ptr->data;
+	_data = (char *)_parms->data;
+	frame = *((int *)_data);
+	_data += 8;
+	preview = *((bool *)_data);
+	_data += 8;
+	view = *((const char * *)_data);
+	_data += 8;
+	filepath = ((char * )_data);
+	
+	rna_SceneRender_get_frame_path(_self, CTX_data_main(C), frame, preview, view, filepath);
+}
+
+/* Repeated prototypes to detect errors */
+
+void rna_SceneRender_get_frame_path(struct RenderData *_self, Main *bmain, int frame, bool preview, const char * view, char * filepath);
+
+struct SceneRenderView *RenderViews_new_func(struct ID *_selfid, struct RenderData *_self, const char * name)
+{
+	return rna_RenderView_new(_selfid, _self, name);
+}
+
+void RenderViews_new_call(bContext *C, ReportList *reports, PointerRNA *_ptr, ParameterList *_parms)
+{
+	struct ID *_selfid;
+	struct RenderData *_self;
+	const char * name;
+	struct SceneRenderView *result;
+	char *_data, *_retdata;
+	
+	_selfid = (struct ID *)_ptr->owner_id;
+	_self = (struct RenderData *)_ptr->data;
+	_data = (char *)_parms->data;
+	name = *((const char * *)_data);
+	_data += 8;
+	_retdata = _data;
+	
+	result = rna_RenderView_new(_selfid, _self, name);
+	*((struct SceneRenderView **)_retdata) = result;
+}
+
+void RenderViews_remove_func(struct ID *_selfid, struct RenderData *_self, Main *bmain, ReportList *reports, struct PointerRNA *view)
+{
+	rna_RenderView_remove(_selfid, _self, bmain, reports, view);
+}
+
+void RenderViews_remove_call(bContext *C, ReportList *reports, PointerRNA *_ptr, ParameterList *_parms)
+{
+	struct ID *_selfid;
+	struct RenderData *_self;
+	struct PointerRNA *view;
+	char *_data;
+	
+	_selfid = (struct ID *)_ptr->owner_id;
+	_self = (struct RenderData *)_ptr->data;
+	_data = (char *)_parms->data;
+	view = *((struct PointerRNA **)_data);
+	
+	rna_RenderView_remove(_selfid, _self, CTX_data_main(C), reports, view);
+}
+
+/* Repeated prototypes to detect errors */
+
+struct SceneRenderView *rna_RenderView_new(struct ID *_selfid, struct RenderData *_self, const char * name);
+void rna_RenderView_remove(struct ID *_selfid, struct RenderData *_self, Main *bmain, ReportList *reports, struct PointerRNA *view);
+
+
+
+/* Scene */
+PointerPropertyRNA rna_Scene_camera = {
+	{(PropertyRNA *)&rna_Scene_background_set, NULL,
+	-1, "camera", 8388737, 1, 0, 0, 0, "Camera",
+	"Active camera, used for rendering the scene",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_camera_update, 83886081, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_camera_get, Scene_camera_set, NULL, rna_Camera_object_poll,&RNA_Object
+};
+
+PointerPropertyRNA rna_Scene_background_set = {
+	{(PropertyRNA *)&rna_Scene_world, (PropertyRNA *)&rna_Scene_camera,
+	-1, "background_set", 9437313, 1, 0, 0, 0, "Background Scene",
+	"Background set scene",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_set_update, 83886081, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_background_set_get, Scene_background_set_set, NULL, NULL,&RNA_Scene
+};
+
+PointerPropertyRNA rna_Scene_world = {
+	{(PropertyRNA *)&rna_Scene_objects, (PropertyRNA *)&rna_Scene_background_set,
+	-1, "world", 8388801, 1, 0, 0, 0, "World",
+	"World used for rendering the scene",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_world_update, 89915392, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_world_get, Scene_world_set, NULL, NULL,&RNA_World
+};
+
+CollectionPropertyRNA rna_Scene_objects = {
+	{(PropertyRNA *)&rna_Scene_frame_current, (PropertyRNA *)&rna_Scene_world,
+	-1, "objects", 128, 0, 0, 0, 0, "Objects",
+	"",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, &RNA_SceneObjects},
+	Scene_objects_begin, Scene_objects_next, Scene_objects_end, Scene_objects_get, NULL, NULL, NULL, NULL, &RNA_Object
+};
+
+IntPropertyRNA rna_Scene_frame_current = {
+	{(PropertyRNA *)&rna_Scene_frame_subframe, (PropertyRNA *)&rna_Scene_objects,
+	-1, "frame_current", 1, 0, 0, 0, 0, "Current Frame",
+	"Current frame, to update animation data from python frame_set() instead",
+	0, "*",
+	PROP_INT, PROP_TIME | PROP_UNIT_TIME, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_frame_update, 84082688, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_frame_current_get, Scene_frame_current_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, -1048574, 1048574, -1048574, 1048574, 1, 1, NULL
+};
+
+FloatPropertyRNA rna_Scene_frame_subframe = {
+	{(PropertyRNA *)&rna_Scene_frame_float, (PropertyRNA *)&rna_Scene_frame_current,
+	-1, "frame_subframe", 1, 0, 0, 4, 0, "Current Subframe",
+	"",
+	0, "*",
+	PROP_FLOAT, PROP_TIME | PROP_UNIT_TIME, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_frame_update, 84082688, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(Scene, r.subframe), 5, NULL},
+	Scene_frame_subframe_get, Scene_frame_subframe_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 0.0099999998f, 2, 0.0f, NULL
+};
+
+FloatPropertyRNA rna_Scene_frame_float = {
+	{(PropertyRNA *)&rna_Scene_frame_start, (PropertyRNA *)&rna_Scene_frame_subframe,
+	-1, "frame_float", 1, 0, 0, 0, 0, "Current Subframe",
+	"",
+	0, "*",
+	PROP_FLOAT, PROP_TIME | PROP_UNIT_TIME, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_frame_update, 84082688, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_frame_float_get, Scene_frame_float_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -1048574.0f, 1048574.0f, -1048574.0f, 1048574.0f, 0.1000000015f, 2, 0.0f, NULL
+};
+
+IntPropertyRNA rna_Scene_frame_start = {
+	{(PropertyRNA *)&rna_Scene_frame_end, (PropertyRNA *)&rna_Scene_frame_float,
+	-1, "frame_start", 1, 0, 0, 0, 0, "Start Frame",
+	"First frame of the playback/rendering range",
+	0, "*",
+	PROP_INT, PROP_TIME | PROP_UNIT_TIME, NULL, 0, {0, 0, 0}, 0,
+	NULL, 85000192, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_frame_start_get, Scene_frame_start_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 1048574, 0, 1048574, 1, 1, NULL
+};
+
+IntPropertyRNA rna_Scene_frame_end = {
+	{(PropertyRNA *)&rna_Scene_frame_step, (PropertyRNA *)&rna_Scene_frame_start,
+	-1, "frame_end", 1, 0, 0, 0, 0, "End Frame",
+	"Final frame of the playback/rendering range",
+	0, "*",
+	PROP_INT, PROP_TIME | PROP_UNIT_TIME, NULL, 0, {0, 0, 0}, 0,
+	NULL, 85000192, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_frame_end_get, Scene_frame_end_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 1048574, 0, 1048574, 1, 250, NULL
+};
+
+IntPropertyRNA rna_Scene_frame_step = {
+	{(PropertyRNA *)&rna_Scene_frame_current_final, (PropertyRNA *)&rna_Scene_frame_end,
+	-1, "frame_step", 1, 0, 0, 4, 0, "Frame Step",
+	"Number of frames to skip forward while rendering/playing back each frame",
+	0, "*",
+	PROP_INT, PROP_TIME | PROP_UNIT_TIME, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84082688, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(Scene, r.frame_step), 0, NULL},
+	Scene_frame_step_get, Scene_frame_step_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, 100, 0, 1048574, 1, 1, NULL
+};
+
+FloatPropertyRNA rna_Scene_frame_current_final = {
+	{(PropertyRNA *)&rna_Scene_lock_frame_selection_to_range, (PropertyRNA *)&rna_Scene_frame_step,
+	-1, "frame_current_final", 0, 0, 0, 0, 0, "Current Frame Final",
+	"Current frame with subframe and time remapping applied",
+	0, "*",
+	PROP_FLOAT, PROP_TIME | PROP_UNIT_TIME, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_frame_current_final_get, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -1048574.0f, 1048574.0f, -1048574.0f, 1048574.0f, 10.0f, 3, 0.0f, NULL
+};
+
+BoolPropertyRNA rna_Scene_lock_frame_selection_to_range = {
+	{(PropertyRNA *)&rna_Scene_use_preview_range, (PropertyRNA *)&rna_Scene_frame_current_final,
+	-1, "lock_frame_selection_to_range", 1, 0, 0, 0, 0, "Lock Frame Selection",
+	"Don\'t allow frame to be selected with mouse outside of frame range",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84082688, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_lock_frame_selection_to_range_get, Scene_lock_frame_selection_to_range_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_Scene_use_preview_range = {
+	{(PropertyRNA *)&rna_Scene_frame_preview_start, (PropertyRNA *)&rna_Scene_lock_frame_selection_to_range,
+	-1, "use_preview_range", 1, 0, 0, 0, 0, "Use Preview Range",
+	"Use an alternative start/end frame range for animation playback and view renders",
+	503, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84082688, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_use_preview_range_get, Scene_use_preview_range_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+IntPropertyRNA rna_Scene_frame_preview_start = {
+	{(PropertyRNA *)&rna_Scene_frame_preview_end, (PropertyRNA *)&rna_Scene_use_preview_range,
+	-1, "frame_preview_start", 1, 0, 0, 0, 0, "Preview Range Start Frame",
+	"Alternative start frame for UI playback",
+	0, "*",
+	PROP_INT, PROP_TIME | PROP_UNIT_TIME, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84082688, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_frame_preview_start_get, Scene_frame_preview_start_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, -10000, 10000, INT_MIN, INT_MAX, 1, 0, NULL
+};
+
+IntPropertyRNA rna_Scene_frame_preview_end = {
+	{(PropertyRNA *)&rna_Scene_show_subframe, (PropertyRNA *)&rna_Scene_frame_preview_start,
+	-1, "frame_preview_end", 1, 0, 0, 0, 0, "Preview Range End Frame",
+	"Alternative end frame for UI playback",
+	0, "*",
+	PROP_INT, PROP_TIME | PROP_UNIT_TIME, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84082688, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_frame_preview_end_get, Scene_frame_preview_end_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, -10000, 10000, INT_MIN, INT_MAX, 1, 0, NULL
+};
+
+BoolPropertyRNA rna_Scene_show_subframe = {
+	{(PropertyRNA *)&rna_Scene_show_keys_from_selected_only, (PropertyRNA *)&rna_Scene_frame_preview_end,
+	-1, "show_subframe", 1, 0, 0, 0, 0, "Show Subframe",
+	"Show current scene subframe and allow set it using interface tools",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_show_subframe_update, 84082688, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_show_subframe_get, Scene_show_subframe_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_Scene_show_keys_from_selected_only = {
+	{(PropertyRNA *)&rna_Scene_use_stamp_note, (PropertyRNA *)&rna_Scene_show_subframe,
+	-1, "show_keys_from_selected_only", 3, 0, 0, 0, 0, "Only Keyframes from Selected Channels",
+	"Consider keyframes for active object and/or its selected bones only (in timeline and when jumping between keyframes)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84082688, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_show_keys_from_selected_only_get, Scene_show_keys_from_selected_only_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+StringPropertyRNA rna_Scene_use_stamp_note = {
+	{(PropertyRNA *)&rna_Scene_animation_data, (PropertyRNA *)&rna_Scene_show_keys_from_selected_only,
+	-1, "use_stamp_note", 262145, 0, 0, 0, 0, "Stamp Note",
+	"User defined note for the render stamping",
+	0, "*",
+	PROP_STRING, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {768, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_use_stamp_note_get, Scene_use_stamp_note_length, Scene_use_stamp_note_set, NULL, NULL, NULL, NULL, 0, 768, ""
+};
+
+PointerPropertyRNA rna_Scene_animation_data = {
+	{(PropertyRNA *)&rna_Scene_is_nla_tweakmode, (PropertyRNA *)&rna_Scene_use_stamp_note,
+	-1, "animation_data", 8388608, 1, 0, 0, 0, "Animation Data",
+	"Animation data for this data-block",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_AnimaData_override_apply,
+	0, -1, NULL},
+	Scene_animation_data_get, NULL, NULL, NULL,&RNA_AnimData
+};
+
+BoolPropertyRNA rna_Scene_is_nla_tweakmode = {
+	{(PropertyRNA *)&rna_Scene_sync_mode, (PropertyRNA *)&rna_Scene_animation_data,
+	-1, "is_nla_tweakmode", 2, 0, 0, 0, 0, "NLA Tweak Mode",
+	"Whether there is any action referenced by NLA being edited (strictly read-only)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 269352960, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_is_nla_tweakmode_get, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+static const EnumPropertyItem rna_Scene_sync_mode_items[4] = {
+	{0, "NONE", 0, "Play Every Frame", "Do not sync, play every frame"},
+	{8, "FRAME_DROP", 0, "Frame Dropping", "Drop frames if playback is too slow"},
+	{2, "AUDIO_SYNC", 0, "Sync to Audio", "Sync to audio playback, dropping frames"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_Scene_sync_mode = {
+	{(PropertyRNA *)&rna_Scene_node_tree, (PropertyRNA *)&rna_Scene_is_nla_tweakmode,
+	-1, "sync_mode", 3, 0, 0, 0, 0, "Sync Mode",
+	"How to sync playback",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 83886080, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_sync_mode_get, Scene_sync_mode_set, NULL, NULL, NULL, rna_Scene_sync_mode_items, 3, 2
+};
+
+PointerPropertyRNA rna_Scene_node_tree = {
+	{(PropertyRNA *)&rna_Scene_use_nodes, (PropertyRNA *)&rna_Scene_sync_mode,
+	-1, "node_tree", 8388672, 1, 0, 32, 0, "Node Tree",
+	"Compositing node tree",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_node_tree_get, NULL, NULL, NULL,&RNA_NodeTree
+};
+
+BoolPropertyRNA rna_Scene_use_nodes = {
+	{(PropertyRNA *)&rna_Scene_sequence_editor, (PropertyRNA *)&rna_Scene_node_tree,
+	-1, "use_nodes", 4194307, 0, 0, 0, 0, "Use Nodes",
+	"Enable the compositing node tree",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_Scene_use_nodes_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_use_nodes_get, Scene_use_nodes_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+PointerPropertyRNA rna_Scene_sequence_editor = {
+	{(PropertyRNA *)&rna_Scene_keying_sets, (PropertyRNA *)&rna_Scene_use_nodes,
+	-1, "sequence_editor", 8388608, 0, 0, 0, 0, "Sequence Editor",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_sequence_editor_get, NULL, NULL, NULL,&RNA_SequenceEditor
+};
+
+CollectionPropertyRNA rna_Scene_keying_sets = {
+	{(PropertyRNA *)&rna_Scene_keying_sets_all, (PropertyRNA *)&rna_Scene_sequence_editor,
+	-1, "keying_sets", 0, 0, 0, 0, 0, "Absolute Keying Sets",
+	"Absolute Keying Sets for this Scene",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84803584, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, &RNA_KeyingSets},
+	Scene_keying_sets_begin, Scene_keying_sets_next, Scene_keying_sets_end, Scene_keying_sets_get, NULL, Scene_keying_sets_lookup_int, Scene_keying_sets_lookup_string, NULL, &RNA_KeyingSet
+};
+
+CollectionPropertyRNA rna_Scene_keying_sets_all = {
+	{(PropertyRNA *)&rna_Scene_rigidbody_world, (PropertyRNA *)&rna_Scene_keying_sets,
+	-1, "keying_sets_all", 0, 0, 0, 0, 0, "All Keying Sets",
+	"All Keying Sets available for use (Builtins and Absolute Keying Sets for this Scene)",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84803584, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, &RNA_KeyingSetsAll},
+	Scene_keying_sets_all_begin, Scene_keying_sets_all_next, Scene_keying_sets_all_end, Scene_keying_sets_all_get, NULL, NULL, NULL, NULL, &RNA_KeyingSet
+};
+
+PointerPropertyRNA rna_Scene_rigidbody_world = {
+	{(PropertyRNA *)&rna_Scene_tool_settings, (PropertyRNA *)&rna_Scene_keying_sets_all,
+	-1, "rigidbody_world", 8388608, 0, 0, 0, 0, "Rigid Body World",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Physics_relations_update, 83886080, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_rigidbody_world_get, NULL, NULL, NULL,&RNA_RigidBodyWorld
+};
+
+PointerPropertyRNA rna_Scene_tool_settings = {
+	{(PropertyRNA *)&rna_Scene_unit_settings, (PropertyRNA *)&rna_Scene_rigidbody_world,
+	-1, "tool_settings", 8650752, 0, 0, 0, 0, "Tool Settings",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_tool_settings_get, NULL, NULL, NULL,&RNA_ToolSettings
+};
+
+PointerPropertyRNA rna_Scene_unit_settings = {
+	{(PropertyRNA *)&rna_Scene_gravity, (PropertyRNA *)&rna_Scene_tool_settings,
+	-1, "unit_settings", 8650752, 0, 0, 0, 0, "Unit Settings",
+	"Unit editing settings",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_unit_settings_get, NULL, NULL, NULL,&RNA_UnitSettings
+};
+
+static float rna_Scene_gravity_default[3] = {
+	0.0f,
+	0.0f,
+	-9.8100004196f
+};
+
+FloatPropertyRNA rna_Scene_gravity = {
+	{(PropertyRNA *)&rna_Scene_use_gravity, (PropertyRNA *)&rna_Scene_unit_settings,
+	-1, "gravity", 3, 0, 0, 4, 0, "Gravity",
+	"Constant acceleration in a given direction",
+	0, "*",
+	PROP_FLOAT, PROP_ACCELERATION | PROP_UNIT_ACCELERATION, NULL, 1, {3, 0, 0}, 3,
+	rna_Physics_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(Scene, physics_settings.gravity), 5, NULL},
+	NULL, NULL, Scene_gravity_get, Scene_gravity_set, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -200.0f, 200.0f, -FLT_MAX, FLT_MAX, 1.0f, 2, 0.0f, rna_Scene_gravity_default
+};
+
+BoolPropertyRNA rna_Scene_use_gravity = {
+	{(PropertyRNA *)&rna_Scene_render, (PropertyRNA *)&rna_Scene_gravity,
+	-1, "use_gravity", 3, 0, 0, 0, 0, "Global Gravity",
+	"Use global gravity for all dynamics",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Physics_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_use_gravity_get, Scene_use_gravity_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+PointerPropertyRNA rna_Scene_render = {
+	{(PropertyRNA *)&rna_Scene_safe_areas, (PropertyRNA *)&rna_Scene_use_gravity,
+	-1, "render", 8650752, 0, 0, 0, 0, "Render Data",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_render_get, NULL, NULL, NULL,&RNA_RenderSettings
+};
+
+PointerPropertyRNA rna_Scene_safe_areas = {
+	{(PropertyRNA *)&rna_Scene_timeline_markers, (PropertyRNA *)&rna_Scene_render,
+	-1, "safe_areas", 8650752, 0, 0, 0, 0, "Safe Areas",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_safe_areas_get, NULL, NULL, NULL,&RNA_DisplaySafeAreas
+};
+
+CollectionPropertyRNA rna_Scene_timeline_markers = {
+	{(PropertyRNA *)&rna_Scene_transform_orientation_slots, (PropertyRNA *)&rna_Scene_safe_areas,
+	-1, "timeline_markers", 0, 0, 0, 0, 0, "Timeline Markers",
+	"Markers used in all timelines for the current scene",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, &RNA_TimelineMarkers},
+	Scene_timeline_markers_begin, Scene_timeline_markers_next, Scene_timeline_markers_end, Scene_timeline_markers_get, NULL, Scene_timeline_markers_lookup_int, Scene_timeline_markers_lookup_string, NULL, &RNA_TimelineMarker
+};
+
+CollectionPropertyRNA rna_Scene_transform_orientation_slots = {
+	{(PropertyRNA *)&rna_Scene_cursor, (PropertyRNA *)&rna_Scene_timeline_markers,
+	-1, "transform_orientation_slots", 0, 0, 0, 8, 0, "Transform Orientation Slots",
+	"",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_transform_orientation_slots_begin, Scene_transform_orientation_slots_next, Scene_transform_orientation_slots_end, Scene_transform_orientation_slots_get, Scene_transform_orientation_slots_length, NULL, NULL, NULL, &RNA_TransformOrientationSlot
+};
+
+PointerPropertyRNA rna_Scene_cursor = {
+	{(PropertyRNA *)&rna_Scene_use_audio, (PropertyRNA *)&rna_Scene_transform_orientation_slots,
+	-1, "cursor", 8650752, 0, 0, 0, 0, "3D Cursor",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_cursor_get, NULL, NULL, NULL,&RNA_View3DCursor
+};
+
+BoolPropertyRNA rna_Scene_use_audio = {
+	{(PropertyRNA *)&rna_Scene_use_audio_scrub, (PropertyRNA *)&rna_Scene_cursor,
+	-1, "use_audio", 3, 0, 0, 0, 0, "Audio Muted",
+	"Play back of audio from Sequence Editor will be muted",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_use_audio_update, 83886080, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_use_audio_get, Scene_use_audio_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_Scene_use_audio_scrub = {
+	{(PropertyRNA *)&rna_Scene_audio_doppler_speed, (PropertyRNA *)&rna_Scene_use_audio,
+	-1, "use_audio_scrub", 3, 0, 0, 0, 0, "Audio Scrubbing",
+	"Play audio from Sequence Editor while scrubbing",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 83886080, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_use_audio_scrub_get, Scene_use_audio_scrub_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+FloatPropertyRNA rna_Scene_audio_doppler_speed = {
+	{(PropertyRNA *)&rna_Scene_audio_doppler_factor, (PropertyRNA *)&rna_Scene_use_audio_scrub,
+	-1, "audio_doppler_speed", 1, 0, 0, 4, 0, "Speed of Sound",
+	"Speed of sound for Doppler effect calculation",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_listener_update, 83886080, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(Scene, audio.speed_of_sound), 5, NULL},
+	Scene_audio_doppler_speed_get, Scene_audio_doppler_speed_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0099999998f, FLT_MAX, 0.0099999998f, FLT_MAX, 10.0f, 3, 343.2999877930f, NULL
+};
+
+FloatPropertyRNA rna_Scene_audio_doppler_factor = {
+	{(PropertyRNA *)&rna_Scene_audio_distance_model, (PropertyRNA *)&rna_Scene_audio_doppler_speed,
+	-1, "audio_doppler_factor", 1, 0, 0, 4, 0, "Doppler Factor",
+	"Pitch factor for Doppler effect calculation",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_listener_update, 83886080, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(Scene, audio.doppler_factor), 5, NULL},
+	Scene_audio_doppler_factor_get, Scene_audio_doppler_factor_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, FLT_MAX, 0.0f, FLT_MAX, 10.0f, 3, 1.0f, NULL
+};
+
+static const EnumPropertyItem rna_Scene_audio_distance_model_items[8] = {
+	{0, "NONE", 0, "None", "No distance attenuation"},
+	{1, "INVERSE", 0, "Inverse", "Inverse distance model"},
+	{2, "INVERSE_CLAMPED", 0, "Inverse Clamped", "Inverse distance model with clamping"},
+	{3, "LINEAR", 0, "Linear", "Linear distance model"},
+	{4, "LINEAR_CLAMPED", 0, "Linear Clamped", "Linear distance model with clamping"},
+	{5, "EXPONENT", 0, "Exponent", "Exponent distance model"},
+	{6, "EXPONENT_CLAMPED", 0, "Exponent Clamped", "Exponent distance model with clamping"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_Scene_audio_distance_model = {
+	{(PropertyRNA *)&rna_Scene_audio_volume, (PropertyRNA *)&rna_Scene_audio_doppler_factor,
+	-1, "audio_distance_model", 1, 0, 0, 4, 0, "Distance Model",
+	"Distance model for distance attenuation calculation",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_listener_update, 83886080, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(Scene, audio.distance_model), 0, NULL},
+	Scene_audio_distance_model_get, Scene_audio_distance_model_set, NULL, NULL, NULL, rna_Scene_audio_distance_model_items, 7, 0
+};
+
+FloatPropertyRNA rna_Scene_audio_volume = {
+	{(PropertyRNA *)&rna_Scene_grease_pencil, (PropertyRNA *)&rna_Scene_audio_distance_model,
+	-1, "audio_volume", 3, 0, 0, 4, 0, "Volume",
+	"Audio volume",
+	0, "Sound",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_volume_update, 83886080, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(Scene, audio.volume), 5, NULL},
+	Scene_audio_volume_get, Scene_audio_volume_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 100.0f, 0.0f, 100.0f, 10.0f, 3, 1.0f, NULL
+};
+
+PointerPropertyRNA rna_Scene_grease_pencil = {
+	{(PropertyRNA *)&rna_Scene_active_clip, (PropertyRNA *)&rna_Scene_audio_volume,
+	-1, "grease_pencil", 8388801, 1, 0, 0, 0, "Annotations",
+	"Grease Pencil data-block used for annotations in the 3D view",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 391839745, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_grease_pencil_get, Scene_grease_pencil_set, NULL, rna_GPencil_datablocks_annotations_poll,&RNA_GreasePencil
+};
+
+PointerPropertyRNA rna_Scene_active_clip = {
+	{(PropertyRNA *)&rna_Scene_view_settings, (PropertyRNA *)&rna_Scene_grease_pencil,
+	-1, "active_clip", 8388801, 0, 0, 0, 0, "Active Movie Clip",
+	"Active Movie Clip that can be used by motion tracking constraints or as a camera\'s background image",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 85917696, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_active_clip_get, Scene_active_clip_set, NULL, NULL,&RNA_MovieClip
+};
+
+PointerPropertyRNA rna_Scene_view_settings = {
+	{(PropertyRNA *)&rna_Scene_display_settings, (PropertyRNA *)&rna_Scene_active_clip,
+	-1, "view_settings", 8388608, 0, 0, 0, 0, "View Settings",
+	"Color management settings applied on image before saving",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_view_settings_get, NULL, NULL, NULL,&RNA_ColorManagedViewSettings
+};
+
+PointerPropertyRNA rna_Scene_display_settings = {
+	{(PropertyRNA *)&rna_Scene_sequencer_colorspace_settings, (PropertyRNA *)&rna_Scene_view_settings,
+	-1, "display_settings", 8388608, 0, 0, 0, 0, "Display Settings",
+	"Settings of device saved image would be displayed on",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_display_settings_get, NULL, NULL, NULL,&RNA_ColorManagedDisplaySettings
+};
+
+PointerPropertyRNA rna_Scene_sequencer_colorspace_settings = {
+	{(PropertyRNA *)&rna_Scene_view_layers, (PropertyRNA *)&rna_Scene_display_settings,
+	-1, "sequencer_colorspace_settings", 8388608, 0, 0, 0, 0, "Sequencer Color Space Settings",
+	"Settings of color space sequencer is working in",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_sequencer_colorspace_settings_get, NULL, NULL, NULL,&RNA_ColorManagedSequencerColorspaceSettings
+};
+
+CollectionPropertyRNA rna_Scene_view_layers = {
+	{(PropertyRNA *)&rna_Scene_collection, (PropertyRNA *)&rna_Scene_sequencer_colorspace_settings,
+	-1, "view_layers", 0, 0, 0, 0, 0, "View Layers",
+	"",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, &RNA_ViewLayers},
+	Scene_view_layers_begin, Scene_view_layers_next, Scene_view_layers_end, Scene_view_layers_get, NULL, Scene_view_layers_lookup_int, Scene_view_layers_lookup_string, NULL, &RNA_ViewLayer
+};
+
+PointerPropertyRNA rna_Scene_collection = {
+	{(PropertyRNA *)&rna_Scene_display, (PropertyRNA *)&rna_Scene_view_layers,
+	-1, "collection", 8650752, 1, 0, 32, 0, "Collection",
+	"Scene root collection that owns all the objects and other collections instantiated in the scene",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_collection_get, NULL, NULL, NULL,&RNA_Collection
+};
+
+PointerPropertyRNA rna_Scene_display = {
+	{(PropertyRNA *)&rna_Scene_eevee, (PropertyRNA *)&rna_Scene_collection,
+	-1, "display", 8388608, 0, 0, 0, 0, "Scene Display",
+	"Scene display settings for 3D viewport",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_display_get, NULL, NULL, NULL,&RNA_SceneDisplay
+};
+
+PointerPropertyRNA rna_Scene_eevee = {
+	{(PropertyRNA *)&rna_Scene_grease_pencil_settings, (PropertyRNA *)&rna_Scene_display,
+	-1, "eevee", 8388608, 0, 0, 0, 0, "Eevee",
+	"Eevee settings for the scene",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_eevee_get, NULL, NULL, NULL,&RNA_SceneEEVEE
+};
+
+PointerPropertyRNA rna_Scene_grease_pencil_settings = {
+	{NULL, (PropertyRNA *)&rna_Scene_eevee,
+	-1, "grease_pencil_settings", 8388608, 0, 0, 0, 0, "Grease Pencil",
+	"Grease Pencil settings for the scene",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Scene_grease_pencil_settings_get, NULL, NULL, NULL,&RNA_SceneGpencil
+};
+
+FunctionRNA rna_Scene_update_render_engine_func = {
+	{(FunctionRNA *)&rna_Scene_statistics_func, NULL,
+	NULL,
+	{NULL, NULL}},
+	"update_render_engine", 5, "Trigger a render engine update",
+	Scene_update_render_engine_call,
+	NULL
+};
+
+PointerPropertyRNA rna_Scene_statistics_view_layer = {
+	{(PropertyRNA *)&rna_Scene_statistics_statistics, NULL,
+	-1, "view_layer", 8650752, 0, 1, 0, 0, "View Layer",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL,&RNA_ViewLayer
+};
+
+StringPropertyRNA rna_Scene_statistics_statistics = {
+	{NULL, (PropertyRNA *)&rna_Scene_statistics_view_layer,
+	-1, "statistics", 262145, 0, 2, 0, 0, "Statistics",
+	"",
+	0, "*",
+	PROP_STRING, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, ""
+};
+
+FunctionRNA rna_Scene_statistics_func = {
+	{(FunctionRNA *)&rna_Scene_frame_set_func, (FunctionRNA *)&rna_Scene_update_render_engine_func,
+	NULL,
+	{(PropertyRNA *)&rna_Scene_statistics_view_layer, (PropertyRNA *)&rna_Scene_statistics_statistics}},
+	"statistics", 20, "statistics",
+	Scene_statistics_call,
+	(PropertyRNA *)&rna_Scene_statistics_statistics
+};
+
+IntPropertyRNA rna_Scene_frame_set_frame = {
+	{(PropertyRNA *)&rna_Scene_frame_set_subframe, NULL,
+	-1, "frame", 3, 0, 1, 0, 0, "",
+	"Frame number to set",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, -1048574, 1048574, -1048574, 1048574, 1, 0, NULL
+};
+
+FloatPropertyRNA rna_Scene_frame_set_subframe = {
+	{NULL, (PropertyRNA *)&rna_Scene_frame_set_frame,
+	-1, "subframe", 3, 0, 0, 0, 0, "",
+	"Subframe time, between 0.0 and 1.0",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 1.0f, 3, 0.0f, NULL
+};
+
+FunctionRNA rna_Scene_frame_set_func = {
+	{(FunctionRNA *)&rna_Scene_uvedit_aspect_func, (FunctionRNA *)&rna_Scene_statistics_func,
+	NULL,
+	{(PropertyRNA *)&rna_Scene_frame_set_frame, (PropertyRNA *)&rna_Scene_frame_set_subframe}},
+	"frame_set", 4, "Set scene frame updating all objects immediately",
+	Scene_frame_set_call,
+	NULL
+};
+
+PointerPropertyRNA rna_Scene_uvedit_aspect_object = {
+	{(PropertyRNA *)&rna_Scene_uvedit_aspect_result, NULL,
+	-1, "object", 8650880, 0, 1, 0, 0, "",
+	"Object",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL,&RNA_Object
+};
+
+static float rna_Scene_uvedit_aspect_result_default[2] = {
+	0.0f,
+	0.0f
+};
+
+FloatPropertyRNA rna_Scene_uvedit_aspect_result = {
+	{NULL, (PropertyRNA *)&rna_Scene_uvedit_aspect_object,
+	-1, "result", 8388611, 0, 2, 0, 0, "",
+	"aspect",
+	0, "*",
+	PROP_FLOAT, PROP_XYZ | PROP_UNIT_NONE, NULL, 1, {2, 0, 0}, 2,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, FLT_MAX, 0.0f, FLT_MAX, 1.0f, 3, 0.0f, rna_Scene_uvedit_aspect_result_default
+};
+
+FunctionRNA rna_Scene_uvedit_aspect_func = {
+	{(FunctionRNA *)&rna_Scene_ray_cast_func, (FunctionRNA *)&rna_Scene_frame_set_func,
+	NULL,
+	{(PropertyRNA *)&rna_Scene_uvedit_aspect_object, (PropertyRNA *)&rna_Scene_uvedit_aspect_result}},
+	"uvedit_aspect", 0, "Get uv aspect for current object",
+	Scene_uvedit_aspect_call,
+	NULL
+};
+
+PointerPropertyRNA rna_Scene_ray_cast_depsgraph = {
+	{(PropertyRNA *)&rna_Scene_ray_cast_origin, NULL,
+	-1, "depsgraph", 8650752, 0, 1, 0, 0, "",
+	"The current dependency graph",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL,&RNA_Depsgraph
+};
+
+static float rna_Scene_ray_cast_origin_default[3] = {
+	0.0f,
+	0.0f,
+	0.0f
+};
+
+FloatPropertyRNA rna_Scene_ray_cast_origin = {
+	{(PropertyRNA *)&rna_Scene_ray_cast_direction, (PropertyRNA *)&rna_Scene_ray_cast_depsgraph,
+	-1, "origin", 3, 0, 1, 0, 0, "",
+	"",
+	0, "*",
+	PROP_FLOAT, PROP_XYZ | PROP_UNIT_NONE, NULL, 1, {3, 0, 0}, 3,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -10000.0f, 10000.0f, -FLT_MAX, FLT_MAX, 1.0f, 3, 0.0f, rna_Scene_ray_cast_origin_default
+};
+
+static float rna_Scene_ray_cast_direction_default[3] = {
+	0.0f,
+	0.0f,
+	0.0f
+};
+
+FloatPropertyRNA rna_Scene_ray_cast_direction = {
+	{(PropertyRNA *)&rna_Scene_ray_cast_distance, (PropertyRNA *)&rna_Scene_ray_cast_origin,
+	-1, "direction", 3, 0, 1, 0, 0, "",
+	"",
+	0, "*",
+	PROP_FLOAT, PROP_XYZ | PROP_UNIT_NONE, NULL, 1, {3, 0, 0}, 3,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -10000.0f, 10000.0f, -FLT_MAX, FLT_MAX, 1.0f, 3, 0.0f, rna_Scene_ray_cast_direction_default
+};
+
+FloatPropertyRNA rna_Scene_ray_cast_distance = {
+	{(PropertyRNA *)&rna_Scene_ray_cast_result, (PropertyRNA *)&rna_Scene_ray_cast_direction,
+	-1, "distance", 3, 0, 0, 0, 0, "",
+	"Maximum distance",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 170141173319264429905852091742258462720.0000000000f, 0.0f, 170141173319264429905852091742258462720.0000000000f, 1.0f, 3, 170141173319264429905852091742258462720.0000000000f, NULL
+};
+
+BoolPropertyRNA rna_Scene_ray_cast_result = {
+	{(PropertyRNA *)&rna_Scene_ray_cast_location, (PropertyRNA *)&rna_Scene_ray_cast_distance,
+	-1, "result", 3, 0, 2, 0, 0, "",
+	"",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+static float rna_Scene_ray_cast_location_default[3] = {
+	0.0f,
+	0.0f,
+	0.0f
+};
+
+FloatPropertyRNA rna_Scene_ray_cast_location = {
+	{(PropertyRNA *)&rna_Scene_ray_cast_normal, (PropertyRNA *)&rna_Scene_ray_cast_result,
+	-1, "location", 8388611, 0, 2, 0, 0, "Location",
+	"The hit location of this ray cast",
+	0, "*",
+	PROP_FLOAT, PROP_XYZ | PROP_UNIT_NONE, NULL, 1, {3, 0, 0}, 3,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -10000.0f, 10000.0f, -FLT_MAX, FLT_MAX, 1.0f, 3, 0.0f, rna_Scene_ray_cast_location_default
+};
+
+static float rna_Scene_ray_cast_normal_default[3] = {
+	0.0f,
+	0.0f,
+	0.0f
+};
+
+FloatPropertyRNA rna_Scene_ray_cast_normal = {
+	{(PropertyRNA *)&rna_Scene_ray_cast_index, (PropertyRNA *)&rna_Scene_ray_cast_location,
+	-1, "normal", 8388611, 0, 2, 0, 0, "Normal",
+	"The face normal at the ray cast hit location",
+	0, "*",
+	PROP_FLOAT, PROP_XYZ | PROP_UNIT_NONE, NULL, 1, {3, 0, 0}, 3,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -10000.0f, 10000.0f, -FLT_MAX, FLT_MAX, 1.0f, 3, 0.0f, rna_Scene_ray_cast_normal_default
+};
+
+IntPropertyRNA rna_Scene_ray_cast_index = {
+	{(PropertyRNA *)&rna_Scene_ray_cast_object, (PropertyRNA *)&rna_Scene_ray_cast_normal,
+	-1, "index", 3, 0, 2, 0, 0, "",
+	"The face index, -1 when original data isn\'t available",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 0, INT_MIN, INT_MAX, 1, 0, NULL
+};
+
+PointerPropertyRNA rna_Scene_ray_cast_object = {
+	{(PropertyRNA *)&rna_Scene_ray_cast_matrix, (PropertyRNA *)&rna_Scene_ray_cast_index,
+	-1, "object", 8388736, 0, 2, 0, 0, "",
+	"Ray cast object",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL,&RNA_Object
+};
+
+static float rna_Scene_ray_cast_matrix_default[16] = {
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f
+};
+
+FloatPropertyRNA rna_Scene_ray_cast_matrix = {
+	{NULL, (PropertyRNA *)&rna_Scene_ray_cast_object,
+	-1, "matrix", 3, 0, 2, 0, 0, "",
+	"Matrix",
+	0, "*",
+	PROP_FLOAT, PROP_MATRIX | PROP_UNIT_NONE, NULL, 2, {4, 4, 0}, 16,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 0.0f, -FLT_MAX, FLT_MAX, 1.0f, 3, 0.0f, rna_Scene_ray_cast_matrix_default
+};
+
+FunctionRNA rna_Scene_ray_cast_func = {
+	{(FunctionRNA *)&rna_Scene_sequence_editor_create_func, (FunctionRNA *)&rna_Scene_uvedit_aspect_func,
+	NULL,
+	{(PropertyRNA *)&rna_Scene_ray_cast_depsgraph, (PropertyRNA *)&rna_Scene_ray_cast_matrix}},
+	"ray_cast", 0, "Cast a ray onto in object space",
+	Scene_ray_cast_call,
+	NULL
+};
+
+PointerPropertyRNA rna_Scene_sequence_editor_create_sequence_editor = {
+	{NULL, NULL,
+	-1, "sequence_editor", 8388608, 0, 2, 0, 0, "",
+	"New sequence editor data or NULL",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL,&RNA_SequenceEditor
+};
+
+FunctionRNA rna_Scene_sequence_editor_create_func = {
+	{(FunctionRNA *)&rna_Scene_sequence_editor_clear_func, (FunctionRNA *)&rna_Scene_ray_cast_func,
+	NULL,
+	{(PropertyRNA *)&rna_Scene_sequence_editor_create_sequence_editor, (PropertyRNA *)&rna_Scene_sequence_editor_create_sequence_editor}},
+	"sequence_editor_create", 0, "Ensure sequence editor is valid in this scene",
+	Scene_sequence_editor_create_call,
+	(PropertyRNA *)&rna_Scene_sequence_editor_create_sequence_editor
+};
+
+FunctionRNA rna_Scene_sequence_editor_clear_func = {
+	{(FunctionRNA *)&rna_Scene_alembic_export_func, (FunctionRNA *)&rna_Scene_sequence_editor_create_func,
+	NULL,
+	{NULL, NULL}},
+	"sequence_editor_clear", 0, "Clear sequence editor in this scene",
+	Scene_sequence_editor_clear_call,
+	NULL
+};
+
+StringPropertyRNA rna_Scene_alembic_export_filepath = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_frame_start, NULL,
+	-1, "filepath", 262145, 0, 1, 0, 0, "File Path",
+	"File path to write Alembic file",
+	0, "*",
+	PROP_STRING, PROP_FILEPATH | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 1024, ""
+};
+
+IntPropertyRNA rna_Scene_alembic_export_frame_start = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_frame_end, (PropertyRNA *)&rna_Scene_alembic_export_filepath,
+	-1, "frame_start", 3, 0, 0, 0, 0, "Start",
+	"Start Frame",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, INT_MIN, INT_MAX, INT_MIN, INT_MAX, 1, 1, NULL
+};
+
+IntPropertyRNA rna_Scene_alembic_export_frame_end = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_xform_samples, (PropertyRNA *)&rna_Scene_alembic_export_frame_start,
+	-1, "frame_end", 3, 0, 0, 0, 0, "End",
+	"End Frame",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, INT_MIN, INT_MAX, INT_MIN, INT_MAX, 1, 1, NULL
+};
+
+IntPropertyRNA rna_Scene_alembic_export_xform_samples = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_geom_samples, (PropertyRNA *)&rna_Scene_alembic_export_frame_end,
+	-1, "xform_samples", 3, 0, 0, 0, 0, "Xform samples",
+	"Transform samples per frame",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, 128, 1, 128, 1, 1, NULL
+};
+
+IntPropertyRNA rna_Scene_alembic_export_geom_samples = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_shutter_open, (PropertyRNA *)&rna_Scene_alembic_export_xform_samples,
+	-1, "geom_samples", 3, 0, 0, 0, 0, "Geom samples",
+	"Geometry samples per frame",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, 128, 1, 128, 1, 1, NULL
+};
+
+FloatPropertyRNA rna_Scene_alembic_export_shutter_open = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_shutter_close, (PropertyRNA *)&rna_Scene_alembic_export_geom_samples,
+	-1, "shutter_open", 3, 0, 0, 0, 0, "Shutter open",
+	"",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -1.0f, 1.0f, -1.0f, 1.0f, 1.0f, 3, 0.0f, NULL
+};
+
+FloatPropertyRNA rna_Scene_alembic_export_shutter_close = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_selected_only, (PropertyRNA *)&rna_Scene_alembic_export_shutter_open,
+	-1, "shutter_close", 3, 0, 0, 0, 0, "Shutter close",
+	"",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -1.0f, 1.0f, -1.0f, 1.0f, 1.0f, 3, 1.0f, NULL
+};
+
+BoolPropertyRNA rna_Scene_alembic_export_selected_only = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_uvs, (PropertyRNA *)&rna_Scene_alembic_export_shutter_close,
+	-1, "selected_only", 3, 0, 0, 0, 0, "Selected only",
+	"Export only selected objects",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_Scene_alembic_export_uvs = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_normals, (PropertyRNA *)&rna_Scene_alembic_export_selected_only,
+	-1, "uvs", 3, 0, 0, 0, 0, "UVs",
+	"Export UVs",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_Scene_alembic_export_normals = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_vcolors, (PropertyRNA *)&rna_Scene_alembic_export_uvs,
+	-1, "normals", 3, 0, 0, 0, 0, "Normals",
+	"Export normals",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_Scene_alembic_export_vcolors = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_apply_subdiv, (PropertyRNA *)&rna_Scene_alembic_export_normals,
+	-1, "vcolors", 3, 0, 0, 0, 0, "Color Attributes",
+	"Export color attributes",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_Scene_alembic_export_apply_subdiv = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_flatten, (PropertyRNA *)&rna_Scene_alembic_export_vcolors,
+	-1, "apply_subdiv", 3, 0, 0, 0, 0, "Subsurfs as meshes",
+	"Export subdivision surfaces as meshes",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_Scene_alembic_export_flatten = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_visible_objects_only, (PropertyRNA *)&rna_Scene_alembic_export_apply_subdiv,
+	-1, "flatten", 3, 0, 0, 0, 0, "Flatten hierarchy",
+	"Flatten hierarchy",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_Scene_alembic_export_visible_objects_only = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_face_sets, (PropertyRNA *)&rna_Scene_alembic_export_flatten,
+	-1, "visible_objects_only", 3, 0, 0, 0, 0, "Visible layers only",
+	"Export only objects in visible layers",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_Scene_alembic_export_face_sets = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_subdiv_schema, (PropertyRNA *)&rna_Scene_alembic_export_visible_objects_only,
+	-1, "face_sets", 3, 0, 0, 0, 0, "Facesets",
+	"Export face sets",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_Scene_alembic_export_subdiv_schema = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_export_hair, (PropertyRNA *)&rna_Scene_alembic_export_face_sets,
+	-1, "subdiv_schema", 3, 0, 0, 0, 0, "Use Alembic subdivision Schema",
+	"Use Alembic subdivision Schema",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_Scene_alembic_export_export_hair = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_export_particles, (PropertyRNA *)&rna_Scene_alembic_export_subdiv_schema,
+	-1, "export_hair", 3, 0, 0, 0, 0, "Export Hair",
+	"Exports hair particle systems as animated curves",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_Scene_alembic_export_export_particles = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_packuv, (PropertyRNA *)&rna_Scene_alembic_export_export_hair,
+	-1, "export_particles", 3, 0, 0, 0, 0, "Export Particles",
+	"Exports non-hair particle systems",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_Scene_alembic_export_packuv = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_scale, (PropertyRNA *)&rna_Scene_alembic_export_export_particles,
+	-1, "packuv", 3, 0, 0, 0, 0, "Export with packed UV islands",
+	"Export with packed UV islands",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+FloatPropertyRNA rna_Scene_alembic_export_scale = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_triangulate, (PropertyRNA *)&rna_Scene_alembic_export_packuv,
+	-1, "scale", 3, 0, 0, 0, 0, "Scale",
+	"Value by which to enlarge or shrink the objects with respect to the world\'s origin",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0001000000f, 1000.0f, 0.0001000000f, 1000.0f, 1.0f, 3, 1.0f, NULL
+};
+
+BoolPropertyRNA rna_Scene_alembic_export_triangulate = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_quad_method, (PropertyRNA *)&rna_Scene_alembic_export_scale,
+	-1, "triangulate", 3, 0, 0, 0, 0, "Triangulate",
+	"Export polygons (quads and n-gons) as triangles",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+EnumPropertyRNA rna_Scene_alembic_export_quad_method = {
+	{(PropertyRNA *)&rna_Scene_alembic_export_ngon_method, (PropertyRNA *)&rna_Scene_alembic_export_triangulate,
+	-1, "quad_method", 3, 0, 0, 0, 0, "Quad Method",
+	"Method for splitting the quads into triangles",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, rna_enum_modifier_triangulate_quad_method_items, 5, 0
+};
+
+EnumPropertyRNA rna_Scene_alembic_export_ngon_method = {
+	{NULL, (PropertyRNA *)&rna_Scene_alembic_export_quad_method,
+	-1, "ngon_method", 3, 0, 0, 0, 0, "N-gon Method",
+	"Method for splitting the n-gons into triangles",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, rna_enum_modifier_triangulate_ngon_method_items, 2, 0
+};
+
+FunctionRNA rna_Scene_alembic_export_func = {
+	{NULL, (FunctionRNA *)&rna_Scene_sequence_editor_clear_func,
+	NULL,
+	{(PropertyRNA *)&rna_Scene_alembic_export_filepath, (PropertyRNA *)&rna_Scene_alembic_export_ngon_method}},
+	"alembic_export", 8, "Export to Alembic file (deprecated, use the Alembic export operator)",
+	Scene_alembic_export_call,
+	NULL
+};
+
+StructRNA RNA_Scene = {
+	{(ContainerRNA *)&RNA_SceneObjects, (ContainerRNA *)&RNA_RigidBodyConstraint,
+	NULL,
+	{(PropertyRNA *)&rna_Scene_camera, (PropertyRNA *)&rna_Scene_grease_pencil_settings}},
+	"Scene", NULL, NULL, 517, NULL, "Scene",
+	"Scene data-block, consisting in objects and defining time and render related settings",
+	"*", 156,
+	(PropertyRNA *)&rna_ID_name, (PropertyRNA *)&rna_ID_rna_properties,
+	&RNA_ID,
+	NULL,
+	rna_ID_refine,
+	NULL,
+	NULL,
+	NULL,
+	rna_ID_instance,
+	rna_ID_idprops,
+	{(FunctionRNA *)&rna_Scene_update_render_engine_func, (FunctionRNA *)&rna_Scene_alembic_export_func}
+};
+
+/* Scene Objects */
+CollectionPropertyRNA rna_SceneObjects_rna_properties = {
+	{(PropertyRNA *)&rna_SceneObjects_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneObjects_rna_properties_begin, SceneObjects_rna_properties_next, SceneObjects_rna_properties_end, SceneObjects_rna_properties_get, NULL, NULL, SceneObjects_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_SceneObjects_rna_type = {
+	{NULL, (PropertyRNA *)&rna_SceneObjects_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneObjects_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+StructRNA RNA_SceneObjects = {
+	{(ContainerRNA *)&RNA_KeyingSets, (ContainerRNA *)&RNA_Scene,
+	NULL,
+	{(PropertyRNA *)&rna_SceneObjects_rna_properties, (PropertyRNA *)&rna_SceneObjects_rna_type}},
+	"SceneObjects", NULL, NULL, 516, NULL, "Scene Objects",
+	"All of the scene objects",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_SceneObjects_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Keying Sets */
+CollectionPropertyRNA rna_KeyingSets_rna_properties = {
+	{(PropertyRNA *)&rna_KeyingSets_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	KeyingSets_rna_properties_begin, KeyingSets_rna_properties_next, KeyingSets_rna_properties_end, KeyingSets_rna_properties_get, NULL, NULL, KeyingSets_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_KeyingSets_rna_type = {
+	{(PropertyRNA *)&rna_KeyingSets_active, (PropertyRNA *)&rna_KeyingSets_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	KeyingSets_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+PointerPropertyRNA rna_KeyingSets_active = {
+	{(PropertyRNA *)&rna_KeyingSets_active_index, (PropertyRNA *)&rna_KeyingSets_rna_type,
+	-1, "active", 8388609, 0, 0, 0, 0, "Active Keying Set",
+	"Active Keying Set used to insert/delete keyframes",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84803584, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	KeyingSets_active_get, KeyingSets_active_set, NULL, NULL,&RNA_KeyingSet
+};
+
+IntPropertyRNA rna_KeyingSets_active_index = {
+	{NULL, (PropertyRNA *)&rna_KeyingSets_active,
+	-1, "active_index", 3, 0, 0, 0, 0, "Active Keying Set Index",
+	"Current Keying Set index (negative for \'builtin\' and positive for \'absolute\')",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84803584, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	KeyingSets_active_index_get, KeyingSets_active_index_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, -10000, 10000, INT_MIN, INT_MAX, 1, 0, NULL
+};
+
+StringPropertyRNA rna_KeyingSets_new_idname = {
+	{(PropertyRNA *)&rna_KeyingSets_new_name, NULL,
+	-1, "idname", 262145, 0, 0, 0, 0, "IDName",
+	"Internal identifier of Keying Set",
+	0, "*",
+	PROP_STRING, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 64, "KeyingSet"
+};
+
+StringPropertyRNA rna_KeyingSets_new_name = {
+	{(PropertyRNA *)&rna_KeyingSets_new_keyingset, (PropertyRNA *)&rna_KeyingSets_new_idname,
+	-1, "name", 262145, 0, 0, 0, 0, "Name",
+	"User visible name of Keying Set",
+	0, "*",
+	PROP_STRING, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 64, "KeyingSet"
+};
+
+PointerPropertyRNA rna_KeyingSets_new_keyingset = {
+	{NULL, (PropertyRNA *)&rna_KeyingSets_new_name,
+	-1, "keyingset", 8388608, 0, 2, 0, 0, "",
+	"Newly created Keying Set",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL,&RNA_KeyingSet
+};
+
+FunctionRNA rna_KeyingSets_new_func = {
+	{NULL, NULL,
+	NULL,
+	{(PropertyRNA *)&rna_KeyingSets_new_idname, (PropertyRNA *)&rna_KeyingSets_new_keyingset}},
+	"new", 16, "Add a new Keying Set to Scene",
+	KeyingSets_new_call,
+	(PropertyRNA *)&rna_KeyingSets_new_keyingset
+};
+
+StructRNA RNA_KeyingSets = {
+	{(ContainerRNA *)&RNA_KeyingSetsAll, (ContainerRNA *)&RNA_SceneObjects,
+	NULL,
+	{(PropertyRNA *)&rna_KeyingSets_rna_properties, (PropertyRNA *)&rna_KeyingSets_active_index}},
+	"KeyingSets", NULL, NULL, 516, NULL, "Keying Sets",
+	"Scene keying sets",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_KeyingSets_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{(FunctionRNA *)&rna_KeyingSets_new_func, (FunctionRNA *)&rna_KeyingSets_new_func}
+};
+
+/* Keying Sets All */
+CollectionPropertyRNA rna_KeyingSetsAll_rna_properties = {
+	{(PropertyRNA *)&rna_KeyingSetsAll_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	KeyingSetsAll_rna_properties_begin, KeyingSetsAll_rna_properties_next, KeyingSetsAll_rna_properties_end, KeyingSetsAll_rna_properties_get, NULL, NULL, KeyingSetsAll_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_KeyingSetsAll_rna_type = {
+	{(PropertyRNA *)&rna_KeyingSetsAll_active, (PropertyRNA *)&rna_KeyingSetsAll_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	KeyingSetsAll_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+PointerPropertyRNA rna_KeyingSetsAll_active = {
+	{(PropertyRNA *)&rna_KeyingSetsAll_active_index, (PropertyRNA *)&rna_KeyingSetsAll_rna_type,
+	-1, "active", 8388609, 0, 0, 0, 0, "Active Keying Set",
+	"Active Keying Set used to insert/delete keyframes",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84803584, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	KeyingSetsAll_active_get, KeyingSetsAll_active_set, NULL, NULL,&RNA_KeyingSet
+};
+
+IntPropertyRNA rna_KeyingSetsAll_active_index = {
+	{NULL, (PropertyRNA *)&rna_KeyingSetsAll_active,
+	-1, "active_index", 3, 0, 0, 0, 0, "Active Keying Set Index",
+	"Current Keying Set index (negative for \'builtin\' and positive for \'absolute\')",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84803584, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	KeyingSetsAll_active_index_get, KeyingSetsAll_active_index_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, -10000, 10000, INT_MIN, INT_MAX, 1, 0, NULL
+};
+
+StructRNA RNA_KeyingSetsAll = {
+	{(ContainerRNA *)&RNA_TimelineMarkers, (ContainerRNA *)&RNA_KeyingSets,
+	NULL,
+	{(PropertyRNA *)&rna_KeyingSetsAll_rna_properties, (PropertyRNA *)&rna_KeyingSetsAll_active_index}},
+	"KeyingSetsAll", NULL, NULL, 516, NULL, "Keying Sets All",
+	"All available keying sets",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_KeyingSetsAll_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Timeline Markers */
+CollectionPropertyRNA rna_TimelineMarkers_rna_properties = {
+	{(PropertyRNA *)&rna_TimelineMarkers_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	TimelineMarkers_rna_properties_begin, TimelineMarkers_rna_properties_next, TimelineMarkers_rna_properties_end, TimelineMarkers_rna_properties_get, NULL, NULL, TimelineMarkers_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_TimelineMarkers_rna_type = {
+	{NULL, (PropertyRNA *)&rna_TimelineMarkers_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	TimelineMarkers_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+StringPropertyRNA rna_TimelineMarkers_new_name = {
+	{(PropertyRNA *)&rna_TimelineMarkers_new_frame, NULL,
+	-1, "name", 262145, 0, 1, 0, 0, "",
+	"New name for the marker (not unique)",
+	0, "*",
+	PROP_STRING, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, "Marker"
+};
+
+IntPropertyRNA rna_TimelineMarkers_new_frame = {
+	{(PropertyRNA *)&rna_TimelineMarkers_new_marker, (PropertyRNA *)&rna_TimelineMarkers_new_name,
+	-1, "frame", 3, 0, 0, 0, 0, "",
+	"The frame for the new marker",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, -1048574, 1048574, -1048574, 1048574, 1, 1, NULL
+};
+
+PointerPropertyRNA rna_TimelineMarkers_new_marker = {
+	{NULL, (PropertyRNA *)&rna_TimelineMarkers_new_frame,
+	-1, "marker", 8388608, 0, 2, 0, 0, "",
+	"Newly created timeline marker",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL,&RNA_TimelineMarker
+};
+
+FunctionRNA rna_TimelineMarkers_new_func = {
+	{(FunctionRNA *)&rna_TimelineMarkers_remove_func, NULL,
+	NULL,
+	{(PropertyRNA *)&rna_TimelineMarkers_new_name, (PropertyRNA *)&rna_TimelineMarkers_new_marker}},
+	"new", 0, "Add a keyframe to the curve",
+	TimelineMarkers_new_call,
+	(PropertyRNA *)&rna_TimelineMarkers_new_marker
+};
+
+PointerPropertyRNA rna_TimelineMarkers_remove_marker = {
+	{NULL, NULL,
+	-1, "marker", 262144, 0, 5, 0, 0, "",
+	"Timeline marker to remove",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL,&RNA_TimelineMarker
+};
+
+FunctionRNA rna_TimelineMarkers_remove_func = {
+	{(FunctionRNA *)&rna_TimelineMarkers_clear_func, (FunctionRNA *)&rna_TimelineMarkers_new_func,
+	NULL,
+	{(PropertyRNA *)&rna_TimelineMarkers_remove_marker, (PropertyRNA *)&rna_TimelineMarkers_remove_marker}},
+	"remove", 16, "Remove a timeline marker",
+	TimelineMarkers_remove_call,
+	NULL
+};
+
+FunctionRNA rna_TimelineMarkers_clear_func = {
+	{NULL, (FunctionRNA *)&rna_TimelineMarkers_remove_func,
+	NULL,
+	{NULL, NULL}},
+	"clear", 0, "Remove all timeline markers",
+	TimelineMarkers_clear_call,
+	NULL
+};
+
+StructRNA RNA_TimelineMarkers = {
+	{(ContainerRNA *)&RNA_ViewLayers, (ContainerRNA *)&RNA_KeyingSetsAll,
+	NULL,
+	{(PropertyRNA *)&rna_TimelineMarkers_rna_properties, (PropertyRNA *)&rna_TimelineMarkers_rna_type}},
+	"TimelineMarkers", NULL, NULL, 516, NULL, "Timeline Markers",
+	"Collection of timeline markers",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_TimelineMarkers_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{(FunctionRNA *)&rna_TimelineMarkers_new_func, (FunctionRNA *)&rna_TimelineMarkers_clear_func}
+};
+
+/* Render Layers */
+CollectionPropertyRNA rna_ViewLayers_rna_properties = {
+	{(PropertyRNA *)&rna_ViewLayers_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ViewLayers_rna_properties_begin, ViewLayers_rna_properties_next, ViewLayers_rna_properties_end, ViewLayers_rna_properties_get, NULL, NULL, ViewLayers_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_ViewLayers_rna_type = {
+	{NULL, (PropertyRNA *)&rna_ViewLayers_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ViewLayers_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+StringPropertyRNA rna_ViewLayers_new_name = {
+	{(PropertyRNA *)&rna_ViewLayers_new_result, NULL,
+	-1, "name", 262145, 0, 1, 0, 0, "",
+	"New name for the view layer (not unique)",
+	0, "*",
+	PROP_STRING, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, "ViewLayer"
+};
+
+PointerPropertyRNA rna_ViewLayers_new_result = {
+	{NULL, (PropertyRNA *)&rna_ViewLayers_new_name,
+	-1, "result", 8388608, 0, 2, 0, 0, "",
+	"Newly created view layer",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL,&RNA_ViewLayer
+};
+
+FunctionRNA rna_ViewLayers_new_func = {
+	{(FunctionRNA *)&rna_ViewLayers_remove_func, NULL,
+	NULL,
+	{(PropertyRNA *)&rna_ViewLayers_new_name, (PropertyRNA *)&rna_ViewLayers_new_result}},
+	"new", 2052, "Add a view layer to scene",
+	ViewLayers_new_call,
+	(PropertyRNA *)&rna_ViewLayers_new_result
+};
+
+PointerPropertyRNA rna_ViewLayers_remove_layer = {
+	{NULL, NULL,
+	-1, "layer", 262144, 0, 5, 0, 0, "",
+	"View layer to remove",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL,&RNA_ViewLayer
+};
+
+FunctionRNA rna_ViewLayers_remove_func = {
+	{NULL, (FunctionRNA *)&rna_ViewLayers_new_func,
+	NULL,
+	{(PropertyRNA *)&rna_ViewLayers_remove_layer, (PropertyRNA *)&rna_ViewLayers_remove_layer}},
+	"remove", 2068, "Remove a view layer",
+	ViewLayers_remove_call,
+	NULL
+};
+
+StructRNA RNA_ViewLayers = {
+	{(ContainerRNA *)&RNA_ToolSettings, (ContainerRNA *)&RNA_TimelineMarkers,
+	NULL,
+	{(PropertyRNA *)&rna_ViewLayers_rna_properties, (PropertyRNA *)&rna_ViewLayers_rna_type}},
+	"ViewLayers", NULL, NULL, 516, NULL, "Render Layers",
+	"Collection of render layers",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_ViewLayers_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{(FunctionRNA *)&rna_ViewLayers_new_func, (FunctionRNA *)&rna_ViewLayers_remove_func}
+};
+
+/* Tool Settings */
+CollectionPropertyRNA rna_ToolSettings_rna_properties = {
+	{(PropertyRNA *)&rna_ToolSettings_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_rna_properties_begin, ToolSettings_rna_properties_next, ToolSettings_rna_properties_end, ToolSettings_rna_properties_get, NULL, NULL, ToolSettings_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_ToolSettings_rna_type = {
+	{(PropertyRNA *)&rna_ToolSettings_sculpt, (PropertyRNA *)&rna_ToolSettings_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+PointerPropertyRNA rna_ToolSettings_sculpt = {
+	{(PropertyRNA *)&rna_ToolSettings_curves_sculpt, (PropertyRNA *)&rna_ToolSettings_rna_type,
+	-1, "sculpt", 8388608, 0, 0, 0, 0, "Sculpt",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_sculpt_get, NULL, NULL, NULL,&RNA_Sculpt
+};
+
+PointerPropertyRNA rna_ToolSettings_curves_sculpt = {
+	{(PropertyRNA *)&rna_ToolSettings_use_auto_normalize, (PropertyRNA *)&rna_ToolSettings_sculpt,
+	-1, "curves_sculpt", 8388608, 0, 0, 0, 0, "Curves Sculpt",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_curves_sculpt_get, NULL, NULL, NULL,&RNA_CurvesSculpt
+};
+
+BoolPropertyRNA rna_ToolSettings_use_auto_normalize = {
+	{(PropertyRNA *)&rna_ToolSettings_use_lock_relative, (PropertyRNA *)&rna_ToolSettings_curves_sculpt,
+	-1, "use_auto_normalize", 4194305, 0, 0, 0, 0, "Weight Paint Auto-Normalize",
+	"Ensure all bone-deforming vertex groups add up to 1.0 while weight painting",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_Scene_update_active_object_data, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_auto_normalize_get, ToolSettings_use_auto_normalize_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_lock_relative = {
+	{(PropertyRNA *)&rna_ToolSettings_use_multipaint, (PropertyRNA *)&rna_ToolSettings_use_auto_normalize,
+	-1, "use_lock_relative", 4194305, 0, 0, 0, 0, "Weight Paint Lock-Relative",
+	"Display bone-deforming groups as if all locked deform groups were deleted, and the remaining ones were re-normalized",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_Scene_update_active_object_data, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_lock_relative_get, ToolSettings_use_lock_relative_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_multipaint = {
+	{(PropertyRNA *)&rna_ToolSettings_vertex_group_user, (PropertyRNA *)&rna_ToolSettings_use_lock_relative,
+	-1, "use_multipaint", 4194305, 0, 0, 0, 0, "Weight Paint Multi-Paint",
+	"Paint across the weights of all selected bones, maintaining their relative influence",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_Scene_update_active_object_data, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_multipaint_get, ToolSettings_use_multipaint_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+static const EnumPropertyItem rna_ToolSettings_vertex_group_user_items[4] = {
+	{0, "NONE", 0, "None", ""},
+	{1, "ACTIVE", 0, "Active", "Show vertices with no weights in the active group"},
+	{2, "ALL", 0, "All", "Show vertices with no weights in any group"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_ToolSettings_vertex_group_user = {
+	{(PropertyRNA *)&rna_ToolSettings_vertex_group_subset, (PropertyRNA *)&rna_ToolSettings_use_multipaint,
+	-1, "vertex_group_user", 4194305, 0, 0, 4, 0, "Mask Non-Group Vertices",
+	"Display unweighted vertices",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_Scene_update_active_object_data, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, weightuser), 2, NULL},
+	ToolSettings_vertex_group_user_get, ToolSettings_vertex_group_user_set, NULL, NULL, NULL, rna_ToolSettings_vertex_group_user_items, 3, 0
+};
+
+static const EnumPropertyItem rna_ToolSettings_vertex_group_subset_items[4] = {
+	{0, "ALL", 0, "All", "All Vertex Groups"},
+	{3, "BONE_DEFORM", 0, "Deform", "Vertex Groups assigned to Deform Bones"},
+	{4, "OTHER_DEFORM", 0, "Other", "Vertex Groups assigned to non Deform Bones"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_ToolSettings_vertex_group_subset = {
+	{(PropertyRNA *)&rna_ToolSettings_vertex_paint, (PropertyRNA *)&rna_ToolSettings_vertex_group_user,
+	-1, "vertex_group_subset", 4194305, 0, 0, 4, 0, "Subset",
+	"Filter Vertex groups for Display",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_Scene_update_active_object_data, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, vgroupsubset), 2, NULL},
+	ToolSettings_vertex_group_subset_get, ToolSettings_vertex_group_subset_set, NULL, NULL, NULL, rna_ToolSettings_vertex_group_subset_items, 3, 0
+};
+
+PointerPropertyRNA rna_ToolSettings_vertex_paint = {
+	{(PropertyRNA *)&rna_ToolSettings_weight_paint, (PropertyRNA *)&rna_ToolSettings_vertex_group_subset,
+	-1, "vertex_paint", 8388608, 0, 0, 0, 0, "Vertex Paint",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_vertex_paint_get, NULL, NULL, NULL,&RNA_VertexPaint
+};
+
+PointerPropertyRNA rna_ToolSettings_weight_paint = {
+	{(PropertyRNA *)&rna_ToolSettings_image_paint, (PropertyRNA *)&rna_ToolSettings_vertex_paint,
+	-1, "weight_paint", 8388608, 0, 0, 0, 0, "Weight Paint",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_weight_paint_get, NULL, NULL, NULL,&RNA_VertexPaint
+};
+
+PointerPropertyRNA rna_ToolSettings_image_paint = {
+	{(PropertyRNA *)&rna_ToolSettings_paint_mode, (PropertyRNA *)&rna_ToolSettings_weight_paint,
+	-1, "image_paint", 8388608, 0, 0, 0, 0, "Image Paint",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_image_paint_get, NULL, NULL, NULL,&RNA_ImagePaint
+};
+
+PointerPropertyRNA rna_ToolSettings_paint_mode = {
+	{(PropertyRNA *)&rna_ToolSettings_uv_sculpt, (PropertyRNA *)&rna_ToolSettings_image_paint,
+	-1, "paint_mode", 8388608, 0, 0, 0, 0, "Paint Mode",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_paint_mode_get, NULL, NULL, NULL,&RNA_PaintModeSettings
+};
+
+PointerPropertyRNA rna_ToolSettings_uv_sculpt = {
+	{(PropertyRNA *)&rna_ToolSettings_gpencil_paint, (PropertyRNA *)&rna_ToolSettings_paint_mode,
+	-1, "uv_sculpt", 8388608, 0, 0, 0, 0, "UV Sculpt",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_uv_sculpt_get, NULL, NULL, NULL,&RNA_UvSculpt
+};
+
+PointerPropertyRNA rna_ToolSettings_gpencil_paint = {
+	{(PropertyRNA *)&rna_ToolSettings_gpencil_vertex_paint, (PropertyRNA *)&rna_ToolSettings_uv_sculpt,
+	-1, "gpencil_paint", 8388608, 0, 0, 0, 0, "Grease Pencil Paint",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_gpencil_paint_get, NULL, NULL, NULL,&RNA_GpPaint
+};
+
+PointerPropertyRNA rna_ToolSettings_gpencil_vertex_paint = {
+	{(PropertyRNA *)&rna_ToolSettings_gpencil_sculpt_paint, (PropertyRNA *)&rna_ToolSettings_gpencil_paint,
+	-1, "gpencil_vertex_paint", 8388608, 0, 0, 0, 0, "Grease Pencil Vertex Paint",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_gpencil_vertex_paint_get, NULL, NULL, NULL,&RNA_GpVertexPaint
+};
+
+PointerPropertyRNA rna_ToolSettings_gpencil_sculpt_paint = {
+	{(PropertyRNA *)&rna_ToolSettings_gpencil_weight_paint, (PropertyRNA *)&rna_ToolSettings_gpencil_vertex_paint,
+	-1, "gpencil_sculpt_paint", 8388608, 0, 0, 0, 0, "Grease Pencil Sculpt Paint",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_gpencil_sculpt_paint_get, NULL, NULL, NULL,&RNA_GpSculptPaint
+};
+
+PointerPropertyRNA rna_ToolSettings_gpencil_weight_paint = {
+	{(PropertyRNA *)&rna_ToolSettings_particle_edit, (PropertyRNA *)&rna_ToolSettings_gpencil_sculpt_paint,
+	-1, "gpencil_weight_paint", 8388608, 0, 0, 0, 0, "Grease Pencil Weight Paint",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_gpencil_weight_paint_get, NULL, NULL, NULL,&RNA_GpWeightPaint
+};
+
+PointerPropertyRNA rna_ToolSettings_particle_edit = {
+	{(PropertyRNA *)&rna_ToolSettings_uv_sculpt_lock_borders, (PropertyRNA *)&rna_ToolSettings_gpencil_weight_paint,
+	-1, "particle_edit", 8388608, 0, 0, 0, 0, "Particle Edit",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_particle_edit_get, NULL, NULL, NULL,&RNA_ParticleEdit
+};
+
+BoolPropertyRNA rna_ToolSettings_uv_sculpt_lock_borders = {
+	{(PropertyRNA *)&rna_ToolSettings_uv_sculpt_all_islands, (PropertyRNA *)&rna_ToolSettings_particle_edit,
+	-1, "uv_sculpt_lock_borders", 1, 0, 0, 0, 0, "Lock Borders",
+	"Disable editing of boundary edges",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_uv_sculpt_lock_borders_get, ToolSettings_uv_sculpt_lock_borders_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_uv_sculpt_all_islands = {
+	{(PropertyRNA *)&rna_ToolSettings_uv_relax_method, (PropertyRNA *)&rna_ToolSettings_uv_sculpt_lock_borders,
+	-1, "uv_sculpt_all_islands", 1, 0, 0, 0, 0, "Sculpt All Islands",
+	"Brush operates on all islands",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_uv_sculpt_all_islands_get, ToolSettings_uv_sculpt_all_islands_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+static const EnumPropertyItem rna_ToolSettings_uv_relax_method_items[3] = {
+	{1, "LAPLACIAN", 0, "Laplacian", "Use Laplacian method for relaxation"},
+	{2, "HC", 0, "HC", "Use HC method for relaxation"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_ToolSettings_uv_relax_method = {
+	{(PropertyRNA *)&rna_ToolSettings_lock_object_mode, (PropertyRNA *)&rna_ToolSettings_uv_sculpt_all_islands,
+	-1, "uv_relax_method", 1, 0, 0, 4, 0, "Relaxation Method",
+	"Algorithm used for UV relaxation",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, uv_relax_method), 2, NULL},
+	ToolSettings_uv_relax_method_get, ToolSettings_uv_relax_method_set, NULL, NULL, NULL, rna_ToolSettings_uv_relax_method_items, 2, 1
+};
+
+BoolPropertyRNA rna_ToolSettings_lock_object_mode = {
+	{(PropertyRNA *)&rna_ToolSettings_workspace_tool_type, (PropertyRNA *)&rna_ToolSettings_uv_relax_method,
+	-1, "lock_object_mode", 1, 0, 0, 0, 0, "Lock Object Modes",
+	"Restrict selection to objects using the same mode as the active object, to prevent accidental mode switch when selecting",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_lock_object_mode_get, ToolSettings_lock_object_mode_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+static const EnumPropertyItem rna_ToolSettings_workspace_tool_type_items[3] = {
+	{1, "DEFAULT", 0, "Active Tool", ""},
+	{0, "FALLBACK", 0, "Select", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_ToolSettings_workspace_tool_type = {
+	{(PropertyRNA *)&rna_ToolSettings_use_proportional_edit, (PropertyRNA *)&rna_ToolSettings_lock_object_mode,
+	-1, "workspace_tool_type", 1, 0, 0, 4, 0, "Drag",
+	"Action when dragging in the viewport",
+	0, "View3D",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, workspace_tool_type), 2, NULL},
+	ToolSettings_workspace_tool_type_get, ToolSettings_workspace_tool_type_set, NULL, NULL, NULL, rna_ToolSettings_workspace_tool_type_items, 2, 0
+};
+
+BoolPropertyRNA rna_ToolSettings_use_proportional_edit = {
+	{(PropertyRNA *)&rna_ToolSettings_use_proportional_edit_objects, (PropertyRNA *)&rna_ToolSettings_workspace_tool_type,
+	-1, "use_proportional_edit", 1, 0, 0, 0, 0, "Proportional Editing",
+	"Proportional edit mode",
+	566, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_proportional_edit_get, ToolSettings_use_proportional_edit_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_proportional_edit_objects = {
+	{(PropertyRNA *)&rna_ToolSettings_use_proportional_projected, (PropertyRNA *)&rna_ToolSettings_use_proportional_edit,
+	-1, "use_proportional_edit_objects", 4097, 0, 0, 4, 0, "Proportional Editing Objects",
+	"Proportional editing object mode",
+	565, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, proportional_objects), 2, NULL},
+	ToolSettings_use_proportional_edit_objects_get, ToolSettings_use_proportional_edit_objects_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_proportional_projected = {
+	{(PropertyRNA *)&rna_ToolSettings_use_proportional_connected, (PropertyRNA *)&rna_ToolSettings_use_proportional_edit_objects,
+	-1, "use_proportional_projected", 1, 0, 0, 0, 0, "Projected from View",
+	"Proportional Editing using screen space locations",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_proportional_projected_get, ToolSettings_use_proportional_projected_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_proportional_connected = {
+	{(PropertyRNA *)&rna_ToolSettings_use_proportional_edit_mask, (PropertyRNA *)&rna_ToolSettings_use_proportional_projected,
+	-1, "use_proportional_connected", 1, 0, 0, 0, 0, "Connected Only",
+	"Proportional Editing using connected geometry only",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_proportional_connected_get, ToolSettings_use_proportional_connected_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_proportional_edit_mask = {
+	{(PropertyRNA *)&rna_ToolSettings_use_proportional_action, (PropertyRNA *)&rna_ToolSettings_use_proportional_connected,
+	-1, "use_proportional_edit_mask", 4097, 0, 0, 4, 0, "Proportional Editing Objects",
+	"Proportional editing mask mode",
+	565, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, proportional_mask), 2, NULL},
+	ToolSettings_use_proportional_edit_mask_get, ToolSettings_use_proportional_edit_mask_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_proportional_action = {
+	{(PropertyRNA *)&rna_ToolSettings_use_proportional_fcurve, (PropertyRNA *)&rna_ToolSettings_use_proportional_edit_mask,
+	-1, "use_proportional_action", 4097, 0, 0, 4, 0, "Proportional Editing Actions",
+	"Proportional editing in action editor",
+	565, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, proportional_action), 2, NULL},
+	ToolSettings_use_proportional_action_get, ToolSettings_use_proportional_action_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_proportional_fcurve = {
+	{(PropertyRNA *)&rna_ToolSettings_lock_markers, (PropertyRNA *)&rna_ToolSettings_use_proportional_action,
+	-1, "use_proportional_fcurve", 4097, 0, 0, 4, 0, "Proportional Editing FCurves",
+	"Proportional editing in FCurve editor",
+	565, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, proportional_fcurve), 2, NULL},
+	ToolSettings_use_proportional_fcurve_get, ToolSettings_use_proportional_fcurve_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_lock_markers = {
+	{(PropertyRNA *)&rna_ToolSettings_proportional_edit_falloff, (PropertyRNA *)&rna_ToolSettings_use_proportional_fcurve,
+	-1, "lock_markers", 1, 0, 0, 4, 0, "Lock Markers",
+	"Prevent marker editing",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, lock_markers), 2, NULL},
+	ToolSettings_lock_markers_get, ToolSettings_lock_markers_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+EnumPropertyRNA rna_ToolSettings_proportional_edit_falloff = {
+	{(PropertyRNA *)&rna_ToolSettings_proportional_size, (PropertyRNA *)&rna_ToolSettings_lock_markers,
+	-1, "proportional_edit_falloff", 1, 0, 0, 4, 0, "Proportional Editing Falloff",
+	"Falloff type for proportional editing mode",
+	0, "Curve",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, prop_mode), 2, NULL},
+	ToolSettings_proportional_edit_falloff_get, ToolSettings_proportional_edit_falloff_set, NULL, NULL, NULL, rna_enum_proportional_falloff_items, 8, 0
+};
+
+FloatPropertyRNA rna_ToolSettings_proportional_size = {
+	{(PropertyRNA *)&rna_ToolSettings_double_threshold, (PropertyRNA *)&rna_ToolSettings_proportional_edit_falloff,
+	-1, "proportional_size", 1, 0, 0, 4, 0, "Proportional Size",
+	"Display size for proportional editing circle",
+	0, "*",
+	PROP_FLOAT, PROP_DISTANCE | PROP_UNIT_LENGTH, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, proportional_size), 5, NULL},
+	ToolSettings_proportional_size_get, ToolSettings_proportional_size_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0000100000f, 5000.0f, 0.0000100000f, 5000.0f, 10.0f, 3, 1.0f, NULL
+};
+
+FloatPropertyRNA rna_ToolSettings_double_threshold = {
+	{(PropertyRNA *)&rna_ToolSettings_transform_pivot_point, (PropertyRNA *)&rna_ToolSettings_proportional_size,
+	-1, "double_threshold", 1, 0, 0, 4, 0, "Merge Threshold",
+	"Threshold distance for Auto Merge",
+	0, "*",
+	PROP_FLOAT, PROP_DISTANCE | PROP_UNIT_LENGTH, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, doublimit), 5, NULL},
+	ToolSettings_double_threshold_get, ToolSettings_double_threshold_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 0.1000000015f, 0.0f, 1.0f, 0.0099999998f, 6, 0.0010000000f, NULL
+};
+
+static const EnumPropertyItem rna_ToolSettings_transform_pivot_point_items[6] = {
+	{0, "BOUNDING_BOX_CENTER", 551, "Bounding Box Center", "Pivot around bounding box center of selected object(s)"},
+	{1, "CURSOR", 552, "3D Cursor", "Pivot around the 3D cursor"},
+	{2, "INDIVIDUAL_ORIGINS", 553, "Individual Origins", "Pivot around each object\'s own origin"},
+	{3, "MEDIAN_POINT", 554, "Median Point", "Pivot around the median point of selected objects"},
+	{4, "ACTIVE_ELEMENT", 555, "Active Element", "Pivot around active object"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_ToolSettings_transform_pivot_point = {
+	{(PropertyRNA *)&rna_ToolSettings_use_transform_pivot_point_align, (PropertyRNA *)&rna_ToolSettings_double_threshold,
+	-1, "transform_pivot_point", 1, 0, 0, 4, 0, "Transform Pivot Point",
+	"Pivot center for rotation/scaling",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, transform_pivot_point), 2, NULL},
+	ToolSettings_transform_pivot_point_get, ToolSettings_transform_pivot_point_set, NULL, NULL, NULL, rna_ToolSettings_transform_pivot_point_items, 5, 3
+};
+
+BoolPropertyRNA rna_ToolSettings_use_transform_pivot_point_align = {
+	{(PropertyRNA *)&rna_ToolSettings_use_transform_data_origin, (PropertyRNA *)&rna_ToolSettings_transform_pivot_point,
+	-1, "use_transform_pivot_point_align", 1, 0, 0, 0, 0, "Only Locations",
+	"Only transform object locations, without affecting rotation or scaling",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 85065728, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_transform_pivot_point_align_get, ToolSettings_use_transform_pivot_point_align_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_transform_data_origin = {
+	{(PropertyRNA *)&rna_ToolSettings_use_transform_skip_children, (PropertyRNA *)&rna_ToolSettings_use_transform_pivot_point_align,
+	-1, "use_transform_data_origin", 1, 0, 0, 0, 0, "Transform Origins",
+	"Transform object origins, while leaving the shape in place",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 85065728, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_transform_data_origin_get, ToolSettings_use_transform_data_origin_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_transform_skip_children = {
+	{(PropertyRNA *)&rna_ToolSettings_use_transform_correct_face_attributes, (PropertyRNA *)&rna_ToolSettings_use_transform_data_origin,
+	-1, "use_transform_skip_children", 1, 0, 0, 0, 0, "Transform Parents",
+	"Transform the parents, leaving the children in place",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 85065728, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_transform_skip_children_get, ToolSettings_use_transform_skip_children_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_transform_correct_face_attributes = {
+	{(PropertyRNA *)&rna_ToolSettings_use_transform_correct_keep_connected, (PropertyRNA *)&rna_ToolSettings_use_transform_skip_children,
+	-1, "use_transform_correct_face_attributes", 1, 0, 0, 0, 0, "Correct Face Attributes",
+	"Correct data such as UV\'s and color attributes when transforming",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_transform_correct_face_attributes_get, ToolSettings_use_transform_correct_face_attributes_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_transform_correct_keep_connected = {
+	{(PropertyRNA *)&rna_ToolSettings_use_mesh_automerge, (PropertyRNA *)&rna_ToolSettings_use_transform_correct_face_attributes,
+	-1, "use_transform_correct_keep_connected", 1, 0, 0, 0, 0, "Keep Connected",
+	"During the Face Attributes correction, merge attributes connected to the same vertex",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_transform_correct_keep_connected_get, ToolSettings_use_transform_correct_keep_connected_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_mesh_automerge = {
+	{(PropertyRNA *)&rna_ToolSettings_use_mesh_automerge_and_split, (PropertyRNA *)&rna_ToolSettings_use_transform_correct_keep_connected,
+	-1, "use_mesh_automerge", 4097, 0, 0, 0, 0, "Auto Merge Vertices",
+	"Automatically merge vertices moved to the same location",
+	607, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_mesh_automerge_get, ToolSettings_use_mesh_automerge_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_mesh_automerge_and_split = {
+	{(PropertyRNA *)&rna_ToolSettings_use_snap, (PropertyRNA *)&rna_ToolSettings_use_mesh_automerge,
+	-1, "use_mesh_automerge_and_split", 4097, 0, 0, 0, 0, "Split Edges & Faces",
+	"Automatically split edges and faces",
+	607, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_mesh_automerge_and_split_get, ToolSettings_use_mesh_automerge_and_split_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_snap = {
+	{(PropertyRNA *)&rna_ToolSettings_use_snap_node, (PropertyRNA *)&rna_ToolSettings_use_mesh_automerge_and_split,
+	-1, "use_snap", 4097, 0, 0, 0, 0, "Snap",
+	"Snap during transform",
+	576, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_snap_get, ToolSettings_use_snap_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_snap_node = {
+	{(PropertyRNA *)&rna_ToolSettings_use_snap_sequencer, (PropertyRNA *)&rna_ToolSettings_use_snap,
+	-1, "use_snap_node", 4097, 0, 0, 0, 0, "Snap",
+	"Snap Node during transform",
+	576, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_snap_node_get, ToolSettings_use_snap_node_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_snap_sequencer = {
+	{(PropertyRNA *)&rna_ToolSettings_use_snap_uv, (PropertyRNA *)&rna_ToolSettings_use_snap_node,
+	-1, "use_snap_sequencer", 4097, 0, 0, 0, 0, "Use Snapping",
+	"Snap to strip edges or current frame",
+	576, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_snap_sequencer_get, ToolSettings_use_snap_sequencer_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_snap_uv = {
+	{(PropertyRNA *)&rna_ToolSettings_use_snap_align_rotation, (PropertyRNA *)&rna_ToolSettings_use_snap_sequencer,
+	-1, "use_snap_uv", 4097, 0, 0, 0, 0, "Snap",
+	"Snap UV during transform",
+	576, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_snap_uv_get, ToolSettings_use_snap_uv_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_snap_align_rotation = {
+	{(PropertyRNA *)&rna_ToolSettings_use_snap_grid_absolute, (PropertyRNA *)&rna_ToolSettings_use_snap_uv,
+	-1, "use_snap_align_rotation", 1, 0, 0, 0, 0, "Align Rotation to Target",
+	"Align rotation with the snapping target",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_snap_align_rotation_get, ToolSettings_use_snap_align_rotation_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_snap_grid_absolute = {
+	{(PropertyRNA *)&rna_ToolSettings_snap_elements, (PropertyRNA *)&rna_ToolSettings_use_snap_align_rotation,
+	-1, "use_snap_grid_absolute", 1, 0, 0, 0, 0, "Absolute Grid Snap",
+	"Absolute grid alignment while translating (based on the pivot center)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_snap_grid_absolute_get, ToolSettings_use_snap_grid_absolute_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+EnumPropertyRNA rna_ToolSettings_snap_elements = {
+	{(PropertyRNA *)&rna_ToolSettings_snap_face_nearest_steps, (PropertyRNA *)&rna_ToolSettings_use_snap_grid_absolute,
+	-1, "snap_elements", 2097153, 0, 0, 0, 0, "Snap Element",
+	"Type of element to snap to",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_snap_elements_get, ToolSettings_snap_elements_set, NULL, NULL, NULL, rna_enum_snap_element_items, 8, 64
+};
+
+IntPropertyRNA rna_ToolSettings_snap_face_nearest_steps = {
+	{(PropertyRNA *)&rna_ToolSettings_use_snap_to_same_target, (PropertyRNA *)&rna_ToolSettings_snap_elements,
+	-1, "snap_face_nearest_steps", 1, 0, 0, 4, 0, "Face Nearest Steps",
+	"Number of steps to break transformation into for face nearest snapping",
+	0, "*",
+	PROP_INT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, snap_face_nearest_steps), 1, NULL},
+	ToolSettings_snap_face_nearest_steps_get, ToolSettings_snap_face_nearest_steps_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, 100, 1, 100, 1, 1, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_snap_to_same_target = {
+	{(PropertyRNA *)&rna_ToolSettings_snap_node_element, (PropertyRNA *)&rna_ToolSettings_snap_face_nearest_steps,
+	-1, "use_snap_to_same_target", 1, 0, 0, 0, 0, "Snap to Same Target",
+	"Snap only to target that source was initially near (Face Nearest Only)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_snap_to_same_target_get, ToolSettings_use_snap_to_same_target_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+EnumPropertyRNA rna_ToolSettings_snap_node_element = {
+	{(PropertyRNA *)&rna_ToolSettings_snap_uv_element, (PropertyRNA *)&rna_ToolSettings_use_snap_to_same_target,
+	-1, "snap_node_element", 1, 0, 0, 4, 0, "Snap Node Element",
+	"Type of element to snap to",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, snap_node_mode), 2, NULL},
+	ToolSettings_snap_node_element_get, ToolSettings_snap_node_element_set, NULL, NULL, NULL, rna_enum_snap_node_element_items, 4, 128
+};
+
+static const EnumPropertyItem rna_ToolSettings_snap_uv_element_items[3] = {
+	{64, "INCREMENT", 584, "Increment", "Snap to increments of grid"},
+	{1, "VERTEX", 580, "Vertex", "Snap to vertices"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_ToolSettings_snap_uv_element = {
+	{(PropertyRNA *)&rna_ToolSettings_use_snap_uv_grid_absolute, (PropertyRNA *)&rna_ToolSettings_snap_node_element,
+	-1, "snap_uv_element", 1, 0, 0, 4, 0, "Snap UV Element",
+	"Type of element to snap to",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, snap_uv_mode), 2, NULL},
+	ToolSettings_snap_uv_element_get, ToolSettings_snap_uv_element_set, NULL, NULL, NULL, rna_ToolSettings_snap_uv_element_items, 2, 64
+};
+
+BoolPropertyRNA rna_ToolSettings_use_snap_uv_grid_absolute = {
+	{(PropertyRNA *)&rna_ToolSettings_snap_target, (PropertyRNA *)&rna_ToolSettings_snap_uv_element,
+	-1, "use_snap_uv_grid_absolute", 1, 0, 0, 0, 0, "Absolute Grid Snap",
+	"Absolute grid alignment while translating (based on the pivot center)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_snap_uv_grid_absolute_get, ToolSettings_use_snap_uv_grid_absolute_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+EnumPropertyRNA rna_ToolSettings_snap_target = {
+	{(PropertyRNA *)&rna_ToolSettings_use_snap_peel_object, (PropertyRNA *)&rna_ToolSettings_use_snap_uv_grid_absolute,
+	-1, "snap_target", 1, 0, 0, 4, 0, "Snap Target",
+	"Which part to snap onto the target",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, snap_target), 2, NULL},
+	ToolSettings_snap_target_get, ToolSettings_snap_target_set, NULL, NULL, NULL, rna_enum_snap_source_items, 4, 0
+};
+
+BoolPropertyRNA rna_ToolSettings_use_snap_peel_object = {
+	{(PropertyRNA *)&rna_ToolSettings_use_snap_project, (PropertyRNA *)&rna_ToolSettings_snap_target,
+	-1, "use_snap_peel_object", 1, 0, 0, 0, 0, "Snap Peel Object",
+	"Consider objects as whole when finding volume center",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_snap_peel_object_get, ToolSettings_use_snap_peel_object_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_snap_project = {
+	{(PropertyRNA *)&rna_ToolSettings_use_snap_backface_culling, (PropertyRNA *)&rna_ToolSettings_use_snap_peel_object,
+	-1, "use_snap_project", 1, 0, 0, 0, 0, "Project Individual Elements",
+	"Project individual elements on the surface of other objects",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_snap_project_get, ToolSettings_use_snap_project_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_snap_backface_culling = {
+	{(PropertyRNA *)&rna_ToolSettings_use_snap_self, (PropertyRNA *)&rna_ToolSettings_use_snap_project,
+	-1, "use_snap_backface_culling", 1, 0, 0, 0, 0, "Backface Culling",
+	"Exclude back facing geometry from snapping",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_snap_backface_culling_get, ToolSettings_use_snap_backface_culling_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_snap_self = {
+	{(PropertyRNA *)&rna_ToolSettings_use_snap_edit, (PropertyRNA *)&rna_ToolSettings_use_snap_backface_culling,
+	-1, "use_snap_self", 1, 0, 0, 0, 0, "Snap onto Active",
+	"Snap onto itself only if enabled (Edit Mode Only)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_snap_self_get, ToolSettings_use_snap_self_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_snap_edit = {
+	{(PropertyRNA *)&rna_ToolSettings_use_snap_nonedit, (PropertyRNA *)&rna_ToolSettings_use_snap_self,
+	-1, "use_snap_edit", 1, 0, 0, 0, 0, "Snap onto Edited",
+	"Snap onto non-active objects in Edit Mode (Edit Mode Only)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_snap_edit_get, ToolSettings_use_snap_edit_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_snap_nonedit = {
+	{(PropertyRNA *)&rna_ToolSettings_use_snap_selectable, (PropertyRNA *)&rna_ToolSettings_use_snap_edit,
+	-1, "use_snap_nonedit", 1, 0, 0, 0, 0, "Snap onto Non-edited",
+	"Snap onto objects not in Edit Mode (Edit Mode Only)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_snap_nonedit_get, ToolSettings_use_snap_nonedit_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_snap_selectable = {
+	{(PropertyRNA *)&rna_ToolSettings_use_snap_translate, (PropertyRNA *)&rna_ToolSettings_use_snap_nonedit,
+	-1, "use_snap_selectable", 1, 0, 0, 0, 0, "Snap onto Selectable Only",
+	"Snap only onto objects that are selectable",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_snap_selectable_get, ToolSettings_use_snap_selectable_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_snap_translate = {
+	{(PropertyRNA *)&rna_ToolSettings_use_snap_rotate, (PropertyRNA *)&rna_ToolSettings_use_snap_selectable,
+	-1, "use_snap_translate", 1, 0, 0, 0, 0, "Use Snap for Translation",
+	"Move is affected by snapping settings",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_snap_translate_get, ToolSettings_use_snap_translate_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_snap_rotate = {
+	{(PropertyRNA *)&rna_ToolSettings_use_snap_scale, (PropertyRNA *)&rna_ToolSettings_use_snap_translate,
+	-1, "use_snap_rotate", 1, 0, 0, 0, 0, "Use Snap for Rotation",
+	"Rotate is affected by the snapping settings",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_snap_rotate_get, ToolSettings_use_snap_rotate_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_snap_scale = {
+	{(PropertyRNA *)&rna_ToolSettings_use_gpencil_draw_additive, (PropertyRNA *)&rna_ToolSettings_use_snap_rotate,
+	-1, "use_snap_scale", 1, 0, 0, 0, 0, "Use Snap for Scale",
+	"Scale is affected by snapping settings",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_snap_scale_get, ToolSettings_use_snap_scale_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_gpencil_draw_additive = {
+	{(PropertyRNA *)&rna_ToolSettings_use_gpencil_draw_onback, (PropertyRNA *)&rna_ToolSettings_use_snap_scale,
+	-1, "use_gpencil_draw_additive", 1, 0, 0, 0, 0, "Use Additive Drawing",
+	"When creating new frames, the strokes from the previous/active frame are included as the basis for the new one",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_gpencil_draw_additive_get, ToolSettings_use_gpencil_draw_additive_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_gpencil_draw_onback = {
+	{(PropertyRNA *)&rna_ToolSettings_use_gpencil_thumbnail_list, (PropertyRNA *)&rna_ToolSettings_use_gpencil_draw_additive,
+	-1, "use_gpencil_draw_onback", 1, 0, 0, 0, 0, "Draw Strokes on Back",
+	"When draw new strokes, the new stroke is drawn below of all strokes in the layer",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_gpencil_draw_onback_get, ToolSettings_use_gpencil_draw_onback_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_gpencil_thumbnail_list = {
+	{(PropertyRNA *)&rna_ToolSettings_use_gpencil_weight_data_add, (PropertyRNA *)&rna_ToolSettings_use_gpencil_draw_onback,
+	-1, "use_gpencil_thumbnail_list", 1, 0, 0, 0, 0, "Compact List",
+	"Show compact list of color instead of thumbnails",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_gpencil_thumbnail_list_get, ToolSettings_use_gpencil_thumbnail_list_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_gpencil_weight_data_add = {
+	{(PropertyRNA *)&rna_ToolSettings_use_gpencil_automerge_strokes, (PropertyRNA *)&rna_ToolSettings_use_gpencil_thumbnail_list,
+	-1, "use_gpencil_weight_data_add", 1, 0, 0, 0, 0, "Add weight data for new strokes",
+	"When creating new strokes, the weight data is added according to the current vertex group and weight, if no vertex group selected, weight is not added",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_gpencil_weight_data_add_get, ToolSettings_use_gpencil_weight_data_add_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_gpencil_automerge_strokes = {
+	{(PropertyRNA *)&rna_ToolSettings_gpencil_sculpt, (PropertyRNA *)&rna_ToolSettings_use_gpencil_weight_data_add,
+	-1, "use_gpencil_automerge_strokes", 4097, 0, 0, 0, 0, "Automerge",
+	"Join by distance last drawn stroke with previous strokes in the active layer",
+	607, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_gpencil_automerge_strokes_get, ToolSettings_use_gpencil_automerge_strokes_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+PointerPropertyRNA rna_ToolSettings_gpencil_sculpt = {
+	{(PropertyRNA *)&rna_ToolSettings_gpencil_interpolate, (PropertyRNA *)&rna_ToolSettings_use_gpencil_automerge_strokes,
+	-1, "gpencil_sculpt", 8388608, 0, 0, 0, 0, "Grease Pencil Sculpt",
+	"Settings for stroke sculpting tools and brushes",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_gpencil_sculpt_get, NULL, NULL, NULL,&RNA_GPencilSculptSettings
+};
+
+PointerPropertyRNA rna_ToolSettings_gpencil_interpolate = {
+	{(PropertyRNA *)&rna_ToolSettings_gpencil_stroke_placement_view3d, (PropertyRNA *)&rna_ToolSettings_gpencil_sculpt,
+	-1, "gpencil_interpolate", 8388608, 0, 0, 0, 0, "Grease Pencil Interpolate",
+	"Settings for Grease Pencil Interpolation tools",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_gpencil_interpolate_get, NULL, NULL, NULL,&RNA_GPencilInterpolateSettings
+};
+
+static const EnumPropertyItem rna_ToolSettings_gpencil_stroke_placement_view3d_items[5] = {
+	{1, "ORIGIN", 592, "Origin", "Draw stroke at Object origin"},
+	{33, "CURSOR", 552, "3D Cursor", "Draw stroke at 3D cursor location"},
+	{5, "SURFACE", 582, "Surface", "Stick stroke to surfaces"},
+	{9, "STROKE", 319, "Stroke", "Stick stroke to other strokes"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_ToolSettings_gpencil_stroke_placement_view3d = {
+	{(PropertyRNA *)&rna_ToolSettings_gpencil_stroke_snap_mode, (PropertyRNA *)&rna_ToolSettings_gpencil_interpolate,
+	-1, "gpencil_stroke_placement_view3d", 1, 0, 0, 4, 0, "Stroke Placement (3D View)",
+	"",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 391839744, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, gpencil_v3d_align), 2, NULL},
+	ToolSettings_gpencil_stroke_placement_view3d_get, ToolSettings_gpencil_stroke_placement_view3d_set, NULL, NULL, NULL, rna_ToolSettings_gpencil_stroke_placement_view3d_items, 4, 1
+};
+
+static const EnumPropertyItem rna_ToolSettings_gpencil_stroke_snap_mode_items[4] = {
+	{0, "NONE", 0, "All Points", "Snap to all points"},
+	{16, "ENDS", 0, "End Points", "Snap to first and last points and interpolate"},
+	{64, "FIRST", 0, "First Point", "Snap to first point"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_ToolSettings_gpencil_stroke_snap_mode = {
+	{(PropertyRNA *)&rna_ToolSettings_use_gpencil_stroke_endpoints, (PropertyRNA *)&rna_ToolSettings_gpencil_stroke_placement_view3d,
+	-1, "gpencil_stroke_snap_mode", 1, 0, 0, 4, 0, "Stroke Snap",
+	"",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 391839744, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, gpencil_v3d_align), 2, NULL},
+	ToolSettings_gpencil_stroke_snap_mode_get, ToolSettings_gpencil_stroke_snap_mode_set, NULL, NULL, NULL, rna_ToolSettings_gpencil_stroke_snap_mode_items, 3, 0
+};
+
+BoolPropertyRNA rna_ToolSettings_use_gpencil_stroke_endpoints = {
+	{(PropertyRNA *)&rna_ToolSettings_gpencil_selectmode_edit, (PropertyRNA *)&rna_ToolSettings_gpencil_stroke_snap_mode,
+	-1, "use_gpencil_stroke_endpoints", 1, 0, 0, 0, 0, "Only Endpoints",
+	"Only use the first and last parts of the stroke for snapping",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 391839744, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_gpencil_stroke_endpoints_get, ToolSettings_use_gpencil_stroke_endpoints_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+static const EnumPropertyItem rna_ToolSettings_gpencil_selectmode_edit_items[4] = {
+	{0, "POINT", 274, "Point", "Select only points"},
+	{1, "STROKE", 275, "Stroke", "Select all stroke points"},
+	{2, "SEGMENT", 278, "Segment", "Select all stroke points between other strokes"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_ToolSettings_gpencil_selectmode_edit = {
+	{(PropertyRNA *)&rna_ToolSettings_use_gpencil_select_mask_point, (PropertyRNA *)&rna_ToolSettings_use_gpencil_stroke_endpoints,
+	-1, "gpencil_selectmode_edit", 4194305, 0, 0, 4, 0, "Select Mode",
+	"",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_Gpencil_selectmode_update, 269090816, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, gpencil_selectmode_edit), 2, NULL},
+	ToolSettings_gpencil_selectmode_edit_get, ToolSettings_gpencil_selectmode_edit_set, NULL, NULL, NULL, rna_ToolSettings_gpencil_selectmode_edit_items, 3, 0
+};
+
+BoolPropertyRNA rna_ToolSettings_use_gpencil_select_mask_point = {
+	{(PropertyRNA *)&rna_ToolSettings_use_gpencil_select_mask_stroke, (PropertyRNA *)&rna_ToolSettings_gpencil_selectmode_edit,
+	-1, "use_gpencil_select_mask_point", 4194305, 0, 0, 0, 0, "Selection Mask",
+	"Only sculpt selected stroke points",
+	274, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_Gpencil_mask_point_update, 269090816, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_gpencil_select_mask_point_get, ToolSettings_use_gpencil_select_mask_point_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_gpencil_select_mask_stroke = {
+	{(PropertyRNA *)&rna_ToolSettings_use_gpencil_select_mask_segment, (PropertyRNA *)&rna_ToolSettings_use_gpencil_select_mask_point,
+	-1, "use_gpencil_select_mask_stroke", 4194305, 0, 0, 0, 0, "Selection Mask",
+	"Only sculpt selected stroke",
+	275, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_Gpencil_mask_stroke_update, 269090816, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_gpencil_select_mask_stroke_get, ToolSettings_use_gpencil_select_mask_stroke_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_gpencil_select_mask_segment = {
+	{(PropertyRNA *)&rna_ToolSettings_use_gpencil_vertex_select_mask_point, (PropertyRNA *)&rna_ToolSettings_use_gpencil_select_mask_stroke,
+	-1, "use_gpencil_select_mask_segment", 4194305, 0, 0, 0, 0, "Selection Mask",
+	"Only sculpt selected stroke points between other strokes",
+	278, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_Gpencil_mask_segment_update, 269090816, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_gpencil_select_mask_segment_get, ToolSettings_use_gpencil_select_mask_segment_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_gpencil_vertex_select_mask_point = {
+	{(PropertyRNA *)&rna_ToolSettings_use_gpencil_vertex_select_mask_stroke, (PropertyRNA *)&rna_ToolSettings_use_gpencil_select_mask_segment,
+	-1, "use_gpencil_vertex_select_mask_point", 4194305, 0, 0, 0, 0, "Selection Mask",
+	"Only paint selected stroke points",
+	274, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_Gpencil_vertex_mask_point_update, 269090816, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_gpencil_vertex_select_mask_point_get, ToolSettings_use_gpencil_vertex_select_mask_point_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_gpencil_vertex_select_mask_stroke = {
+	{(PropertyRNA *)&rna_ToolSettings_use_gpencil_vertex_select_mask_segment, (PropertyRNA *)&rna_ToolSettings_use_gpencil_vertex_select_mask_point,
+	-1, "use_gpencil_vertex_select_mask_stroke", 4194305, 0, 0, 0, 0, "Selection Mask",
+	"Only paint selected stroke",
+	275, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_Gpencil_vertex_mask_stroke_update, 269090816, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_gpencil_vertex_select_mask_stroke_get, ToolSettings_use_gpencil_vertex_select_mask_stroke_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_gpencil_vertex_select_mask_segment = {
+	{(PropertyRNA *)&rna_ToolSettings_annotation_stroke_placement_view2d, (PropertyRNA *)&rna_ToolSettings_use_gpencil_vertex_select_mask_stroke,
+	-1, "use_gpencil_vertex_select_mask_segment", 4194305, 0, 0, 0, 0, "Selection Mask",
+	"Only paint selected stroke points between other strokes",
+	278, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_Gpencil_vertex_mask_segment_update, 269090816, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_gpencil_vertex_select_mask_segment_get, ToolSettings_use_gpencil_vertex_select_mask_segment_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+static const EnumPropertyItem rna_ToolSettings_annotation_stroke_placement_view2d_items[3] = {
+	{33, "IMAGE", 183, "Image", "Stick stroke to the image"},
+	{0, "VIEW", 283, "View", "Stick stroke to the view"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_ToolSettings_annotation_stroke_placement_view2d = {
+	{(PropertyRNA *)&rna_ToolSettings_annotation_stroke_placement_view3d, (PropertyRNA *)&rna_ToolSettings_use_gpencil_vertex_select_mask_segment,
+	-1, "annotation_stroke_placement_view2d", 1, 0, 0, 4, 0, "Stroke Placement (2D View)",
+	"",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 391839744, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, gpencil_v2d_align), 2, NULL},
+	ToolSettings_annotation_stroke_placement_view2d_get, ToolSettings_annotation_stroke_placement_view2d_set, NULL, NULL, NULL, rna_ToolSettings_annotation_stroke_placement_view2d_items, 2, 0
+};
+
+static const EnumPropertyItem rna_ToolSettings_annotation_stroke_placement_view3d_items[4] = {
+	{33, "CURSOR", 552, "3D Cursor", "Draw stroke at 3D cursor location"},
+	{0, "VIEW", 283, "View", "Stick stroke to the view"},
+	{5, "SURFACE", 548, "Surface", "Stick stroke to surfaces"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_ToolSettings_annotation_stroke_placement_view3d = {
+	{(PropertyRNA *)&rna_ToolSettings_annotation_thickness, (PropertyRNA *)&rna_ToolSettings_annotation_stroke_placement_view2d,
+	-1, "annotation_stroke_placement_view3d", 1, 0, 0, 4, 0, "Annotation Stroke Placement (3D View)",
+	"How annotation strokes are orientated in 3D space",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 391839744, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, annotate_v3d_align), 2, NULL},
+	ToolSettings_annotation_stroke_placement_view3d_get, ToolSettings_annotation_stroke_placement_view3d_set, NULL, NULL, NULL, rna_ToolSettings_annotation_stroke_placement_view3d_items, 3, 33
+};
+
+IntPropertyRNA rna_ToolSettings_annotation_thickness = {
+	{(PropertyRNA *)&rna_ToolSettings_use_keyframe_insert_auto, (PropertyRNA *)&rna_ToolSettings_annotation_stroke_placement_view3d,
+	-1, "annotation_thickness", 1, 0, 0, 4, 0, "Annotation Stroke Thickness",
+	"Thickness of annotation strokes",
+	0, "*",
+	PROP_INT, PROP_PIXEL | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_GPencil_update, 391839744, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, annotate_thickness), 1, NULL},
+	ToolSettings_annotation_thickness_get, ToolSettings_annotation_thickness_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, 10, 1, 10, 1, 3, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_keyframe_insert_auto = {
+	{(PropertyRNA *)&rna_ToolSettings_auto_keying_mode, (PropertyRNA *)&rna_ToolSettings_annotation_thickness,
+	-1, "use_keyframe_insert_auto", 1, 0, 0, 0, 0, "Auto Keying",
+	"Automatic keyframe insertion for Objects, Bones and Masks",
+	494, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_keyframe_insert_auto_get, ToolSettings_use_keyframe_insert_auto_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+static const EnumPropertyItem rna_ToolSettings_auto_keying_mode_items[3] = {
+	{2, "ADD_REPLACE_KEYS", 0, "Add & Replace", ""},
+	{4, "REPLACE_KEYS", 0, "Replace", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_ToolSettings_auto_keying_mode = {
+	{(PropertyRNA *)&rna_ToolSettings_use_record_with_nla, (PropertyRNA *)&rna_ToolSettings_use_keyframe_insert_auto,
+	-1, "auto_keying_mode", 1, 0, 0, 4, 0, "Auto-Keying Mode",
+	"Mode of automatic keyframe insertion for Objects, Bones and Masks",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, autokey_mode), 2, NULL},
+	ToolSettings_auto_keying_mode_get, ToolSettings_auto_keying_mode_set, NULL, NULL, NULL, rna_ToolSettings_auto_keying_mode_items, 2, 2
+};
+
+BoolPropertyRNA rna_ToolSettings_use_record_with_nla = {
+	{(PropertyRNA *)&rna_ToolSettings_use_keyframe_insert_keyingset, (PropertyRNA *)&rna_ToolSettings_auto_keying_mode,
+	-1, "use_record_with_nla", 1, 0, 0, 0, 0, "Layered",
+	"Add a new NLA Track + Strip for every loop/pass made over the animation to allow non-destructive tweaking",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_record_with_nla_get, ToolSettings_use_record_with_nla_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_keyframe_insert_keyingset = {
+	{(PropertyRNA *)&rna_ToolSettings_use_keyframe_cycle_aware, (PropertyRNA *)&rna_ToolSettings_use_record_with_nla,
+	-1, "use_keyframe_insert_keyingset", 1, 0, 0, 0, 0, "Auto Keyframe Insert Keying Set",
+	"Automatic keyframe insertion using active Keying Set only",
+	512, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_keyframe_insert_keyingset_get, ToolSettings_use_keyframe_insert_keyingset_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_keyframe_cycle_aware = {
+	{(PropertyRNA *)&rna_ToolSettings_keyframe_type, (PropertyRNA *)&rna_ToolSettings_use_keyframe_insert_keyingset,
+	-1, "use_keyframe_cycle_aware", 1, 0, 0, 0, 0, "Cycle-Aware Keying",
+	"For channels with cyclic extrapolation, keyframe insertion is automatically remapped inside the cycle time range, and keeps ends in sync. Curves newly added to actions with a Manual Frame Range and Cyclic Animation are automatically made cyclic",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_keyframe_cycle_aware_get, ToolSettings_use_keyframe_cycle_aware_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+EnumPropertyRNA rna_ToolSettings_keyframe_type = {
+	{(PropertyRNA *)&rna_ToolSettings_uv_select_mode, (PropertyRNA *)&rna_ToolSettings_use_keyframe_cycle_aware,
+	-1, "keyframe_type", 1, 0, 0, 4, 0, "New Keyframe Type",
+	"Type of keyframes to create when inserting keyframes",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, keyframe_type), 2, NULL},
+	ToolSettings_keyframe_type_get, ToolSettings_keyframe_type_set, NULL, NULL, NULL, rna_enum_beztriple_keyframe_type_items, 5, 0
+};
+
+EnumPropertyRNA rna_ToolSettings_uv_select_mode = {
+	{(PropertyRNA *)&rna_ToolSettings_uv_sticky_select_mode, (PropertyRNA *)&rna_ToolSettings_keyframe_type,
+	-1, "uv_select_mode", 4194305, 0, 0, 4, 0, "UV Selection Mode",
+	"UV selection and display mode",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_Scene_uv_select_mode_update, 268697600, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, uv_selectmode), 2, NULL},
+	ToolSettings_uv_select_mode_get, ToolSettings_uv_select_mode_set, NULL, NULL, NULL, rna_enum_mesh_select_mode_uv_items, 4, 1
+};
+
+static const EnumPropertyItem rna_ToolSettings_uv_sticky_select_mode_items[4] = {
+	{1, "DISABLED", 586, "Disabled", "Sticky vertex selection disabled"},
+	{0, "SHARED_LOCATION", 585, "Shared Location", "Select UVs that are at the same location and share a mesh vertex"},
+	{2, "SHARED_VERTEX", 587, "Shared Vertex", "Select UVs that share a mesh vertex, whether or not they are at the same location"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_ToolSettings_uv_sticky_select_mode = {
+	{(PropertyRNA *)&rna_ToolSettings_use_uv_select_sync, (PropertyRNA *)&rna_ToolSettings_uv_select_mode,
+	-1, "uv_sticky_select_mode", 1, 0, 0, 4, 0, "Sticky Selection Mode",
+	"Method for extending UV vertex selection",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 268697600, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, uv_sticky), 2, NULL},
+	ToolSettings_uv_sticky_select_mode_get, ToolSettings_uv_sticky_select_mode_set, NULL, NULL, NULL, rna_ToolSettings_uv_sticky_select_mode_items, 3, 0
+};
+
+BoolPropertyRNA rna_ToolSettings_use_uv_select_sync = {
+	{(PropertyRNA *)&rna_ToolSettings_show_uv_local_view, (PropertyRNA *)&rna_ToolSettings_uv_sticky_select_mode,
+	-1, "use_uv_select_sync", 1, 0, 0, 0, 0, "UV Sync Selection",
+	"Keep UV and edit mode mesh selection in sync",
+	614, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 268697600, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_uv_select_sync_get, ToolSettings_use_uv_select_sync_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_show_uv_local_view = {
+	{(PropertyRNA *)&rna_ToolSettings_mesh_select_mode, (PropertyRNA *)&rna_ToolSettings_use_uv_select_sync,
+	-1, "show_uv_local_view", 1, 0, 0, 0, 0, "UV Local View",
+	"Display only faces with the currently displayed image assigned",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 268697600, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_show_uv_local_view_get, ToolSettings_show_uv_local_view_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+static bool rna_ToolSettings_mesh_select_mode_default[3] = {
+	1,
+	1,
+	1
+};
+
+BoolPropertyRNA rna_ToolSettings_mesh_select_mode = {
+	{(PropertyRNA *)&rna_ToolSettings_vertex_group_weight, (PropertyRNA *)&rna_ToolSettings_show_uv_local_view,
+	-1, "mesh_select_mode", 4194305, 0, 0, 0, 0, "Mesh Selection Mode",
+	"Which mesh elements selection works on",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 1, {3, 0, 0}, 3,
+	(UpdateFunc)rna_Scene_editmesh_select_mode_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, ToolSettings_mesh_select_mode_get, ToolSettings_mesh_select_mode_set, NULL, NULL, NULL, NULL, 1, rna_ToolSettings_mesh_select_mode_default
+};
+
+FloatPropertyRNA rna_ToolSettings_vertex_group_weight = {
+	{(PropertyRNA *)&rna_ToolSettings_use_edge_path_live_unwrap, (PropertyRNA *)&rna_ToolSettings_mesh_select_mode,
+	-1, "vertex_group_weight", 1, 0, 0, 4, 0, "Vertex Group Weight",
+	"Weight to assign in vertex groups",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, vgroup_weight), 5, NULL},
+	ToolSettings_vertex_group_weight_get, ToolSettings_vertex_group_weight_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 1.0f, NULL
+};
+
+BoolPropertyRNA rna_ToolSettings_use_edge_path_live_unwrap = {
+	{(PropertyRNA *)&rna_ToolSettings_normal_vector, (PropertyRNA *)&rna_ToolSettings_vertex_group_weight,
+	-1, "use_edge_path_live_unwrap", 1, 0, 0, 0, 0, "Live Unwrap",
+	"Changing edge seams recalculates UV unwrap",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_use_edge_path_live_unwrap_get, ToolSettings_use_edge_path_live_unwrap_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+static float rna_ToolSettings_normal_vector_default[3] = {
+	0.0f,
+	0.0f,
+	0.0f
+};
+
+FloatPropertyRNA rna_ToolSettings_normal_vector = {
+	{(PropertyRNA *)&rna_ToolSettings_unified_paint_settings, (PropertyRNA *)&rna_ToolSettings_use_edge_path_live_unwrap,
+	-1, "normal_vector", 1, 0, 0, 4, 0, "Normal Vector",
+	"Normal Vector used to copy, add or multiply",
+	0, "*",
+	PROP_FLOAT, PROP_XYZ | PROP_UNIT_NONE, NULL, 1, {3, 0, 0}, 3,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ToolSettings, normal_vector), 5, NULL},
+	NULL, NULL, ToolSettings_normal_vector_get, ToolSettings_normal_vector_set, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -10000.0f, 10000.0f, -FLT_MAX, FLT_MAX, 1.0f, 3, 0.0f, rna_ToolSettings_normal_vector_default
+};
+
+PointerPropertyRNA rna_ToolSettings_unified_paint_settings = {
+	{(PropertyRNA *)&rna_ToolSettings_curve_paint_settings, (PropertyRNA *)&rna_ToolSettings_normal_vector,
+	-1, "unified_paint_settings", 8650752, 0, 0, 0, 0, "Unified Paint Settings",
+	NULL,
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_unified_paint_settings_get, NULL, NULL, NULL,&RNA_UnifiedPaintSettings
+};
+
+PointerPropertyRNA rna_ToolSettings_curve_paint_settings = {
+	{(PropertyRNA *)&rna_ToolSettings_statvis, (PropertyRNA *)&rna_ToolSettings_unified_paint_settings,
+	-1, "curve_paint_settings", 8650752, 0, 0, 0, 0, "Curve Paint Settings",
+	NULL,
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_curve_paint_settings_get, NULL, NULL, NULL,&RNA_CurvePaintSettings
+};
+
+PointerPropertyRNA rna_ToolSettings_statvis = {
+	{(PropertyRNA *)&rna_ToolSettings_custom_bevel_profile_preset, (PropertyRNA *)&rna_ToolSettings_curve_paint_settings,
+	-1, "statvis", 8650752, 0, 0, 0, 0, "Mesh Statistics Visualization",
+	NULL,
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_statvis_get, NULL, NULL, NULL,&RNA_MeshStatVis
+};
+
+PointerPropertyRNA rna_ToolSettings_custom_bevel_profile_preset = {
+	{(PropertyRNA *)&rna_ToolSettings_sequencer_tool_settings, (PropertyRNA *)&rna_ToolSettings_statvis,
+	-1, "custom_bevel_profile_preset", 8388608, 0, 0, 0, 0, "Curve Profile Widget",
+	"Used for defining a profile\'s path",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_custom_bevel_profile_preset_get, NULL, NULL, NULL,&RNA_CurveProfile
+};
+
+PointerPropertyRNA rna_ToolSettings_sequencer_tool_settings = {
+	{NULL, (PropertyRNA *)&rna_ToolSettings_custom_bevel_profile_preset,
+	-1, "sequencer_tool_settings", 8650752, 0, 0, 0, 0, "Sequencer Tool Settings",
+	NULL,
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ToolSettings_sequencer_tool_settings_get, NULL, NULL, NULL,&RNA_SequencerToolSettings
+};
+
+StructRNA RNA_ToolSettings = {
+	{(ContainerRNA *)&RNA_GPencilInterpolateSettings, (ContainerRNA *)&RNA_ViewLayers,
+	NULL,
+	{(PropertyRNA *)&rna_ToolSettings_rna_properties, (PropertyRNA *)&rna_ToolSettings_sequencer_tool_settings}},
+	"ToolSettings", NULL, NULL, 516, NULL, "Tool Settings",
+	"",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_ToolSettings_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	rna_ToolSettings_path,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Grease Pencil Interpolate Settings */
+CollectionPropertyRNA rna_GPencilInterpolateSettings_rna_properties = {
+	{(PropertyRNA *)&rna_GPencilInterpolateSettings_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	GPencilInterpolateSettings_rna_properties_begin, GPencilInterpolateSettings_rna_properties_next, GPencilInterpolateSettings_rna_properties_end, GPencilInterpolateSettings_rna_properties_get, NULL, NULL, GPencilInterpolateSettings_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_GPencilInterpolateSettings_rna_type = {
+	{(PropertyRNA *)&rna_GPencilInterpolateSettings_interpolation_curve, (PropertyRNA *)&rna_GPencilInterpolateSettings_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	GPencilInterpolateSettings_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+PointerPropertyRNA rna_GPencilInterpolateSettings_interpolation_curve = {
+	{NULL, (PropertyRNA *)&rna_GPencilInterpolateSettings_rna_type,
+	-1, "interpolation_curve", 8388608, 0, 0, 0, 0, "Interpolation Curve",
+	"Custom curve to control \'sequence\' interpolation between Grease Pencil frames",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	GPencilInterpolateSettings_interpolation_curve_get, NULL, NULL, NULL,&RNA_CurveMapping
+};
+
+StructRNA RNA_GPencilInterpolateSettings = {
+	{(ContainerRNA *)&RNA_UnifiedPaintSettings, (ContainerRNA *)&RNA_ToolSettings,
+	NULL,
+	{(PropertyRNA *)&rna_GPencilInterpolateSettings_rna_properties, (PropertyRNA *)&rna_GPencilInterpolateSettings_interpolation_curve}},
+	"GPencilInterpolateSettings", NULL, NULL, 516, NULL, "Grease Pencil Interpolate Settings",
+	"Settings for Grease Pencil interpolation tools",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_GPencilInterpolateSettings_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Unified Paint Settings */
+CollectionPropertyRNA rna_UnifiedPaintSettings_rna_properties = {
+	{(PropertyRNA *)&rna_UnifiedPaintSettings_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	UnifiedPaintSettings_rna_properties_begin, UnifiedPaintSettings_rna_properties_next, UnifiedPaintSettings_rna_properties_end, UnifiedPaintSettings_rna_properties_get, NULL, NULL, UnifiedPaintSettings_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_UnifiedPaintSettings_rna_type = {
+	{(PropertyRNA *)&rna_UnifiedPaintSettings_use_unified_size, (PropertyRNA *)&rna_UnifiedPaintSettings_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	UnifiedPaintSettings_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+BoolPropertyRNA rna_UnifiedPaintSettings_use_unified_size = {
+	{(PropertyRNA *)&rna_UnifiedPaintSettings_use_unified_strength, (PropertyRNA *)&rna_UnifiedPaintSettings_rna_type,
+	-1, "use_unified_size", 1, 0, 0, 0, 0, "Use Unified Radius",
+	"Instead of per-brush radius, the radius is shared across brushes",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	UnifiedPaintSettings_use_unified_size_get, UnifiedPaintSettings_use_unified_size_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_UnifiedPaintSettings_use_unified_strength = {
+	{(PropertyRNA *)&rna_UnifiedPaintSettings_use_unified_weight, (PropertyRNA *)&rna_UnifiedPaintSettings_use_unified_size,
+	-1, "use_unified_strength", 1, 0, 0, 0, 0, "Use Unified Strength",
+	"Instead of per-brush strength, the strength is shared across brushes",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	UnifiedPaintSettings_use_unified_strength_get, UnifiedPaintSettings_use_unified_strength_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_UnifiedPaintSettings_use_unified_weight = {
+	{(PropertyRNA *)&rna_UnifiedPaintSettings_use_unified_color, (PropertyRNA *)&rna_UnifiedPaintSettings_use_unified_strength,
+	-1, "use_unified_weight", 1, 0, 0, 0, 0, "Use Unified Weight",
+	"Instead of per-brush weight, the weight is shared across brushes",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	UnifiedPaintSettings_use_unified_weight_get, UnifiedPaintSettings_use_unified_weight_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_UnifiedPaintSettings_use_unified_color = {
+	{(PropertyRNA *)&rna_UnifiedPaintSettings_size, (PropertyRNA *)&rna_UnifiedPaintSettings_use_unified_weight,
+	-1, "use_unified_color", 1, 0, 0, 0, 0, "Use Unified Color",
+	"Instead of per-brush color, the color is shared across brushes",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	UnifiedPaintSettings_use_unified_color_get, UnifiedPaintSettings_use_unified_color_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+IntPropertyRNA rna_UnifiedPaintSettings_size = {
+	{(PropertyRNA *)&rna_UnifiedPaintSettings_unprojected_radius, (PropertyRNA *)&rna_UnifiedPaintSettings_use_unified_color,
+	-1, "size", 4194305, 0, 0, 0, 0, "Radius",
+	"Radius of the brush",
+	0, "*",
+	PROP_INT, PROP_PIXEL | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_UnifiedPaintSettings_radius_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	UnifiedPaintSettings_size_get, UnifiedPaintSettings_size_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, 500, 1, 5000, 1, 50, NULL
+};
+
+FloatPropertyRNA rna_UnifiedPaintSettings_unprojected_radius = {
+	{(PropertyRNA *)&rna_UnifiedPaintSettings_strength, (PropertyRNA *)&rna_UnifiedPaintSettings_size,
+	-1, "unprojected_radius", 4194305, 0, 0, 0, 0, "Unprojected Radius",
+	"Radius of brush in Blender units",
+	0, "*",
+	PROP_FLOAT, PROP_DISTANCE | PROP_UNIT_LENGTH, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_UnifiedPaintSettings_radius_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	UnifiedPaintSettings_unprojected_radius_get, UnifiedPaintSettings_unprojected_radius_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0010000000f, 1.0f, 0.0010000000f, FLT_MAX, 1.0f, -1, 0.2899999917f, NULL
+};
+
+FloatPropertyRNA rna_UnifiedPaintSettings_strength = {
+	{(PropertyRNA *)&rna_UnifiedPaintSettings_weight, (PropertyRNA *)&rna_UnifiedPaintSettings_unprojected_radius,
+	-1, "strength", 4194305, 0, 0, 4, 0, "Strength",
+	"How powerful the effect of the brush is when applied",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_UnifiedPaintSettings_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(UnifiedPaintSettings, alpha), 5, NULL},
+	UnifiedPaintSettings_strength_get, UnifiedPaintSettings_strength_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 10.0f, 0.0010000000f, 3, 0.5000000000f, NULL
+};
+
+FloatPropertyRNA rna_UnifiedPaintSettings_weight = {
+	{(PropertyRNA *)&rna_UnifiedPaintSettings_color, (PropertyRNA *)&rna_UnifiedPaintSettings_strength,
+	-1, "weight", 4194305, 0, 0, 4, 0, "Weight",
+	"Weight to assign in vertex groups",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_UnifiedPaintSettings_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(UnifiedPaintSettings, weight), 5, NULL},
+	UnifiedPaintSettings_weight_get, UnifiedPaintSettings_weight_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 0.0010000000f, 3, 0.5000000000f, NULL
+};
+
+static float rna_UnifiedPaintSettings_color_default[3] = {
+	0.0f,
+	0.0f,
+	0.0f
+};
+
+FloatPropertyRNA rna_UnifiedPaintSettings_color = {
+	{(PropertyRNA *)&rna_UnifiedPaintSettings_secondary_color, (PropertyRNA *)&rna_UnifiedPaintSettings_weight,
+	-1, "color", 4194305, 0, 0, 4, 0, "Color",
+	"",
+	0, "*",
+	PROP_FLOAT, PROP_COLOR_GAMMA | PROP_UNIT_NONE, NULL, 1, {3, 0, 0}, 3,
+	(UpdateFunc)rna_UnifiedPaintSettings_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(UnifiedPaintSettings, rgb), 5, NULL},
+	NULL, NULL, UnifiedPaintSettings_color_get, UnifiedPaintSettings_color_set, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 0.0f, rna_UnifiedPaintSettings_color_default
+};
+
+static float rna_UnifiedPaintSettings_secondary_color_default[3] = {
+	0.0f,
+	0.0f,
+	0.0f
+};
+
+FloatPropertyRNA rna_UnifiedPaintSettings_secondary_color = {
+	{(PropertyRNA *)&rna_UnifiedPaintSettings_use_locked_size, (PropertyRNA *)&rna_UnifiedPaintSettings_color,
+	-1, "secondary_color", 4194305, 0, 0, 4, 0, "Secondary Color",
+	"",
+	0, "*",
+	PROP_FLOAT, PROP_COLOR_GAMMA | PROP_UNIT_NONE, NULL, 1, {3, 0, 0}, 3,
+	(UpdateFunc)rna_UnifiedPaintSettings_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(UnifiedPaintSettings, secondary_rgb), 5, NULL},
+	NULL, NULL, UnifiedPaintSettings_secondary_color_get, UnifiedPaintSettings_secondary_color_set, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 0.0f, rna_UnifiedPaintSettings_secondary_color_default
+};
+
+static const EnumPropertyItem rna_UnifiedPaintSettings_use_locked_size_items[3] = {
+	{0, "VIEW", 0, "View", "Measure brush size relative to the view"},
+	{4, "SCENE", 0, "Scene", "Measure brush size relative to the scene"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_UnifiedPaintSettings_use_locked_size = {
+	{NULL, (PropertyRNA *)&rna_UnifiedPaintSettings_secondary_color,
+	-1, "use_locked_size", 1, 0, 0, 4, 0, "Radius Unit",
+	"Measure brush size relative to the view or the scene",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(UnifiedPaintSettings, flag), 0, NULL},
+	UnifiedPaintSettings_use_locked_size_get, UnifiedPaintSettings_use_locked_size_set, NULL, NULL, NULL, rna_UnifiedPaintSettings_use_locked_size_items, 2, 0
+};
+
+StructRNA RNA_UnifiedPaintSettings = {
+	{(ContainerRNA *)&RNA_CurvePaintSettings, (ContainerRNA *)&RNA_GPencilInterpolateSettings,
+	NULL,
+	{(PropertyRNA *)&rna_UnifiedPaintSettings_rna_properties, (PropertyRNA *)&rna_UnifiedPaintSettings_use_locked_size}},
+	"UnifiedPaintSettings", NULL, NULL, 516, NULL, "Unified Paint Settings",
+	"Overrides for some of the active brush\'s settings",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_UnifiedPaintSettings_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	rna_UnifiedPaintSettings_path,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Curve Paint Settings */
+CollectionPropertyRNA rna_CurvePaintSettings_rna_properties = {
+	{(PropertyRNA *)&rna_CurvePaintSettings_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	CurvePaintSettings_rna_properties_begin, CurvePaintSettings_rna_properties_next, CurvePaintSettings_rna_properties_end, CurvePaintSettings_rna_properties_get, NULL, NULL, CurvePaintSettings_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_CurvePaintSettings_rna_type = {
+	{(PropertyRNA *)&rna_CurvePaintSettings_curve_type, (PropertyRNA *)&rna_CurvePaintSettings_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	CurvePaintSettings_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+static const EnumPropertyItem rna_CurvePaintSettings_curve_type_items[3] = {
+	{0, "POLY", 0, "Poly", ""},
+	{1, "BEZIER", 0, "Bezier", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_CurvePaintSettings_curve_type = {
+	{(PropertyRNA *)&rna_CurvePaintSettings_use_corners_detect, (PropertyRNA *)&rna_CurvePaintSettings_rna_type,
+	-1, "curve_type", 1, 0, 0, 4, 0, "Type",
+	"Type of curve to use for new strokes",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(CurvePaintSettings, curve_type), 2, NULL},
+	CurvePaintSettings_curve_type_get, CurvePaintSettings_curve_type_set, NULL, NULL, NULL, rna_CurvePaintSettings_curve_type_items, 2, 1
+};
+
+BoolPropertyRNA rna_CurvePaintSettings_use_corners_detect = {
+	{(PropertyRNA *)&rna_CurvePaintSettings_use_pressure_radius, (PropertyRNA *)&rna_CurvePaintSettings_curve_type,
+	-1, "use_corners_detect", 1, 0, 0, 0, 0, "Detect Corners",
+	"Detect corners and use non-aligned handles",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	CurvePaintSettings_use_corners_detect_get, CurvePaintSettings_use_corners_detect_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_CurvePaintSettings_use_pressure_radius = {
+	{(PropertyRNA *)&rna_CurvePaintSettings_use_stroke_endpoints, (PropertyRNA *)&rna_CurvePaintSettings_use_corners_detect,
+	-1, "use_pressure_radius", 1, 0, 0, 0, 0, "Use Pressure",
+	"Map tablet pressure to curve radius",
+	67, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	CurvePaintSettings_use_pressure_radius_get, CurvePaintSettings_use_pressure_radius_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_CurvePaintSettings_use_stroke_endpoints = {
+	{(PropertyRNA *)&rna_CurvePaintSettings_use_offset_absolute, (PropertyRNA *)&rna_CurvePaintSettings_use_pressure_radius,
+	-1, "use_stroke_endpoints", 1, 0, 0, 0, 0, "Only First",
+	"Use the start of the stroke for the depth",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	CurvePaintSettings_use_stroke_endpoints_get, CurvePaintSettings_use_stroke_endpoints_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_CurvePaintSettings_use_offset_absolute = {
+	{(PropertyRNA *)&rna_CurvePaintSettings_error_threshold, (PropertyRNA *)&rna_CurvePaintSettings_use_stroke_endpoints,
+	-1, "use_offset_absolute", 1, 0, 0, 0, 0, "Absolute Offset",
+	"Apply a fixed offset (don\'t scale by the radius)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	CurvePaintSettings_use_offset_absolute_get, CurvePaintSettings_use_offset_absolute_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+IntPropertyRNA rna_CurvePaintSettings_error_threshold = {
+	{(PropertyRNA *)&rna_CurvePaintSettings_fit_method, (PropertyRNA *)&rna_CurvePaintSettings_use_offset_absolute,
+	-1, "error_threshold", 1, 0, 0, 4, 0, "Tolerance",
+	"Allow deviation for a smoother, less precise line",
+	0, "*",
+	PROP_INT, PROP_PIXEL | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(CurvePaintSettings, error_threshold), 1, NULL},
+	CurvePaintSettings_error_threshold_get, CurvePaintSettings_error_threshold_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, 100, 1, 100, 1, 8, NULL
+};
+
+EnumPropertyRNA rna_CurvePaintSettings_fit_method = {
+	{(PropertyRNA *)&rna_CurvePaintSettings_corner_angle, (PropertyRNA *)&rna_CurvePaintSettings_error_threshold,
+	-1, "fit_method", 1, 0, 0, 4, 0, "Method",
+	"Curve fitting method",
+	0, "*",
+	PROP_ENUM, PROP_PIXEL | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(CurvePaintSettings, fit_method), 2, NULL},
+	CurvePaintSettings_fit_method_get, CurvePaintSettings_fit_method_set, NULL, NULL, NULL, rna_enum_curve_fit_method_items, 2, 0
+};
+
+FloatPropertyRNA rna_CurvePaintSettings_corner_angle = {
+	{(PropertyRNA *)&rna_CurvePaintSettings_radius_min, (PropertyRNA *)&rna_CurvePaintSettings_fit_method,
+	-1, "corner_angle", 1, 0, 0, 4, 0, "Corner Angle",
+	"Angles above this are considered corners",
+	0, "*",
+	PROP_FLOAT, PROP_ANGLE | PROP_UNIT_ROTATION, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(CurvePaintSettings, corner_angle), 5, NULL},
+	CurvePaintSettings_corner_angle_get, CurvePaintSettings_corner_angle_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 3.1415927410f, 0.0f, 3.1415927410f, 10.0f, 3, 1.2217304707f, NULL
+};
+
+FloatPropertyRNA rna_CurvePaintSettings_radius_min = {
+	{(PropertyRNA *)&rna_CurvePaintSettings_radius_max, (PropertyRNA *)&rna_CurvePaintSettings_corner_angle,
+	-1, "radius_min", 1, 0, 0, 4, 0, "Radius Min",
+	"Minimum radius when the minimum pressure is applied (also the minimum when tapering)",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(CurvePaintSettings, radius_min), 5, NULL},
+	CurvePaintSettings_radius_min_get, CurvePaintSettings_radius_min_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 10.0f, 0.0f, 100.0f, 10.0f, 2, 0.0f, NULL
+};
+
+FloatPropertyRNA rna_CurvePaintSettings_radius_max = {
+	{(PropertyRNA *)&rna_CurvePaintSettings_radius_taper_start, (PropertyRNA *)&rna_CurvePaintSettings_radius_min,
+	-1, "radius_max", 1, 0, 0, 4, 0, "Radius Max",
+	"Radius to use when the maximum pressure is applied (or when a tablet isn\'t used)",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(CurvePaintSettings, radius_max), 5, NULL},
+	CurvePaintSettings_radius_max_get, CurvePaintSettings_radius_max_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 10.0f, 0.0f, 100.0f, 10.0f, 2, 1.0f, NULL
+};
+
+FloatPropertyRNA rna_CurvePaintSettings_radius_taper_start = {
+	{(PropertyRNA *)&rna_CurvePaintSettings_radius_taper_end, (PropertyRNA *)&rna_CurvePaintSettings_radius_max,
+	-1, "radius_taper_start", 1, 0, 0, 4, 0, "Radius Min",
+	"Taper factor for the radius of each point along the curve",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(CurvePaintSettings, radius_taper_start), 5, NULL},
+	CurvePaintSettings_radius_taper_start_get, CurvePaintSettings_radius_taper_start_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 1.0f, 2, 0.0f, NULL
+};
+
+FloatPropertyRNA rna_CurvePaintSettings_radius_taper_end = {
+	{(PropertyRNA *)&rna_CurvePaintSettings_surface_offset, (PropertyRNA *)&rna_CurvePaintSettings_radius_taper_start,
+	-1, "radius_taper_end", 1, 0, 0, 4, 0, "Radius Max",
+	"Taper factor for the radius of each point along the curve",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(CurvePaintSettings, radius_taper_end), 5, NULL},
+	CurvePaintSettings_radius_taper_end_get, CurvePaintSettings_radius_taper_end_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 10.0f, 1.0f, 2, 0.0f, NULL
+};
+
+FloatPropertyRNA rna_CurvePaintSettings_surface_offset = {
+	{(PropertyRNA *)&rna_CurvePaintSettings_depth_mode, (PropertyRNA *)&rna_CurvePaintSettings_radius_taper_end,
+	-1, "surface_offset", 1, 0, 0, 4, 0, "Offset",
+	"Offset the stroke from the surface",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(CurvePaintSettings, surface_offset), 5, NULL},
+	CurvePaintSettings_surface_offset_get, CurvePaintSettings_surface_offset_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -1.0f, 1.0f, -10.0f, 10.0f, 1.0f, 2, 0.0f, NULL
+};
+
+static const EnumPropertyItem rna_CurvePaintSettings_depth_mode_items[3] = {
+	{0, "CURSOR", 0, "Cursor", ""},
+	{1, "SURFACE", 0, "Surface", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_CurvePaintSettings_depth_mode = {
+	{(PropertyRNA *)&rna_CurvePaintSettings_surface_plane, (PropertyRNA *)&rna_CurvePaintSettings_surface_offset,
+	-1, "depth_mode", 1, 0, 0, 4, 0, "Depth",
+	"Method of projecting depth",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(CurvePaintSettings, depth_mode), 2, NULL},
+	CurvePaintSettings_depth_mode_get, CurvePaintSettings_depth_mode_set, NULL, NULL, NULL, rna_CurvePaintSettings_depth_mode_items, 2, 0
+};
+
+static const EnumPropertyItem rna_CurvePaintSettings_surface_plane_items[4] = {
+	{0, "NORMAL_VIEW", 0, "Normal/View", "Display perpendicular to the surface"},
+	{1, "NORMAL_SURFACE", 0, "Normal/Surface", "Display aligned to the surface"},
+	{2, "VIEW", 0, "View", "Display aligned to the viewport"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_CurvePaintSettings_surface_plane = {
+	{NULL, (PropertyRNA *)&rna_CurvePaintSettings_depth_mode,
+	-1, "surface_plane", 1, 0, 0, 4, 0, "Plane",
+	"Plane for projected stroke",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(CurvePaintSettings, surface_plane), 2, NULL},
+	CurvePaintSettings_surface_plane_get, CurvePaintSettings_surface_plane_set, NULL, NULL, NULL, rna_CurvePaintSettings_surface_plane_items, 3, 0
+};
+
+StructRNA RNA_CurvePaintSettings = {
+	{(ContainerRNA *)&RNA_SequencerToolSettings, (ContainerRNA *)&RNA_UnifiedPaintSettings,
+	NULL,
+	{(PropertyRNA *)&rna_CurvePaintSettings_rna_properties, (PropertyRNA *)&rna_CurvePaintSettings_surface_plane}},
+	"CurvePaintSettings", NULL, NULL, 516, NULL, "Curve Paint Settings",
+	"",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_CurvePaintSettings_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	rna_CurvePaintSettings_path,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Sequencer Tool Settings */
+CollectionPropertyRNA rna_SequencerToolSettings_rna_properties = {
+	{(PropertyRNA *)&rna_SequencerToolSettings_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SequencerToolSettings_rna_properties_begin, SequencerToolSettings_rna_properties_next, SequencerToolSettings_rna_properties_end, SequencerToolSettings_rna_properties_get, NULL, NULL, SequencerToolSettings_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_SequencerToolSettings_rna_type = {
+	{(PropertyRNA *)&rna_SequencerToolSettings_fit_method, (PropertyRNA *)&rna_SequencerToolSettings_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SequencerToolSettings_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+static const EnumPropertyItem rna_SequencerToolSettings_fit_method_items[5] = {
+	{0, "FIT", 0, "Scale to Fit", "Scale image to fit within the canvas"},
+	{1, "FILL", 0, "Scale to Fill", "Scale image to completely fill the canvas"},
+	{2, "STRETCH", 0, "Stretch to Fill", "Stretch image to fill the canvas"},
+	{3, "ORIGINAL", 0, "Use Original Size", "Keep image at its original size"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_SequencerToolSettings_fit_method = {
+	{(PropertyRNA *)&rna_SequencerToolSettings_snap_to_current_frame, (PropertyRNA *)&rna_SequencerToolSettings_rna_type,
+	-1, "fit_method", 1, 0, 0, 4, 0, "Fit Method",
+	"Scale fit method",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SequencerToolSettings, fit_method), 0, NULL},
+	SequencerToolSettings_fit_method_get, SequencerToolSettings_fit_method_set, NULL, NULL, NULL, rna_SequencerToolSettings_fit_method_items, 4, 0
+};
+
+BoolPropertyRNA rna_SequencerToolSettings_snap_to_current_frame = {
+	{(PropertyRNA *)&rna_SequencerToolSettings_snap_to_hold_offset, (PropertyRNA *)&rna_SequencerToolSettings_fit_method,
+	-1, "snap_to_current_frame", 1, 0, 0, 0, 0, "Current Frame",
+	"Snap to current frame",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SequencerToolSettings_snap_to_current_frame_get, SequencerToolSettings_snap_to_current_frame_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_SequencerToolSettings_snap_to_hold_offset = {
+	{(PropertyRNA *)&rna_SequencerToolSettings_snap_ignore_muted, (PropertyRNA *)&rna_SequencerToolSettings_snap_to_current_frame,
+	-1, "snap_to_hold_offset", 1, 0, 0, 0, 0, "Hold Offset",
+	"Snap to strip hold offsets",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SequencerToolSettings_snap_to_hold_offset_get, SequencerToolSettings_snap_to_hold_offset_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_SequencerToolSettings_snap_ignore_muted = {
+	{(PropertyRNA *)&rna_SequencerToolSettings_snap_ignore_sound, (PropertyRNA *)&rna_SequencerToolSettings_snap_to_hold_offset,
+	-1, "snap_ignore_muted", 1, 0, 0, 0, 0, "Ignore Muted Strips",
+	"Don\'t snap to hidden strips",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SequencerToolSettings_snap_ignore_muted_get, SequencerToolSettings_snap_ignore_muted_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_SequencerToolSettings_snap_ignore_sound = {
+	{(PropertyRNA *)&rna_SequencerToolSettings_use_snap_current_frame_to_strips, (PropertyRNA *)&rna_SequencerToolSettings_snap_ignore_muted,
+	-1, "snap_ignore_sound", 1, 0, 0, 0, 0, "Ignore Sound Strips",
+	"Don\'t snap to sound strips",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SequencerToolSettings_snap_ignore_sound_get, SequencerToolSettings_snap_ignore_sound_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_SequencerToolSettings_use_snap_current_frame_to_strips = {
+	{(PropertyRNA *)&rna_SequencerToolSettings_snap_distance, (PropertyRNA *)&rna_SequencerToolSettings_snap_ignore_sound,
+	-1, "use_snap_current_frame_to_strips", 1, 0, 0, 0, 0, "Snap Current Frame to Strips",
+	"Snap current frame to strip start or end",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SequencerToolSettings_use_snap_current_frame_to_strips_get, SequencerToolSettings_use_snap_current_frame_to_strips_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+IntPropertyRNA rna_SequencerToolSettings_snap_distance = {
+	{(PropertyRNA *)&rna_SequencerToolSettings_overlap_mode, (PropertyRNA *)&rna_SequencerToolSettings_use_snap_current_frame_to_strips,
+	-1, "snap_distance", 1, 0, 0, 4, 0, "Snapping Distance",
+	"Maximum distance for snapping in pixels",
+	0, "*",
+	PROP_INT, PROP_PIXEL | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SequencerToolSettings, snap_distance), 0, NULL},
+	SequencerToolSettings_snap_distance_get, SequencerToolSettings_snap_distance_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 50, INT_MIN, INT_MAX, 1, 15, NULL
+};
+
+static const EnumPropertyItem rna_SequencerToolSettings_overlap_mode_items[4] = {
+	{0, "EXPAND", 0, "Expand", "Move strips so transformed strips fits"},
+	{1, "OVERWRITE", 0, "Overwrite", "Trim or split strips to resolve overlap"},
+	{2, "SHUFFLE", 0, "Shuffle", "Move transformed strips to nearest free space to resolve overlap"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_SequencerToolSettings_overlap_mode = {
+	{(PropertyRNA *)&rna_SequencerToolSettings_pivot_point, (PropertyRNA *)&rna_SequencerToolSettings_snap_distance,
+	-1, "overlap_mode", 1, 0, 0, 4, 0, "Overlap Mode",
+	"How to resolve overlap after transformation",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SequencerToolSettings, overlap_mode), 0, NULL},
+	SequencerToolSettings_overlap_mode_get, SequencerToolSettings_overlap_mode_set, NULL, NULL, NULL, rna_SequencerToolSettings_overlap_mode_items, 3, 0
+};
+
+static const EnumPropertyItem rna_SequencerToolSettings_pivot_point_items[5] = {
+	{0, "CENTER", 551, "Bounding Box Center", ""},
+	{3, "MEDIAN", 554, "Median Point", ""},
+	{1, "CURSOR", 552, "2D Cursor", "Pivot around the 2D cursor"},
+	{2, "INDIVIDUAL_ORIGINS", 553, "Individual Origins", "Pivot around each selected island\'s own median point"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_SequencerToolSettings_pivot_point = {
+	{NULL, (PropertyRNA *)&rna_SequencerToolSettings_overlap_mode,
+	-1, "pivot_point", 1, 0, 0, 4, 0, "Pivot Point",
+	"Rotation or scaling pivot point",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SequencerToolSettings, pivot_point), 0, NULL},
+	SequencerToolSettings_pivot_point_get, SequencerToolSettings_pivot_point_set, NULL, NULL, NULL, rna_SequencerToolSettings_pivot_point_items, 4, 0
+};
+
+StructRNA RNA_SequencerToolSettings = {
+	{(ContainerRNA *)&RNA_MeshStatVis, (ContainerRNA *)&RNA_CurvePaintSettings,
+	NULL,
+	{(PropertyRNA *)&rna_SequencerToolSettings_rna_properties, (PropertyRNA *)&rna_SequencerToolSettings_pivot_point}},
+	"SequencerToolSettings", NULL, NULL, 516, NULL, "Sequencer Tool Settings",
+	"",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_SequencerToolSettings_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	rna_SequencerToolSettings_path,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Mesh Visualize Statistics */
+CollectionPropertyRNA rna_MeshStatVis_rna_properties = {
+	{(PropertyRNA *)&rna_MeshStatVis_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	MeshStatVis_rna_properties_begin, MeshStatVis_rna_properties_next, MeshStatVis_rna_properties_end, MeshStatVis_rna_properties_get, NULL, NULL, MeshStatVis_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_MeshStatVis_rna_type = {
+	{(PropertyRNA *)&rna_MeshStatVis_type, (PropertyRNA *)&rna_MeshStatVis_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	MeshStatVis_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+static const EnumPropertyItem rna_MeshStatVis_type_items[6] = {
+	{0, "OVERHANG", 0, "Overhang", ""},
+	{1, "THICKNESS", 0, "Thickness", ""},
+	{2, "INTERSECT", 0, "Intersect", ""},
+	{3, "DISTORT", 0, "Distortion", ""},
+	{4, "SHARP", 0, "Sharp", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_MeshStatVis_type = {
+	{(PropertyRNA *)&rna_MeshStatVis_overhang_min, (PropertyRNA *)&rna_MeshStatVis_rna_type,
+	-1, "type", 4194305, 0, 0, 4, 0, "Type",
+	"Type of data to visualize/check",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_EditMesh_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(MeshStatVis, type), 2, NULL},
+	MeshStatVis_type_get, MeshStatVis_type_set, NULL, NULL, NULL, rna_MeshStatVis_type_items, 5, 0
+};
+
+FloatPropertyRNA rna_MeshStatVis_overhang_min = {
+	{(PropertyRNA *)&rna_MeshStatVis_overhang_max, (PropertyRNA *)&rna_MeshStatVis_type,
+	-1, "overhang_min", 4194305, 0, 0, 4, 0, "Overhang Min",
+	"Minimum angle to display",
+	0, "*",
+	PROP_FLOAT, PROP_ANGLE | PROP_UNIT_ROTATION, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_EditMesh_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(MeshStatVis, overhang_min), 5, NULL},
+	MeshStatVis_overhang_min_get, MeshStatVis_overhang_min_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 3.1415927410f, 0.0f, 3.1415927410f, 10.0f, 3, 0.0f, NULL
+};
+
+FloatPropertyRNA rna_MeshStatVis_overhang_max = {
+	{(PropertyRNA *)&rna_MeshStatVis_overhang_axis, (PropertyRNA *)&rna_MeshStatVis_overhang_min,
+	-1, "overhang_max", 4194305, 0, 0, 4, 0, "Overhang Max",
+	"Maximum angle to display",
+	0, "*",
+	PROP_FLOAT, PROP_ANGLE | PROP_UNIT_ROTATION, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_EditMesh_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(MeshStatVis, overhang_max), 5, NULL},
+	MeshStatVis_overhang_max_get, MeshStatVis_overhang_max_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 3.1415927410f, 0.0f, 3.1415927410f, 10.0f, 3, 0.7853981853f, NULL
+};
+
+EnumPropertyRNA rna_MeshStatVis_overhang_axis = {
+	{(PropertyRNA *)&rna_MeshStatVis_thickness_min, (PropertyRNA *)&rna_MeshStatVis_overhang_max,
+	-1, "overhang_axis", 4194305, 0, 0, 4, 0, "Axis",
+	"",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_EditMesh_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(MeshStatVis, overhang_axis), 2, NULL},
+	MeshStatVis_overhang_axis_get, MeshStatVis_overhang_axis_set, NULL, NULL, NULL, rna_enum_object_axis_items, 6, 5
+};
+
+FloatPropertyRNA rna_MeshStatVis_thickness_min = {
+	{(PropertyRNA *)&rna_MeshStatVis_thickness_max, (PropertyRNA *)&rna_MeshStatVis_overhang_axis,
+	-1, "thickness_min", 4194305, 0, 0, 4, 0, "Thickness Min",
+	"Minimum for measuring thickness",
+	0, "*",
+	PROP_FLOAT, PROP_DISTANCE | PROP_UNIT_LENGTH, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_EditMesh_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(MeshStatVis, thickness_min), 5, NULL},
+	MeshStatVis_thickness_min_get, MeshStatVis_thickness_min_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 100.0f, 0.0f, 1000.0f, 0.0010000000f, 3, 0.0f, NULL
+};
+
+FloatPropertyRNA rna_MeshStatVis_thickness_max = {
+	{(PropertyRNA *)&rna_MeshStatVis_thickness_samples, (PropertyRNA *)&rna_MeshStatVis_thickness_min,
+	-1, "thickness_max", 4194305, 0, 0, 4, 0, "Thickness Max",
+	"Maximum for measuring thickness",
+	0, "*",
+	PROP_FLOAT, PROP_DISTANCE | PROP_UNIT_LENGTH, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_EditMesh_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(MeshStatVis, thickness_max), 5, NULL},
+	MeshStatVis_thickness_max_get, MeshStatVis_thickness_max_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 100.0f, 0.0f, 1000.0f, 0.0010000000f, 3, 0.1000000015f, NULL
+};
+
+IntPropertyRNA rna_MeshStatVis_thickness_samples = {
+	{(PropertyRNA *)&rna_MeshStatVis_distort_min, (PropertyRNA *)&rna_MeshStatVis_thickness_max,
+	-1, "thickness_samples", 4194305, 0, 0, 4, 0, "Samples",
+	"Number of samples to test per face",
+	0, "*",
+	PROP_INT, PROP_UNSIGNED | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_EditMesh_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(MeshStatVis, thickness_samples), 2, NULL},
+	MeshStatVis_thickness_samples_get, MeshStatVis_thickness_samples_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, 32, 1, 32, 1, 1, NULL
+};
+
+FloatPropertyRNA rna_MeshStatVis_distort_min = {
+	{(PropertyRNA *)&rna_MeshStatVis_distort_max, (PropertyRNA *)&rna_MeshStatVis_thickness_samples,
+	-1, "distort_min", 4194305, 0, 0, 4, 0, "Distort Min",
+	"Minimum angle to display",
+	0, "*",
+	PROP_FLOAT, PROP_ANGLE | PROP_UNIT_ROTATION, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_EditMesh_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(MeshStatVis, distort_min), 5, NULL},
+	MeshStatVis_distort_min_get, MeshStatVis_distort_min_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 3.1415927410f, 0.0f, 3.1415927410f, 10.0f, 3, 0.0872664601f, NULL
+};
+
+FloatPropertyRNA rna_MeshStatVis_distort_max = {
+	{(PropertyRNA *)&rna_MeshStatVis_sharp_min, (PropertyRNA *)&rna_MeshStatVis_distort_min,
+	-1, "distort_max", 4194305, 0, 0, 4, 0, "Distort Max",
+	"Maximum angle to display",
+	0, "*",
+	PROP_FLOAT, PROP_ANGLE | PROP_UNIT_ROTATION, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_EditMesh_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(MeshStatVis, distort_max), 5, NULL},
+	MeshStatVis_distort_max_get, MeshStatVis_distort_max_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 3.1415927410f, 0.0f, 3.1415927410f, 10.0f, 3, 0.7853981853f, NULL
+};
+
+FloatPropertyRNA rna_MeshStatVis_sharp_min = {
+	{(PropertyRNA *)&rna_MeshStatVis_sharp_max, (PropertyRNA *)&rna_MeshStatVis_distort_max,
+	-1, "sharp_min", 4194305, 0, 0, 4, 0, "Distort Min",
+	"Minimum angle to display",
+	0, "*",
+	PROP_FLOAT, PROP_ANGLE | PROP_UNIT_ROTATION, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_EditMesh_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(MeshStatVis, sharp_min), 5, NULL},
+	MeshStatVis_sharp_min_get, MeshStatVis_sharp_min_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -3.1415927410f, 3.1415927410f, -3.1415927410f, 3.1415927410f, 10.0f, 3, 1.5707963705f, NULL
+};
+
+FloatPropertyRNA rna_MeshStatVis_sharp_max = {
+	{NULL, (PropertyRNA *)&rna_MeshStatVis_sharp_min,
+	-1, "sharp_max", 4194305, 0, 0, 4, 0, "Distort Max",
+	"Maximum angle to display",
+	0, "*",
+	PROP_FLOAT, PROP_ANGLE | PROP_UNIT_ROTATION, NULL, 0, {0, 0, 0}, 0,
+	(UpdateFunc)rna_EditMesh_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(MeshStatVis, sharp_max), 5, NULL},
+	MeshStatVis_sharp_max_get, MeshStatVis_sharp_max_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -3.1415927410f, 3.1415927410f, -3.1415927410f, 3.1415927410f, 10.0f, 3, 3.1415927410f, NULL
+};
+
+StructRNA RNA_MeshStatVis = {
+	{(ContainerRNA *)&RNA_UnitSettings, (ContainerRNA *)&RNA_SequencerToolSettings,
+	NULL,
+	{(PropertyRNA *)&rna_MeshStatVis_rna_properties, (PropertyRNA *)&rna_MeshStatVis_sharp_max}},
+	"MeshStatVis", NULL, NULL, 516, NULL, "Mesh Visualize Statistics",
+	"",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_MeshStatVis_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	rna_MeshStatVis_path,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Unit Settings */
+CollectionPropertyRNA rna_UnitSettings_rna_properties = {
+	{(PropertyRNA *)&rna_UnitSettings_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	UnitSettings_rna_properties_begin, UnitSettings_rna_properties_next, UnitSettings_rna_properties_end, UnitSettings_rna_properties_get, NULL, NULL, UnitSettings_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_UnitSettings_rna_type = {
+	{(PropertyRNA *)&rna_UnitSettings_system, (PropertyRNA *)&rna_UnitSettings_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	UnitSettings_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+static const EnumPropertyItem rna_UnitSettings_system_items[4] = {
+	{0, "NONE", 0, "None", ""},
+	{1, "METRIC", 0, "Metric", ""},
+	{2, "IMPERIAL", 0, "Imperial", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_UnitSettings_system = {
+	{(PropertyRNA *)&rna_UnitSettings_system_rotation, (PropertyRNA *)&rna_UnitSettings_rna_type,
+	-1, "system", 1, 0, 0, 4, 0, "Unit System",
+	"The unit system to use for user interface controls",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_UnitSettings_system_update, 33554432, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(UnitSettings, system), 2, NULL},
+	UnitSettings_system_get, UnitSettings_system_set, NULL, NULL, NULL, rna_UnitSettings_system_items, 3, 0
+};
+
+static const EnumPropertyItem rna_UnitSettings_system_rotation_items[3] = {
+	{0, "DEGREES", 0, "Degrees", "Use degrees for measuring angles and rotations"},
+	{2, "RADIANS", 0, "Radians", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_UnitSettings_system_rotation = {
+	{(PropertyRNA *)&rna_UnitSettings_scale_length, (PropertyRNA *)&rna_UnitSettings_system,
+	-1, "system_rotation", 1, 0, 0, 4, 0, "Rotation Units",
+	"Unit to use for displaying/editing rotation values",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 33554432, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(UnitSettings, system_rotation), 2, NULL},
+	UnitSettings_system_rotation_get, UnitSettings_system_rotation_set, NULL, NULL, NULL, rna_UnitSettings_system_rotation_items, 2, 0
+};
+
+FloatPropertyRNA rna_UnitSettings_scale_length = {
+	{(PropertyRNA *)&rna_UnitSettings_use_separate, (PropertyRNA *)&rna_UnitSettings_system_rotation,
+	-1, "scale_length", 1, 0, 0, 4, 0, "Unit Scale",
+	"Scale to use when converting between blender units and dimensions. When working at microscopic or astronomical scale, a small or large unit scale respectively can be used to avoid numerical precision problems",
+	0, "*",
+	PROP_FLOAT, PROP_UNSIGNED | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 33554432, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(UnitSettings, scale_length), 5, NULL},
+	UnitSettings_scale_length_get, UnitSettings_scale_length_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0010000000f, 100.0f, 0.0000000010f, 1000000000.0f, 0.1000000015f, 6, 0.0f, NULL
+};
+
+BoolPropertyRNA rna_UnitSettings_use_separate = {
+	{(PropertyRNA *)&rna_UnitSettings_length_unit, (PropertyRNA *)&rna_UnitSettings_scale_length,
+	-1, "use_separate", 1, 0, 0, 0, 0, "Separate Units",
+	"Display units in pairs (e.g. 1m 0cm)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 33554432, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	UnitSettings_use_separate_get, UnitSettings_use_separate_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+EnumPropertyRNA rna_UnitSettings_length_unit = {
+	{(PropertyRNA *)&rna_UnitSettings_mass_unit, (PropertyRNA *)&rna_UnitSettings_use_separate,
+	-1, "length_unit", 1, 0, 0, 4, 0, "Length Unit",
+	"Unit that will be used to display length values",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 33554432, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(UnitSettings, length_unit), 2, NULL},
+	UnitSettings_length_unit_get, UnitSettings_length_unit_set, rna_UnitSettings_length_unit_itemf, NULL, NULL, DummyRNA_DEFAULT_items, 1, 0
+};
+
+EnumPropertyRNA rna_UnitSettings_mass_unit = {
+	{(PropertyRNA *)&rna_UnitSettings_time_unit, (PropertyRNA *)&rna_UnitSettings_length_unit,
+	-1, "mass_unit", 1, 0, 0, 4, 0, "Mass Unit",
+	"Unit that will be used to display mass values",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 33554432, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(UnitSettings, mass_unit), 2, NULL},
+	UnitSettings_mass_unit_get, UnitSettings_mass_unit_set, rna_UnitSettings_mass_unit_itemf, NULL, NULL, DummyRNA_DEFAULT_items, 1, 0
+};
+
+EnumPropertyRNA rna_UnitSettings_time_unit = {
+	{(PropertyRNA *)&rna_UnitSettings_temperature_unit, (PropertyRNA *)&rna_UnitSettings_mass_unit,
+	-1, "time_unit", 1, 0, 0, 4, 0, "Time Unit",
+	"Unit that will be used to display time values",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 33554432, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(UnitSettings, time_unit), 2, NULL},
+	UnitSettings_time_unit_get, UnitSettings_time_unit_set, rna_UnitSettings_time_unit_itemf, NULL, NULL, DummyRNA_DEFAULT_items, 1, 0
+};
+
+EnumPropertyRNA rna_UnitSettings_temperature_unit = {
+	{NULL, (PropertyRNA *)&rna_UnitSettings_time_unit,
+	-1, "temperature_unit", 1, 0, 0, 4, 0, "Temperature Unit",
+	"Unit that will be used to display temperature values",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 33554432, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(UnitSettings, temperature_unit), 2, NULL},
+	UnitSettings_temperature_unit_get, UnitSettings_temperature_unit_set, rna_UnitSettings_temperature_unit_itemf, NULL, NULL, DummyRNA_DEFAULT_items, 1, 0
+};
+
+StructRNA RNA_UnitSettings = {
+	{(ContainerRNA *)&RNA_Stereo3dFormat, (ContainerRNA *)&RNA_MeshStatVis,
+	NULL,
+	{(PropertyRNA *)&rna_UnitSettings_rna_properties, (PropertyRNA *)&rna_UnitSettings_temperature_unit}},
+	"UnitSettings", NULL, NULL, 516, NULL, "Unit Settings",
+	"",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_UnitSettings_rna_properties,
+	NULL,
+	&RNA_Scene,
+	NULL,
+	rna_UnitSettings_path,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Stereo Output */
+CollectionPropertyRNA rna_Stereo3dFormat_rna_properties = {
+	{(PropertyRNA *)&rna_Stereo3dFormat_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Stereo3dFormat_rna_properties_begin, Stereo3dFormat_rna_properties_next, Stereo3dFormat_rna_properties_end, Stereo3dFormat_rna_properties_get, NULL, NULL, Stereo3dFormat_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_Stereo3dFormat_rna_type = {
+	{(PropertyRNA *)&rna_Stereo3dFormat_display_mode, (PropertyRNA *)&rna_Stereo3dFormat_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Stereo3dFormat_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+static const EnumPropertyItem rna_Stereo3dFormat_display_mode_items[5] = {
+	{0, "ANAGLYPH", 0, "Anaglyph", "Render views for left and right eyes as two differently filtered colors in a single image (anaglyph glasses are required)"},
+	{1, "INTERLACE", 0, "Interlace", "Render views for left and right eyes interlaced in a single image (3D-ready monitor is required)"},
+	{3, "SIDEBYSIDE", 0, "Side-by-Side", "Render views for left and right eyes side-by-side"},
+	{4, "TOPBOTTOM", 0, "Top-Bottom", "Render views for left and right eyes one above another"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_Stereo3dFormat_display_mode = {
+	{(PropertyRNA *)&rna_Stereo3dFormat_anaglyph_type, (PropertyRNA *)&rna_Stereo3dFormat_rna_type,
+	-1, "display_mode", 1, 0, 0, 4, 0, "Stereo Mode",
+	"",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Stereo3dFormat_update, 187891712, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(Stereo3dFormat, display_mode), 2, NULL},
+	Stereo3dFormat_display_mode_get, Stereo3dFormat_display_mode_set, NULL, NULL, NULL, rna_Stereo3dFormat_display_mode_items, 4, 0
+};
+
+EnumPropertyRNA rna_Stereo3dFormat_anaglyph_type = {
+	{(PropertyRNA *)&rna_Stereo3dFormat_interlace_type, (PropertyRNA *)&rna_Stereo3dFormat_display_mode,
+	-1, "anaglyph_type", 1, 0, 0, 4, 0, "Anaglyph Type",
+	"",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Stereo3dFormat_update, 187891712, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(Stereo3dFormat, anaglyph_type), 2, NULL},
+	Stereo3dFormat_anaglyph_type_get, Stereo3dFormat_anaglyph_type_set, NULL, NULL, NULL, rna_enum_stereo3d_anaglyph_type_items, 3, 0
+};
+
+EnumPropertyRNA rna_Stereo3dFormat_interlace_type = {
+	{(PropertyRNA *)&rna_Stereo3dFormat_use_interlace_swap, (PropertyRNA *)&rna_Stereo3dFormat_anaglyph_type,
+	-1, "interlace_type", 1, 0, 0, 4, 0, "Interlace Type",
+	"",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Stereo3dFormat_update, 187891712, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(Stereo3dFormat, interlace_type), 2, NULL},
+	Stereo3dFormat_interlace_type_get, Stereo3dFormat_interlace_type_set, NULL, NULL, NULL, rna_enum_stereo3d_interlace_type_items, 3, 0
+};
+
+BoolPropertyRNA rna_Stereo3dFormat_use_interlace_swap = {
+	{(PropertyRNA *)&rna_Stereo3dFormat_use_sidebyside_crosseyed, (PropertyRNA *)&rna_Stereo3dFormat_interlace_type,
+	-1, "use_interlace_swap", 1, 0, 0, 0, 0, "Swap Left/Right",
+	"Swap left and right stereo channels",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Stereo3dFormat_update, 187891712, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Stereo3dFormat_use_interlace_swap_get, Stereo3dFormat_use_interlace_swap_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_Stereo3dFormat_use_sidebyside_crosseyed = {
+	{(PropertyRNA *)&rna_Stereo3dFormat_use_squeezed_frame, (PropertyRNA *)&rna_Stereo3dFormat_use_interlace_swap,
+	-1, "use_sidebyside_crosseyed", 1, 0, 0, 0, 0, "Cross-Eyed",
+	"Right eye should see left image and vice versa",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Stereo3dFormat_update, 187891712, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Stereo3dFormat_use_sidebyside_crosseyed_get, Stereo3dFormat_use_sidebyside_crosseyed_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_Stereo3dFormat_use_squeezed_frame = {
+	{NULL, (PropertyRNA *)&rna_Stereo3dFormat_use_sidebyside_crosseyed,
+	-1, "use_squeezed_frame", 1, 0, 0, 0, 0, "Squeezed Frame",
+	"Combine both views in a squeezed image",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Stereo3dFormat_update, 187891712, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Stereo3dFormat_use_squeezed_frame_get, Stereo3dFormat_use_squeezed_frame_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+StructRNA RNA_Stereo3dFormat = {
+	{(ContainerRNA *)&RNA_ImageFormatSettings, (ContainerRNA *)&RNA_UnitSettings,
+	NULL,
+	{(PropertyRNA *)&rna_Stereo3dFormat_rna_properties, (PropertyRNA *)&rna_Stereo3dFormat_use_squeezed_frame}},
+	"Stereo3dFormat", NULL, NULL, 512, NULL, "Stereo Output",
+	"Settings for stereo output",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_Stereo3dFormat_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Image Format */
+CollectionPropertyRNA rna_ImageFormatSettings_rna_properties = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ImageFormatSettings_rna_properties_begin, ImageFormatSettings_rna_properties_next, ImageFormatSettings_rna_properties_end, ImageFormatSettings_rna_properties_get, NULL, NULL, ImageFormatSettings_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_ImageFormatSettings_rna_type = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_file_format, (PropertyRNA *)&rna_ImageFormatSettings_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ImageFormatSettings_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+EnumPropertyRNA rna_ImageFormatSettings_file_format = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_color_mode, (PropertyRNA *)&rna_ImageFormatSettings_rna_type,
+	-1, "file_format", 1, 0, 0, 0, 0, "File Format",
+	"File format to save the rendered images as",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ImageFormatSettings_file_format_get, ImageFormatSettings_file_format_set, rna_ImageFormatSettings_file_format_itemf, NULL, NULL, rna_enum_image_type_items, 20, 17
+};
+
+EnumPropertyRNA rna_ImageFormatSettings_color_mode = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_color_depth, (PropertyRNA *)&rna_ImageFormatSettings_file_format,
+	-1, "color_mode", 1, 0, 0, 4, 0, "Color Mode",
+	"Choose BW for saving grayscale images, RGB for saving red, green and blue channels, and RGBA for saving red, green, blue and alpha channels",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ImageFormatData, planes), 2, NULL},
+	ImageFormatSettings_color_mode_get, ImageFormatSettings_color_mode_set, rna_ImageFormatSettings_color_mode_itemf, NULL, NULL, rna_enum_image_color_mode_items, 3, 8
+};
+
+EnumPropertyRNA rna_ImageFormatSettings_color_depth = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_quality, (PropertyRNA *)&rna_ImageFormatSettings_color_mode,
+	-1, "color_depth", 1, 0, 0, 4, 0, "Color Depth",
+	"Bit depth per channel",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ImageFormatData, depth), 2, NULL},
+	ImageFormatSettings_color_depth_get, ImageFormatSettings_color_depth_set, rna_ImageFormatSettings_color_depth_itemf, NULL, NULL, rna_enum_image_color_depth_items, 5, 2
+};
+
+IntPropertyRNA rna_ImageFormatSettings_quality = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_compression, (PropertyRNA *)&rna_ImageFormatSettings_color_depth,
+	-1, "quality", 1, 0, 0, 4, 0, "Quality",
+	"Quality for image formats that support lossy compression",
+	0, "*",
+	PROP_INT, PROP_PERCENTAGE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ImageFormatData, quality), 2, NULL},
+	ImageFormatSettings_quality_get, ImageFormatSettings_quality_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 100, 0, 100, 1, 90, NULL
+};
+
+IntPropertyRNA rna_ImageFormatSettings_compression = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_use_zbuffer, (PropertyRNA *)&rna_ImageFormatSettings_quality,
+	-1, "compression", 1, 0, 0, 4, 0, "Compression",
+	"Amount of time to determine best compression: 0 = no compression with fast file output, 100 = maximum lossless compression with slow file output",
+	0, "*",
+	PROP_INT, PROP_PERCENTAGE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ImageFormatData, compress), 2, NULL},
+	ImageFormatSettings_compression_get, ImageFormatSettings_compression_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 100, 0, 100, 1, 15, NULL
+};
+
+BoolPropertyRNA rna_ImageFormatSettings_use_zbuffer = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_use_preview, (PropertyRNA *)&rna_ImageFormatSettings_compression,
+	-1, "use_zbuffer", 1, 0, 0, 0, 0, "Z Buffer",
+	"Save the z-depth per pixel (32-bit unsigned integer z-buffer)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ImageFormatSettings_use_zbuffer_get, ImageFormatSettings_use_zbuffer_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ImageFormatSettings_use_preview = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_exr_codec, (PropertyRNA *)&rna_ImageFormatSettings_use_zbuffer,
+	-1, "use_preview", 1, 0, 0, 0, 0, "Preview",
+	"When rendering animations, save JPG preview images in same directory",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ImageFormatSettings_use_preview_get, ImageFormatSettings_use_preview_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+EnumPropertyRNA rna_ImageFormatSettings_exr_codec = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_use_jpeg2k_ycc, (PropertyRNA *)&rna_ImageFormatSettings_use_preview,
+	-1, "exr_codec", 1, 0, 0, 4, 0, "Codec",
+	"Codec settings for OpenEXR",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ImageFormatData, exr_codec), 2, NULL},
+	ImageFormatSettings_exr_codec_get, ImageFormatSettings_exr_codec_set, rna_ImageFormatSettings_exr_codec_itemf, NULL, NULL, rna_enum_exr_codec_items, 10, 0
+};
+
+BoolPropertyRNA rna_ImageFormatSettings_use_jpeg2k_ycc = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_use_jpeg2k_cinema_preset, (PropertyRNA *)&rna_ImageFormatSettings_exr_codec,
+	-1, "use_jpeg2k_ycc", 1, 0, 0, 0, 0, "YCC",
+	"Save luminance-chrominance-chrominance channels instead of RGB colors",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ImageFormatSettings_use_jpeg2k_ycc_get, ImageFormatSettings_use_jpeg2k_ycc_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ImageFormatSettings_use_jpeg2k_cinema_preset = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_use_jpeg2k_cinema_48, (PropertyRNA *)&rna_ImageFormatSettings_use_jpeg2k_ycc,
+	-1, "use_jpeg2k_cinema_preset", 1, 0, 0, 0, 0, "Cinema",
+	"Use Openjpeg Cinema Preset",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ImageFormatSettings_use_jpeg2k_cinema_preset_get, ImageFormatSettings_use_jpeg2k_cinema_preset_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ImageFormatSettings_use_jpeg2k_cinema_48 = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_jpeg2k_codec, (PropertyRNA *)&rna_ImageFormatSettings_use_jpeg2k_cinema_preset,
+	-1, "use_jpeg2k_cinema_48", 1, 0, 0, 0, 0, "Cinema (48)",
+	"Use Openjpeg Cinema Preset (48fps)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ImageFormatSettings_use_jpeg2k_cinema_48_get, ImageFormatSettings_use_jpeg2k_cinema_48_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+static const EnumPropertyItem rna_ImageFormatSettings_jpeg2k_codec_items[3] = {
+	{0, "JP2", 0, "JP2", ""},
+	{1, "J2K", 0, "J2K", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_ImageFormatSettings_jpeg2k_codec = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_tiff_codec, (PropertyRNA *)&rna_ImageFormatSettings_use_jpeg2k_cinema_48,
+	-1, "jpeg2k_codec", 1, 0, 0, 4, 0, "Codec",
+	"Codec settings for Jpeg2000",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ImageFormatData, jp2_codec), 2, NULL},
+	ImageFormatSettings_jpeg2k_codec_get, ImageFormatSettings_jpeg2k_codec_set, NULL, NULL, NULL, rna_ImageFormatSettings_jpeg2k_codec_items, 2, 0
+};
+
+static const EnumPropertyItem rna_ImageFormatSettings_tiff_codec_items[5] = {
+	{3, "NONE", 0, "None", ""},
+	{0, "DEFLATE", 0, "Deflate", ""},
+	{1, "LZW", 0, "LZW", ""},
+	{2, "PACKBITS", 0, "Pack Bits", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_ImageFormatSettings_tiff_codec = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_use_cineon_log, (PropertyRNA *)&rna_ImageFormatSettings_jpeg2k_codec,
+	-1, "tiff_codec", 1, 0, 0, 4, 0, "Compression",
+	"Compression mode for TIFF",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ImageFormatData, tiff_codec), 2, NULL},
+	ImageFormatSettings_tiff_codec_get, ImageFormatSettings_tiff_codec_set, NULL, NULL, NULL, rna_ImageFormatSettings_tiff_codec_items, 4, 0
+};
+
+BoolPropertyRNA rna_ImageFormatSettings_use_cineon_log = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_cineon_black, (PropertyRNA *)&rna_ImageFormatSettings_tiff_codec,
+	-1, "use_cineon_log", 1, 0, 0, 0, 0, "Log",
+	"Convert to logarithmic color space",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ImageFormatSettings_use_cineon_log_get, ImageFormatSettings_use_cineon_log_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+IntPropertyRNA rna_ImageFormatSettings_cineon_black = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_cineon_white, (PropertyRNA *)&rna_ImageFormatSettings_use_cineon_log,
+	-1, "cineon_black", 1, 0, 0, 4, 0, "B",
+	"Log conversion reference blackpoint",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ImageFormatData, cineon_black), 1, NULL},
+	ImageFormatSettings_cineon_black_get, ImageFormatSettings_cineon_black_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 1024, 0, 1024, 1, 0, NULL
+};
+
+IntPropertyRNA rna_ImageFormatSettings_cineon_white = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_cineon_gamma, (PropertyRNA *)&rna_ImageFormatSettings_cineon_black,
+	-1, "cineon_white", 1, 0, 0, 4, 0, "W",
+	"Log conversion reference whitepoint",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ImageFormatData, cineon_white), 1, NULL},
+	ImageFormatSettings_cineon_white_get, ImageFormatSettings_cineon_white_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 1024, 0, 1024, 1, 0, NULL
+};
+
+FloatPropertyRNA rna_ImageFormatSettings_cineon_gamma = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_views_format, (PropertyRNA *)&rna_ImageFormatSettings_cineon_white,
+	-1, "cineon_gamma", 1, 0, 0, 4, 0, "G",
+	"Log conversion gamma",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ImageFormatData, cineon_gamma), 5, NULL},
+	ImageFormatSettings_cineon_gamma_get, ImageFormatSettings_cineon_gamma_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 10.0f, 0.0f, 10.0f, 10.0f, 3, 0.0f, NULL
+};
+
+EnumPropertyRNA rna_ImageFormatSettings_views_format = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_stereo_3d_format, (PropertyRNA *)&rna_ImageFormatSettings_cineon_gamma,
+	-1, "views_format", 1, 0, 0, 4, 0, "Views Format",
+	"Format of multiview media",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ImageFormatData, views_format), 2, NULL},
+	ImageFormatSettings_views_format_get, ImageFormatSettings_views_format_set, rna_ImageFormatSettings_views_format_itemf, NULL, NULL, rna_enum_views_format_items, 2, 0
+};
+
+PointerPropertyRNA rna_ImageFormatSettings_stereo_3d_format = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_color_management, (PropertyRNA *)&rna_ImageFormatSettings_views_format,
+	-1, "stereo_3d_format", 8650752, 0, 0, 0, 0, "Stereo 3D Format",
+	"Settings for stereo 3D",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ImageFormatSettings_stereo_3d_format_get, NULL, NULL, NULL,&RNA_Stereo3dFormat
+};
+
+static const EnumPropertyItem rna_ImageFormatSettings_color_management_items[3] = {
+	{0, "FOLLOW_SCENE", 0, "Follow Scene", ""},
+	{1, "OVERRIDE", 0, "Override", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_ImageFormatSettings_color_management = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_view_settings, (PropertyRNA *)&rna_ImageFormatSettings_stereo_3d_format,
+	-1, "color_management", 1, 0, 0, 0, 0, "Color Management",
+	"Which color management settings to use for file saving",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ImageFormatSettings_color_management_get, ImageFormatSettings_color_management_set, NULL, NULL, NULL, rna_ImageFormatSettings_color_management_items, 2, 0
+};
+
+PointerPropertyRNA rna_ImageFormatSettings_view_settings = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_display_settings, (PropertyRNA *)&rna_ImageFormatSettings_color_management,
+	-1, "view_settings", 8388608, 0, 0, 0, 0, "View Settings",
+	"Color management settings applied on image before saving",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ImageFormatSettings_view_settings_get, NULL, NULL, NULL,&RNA_ColorManagedViewSettings
+};
+
+PointerPropertyRNA rna_ImageFormatSettings_display_settings = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_linear_colorspace_settings, (PropertyRNA *)&rna_ImageFormatSettings_view_settings,
+	-1, "display_settings", 8388608, 0, 0, 0, 0, "Display Settings",
+	"Settings of device saved image would be displayed on",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ImageFormatSettings_display_settings_get, NULL, NULL, NULL,&RNA_ColorManagedDisplaySettings
+};
+
+PointerPropertyRNA rna_ImageFormatSettings_linear_colorspace_settings = {
+	{(PropertyRNA *)&rna_ImageFormatSettings_has_linear_colorspace, (PropertyRNA *)&rna_ImageFormatSettings_display_settings,
+	-1, "linear_colorspace_settings", 8388608, 0, 0, 0, 0, "Color Space Settings",
+	"Output color space settings",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ImageFormatSettings_linear_colorspace_settings_get, NULL, NULL, NULL,&RNA_ColorManagedInputColorspaceSettings
+};
+
+BoolPropertyRNA rna_ImageFormatSettings_has_linear_colorspace = {
+	{NULL, (PropertyRNA *)&rna_ImageFormatSettings_linear_colorspace_settings,
+	-1, "has_linear_colorspace", 0, 0, 0, 0, 0, "Has Linear Color Space",
+	"File format expects linear color space",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ImageFormatSettings_has_linear_colorspace_get, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+StructRNA RNA_ImageFormatSettings = {
+	{(ContainerRNA *)&RNA_TransformOrientation, (ContainerRNA *)&RNA_Stereo3dFormat,
+	NULL,
+	{(PropertyRNA *)&rna_ImageFormatSettings_rna_properties, (PropertyRNA *)&rna_ImageFormatSettings_has_linear_colorspace}},
+	"ImageFormatSettings", NULL, NULL, 516, NULL, "Image Format",
+	"Settings for image formats",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_ImageFormatSettings_rna_properties,
+	NULL,
+	&RNA_Scene,
+	NULL,
+	rna_ImageFormatSettings_path,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* TransformOrientation */
+CollectionPropertyRNA rna_TransformOrientation_rna_properties = {
+	{(PropertyRNA *)&rna_TransformOrientation_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	TransformOrientation_rna_properties_begin, TransformOrientation_rna_properties_next, TransformOrientation_rna_properties_end, TransformOrientation_rna_properties_get, NULL, NULL, TransformOrientation_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_TransformOrientation_rna_type = {
+	{(PropertyRNA *)&rna_TransformOrientation_matrix, (PropertyRNA *)&rna_TransformOrientation_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	TransformOrientation_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+static float rna_TransformOrientation_matrix_default[9] = {
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f
+};
+
+FloatPropertyRNA rna_TransformOrientation_matrix = {
+	{(PropertyRNA *)&rna_TransformOrientation_name, (PropertyRNA *)&rna_TransformOrientation_rna_type,
+	-1, "matrix", 1, 0, 0, 4, 0, "matrix",
+	"",
+	0, "*",
+	PROP_FLOAT, PROP_MATRIX | PROP_UNIT_NONE, NULL, 2, {3, 3, 0}, 9,
+	NULL, 85065728, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(TransformOrientation, mat), 5, NULL},
+	NULL, NULL, TransformOrientation_matrix_get, TransformOrientation_matrix_set, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -10000.0f, 10000.0f, -FLT_MAX, FLT_MAX, 10.0f, 3, 0.0f, rna_TransformOrientation_matrix_default
+};
+
+StringPropertyRNA rna_TransformOrientation_name = {
+	{NULL, (PropertyRNA *)&rna_TransformOrientation_matrix,
+	-1, "name", 262145, 0, 0, 0, 0, "Name",
+	"Name of the custom transform orientation",
+	0, "*",
+	PROP_STRING, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {64, 0, 0}, 0,
+	NULL, 85065728, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	TransformOrientation_name_get, TransformOrientation_name_length, TransformOrientation_name_set, NULL, NULL, NULL, NULL, 0, 64, ""
+};
+
+StructRNA RNA_TransformOrientation = {
+	{(ContainerRNA *)&RNA_TransformOrientationSlot, (ContainerRNA *)&RNA_ImageFormatSettings,
+	NULL,
+	{(PropertyRNA *)&rna_TransformOrientation_rna_properties, (PropertyRNA *)&rna_TransformOrientation_name}},
+	"TransformOrientation", NULL, NULL, 516, NULL, "TransformOrientation",
+	"",
+	"*", 17,
+	(PropertyRNA *)&rna_TransformOrientation_name, (PropertyRNA *)&rna_TransformOrientation_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Orientation Slot */
+CollectionPropertyRNA rna_TransformOrientationSlot_rna_properties = {
+	{(PropertyRNA *)&rna_TransformOrientationSlot_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	TransformOrientationSlot_rna_properties_begin, TransformOrientationSlot_rna_properties_next, TransformOrientationSlot_rna_properties_end, TransformOrientationSlot_rna_properties_get, NULL, NULL, TransformOrientationSlot_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_TransformOrientationSlot_rna_type = {
+	{(PropertyRNA *)&rna_TransformOrientationSlot_type, (PropertyRNA *)&rna_TransformOrientationSlot_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	TransformOrientationSlot_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+EnumPropertyRNA rna_TransformOrientationSlot_type = {
+	{(PropertyRNA *)&rna_TransformOrientationSlot_custom_orientation, (PropertyRNA *)&rna_TransformOrientationSlot_rna_type,
+	-1, "type", 1, 0, 0, 0, 0, "Orientation",
+	"Transformation orientation",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 85065728, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	TransformOrientationSlot_type_get, TransformOrientationSlot_type_set, rna_TransformOrientation_with_scene_itemf, NULL, NULL, rna_enum_transform_orientation_items, 6, 0
+};
+
+PointerPropertyRNA rna_TransformOrientationSlot_custom_orientation = {
+	{(PropertyRNA *)&rna_TransformOrientationSlot_use, (PropertyRNA *)&rna_TransformOrientationSlot_type,
+	-1, "custom_orientation", 8388608, 0, 0, 0, 0, "Current Transform Orientation",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	TransformOrientationSlot_custom_orientation_get, NULL, NULL, NULL,&RNA_TransformOrientation
+};
+
+BoolPropertyRNA rna_TransformOrientationSlot_use = {
+	{NULL, (PropertyRNA *)&rna_TransformOrientationSlot_custom_orientation,
+	-1, "use", 1, 0, 0, 0, 0, "Use",
+	"Use scene orientation instead of a custom setting",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84869120, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	TransformOrientationSlot_use_get, TransformOrientationSlot_use_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+StructRNA RNA_TransformOrientationSlot = {
+	{(ContainerRNA *)&RNA_View3DCursor, (ContainerRNA *)&RNA_TransformOrientation,
+	NULL,
+	{(PropertyRNA *)&rna_TransformOrientationSlot_rna_properties, (PropertyRNA *)&rna_TransformOrientationSlot_use}},
+	"TransformOrientationSlot", NULL, NULL, 516, NULL, "Orientation Slot",
+	"",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_TransformOrientationSlot_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	rna_TransformOrientationSlot_path,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* 3D Cursor */
+CollectionPropertyRNA rna_View3DCursor_rna_properties = {
+	{(PropertyRNA *)&rna_View3DCursor_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	View3DCursor_rna_properties_begin, View3DCursor_rna_properties_next, View3DCursor_rna_properties_end, View3DCursor_rna_properties_get, NULL, NULL, View3DCursor_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_View3DCursor_rna_type = {
+	{(PropertyRNA *)&rna_View3DCursor_location, (PropertyRNA *)&rna_View3DCursor_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	View3DCursor_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+static float rna_View3DCursor_location_default[3] = {
+	0.0f,
+	0.0f,
+	0.0f
+};
+
+FloatPropertyRNA rna_View3DCursor_location = {
+	{(PropertyRNA *)&rna_View3DCursor_rotation_quaternion, (PropertyRNA *)&rna_View3DCursor_rna_type,
+	-1, "location", 1, 0, 0, 4, 0, "Location",
+	"",
+	0, "*",
+	PROP_FLOAT, PROP_XYZ | PROP_UNIT_LENGTH, NULL, 1, {3, 0, 0}, 3,
+	NULL, 33554432, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(View3DCursor, location), 5, NULL},
+	NULL, NULL, View3DCursor_location_get, View3DCursor_location_set, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -10000.0f, 10000.0f, -FLT_MAX, FLT_MAX, 10.0f, 4, 0.0f, rna_View3DCursor_location_default
+};
+
+static float rna_View3DCursor_rotation_quaternion_default[4] = {
+	1.0f,
+	0.0f,
+	0.0f,
+	0.0f
+};
+
+FloatPropertyRNA rna_View3DCursor_rotation_quaternion = {
+	{(PropertyRNA *)&rna_View3DCursor_rotation_axis_angle, (PropertyRNA *)&rna_View3DCursor_location,
+	-1, "rotation_quaternion", 1, 0, 0, 4, 0, "Quaternion Rotation",
+	"Rotation in quaternions (keep normalized)",
+	0, "*",
+	PROP_FLOAT, PROP_QUATERNION | PROP_UNIT_NONE, NULL, 1, {4, 0, 0}, 4,
+	NULL, 33554432, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(View3DCursor, rotation_quaternion), 5, NULL},
+	NULL, NULL, View3DCursor_rotation_quaternion_get, View3DCursor_rotation_quaternion_set, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -10000.0f, 10000.0f, -FLT_MAX, FLT_MAX, 10.0f, 3, 0.0f, rna_View3DCursor_rotation_quaternion_default
+};
+
+static float rna_View3DCursor_rotation_axis_angle_default[4] = {
+	0.0f,
+	0.0f,
+	1.0f,
+	0.0f
+};
+
+FloatPropertyRNA rna_View3DCursor_rotation_axis_angle = {
+	{(PropertyRNA *)&rna_View3DCursor_rotation_euler, (PropertyRNA *)&rna_View3DCursor_rotation_quaternion,
+	-1, "rotation_axis_angle", 1, 0, 0, 0, 0, "Axis-Angle Rotation",
+	"Angle of Rotation for Axis-Angle rotation representation",
+	0, "*",
+	PROP_FLOAT, PROP_AXISANGLE | PROP_UNIT_NONE, NULL, 1, {4, 0, 0}, 4,
+	NULL, 33554432, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, View3DCursor_rotation_axis_angle_get, View3DCursor_rotation_axis_angle_set, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -10000.0f, 10000.0f, -FLT_MAX, FLT_MAX, 10.0f, 3, 0.0f, rna_View3DCursor_rotation_axis_angle_default
+};
+
+static float rna_View3DCursor_rotation_euler_default[3] = {
+	0.0f,
+	0.0f,
+	0.0f
+};
+
+FloatPropertyRNA rna_View3DCursor_rotation_euler = {
+	{(PropertyRNA *)&rna_View3DCursor_rotation_mode, (PropertyRNA *)&rna_View3DCursor_rotation_axis_angle,
+	-1, "rotation_euler", 1, 0, 0, 4, 0, "Euler Rotation",
+	"3D rotation",
+	0, "*",
+	PROP_FLOAT, PROP_EULER | PROP_UNIT_ROTATION, NULL, 1, {3, 0, 0}, 3,
+	NULL, 33554432, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(View3DCursor, rotation_euler), 5, NULL},
+	NULL, NULL, View3DCursor_rotation_euler_get, View3DCursor_rotation_euler_set, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -10000.0f, 10000.0f, -FLT_MAX, FLT_MAX, 10.0f, 3, 0.0f, rna_View3DCursor_rotation_euler_default
+};
+
+EnumPropertyRNA rna_View3DCursor_rotation_mode = {
+	{(PropertyRNA *)&rna_View3DCursor_matrix, (PropertyRNA *)&rna_View3DCursor_rotation_euler,
+	-1, "rotation_mode", 1, 0, 0, 0, 0, "Rotation Mode",
+	"",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 33554432, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	View3DCursor_rotation_mode_get, View3DCursor_rotation_mode_set, NULL, NULL, NULL, rna_enum_object_rotation_mode_items, 8, 1
+};
+
+static float rna_View3DCursor_matrix_default[16] = {
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f,
+	0.0f
+};
+
+FloatPropertyRNA rna_View3DCursor_matrix = {
+	{NULL, (PropertyRNA *)&rna_View3DCursor_rotation_mode,
+	-1, "matrix", 8388609, 0, 0, 0, 0, "Transform Matrix",
+	"Matrix combining location and rotation of the cursor",
+	0, "*",
+	PROP_FLOAT, PROP_MATRIX | PROP_UNIT_NONE, NULL, 2, {4, 4, 0}, 16,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, View3DCursor_matrix_get, View3DCursor_matrix_set, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -10000.0f, 10000.0f, -FLT_MAX, FLT_MAX, 10.0f, 3, 0.0f, rna_View3DCursor_matrix_default
+};
+
+StructRNA RNA_View3DCursor = {
+	{(ContainerRNA *)&RNA_SelectedUvElement, (ContainerRNA *)&RNA_TransformOrientationSlot,
+	NULL,
+	{(PropertyRNA *)&rna_View3DCursor_rna_properties, (PropertyRNA *)&rna_View3DCursor_matrix}},
+	"View3DCursor", NULL, NULL, 512, NULL, "3D Cursor",
+	"",
+	"*", 550,
+	NULL, (PropertyRNA *)&rna_View3DCursor_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	rna_View3DCursor_path,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Selected UV Element */
+IntPropertyRNA rna_SelectedUvElement_element_index = {
+	{(PropertyRNA *)&rna_SelectedUvElement_face_index, NULL,
+	-1, "element_index", 1025, 0, 0, 0, 0, "Element Index",
+	"",
+	0, "*",
+	PROP_INT, PROP_UNSIGNED | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 10000, 0, INT_MAX, 1, 0, NULL
+};
+
+IntPropertyRNA rna_SelectedUvElement_face_index = {
+	{NULL, (PropertyRNA *)&rna_SelectedUvElement_element_index,
+	-1, "face_index", 1025, 0, 0, 0, 0, "Face Index",
+	"",
+	0, "*",
+	PROP_INT, PROP_UNSIGNED | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 10000, 0, INT_MAX, 1, 0, NULL
+};
+
+StructRNA RNA_SelectedUvElement = {
+	{(ContainerRNA *)&RNA_DisplaySafeAreas, (ContainerRNA *)&RNA_View3DCursor,
+	NULL,
+	{(PropertyRNA *)&rna_SelectedUvElement_element_index, (PropertyRNA *)&rna_SelectedUvElement_face_index}},
+	"SelectedUvElement", NULL, NULL, 516, NULL, "Selected UV Element",
+	"",
+	"*", 17,
+	(PropertyRNA *)&rna_PropertyGroup_name, (PropertyRNA *)&rna_PropertyGroup_rna_properties,
+	&RNA_PropertyGroup,
+	NULL,
+	rna_PropertyGroup_refine,
+	NULL,
+	rna_PropertyGroup_register,
+	rna_PropertyGroup_unregister,
+	NULL,
+	rna_PropertyGroup_idprops,
+	{NULL, NULL}
+};
+
+/* Safe Areas */
+CollectionPropertyRNA rna_DisplaySafeAreas_rna_properties = {
+	{(PropertyRNA *)&rna_DisplaySafeAreas_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	DisplaySafeAreas_rna_properties_begin, DisplaySafeAreas_rna_properties_next, DisplaySafeAreas_rna_properties_end, DisplaySafeAreas_rna_properties_get, NULL, NULL, DisplaySafeAreas_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_DisplaySafeAreas_rna_type = {
+	{(PropertyRNA *)&rna_DisplaySafeAreas_title, (PropertyRNA *)&rna_DisplaySafeAreas_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	DisplaySafeAreas_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+static float rna_DisplaySafeAreas_title_default[2] = {
+	0.1000000015f,
+	0.0500000007f
+};
+
+FloatPropertyRNA rna_DisplaySafeAreas_title = {
+	{(PropertyRNA *)&rna_DisplaySafeAreas_action, (PropertyRNA *)&rna_DisplaySafeAreas_rna_type,
+	-1, "title", 1, 0, 0, 4, 0, "Title Safe Margins",
+	"Safe area for text and graphics",
+	0, "*",
+	PROP_FLOAT, PROP_XYZ | PROP_UNIT_NONE, NULL, 1, {2, 0, 0}, 2,
+	NULL, 85917696, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(DisplaySafeAreas, title), 5, NULL},
+	NULL, NULL, DisplaySafeAreas_title_get, DisplaySafeAreas_title_set, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 0.0f, rna_DisplaySafeAreas_title_default
+};
+
+static float rna_DisplaySafeAreas_action_default[2] = {
+	0.0350000001f,
+	0.0350000001f
+};
+
+FloatPropertyRNA rna_DisplaySafeAreas_action = {
+	{(PropertyRNA *)&rna_DisplaySafeAreas_title_center, (PropertyRNA *)&rna_DisplaySafeAreas_title,
+	-1, "action", 1, 0, 0, 4, 0, "Action Safe Margins",
+	"Safe area for general elements",
+	0, "*",
+	PROP_FLOAT, PROP_XYZ | PROP_UNIT_NONE, NULL, 1, {2, 0, 0}, 2,
+	NULL, 85917696, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(DisplaySafeAreas, action), 5, NULL},
+	NULL, NULL, DisplaySafeAreas_action_get, DisplaySafeAreas_action_set, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 0.0f, rna_DisplaySafeAreas_action_default
+};
+
+static float rna_DisplaySafeAreas_title_center_default[2] = {
+	0.1749999970f,
+	0.0500000007f
+};
+
+FloatPropertyRNA rna_DisplaySafeAreas_title_center = {
+	{(PropertyRNA *)&rna_DisplaySafeAreas_action_center, (PropertyRNA *)&rna_DisplaySafeAreas_action,
+	-1, "title_center", 1, 0, 0, 4, 0, "Center Title Safe Margins",
+	"Safe area for text and graphics in a different aspect ratio",
+	0, "*",
+	PROP_FLOAT, PROP_XYZ | PROP_UNIT_NONE, NULL, 1, {2, 0, 0}, 2,
+	NULL, 85917696, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(DisplaySafeAreas, title_center), 5, NULL},
+	NULL, NULL, DisplaySafeAreas_title_center_get, DisplaySafeAreas_title_center_set, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 0.0f, rna_DisplaySafeAreas_title_center_default
+};
+
+static float rna_DisplaySafeAreas_action_center_default[2] = {
+	0.1500000060f,
+	0.0500000007f
+};
+
+FloatPropertyRNA rna_DisplaySafeAreas_action_center = {
+	{NULL, (PropertyRNA *)&rna_DisplaySafeAreas_title_center,
+	-1, "action_center", 1, 0, 0, 4, 0, "Center Action Safe Margins",
+	"Safe area for general elements in a different aspect ratio",
+	0, "*",
+	PROP_FLOAT, PROP_XYZ | PROP_UNIT_NONE, NULL, 1, {2, 0, 0}, 2,
+	NULL, 85917696, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(DisplaySafeAreas, action_center), 5, NULL},
+	NULL, NULL, DisplaySafeAreas_action_center_get, DisplaySafeAreas_action_center_set, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 0.0f, rna_DisplaySafeAreas_action_center_default
+};
+
+StructRNA RNA_DisplaySafeAreas = {
+	{(ContainerRNA *)&RNA_SceneDisplay, (ContainerRNA *)&RNA_SelectedUvElement,
+	NULL,
+	{(PropertyRNA *)&rna_DisplaySafeAreas_rna_properties, (PropertyRNA *)&rna_DisplaySafeAreas_action_center}},
+	"DisplaySafeAreas", NULL, NULL, 516, NULL, "Safe Areas",
+	"Safe areas used in 3D view and the sequencer",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_DisplaySafeAreas_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Scene Display */
+CollectionPropertyRNA rna_SceneDisplay_rna_properties = {
+	{(PropertyRNA *)&rna_SceneDisplay_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneDisplay_rna_properties_begin, SceneDisplay_rna_properties_next, SceneDisplay_rna_properties_end, SceneDisplay_rna_properties_get, NULL, NULL, SceneDisplay_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_SceneDisplay_rna_type = {
+	{(PropertyRNA *)&rna_SceneDisplay_light_direction, (PropertyRNA *)&rna_SceneDisplay_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneDisplay_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+static float rna_SceneDisplay_light_direction_default[3] = {
+	0.5773502588f,
+	0.5773502588f,
+	0.5773502588f
+};
+
+FloatPropertyRNA rna_SceneDisplay_light_direction = {
+	{(PropertyRNA *)&rna_SceneDisplay_shadow_shift, (PropertyRNA *)&rna_SceneDisplay_rna_type,
+	-1, "light_direction", 1, 0, 0, 4, 0, "Light Direction",
+	"Direction of the light for shadows and highlights",
+	0, "*",
+	PROP_FLOAT, PROP_DIRECTION | PROP_UNIT_NONE, NULL, 1, {3, 0, 0}, 3,
+	rna_Scene_set_update, 83886081, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneDisplay, light_direction), 5, NULL},
+	NULL, NULL, SceneDisplay_light_direction_get, SceneDisplay_light_direction_set, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, -10000.0f, 10000.0f, -FLT_MAX, FLT_MAX, 10.0f, 3, 0.0f, rna_SceneDisplay_light_direction_default
+};
+
+FloatPropertyRNA rna_SceneDisplay_shadow_shift = {
+	{(PropertyRNA *)&rna_SceneDisplay_shadow_focus, (PropertyRNA *)&rna_SceneDisplay_light_direction,
+	-1, "shadow_shift", 1, 0, 0, 4, 0, "Shadow Shift",
+	"Shadow termination angle",
+	0, "*",
+	PROP_FLOAT, PROP_ANGLE | PROP_UNIT_ROTATION, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_set_update, 83886081, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneDisplay, shadow_shift), 5, NULL},
+	SceneDisplay_shadow_shift_get, SceneDisplay_shadow_shift_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 1.0f, 2, 0.1000000015f, NULL
+};
+
+FloatPropertyRNA rna_SceneDisplay_shadow_focus = {
+	{(PropertyRNA *)&rna_SceneDisplay_matcap_ssao_distance, (PropertyRNA *)&rna_SceneDisplay_shadow_shift,
+	-1, "shadow_focus", 1, 0, 0, 4, 0, "Shadow Focus",
+	"Shadow factor hardness",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_set_update, 83886081, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneDisplay, shadow_focus), 5, NULL},
+	SceneDisplay_shadow_focus_get, SceneDisplay_shadow_focus_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 1.0f, 2, 0.0f, NULL
+};
+
+FloatPropertyRNA rna_SceneDisplay_matcap_ssao_distance = {
+	{(PropertyRNA *)&rna_SceneDisplay_matcap_ssao_attenuation, (PropertyRNA *)&rna_SceneDisplay_shadow_focus,
+	-1, "matcap_ssao_distance", 1, 0, 0, 4, 0, "Distance",
+	"Distance of object that contribute to the Cavity/Edge effect",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneDisplay, matcap_ssao_distance), 5, NULL},
+	SceneDisplay_matcap_ssao_distance_get, SceneDisplay_matcap_ssao_distance_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 100.0f, 0.0f, 100000.0f, 1.0f, 3, 0.2000000030f, NULL
+};
+
+FloatPropertyRNA rna_SceneDisplay_matcap_ssao_attenuation = {
+	{(PropertyRNA *)&rna_SceneDisplay_matcap_ssao_samples, (PropertyRNA *)&rna_SceneDisplay_matcap_ssao_distance,
+	-1, "matcap_ssao_attenuation", 1, 0, 0, 4, 0, "Attenuation",
+	"Attenuation constant",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneDisplay, matcap_ssao_attenuation), 5, NULL},
+	SceneDisplay_matcap_ssao_attenuation_get, SceneDisplay_matcap_ssao_attenuation_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 1.0f, 100.0f, 1.0f, 100000.0f, 1.0f, 3, 1.0f, NULL
+};
+
+IntPropertyRNA rna_SceneDisplay_matcap_ssao_samples = {
+	{(PropertyRNA *)&rna_SceneDisplay_render_aa, (PropertyRNA *)&rna_SceneDisplay_matcap_ssao_attenuation,
+	-1, "matcap_ssao_samples", 1, 0, 0, 4, 0, "Samples",
+	"Number of samples",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneDisplay, matcap_ssao_samples), 0, NULL},
+	SceneDisplay_matcap_ssao_samples_get, SceneDisplay_matcap_ssao_samples_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, 500, 1, 500, 1, 16, NULL
+};
+
+static const EnumPropertyItem rna_SceneDisplay_render_aa_items[8] = {
+	{0, "OFF", 0, "No Anti-Aliasing", "Scene will be rendering without any anti-aliasing"},
+	{1, "FXAA", 0, "Single Pass Anti-Aliasing", "Scene will be rendered using a single pass anti-aliasing method (FXAA)"},
+	{5, "5", 0, "5 Samples", "Scene will be rendered using 5 anti-aliasing samples"},
+	{8, "8", 0, "8 Samples", "Scene will be rendered using 8 anti-aliasing samples"},
+	{11, "11", 0, "11 Samples", "Scene will be rendered using 11 anti-aliasing samples"},
+	{16, "16", 0, "16 Samples", "Scene will be rendered using 16 anti-aliasing samples"},
+	{32, "32", 0, "32 Samples", "Scene will be rendered using 32 anti-aliasing samples"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_SceneDisplay_render_aa = {
+	{(PropertyRNA *)&rna_SceneDisplay_viewport_aa, (PropertyRNA *)&rna_SceneDisplay_matcap_ssao_samples,
+	-1, "render_aa", 1, 0, 0, 4, 0, "Render Anti-Aliasing",
+	"Method of anti-aliasing when rendering final image",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneDisplay, render_aa), 2, NULL},
+	SceneDisplay_render_aa_get, SceneDisplay_render_aa_set, NULL, NULL, NULL, rna_SceneDisplay_render_aa_items, 7, 8
+};
+
+static const EnumPropertyItem rna_SceneDisplay_viewport_aa_items[8] = {
+	{0, "OFF", 0, "No Anti-Aliasing", "Scene will be rendering without any anti-aliasing"},
+	{1, "FXAA", 0, "Single Pass Anti-Aliasing", "Scene will be rendered using a single pass anti-aliasing method (FXAA)"},
+	{5, "5", 0, "5 Samples", "Scene will be rendered using 5 anti-aliasing samples"},
+	{8, "8", 0, "8 Samples", "Scene will be rendered using 8 anti-aliasing samples"},
+	{11, "11", 0, "11 Samples", "Scene will be rendered using 11 anti-aliasing samples"},
+	{16, "16", 0, "16 Samples", "Scene will be rendered using 16 anti-aliasing samples"},
+	{32, "32", 0, "32 Samples", "Scene will be rendered using 32 anti-aliasing samples"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_SceneDisplay_viewport_aa = {
+	{(PropertyRNA *)&rna_SceneDisplay_shading, (PropertyRNA *)&rna_SceneDisplay_render_aa,
+	-1, "viewport_aa", 1, 0, 0, 4, 0, "Viewport Anti-Aliasing",
+	"Method of anti-aliasing when rendering 3d viewport",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneDisplay, viewport_aa), 2, NULL},
+	SceneDisplay_viewport_aa_get, SceneDisplay_viewport_aa_set, NULL, NULL, NULL, rna_SceneDisplay_viewport_aa_items, 7, 1
+};
+
+PointerPropertyRNA rna_SceneDisplay_shading = {
+	{NULL, (PropertyRNA *)&rna_SceneDisplay_viewport_aa,
+	-1, "shading", 8388608, 0, 0, 0, 0, "Shading Settings",
+	"Shading settings for OpenGL render engine",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneDisplay_shading_get, NULL, NULL, NULL,&RNA_View3DShading
+};
+
+StructRNA RNA_SceneDisplay = {
+	{(ContainerRNA *)&RNA_SceneEEVEE, (ContainerRNA *)&RNA_DisplaySafeAreas,
+	NULL,
+	{(PropertyRNA *)&rna_SceneDisplay_rna_properties, (PropertyRNA *)&rna_SceneDisplay_shading}},
+	"SceneDisplay", NULL, NULL, 516, NULL, "Scene Display",
+	"Scene display settings for 3D viewport",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_SceneDisplay_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Scene Display */
+CollectionPropertyRNA rna_SceneEEVEE_rna_properties = {
+	{(PropertyRNA *)&rna_SceneEEVEE_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_rna_properties_begin, SceneEEVEE_rna_properties_next, SceneEEVEE_rna_properties_end, SceneEEVEE_rna_properties_get, NULL, NULL, SceneEEVEE_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_SceneEEVEE_rna_type = {
+	{(PropertyRNA *)&rna_SceneEEVEE_gi_diffuse_bounces, (PropertyRNA *)&rna_SceneEEVEE_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+IntPropertyRNA rna_SceneEEVEE_gi_diffuse_bounces = {
+	{(PropertyRNA *)&rna_SceneEEVEE_gi_cubemap_resolution, (PropertyRNA *)&rna_SceneEEVEE_rna_type,
+	-1, "gi_diffuse_bounces", 1, 1, 0, 4, 0, "Diffuse Bounces",
+	"Number of time the light is reinjected inside light grids, 0 disable indirect diffuse light",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, gi_diffuse_bounces), 0, NULL},
+	SceneEEVEE_gi_diffuse_bounces_get, SceneEEVEE_gi_diffuse_bounces_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, INT_MAX, 0, INT_MAX, 1, 3, NULL
+};
+
+static const EnumPropertyItem rna_SceneEEVEE_gi_cubemap_resolution_items[8] = {
+	{64, "64", 0, "64 px", ""},
+	{128, "128", 0, "128 px", ""},
+	{256, "256", 0, "256 px", ""},
+	{512, "512", 0, "512 px", ""},
+	{1024, "1024", 0, "1024 px", ""},
+	{2048, "2048", 0, "2048 px", ""},
+	{4096, "4096", 0, "4096 px", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_SceneEEVEE_gi_cubemap_resolution = {
+	{(PropertyRNA *)&rna_SceneEEVEE_gi_visibility_resolution, (PropertyRNA *)&rna_SceneEEVEE_gi_diffuse_bounces,
+	-1, "gi_cubemap_resolution", 1, 1, 0, 4, 0, "Cubemap Size",
+	"Size of every cubemaps",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, gi_cubemap_resolution), 0, NULL},
+	SceneEEVEE_gi_cubemap_resolution_get, SceneEEVEE_gi_cubemap_resolution_set, NULL, NULL, NULL, rna_SceneEEVEE_gi_cubemap_resolution_items, 7, 512
+};
+
+static const EnumPropertyItem rna_SceneEEVEE_gi_visibility_resolution_items[5] = {
+	{8, "8", 0, "8 px", ""},
+	{16, "16", 0, "16 px", ""},
+	{32, "32", 0, "32 px", ""},
+	{64, "64", 0, "64 px", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_SceneEEVEE_gi_visibility_resolution = {
+	{(PropertyRNA *)&rna_SceneEEVEE_gi_irradiance_smoothing, (PropertyRNA *)&rna_SceneEEVEE_gi_cubemap_resolution,
+	-1, "gi_visibility_resolution", 1, 1, 0, 4, 0, "Irradiance Visibility Size",
+	"Size of the shadow map applied to each irradiance sample",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, gi_visibility_resolution), 0, NULL},
+	SceneEEVEE_gi_visibility_resolution_get, SceneEEVEE_gi_visibility_resolution_set, NULL, NULL, NULL, rna_SceneEEVEE_gi_visibility_resolution_items, 4, 32
+};
+
+FloatPropertyRNA rna_SceneEEVEE_gi_irradiance_smoothing = {
+	{(PropertyRNA *)&rna_SceneEEVEE_gi_glossy_clamp, (PropertyRNA *)&rna_SceneEEVEE_gi_visibility_resolution,
+	-1, "gi_irradiance_smoothing", 1, 1, 0, 4, 0, "Irradiance Smoothing",
+	"Smoother irradiance interpolation but introduce light bleeding",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, gi_irradiance_smoothing), 5, NULL},
+	SceneEEVEE_gi_irradiance_smoothing_get, SceneEEVEE_gi_irradiance_smoothing_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, FLT_MAX, 5.0f, 2, 0.1000000015f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_gi_glossy_clamp = {
+	{(PropertyRNA *)&rna_SceneEEVEE_gi_filter_quality, (PropertyRNA *)&rna_SceneEEVEE_gi_irradiance_smoothing,
+	-1, "gi_glossy_clamp", 1, 1, 0, 4, 0, "Clamp Glossy",
+	"Clamp pixel intensity to reduce noise inside glossy reflections from reflection cubemaps (0 to disabled)",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, gi_glossy_clamp), 5, NULL},
+	SceneEEVEE_gi_glossy_clamp_get, SceneEEVEE_gi_glossy_clamp_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, FLT_MAX, 0.0f, FLT_MAX, 10.0f, 3, 0.0f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_gi_filter_quality = {
+	{(PropertyRNA *)&rna_SceneEEVEE_gi_show_irradiance, (PropertyRNA *)&rna_SceneEEVEE_gi_glossy_clamp,
+	-1, "gi_filter_quality", 1, 1, 0, 4, 0, "Filter Quality",
+	"Take more samples during cubemap filtering to remove artifacts",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, gi_filter_quality), 5, NULL},
+	SceneEEVEE_gi_filter_quality_get, SceneEEVEE_gi_filter_quality_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 1.0f, 8.0f, 1.0f, 8.0f, 10.0f, 3, 3.0f, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_gi_show_irradiance = {
+	{(PropertyRNA *)&rna_SceneEEVEE_gi_show_cubemaps, (PropertyRNA *)&rna_SceneEEVEE_gi_filter_quality,
+	-1, "gi_show_irradiance", 4097, 1, 0, 0, 0, "Show Irradiance Cache",
+	"Display irradiance samples in the viewport",
+	253, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_gi_show_irradiance_get, SceneEEVEE_gi_show_irradiance_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_gi_show_cubemaps = {
+	{(PropertyRNA *)&rna_SceneEEVEE_gi_irradiance_display_size, (PropertyRNA *)&rna_SceneEEVEE_gi_show_irradiance,
+	-1, "gi_show_cubemaps", 4097, 1, 0, 0, 0, "Show Cubemap Cache",
+	"Display captured cubemaps in the viewport",
+	253, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_gi_show_cubemaps_get, SceneEEVEE_gi_show_cubemaps_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_gi_irradiance_display_size = {
+	{(PropertyRNA *)&rna_SceneEEVEE_gi_cubemap_display_size, (PropertyRNA *)&rna_SceneEEVEE_gi_show_cubemaps,
+	-1, "gi_irradiance_display_size", 1, 0, 0, 4, 0, "Irradiance Display Size",
+	"Size of the irradiance sample spheres to debug captured light",
+	0, "*",
+	PROP_FLOAT, PROP_DISTANCE | PROP_UNIT_LENGTH, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, gi_irradiance_draw_size), 5, NULL},
+	SceneEEVEE_gi_irradiance_display_size_get, SceneEEVEE_gi_irradiance_display_size_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0500000007f, 10.0f, 0.0500000007f, 10.0f, 10.0f, 3, 0.1000000015f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_gi_cubemap_display_size = {
+	{(PropertyRNA *)&rna_SceneEEVEE_gi_auto_bake, (PropertyRNA *)&rna_SceneEEVEE_gi_irradiance_display_size,
+	-1, "gi_cubemap_display_size", 1, 0, 0, 4, 0, "Cubemap Display Size",
+	"Size of the cubemap spheres to debug captured light",
+	0, "*",
+	PROP_FLOAT, PROP_DISTANCE | PROP_UNIT_LENGTH, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, gi_cubemap_draw_size), 5, NULL},
+	SceneEEVEE_gi_cubemap_display_size_get, SceneEEVEE_gi_cubemap_display_size_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0500000007f, 10.0f, 0.0500000007f, 10.0f, 10.0f, 3, 0.3000000119f, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_gi_auto_bake = {
+	{(PropertyRNA *)&rna_SceneEEVEE_gi_cache_info, (PropertyRNA *)&rna_SceneEEVEE_gi_cubemap_display_size,
+	-1, "gi_auto_bake", 1, 0, 0, 0, 0, "Auto Bake",
+	"Auto bake indirect lighting when editing probes",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_gi_auto_bake_get, SceneEEVEE_gi_auto_bake_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+StringPropertyRNA rna_SceneEEVEE_gi_cache_info = {
+	{(PropertyRNA *)&rna_SceneEEVEE_taa_samples, (PropertyRNA *)&rna_SceneEEVEE_gi_auto_bake,
+	-1, "gi_cache_info", 262144, 0, 0, 0, 0, "Light Cache Info",
+	"Info on current cache status",
+	0, "*",
+	PROP_STRING, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {64, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_gi_cache_info_get, SceneEEVEE_gi_cache_info_length, NULL, NULL, NULL, NULL, NULL, 0, 64, ""
+};
+
+IntPropertyRNA rna_SceneEEVEE_taa_samples = {
+	{(PropertyRNA *)&rna_SceneEEVEE_taa_render_samples, (PropertyRNA *)&rna_SceneEEVEE_gi_cache_info,
+	-1, "taa_samples", 1, 1, 0, 4, 0, "Viewport Samples",
+	"Number of samples, unlimited if 0",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, taa_samples), 0, NULL},
+	SceneEEVEE_taa_samples_get, SceneEEVEE_taa_samples_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, INT_MAX, 0, INT_MAX, 1, 16, NULL
+};
+
+IntPropertyRNA rna_SceneEEVEE_taa_render_samples = {
+	{(PropertyRNA *)&rna_SceneEEVEE_use_taa_reprojection, (PropertyRNA *)&rna_SceneEEVEE_taa_samples,
+	-1, "taa_render_samples", 1, 1, 0, 4, 0, "Render Samples",
+	"Number of samples per pixels for rendering",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, taa_render_samples), 0, NULL},
+	SceneEEVEE_taa_render_samples_get, SceneEEVEE_taa_render_samples_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, INT_MAX, 1, INT_MAX, 1, 64, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_use_taa_reprojection = {
+	{(PropertyRNA *)&rna_SceneEEVEE_sss_samples, (PropertyRNA *)&rna_SceneEEVEE_taa_render_samples,
+	-1, "use_taa_reprojection", 1, 1, 0, 0, 0, "Viewport Denoising",
+	"Denoise image using temporal reprojection (can leave some ghosting)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_use_taa_reprojection_get, SceneEEVEE_use_taa_reprojection_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+IntPropertyRNA rna_SceneEEVEE_sss_samples = {
+	{(PropertyRNA *)&rna_SceneEEVEE_sss_jitter_threshold, (PropertyRNA *)&rna_SceneEEVEE_use_taa_reprojection,
+	-1, "sss_samples", 1, 1, 0, 4, 0, "Samples",
+	"Number of samples to compute the scattering effect",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, sss_samples), 0, NULL},
+	SceneEEVEE_sss_samples_get, SceneEEVEE_sss_samples_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, 32, 1, 32, 1, 7, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_sss_jitter_threshold = {
+	{(PropertyRNA *)&rna_SceneEEVEE_use_ssr, (PropertyRNA *)&rna_SceneEEVEE_sss_samples,
+	-1, "sss_jitter_threshold", 1, 1, 0, 4, 0, "Jitter Threshold",
+	"Rotate samples that are below this threshold",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, sss_jitter_threshold), 5, NULL},
+	SceneEEVEE_sss_jitter_threshold_get, SceneEEVEE_sss_jitter_threshold_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 0.3000000119f, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_use_ssr = {
+	{(PropertyRNA *)&rna_SceneEEVEE_use_ssr_refraction, (PropertyRNA *)&rna_SceneEEVEE_sss_jitter_threshold,
+	-1, "use_ssr", 1, 1, 0, 0, 0, "Screen Space Reflections",
+	"Enable screen space reflection",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_use_ssr_get, SceneEEVEE_use_ssr_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_use_ssr_refraction = {
+	{(PropertyRNA *)&rna_SceneEEVEE_use_ssr_halfres, (PropertyRNA *)&rna_SceneEEVEE_use_ssr,
+	-1, "use_ssr_refraction", 1, 1, 0, 0, 0, "Screen Space Refractions",
+	"Enable screen space Refractions",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_use_ssr_refraction_get, SceneEEVEE_use_ssr_refraction_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_use_ssr_halfres = {
+	{(PropertyRNA *)&rna_SceneEEVEE_ssr_quality, (PropertyRNA *)&rna_SceneEEVEE_use_ssr_refraction,
+	-1, "use_ssr_halfres", 1, 1, 0, 0, 0, "Half Res Trace",
+	"Raytrace at a lower resolution",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_use_ssr_halfres_get, SceneEEVEE_use_ssr_halfres_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_ssr_quality = {
+	{(PropertyRNA *)&rna_SceneEEVEE_ssr_max_roughness, (PropertyRNA *)&rna_SceneEEVEE_use_ssr_halfres,
+	-1, "ssr_quality", 1, 1, 0, 4, 0, "Trace Precision",
+	"Precision of the screen space ray-tracing",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, ssr_quality), 5, NULL},
+	SceneEEVEE_ssr_quality_get, SceneEEVEE_ssr_quality_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 0.2500000000f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_ssr_max_roughness = {
+	{(PropertyRNA *)&rna_SceneEEVEE_ssr_thickness, (PropertyRNA *)&rna_SceneEEVEE_ssr_quality,
+	-1, "ssr_max_roughness", 1, 1, 0, 4, 0, "Max Roughness",
+	"Do not raytrace reflections for roughness above this value",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, ssr_max_roughness), 5, NULL},
+	SceneEEVEE_ssr_max_roughness_get, SceneEEVEE_ssr_max_roughness_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 0.5000000000f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_ssr_thickness = {
+	{(PropertyRNA *)&rna_SceneEEVEE_ssr_border_fade, (PropertyRNA *)&rna_SceneEEVEE_ssr_max_roughness,
+	-1, "ssr_thickness", 1, 1, 0, 4, 0, "Thickness",
+	"Pixel thickness used to detect intersection",
+	0, "*",
+	PROP_FLOAT, PROP_DISTANCE | PROP_UNIT_LENGTH, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, ssr_thickness), 5, NULL},
+	SceneEEVEE_ssr_thickness_get, SceneEEVEE_ssr_thickness_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0010000000f, FLT_MAX, 0.0000010000f, FLT_MAX, 5.0f, 3, 0.2000000030f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_ssr_border_fade = {
+	{(PropertyRNA *)&rna_SceneEEVEE_ssr_firefly_fac, (PropertyRNA *)&rna_SceneEEVEE_ssr_thickness,
+	-1, "ssr_border_fade", 1, 1, 0, 4, 0, "Edge Fading",
+	"Screen percentage used to fade the SSR",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, ssr_border_fade), 5, NULL},
+	SceneEEVEE_ssr_border_fade_get, SceneEEVEE_ssr_border_fade_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 0.5000000000f, 0.0f, 0.5000000000f, 10.0f, 3, 0.0750000030f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_ssr_firefly_fac = {
+	{(PropertyRNA *)&rna_SceneEEVEE_volumetric_start, (PropertyRNA *)&rna_SceneEEVEE_ssr_border_fade,
+	-1, "ssr_firefly_fac", 1, 1, 0, 4, 0, "Clamp",
+	"Clamp pixel intensity to remove noise (0 to disabled)",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, ssr_firefly_fac), 5, NULL},
+	SceneEEVEE_ssr_firefly_fac_get, SceneEEVEE_ssr_firefly_fac_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, FLT_MAX, 0.0f, FLT_MAX, 10.0f, 3, 10.0f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_volumetric_start = {
+	{(PropertyRNA *)&rna_SceneEEVEE_volumetric_end, (PropertyRNA *)&rna_SceneEEVEE_ssr_firefly_fac,
+	-1, "volumetric_start", 1, 1, 0, 4, 0, "Start",
+	"Start distance of the volumetric effect",
+	0, "*",
+	PROP_FLOAT, PROP_DISTANCE | PROP_UNIT_LENGTH, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, volumetric_start), 5, NULL},
+	SceneEEVEE_volumetric_start_get, SceneEEVEE_volumetric_start_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0010000000f, FLT_MAX, 0.0000010000f, FLT_MAX, 10.0f, 3, 0.1000000015f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_volumetric_end = {
+	{(PropertyRNA *)&rna_SceneEEVEE_volumetric_tile_size, (PropertyRNA *)&rna_SceneEEVEE_volumetric_start,
+	-1, "volumetric_end", 1, 1, 0, 4, 0, "End",
+	"End distance of the volumetric effect",
+	0, "*",
+	PROP_FLOAT, PROP_DISTANCE | PROP_UNIT_LENGTH, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, volumetric_end), 5, NULL},
+	SceneEEVEE_volumetric_end_get, SceneEEVEE_volumetric_end_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0010000000f, FLT_MAX, 0.0000010000f, FLT_MAX, 10.0f, 3, 100.0f, NULL
+};
+
+static const EnumPropertyItem rna_SceneEEVEE_volumetric_tile_size_items[5] = {
+	{2, "2", 0, "2 px", ""},
+	{4, "4", 0, "4 px", ""},
+	{8, "8", 0, "8 px", ""},
+	{16, "16", 0, "16 px", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_SceneEEVEE_volumetric_tile_size = {
+	{(PropertyRNA *)&rna_SceneEEVEE_volumetric_samples, (PropertyRNA *)&rna_SceneEEVEE_volumetric_end,
+	-1, "volumetric_tile_size", 1, 1, 0, 4, 0, "Tile Size",
+	"Control the quality of the volumetric effects (lower size increase vram usage and quality)",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, volumetric_tile_size), 0, NULL},
+	SceneEEVEE_volumetric_tile_size_get, SceneEEVEE_volumetric_tile_size_set, NULL, NULL, NULL, rna_SceneEEVEE_volumetric_tile_size_items, 4, 8
+};
+
+IntPropertyRNA rna_SceneEEVEE_volumetric_samples = {
+	{(PropertyRNA *)&rna_SceneEEVEE_volumetric_sample_distribution, (PropertyRNA *)&rna_SceneEEVEE_volumetric_tile_size,
+	-1, "volumetric_samples", 1, 1, 0, 4, 0, "Samples",
+	"Number of samples to compute volumetric effects",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, volumetric_samples), 0, NULL},
+	SceneEEVEE_volumetric_samples_get, SceneEEVEE_volumetric_samples_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, 256, 1, 256, 1, 64, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_volumetric_sample_distribution = {
+	{(PropertyRNA *)&rna_SceneEEVEE_use_volumetric_lights, (PropertyRNA *)&rna_SceneEEVEE_volumetric_samples,
+	-1, "volumetric_sample_distribution", 1, 1, 0, 4, 0, "Exponential Sampling",
+	"Distribute more samples closer to the camera",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, volumetric_sample_distribution), 5, NULL},
+	SceneEEVEE_volumetric_sample_distribution_get, SceneEEVEE_volumetric_sample_distribution_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 0.8000000119f, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_use_volumetric_lights = {
+	{(PropertyRNA *)&rna_SceneEEVEE_volumetric_light_clamp, (PropertyRNA *)&rna_SceneEEVEE_volumetric_sample_distribution,
+	-1, "use_volumetric_lights", 1, 1, 0, 0, 0, "Volumetric Lighting",
+	"Enable scene light interactions with volumetrics",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_use_volumetric_lights_get, SceneEEVEE_use_volumetric_lights_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_volumetric_light_clamp = {
+	{(PropertyRNA *)&rna_SceneEEVEE_use_volumetric_shadows, (PropertyRNA *)&rna_SceneEEVEE_use_volumetric_lights,
+	-1, "volumetric_light_clamp", 1, 1, 0, 4, 0, "Clamp",
+	"Maximum light contribution, reducing noise",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, volumetric_light_clamp), 5, NULL},
+	SceneEEVEE_volumetric_light_clamp_get, SceneEEVEE_volumetric_light_clamp_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, FLT_MAX, 0.0f, FLT_MAX, 10.0f, 3, 0.0f, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_use_volumetric_shadows = {
+	{(PropertyRNA *)&rna_SceneEEVEE_volumetric_shadow_samples, (PropertyRNA *)&rna_SceneEEVEE_volumetric_light_clamp,
+	-1, "use_volumetric_shadows", 1, 1, 0, 0, 0, "Volumetric Shadows",
+	"Generate shadows from volumetric material (Very expensive)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_use_volumetric_shadows_get, SceneEEVEE_use_volumetric_shadows_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+IntPropertyRNA rna_SceneEEVEE_volumetric_shadow_samples = {
+	{(PropertyRNA *)&rna_SceneEEVEE_use_gtao, (PropertyRNA *)&rna_SceneEEVEE_use_volumetric_shadows,
+	-1, "volumetric_shadow_samples", 1, 1, 0, 4, 0, "Volumetric Shadow Samples",
+	"Number of samples to compute volumetric shadowing",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, volumetric_shadow_samples), 0, NULL},
+	SceneEEVEE_volumetric_shadow_samples_get, SceneEEVEE_volumetric_shadow_samples_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, 128, 1, 128, 1, 16, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_use_gtao = {
+	{(PropertyRNA *)&rna_SceneEEVEE_use_gtao_bent_normals, (PropertyRNA *)&rna_SceneEEVEE_volumetric_shadow_samples,
+	-1, "use_gtao", 1, 1, 0, 0, 0, "Ambient Occlusion",
+	"Enable ambient occlusion to simulate medium scale indirect shadowing",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_use_gtao_get, SceneEEVEE_use_gtao_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_use_gtao_bent_normals = {
+	{(PropertyRNA *)&rna_SceneEEVEE_use_gtao_bounce, (PropertyRNA *)&rna_SceneEEVEE_use_gtao,
+	-1, "use_gtao_bent_normals", 1, 1, 0, 0, 0, "Bent Normals",
+	"Compute main non occluded direction to sample the environment",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_use_gtao_bent_normals_get, SceneEEVEE_use_gtao_bent_normals_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_use_gtao_bounce = {
+	{(PropertyRNA *)&rna_SceneEEVEE_gtao_factor, (PropertyRNA *)&rna_SceneEEVEE_use_gtao_bent_normals,
+	-1, "use_gtao_bounce", 1, 1, 0, 0, 0, "Bounces Approximation",
+	"An approximation to simulate light bounces giving less occlusion on brighter objects",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_use_gtao_bounce_get, SceneEEVEE_use_gtao_bounce_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_gtao_factor = {
+	{(PropertyRNA *)&rna_SceneEEVEE_gtao_quality, (PropertyRNA *)&rna_SceneEEVEE_use_gtao_bounce,
+	-1, "gtao_factor", 1, 1, 0, 4, 0, "Factor",
+	"Factor for ambient occlusion blending",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, gtao_factor), 5, NULL},
+	SceneEEVEE_gtao_factor_get, SceneEEVEE_gtao_factor_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, FLT_MAX, 0.1000000015f, 2, 1.0f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_gtao_quality = {
+	{(PropertyRNA *)&rna_SceneEEVEE_gtao_distance, (PropertyRNA *)&rna_SceneEEVEE_gtao_factor,
+	-1, "gtao_quality", 1, 1, 0, 4, 0, "Trace Precision",
+	"Precision of the horizon search",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, gtao_quality), 5, NULL},
+	SceneEEVEE_gtao_quality_get, SceneEEVEE_gtao_quality_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 0.2500000000f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_gtao_distance = {
+	{(PropertyRNA *)&rna_SceneEEVEE_bokeh_max_size, (PropertyRNA *)&rna_SceneEEVEE_gtao_quality,
+	-1, "gtao_distance", 1, 1, 0, 4, 0, "Distance",
+	"Distance of object that contribute to the ambient occlusion effect",
+	0, "*",
+	PROP_FLOAT, PROP_DISTANCE | PROP_UNIT_LENGTH, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, gtao_distance), 5, NULL},
+	SceneEEVEE_gtao_distance_get, SceneEEVEE_gtao_distance_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 100.0f, 0.0f, 100000.0f, 1.0f, 3, 0.2000000030f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_bokeh_max_size = {
+	{(PropertyRNA *)&rna_SceneEEVEE_bokeh_threshold, (PropertyRNA *)&rna_SceneEEVEE_gtao_distance,
+	-1, "bokeh_max_size", 1, 1, 0, 4, 0, "Max Size",
+	"Max size of the bokeh shape for the depth of field (lower is faster)",
+	0, "*",
+	PROP_FLOAT, PROP_PIXEL | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, bokeh_max_size), 5, NULL},
+	SceneEEVEE_bokeh_max_size_get, SceneEEVEE_bokeh_max_size_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 200.0f, 0.0f, 2000.0f, 100.0f, 1, 100.0f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_bokeh_threshold = {
+	{(PropertyRNA *)&rna_SceneEEVEE_bokeh_neighbor_max, (PropertyRNA *)&rna_SceneEEVEE_bokeh_max_size,
+	-1, "bokeh_threshold", 1, 1, 0, 4, 0, "Sprite Threshold",
+	"Brightness threshold for using sprite base depth of field",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, bokeh_threshold), 5, NULL},
+	SceneEEVEE_bokeh_threshold_get, SceneEEVEE_bokeh_threshold_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 10.0f, 0.0f, 100000.0f, 10.0f, 2, 1.0f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_bokeh_neighbor_max = {
+	{(PropertyRNA *)&rna_SceneEEVEE_bokeh_denoise_fac, (PropertyRNA *)&rna_SceneEEVEE_bokeh_threshold,
+	-1, "bokeh_neighbor_max", 1, 1, 0, 4, 0, "Neighbor Rejection",
+	"Maximum brightness to consider when rejecting bokeh sprites based on neighborhood (lower is faster)",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, bokeh_neighbor_max), 5, NULL},
+	SceneEEVEE_bokeh_neighbor_max_get, SceneEEVEE_bokeh_neighbor_max_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 40.0f, 0.0f, 100000.0f, 10.0f, 2, 10.0f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_bokeh_denoise_fac = {
+	{(PropertyRNA *)&rna_SceneEEVEE_use_bokeh_high_quality_slight_defocus, (PropertyRNA *)&rna_SceneEEVEE_bokeh_neighbor_max,
+	-1, "bokeh_denoise_fac", 1, 1, 0, 4, 0, "Denoise Amount",
+	"Amount of flicker removal applied to bokeh highlights",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, bokeh_denoise_fac), 5, NULL},
+	SceneEEVEE_bokeh_denoise_fac_get, SceneEEVEE_bokeh_denoise_fac_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 2, 0.7500000000f, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_use_bokeh_high_quality_slight_defocus = {
+	{(PropertyRNA *)&rna_SceneEEVEE_use_bokeh_jittered, (PropertyRNA *)&rna_SceneEEVEE_bokeh_denoise_fac,
+	-1, "use_bokeh_high_quality_slight_defocus", 1, 1, 0, 0, 0, "High Quality Slight Defocus",
+	"Sample all pixels in almost in-focus regions to eliminate noise",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_use_bokeh_high_quality_slight_defocus_get, SceneEEVEE_use_bokeh_high_quality_slight_defocus_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_use_bokeh_jittered = {
+	{(PropertyRNA *)&rna_SceneEEVEE_bokeh_overblur, (PropertyRNA *)&rna_SceneEEVEE_use_bokeh_high_quality_slight_defocus,
+	-1, "use_bokeh_jittered", 1, 1, 0, 0, 0, "Jitter Camera",
+	"Jitter camera position to create accurate blurring using render samples",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_use_bokeh_jittered_get, SceneEEVEE_use_bokeh_jittered_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_bokeh_overblur = {
+	{(PropertyRNA *)&rna_SceneEEVEE_use_bloom, (PropertyRNA *)&rna_SceneEEVEE_use_bokeh_jittered,
+	-1, "bokeh_overblur", 1, 1, 0, 4, 0, "Over-blur",
+	"Apply blur to each jittered sample to reduce under-sampling artifacts",
+	0, "*",
+	PROP_FLOAT, PROP_PERCENTAGE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, bokeh_overblur), 5, NULL},
+	SceneEEVEE_bokeh_overblur_get, SceneEEVEE_bokeh_overblur_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 20.0f, 0.0f, 100.0f, 1.0f, 1, 5.0f, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_use_bloom = {
+	{(PropertyRNA *)&rna_SceneEEVEE_bloom_threshold, (PropertyRNA *)&rna_SceneEEVEE_bokeh_overblur,
+	-1, "use_bloom", 1, 1, 0, 0, 0, "Bloom",
+	"High brightness pixels generate a glowing effect",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_use_bloom_get, SceneEEVEE_use_bloom_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_bloom_threshold = {
+	{(PropertyRNA *)&rna_SceneEEVEE_bloom_color, (PropertyRNA *)&rna_SceneEEVEE_use_bloom,
+	-1, "bloom_threshold", 1, 1, 0, 4, 0, "Threshold",
+	"Filters out pixels under this level of brightness",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, bloom_threshold), 5, NULL},
+	SceneEEVEE_bloom_threshold_get, SceneEEVEE_bloom_threshold_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 10.0f, 0.0f, 100000.0f, 1.0f, 3, 0.8000000119f, NULL
+};
+
+static float rna_SceneEEVEE_bloom_color_default[3] = {
+	1.0f,
+	1.0f,
+	1.0f
+};
+
+FloatPropertyRNA rna_SceneEEVEE_bloom_color = {
+	{(PropertyRNA *)&rna_SceneEEVEE_bloom_knee, (PropertyRNA *)&rna_SceneEEVEE_bloom_threshold,
+	-1, "bloom_color", 1, 1, 0, 4, 0, "Color",
+	"Color applied to the bloom effect",
+	0, "*",
+	PROP_FLOAT, PROP_COLOR | PROP_UNIT_NONE, NULL, 1, {3, 0, 0}, 3,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, bloom_color), 5, NULL},
+	NULL, NULL, SceneEEVEE_bloom_color_get, SceneEEVEE_bloom_color_set, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, FLT_MAX, 10.0f, 3, 0.0f, rna_SceneEEVEE_bloom_color_default
+};
+
+FloatPropertyRNA rna_SceneEEVEE_bloom_knee = {
+	{(PropertyRNA *)&rna_SceneEEVEE_bloom_radius, (PropertyRNA *)&rna_SceneEEVEE_bloom_color,
+	-1, "bloom_knee", 1, 1, 0, 4, 0, "Knee",
+	"Makes transition between under/over-threshold gradual",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, bloom_knee), 5, NULL},
+	SceneEEVEE_bloom_knee_get, SceneEEVEE_bloom_knee_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 0.5000000000f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_bloom_radius = {
+	{(PropertyRNA *)&rna_SceneEEVEE_bloom_clamp, (PropertyRNA *)&rna_SceneEEVEE_bloom_knee,
+	-1, "bloom_radius", 1, 1, 0, 4, 0, "Radius",
+	"Bloom spread distance",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, bloom_radius), 5, NULL},
+	SceneEEVEE_bloom_radius_get, SceneEEVEE_bloom_radius_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 10.0f, 0.0f, 100.0f, 1.0f, 3, 6.5000000000f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_bloom_clamp = {
+	{(PropertyRNA *)&rna_SceneEEVEE_bloom_intensity, (PropertyRNA *)&rna_SceneEEVEE_bloom_radius,
+	-1, "bloom_clamp", 1, 1, 0, 4, 0, "Clamp",
+	"Maximum intensity a bloom pixel can have (0 to disabled)",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, bloom_clamp), 5, NULL},
+	SceneEEVEE_bloom_clamp_get, SceneEEVEE_bloom_clamp_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1000.0f, 0.0f, 100000.0f, 1.0f, 3, 0.0f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_bloom_intensity = {
+	{(PropertyRNA *)&rna_SceneEEVEE_use_motion_blur, (PropertyRNA *)&rna_SceneEEVEE_bloom_clamp,
+	-1, "bloom_intensity", 1, 1, 0, 4, 0, "Intensity",
+	"Blend factor",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, bloom_intensity), 5, NULL},
+	SceneEEVEE_bloom_intensity_get, SceneEEVEE_bloom_intensity_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 0.1000000015f, 0.0f, 10000.0f, 1.0f, 3, 0.0500000007f, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_use_motion_blur = {
+	{(PropertyRNA *)&rna_SceneEEVEE_motion_blur_shutter, (PropertyRNA *)&rna_SceneEEVEE_bloom_intensity,
+	-1, "use_motion_blur", 1, 1, 0, 0, 0, "Motion Blur",
+	"Enable motion blur effect (only in camera view)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_use_motion_blur_get, SceneEEVEE_use_motion_blur_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_motion_blur_shutter = {
+	{(PropertyRNA *)&rna_SceneEEVEE_motion_blur_depth_scale, (PropertyRNA *)&rna_SceneEEVEE_use_motion_blur,
+	-1, "motion_blur_shutter", 1, 1, 0, 4, 0, "Shutter",
+	"Time taken in frames between shutter open and close",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, motion_blur_shutter), 5, NULL},
+	SceneEEVEE_motion_blur_shutter_get, SceneEEVEE_motion_blur_shutter_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0099999998f, 1.0f, 0.0f, FLT_MAX, 1.0f, 2, 0.5000000000f, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_motion_blur_depth_scale = {
+	{(PropertyRNA *)&rna_SceneEEVEE_motion_blur_max, (PropertyRNA *)&rna_SceneEEVEE_motion_blur_shutter,
+	-1, "motion_blur_depth_scale", 1, 1, 0, 4, 0, "Background Separation",
+	"Lower values will reduce background bleeding onto foreground elements",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, motion_blur_depth_scale), 5, NULL},
+	SceneEEVEE_motion_blur_depth_scale_get, SceneEEVEE_motion_blur_depth_scale_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0099999998f, 1000.0f, 0.0f, FLT_MAX, 1.0f, 2, 100.0f, NULL
+};
+
+IntPropertyRNA rna_SceneEEVEE_motion_blur_max = {
+	{(PropertyRNA *)&rna_SceneEEVEE_motion_blur_steps, (PropertyRNA *)&rna_SceneEEVEE_motion_blur_depth_scale,
+	-1, "motion_blur_max", 1, 1, 0, 4, 0, "Max Blur",
+	"Maximum blur distance a pixel can spread over",
+	0, "*",
+	PROP_INT, PROP_PIXEL | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, motion_blur_max), 0, NULL},
+	SceneEEVEE_motion_blur_max_get, SceneEEVEE_motion_blur_max_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 512, 0, 2048, 1, 32, NULL
+};
+
+IntPropertyRNA rna_SceneEEVEE_motion_blur_steps = {
+	{(PropertyRNA *)&rna_SceneEEVEE_motion_blur_position, (PropertyRNA *)&rna_SceneEEVEE_motion_blur_max,
+	-1, "motion_blur_steps", 1, 1, 0, 4, 0, "Motion steps",
+	"Controls accuracy of motion blur, more steps means longer render time",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, motion_blur_steps), 0, NULL},
+	SceneEEVEE_motion_blur_steps_get, SceneEEVEE_motion_blur_steps_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, 64, 1, INT_MAX, 1, 1, NULL
+};
+
+static const EnumPropertyItem rna_SceneEEVEE_motion_blur_position_items[4] = {
+	{1, "START", 0, "Start on Frame", "The shutter opens at the current frame"},
+	{0, "CENTER", 0, "Center on Frame", "The shutter is open during the current frame"},
+	{2, "END", 0, "End on Frame", "The shutter closes at the current frame"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_SceneEEVEE_motion_blur_position = {
+	{(PropertyRNA *)&rna_SceneEEVEE_shadow_cube_size, (PropertyRNA *)&rna_SceneEEVEE_motion_blur_steps,
+	-1, "motion_blur_position", 1, 1, 0, 4, 0, "Motion Blur Position",
+	"Offset for the shutter\'s time interval, allows to change the motion blur trails",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, motion_blur_position), 0, NULL},
+	SceneEEVEE_motion_blur_position_get, SceneEEVEE_motion_blur_position_set, NULL, NULL, NULL, rna_SceneEEVEE_motion_blur_position_items, 3, 0
+};
+
+static const EnumPropertyItem rna_SceneEEVEE_shadow_cube_size_items[8] = {
+	{64, "64", 0, "64 px", ""},
+	{128, "128", 0, "128 px", ""},
+	{256, "256", 0, "256 px", ""},
+	{512, "512", 0, "512 px", ""},
+	{1024, "1024", 0, "1024 px", ""},
+	{2048, "2048", 0, "2048 px", ""},
+	{4096, "4096", 0, "4096 px", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_SceneEEVEE_shadow_cube_size = {
+	{(PropertyRNA *)&rna_SceneEEVEE_shadow_cascade_size, (PropertyRNA *)&rna_SceneEEVEE_motion_blur_position,
+	-1, "shadow_cube_size", 1, 1, 0, 4, 0, "Cube Shadows Resolution",
+	"Size of point and area light shadow maps",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, shadow_cube_size), 0, NULL},
+	SceneEEVEE_shadow_cube_size_get, SceneEEVEE_shadow_cube_size_set, NULL, NULL, NULL, rna_SceneEEVEE_shadow_cube_size_items, 7, 512
+};
+
+static const EnumPropertyItem rna_SceneEEVEE_shadow_cascade_size_items[8] = {
+	{64, "64", 0, "64 px", ""},
+	{128, "128", 0, "128 px", ""},
+	{256, "256", 0, "256 px", ""},
+	{512, "512", 0, "512 px", ""},
+	{1024, "1024", 0, "1024 px", ""},
+	{2048, "2048", 0, "2048 px", ""},
+	{4096, "4096", 0, "4096 px", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_SceneEEVEE_shadow_cascade_size = {
+	{(PropertyRNA *)&rna_SceneEEVEE_use_shadow_high_bitdepth, (PropertyRNA *)&rna_SceneEEVEE_shadow_cube_size,
+	-1, "shadow_cascade_size", 1, 1, 0, 4, 0, "Directional Shadows Resolution",
+	"Size of sun light shadow maps",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, shadow_cascade_size), 0, NULL},
+	SceneEEVEE_shadow_cascade_size_get, SceneEEVEE_shadow_cascade_size_set, NULL, NULL, NULL, rna_SceneEEVEE_shadow_cascade_size_items, 7, 1024
+};
+
+BoolPropertyRNA rna_SceneEEVEE_use_shadow_high_bitdepth = {
+	{(PropertyRNA *)&rna_SceneEEVEE_use_shadow_id_high_bitdepth, (PropertyRNA *)&rna_SceneEEVEE_shadow_cascade_size,
+	-1, "use_shadow_high_bitdepth", 1, 1, 0, 0, 0, "High Bit Depth",
+	"Use 32-bit shadows",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_use_shadow_high_bitdepth_get, SceneEEVEE_use_shadow_high_bitdepth_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_use_shadow_id_high_bitdepth = {
+	{(PropertyRNA *)&rna_SceneEEVEE_use_soft_shadows, (PropertyRNA *)&rna_SceneEEVEE_use_shadow_high_bitdepth,
+	-1, "use_shadow_id_high_bitdepth", 1, 1, 0, 0, 0, "High ID Bit Depth",
+	"Use 32-bit shadow IDs (Enable if self-shadow does not work for some objects)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_use_shadow_id_high_bitdepth_get, SceneEEVEE_use_shadow_id_high_bitdepth_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_use_soft_shadows = {
+	{(PropertyRNA *)&rna_SceneEEVEE_light_threshold, (PropertyRNA *)&rna_SceneEEVEE_use_shadow_id_high_bitdepth,
+	-1, "use_soft_shadows", 1, 1, 0, 0, 0, "Soft Shadows",
+	"Randomize shadowmaps origin to create soft shadows",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_use_soft_shadows_get, SceneEEVEE_use_soft_shadows_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_light_threshold = {
+	{(PropertyRNA *)&rna_SceneEEVEE_use_overscan, (PropertyRNA *)&rna_SceneEEVEE_use_soft_shadows,
+	-1, "light_threshold", 1, 1, 0, 4, 0, "Light Threshold",
+	"Minimum light intensity for a light to contribute to the lighting",
+	0, "*",
+	PROP_FLOAT, PROP_UNSIGNED | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, light_threshold), 5, NULL},
+	SceneEEVEE_light_threshold_get, SceneEEVEE_light_threshold_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, FLT_MAX, 0.1000000015f, 3, 0.0099999998f, NULL
+};
+
+BoolPropertyRNA rna_SceneEEVEE_use_overscan = {
+	{(PropertyRNA *)&rna_SceneEEVEE_overscan_size, (PropertyRNA *)&rna_SceneEEVEE_light_threshold,
+	-1, "use_overscan", 1, 1, 0, 0, 0, "Overscan",
+	"Internally render past the image border to avoid screen-space effects disappearing",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneEEVEE_use_overscan_get, SceneEEVEE_use_overscan_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+FloatPropertyRNA rna_SceneEEVEE_overscan_size = {
+	{NULL, (PropertyRNA *)&rna_SceneEEVEE_use_overscan,
+	-1, "overscan_size", 1, 1, 0, 4, 0, "Overscan Size",
+	"Percentage of render size to add as overscan to the internal render buffers",
+	0, "*",
+	PROP_FLOAT, PROP_PERCENTAGE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneEEVEE, overscan), 5, NULL},
+	SceneEEVEE_overscan_size_get, SceneEEVEE_overscan_size_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 10.0f, 0.0f, 50.0f, 1.0f, 2, 3.0f, NULL
+};
+
+StructRNA RNA_SceneEEVEE = {
+	{(ContainerRNA *)&RNA_AOV, (ContainerRNA *)&RNA_SceneDisplay,
+	NULL,
+	{(PropertyRNA *)&rna_SceneEEVEE_rna_properties, (PropertyRNA *)&rna_SceneEEVEE_overscan_size}},
+	"SceneEEVEE", NULL, NULL, 516, NULL, "Scene Display",
+	"Scene display settings for 3D viewport",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_SceneEEVEE_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	rna_SceneEEVEE_path,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Shader AOV */
+CollectionPropertyRNA rna_AOV_rna_properties = {
+	{(PropertyRNA *)&rna_AOV_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	AOV_rna_properties_begin, AOV_rna_properties_next, AOV_rna_properties_end, AOV_rna_properties_get, NULL, NULL, AOV_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_AOV_rna_type = {
+	{(PropertyRNA *)&rna_AOV_name, (PropertyRNA *)&rna_AOV_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	AOV_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+StringPropertyRNA rna_AOV_name = {
+	{(PropertyRNA *)&rna_AOV_is_valid, (PropertyRNA *)&rna_AOV_rna_type,
+	-1, "name", 262145, 0, 0, 0, 0, "Name",
+	"Name of the AOV",
+	0, "*",
+	PROP_STRING, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {64, 0, 0}, 0,
+	rna_ViewLayer_pass_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	AOV_name_get, AOV_name_length, AOV_name_set, NULL, NULL, NULL, NULL, 0, 64, ""
+};
+
+BoolPropertyRNA rna_AOV_is_valid = {
+	{(PropertyRNA *)&rna_AOV_type, (PropertyRNA *)&rna_AOV_name,
+	-1, "is_valid", 1, 0, 0, 0, 0, "Valid",
+	"Is the name of the AOV conflicting",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	AOV_is_valid_get, AOV_is_valid_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+static const EnumPropertyItem rna_AOV_type_items[3] = {
+	{1, "COLOR", 0, "Color", ""},
+	{0, "VALUE", 0, "Value", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_AOV_type = {
+	{NULL, (PropertyRNA *)&rna_AOV_is_valid,
+	-1, "type", 1, 0, 0, 4, 0, "Type",
+	"Data type of the AOV",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_ViewLayer_pass_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(ViewLayerAOV, type), 0, NULL},
+	AOV_type_get, AOV_type_set, NULL, NULL, NULL, rna_AOV_type_items, 2, 1
+};
+
+StructRNA RNA_AOV = {
+	{(ContainerRNA *)&RNA_Lightgroup, (ContainerRNA *)&RNA_SceneEEVEE,
+	NULL,
+	{(PropertyRNA *)&rna_AOV_rna_properties, (PropertyRNA *)&rna_AOV_type}},
+	"AOV", NULL, NULL, 516, NULL, "Shader AOV",
+	"",
+	"*", 17,
+	(PropertyRNA *)&rna_AOV_name, (PropertyRNA *)&rna_AOV_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Light Group */
+CollectionPropertyRNA rna_Lightgroup_rna_properties = {
+	{(PropertyRNA *)&rna_Lightgroup_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Lightgroup_rna_properties_begin, Lightgroup_rna_properties_next, Lightgroup_rna_properties_end, Lightgroup_rna_properties_get, NULL, NULL, Lightgroup_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_Lightgroup_rna_type = {
+	{(PropertyRNA *)&rna_Lightgroup_name, (PropertyRNA *)&rna_Lightgroup_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Lightgroup_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+StringPropertyRNA rna_Lightgroup_name = {
+	{NULL, (PropertyRNA *)&rna_Lightgroup_rna_type,
+	-1, "name", 262145, 0, 0, 0, 0, "Name",
+	"Name of the Lightgroup",
+	0, "*",
+	PROP_STRING, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {64, 0, 0}, 0,
+	rna_ViewLayer_pass_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	Lightgroup_name_get, Lightgroup_name_length, Lightgroup_name_set, NULL, NULL, NULL, NULL, 0, 64, ""
+};
+
+StructRNA RNA_Lightgroup = {
+	{(ContainerRNA *)&RNA_ViewLayerEEVEE, (ContainerRNA *)&RNA_AOV,
+	NULL,
+	{(PropertyRNA *)&rna_Lightgroup_rna_properties, (PropertyRNA *)&rna_Lightgroup_name}},
+	"Lightgroup", NULL, NULL, 516, NULL, "Light Group",
+	"",
+	"*", 17,
+	(PropertyRNA *)&rna_Lightgroup_name, (PropertyRNA *)&rna_Lightgroup_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Eevee Settings */
+CollectionPropertyRNA rna_ViewLayerEEVEE_rna_properties = {
+	{(PropertyRNA *)&rna_ViewLayerEEVEE_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ViewLayerEEVEE_rna_properties_begin, ViewLayerEEVEE_rna_properties_next, ViewLayerEEVEE_rna_properties_end, ViewLayerEEVEE_rna_properties_get, NULL, NULL, ViewLayerEEVEE_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_ViewLayerEEVEE_rna_type = {
+	{(PropertyRNA *)&rna_ViewLayerEEVEE_use_pass_volume_direct, (PropertyRNA *)&rna_ViewLayerEEVEE_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ViewLayerEEVEE_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+BoolPropertyRNA rna_ViewLayerEEVEE_use_pass_volume_direct = {
+	{(PropertyRNA *)&rna_ViewLayerEEVEE_use_pass_bloom, (PropertyRNA *)&rna_ViewLayerEEVEE_rna_type,
+	-1, "use_pass_volume_direct", 1, 0, 0, 0, 0, "Volume Light",
+	"Deliver volume direct light pass",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_ViewLayer_pass_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ViewLayerEEVEE_use_pass_volume_direct_get, ViewLayerEEVEE_use_pass_volume_direct_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_ViewLayerEEVEE_use_pass_bloom = {
+	{NULL, (PropertyRNA *)&rna_ViewLayerEEVEE_use_pass_volume_direct,
+	-1, "use_pass_bloom", 1, 0, 0, 0, 0, "Bloom",
+	"Deliver bloom pass",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_ViewLayer_pass_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	ViewLayerEEVEE_use_pass_bloom_get, ViewLayerEEVEE_use_pass_bloom_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+StructRNA RNA_ViewLayerEEVEE = {
+	{(ContainerRNA *)&RNA_SceneGpencil, (ContainerRNA *)&RNA_Lightgroup,
+	NULL,
+	{(PropertyRNA *)&rna_ViewLayerEEVEE_rna_properties, (PropertyRNA *)&rna_ViewLayerEEVEE_use_pass_bloom}},
+	"ViewLayerEEVEE", NULL, NULL, 516, NULL, "Eevee Settings",
+	"View layer settings for Eevee",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_ViewLayerEEVEE_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	rna_ViewLayerEEVEE_path,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Grease Pencil Render */
+CollectionPropertyRNA rna_SceneGpencil_rna_properties = {
+	{(PropertyRNA *)&rna_SceneGpencil_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneGpencil_rna_properties_begin, SceneGpencil_rna_properties_next, SceneGpencil_rna_properties_end, SceneGpencil_rna_properties_get, NULL, NULL, SceneGpencil_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_SceneGpencil_rna_type = {
+	{(PropertyRNA *)&rna_SceneGpencil_antialias_threshold, (PropertyRNA *)&rna_SceneGpencil_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneGpencil_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+FloatPropertyRNA rna_SceneGpencil_antialias_threshold = {
+	{NULL, (PropertyRNA *)&rna_SceneGpencil_rna_type,
+	-1, "antialias_threshold", 1, 1, 0, 4, 0, "Anti-Aliasing Threshold",
+	"Threshold for edge detection algorithm (higher values might over-blur some part of the image)",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(SceneGpencil, smaa_threshold), 5, NULL},
+	SceneGpencil_antialias_threshold_get, SceneGpencil_antialias_threshold_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 2.0f, 0.0f, FLT_MAX, 1.0f, 3, 1.0f, NULL
+};
+
+StructRNA RNA_SceneGpencil = {
+	{(ContainerRNA *)&RNA_FFmpegSettings, (ContainerRNA *)&RNA_ViewLayerEEVEE,
+	NULL,
+	{(PropertyRNA *)&rna_SceneGpencil_rna_properties, (PropertyRNA *)&rna_SceneGpencil_antialias_threshold}},
+	"SceneGpencil", NULL, NULL, 516, NULL, "Grease Pencil Render",
+	"Render settings",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_SceneGpencil_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	rna_SceneGpencil_path,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* FFmpeg Settings */
+CollectionPropertyRNA rna_FFmpegSettings_rna_properties = {
+	{(PropertyRNA *)&rna_FFmpegSettings_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	FFmpegSettings_rna_properties_begin, FFmpegSettings_rna_properties_next, FFmpegSettings_rna_properties_end, FFmpegSettings_rna_properties_get, NULL, NULL, FFmpegSettings_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_FFmpegSettings_rna_type = {
+	{(PropertyRNA *)&rna_FFmpegSettings_format, (PropertyRNA *)&rna_FFmpegSettings_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	FFmpegSettings_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+static const EnumPropertyItem rna_FFmpegSettings_format_items[11] = {
+	{0, "MPEG1", 0, "MPEG-1", ""},
+	{1, "MPEG2", 0, "MPEG-2", ""},
+	{2, "MPEG4", 0, "MPEG-4", ""},
+	{3, "AVI", 0, "AVI", ""},
+	{4, "QUICKTIME", 0, "QuickTime", ""},
+	{5, "DV", 0, "DV", ""},
+	{10, "OGG", 0, "Ogg", ""},
+	{9, "MKV", 0, "Matroska", ""},
+	{8, "FLASH", 0, "Flash", ""},
+	{12, "WEBM", 0, "WebM", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_FFmpegSettings_format = {
+	{(PropertyRNA *)&rna_FFmpegSettings_codec, (PropertyRNA *)&rna_FFmpegSettings_rna_type,
+	-1, "format", 1, 0, 0, 4, 0, "Container",
+	"Output file container",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(FFMpegCodecData, type), 0, NULL},
+	FFmpegSettings_format_get, FFmpegSettings_format_set, NULL, NULL, NULL, rna_FFmpegSettings_format_items, 10, 9
+};
+
+static const EnumPropertyItem rna_FFmpegSettings_codec_items[15] = {
+	{0, "NONE", 0, "No Video", "Disables video output, for audio-only renders"},
+	{99, "DNXHD", 0, "DNxHD", ""},
+	{24, "DV", 0, "DV", ""},
+	{33, "FFV1", 0, "FFmpeg video codec #1", ""},
+	{21, "FLASH", 0, "Flash Video", ""},
+	{27, "H264", 0, "H.264", ""},
+	{25, "HUFFYUV", 0, "HuffYUV", ""},
+	{1, "MPEG1", 0, "MPEG-1", ""},
+	{2, "MPEG2", 0, "MPEG-2", ""},
+	{12, "MPEG4", 0, "MPEG-4 (divx)", ""},
+	{61, "PNG", 0, "PNG", ""},
+	{55, "QTRLE", 0, "QT rle / QT Animation", ""},
+	{30, "THEORA", 0, "Theora", ""},
+	{167, "WEBM", 0, "WEBM / VP9", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_FFmpegSettings_codec = {
+	{(PropertyRNA *)&rna_FFmpegSettings_video_bitrate, (PropertyRNA *)&rna_FFmpegSettings_format,
+	-1, "codec", 1, 0, 0, 4, 0, "Video Codec",
+	"FFmpeg codec to use for video output",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_FFmpegSettings_codec_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(FFMpegCodecData, codec), 0, NULL},
+	FFmpegSettings_codec_get, FFmpegSettings_codec_set, NULL, NULL, NULL, rna_FFmpegSettings_codec_items, 14, 27
+};
+
+IntPropertyRNA rna_FFmpegSettings_video_bitrate = {
+	{(PropertyRNA *)&rna_FFmpegSettings_minrate, (PropertyRNA *)&rna_FFmpegSettings_codec,
+	-1, "video_bitrate", 1, 0, 0, 4, 0, "Bitrate",
+	"Video bitrate (kbit/s)",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(FFMpegCodecData, video_bitrate), 0, NULL},
+	FFmpegSettings_video_bitrate_get, FFmpegSettings_video_bitrate_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, -10000, 10000, INT_MIN, INT_MAX, 1, 0, NULL
+};
+
+IntPropertyRNA rna_FFmpegSettings_minrate = {
+	{(PropertyRNA *)&rna_FFmpegSettings_maxrate, (PropertyRNA *)&rna_FFmpegSettings_video_bitrate,
+	-1, "minrate", 1, 0, 0, 4, 0, "Min Rate",
+	"Rate control: min rate (kbit/s)",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(FFMpegCodecData, rc_min_rate), 0, NULL},
+	FFmpegSettings_minrate_get, FFmpegSettings_minrate_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, -10000, 10000, INT_MIN, INT_MAX, 1, 0, NULL
+};
+
+IntPropertyRNA rna_FFmpegSettings_maxrate = {
+	{(PropertyRNA *)&rna_FFmpegSettings_muxrate, (PropertyRNA *)&rna_FFmpegSettings_minrate,
+	-1, "maxrate", 1, 0, 0, 4, 0, "Max Rate",
+	"Rate control: max rate (kbit/s)",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(FFMpegCodecData, rc_max_rate), 0, NULL},
+	FFmpegSettings_maxrate_get, FFmpegSettings_maxrate_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, -10000, 10000, INT_MIN, INT_MAX, 1, 0, NULL
+};
+
+IntPropertyRNA rna_FFmpegSettings_muxrate = {
+	{(PropertyRNA *)&rna_FFmpegSettings_gopsize, (PropertyRNA *)&rna_FFmpegSettings_maxrate,
+	-1, "muxrate", 1, 0, 0, 4, 0, "Mux Rate",
+	"Mux rate (bits/second)",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(FFMpegCodecData, mux_rate), 0, NULL},
+	FFmpegSettings_muxrate_get, FFmpegSettings_muxrate_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 100000000, 0, 100000000, 1, 0, NULL
+};
+
+IntPropertyRNA rna_FFmpegSettings_gopsize = {
+	{(PropertyRNA *)&rna_FFmpegSettings_max_b_frames, (PropertyRNA *)&rna_FFmpegSettings_muxrate,
+	-1, "gopsize", 1, 0, 0, 4, 0, "Keyframe Interval",
+	"Distance between key frames, also known as GOP size; influences file size and seekability",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(FFMpegCodecData, gop_size), 0, NULL},
+	FFmpegSettings_gopsize_get, FFmpegSettings_gopsize_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 500, 0, 500, 1, 25, NULL
+};
+
+IntPropertyRNA rna_FFmpegSettings_max_b_frames = {
+	{(PropertyRNA *)&rna_FFmpegSettings_use_max_b_frames, (PropertyRNA *)&rna_FFmpegSettings_gopsize,
+	-1, "max_b_frames", 1, 0, 0, 4, 0, "Max B-Frames",
+	"Maximum number of B-frames between non-B-frames; influences file size and seekability",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(FFMpegCodecData, max_b_frames), 0, NULL},
+	FFmpegSettings_max_b_frames_get, FFmpegSettings_max_b_frames_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 16, 0, 16, 1, 0, NULL
+};
+
+BoolPropertyRNA rna_FFmpegSettings_use_max_b_frames = {
+	{(PropertyRNA *)&rna_FFmpegSettings_buffersize, (PropertyRNA *)&rna_FFmpegSettings_max_b_frames,
+	-1, "use_max_b_frames", 1, 0, 0, 0, 0, "Use Max B-Frames",
+	"Set a maximum number of B-frames",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	FFmpegSettings_use_max_b_frames_get, FFmpegSettings_use_max_b_frames_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+IntPropertyRNA rna_FFmpegSettings_buffersize = {
+	{(PropertyRNA *)&rna_FFmpegSettings_packetsize, (PropertyRNA *)&rna_FFmpegSettings_use_max_b_frames,
+	-1, "buffersize", 1, 0, 0, 4, 0, "Buffersize",
+	"Rate control: buffer size (kb)",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(FFMpegCodecData, rc_buffer_size), 0, NULL},
+	FFmpegSettings_buffersize_get, FFmpegSettings_buffersize_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 2000, 0, 2000, 1, 0, NULL
+};
+
+IntPropertyRNA rna_FFmpegSettings_packetsize = {
+	{(PropertyRNA *)&rna_FFmpegSettings_constant_rate_factor, (PropertyRNA *)&rna_FFmpegSettings_buffersize,
+	-1, "packetsize", 1, 0, 0, 4, 0, "Mux Packet Size",
+	"Mux packet size (byte)",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(FFMpegCodecData, mux_packet_size), 0, NULL},
+	FFmpegSettings_packetsize_get, FFmpegSettings_packetsize_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 16384, 0, 16384, 1, 0, NULL
+};
+
+static const EnumPropertyItem rna_FFmpegSettings_constant_rate_factor_items[9] = {
+	{-1, "NONE", 0, "Constant Bitrate", "Configure constant bit rate, rather than constant output quality"},
+	{0, "LOSSLESS", 0, "Lossless", ""},
+	{17, "PERC_LOSSLESS", 0, "Perceptually Lossless", ""},
+	{20, "HIGH", 0, "High Quality", ""},
+	{23, "MEDIUM", 0, "Medium Quality", ""},
+	{26, "LOW", 0, "Low Quality", ""},
+	{29, "VERYLOW", 0, "Very Low Quality", ""},
+	{32, "LOWEST", 0, "Lowest Quality", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_FFmpegSettings_constant_rate_factor = {
+	{(PropertyRNA *)&rna_FFmpegSettings_ffmpeg_preset, (PropertyRNA *)&rna_FFmpegSettings_packetsize,
+	-1, "constant_rate_factor", 1, 0, 0, 4, 0, "Output Quality",
+	"Constant Rate Factor (CRF); tradeoff between video quality and file size",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(FFMpegCodecData, constant_rate_factor), 0, NULL},
+	FFmpegSettings_constant_rate_factor_get, FFmpegSettings_constant_rate_factor_set, NULL, NULL, NULL, rna_FFmpegSettings_constant_rate_factor_items, 8, 23
+};
+
+static const EnumPropertyItem rna_FFmpegSettings_ffmpeg_preset_items[4] = {
+	{11, "BEST", 0, "Slowest", "Recommended if you have lots of time and want the best compression efficiency"},
+	{10, "GOOD", 0, "Good", "The default and recommended for most applications"},
+	{12, "REALTIME", 0, "Realtime", "Recommended for fast encoding"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_FFmpegSettings_ffmpeg_preset = {
+	{(PropertyRNA *)&rna_FFmpegSettings_use_autosplit, (PropertyRNA *)&rna_FFmpegSettings_constant_rate_factor,
+	-1, "ffmpeg_preset", 1, 0, 0, 4, 0, "Encoding Speed",
+	"Tradeoff between encoding speed and compression ratio",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(FFMpegCodecData, ffmpeg_preset), 0, NULL},
+	FFmpegSettings_ffmpeg_preset_get, FFmpegSettings_ffmpeg_preset_set, NULL, NULL, NULL, rna_FFmpegSettings_ffmpeg_preset_items, 3, 10
+};
+
+BoolPropertyRNA rna_FFmpegSettings_use_autosplit = {
+	{(PropertyRNA *)&rna_FFmpegSettings_use_lossless_output, (PropertyRNA *)&rna_FFmpegSettings_ffmpeg_preset,
+	-1, "use_autosplit", 1, 0, 0, 0, 0, "Autosplit Output",
+	"Autosplit output at 2GB boundary",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	FFmpegSettings_use_autosplit_get, FFmpegSettings_use_autosplit_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_FFmpegSettings_use_lossless_output = {
+	{(PropertyRNA *)&rna_FFmpegSettings_audio_codec, (PropertyRNA *)&rna_FFmpegSettings_use_autosplit,
+	-1, "use_lossless_output", 1, 0, 0, 0, 0, "Lossless Output",
+	"Use lossless output for video streams",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	FFmpegSettings_use_lossless_output_get, FFmpegSettings_use_lossless_output_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+static const EnumPropertyItem rna_FFmpegSettings_audio_codec_items[10] = {
+	{0, "NONE", 0, "No Audio", "Disables audio output, for video-only renders"},
+	{86018, "AAC", 0, "AAC", ""},
+	{86019, "AC3", 0, "AC3", ""},
+	{86028, "FLAC", 0, "FLAC", ""},
+	{86016, "MP2", 0, "MP2", ""},
+	{86017, "MP3", 0, "MP3", ""},
+	{86076, "OPUS", 0, "Opus", ""},
+	{65536, "PCM", 0, "PCM", ""},
+	{86021, "VORBIS", 0, "Vorbis", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_FFmpegSettings_audio_codec = {
+	{(PropertyRNA *)&rna_FFmpegSettings_audio_bitrate, (PropertyRNA *)&rna_FFmpegSettings_use_lossless_output,
+	-1, "audio_codec", 1, 0, 0, 4, 0, "Audio Codec",
+	"FFmpeg audio codec to use",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(FFMpegCodecData, audio_codec), 0, NULL},
+	FFmpegSettings_audio_codec_get, FFmpegSettings_audio_codec_set, NULL, NULL, NULL, rna_FFmpegSettings_audio_codec_items, 9, 0
+};
+
+IntPropertyRNA rna_FFmpegSettings_audio_bitrate = {
+	{(PropertyRNA *)&rna_FFmpegSettings_audio_volume, (PropertyRNA *)&rna_FFmpegSettings_audio_codec,
+	-1, "audio_bitrate", 1, 0, 0, 4, 0, "Bitrate",
+	"Audio bitrate (kb/s)",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(FFMpegCodecData, audio_bitrate), 0, NULL},
+	FFmpegSettings_audio_bitrate_get, FFmpegSettings_audio_bitrate_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 32, 384, 32, 384, 1, 192, NULL
+};
+
+FloatPropertyRNA rna_FFmpegSettings_audio_volume = {
+	{(PropertyRNA *)&rna_FFmpegSettings_audio_mixrate, (PropertyRNA *)&rna_FFmpegSettings_audio_bitrate,
+	-1, "audio_volume", 1, 0, 0, 4, 0, "Volume",
+	"Audio volume",
+	0, "Sound",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(FFMpegCodecData, audio_volume), 5, NULL},
+	FFmpegSettings_audio_volume_get, FFmpegSettings_audio_volume_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 1.0f, NULL
+};
+
+IntPropertyRNA rna_FFmpegSettings_audio_mixrate = {
+	{(PropertyRNA *)&rna_FFmpegSettings_audio_channels, (PropertyRNA *)&rna_FFmpegSettings_audio_volume,
+	-1, "audio_mixrate", 1, 0, 0, 4, 0, "Samplerate",
+	"Audio samplerate(samples/s)",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(FFMpegCodecData, audio_mixrate), 0, NULL},
+	FFmpegSettings_audio_mixrate_get, FFmpegSettings_audio_mixrate_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 8000, 192000, 8000, 192000, 1, 48000, NULL
+};
+
+static const EnumPropertyItem rna_FFmpegSettings_audio_channels_items[6] = {
+	{1, "MONO", 0, "Mono", "Set audio channels to mono"},
+	{2, "STEREO", 0, "Stereo", "Set audio channels to stereo"},
+	{4, "SURROUND4", 0, "4 Channels", "Set audio channels to 4 channels"},
+	{6, "SURROUND51", 0, "5.1 Surround", "Set audio channels to 5.1 surround sound"},
+	{8, "SURROUND71", 0, "7.1 Surround", "Set audio channels to 7.1 surround sound"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_FFmpegSettings_audio_channels = {
+	{NULL, (PropertyRNA *)&rna_FFmpegSettings_audio_mixrate,
+	-1, "audio_channels", 1, 0, 0, 4, 0, "Audio Channels",
+	"Audio channel count",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(FFMpegCodecData, audio_channels), 0, NULL},
+	FFmpegSettings_audio_channels_get, FFmpegSettings_audio_channels_set, NULL, NULL, NULL, rna_FFmpegSettings_audio_channels_items, 5, 2
+};
+
+StructRNA RNA_FFmpegSettings = {
+	{(ContainerRNA *)&RNA_RenderSettings, (ContainerRNA *)&RNA_SceneGpencil,
+	NULL,
+	{(PropertyRNA *)&rna_FFmpegSettings_rna_properties, (PropertyRNA *)&rna_FFmpegSettings_audio_channels}},
+	"FFmpegSettings", NULL, NULL, 516, NULL, "FFmpeg Settings",
+	"FFmpeg related settings for the scene",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_FFmpegSettings_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	rna_FFmpegSettings_path,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Render Data */
+CollectionPropertyRNA rna_RenderSettings_rna_properties = {
+	{(PropertyRNA *)&rna_RenderSettings_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_rna_properties_begin, RenderSettings_rna_properties_next, RenderSettings_rna_properties_end, RenderSettings_rna_properties_get, NULL, NULL, RenderSettings_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_RenderSettings_rna_type = {
+	{(PropertyRNA *)&rna_RenderSettings_image_settings, (PropertyRNA *)&rna_RenderSettings_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+PointerPropertyRNA rna_RenderSettings_image_settings = {
+	{(PropertyRNA *)&rna_RenderSettings_resolution_x, (PropertyRNA *)&rna_RenderSettings_rna_type,
+	-1, "image_settings", 8650752, 0, 0, 0, 0, "Image Format",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_image_settings_get, NULL, NULL, NULL,&RNA_ImageFormatSettings
+};
+
+IntPropertyRNA rna_RenderSettings_resolution_x = {
+	{(PropertyRNA *)&rna_RenderSettings_resolution_y, (PropertyRNA *)&rna_RenderSettings_image_settings,
+	-1, "resolution_x", 67108865, 0, 0, 4, 0, "Resolution X",
+	"Number of horizontal pixels in the rendered image",
+	0, "*",
+	PROP_INT, PROP_PIXEL | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_SceneCamera_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, xsch), 0, NULL},
+	RenderSettings_resolution_x_get, RenderSettings_resolution_x_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 4, 65536, 4, 65536, 1, 1920, NULL
+};
+
+IntPropertyRNA rna_RenderSettings_resolution_y = {
+	{(PropertyRNA *)&rna_RenderSettings_resolution_percentage, (PropertyRNA *)&rna_RenderSettings_resolution_x,
+	-1, "resolution_y", 67108865, 0, 0, 4, 0, "Resolution Y",
+	"Number of vertical pixels in the rendered image",
+	0, "*",
+	PROP_INT, PROP_PIXEL | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_SceneCamera_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, ysch), 0, NULL},
+	RenderSettings_resolution_y_get, RenderSettings_resolution_y_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 4, 65536, 4, 65536, 1, 1080, NULL
+};
+
+IntPropertyRNA rna_RenderSettings_resolution_percentage = {
+	{(PropertyRNA *)&rna_RenderSettings_preview_pixel_size, (PropertyRNA *)&rna_RenderSettings_resolution_y,
+	-1, "resolution_percentage", 1, 0, 0, 4, 0, "Resolution %",
+	"Percentage scale for render resolution",
+	0, "*",
+	PROP_INT, PROP_PERCENTAGE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_SceneSequencer_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, size), 1, NULL},
+	RenderSettings_resolution_percentage_get, RenderSettings_resolution_percentage_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, 100, 1, 32767, 10, 100, NULL
+};
+
+static const EnumPropertyItem rna_RenderSettings_preview_pixel_size_items[6] = {
+	{0, "AUTO", 0, "Automatic", "Automatic pixel size, depends on the user interface scale"},
+	{1, "1", 0, "1x", "Render at full resolution"},
+	{2, "2", 0, "2x", "Render at 50% resolution"},
+	{4, "4", 0, "4x", "Render at 25% resolution"},
+	{8, "8", 0, "8x", "Render at 12.5% resolution"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_RenderSettings_preview_pixel_size = {
+	{(PropertyRNA *)&rna_RenderSettings_pixel_aspect_x, (PropertyRNA *)&rna_RenderSettings_resolution_percentage,
+	-1, "preview_pixel_size", 3, 0, 0, 4, 0, "Pixel Size",
+	"Pixel size for viewport rendering",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, preview_pixel_size), 1, NULL},
+	RenderSettings_preview_pixel_size_get, RenderSettings_preview_pixel_size_set, NULL, NULL, NULL, rna_RenderSettings_preview_pixel_size_items, 5, 0
+};
+
+FloatPropertyRNA rna_RenderSettings_pixel_aspect_x = {
+	{(PropertyRNA *)&rna_RenderSettings_pixel_aspect_y, (PropertyRNA *)&rna_RenderSettings_preview_pixel_size,
+	-1, "pixel_aspect_x", 67108865, 0, 0, 4, 0, "Pixel Aspect X",
+	"Horizontal aspect ratio - for anamorphic or non-square pixel output",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_SceneCamera_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, xasp), 5, NULL},
+	RenderSettings_pixel_aspect_x_get, RenderSettings_pixel_aspect_x_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 1.0f, 200.0f, 1.0f, 200.0f, 10.0f, 3, 1.0f, NULL
+};
+
+FloatPropertyRNA rna_RenderSettings_pixel_aspect_y = {
+	{(PropertyRNA *)&rna_RenderSettings_ffmpeg, (PropertyRNA *)&rna_RenderSettings_pixel_aspect_x,
+	-1, "pixel_aspect_y", 67108865, 0, 0, 4, 0, "Pixel Aspect Y",
+	"Vertical aspect ratio - for anamorphic or non-square pixel output",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_SceneCamera_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, yasp), 5, NULL},
+	RenderSettings_pixel_aspect_y_get, RenderSettings_pixel_aspect_y_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 1.0f, 200.0f, 1.0f, 200.0f, 10.0f, 3, 1.0f, NULL
+};
+
+PointerPropertyRNA rna_RenderSettings_ffmpeg = {
+	{(PropertyRNA *)&rna_RenderSettings_fps, (PropertyRNA *)&rna_RenderSettings_pixel_aspect_y,
+	-1, "ffmpeg", 41943040, 0, 0, 0, 0, "FFmpeg Settings",
+	"FFmpeg related settings for the scene",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_ffmpeg_get, NULL, NULL, NULL,&RNA_FFmpegSettings
+};
+
+IntPropertyRNA rna_RenderSettings_fps = {
+	{(PropertyRNA *)&rna_RenderSettings_fps_base, (PropertyRNA *)&rna_RenderSettings_ffmpeg,
+	-1, "fps", 1, 0, 0, 4, 0, "FPS",
+	"Framerate, expressed in frames per second",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_fps_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, frs_sec), 1, NULL},
+	RenderSettings_fps_get, RenderSettings_fps_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, 240, 1, 32767, 1, 24, NULL
+};
+
+FloatPropertyRNA rna_RenderSettings_fps_base = {
+	{(PropertyRNA *)&rna_RenderSettings_frame_map_old, (PropertyRNA *)&rna_RenderSettings_fps,
+	-1, "fps_base", 1, 0, 0, 4, 0, "FPS Base",
+	"Framerate base",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_fps_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, frs_sec_base), 5, NULL},
+	RenderSettings_fps_base_get, RenderSettings_fps_base_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.1000000015f, 120.0f, 0.0000100000f, 1000000.0f, 2.0f, 3, 1.0f, NULL
+};
+
+IntPropertyRNA rna_RenderSettings_frame_map_old = {
+	{(PropertyRNA *)&rna_RenderSettings_frame_map_new, (PropertyRNA *)&rna_RenderSettings_fps_base,
+	-1, "frame_map_old", 1, 0, 0, 4, 0, "Frame Map Old",
+	"Old mapping value in frames",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_framelen_update, 84082688, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, framapto), 0, NULL},
+	RenderSettings_frame_map_old_get, RenderSettings_frame_map_old_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, 900, 1, 900, 1, 100, NULL
+};
+
+IntPropertyRNA rna_RenderSettings_frame_map_new = {
+	{(PropertyRNA *)&rna_RenderSettings_dither_intensity, (PropertyRNA *)&rna_RenderSettings_frame_map_old,
+	-1, "frame_map_new", 1, 0, 0, 4, 0, "Frame Map New",
+	"How many frames the Map Old will last",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_framelen_update, 84082688, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, images), 0, NULL},
+	RenderSettings_frame_map_new_get, RenderSettings_frame_map_new_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, 900, 1, 900, 1, 100, NULL
+};
+
+FloatPropertyRNA rna_RenderSettings_dither_intensity = {
+	{(PropertyRNA *)&rna_RenderSettings_filter_size, (PropertyRNA *)&rna_RenderSettings_frame_map_new,
+	-1, "dither_intensity", 3, 0, 0, 4, 0, "Dither Intensity",
+	"Amount of dithering noise added to the rendered image to break up banding",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, dither_intensity), 5, NULL},
+	RenderSettings_dither_intensity_get, RenderSettings_dither_intensity_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 2.0f, 0.0f, FLT_MAX, 0.1000000015f, 2, 1.0f, NULL
+};
+
+FloatPropertyRNA rna_RenderSettings_filter_size = {
+	{(PropertyRNA *)&rna_RenderSettings_film_transparent, (PropertyRNA *)&rna_RenderSettings_dither_intensity,
+	-1, "filter_size", 3, 0, 0, 4, 0, "Filter Size",
+	"Width over which the reconstruction filter combines samples",
+	0, "*",
+	PROP_FLOAT, PROP_PIXEL | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, gauss), 5, NULL},
+	RenderSettings_filter_size_get, RenderSettings_filter_size_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0099999998f, 10.0f, 0.0f, 500.0f, 1.0f, 2, 1.5000000000f, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_film_transparent = {
+	{(PropertyRNA *)&rna_RenderSettings_use_freestyle, (PropertyRNA *)&rna_RenderSettings_filter_size,
+	-1, "film_transparent", 3, 0, 0, 0, 0, "Transparent",
+	"World background is transparent, for compositing the render over another background",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_glsl_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_film_transparent_get, RenderSettings_film_transparent_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_freestyle = {
+	{(PropertyRNA *)&rna_RenderSettings_threads, (PropertyRNA *)&rna_RenderSettings_film_transparent,
+	-1, "use_freestyle", 1, 0, 0, 0, 0, "Edge",
+	"Draw stylized strokes using Freestyle",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_use_freestyle_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_freestyle_get, RenderSettings_use_freestyle_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+IntPropertyRNA rna_RenderSettings_threads = {
+	{(PropertyRNA *)&rna_RenderSettings_threads_mode, (PropertyRNA *)&rna_RenderSettings_use_freestyle,
+	-1, "threads", 3, 0, 0, 0, 0, "Threads",
+	"Maximum number of CPU cores to use simultaneously while rendering (for multi-core/CPU systems)",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_threads_get, RenderSettings_threads_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 1, 1024, 1, 1024, 1, 1, NULL
+};
+
+static const EnumPropertyItem rna_RenderSettings_threads_mode_items[3] = {
+	{0, "AUTO", 0, "Auto-Detect", "Automatically determine the number of threads, based on CPUs"},
+	{524288, "FIXED", 0, "Fixed", "Manually determine the number of threads"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_RenderSettings_threads_mode = {
+	{(PropertyRNA *)&rna_RenderSettings_use_motion_blur, (PropertyRNA *)&rna_RenderSettings_threads,
+	-1, "threads_mode", 3, 0, 0, 0, 0, "Threads Mode",
+	"Determine the amount of render threads used",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_threads_mode_get, RenderSettings_threads_mode_set, NULL, NULL, NULL, rna_RenderSettings_threads_mode_items, 2, 0
+};
+
+BoolPropertyRNA rna_RenderSettings_use_motion_blur = {
+	{(PropertyRNA *)&rna_RenderSettings_motion_blur_shutter, (PropertyRNA *)&rna_RenderSettings_threads_mode,
+	-1, "use_motion_blur", 1, 0, 0, 0, 0, "Motion Blur",
+	"Use multi-sampled 3D scene motion blur",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_glsl_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_motion_blur_get, RenderSettings_use_motion_blur_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+FloatPropertyRNA rna_RenderSettings_motion_blur_shutter = {
+	{(PropertyRNA *)&rna_RenderSettings_motion_blur_shutter_curve, (PropertyRNA *)&rna_RenderSettings_use_motion_blur,
+	-1, "motion_blur_shutter", 3, 0, 0, 4, 0, "Shutter",
+	"Time taken in frames between shutter open and close",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_glsl_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, blurfac), 5, NULL},
+	RenderSettings_motion_blur_shutter_get, RenderSettings_motion_blur_shutter_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0099999998f, 1.0f, 0.0f, FLT_MAX, 1.0f, 2, 0.5000000000f, NULL
+};
+
+PointerPropertyRNA rna_RenderSettings_motion_blur_shutter_curve = {
+	{(PropertyRNA *)&rna_RenderSettings_hair_type, (PropertyRNA *)&rna_RenderSettings_motion_blur_shutter,
+	-1, "motion_blur_shutter_curve", 8388608, 0, 0, 0, 0, "Shutter Curve",
+	"Curve defining the shutter\'s openness over time",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_motion_blur_shutter_curve_get, NULL, NULL, NULL,&RNA_CurveMapping
+};
+
+static const EnumPropertyItem rna_RenderSettings_hair_type_items[3] = {
+	{0, "STRAND", 0, "Strand", ""},
+	{1, "STRIP", 0, "Strip", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_RenderSettings_hair_type = {
+	{(PropertyRNA *)&rna_RenderSettings_hair_subdiv, (PropertyRNA *)&rna_RenderSettings_motion_blur_shutter_curve,
+	-1, "hair_type", 3, 0, 0, 4, 0, "Curves Shape Type",
+	"Curves shape type",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_glsl_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, hair_type), 1, NULL},
+	RenderSettings_hair_type_get, RenderSettings_hair_type_set, NULL, NULL, NULL, rna_RenderSettings_hair_type_items, 2, 0
+};
+
+IntPropertyRNA rna_RenderSettings_hair_subdiv = {
+	{(PropertyRNA *)&rna_RenderSettings_use_high_quality_normals, (PropertyRNA *)&rna_RenderSettings_hair_type,
+	-1, "hair_subdiv", 3, 0, 0, 4, 0, "Additional Subdivision",
+	"Additional subdivision along the curves",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_glsl_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, hair_subdiv), 1, NULL},
+	RenderSettings_hair_subdiv_get, RenderSettings_hair_subdiv_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 3, 0, 3, 1, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_high_quality_normals = {
+	{(PropertyRNA *)&rna_RenderSettings_use_border, (PropertyRNA *)&rna_RenderSettings_hair_subdiv,
+	-1, "use_high_quality_normals", 3, 0, 0, 0, 0, "High Quality Normals",
+	"Use high quality tangent space at the cost of lower performance",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_mesh_quality_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_high_quality_normals_get, RenderSettings_use_high_quality_normals_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_border = {
+	{(PropertyRNA *)&rna_RenderSettings_border_min_x, (PropertyRNA *)&rna_RenderSettings_use_high_quality_normals,
+	-1, "use_border", 1, 0, 0, 0, 0, "Render Region",
+	"Render a user-defined render region, within the frame size",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_border_get, RenderSettings_use_border_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+FloatPropertyRNA rna_RenderSettings_border_min_x = {
+	{(PropertyRNA *)&rna_RenderSettings_border_min_y, (PropertyRNA *)&rna_RenderSettings_use_border,
+	-1, "border_min_x", 1, 0, 0, 4, 0, "Region Minimum X",
+	"Minimum X value for the render region",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, border.xmin), 5, NULL},
+	RenderSettings_border_min_x_get, RenderSettings_border_min_x_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 0.0f, NULL
+};
+
+FloatPropertyRNA rna_RenderSettings_border_min_y = {
+	{(PropertyRNA *)&rna_RenderSettings_border_max_x, (PropertyRNA *)&rna_RenderSettings_border_min_x,
+	-1, "border_min_y", 1, 0, 0, 4, 0, "Region Minimum Y",
+	"Minimum Y value for the render region",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, border.ymin), 5, NULL},
+	RenderSettings_border_min_y_get, RenderSettings_border_min_y_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 0.0f, NULL
+};
+
+FloatPropertyRNA rna_RenderSettings_border_max_x = {
+	{(PropertyRNA *)&rna_RenderSettings_border_max_y, (PropertyRNA *)&rna_RenderSettings_border_min_y,
+	-1, "border_max_x", 1, 0, 0, 4, 0, "Region Maximum X",
+	"Maximum X value for the render region",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, border.xmax), 5, NULL},
+	RenderSettings_border_max_x_get, RenderSettings_border_max_x_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 1.0f, NULL
+};
+
+FloatPropertyRNA rna_RenderSettings_border_max_y = {
+	{(PropertyRNA *)&rna_RenderSettings_use_crop_to_border, (PropertyRNA *)&rna_RenderSettings_border_max_x,
+	-1, "border_max_y", 1, 0, 0, 4, 0, "Region Maximum Y",
+	"Maximum Y value for the render region",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, border.ymax), 5, NULL},
+	RenderSettings_border_max_y_get, RenderSettings_border_max_y_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 1.0f, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_crop_to_border = {
+	{(PropertyRNA *)&rna_RenderSettings_use_placeholder, (PropertyRNA *)&rna_RenderSettings_border_max_y,
+	-1, "use_crop_to_border", 1, 0, 0, 0, 0, "Crop to Render Region",
+	"Crop the rendered frame to the defined render region size",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_crop_to_border_get, RenderSettings_use_crop_to_border_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_placeholder = {
+	{(PropertyRNA *)&rna_RenderSettings_use_overwrite, (PropertyRNA *)&rna_RenderSettings_use_crop_to_border,
+	-1, "use_placeholder", 1, 0, 0, 0, 0, "Placeholders",
+	"Create empty placeholder files while rendering frames (similar to Unix \'touch\')",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_placeholder_get, RenderSettings_use_placeholder_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_overwrite = {
+	{(PropertyRNA *)&rna_RenderSettings_use_compositing, (PropertyRNA *)&rna_RenderSettings_use_placeholder,
+	-1, "use_overwrite", 3, 0, 0, 0, 0, "Overwrite",
+	"Overwrite existing files while rendering",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_overwrite_get, RenderSettings_use_overwrite_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_compositing = {
+	{(PropertyRNA *)&rna_RenderSettings_use_sequencer, (PropertyRNA *)&rna_RenderSettings_use_overwrite,
+	-1, "use_compositing", 1, 0, 0, 0, 0, "Compositing",
+	"Process the render result through the compositing pipeline, if compositing nodes are enabled",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_compositing_get, RenderSettings_use_compositing_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_sequencer = {
+	{(PropertyRNA *)&rna_RenderSettings_use_file_extension, (PropertyRNA *)&rna_RenderSettings_use_compositing,
+	-1, "use_sequencer", 1, 0, 0, 0, 0, "Sequencer",
+	"Process the render (and composited) result through the video sequence editor pipeline, if sequencer strips exist",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_sequencer_get, RenderSettings_use_sequencer_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_file_extension = {
+	{(PropertyRNA *)&rna_RenderSettings_file_extension, (PropertyRNA *)&rna_RenderSettings_use_sequencer,
+	-1, "use_file_extension", 1, 0, 0, 0, 0, "File Extensions",
+	"Add the file format extensions to the rendered file name (eg: filename + .jpg)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_file_extension_get, RenderSettings_use_file_extension_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+StringPropertyRNA rna_RenderSettings_file_extension = {
+	{(PropertyRNA *)&rna_RenderSettings_is_movie_format, (PropertyRNA *)&rna_RenderSettings_use_file_extension,
+	-1, "file_extension", 262144, 0, 0, 0, 0, "Extension",
+	"The file extension used for saving renders",
+	0, "*",
+	PROP_STRING, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_file_extension_get, RenderSettings_file_extension_length, NULL, NULL, NULL, NULL, NULL, 0, 0, ""
+};
+
+BoolPropertyRNA rna_RenderSettings_is_movie_format = {
+	{(PropertyRNA *)&rna_RenderSettings_use_lock_interface, (PropertyRNA *)&rna_RenderSettings_file_extension,
+	-1, "is_movie_format", 2, 0, 0, 0, 0, "Movie Format",
+	"When true the format is a movie",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_is_movie_format_get, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_lock_interface = {
+	{(PropertyRNA *)&rna_RenderSettings_filepath, (PropertyRNA *)&rna_RenderSettings_is_movie_format,
+	-1, "use_lock_interface", 4097, 0, 0, 0, 0, "Lock Interface",
+	"Lock interface during rendering in favor of giving more memory to the renderer",
+	40, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_lock_interface_get, RenderSettings_use_lock_interface_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+StringPropertyRNA rna_RenderSettings_filepath = {
+	{(PropertyRNA *)&rna_RenderSettings_use_render_cache, (PropertyRNA *)&rna_RenderSettings_use_lock_interface,
+	-1, "filepath", 262145, 0, 0, 0, 0, "Output Path",
+	"Directory/name to save animations, # characters defines the position and length of frame numbers",
+	0, "*",
+	PROP_STRING, PROP_FILEPATH | PROP_UNIT_NONE, NULL, 0, {1024, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_filepath_get, RenderSettings_filepath_length, RenderSettings_filepath_set, NULL, NULL, NULL, NULL, 0, 1024, ""
+};
+
+BoolPropertyRNA rna_RenderSettings_use_render_cache = {
+	{(PropertyRNA *)&rna_RenderSettings_bake_type, (PropertyRNA *)&rna_RenderSettings_filepath,
+	-1, "use_render_cache", 1, 0, 0, 0, 0, "Cache Result",
+	"Save render cache to EXR files (useful for heavy compositing, Note: affects indirectly rendered scenes)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_render_cache_get, RenderSettings_use_render_cache_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+static const EnumPropertyItem rna_RenderSettings_bake_type_items[3] = {
+	{0, "NORMALS", 0, "Normals", "Bake normals"},
+	{1, "DISPLACEMENT", 0, "Displacement", "Bake displacement"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_RenderSettings_bake_type = {
+	{(PropertyRNA *)&rna_RenderSettings_use_bake_selected_to_active, (PropertyRNA *)&rna_RenderSettings_use_render_cache,
+	-1, "bake_type", 3, 0, 0, 4, 0, "Bake Type",
+	"Choose shading information to bake into the image",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, bake_mode), 1, NULL},
+	RenderSettings_bake_type_get, RenderSettings_bake_type_set, NULL, NULL, NULL, rna_RenderSettings_bake_type_items, 2, 0
+};
+
+BoolPropertyRNA rna_RenderSettings_use_bake_selected_to_active = {
+	{(PropertyRNA *)&rna_RenderSettings_use_bake_clear, (PropertyRNA *)&rna_RenderSettings_bake_type,
+	-1, "use_bake_selected_to_active", 3, 0, 0, 0, 0, "Selected to Active",
+	"Bake shading on the surface of selected objects to the active object",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_bake_selected_to_active_get, RenderSettings_use_bake_selected_to_active_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_bake_clear = {
+	{(PropertyRNA *)&rna_RenderSettings_bake_margin, (PropertyRNA *)&rna_RenderSettings_use_bake_selected_to_active,
+	-1, "use_bake_clear", 3, 0, 0, 0, 0, "Clear",
+	"Clear Images before baking",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_bake_clear_get, RenderSettings_use_bake_clear_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+IntPropertyRNA rna_RenderSettings_bake_margin = {
+	{(PropertyRNA *)&rna_RenderSettings_bake_margin_type, (PropertyRNA *)&rna_RenderSettings_use_bake_clear,
+	-1, "bake_margin", 3, 0, 0, 4, 0, "Margin",
+	"Extends the baked result as a post process filter",
+	0, "*",
+	PROP_INT, PROP_PIXEL | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, bake_margin), 1, NULL},
+	RenderSettings_bake_margin_get, RenderSettings_bake_margin_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 64, 0, 64, 1, 16, NULL
+};
+
+static const EnumPropertyItem rna_RenderSettings_bake_margin_type_items[3] = {
+	{0, "ADJACENT_FACES", 0, "Adjacent Faces", "Use pixels from adjacent faces across UV seams"},
+	{1, "EXTEND", 0, "Extend", "Extend border pixels outwards"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_RenderSettings_bake_margin_type = {
+	{(PropertyRNA *)&rna_RenderSettings_bake_bias, (PropertyRNA *)&rna_RenderSettings_bake_margin,
+	-1, "bake_margin_type", 3, 0, 0, 4, 0, "Margin Type",
+	"Algorithm to generate the margin",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, bake_margin_type), 1, NULL},
+	RenderSettings_bake_margin_type_get, RenderSettings_bake_margin_type_set, NULL, NULL, NULL, rna_RenderSettings_bake_margin_type_items, 2, 0
+};
+
+FloatPropertyRNA rna_RenderSettings_bake_bias = {
+	{(PropertyRNA *)&rna_RenderSettings_use_bake_multires, (PropertyRNA *)&rna_RenderSettings_bake_margin_type,
+	-1, "bake_bias", 3, 0, 0, 4, 0, "Bias",
+	"Bias towards faces further away from the object (in blender units)",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, bake_biasdist), 5, NULL},
+	RenderSettings_bake_bias_get, RenderSettings_bake_bias_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1000.0f, 0.0f, 1000.0f, 10.0f, 3, 0.0010000000f, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_bake_multires = {
+	{(PropertyRNA *)&rna_RenderSettings_use_bake_lores_mesh, (PropertyRNA *)&rna_RenderSettings_bake_bias,
+	-1, "use_bake_multires", 3, 0, 0, 0, 0, "Bake from Multires",
+	"Bake directly from multires object",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_bake_multires_get, RenderSettings_use_bake_multires_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_bake_lores_mesh = {
+	{(PropertyRNA *)&rna_RenderSettings_bake_samples, (PropertyRNA *)&rna_RenderSettings_use_bake_multires,
+	-1, "use_bake_lores_mesh", 3, 0, 0, 0, 0, "Low Resolution Mesh",
+	"Calculate heights against unsubdivided low resolution mesh",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_bake_lores_mesh_get, RenderSettings_use_bake_lores_mesh_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+IntPropertyRNA rna_RenderSettings_bake_samples = {
+	{(PropertyRNA *)&rna_RenderSettings_use_bake_user_scale, (PropertyRNA *)&rna_RenderSettings_use_bake_lores_mesh,
+	-1, "bake_samples", 3, 0, 0, 4, 0, "Samples",
+	"Number of samples used for ambient occlusion baking from multires",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, bake_samples), 1, NULL},
+	RenderSettings_bake_samples_get, RenderSettings_bake_samples_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 64, 1024, 64, 1024, 1, 256, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_bake_user_scale = {
+	{(PropertyRNA *)&rna_RenderSettings_bake_user_scale, (PropertyRNA *)&rna_RenderSettings_bake_samples,
+	-1, "use_bake_user_scale", 3, 0, 0, 0, 0, "User Scale",
+	"Use a user scale for the derivative map",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_bake_user_scale_get, RenderSettings_use_bake_user_scale_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+FloatPropertyRNA rna_RenderSettings_bake_user_scale = {
+	{(PropertyRNA *)&rna_RenderSettings_use_stamp_time, (PropertyRNA *)&rna_RenderSettings_use_bake_user_scale,
+	-1, "bake_user_scale", 3, 0, 0, 4, 0, "Scale",
+	"Instead of automatically normalizing to the range 0 to 1, apply a user scale to the derivative map",
+	0, "*",
+	PROP_FLOAT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, bake_user_scale), 5, NULL},
+	RenderSettings_bake_user_scale_get, RenderSettings_bake_user_scale_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1000.0f, 0.0f, 1000.0f, 10.0f, 3, 0.0f, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_stamp_time = {
+	{(PropertyRNA *)&rna_RenderSettings_use_stamp_date, (PropertyRNA *)&rna_RenderSettings_bake_user_scale,
+	-1, "use_stamp_time", 3, 0, 0, 0, 0, "Stamp Time",
+	"Include the rendered frame timecode as HH:MM:SS.FF in image metadata",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_stamp_time_get, RenderSettings_use_stamp_time_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_stamp_date = {
+	{(PropertyRNA *)&rna_RenderSettings_use_stamp_frame, (PropertyRNA *)&rna_RenderSettings_use_stamp_time,
+	-1, "use_stamp_date", 3, 0, 0, 0, 0, "Stamp Date",
+	"Include the current date in image/video metadata",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_stamp_date_get, RenderSettings_use_stamp_date_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_stamp_frame = {
+	{(PropertyRNA *)&rna_RenderSettings_use_stamp_frame_range, (PropertyRNA *)&rna_RenderSettings_use_stamp_date,
+	-1, "use_stamp_frame", 3, 0, 0, 0, 0, "Stamp Frame",
+	"Include the frame number in image metadata",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_stamp_frame_get, RenderSettings_use_stamp_frame_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_stamp_frame_range = {
+	{(PropertyRNA *)&rna_RenderSettings_use_stamp_camera, (PropertyRNA *)&rna_RenderSettings_use_stamp_frame,
+	-1, "use_stamp_frame_range", 3, 0, 0, 0, 0, "Stamp Frame",
+	"Include the rendered frame range in image/video metadata",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_stamp_frame_range_get, RenderSettings_use_stamp_frame_range_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_stamp_camera = {
+	{(PropertyRNA *)&rna_RenderSettings_use_stamp_lens, (PropertyRNA *)&rna_RenderSettings_use_stamp_frame_range,
+	-1, "use_stamp_camera", 3, 0, 0, 0, 0, "Stamp Camera",
+	"Include the name of the active camera in image metadata",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_stamp_camera_get, RenderSettings_use_stamp_camera_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_stamp_lens = {
+	{(PropertyRNA *)&rna_RenderSettings_use_stamp_scene, (PropertyRNA *)&rna_RenderSettings_use_stamp_camera,
+	-1, "use_stamp_lens", 3, 0, 0, 0, 0, "Stamp Lens",
+	"Include the active camera\'s lens in image metadata",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_stamp_lens_get, RenderSettings_use_stamp_lens_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_stamp_scene = {
+	{(PropertyRNA *)&rna_RenderSettings_use_stamp_note, (PropertyRNA *)&rna_RenderSettings_use_stamp_lens,
+	-1, "use_stamp_scene", 3, 0, 0, 0, 0, "Stamp Scene",
+	"Include the name of the active scene in image/video metadata",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_stamp_scene_get, RenderSettings_use_stamp_scene_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_stamp_note = {
+	{(PropertyRNA *)&rna_RenderSettings_use_stamp_marker, (PropertyRNA *)&rna_RenderSettings_use_stamp_scene,
+	-1, "use_stamp_note", 3, 0, 0, 0, 0, "Stamp Note",
+	"Include a custom note in image/video metadata",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_stamp_note_get, RenderSettings_use_stamp_note_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_stamp_marker = {
+	{(PropertyRNA *)&rna_RenderSettings_use_stamp_filename, (PropertyRNA *)&rna_RenderSettings_use_stamp_note,
+	-1, "use_stamp_marker", 3, 0, 0, 0, 0, "Stamp Marker",
+	"Include the name of the last marker in image metadata",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_stamp_marker_get, RenderSettings_use_stamp_marker_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_stamp_filename = {
+	{(PropertyRNA *)&rna_RenderSettings_use_stamp_sequencer_strip, (PropertyRNA *)&rna_RenderSettings_use_stamp_marker,
+	-1, "use_stamp_filename", 3, 0, 0, 0, 0, "Stamp Filename",
+	"Include the .blend filename in image/video metadata",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_stamp_filename_get, RenderSettings_use_stamp_filename_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_stamp_sequencer_strip = {
+	{(PropertyRNA *)&rna_RenderSettings_use_stamp_render_time, (PropertyRNA *)&rna_RenderSettings_use_stamp_filename,
+	-1, "use_stamp_sequencer_strip", 3, 0, 0, 0, 0, "Stamp Sequence Strip",
+	"Include the name of the foreground sequence strip in image metadata",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_stamp_sequencer_strip_get, RenderSettings_use_stamp_sequencer_strip_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_stamp_render_time = {
+	{(PropertyRNA *)&rna_RenderSettings_stamp_note_text, (PropertyRNA *)&rna_RenderSettings_use_stamp_sequencer_strip,
+	-1, "use_stamp_render_time", 3, 0, 0, 0, 0, "Stamp Render Time",
+	"Include the render time in image metadata",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_stamp_render_time_get, RenderSettings_use_stamp_render_time_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+StringPropertyRNA rna_RenderSettings_stamp_note_text = {
+	{(PropertyRNA *)&rna_RenderSettings_use_stamp, (PropertyRNA *)&rna_RenderSettings_use_stamp_render_time,
+	-1, "stamp_note_text", 262145, 0, 0, 0, 0, "Stamp Note Text",
+	"Custom text to appear in the stamp note",
+	0, "*",
+	PROP_STRING, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {768, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_stamp_note_text_get, RenderSettings_stamp_note_text_length, RenderSettings_stamp_note_text_set, NULL, NULL, NULL, NULL, 0, 768, ""
+};
+
+BoolPropertyRNA rna_RenderSettings_use_stamp = {
+	{(PropertyRNA *)&rna_RenderSettings_use_stamp_labels, (PropertyRNA *)&rna_RenderSettings_stamp_note_text,
+	-1, "use_stamp", 3, 0, 0, 0, 0, "Stamp Output",
+	"Render the stamp info text in the rendered image",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_stamp_get, RenderSettings_use_stamp_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_stamp_labels = {
+	{(PropertyRNA *)&rna_RenderSettings_metadata_input, (PropertyRNA *)&rna_RenderSettings_use_stamp,
+	-1, "use_stamp_labels", 3, 0, 0, 0, 0, "Stamp Labels",
+	"Display stamp labels (\"Camera\" in front of camera name, etc.)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_stamp_labels_get, RenderSettings_use_stamp_labels_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+static const EnumPropertyItem rna_RenderSettings_metadata_input_items[3] = {
+	{0, "SCENE", 0, "Scene", "Use metadata from the current scene"},
+	{4096, "STRIPS", 0, "Sequencer Strips", "Use metadata from the strips in the sequencer"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_RenderSettings_metadata_input = {
+	{(PropertyRNA *)&rna_RenderSettings_use_stamp_memory, (PropertyRNA *)&rna_RenderSettings_use_stamp_labels,
+	-1, "metadata_input", 3, 0, 0, 4, 0, "Metadata Input",
+	"Where to take the metadata from",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, stamp), 0, NULL},
+	RenderSettings_metadata_input_get, RenderSettings_metadata_input_set, NULL, NULL, NULL, rna_RenderSettings_metadata_input_items, 2, 0
+};
+
+BoolPropertyRNA rna_RenderSettings_use_stamp_memory = {
+	{(PropertyRNA *)&rna_RenderSettings_use_stamp_hostname, (PropertyRNA *)&rna_RenderSettings_metadata_input,
+	-1, "use_stamp_memory", 3, 0, 0, 0, 0, "Stamp Peak Memory",
+	"Include the peak memory usage in image metadata",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_stamp_memory_get, RenderSettings_use_stamp_memory_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_stamp_hostname = {
+	{(PropertyRNA *)&rna_RenderSettings_stamp_font_size, (PropertyRNA *)&rna_RenderSettings_use_stamp_memory,
+	-1, "use_stamp_hostname", 3, 0, 0, 0, 0, "Stamp Hostname",
+	"Include the hostname of the machine that rendered the frame",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_stamp_hostname_get, RenderSettings_use_stamp_hostname_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+IntPropertyRNA rna_RenderSettings_stamp_font_size = {
+	{(PropertyRNA *)&rna_RenderSettings_stamp_foreground, (PropertyRNA *)&rna_RenderSettings_use_stamp_hostname,
+	-1, "stamp_font_size", 3, 0, 0, 4, 0, "Font Size",
+	"Size of the font used when rendering stamp text",
+	0, "*",
+	PROP_INT, PROP_PIXEL | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, stamp_font_id), 1, NULL},
+	RenderSettings_stamp_font_size_get, RenderSettings_stamp_font_size_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 8, 64, 8, 64, 1, 12, NULL
+};
+
+static float rna_RenderSettings_stamp_foreground_default[4] = {
+	0.8000000119f,
+	0.8000000119f,
+	0.8000000119f,
+	1.0f
+};
+
+FloatPropertyRNA rna_RenderSettings_stamp_foreground = {
+	{(PropertyRNA *)&rna_RenderSettings_stamp_background, (PropertyRNA *)&rna_RenderSettings_stamp_font_size,
+	-1, "stamp_foreground", 3, 0, 0, 4, 0, "Text Color",
+	"Color to use for stamp text",
+	0, "*",
+	PROP_FLOAT, PROP_COLOR | PROP_UNIT_NONE, NULL, 1, {4, 0, 0}, 4,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, fg_stamp), 5, NULL},
+	NULL, NULL, RenderSettings_stamp_foreground_get, RenderSettings_stamp_foreground_set, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 0.0f, rna_RenderSettings_stamp_foreground_default
+};
+
+static float rna_RenderSettings_stamp_background_default[4] = {
+	0.0f,
+	0.0f,
+	0.0f,
+	0.2500000000f
+};
+
+FloatPropertyRNA rna_RenderSettings_stamp_background = {
+	{(PropertyRNA *)&rna_RenderSettings_sequencer_gl_preview, (PropertyRNA *)&rna_RenderSettings_stamp_foreground,
+	-1, "stamp_background", 3, 0, 0, 4, 0, "Background",
+	"Color to use behind stamp text",
+	0, "*",
+	PROP_FLOAT, PROP_COLOR | PROP_UNIT_NONE, NULL, 1, {4, 0, 0}, 4,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, bg_stamp), 5, NULL},
+	NULL, NULL, RenderSettings_stamp_background_get, RenderSettings_stamp_background_set, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 0.0f, rna_RenderSettings_stamp_background_default
+};
+
+EnumPropertyRNA rna_RenderSettings_sequencer_gl_preview = {
+	{(PropertyRNA *)&rna_RenderSettings_use_sequencer_override_scene_strip, (PropertyRNA *)&rna_RenderSettings_stamp_background,
+	-1, "sequencer_gl_preview", 3, 0, 0, 4, 0, "Sequencer Preview Shading",
+	"Display method used in the sequencer view",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_SceneSequencer_update, 84279296, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, seq_prev_type), 2, NULL},
+	RenderSettings_sequencer_gl_preview_get, RenderSettings_sequencer_gl_preview_set, NULL, NULL, NULL, rna_enum_shading_type_items, 4, 3
+};
+
+BoolPropertyRNA rna_RenderSettings_use_sequencer_override_scene_strip = {
+	{(PropertyRNA *)&rna_RenderSettings_use_single_layer, (PropertyRNA *)&rna_RenderSettings_sequencer_gl_preview,
+	-1, "use_sequencer_override_scene_strip", 3, 0, 0, 0, 0, "Override Scene Settings",
+	"Use workbench render settings from the sequencer scene, instead of each individual scene used in the strip",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_SceneSequencer_update, 84279296, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_sequencer_override_scene_strip_get, RenderSettings_use_sequencer_override_scene_strip_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_single_layer = {
+	{(PropertyRNA *)&rna_RenderSettings_views, (PropertyRNA *)&rna_RenderSettings_use_sequencer_override_scene_strip,
+	-1, "use_single_layer", 1, 0, 0, 0, 0, "Render Single Layer",
+	"Only render the active layer. Only affects rendering from the interface, ignored for rendering from command line",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_single_layer_get, RenderSettings_use_single_layer_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+CollectionPropertyRNA rna_RenderSettings_views = {
+	{(PropertyRNA *)&rna_RenderSettings_stereo_views, (PropertyRNA *)&rna_RenderSettings_use_single_layer,
+	-1, "views", 0, 0, 0, 0, 0, "Render Views",
+	"",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, &RNA_RenderViews},
+	RenderSettings_views_begin, RenderSettings_views_next, RenderSettings_views_end, RenderSettings_views_get, NULL, RenderSettings_views_lookup_int, RenderSettings_views_lookup_string, NULL, &RNA_SceneRenderView
+};
+
+CollectionPropertyRNA rna_RenderSettings_stereo_views = {
+	{(PropertyRNA *)&rna_RenderSettings_use_multiview, (PropertyRNA *)&rna_RenderSettings_views,
+	-1, "stereo_views", 0, 0, 0, 0, 0, "Render Views",
+	"",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_stereo_views_begin, RenderSettings_stereo_views_next, RenderSettings_stereo_views_end, RenderSettings_stereo_views_get, NULL, RenderSettings_stereo_views_lookup_int, RenderSettings_stereo_views_lookup_string, NULL, &RNA_SceneRenderView
+};
+
+BoolPropertyRNA rna_RenderSettings_use_multiview = {
+	{(PropertyRNA *)&rna_RenderSettings_views_format, (PropertyRNA *)&rna_RenderSettings_stereo_views,
+	-1, "use_multiview", 3, 0, 0, 0, 0, "Multiple Views",
+	"Use multiple views in the scene",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 33554432, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_multiview_get, RenderSettings_use_multiview_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+static const EnumPropertyItem rna_RenderSettings_views_format_items[3] = {
+	{0, "STEREO_3D", 0, "Stereo 3D", "Single stereo camera system, adjust the stereo settings in the camera panel"},
+	{1, "MULTIVIEW", 0, "Multi-View", "Multi camera system, adjust the cameras individually"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_RenderSettings_views_format = {
+	{(PropertyRNA *)&rna_RenderSettings_engine, (PropertyRNA *)&rna_RenderSettings_use_multiview,
+	-1, "views_format", 1, 0, 0, 0, 0, "Setup Stereo Mode",
+	"",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 33554432, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_views_format_get, RenderSettings_views_format_set, NULL, NULL, NULL, rna_RenderSettings_views_format_items, 2, 0
+};
+
+static const EnumPropertyItem rna_RenderSettings_engine_items[2] = {
+	{0, "BLENDER_EEVEE", 0, "Eevee", ""},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_RenderSettings_engine = {
+	{(PropertyRNA *)&rna_RenderSettings_has_multiple_engines, (PropertyRNA *)&rna_RenderSettings_views_format,
+	-1, "engine", 1, 0, 0, 0, 0, "Engine",
+	"Engine to use for rendering",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {32, 0, 0}, 0,
+	rna_RenderSettings_engine_update, 33554432, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_engine_get, RenderSettings_engine_set, rna_RenderSettings_engine_itemf, NULL, NULL, rna_RenderSettings_engine_items, 1, 0
+};
+
+BoolPropertyRNA rna_RenderSettings_has_multiple_engines = {
+	{(PropertyRNA *)&rna_RenderSettings_use_spherical_stereo, (PropertyRNA *)&rna_RenderSettings_engine,
+	-1, "has_multiple_engines", 2, 0, 0, 0, 0, "Multiple Engines",
+	"More than one rendering engine is available",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_has_multiple_engines_get, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_spherical_stereo = {
+	{(PropertyRNA *)&rna_RenderSettings_use_simplify, (PropertyRNA *)&rna_RenderSettings_has_multiple_engines,
+	-1, "use_spherical_stereo", 2, 0, 0, 0, 0, "Use Spherical Stereo",
+	"Active render engine supports spherical stereo rendering",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_spherical_stereo_get, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_simplify = {
+	{(PropertyRNA *)&rna_RenderSettings_simplify_subdivision, (PropertyRNA *)&rna_RenderSettings_use_spherical_stereo,
+	-1, "use_simplify", 3, 0, 0, 0, 0, "Use Simplify",
+	"Enable simplification of scene for quicker preview renders",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_use_simplify_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_simplify_get, RenderSettings_use_simplify_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+IntPropertyRNA rna_RenderSettings_simplify_subdivision = {
+	{(PropertyRNA *)&rna_RenderSettings_simplify_child_particles, (PropertyRNA *)&rna_RenderSettings_use_simplify,
+	-1, "simplify_subdivision", 3, 0, 0, 4, 0, "Simplify Subdivision",
+	"Global maximum subdivision level",
+	0, "*",
+	PROP_INT, PROP_UNSIGNED | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_simplify_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, simplify_subsurf), 1, NULL},
+	RenderSettings_simplify_subdivision_get, RenderSettings_simplify_subdivision_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 6, 0, 32767, 1, 6, NULL
+};
+
+FloatPropertyRNA rna_RenderSettings_simplify_child_particles = {
+	{(PropertyRNA *)&rna_RenderSettings_simplify_subdivision_render, (PropertyRNA *)&rna_RenderSettings_simplify_subdivision,
+	-1, "simplify_child_particles", 3, 0, 0, 4, 0, "Simplify Child Particles",
+	"Global child particles percentage",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_simplify_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, simplify_particles), 5, NULL},
+	RenderSettings_simplify_child_particles_get, RenderSettings_simplify_child_particles_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 1.0f, NULL
+};
+
+IntPropertyRNA rna_RenderSettings_simplify_subdivision_render = {
+	{(PropertyRNA *)&rna_RenderSettings_simplify_child_particles_render, (PropertyRNA *)&rna_RenderSettings_simplify_child_particles,
+	-1, "simplify_subdivision_render", 3, 0, 0, 4, 0, "Simplify Subdivision",
+	"Global maximum subdivision level during rendering",
+	0, "*",
+	PROP_INT, PROP_UNSIGNED | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_simplify_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, simplify_subsurf_render), 1, NULL},
+	RenderSettings_simplify_subdivision_render_get, RenderSettings_simplify_subdivision_render_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 6, 0, 32767, 1, 0, NULL
+};
+
+FloatPropertyRNA rna_RenderSettings_simplify_child_particles_render = {
+	{(PropertyRNA *)&rna_RenderSettings_simplify_volumes, (PropertyRNA *)&rna_RenderSettings_simplify_subdivision_render,
+	-1, "simplify_child_particles_render", 3, 0, 0, 4, 0, "Simplify Child Particles",
+	"Global child particles percentage during rendering",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_simplify_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, simplify_particles_render), 5, NULL},
+	RenderSettings_simplify_child_particles_render_get, RenderSettings_simplify_child_particles_render_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 0.0f, NULL
+};
+
+FloatPropertyRNA rna_RenderSettings_simplify_volumes = {
+	{(PropertyRNA *)&rna_RenderSettings_simplify_gpencil, (PropertyRNA *)&rna_RenderSettings_simplify_child_particles_render,
+	-1, "simplify_volumes", 3, 0, 0, 4, 0, "Simplify Volumes",
+	"Resolution percentage of volume objects in viewport",
+	0, "*",
+	PROP_FLOAT, PROP_FACTOR | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_simplify_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, simplify_volumes), 5, NULL},
+	RenderSettings_simplify_volumes_get, RenderSettings_simplify_volumes_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 10.0f, 3, 1.0f, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_simplify_gpencil = {
+	{(PropertyRNA *)&rna_RenderSettings_simplify_gpencil_onplay, (PropertyRNA *)&rna_RenderSettings_simplify_volumes,
+	-1, "simplify_gpencil", 3, 0, 0, 0, 0, "Simplify",
+	"Simplify Grease Pencil drawing",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_GPencil_update, 391839744, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_simplify_gpencil_get, RenderSettings_simplify_gpencil_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_simplify_gpencil_onplay = {
+	{(PropertyRNA *)&rna_RenderSettings_simplify_gpencil_antialiasing, (PropertyRNA *)&rna_RenderSettings_simplify_gpencil,
+	-1, "simplify_gpencil_onplay", 3, 0, 0, 0, 0, "Playback Only",
+	"Simplify Grease Pencil only during animation playback",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_GPencil_update, 391839744, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_simplify_gpencil_onplay_get, RenderSettings_simplify_gpencil_onplay_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_simplify_gpencil_antialiasing = {
+	{(PropertyRNA *)&rna_RenderSettings_simplify_gpencil_view_fill, (PropertyRNA *)&rna_RenderSettings_simplify_gpencil_onplay,
+	-1, "simplify_gpencil_antialiasing", 3, 0, 0, 0, 0, "Antialiasing",
+	"Use Antialiasing to smooth stroke edges",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_GPencil_update, 391839744, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_simplify_gpencil_antialiasing_get, RenderSettings_simplify_gpencil_antialiasing_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_simplify_gpencil_view_fill = {
+	{(PropertyRNA *)&rna_RenderSettings_simplify_gpencil_modifier, (PropertyRNA *)&rna_RenderSettings_simplify_gpencil_antialiasing,
+	-1, "simplify_gpencil_view_fill", 3, 0, 0, 0, 0, "Fill",
+	"Display fill strokes in the viewport",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_GPencil_update, 391839744, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_simplify_gpencil_view_fill_get, RenderSettings_simplify_gpencil_view_fill_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_simplify_gpencil_modifier = {
+	{(PropertyRNA *)&rna_RenderSettings_simplify_gpencil_shader_fx, (PropertyRNA *)&rna_RenderSettings_simplify_gpencil_view_fill,
+	-1, "simplify_gpencil_modifier", 3, 0, 0, 0, 0, "Modifiers",
+	"Display modifiers",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_GPencil_update, 391839744, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_simplify_gpencil_modifier_get, RenderSettings_simplify_gpencil_modifier_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_simplify_gpencil_shader_fx = {
+	{(PropertyRNA *)&rna_RenderSettings_simplify_gpencil_tint, (PropertyRNA *)&rna_RenderSettings_simplify_gpencil_modifier,
+	-1, "simplify_gpencil_shader_fx", 3, 0, 0, 0, 0, "Shader Effects",
+	"Display Shader Effects",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_GPencil_update, 391839744, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_simplify_gpencil_shader_fx_get, RenderSettings_simplify_gpencil_shader_fx_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_simplify_gpencil_tint = {
+	{(PropertyRNA *)&rna_RenderSettings_use_persistent_data, (PropertyRNA *)&rna_RenderSettings_simplify_gpencil_shader_fx,
+	-1, "simplify_gpencil_tint", 3, 0, 0, 0, 0, "Layers Tinting",
+	"Display layer tint",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_GPencil_update, 391839744, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_simplify_gpencil_tint_get, RenderSettings_simplify_gpencil_tint_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_use_persistent_data = {
+	{(PropertyRNA *)&rna_RenderSettings_line_thickness_mode, (PropertyRNA *)&rna_RenderSettings_simplify_gpencil_tint,
+	-1, "use_persistent_data", 3, 0, 0, 0, 0, "Persistent Data",
+	"Keep render data around for faster re-renders and animation renders, at the cost of increased memory usage",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_use_persistent_data_update, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_use_persistent_data_get, RenderSettings_use_persistent_data_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+static const EnumPropertyItem rna_RenderSettings_line_thickness_mode_items[3] = {
+	{1, "ABSOLUTE", 0, "Absolute", "Specify unit line thickness in pixels"},
+	{2, "RELATIVE", 0, "Relative", "Unit line thickness is scaled by the proportion of the present vertical image resolution to 480 pixels"},
+	{0, NULL, 0, NULL, NULL}
+};
+
+EnumPropertyRNA rna_RenderSettings_line_thickness_mode = {
+	{(PropertyRNA *)&rna_RenderSettings_line_thickness, (PropertyRNA *)&rna_RenderSettings_use_persistent_data,
+	-1, "line_thickness_mode", 3, 0, 0, 4, 0, "Line Thickness Mode",
+	"Line thickness mode for Freestyle line drawing",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_freestyle_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, line_thickness_mode), 0, NULL},
+	RenderSettings_line_thickness_mode_get, RenderSettings_line_thickness_mode_set, NULL, NULL, NULL, rna_RenderSettings_line_thickness_mode_items, 2, 1
+};
+
+FloatPropertyRNA rna_RenderSettings_line_thickness = {
+	{(PropertyRNA *)&rna_RenderSettings_bake, (PropertyRNA *)&rna_RenderSettings_line_thickness_mode,
+	-1, "line_thickness", 3, 0, 0, 4, 0, "Line Thickness",
+	"Line thickness in pixels",
+	0, "*",
+	PROP_FLOAT, PROP_PIXEL | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	rna_Scene_freestyle_update, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(RenderData, unit_line_thickness), 5, NULL},
+	RenderSettings_line_thickness_get, RenderSettings_line_thickness_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 10000.0f, 0.0f, 10000.0f, 10.0f, 3, 1.0f, NULL
+};
+
+PointerPropertyRNA rna_RenderSettings_bake = {
+	{NULL, (PropertyRNA *)&rna_RenderSettings_line_thickness,
+	-1, "bake", 8650752, 0, 0, 0, 0, "Bake Data",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderSettings_bake_get, NULL, NULL, NULL,&RNA_BakeSettings
+};
+
+IntPropertyRNA rna_RenderSettings_frame_path_frame = {
+	{(PropertyRNA *)&rna_RenderSettings_frame_path_preview, NULL,
+	-1, "frame", 3, 0, 0, 0, 0, "",
+	"Frame number to use, if unset the current frame will be used",
+	0, "*",
+	PROP_INT, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, -1048574, 1048574, INT_MIN, INT_MAX, 1, INT_MIN, NULL
+};
+
+BoolPropertyRNA rna_RenderSettings_frame_path_preview = {
+	{(PropertyRNA *)&rna_RenderSettings_frame_path_view, (PropertyRNA *)&rna_RenderSettings_frame_path_frame,
+	-1, "preview", 3, 0, 0, 0, 0, "Preview",
+	"Use preview range",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+StringPropertyRNA rna_RenderSettings_frame_path_view = {
+	{(PropertyRNA *)&rna_RenderSettings_frame_path_filepath, (PropertyRNA *)&rna_RenderSettings_frame_path_preview,
+	-1, "view", 262145, 0, 0, 0, 0, "View",
+	"The name of the view to use to replace the \"%\" chars",
+	0, "*",
+	PROP_STRING, PROP_FILEPATH | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 1024, ""
+};
+
+StringPropertyRNA rna_RenderSettings_frame_path_filepath = {
+	{NULL, (PropertyRNA *)&rna_RenderSettings_frame_path_view,
+	-1, "filepath", 8650753, 0, 2, 0, 0, "File Path",
+	"The resulting filepath from the scenes render settings",
+	0, "*",
+	PROP_STRING, PROP_FILEPATH | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 1024, ""
+};
+
+FunctionRNA rna_RenderSettings_frame_path_func = {
+	{NULL, NULL,
+	NULL,
+	{(PropertyRNA *)&rna_RenderSettings_frame_path_frame, (PropertyRNA *)&rna_RenderSettings_frame_path_filepath}},
+	"frame_path", 4, "Return the absolute path to the filename to be written for a given frame",
+	RenderSettings_frame_path_call,
+	NULL
+};
+
+StructRNA RNA_RenderSettings = {
+	{(ContainerRNA *)&RNA_RenderViews, (ContainerRNA *)&RNA_FFmpegSettings,
+	NULL,
+	{(PropertyRNA *)&rna_RenderSettings_rna_properties, (PropertyRNA *)&rna_RenderSettings_bake}},
+	"RenderSettings", NULL, NULL, 516, NULL, "Render Data",
+	"Rendering settings for a Scene data-block",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_RenderSettings_rna_properties,
+	NULL,
+	&RNA_Scene,
+	NULL,
+	rna_RenderSettings_path,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{(FunctionRNA *)&rna_RenderSettings_frame_path_func, (FunctionRNA *)&rna_RenderSettings_frame_path_func}
+};
+
+/* Render Views */
+CollectionPropertyRNA rna_RenderViews_rna_properties = {
+	{(PropertyRNA *)&rna_RenderViews_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderViews_rna_properties_begin, RenderViews_rna_properties_next, RenderViews_rna_properties_end, RenderViews_rna_properties_get, NULL, NULL, RenderViews_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_RenderViews_rna_type = {
+	{(PropertyRNA *)&rna_RenderViews_active_index, (PropertyRNA *)&rna_RenderViews_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderViews_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+IntPropertyRNA rna_RenderViews_active_index = {
+	{(PropertyRNA *)&rna_RenderViews_active, (PropertyRNA *)&rna_RenderViews_rna_type,
+	-1, "active_index", 3, 0, 0, 0, 0, "Active View Index",
+	"Active index in render view array",
+	0, "*",
+	PROP_INT, PROP_UNSIGNED | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderViews_active_index_get, RenderViews_active_index_set, NULL, NULL, rna_RenderSettings_active_view_index_range, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 32767, 0, 32767, 1, 0, NULL
+};
+
+PointerPropertyRNA rna_RenderViews_active = {
+	{NULL, (PropertyRNA *)&rna_RenderViews_active_index,
+	-1, "active", 8650753, 0, 0, 0, 0, "Active Render View",
+	"Active Render View",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	RenderViews_active_get, RenderViews_active_set, NULL, NULL,&RNA_SceneRenderView
+};
+
+StringPropertyRNA rna_RenderViews_new_name = {
+	{(PropertyRNA *)&rna_RenderViews_new_result, NULL,
+	-1, "name", 262145, 0, 1, 0, 0, "",
+	"New name for the marker (not unique)",
+	0, "*",
+	PROP_STRING, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, "RenderView"
+};
+
+PointerPropertyRNA rna_RenderViews_new_result = {
+	{NULL, (PropertyRNA *)&rna_RenderViews_new_name,
+	-1, "result", 8388608, 0, 2, 0, 0, "",
+	"Newly created render view",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL,&RNA_SceneRenderView
+};
+
+FunctionRNA rna_RenderViews_new_func = {
+	{(FunctionRNA *)&rna_RenderViews_remove_func, NULL,
+	NULL,
+	{(PropertyRNA *)&rna_RenderViews_new_name, (PropertyRNA *)&rna_RenderViews_new_result}},
+	"new", 2048, "Add a render view to scene",
+	RenderViews_new_call,
+	(PropertyRNA *)&rna_RenderViews_new_result
+};
+
+PointerPropertyRNA rna_RenderViews_remove_view = {
+	{NULL, NULL,
+	-1, "view", 262144, 0, 5, 0, 0, "",
+	"Render view to remove",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	NULL, NULL, NULL, NULL,&RNA_SceneRenderView
+};
+
+FunctionRNA rna_RenderViews_remove_func = {
+	{NULL, (FunctionRNA *)&rna_RenderViews_new_func,
+	NULL,
+	{(PropertyRNA *)&rna_RenderViews_remove_view, (PropertyRNA *)&rna_RenderViews_remove_view}},
+	"remove", 2068, "Remove a render view",
+	RenderViews_remove_call,
+	NULL
+};
+
+StructRNA RNA_RenderViews = {
+	{(ContainerRNA *)&RNA_BakeSettings, (ContainerRNA *)&RNA_RenderSettings,
+	NULL,
+	{(PropertyRNA *)&rna_RenderViews_rna_properties, (PropertyRNA *)&rna_RenderViews_active}},
+	"RenderViews", NULL, NULL, 516, NULL, "Render Views",
+	"Collection of render views",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_RenderViews_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{(FunctionRNA *)&rna_RenderViews_new_func, (FunctionRNA *)&rna_RenderViews_remove_func}
+};
+
+/* Bake Data */
+CollectionPropertyRNA rna_BakeSettings_rna_properties = {
+	{(PropertyRNA *)&rna_BakeSettings_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	BakeSettings_rna_properties_begin, BakeSettings_rna_properties_next, BakeSettings_rna_properties_end, BakeSettings_rna_properties_get, NULL, NULL, BakeSettings_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_BakeSettings_rna_type = {
+	{(PropertyRNA *)&rna_BakeSettings_cage_object, (PropertyRNA *)&rna_BakeSettings_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	BakeSettings_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+PointerPropertyRNA rna_BakeSettings_cage_object = {
+	{(PropertyRNA *)&rna_BakeSettings_filepath, (PropertyRNA *)&rna_BakeSettings_rna_type,
+	-1, "cage_object", 8388737, 0, 0, 0, 0, "Cage Object",
+	"Object to use as cage instead of calculating the cage from the active object with cage extrusion",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	BakeSettings_cage_object_get, BakeSettings_cage_object_set, NULL, NULL,&RNA_Object
+};
+
+StringPropertyRNA rna_BakeSettings_filepath = {
+	{(PropertyRNA *)&rna_BakeSettings_width, (PropertyRNA *)&rna_BakeSettings_cage_object,
+	-1, "filepath", 262145, 0, 0, 0, 0, "File Path",
+	"Image filepath to use when saving externally",
+	0, "*",
+	PROP_STRING, PROP_FILEPATH | PROP_UNIT_NONE, NULL, 0, {1024, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	BakeSettings_filepath_get, BakeSettings_filepath_length, BakeSettings_filepath_set, NULL, NULL, NULL, NULL, 0, 1024, ""
+};
+
+IntPropertyRNA rna_BakeSettings_width = {
+	{(PropertyRNA *)&rna_BakeSettings_height, (PropertyRNA *)&rna_BakeSettings_filepath,
+	-1, "width", 1, 0, 0, 4, 0, "Width",
+	"Horizontal dimension of the baking map",
+	0, "*",
+	PROP_INT, PROP_PIXEL | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(BakeData, width), 1, NULL},
+	BakeSettings_width_get, BakeSettings_width_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 4, 10000, 4, 10000, 1, 512, NULL
+};
+
+IntPropertyRNA rna_BakeSettings_height = {
+	{(PropertyRNA *)&rna_BakeSettings_margin, (PropertyRNA *)&rna_BakeSettings_width,
+	-1, "height", 1, 0, 0, 4, 0, "Height",
+	"Vertical dimension of the baking map",
+	0, "*",
+	PROP_INT, PROP_PIXEL | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(BakeData, height), 1, NULL},
+	BakeSettings_height_get, BakeSettings_height_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 4, 10000, 4, 10000, 1, 512, NULL
+};
+
+IntPropertyRNA rna_BakeSettings_margin = {
+	{(PropertyRNA *)&rna_BakeSettings_margin_type, (PropertyRNA *)&rna_BakeSettings_height,
+	-1, "margin", 1, 0, 0, 4, 0, "Margin",
+	"Extends the baked result as a post process filter",
+	0, "*",
+	PROP_INT, PROP_PIXEL | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(BakeData, margin), 1, NULL},
+	BakeSettings_margin_get, BakeSettings_margin_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+	0, 0, 64, 0, 32767, 1, 16, NULL
+};
+
+EnumPropertyRNA rna_BakeSettings_margin_type = {
+	{(PropertyRNA *)&rna_BakeSettings_max_ray_distance, (PropertyRNA *)&rna_BakeSettings_margin,
+	-1, "margin_type", 1, 0, 0, 4, 0, "Margin Type",
+	"Algorithm to extend the baked result",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(BakeData, margin_type), 2, NULL},
+	BakeSettings_margin_type_get, BakeSettings_margin_type_set, NULL, NULL, NULL, rna_enum_bake_margin_type_items, 2, 0
+};
+
+FloatPropertyRNA rna_BakeSettings_max_ray_distance = {
+	{(PropertyRNA *)&rna_BakeSettings_cage_extrusion, (PropertyRNA *)&rna_BakeSettings_margin_type,
+	-1, "max_ray_distance", 1, 0, 0, 4, 0, "Max Ray Distance",
+	"The maximum ray distance for matching points between the active and selected objects. If zero, there is no limit",
+	0, "*",
+	PROP_FLOAT, PROP_DISTANCE | PROP_UNIT_LENGTH, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(BakeData, max_ray_distance), 5, NULL},
+	BakeSettings_max_ray_distance_get, BakeSettings_max_ray_distance_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, FLT_MAX, 1.0f, 3, 0.0f, NULL
+};
+
+FloatPropertyRNA rna_BakeSettings_cage_extrusion = {
+	{(PropertyRNA *)&rna_BakeSettings_normal_space, (PropertyRNA *)&rna_BakeSettings_max_ray_distance,
+	-1, "cage_extrusion", 1, 0, 0, 4, 0, "Cage Extrusion",
+	"Inflate the active object by the specified distance for baking. This helps matching to points nearer to the outside of the selected object meshes",
+	0, "*",
+	PROP_FLOAT, PROP_DISTANCE | PROP_UNIT_LENGTH, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(BakeData, cage_extrusion), 5, NULL},
+	BakeSettings_cage_extrusion_get, BakeSettings_cage_extrusion_set, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.0f, 0.0f, 1.0f, 0.0f, FLT_MAX, 1.0f, 3, 0.0f, NULL
+};
+
+EnumPropertyRNA rna_BakeSettings_normal_space = {
+	{(PropertyRNA *)&rna_BakeSettings_normal_r, (PropertyRNA *)&rna_BakeSettings_cage_extrusion,
+	-1, "normal_space", 1, 0, 0, 4, 0, "Normal Space",
+	"Choose normal space for baking",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(BakeData, normal_space), 2, NULL},
+	BakeSettings_normal_space_get, BakeSettings_normal_space_set, NULL, NULL, NULL, rna_enum_normal_space_items, 2, 2
+};
+
+EnumPropertyRNA rna_BakeSettings_normal_r = {
+	{(PropertyRNA *)&rna_BakeSettings_normal_g, (PropertyRNA *)&rna_BakeSettings_normal_space,
+	-1, "normal_r", 1, 0, 0, 4, 0, "Normal Space",
+	"Axis to bake in red channel",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(BakeData, normal_swizzle[0]), 2, NULL},
+	BakeSettings_normal_r_get, BakeSettings_normal_r_set, NULL, NULL, NULL, rna_enum_normal_swizzle_items, 6, 0
+};
+
+EnumPropertyRNA rna_BakeSettings_normal_g = {
+	{(PropertyRNA *)&rna_BakeSettings_normal_b, (PropertyRNA *)&rna_BakeSettings_normal_r,
+	-1, "normal_g", 1, 0, 0, 4, 0, "Normal Space",
+	"Axis to bake in green channel",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(BakeData, normal_swizzle[1]), 2, NULL},
+	BakeSettings_normal_g_get, BakeSettings_normal_g_set, NULL, NULL, NULL, rna_enum_normal_swizzle_items, 6, 0
+};
+
+EnumPropertyRNA rna_BakeSettings_normal_b = {
+	{(PropertyRNA *)&rna_BakeSettings_image_settings, (PropertyRNA *)&rna_BakeSettings_normal_g,
+	-1, "normal_b", 1, 0, 0, 4, 0, "Normal Space",
+	"Axis to bake in blue channel",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(BakeData, normal_swizzle[2]), 2, NULL},
+	BakeSettings_normal_b_get, BakeSettings_normal_b_set, NULL, NULL, NULL, rna_enum_normal_swizzle_items, 6, 0
+};
+
+PointerPropertyRNA rna_BakeSettings_image_settings = {
+	{(PropertyRNA *)&rna_BakeSettings_target, (PropertyRNA *)&rna_BakeSettings_normal_b,
+	-1, "image_settings", 8650752, 0, 0, 0, 0, "Image Format",
+	"",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	BakeSettings_image_settings_get, NULL, NULL, NULL,&RNA_ImageFormatSettings
+};
+
+EnumPropertyRNA rna_BakeSettings_target = {
+	{(PropertyRNA *)&rna_BakeSettings_save_mode, (PropertyRNA *)&rna_BakeSettings_image_settings,
+	-1, "target", 1, 0, 0, 4, 0, "Target",
+	"Where to output the baked map",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(BakeData, target), 2, NULL},
+	BakeSettings_target_get, BakeSettings_target_set, NULL, NULL, NULL, rna_enum_bake_target_items, 2, 0
+};
+
+EnumPropertyRNA rna_BakeSettings_save_mode = {
+	{(PropertyRNA *)&rna_BakeSettings_use_selected_to_active, (PropertyRNA *)&rna_BakeSettings_target,
+	-1, "save_mode", 1, 0, 0, 4, 0, "Save Mode",
+	"Where to save baked image textures",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(BakeData, save_mode), 2, NULL},
+	BakeSettings_save_mode_get, BakeSettings_save_mode_set, NULL, NULL, NULL, rna_enum_bake_save_mode_items, 2, 0
+};
+
+BoolPropertyRNA rna_BakeSettings_use_selected_to_active = {
+	{(PropertyRNA *)&rna_BakeSettings_use_clear, (PropertyRNA *)&rna_BakeSettings_save_mode,
+	-1, "use_selected_to_active", 1, 0, 0, 0, 0, "Selected to Active",
+	"Bake shading on the surface of selected objects to the active object",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	BakeSettings_use_selected_to_active_get, BakeSettings_use_selected_to_active_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_BakeSettings_use_clear = {
+	{(PropertyRNA *)&rna_BakeSettings_use_split_materials, (PropertyRNA *)&rna_BakeSettings_use_selected_to_active,
+	-1, "use_clear", 1, 0, 0, 0, 0, "Clear",
+	"Clear Images before baking (internal only)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	BakeSettings_use_clear_get, BakeSettings_use_clear_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_BakeSettings_use_split_materials = {
+	{(PropertyRNA *)&rna_BakeSettings_use_automatic_name, (PropertyRNA *)&rna_BakeSettings_use_clear,
+	-1, "use_split_materials", 1, 0, 0, 0, 0, "Split Materials",
+	"Split external images per material (external only)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	BakeSettings_use_split_materials_get, BakeSettings_use_split_materials_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_BakeSettings_use_automatic_name = {
+	{(PropertyRNA *)&rna_BakeSettings_use_cage, (PropertyRNA *)&rna_BakeSettings_use_split_materials,
+	-1, "use_automatic_name", 1, 0, 0, 0, 0, "Automatic Name",
+	"Automatically name the output file with the pass type (external only)",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	BakeSettings_use_automatic_name_get, BakeSettings_use_automatic_name_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_BakeSettings_use_cage = {
+	{(PropertyRNA *)&rna_BakeSettings_use_pass_emit, (PropertyRNA *)&rna_BakeSettings_use_automatic_name,
+	-1, "use_cage", 1, 0, 0, 0, 0, "Cage",
+	"Cast rays to active object from a cage",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	BakeSettings_use_cage_get, BakeSettings_use_cage_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+BoolPropertyRNA rna_BakeSettings_use_pass_emit = {
+	{(PropertyRNA *)&rna_BakeSettings_use_pass_direct, (PropertyRNA *)&rna_BakeSettings_use_cage,
+	-1, "use_pass_emit", 1, 0, 0, 0, 0, "Emit",
+	"Add emission contribution",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	BakeSettings_use_pass_emit_get, BakeSettings_use_pass_emit_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_BakeSettings_use_pass_direct = {
+	{(PropertyRNA *)&rna_BakeSettings_use_pass_indirect, (PropertyRNA *)&rna_BakeSettings_use_pass_emit,
+	-1, "use_pass_direct", 1, 0, 0, 0, 0, "Direct",
+	"Add direct lighting contribution",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	BakeSettings_use_pass_direct_get, BakeSettings_use_pass_direct_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_BakeSettings_use_pass_indirect = {
+	{(PropertyRNA *)&rna_BakeSettings_use_pass_color, (PropertyRNA *)&rna_BakeSettings_use_pass_direct,
+	-1, "use_pass_indirect", 1, 0, 0, 0, 0, "Indirect",
+	"Add indirect lighting contribution",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	BakeSettings_use_pass_indirect_get, BakeSettings_use_pass_indirect_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_BakeSettings_use_pass_color = {
+	{(PropertyRNA *)&rna_BakeSettings_use_pass_diffuse, (PropertyRNA *)&rna_BakeSettings_use_pass_indirect,
+	-1, "use_pass_color", 1, 0, 0, 0, 0, "Color",
+	"Color the pass",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	BakeSettings_use_pass_color_get, BakeSettings_use_pass_color_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_BakeSettings_use_pass_diffuse = {
+	{(PropertyRNA *)&rna_BakeSettings_use_pass_glossy, (PropertyRNA *)&rna_BakeSettings_use_pass_color,
+	-1, "use_pass_diffuse", 1, 0, 0, 0, 0, "Diffuse",
+	"Add diffuse contribution",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	BakeSettings_use_pass_diffuse_get, BakeSettings_use_pass_diffuse_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_BakeSettings_use_pass_glossy = {
+	{(PropertyRNA *)&rna_BakeSettings_use_pass_transmission, (PropertyRNA *)&rna_BakeSettings_use_pass_diffuse,
+	-1, "use_pass_glossy", 1, 0, 0, 0, 0, "Glossy",
+	"Add glossy contribution",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	BakeSettings_use_pass_glossy_get, BakeSettings_use_pass_glossy_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+BoolPropertyRNA rna_BakeSettings_use_pass_transmission = {
+	{(PropertyRNA *)&rna_BakeSettings_pass_filter, (PropertyRNA *)&rna_BakeSettings_use_pass_glossy,
+	-1, "use_pass_transmission", 1, 0, 0, 0, 0, "Transmission",
+	"Add transmission contribution",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	BakeSettings_use_pass_transmission_get, BakeSettings_use_pass_transmission_set, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL
+};
+
+EnumPropertyRNA rna_BakeSettings_pass_filter = {
+	{NULL, (PropertyRNA *)&rna_BakeSettings_use_pass_transmission,
+	-1, "pass_filter", 2097152, 0, 0, 4, 0, "Pass Filter",
+	"Passes to include in the active baking pass",
+	0, "*",
+	PROP_ENUM, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	offsetof(BakeData, pass_filter), 0, NULL},
+	BakeSettings_pass_filter_get, NULL, NULL, NULL, NULL, rna_enum_bake_pass_filter_type_items, 8, 0
+};
+
+StructRNA RNA_BakeSettings = {
+	{(ContainerRNA *)&RNA_SceneRenderView, (ContainerRNA *)&RNA_RenderViews,
+	NULL,
+	{(PropertyRNA *)&rna_BakeSettings_rna_properties, (PropertyRNA *)&rna_BakeSettings_pass_filter}},
+	"BakeSettings", NULL, NULL, 516, NULL, "Bake Data",
+	"Bake data for a Scene data-block",
+	"*", 17,
+	NULL, (PropertyRNA *)&rna_BakeSettings_rna_properties,
+	NULL,
+	&RNA_RenderSettings,
+	NULL,
+	rna_BakeSettings_path,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+
+/* Scene Render View */
+CollectionPropertyRNA rna_SceneRenderView_rna_properties = {
+	{(PropertyRNA *)&rna_SceneRenderView_rna_type, NULL,
+	-1, "rna_properties", 0, 0, 0, 1, 0, "Properties",
+	"RNA property collection",
+	0, "*",
+	PROP_COLLECTION, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneRenderView_rna_properties_begin, SceneRenderView_rna_properties_next, SceneRenderView_rna_properties_end, SceneRenderView_rna_properties_get, NULL, NULL, SceneRenderView_rna_properties_lookup_string, NULL, &RNA_Property
+};
+
+PointerPropertyRNA rna_SceneRenderView_rna_type = {
+	{(PropertyRNA *)&rna_SceneRenderView_name, (PropertyRNA *)&rna_SceneRenderView_rna_properties,
+	-1, "rna_type", 8912896, 0, 0, 0, 0, "RNA",
+	"RNA type definition",
+	0, "*",
+	PROP_POINTER, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 0, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneRenderView_rna_type_get, NULL, NULL, NULL,&RNA_Struct
+};
+
+StringPropertyRNA rna_SceneRenderView_name = {
+	{(PropertyRNA *)&rna_SceneRenderView_file_suffix, (PropertyRNA *)&rna_SceneRenderView_rna_type,
+	-1, "name", 262145, 0, 0, 0, 0, "Name",
+	"Render view name",
+	0, "*",
+	PROP_STRING, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {64, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneRenderView_name_get, SceneRenderView_name_length, SceneRenderView_name_set, NULL, NULL, NULL, NULL, 0, 64, ""
+};
+
+StringPropertyRNA rna_SceneRenderView_file_suffix = {
+	{(PropertyRNA *)&rna_SceneRenderView_camera_suffix, (PropertyRNA *)&rna_SceneRenderView_name,
+	-1, "file_suffix", 262145, 0, 0, 0, 0, "File Suffix",
+	"Suffix added to the render images for this view",
+	0, "*",
+	PROP_STRING, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {64, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneRenderView_file_suffix_get, SceneRenderView_file_suffix_length, SceneRenderView_file_suffix_set, NULL, NULL, NULL, NULL, 0, 64, ""
+};
+
+StringPropertyRNA rna_SceneRenderView_camera_suffix = {
+	{(PropertyRNA *)&rna_SceneRenderView_use, (PropertyRNA *)&rna_SceneRenderView_file_suffix,
+	-1, "camera_suffix", 262145, 0, 0, 0, 0, "Camera Suffix",
+	"Suffix to identify the cameras to use, and added to the render images for this view",
+	0, "*",
+	PROP_STRING, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {64, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneRenderView_camera_suffix_get, SceneRenderView_camera_suffix_length, SceneRenderView_camera_suffix_set, NULL, NULL, NULL, NULL, 0, 64, ""
+};
+
+BoolPropertyRNA rna_SceneRenderView_use = {
+	{NULL, (PropertyRNA *)&rna_SceneRenderView_camera_suffix,
+	-1, "use", 1, 0, 0, 0, 0, "Enabled",
+	"Disable or enable the render view",
+	0, "*",
+	PROP_BOOLEAN, PROP_NONE | PROP_UNIT_NONE, NULL, 0, {0, 0, 0}, 0,
+	NULL, 84148224, NULL, NULL, rna_property_override_diff_default, rna_property_override_store_default, rna_property_override_apply_default,
+	0, -1, NULL},
+	SceneRenderView_use_get, SceneRenderView_use_set, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL
+};
+
+StructRNA RNA_SceneRenderView = {
+	{(ContainerRNA *)&RNA_Screen, (ContainerRNA *)&RNA_BakeSettings,
+	NULL,
+	{(PropertyRNA *)&rna_SceneRenderView_rna_properties, (PropertyRNA *)&rna_SceneRenderView_use}},
+	"SceneRenderView", NULL, NULL, 516, NULL, "Scene Render View",
+	"Render viewpoint for 3D stereo and multiview rendering",
+	"*", 258,
+	(PropertyRNA *)&rna_SceneRenderView_name, (PropertyRNA *)&rna_SceneRenderView_rna_properties,
+	NULL,
+	NULL,
+	NULL,
+	rna_SceneRenderView_path,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	{NULL, NULL}
+};
+

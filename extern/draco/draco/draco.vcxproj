@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CFFBACFA-FFA8-33B0-8B4F-44C1EC162B50}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>draco</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">draco.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">draco</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">draco.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">draco</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">draco.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">draco</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">draco.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">draco</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\draco\draco\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;DEBUG;_DEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;DEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\draco\draco\src;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\draco\draco\src;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\draco\draco\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\draco\draco\src;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\draco\draco\src;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\draco\draco\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\draco\draco\src;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\draco\draco\src;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\draco\draco\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w35038 /J /bigobj /Zc:twoPhase- /Zc:__cplusplus /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\draco\draco\src;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\extern\draco\draco\src;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\extern\draco\draco\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/blender-git/goo-engine/extern/draco/draco/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/extern/draco/draco/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\extern\draco\draco\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/blender-git/goo-engine/extern/draco/draco/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/extern/draco/draco/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\extern\draco\draco\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/blender-git/goo-engine/extern/draco/draco/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/extern/draco/draco/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\extern\draco\draco\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/blender-git/goo-engine/extern/draco/draco/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/extern/draco/draco/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\extern\draco\draco\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\animation\keyframe_animation.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\animation\keyframe_animation.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\animation\keyframe_animation_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\animation\keyframe_animation_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\animation\keyframe_animation_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\animation\keyframe_animation_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\attributes\attribute_octahedron_transform.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\attributes\attribute_octahedron_transform.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\attributes\attribute_quantization_transform.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\attributes\attribute_quantization_transform.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\attributes\attribute_transform.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\attributes\attribute_transform.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\attributes\attribute_transform_data.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\attributes\attribute_transform_type.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\attributes\geometry_attribute.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\attributes\geometry_attribute.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\attributes\geometry_indices.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\attributes\point_attribute.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\attributes\point_attribute.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\attributes_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\attributes_decoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\attributes_decoder_interface.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\attributes_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\attributes_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\kd_tree_attributes_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\kd_tree_attributes_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\kd_tree_attributes_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\kd_tree_attributes_encoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\kd_tree_attributes_shared.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\linear_sequencer.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\mesh_attribute_indices_encoding_data.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\normal_compression_utils.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\point_d_vector.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\points_sequencer.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_constrained_multi_parallelogram_decoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_constrained_multi_parallelogram_encoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_constrained_multi_parallelogram_shared.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_data.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_decoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_encoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_decoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_encoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_predictor_area.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_geometric_normal_predictor_base.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_multi_parallelogram_decoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_multi_parallelogram_encoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_parallelogram_decoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_parallelogram_encoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_parallelogram_shared.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_decoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_encoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_portable_decoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_portable_encoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\mesh_prediction_scheme_tex_coords_portable_predictor.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_decoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_decoder_factory.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_decoder_interface.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_decoding_transform.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_delta_decoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_delta_encoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoder_factory.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoder_factory.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoder_interface.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_encoding_transform.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_factory.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_interface.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_canonicalized_decoding_transform.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_canonicalized_encoding_transform.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_canonicalized_transform_base.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_decoding_transform.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_encoding_transform.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_normal_octahedron_transform_base.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_wrap_decoding_transform.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_wrap_encoding_transform.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\prediction_schemes\prediction_scheme_wrap_transform_base.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_attribute_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_attribute_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_attribute_decoders_controller.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_attribute_decoders_controller.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_attribute_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_attribute_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_attribute_encoders_controller.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_attribute_encoders_controller.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_integer_attribute_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_integer_attribute_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_integer_attribute_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_integer_attribute_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_normal_attribute_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_normal_attribute_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_normal_attribute_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_normal_attribute_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_quantization_attribute_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_quantization_attribute_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_quantization_attribute_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\attributes\sequential_quantization_attribute_encoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\adaptive_rans_bit_coding_shared.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\adaptive_rans_bit_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\adaptive_rans_bit_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\adaptive_rans_bit_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\adaptive_rans_bit_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\direct_bit_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\direct_bit_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\direct_bit_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\direct_bit_encoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\folded_integer_bit_decoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\folded_integer_bit_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\rans_bit_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\rans_bit_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\rans_bit_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\rans_bit_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\symbol_bit_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\symbol_bit_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\symbol_bit_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\bit_coders\symbol_bit_encoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\config\compression_shared.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\config\decoder_options.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\config\draco_options.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\config\encoder_options.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\config\encoding_features.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\decode.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\decode.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\encode.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\encode.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\encode_base.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\entropy\ans.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\entropy\rans_symbol_coding.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\entropy\rans_symbol_decoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\entropy\rans_symbol_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\entropy\shannon_entropy.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\entropy\shannon_entropy.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\entropy\symbol_decoding.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\entropy\symbol_decoding.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\entropy\symbol_encoding.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\entropy\symbol_encoding.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\expert_encode.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\expert_encode.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_decoder_impl.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_decoder_impl.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_decoder_impl_interface.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_encoder_impl_interface.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_shared.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_traversal_decoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_traversal_encoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_traversal_predictive_decoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_traversal_predictive_encoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_traversal_valence_decoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_edgebreaker_traversal_valence_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_sequential_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_sequential_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_sequential_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\mesh_sequential_encoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\traverser\depth_first_traverser.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\traverser\max_prediction_degree_traverser.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\traverser\mesh_attribute_indices_encoding_observer.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\traverser\mesh_traversal_sequencer.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\mesh\traverser\traverser_base.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\algorithms\dynamic_integer_points_kd_tree_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\algorithms\dynamic_integer_points_kd_tree_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\algorithms\dynamic_integer_points_kd_tree_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\algorithms\dynamic_integer_points_kd_tree_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\algorithms\float_points_tree_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\algorithms\float_points_tree_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\algorithms\float_points_tree_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\algorithms\float_points_tree_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\algorithms\integer_points_kd_tree_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\algorithms\integer_points_kd_tree_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\algorithms\integer_points_kd_tree_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\algorithms\integer_points_kd_tree_encoder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\algorithms\point_cloud_compression_method.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\algorithms\point_cloud_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\algorithms\quantize_points_3.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\algorithms\queuing_policy.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_kd_tree_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_kd_tree_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_kd_tree_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_kd_tree_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_sequential_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_sequential_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_sequential_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\compression\point_cloud\point_cloud_sequential_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\bit_utils.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\bit_utils.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\bounding_box.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\bounding_box.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\cycle_timer.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\cycle_timer.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\data_buffer.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\data_buffer.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\decoder_buffer.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\decoder_buffer.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\divide.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\divide.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\draco_index_type.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\draco_index_type_vector.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\draco_types.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\draco_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\draco_version.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\encoder_buffer.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\encoder_buffer.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\hash_utils.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\hash_utils.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\macros.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\math_utils.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\options.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\options.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\quantization_utils.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\quantization_utils.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\status.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\status_or.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\varint_decoding.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\varint_encoding.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\core\vector_d.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\mesh\corner_table.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\mesh\corner_table.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\mesh\corner_table_iterators.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\mesh\mesh.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\mesh\mesh.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\mesh\mesh_are_equivalent.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\mesh\mesh_are_equivalent.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\mesh\mesh_attribute_corner_table.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\mesh\mesh_attribute_corner_table.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\mesh\mesh_cleanup.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\mesh\mesh_cleanup.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\mesh\mesh_misc_functions.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\mesh\mesh_misc_functions.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\mesh\mesh_stripifier.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\mesh\mesh_stripifier.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\mesh\triangle_soup_mesh_builder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\mesh\triangle_soup_mesh_builder.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\mesh\valence_cache.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\metadata\geometry_metadata.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\metadata\geometry_metadata.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\metadata\metadata.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\metadata\metadata.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\metadata\metadata_decoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\metadata\metadata_decoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\metadata\metadata_encoder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\metadata\metadata_encoder.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\point_cloud\point_cloud.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\point_cloud\point_cloud.h" />
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\point_cloud\point_cloud_builder.cc" />
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\draco\src\draco\point_cloud\point_cloud_builder.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\ZERO_CHECK.vcxproj">
+      <Project>{0B18E108-1544-3A9C-9810-3B45BB3BAEA5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

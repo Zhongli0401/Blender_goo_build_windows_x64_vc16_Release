@@ -1,0 +1,1 @@
+C:\blender-git\build_windows_x64_vc16_Release\source\creator\buildinfoobj.dir\Release\buildinfoobj.lib

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\sky\source\sky_model.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\sky\source\sky_nishita.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\sky\include\sky_model.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\sky\source\sky_float3.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\sky\source\sky_model_data.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\intern\sky\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{4F0D71D0-8D3A-3322-9419-174AA852996C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{081D0F83-EA1A-3F9C-8B9B-E4F4C33727DD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

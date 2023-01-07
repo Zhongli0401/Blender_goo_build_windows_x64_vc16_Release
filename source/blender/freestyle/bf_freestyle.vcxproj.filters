@@ -1,0 +1,1731 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\freestyle\CMakeFiles\bf_freestyle.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\application\AppCanvas.cpp">
+      <Filter>intern\application</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\application\AppConfig.cpp">
+      <Filter>intern\application</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\application\AppView.cpp">
+      <Filter>intern\application</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\application\Controller.cpp">
+      <Filter>intern\application</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\blender_interface\BlenderFileLoader.cpp">
+      <Filter>intern\blender_interface</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\blender_interface\BlenderStrokeRenderer.cpp">
+      <Filter>intern\blender_interface</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\blender_interface\FRS_freestyle.cpp">
+      <Filter>intern\blender_interface</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\Bezier.cpp">
+      <Filter>intern\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\FastGrid.cpp">
+      <Filter>intern\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\FitCurve.cpp">
+      <Filter>intern\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\GeomCleaner.cpp">
+      <Filter>intern\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\GeomUtils.cpp">
+      <Filter>intern\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\Grid.cpp">
+      <Filter>intern\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\GridHelpers.cpp">
+      <Filter>intern\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\HashGrid.cpp">
+      <Filter>intern\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\Noise.cpp">
+      <Filter>intern\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\matrix_util.cpp">
+      <Filter>intern\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\normal_cycle.cpp">
+      <Filter>intern\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\image\GaussianFilter.cpp">
+      <Filter>intern\image</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\image\ImagePyramid.cpp">
+      <Filter>intern\image</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_BBox.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_BinaryPredicate0D.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_BinaryPredicate1D.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_ContextFunctions.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_Convert.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_Freestyle.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_FrsMaterial.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_FrsNoise.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_Id.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_IntegrationType.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_Interface0D.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_Interface1D.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_Iterator.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_MediumType.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_Nature.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_Operators.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_SShape.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_StrokeAttribute.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_StrokeShader.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_UnaryFunction0D.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_UnaryFunction1D.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_UnaryPredicate0D.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_UnaryPredicate1D.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_ViewMap.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_ViewShape.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BinaryPredicate1D\BPy_FalseBP1D.cpp">
+      <Filter>intern\python\BinaryPredicate1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BinaryPredicate1D\BPy_Length2DBP1D.cpp">
+      <Filter>intern\python\BinaryPredicate1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BinaryPredicate1D\BPy_SameShapeIdBP1D.cpp">
+      <Filter>intern\python\BinaryPredicate1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BinaryPredicate1D\BPy_TrueBP1D.cpp">
+      <Filter>intern\python\BinaryPredicate1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BinaryPredicate1D\BPy_ViewMapGradientNormBP1D.cpp">
+      <Filter>intern\python\BinaryPredicate1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Director.cpp">
+      <Filter>intern\python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface0D\BPy_CurvePoint.cpp">
+      <Filter>intern\python\Interface0D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface0D\BPy_SVertex.cpp">
+      <Filter>intern\python\Interface0D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface0D\BPy_ViewVertex.cpp">
+      <Filter>intern\python\Interface0D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface0D\CurvePoint\BPy_StrokeVertex.cpp">
+      <Filter>intern\python\Interface0D\CurvePoint</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface0D\ViewVertex\BPy_NonTVertex.cpp">
+      <Filter>intern\python\Interface0D\ViewVertex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface0D\ViewVertex\BPy_TVertex.cpp">
+      <Filter>intern\python\Interface0D\ViewVertex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface1D\BPy_FEdge.cpp">
+      <Filter>intern\python\Interface1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface1D\BPy_FrsCurve.cpp">
+      <Filter>intern\python\Interface1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface1D\BPy_Stroke.cpp">
+      <Filter>intern\python\Interface1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface1D\BPy_ViewEdge.cpp">
+      <Filter>intern\python\Interface1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface1D\Curve\BPy_Chain.cpp">
+      <Filter>intern\python\Interface1D\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface1D\FEdge\BPy_FEdgeSharp.cpp">
+      <Filter>intern\python\Interface1D\FEdge</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface1D\FEdge\BPy_FEdgeSmooth.cpp">
+      <Filter>intern\python\Interface1D\FEdge</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_AdjacencyIterator.cpp">
+      <Filter>intern\python\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_ChainPredicateIterator.cpp">
+      <Filter>intern\python\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_ChainSilhouetteIterator.cpp">
+      <Filter>intern\python\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_ChainingIterator.cpp">
+      <Filter>intern\python\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_CurvePointIterator.cpp">
+      <Filter>intern\python\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_Interface0DIterator.cpp">
+      <Filter>intern\python\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_SVertexIterator.cpp">
+      <Filter>intern\python\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_StrokeVertexIterator.cpp">
+      <Filter>intern\python\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_ViewEdgeIterator.cpp">
+      <Filter>intern\python\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_orientedViewEdgeIterator.cpp">
+      <Filter>intern\python\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_BackboneStretcherShader.cpp">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_BezierCurveShader.cpp">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_BlenderTextureShader.cpp">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_CalligraphicShader.cpp">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_ColorNoiseShader.cpp">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_ConstantColorShader.cpp">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_ConstantThicknessShader.cpp">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_ConstrainedIncreasingThicknessShader.cpp">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_GuidingLinesShader.cpp">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_IncreasingColorShader.cpp">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_IncreasingThicknessShader.cpp">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_PolygonalizationShader.cpp">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_SamplingShader.cpp">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_SmoothingShader.cpp">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_SpatialNoiseShader.cpp">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_StrokeTextureStepShader.cpp">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_ThicknessNoiseShader.cpp">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_TipRemoverShader.cpp">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DDouble.cpp">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DEdgeNature.cpp">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DFloat.cpp">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DId.cpp">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DMaterial.cpp">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DUnsigned.cpp">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DVec2f.cpp">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DVec3f.cpp">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DVectorViewShape.cpp">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DViewShape.cpp">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_Id\BPy_ShapeIdF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_Id</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_Material\BPy_MaterialF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_Material</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_Nature_EdgeNature\BPy_CurveNatureF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_Nature_EdgeNature</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_Vec2f\BPy_Normal2DF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_Vec2f</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_Vec2f\BPy_VertexOrientation2DF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_Vec2f</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_Vec3f\BPy_VertexOrientation3DF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_Vec3f</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_ViewShape\BPy_GetOccludeeF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_ViewShape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_ViewShape\BPy_GetShapeF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_ViewShape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_Curvature2DAngleF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_DensityF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_GetProjectedXF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_GetProjectedYF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_GetProjectedZF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_GetXF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_GetYF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_GetZF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_LocalAverageDepthF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_ZDiscontinuityF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_float\BPy_GetCurvilinearAbscissaF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_float</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_float\BPy_GetParameterF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_float</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_float\BPy_GetViewMapGradientNormF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_float</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_float\BPy_ReadCompleteViewMapPixelF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_float</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_float\BPy_ReadMapPixelF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_float</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_float\BPy_ReadSteerableViewMapPixelF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_float</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_unsigned_int\BPy_QuantitativeInvisibilityF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_unsigned_int</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_vector_ViewShape\BPy_GetOccludersF0D.cpp">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_vector_ViewShape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\BPy_UnaryFunction1DDouble.cpp">
+      <Filter>intern\python\UnaryFunction1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\BPy_UnaryFunction1DEdgeNature.cpp">
+      <Filter>intern\python\UnaryFunction1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\BPy_UnaryFunction1DFloat.cpp">
+      <Filter>intern\python\UnaryFunction1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\BPy_UnaryFunction1DUnsigned.cpp">
+      <Filter>intern\python\UnaryFunction1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\BPy_UnaryFunction1DVec2f.cpp">
+      <Filter>intern\python\UnaryFunction1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\BPy_UnaryFunction1DVec3f.cpp">
+      <Filter>intern\python\UnaryFunction1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\BPy_UnaryFunction1DVectorViewShape.cpp">
+      <Filter>intern\python\UnaryFunction1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\BPy_UnaryFunction1DVoid.cpp">
+      <Filter>intern\python\UnaryFunction1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_Nature_EdgeNature\BPy_CurveNatureF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_Nature_EdgeNature</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_Vec2f\BPy_Normal2DF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_Vec2f</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_Vec2f\BPy_Orientation2DF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_Vec2f</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_Vec3f\BPy_Orientation3DF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_Vec3f</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_Curvature2DAngleF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_DensityF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetCompleteViewMapDensityF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetDirectionalViewMapDensityF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetProjectedXF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetProjectedYF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetProjectedZF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetSteerableViewMapDensityF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetViewMapGradientNormF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetXF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetYF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetZF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_LocalAverageDepthF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_ZDiscontinuityF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_unsigned_int\BPy_QuantitativeInvisibilityF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_unsigned_int</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_vector_ViewShape\BPy_GetOccludeeF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_vector_ViewShape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_vector_ViewShape\BPy_GetOccludersF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_vector_ViewShape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_vector_ViewShape\BPy_GetShapeF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_vector_ViewShape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_void\BPy_ChainingTimeStampF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_void</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_void\BPy_IncrementChainingTimeStampF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_void</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_void\BPy_TimeStampF1D.cpp">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_void</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate0D\BPy_FalseUP0D.cpp">
+      <Filter>intern\python\UnaryPredicate0D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate0D\BPy_TrueUP0D.cpp">
+      <Filter>intern\python\UnaryPredicate0D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_ContourUP1D.cpp">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_DensityLowerThanUP1D.cpp">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_EqualToChainingTimeStampUP1D.cpp">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_EqualToTimeStampUP1D.cpp">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_ExternalContourUP1D.cpp">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_FalseUP1D.cpp">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_QuantitativeInvisibilityUP1D.cpp">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_ShapeUP1D.cpp">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_TrueUP1D.cpp">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_WithinImageBoundaryUP1D.cpp">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\IndexedFaceSet.cpp">
+      <Filter>intern\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\LineRep.cpp">
+      <Filter>intern\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\NodeCamera.cpp">
+      <Filter>intern\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\NodeDrawingStyle.cpp">
+      <Filter>intern\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\NodeGroup.cpp">
+      <Filter>intern\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\NodeLight.cpp">
+      <Filter>intern\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\NodeShape.cpp">
+      <Filter>intern\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\NodeTransform.cpp">
+      <Filter>intern\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\NodeViewLayer.cpp">
+      <Filter>intern\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\OrientedLineRep.cpp">
+      <Filter>intern\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\Rep.cpp">
+      <Filter>intern\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\SceneHash.cpp">
+      <Filter>intern\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\ScenePrettyPrinter.cpp">
+      <Filter>intern\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\SceneVisitor.cpp">
+      <Filter>intern\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\TriangleRep.cpp">
+      <Filter>intern\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\VertexRep.cpp">
+      <Filter>intern\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\AdvancedFunctions0D.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\AdvancedFunctions1D.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\AdvancedStrokeShaders.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\BasicStrokeShaders.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\Canvas.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\Chain.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\ChainingIterators.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\ContextFunctions.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\Curve.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\Operators.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\PSStrokeRenderer.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\Predicates0D.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\Predicates1D.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\Stroke.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\StrokeIO.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\StrokeLayer.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\StrokeRenderer.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\StrokeRep.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\StrokeShader.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\StrokeTesselator.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\TextStrokeRenderer.cpp">
+      <Filter>intern\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\BaseObject.cpp">
+      <Filter>intern\system</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\Exception.cpp">
+      <Filter>intern\system</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\Iterator.cpp">
+      <Filter>intern\system</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\PseudoNoise.cpp">
+      <Filter>intern\system</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\PythonInterpreter.cpp">
+      <Filter>intern\system</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\RandGen.cpp">
+      <Filter>intern\system</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\StringUtils.cpp">
+      <Filter>intern\system</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\TimeStamp.cpp">
+      <Filter>intern\system</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\ArbitraryGridDensityProvider.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\AverageAreaGridDensityProvider.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\BoxGrid.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\CulledOccluderSource.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\FEdgeXDetector.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\Functions0D.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\Functions1D.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\HeuristicGridDensityProviderFactory.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\Interface0D.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\Interface1D.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\OccluderSource.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\Pow23GridDensityProvider.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\Silhouette.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\SilhouetteGeomEngine.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\SphericalGrid.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\SteerableViewMap.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\ViewEdgeXBuilder.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\ViewMap.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\ViewMapBuilder.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\ViewMapTesselator.cpp">
+      <Filter>intern\view_map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\winged_edge\Curvature.cpp">
+      <Filter>intern\winged_edge</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\winged_edge\WEdge.cpp">
+      <Filter>intern\winged_edge</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\winged_edge\WFillGrid.cpp">
+      <Filter>intern\winged_edge</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\winged_edge\WSFillGrid.cpp">
+      <Filter>intern\winged_edge</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\winged_edge\WXEdge.cpp">
+      <Filter>intern\winged_edge</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\winged_edge\WXEdgeBuilder.cpp">
+      <Filter>intern\winged_edge</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\winged_edge\WingedEdgeBuilder.cpp">
+      <Filter>intern\winged_edge</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\FRS_freestyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\application\AppCanvas.h">
+      <Filter>intern\application</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\application\AppConfig.h">
+      <Filter>intern\application</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\application\AppView.h">
+      <Filter>intern\application</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\application\Controller.h">
+      <Filter>intern\application</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\blender_interface\BlenderFileLoader.h">
+      <Filter>intern\blender_interface</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\blender_interface\BlenderStrokeRenderer.h">
+      <Filter>intern\blender_interface</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\blender_interface\BlenderStyleModule.h">
+      <Filter>intern\blender_interface</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\BBox.h">
+      <Filter>intern\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\Bezier.h">
+      <Filter>intern\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\FastGrid.h">
+      <Filter>intern\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\FitCurve.h">
+      <Filter>intern\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\Geom.h">
+      <Filter>intern\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\GeomCleaner.h">
+      <Filter>intern\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\GeomUtils.h">
+      <Filter>intern\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\Grid.h">
+      <Filter>intern\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\GridHelpers.h">
+      <Filter>intern\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\HashGrid.h">
+      <Filter>intern\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\Noise.h">
+      <Filter>intern\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\Polygon.h">
+      <Filter>intern\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\SweepLine.h">
+      <Filter>intern\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\VecMat.h">
+      <Filter>intern\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\matrix_util.h">
+      <Filter>intern\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\geometry\normal_cycle.h">
+      <Filter>intern\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\image\GaussianFilter.h">
+      <Filter>intern\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\image\Image.h">
+      <Filter>intern\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\image\ImagePyramid.h">
+      <Filter>intern\image</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_BBox.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_BinaryPredicate0D.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_BinaryPredicate1D.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_ContextFunctions.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_Convert.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_Freestyle.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_FrsMaterial.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_FrsNoise.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_Id.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_IntegrationType.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_Interface0D.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_Interface1D.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_Iterator.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_MediumType.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_Nature.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_Operators.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_SShape.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_StrokeAttribute.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_StrokeShader.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_UnaryFunction0D.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_UnaryFunction1D.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_UnaryPredicate0D.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_UnaryPredicate1D.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_ViewMap.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BPy_ViewShape.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BinaryPredicate1D\BPy_FalseBP1D.h">
+      <Filter>intern\python\BinaryPredicate1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BinaryPredicate1D\BPy_Length2DBP1D.h">
+      <Filter>intern\python\BinaryPredicate1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BinaryPredicate1D\BPy_SameShapeIdBP1D.h">
+      <Filter>intern\python\BinaryPredicate1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BinaryPredicate1D\BPy_TrueBP1D.h">
+      <Filter>intern\python\BinaryPredicate1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\BinaryPredicate1D\BPy_ViewMapGradientNormBP1D.h">
+      <Filter>intern\python\BinaryPredicate1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Director.h">
+      <Filter>intern\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface0D\BPy_CurvePoint.h">
+      <Filter>intern\python\Interface0D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface0D\BPy_SVertex.h">
+      <Filter>intern\python\Interface0D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface0D\BPy_ViewVertex.h">
+      <Filter>intern\python\Interface0D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface0D\CurvePoint\BPy_StrokeVertex.h">
+      <Filter>intern\python\Interface0D\CurvePoint</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface0D\ViewVertex\BPy_NonTVertex.h">
+      <Filter>intern\python\Interface0D\ViewVertex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface0D\ViewVertex\BPy_TVertex.h">
+      <Filter>intern\python\Interface0D\ViewVertex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface1D\BPy_FEdge.h">
+      <Filter>intern\python\Interface1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface1D\BPy_FrsCurve.h">
+      <Filter>intern\python\Interface1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface1D\BPy_Stroke.h">
+      <Filter>intern\python\Interface1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface1D\BPy_ViewEdge.h">
+      <Filter>intern\python\Interface1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface1D\Curve\BPy_Chain.h">
+      <Filter>intern\python\Interface1D\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface1D\FEdge\BPy_FEdgeSharp.h">
+      <Filter>intern\python\Interface1D\FEdge</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Interface1D\FEdge\BPy_FEdgeSmooth.h">
+      <Filter>intern\python\Interface1D\FEdge</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_AdjacencyIterator.h">
+      <Filter>intern\python\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_ChainPredicateIterator.h">
+      <Filter>intern\python\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_ChainSilhouetteIterator.h">
+      <Filter>intern\python\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_ChainingIterator.h">
+      <Filter>intern\python\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_CurvePointIterator.h">
+      <Filter>intern\python\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_Interface0DIterator.h">
+      <Filter>intern\python\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_SVertexIterator.h">
+      <Filter>intern\python\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_StrokeVertexIterator.h">
+      <Filter>intern\python\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_ViewEdgeIterator.h">
+      <Filter>intern\python\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\Iterator\BPy_orientedViewEdgeIterator.h">
+      <Filter>intern\python\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_BackboneStretcherShader.h">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_BezierCurveShader.h">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_BlenderTextureShader.h">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_CalligraphicShader.h">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_ColorNoiseShader.h">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_ConstantColorShader.h">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_ConstantThicknessShader.h">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_ConstrainedIncreasingThicknessShader.h">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_GuidingLinesShader.h">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_IncreasingColorShader.h">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_IncreasingThicknessShader.h">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_PolygonalizationShader.h">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_SamplingShader.h">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_SmoothingShader.h">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_SpatialNoiseShader.h">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_StrokeTextureStepShader.h">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_ThicknessNoiseShader.h">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\StrokeShader\BPy_TipRemoverShader.h">
+      <Filter>intern\python\StrokeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DDouble.h">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DEdgeNature.h">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DFloat.h">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DId.h">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DMaterial.h">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DUnsigned.h">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DVec2f.h">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DVec3f.h">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DVectorViewShape.h">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\BPy_UnaryFunction0DViewShape.h">
+      <Filter>intern\python\UnaryFunction0D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_Id\BPy_ShapeIdF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_Id</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_Material\BPy_MaterialF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_Material</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_Nature_EdgeNature\BPy_CurveNatureF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_Nature_EdgeNature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_Vec2f\BPy_Normal2DF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_Vec2f</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_Vec2f\BPy_VertexOrientation2DF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_Vec2f</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_Vec3f\BPy_VertexOrientation3DF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_Vec3f</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_ViewShape\BPy_GetOccludeeF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_ViewShape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_ViewShape\BPy_GetShapeF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_ViewShape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_Curvature2DAngleF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_DensityF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_GetProjectedXF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_GetProjectedYF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_GetProjectedZF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_GetXF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_GetYF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_GetZF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_LocalAverageDepthF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_double\BPy_ZDiscontinuityF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_float\BPy_GetCurvilinearAbscissaF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_float</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_float\BPy_GetParameterF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_float</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_float\BPy_GetViewMapGradientNormF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_float</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_float\BPy_ReadCompleteViewMapPixelF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_float</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_float\BPy_ReadMapPixelF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_float</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_float\BPy_ReadSteerableViewMapPixelF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_float</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_unsigned_int\BPy_QuantitativeInvisibilityF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_unsigned_int</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction0D\UnaryFunction0D_vector_ViewShape\BPy_GetOccludersF0D.h">
+      <Filter>intern\python\UnaryFunction0D\UnaryFunction0D_vector_ViewShape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\BPy_UnaryFunction1DDouble.h">
+      <Filter>intern\python\UnaryFunction1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\BPy_UnaryFunction1DEdgeNature.h">
+      <Filter>intern\python\UnaryFunction1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\BPy_UnaryFunction1DFloat.h">
+      <Filter>intern\python\UnaryFunction1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\BPy_UnaryFunction1DUnsigned.h">
+      <Filter>intern\python\UnaryFunction1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\BPy_UnaryFunction1DVec2f.h">
+      <Filter>intern\python\UnaryFunction1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\BPy_UnaryFunction1DVec3f.h">
+      <Filter>intern\python\UnaryFunction1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\BPy_UnaryFunction1DVectorViewShape.h">
+      <Filter>intern\python\UnaryFunction1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\BPy_UnaryFunction1DVoid.h">
+      <Filter>intern\python\UnaryFunction1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_Nature_EdgeNature\BPy_CurveNatureF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_Nature_EdgeNature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_Vec2f\BPy_Normal2DF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_Vec2f</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_Vec2f\BPy_Orientation2DF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_Vec2f</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_Vec3f\BPy_Orientation3DF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_Vec3f</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_Curvature2DAngleF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_DensityF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetCompleteViewMapDensityF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetDirectionalViewMapDensityF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetProjectedXF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetProjectedYF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetProjectedZF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetSteerableViewMapDensityF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetViewMapGradientNormF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetXF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetYF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_GetZF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_LocalAverageDepthF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_double\BPy_ZDiscontinuityF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_double</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_unsigned_int\BPy_QuantitativeInvisibilityF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_unsigned_int</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_vector_ViewShape\BPy_GetOccludeeF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_vector_ViewShape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_vector_ViewShape\BPy_GetOccludersF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_vector_ViewShape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_vector_ViewShape\BPy_GetShapeF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_vector_ViewShape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_void\BPy_ChainingTimeStampF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_void</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_void\BPy_IncrementChainingTimeStampF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_void</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryFunction1D\UnaryFunction1D_void\BPy_TimeStampF1D.h">
+      <Filter>intern\python\UnaryFunction1D\UnaryFunction1D_void</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate0D\BPy_FalseUP0D.h">
+      <Filter>intern\python\UnaryPredicate0D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate0D\BPy_TrueUP0D.h">
+      <Filter>intern\python\UnaryPredicate0D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_ContourUP1D.h">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_DensityLowerThanUP1D.h">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_EqualToChainingTimeStampUP1D.h">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_EqualToTimeStampUP1D.h">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_ExternalContourUP1D.h">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_FalseUP1D.h">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_QuantitativeInvisibilityUP1D.h">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_ShapeUP1D.h">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_TrueUP1D.h">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\python\UnaryPredicate1D\BPy_WithinImageBoundaryUP1D.h">
+      <Filter>intern\python\UnaryPredicate1D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\DrawingStyle.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\FrsMaterial.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\IndexedFaceSet.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\LineRep.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\Node.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\NodeCamera.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\NodeDrawingStyle.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\NodeGroup.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\NodeLight.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\NodeShape.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\NodeTransform.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\NodeViewLayer.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\OrientedLineRep.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\Rep.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\SceneHash.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\ScenePrettyPrinter.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\SceneVisitor.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\TriangleRep.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\scene_graph\VertexRep.h">
+      <Filter>intern\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\AdvancedFunctions0D.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\AdvancedFunctions1D.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\AdvancedPredicates1D.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\AdvancedStrokeShaders.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\BasicStrokeShaders.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\Canvas.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\Chain.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\ChainingIterators.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\ContextFunctions.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\Curve.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\CurveAdvancedIterators.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\CurveIterators.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\Modifiers.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\Module.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\Operators.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\PSStrokeRenderer.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\Predicates0D.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\Predicates1D.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\QInformationMap.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\Stroke.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\StrokeAdvancedIterators.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\StrokeIO.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\StrokeIterators.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\StrokeLayer.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\StrokeRenderer.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\StrokeRep.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\StrokeShader.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\StrokeTesselator.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\StyleModule.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\stroke\TextStrokeRenderer.h">
+      <Filter>intern\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\BaseIterator.h">
+      <Filter>intern\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\BaseObject.h">
+      <Filter>intern\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\Cast.h">
+      <Filter>intern\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\Exception.h">
+      <Filter>intern\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\FreestyleConfig.h">
+      <Filter>intern\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\Id.h">
+      <Filter>intern\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\Interpreter.h">
+      <Filter>intern\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\Iterator.h">
+      <Filter>intern\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\PointerSequence.h">
+      <Filter>intern\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\Precision.h">
+      <Filter>intern\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\ProgressBar.h">
+      <Filter>intern\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\PseudoNoise.h">
+      <Filter>intern\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\PythonInterpreter.h">
+      <Filter>intern\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\RandGen.h">
+      <Filter>intern\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\RenderMonitor.h">
+      <Filter>intern\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\StringUtils.h">
+      <Filter>intern\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\TimeStamp.h">
+      <Filter>intern\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\system\TimeUtils.h">
+      <Filter>intern\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\ArbitraryGridDensityProvider.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\AutoPtrHelper.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\AverageAreaGridDensityProvider.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\BoxGrid.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\CulledOccluderSource.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\FEdgeXDetector.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\Functions0D.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\Functions1D.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\GridDensityProvider.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\HeuristicGridDensityProviderFactory.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\Interface0D.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\Interface1D.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\OccluderSource.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\Pow23GridDensityProvider.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\Silhouette.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\SilhouetteGeomEngine.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\SphericalGrid.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\SteerableViewMap.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\ViewEdgeXBuilder.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\ViewMap.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\ViewMapAdvancedIterators.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\ViewMapBuilder.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\ViewMapIterators.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\view_map\ViewMapTesselator.h">
+      <Filter>intern\view_map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\winged_edge\Curvature.h">
+      <Filter>intern\winged_edge</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\winged_edge\Nature.h">
+      <Filter>intern\winged_edge</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\winged_edge\WEdge.h">
+      <Filter>intern\winged_edge</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\winged_edge\WFillGrid.h">
+      <Filter>intern\winged_edge</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\winged_edge\WSFillGrid.h">
+      <Filter>intern\winged_edge</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\winged_edge\WXEdge.h">
+      <Filter>intern\winged_edge</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\winged_edge\WXEdgeBuilder.h">
+      <Filter>intern\winged_edge</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\freestyle\intern\winged_edge\WingedEdgeBuilder.h">
+      <Filter>intern\winged_edge</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\freestyle\CMakeFiles\bf_freestyle.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\freestyle\CMakeFiles\bf_freestyle.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\freestyle\CMakeFiles\bf_freestyle.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\freestyle\CMakeFiles\bf_freestyle.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\blender\freestyle\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF785239-3054-3D1C-9CBE-53CD9878A5F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{C140AC00-060A-3569-9F9D-1811158321D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1F461DDB-8F37-3AFA-B6E0-78FA459DB46E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{017BFF33-8AB9-35B3-9AF4-ED3EEF867E66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\application">
+      <UniqueIdentifier>{74EAD508-26E1-309E-8513-EC6ECB363DC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\blender_interface">
+      <UniqueIdentifier>{A7F3723D-AF1F-317D-BA77-1BD568CF8C7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\geometry">
+      <UniqueIdentifier>{9AB80867-EF4D-30C3-AA61-C41E08472849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\image">
+      <UniqueIdentifier>{D24021CB-EC8D-3995-BE75-7B4DE8DAF8BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python">
+      <UniqueIdentifier>{8967A1DD-37DC-3A94-B078-33019592F720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\BinaryPredicate1D">
+      <UniqueIdentifier>{88736C61-FBF6-3D2C-86F3-DFC549080A17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\Interface0D">
+      <UniqueIdentifier>{F41FC606-7EAE-3FB2-85A5-ECE232198604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\Interface0D\CurvePoint">
+      <UniqueIdentifier>{E84A4F6A-13CD-3A93-B417-004C69E99046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\Interface0D\ViewVertex">
+      <UniqueIdentifier>{9C5A5B1B-C48D-350C-A7A1-D49C0A362E4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\Interface1D">
+      <UniqueIdentifier>{CFF0DF3B-5153-3FED-9A69-3F1947A90BDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\Interface1D\Curve">
+      <UniqueIdentifier>{39F04FD9-1401-33B3-9703-793BD2F0C98B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\Interface1D\FEdge">
+      <UniqueIdentifier>{D703CE8E-BDB7-3788-9D1A-7FCCDF2E77C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\Iterator">
+      <UniqueIdentifier>{D982225C-0ED3-3505-874D-D8EE3B1D4860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\StrokeShader">
+      <UniqueIdentifier>{E278FCFA-5120-3A2F-8E56-21B30497F2D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction0D">
+      <UniqueIdentifier>{1E18C028-37FB-3B19-938E-7924CEF5BECF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction0D\UnaryFunction0D_Id">
+      <UniqueIdentifier>{CB5029C9-F9F7-3586-9803-ED50BE16CA11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction0D\UnaryFunction0D_Material">
+      <UniqueIdentifier>{68A45E12-0F8E-39BB-A7B6-27ADB92119D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction0D\UnaryFunction0D_Nature_EdgeNature">
+      <UniqueIdentifier>{639A006E-130D-3FDD-B73C-FAFB051644D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction0D\UnaryFunction0D_Vec2f">
+      <UniqueIdentifier>{D21F984F-AE73-3661-887B-B31C33F00E09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction0D\UnaryFunction0D_Vec3f">
+      <UniqueIdentifier>{4095D0C0-5548-38EF-933E-634796DB2BF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction0D\UnaryFunction0D_ViewShape">
+      <UniqueIdentifier>{E77F4B04-47E4-33A1-BFCF-63AAAB9120B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction0D\UnaryFunction0D_double">
+      <UniqueIdentifier>{B47CB179-6ECB-3AB2-8497-299181B0EC95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction0D\UnaryFunction0D_float">
+      <UniqueIdentifier>{5213723F-A8CC-3B31-BD30-52422BCCEA14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction0D\UnaryFunction0D_unsigned_int">
+      <UniqueIdentifier>{6C1D1A10-E7F6-337C-A29E-6ED152032762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction0D\UnaryFunction0D_vector_ViewShape">
+      <UniqueIdentifier>{2C209C2D-40FF-3B85-9BAD-4E52FFD84B4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction1D">
+      <UniqueIdentifier>{2289662A-5DAB-33EB-AB92-E6E7B1B085EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction1D\UnaryFunction1D_Nature_EdgeNature">
+      <UniqueIdentifier>{55BE3F69-EC3A-332E-AF9B-A3F6D3575FA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction1D\UnaryFunction1D_Vec2f">
+      <UniqueIdentifier>{C53A088E-46D6-3520-B35D-93792B080445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction1D\UnaryFunction1D_Vec3f">
+      <UniqueIdentifier>{ECA329CA-E2A1-36B3-9C95-39F45D5EF205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction1D\UnaryFunction1D_double">
+      <UniqueIdentifier>{906F058C-1F98-3BE0-9D42-BF0E4315D87D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction1D\UnaryFunction1D_unsigned_int">
+      <UniqueIdentifier>{6B745DA7-50BA-35C2-BFFD-50C84E8C7081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction1D\UnaryFunction1D_vector_ViewShape">
+      <UniqueIdentifier>{C2885626-78CA-3A51-AF55-06BCE4EA5D44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryFunction1D\UnaryFunction1D_void">
+      <UniqueIdentifier>{688497E2-7455-3703-9B04-95228FF50C4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryPredicate0D">
+      <UniqueIdentifier>{AD90DF9F-E3C1-3708-9D4D-013847D4A911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\python\UnaryPredicate1D">
+      <UniqueIdentifier>{E2656384-CCE7-35A8-8823-FF87F96A4D67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\scene_graph">
+      <UniqueIdentifier>{67FF4216-A830-374B-85A1-258505BAF1BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\stroke">
+      <UniqueIdentifier>{78021FDD-B074-3BD3-8D2A-2B443A01A046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\system">
+      <UniqueIdentifier>{82B46125-853E-3040-8EDA-6E95E3AABA6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\view_map">
+      <UniqueIdentifier>{A7F670E5-DEE3-3218-B1E1-6991C4B7F487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\winged_edge">
+      <UniqueIdentifier>{722D52E5-0103-3D6E-9D04-B1F78C5AE213}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

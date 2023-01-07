@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\device.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\denoise.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\graphics_interop.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\kernel.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\memory.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\queue.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\cpu\device.cpp">
+      <Filter>cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\cpu\device_impl.cpp">
+      <Filter>cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\cpu\kernel.cpp">
+      <Filter>cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\cpu\kernel_thread_globals.cpp">
+      <Filter>cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\cuda\device.cpp">
+      <Filter>cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\cuda\device_impl.cpp">
+      <Filter>cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\cuda\graphics_interop.cpp">
+      <Filter>cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\cuda\kernel.cpp">
+      <Filter>cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\cuda\queue.cpp">
+      <Filter>cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\cuda\util.cpp">
+      <Filter>cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\hip\device.cpp">
+      <Filter>hip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\hip\device_impl.cpp">
+      <Filter>hip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\hip\graphics_interop.cpp">
+      <Filter>hip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\hip\kernel.cpp">
+      <Filter>hip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\hip\queue.cpp">
+      <Filter>hip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\hip\util.cpp">
+      <Filter>hip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\dummy\device.cpp">
+      <Filter>dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\multi\device.cpp">
+      <Filter>multi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\optix\device.cpp">
+      <Filter>optix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\optix\device_impl.cpp">
+      <Filter>optix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\optix\queue.cpp">
+      <Filter>optix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\oneapi\device_impl.cpp">
+      <Filter>oneapi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\oneapi\device.cpp">
+      <Filter>oneapi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\cycles\device\oneapi\queue.cpp">
+      <Filter>oneapi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\cpu\device.h">
+      <Filter>cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\cpu\device_impl.h">
+      <Filter>cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\cpu\kernel.h">
+      <Filter>cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\cpu\kernel_function.h">
+      <Filter>cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\cpu\kernel_thread_globals.h">
+      <Filter>cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\cuda\device.h">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\cuda\device_impl.h">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\cuda\graphics_interop.h">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\cuda\kernel.h">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\cuda\queue.h">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\cuda\util.h">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\hip\device.h">
+      <Filter>hip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\hip\device_impl.h">
+      <Filter>hip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\hip\graphics_interop.h">
+      <Filter>hip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\hip\kernel.h">
+      <Filter>hip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\hip\queue.h">
+      <Filter>hip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\hip\util.h">
+      <Filter>hip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\dummy\device.h">
+      <Filter>dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\multi\device.h">
+      <Filter>multi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\optix\device.h">
+      <Filter>optix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\optix\device_impl.h">
+      <Filter>optix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\optix\queue.h">
+      <Filter>optix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\optix\util.h">
+      <Filter>optix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\oneapi\device_impl.h">
+      <Filter>oneapi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\oneapi\device.h">
+      <Filter>oneapi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\oneapi\queue.h">
+      <Filter>oneapi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\device.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\denoise.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\graphics_interop.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\memory.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\kernel.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\cycles\device\queue.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\intern\cycles\device\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{D4C10226-486F-376D-ABDD-4958808121F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpu">
+      <UniqueIdentifier>{1350A8D9-3917-36E1-8947-FCDFE0DF9246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cuda">
+      <UniqueIdentifier>{513B746C-1A6E-3A1C-8AA8-149EC25BDCAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dummy">
+      <UniqueIdentifier>{E6543C2E-550F-3769-961E-D53A95E7B1CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hip">
+      <UniqueIdentifier>{A058717F-A3B4-3970-843A-FB16D2281066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="multi">
+      <UniqueIdentifier>{0FB1554D-1594-3FB6-831E-E2DEE2562B5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="oneapi">
+      <UniqueIdentifier>{A9FD3B17-714B-3B76-8611-EFF3E5099D0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="optix">
+      <UniqueIdentifier>{C98D7443-DF69-3DC1-940C-3D836AFF6E98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\outliner_collections.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\outliner_context.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\outliner_dragdrop.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\outliner_draw.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\outliner_edit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\outliner_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\outliner_query.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\outliner_select.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\outliner_sync.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\outliner_tools.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\outliner_tree.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\outliner_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\space_outliner.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\common.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_display.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_display_data.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_display_libraries.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_display_orphaned.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_display_override_library_hierarchies.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_display_override_library_properties.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_display_scenes.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_display_sequencer.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_display_view_layer.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_anim_data.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_collection.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_driver.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_label.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_gpencil_layer.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_id.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_id_library.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_id_scene.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_nla.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_overrides.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_rna.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_scene_objects.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_seq.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_view_layer.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_iterator.cc">
+      <Filter>tree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\outliner_intern.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\common.hh">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_display.hh">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element.hh">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_anim_data.hh">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_collection.hh">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_driver.hh">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_label.hh">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_gpencil_layer.hh">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_id.hh">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_id_library.hh">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_id_scene.hh">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_nla.hh">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_overrides.hh">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_rna.hh">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_scene_objects.hh">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_seq.hh">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_element_view_layer.hh">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\tree\tree_iterator.hh">
+      <Filter>tree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\blender\editors\space_outliner\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF785239-3054-3D1C-9CBE-53CD9878A5F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1F461DDB-8F37-3AFA-B6E0-78FA459DB46E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tree">
+      <UniqueIdentifier>{4D757E8D-1236-3DD6-900D-D52C13B86006}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\206E19211371C61C73DFD4B0C5BA2319\DNA.C.RULE
+setlocal
+..\..\..\..\bin\Release\makesdna.exe C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/dna.c C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/dna_type_offsets.h C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/dna_verify.c C:/blender-git/goo-engine/source/blender/makesdna/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\GOO-ENGINE\SOURCE\BLENDER\MAKESDNA\INTERN\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_cursors.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_dragdrop.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_draw.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_event_query.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_event_system.cc">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_files.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_files_link.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_gesture.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_gesture_ops.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_init_exit.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_jobs.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_keymap.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_keymap_utils.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_menu_type.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_operator_props.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_operator_type.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_operator_utils.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_operators.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_panel_type.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_platform_support.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_playanim.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_splash_screen.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_stereo.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_subwindow.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_surface.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_toolsystem.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_tooltip.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_uilist_type.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_utils.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_window.c">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\gizmo\intern\wm_gizmo.c">
+      <Filter>gizmo\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\gizmo\intern\wm_gizmo_group.c">
+      <Filter>gizmo\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\gizmo\intern\wm_gizmo_group_type.c">
+      <Filter>gizmo\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\gizmo\intern\wm_gizmo_map.c">
+      <Filter>gizmo\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\gizmo\intern\wm_gizmo_target_props.c">
+      <Filter>gizmo\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\gizmo\intern\wm_gizmo_type.c">
+      <Filter>gizmo\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\message_bus\intern\wm_message_bus.c">
+      <Filter>message_bus\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\message_bus\intern\wm_message_bus_rna.c">
+      <Filter>message_bus\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\message_bus\intern\wm_message_bus_static.c">
+      <Filter>message_bus\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\xr\intern\wm_xr.c">
+      <Filter>xr\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\xr\intern\wm_xr_action.c">
+      <Filter>xr\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\xr\intern\wm_xr_actionmap.c">
+      <Filter>xr\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\xr\intern\wm_xr_draw.c">
+      <Filter>xr\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\xr\intern\wm_xr_operators.c">
+      <Filter>xr\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\windowmanager\xr\intern\wm_xr_session.c">
+      <Filter>xr\intern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\WM_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\WM_keymap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\WM_message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\WM_toolsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\WM_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\wm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\wm_cursors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\wm_draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\wm_event_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\wm_event_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\wm_files.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\wm_surface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\wm_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_platform_support.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\intern\wm_window_private.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\gizmo\WM_gizmo_api.h">
+      <Filter>gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\gizmo\WM_gizmo_types.h">
+      <Filter>gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\gizmo\wm_gizmo_fn.h">
+      <Filter>gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\gizmo\wm_gizmo_wmapi.h">
+      <Filter>gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\gizmo\intern\wm_gizmo_intern.h">
+      <Filter>gizmo\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\message_bus\intern\wm_message_bus_intern.h">
+      <Filter>message_bus\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\message_bus\wm_message_bus.h">
+      <Filter>message_bus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\xr\wm_xr.h">
+      <Filter>xr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\windowmanager\xr\intern\wm_xr_intern.h">
+      <Filter>xr\intern</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\blender\windowmanager\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF785239-3054-3D1C-9CBE-53CD9878A5F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gizmo">
+      <UniqueIdentifier>{33624E6D-8C2B-317C-8CA9-AD25739F7417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gizmo\intern">
+      <UniqueIdentifier>{330C0A63-6DE6-397D-B29F-108135A769E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{017BFF33-8AB9-35B3-9AF4-ED3EEF867E66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="message_bus">
+      <UniqueIdentifier>{742AA9BE-F444-3015-8546-8C31392BF307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="message_bus\intern">
+      <UniqueIdentifier>{70679A4A-1504-348E-AEDD-B0AF8CE00A66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xr">
+      <UniqueIdentifier>{62197AB6-038C-31CB-9BFF-6D60E561491D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xr\intern">
+      <UniqueIdentifier>{C2C3809E-2C5D-3618-850D-84693324B302}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

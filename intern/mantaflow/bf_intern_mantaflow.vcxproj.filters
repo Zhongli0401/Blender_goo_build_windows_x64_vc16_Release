@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\mantaflow\intern\manta_python_API.cpp">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\mantaflow\intern\manta_fluid_API.cpp">
+      <Filter>intern</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\intern\mantaflow\intern\MANTA_main.cpp">
+      <Filter>intern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\mantaflow\extern\manta_python_API.h">
+      <Filter>extern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\mantaflow\extern\manta_fluid_API.h">
+      <Filter>extern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\mantaflow\intern\MANTA_main.h">
+      <Filter>intern</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\mantaflow\intern\strings\fluid_script.h">
+      <Filter>intern\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\mantaflow\intern\strings\smoke_script.h">
+      <Filter>intern\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\intern\mantaflow\intern\strings\liquid_script.h">
+      <Filter>intern\strings</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\intern\mantaflow\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="extern">
+      <UniqueIdentifier>{58C34983-5696-33DE-A797-41406F2568C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern">
+      <UniqueIdentifier>{017BFF33-8AB9-35B3-9AF4-ED3EEF867E66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intern\strings">
+      <UniqueIdentifier>{BB52225F-F353-3BA9-A3B1-F4B12ED45949}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

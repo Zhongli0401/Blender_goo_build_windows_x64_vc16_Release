@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\src\common.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\src\decoder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\draco\src\encoder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\src\common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\src\decoder.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\draco\src\encoder.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\extern\draco\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{99A74A51-D7F5-3E41-8CF7-501A18D81587}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

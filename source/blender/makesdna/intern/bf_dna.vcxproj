@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4CB048FC-D778-32AF-8B73-3F31A7761587}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>bf_dna</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bf_dna.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bf_dna</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bf_dna.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bf_dna</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">bf_dna.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">bf_dna</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">bf_dna.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">bf_dna</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w34189 /w35038 /J /bigobj /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;DEBUG;_DEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FREESTYLE;WITH_DNA_GHASH;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;DEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FREESTYLE;WITH_DNA_GHASH;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w34189 /w35038 /J /bigobj /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FREESTYLE;WITH_DNA_GHASH;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FREESTYLE;WITH_DNA_GHASH;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w34189 /w35038 /J /bigobj /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FREESTYLE;WITH_DNA_GHASH;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FREESTYLE;WITH_DNA_GHASH;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/blender-git/lib/win64_vc15/pthreads/include" /w34062 /w34115 /w34189 /w35038 /J /bigobj /utf-8 /experimental:external /external:I C:/blender-git/goo-engine/../lib/win64_vc15</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4146;4065;4127;4181;4200;4244;4267;4305;4800;4828;4996;4661;4848</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalTemplatesDiagnostics>true</ExternalTemplatesDiagnostics>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatSpecificWarningsAsErrors>4013;4133;4431</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FREESTYLE;WITH_DNA_GHASH;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CONSOLE;_LIB;_ALLOW_KEYWORD_MACROS;_WIN32_WINNT=0x603;OIIO_STATIC_DEFINE;OIIO_NO_SSE=1;WITH_TBB_MALLOC;__SSE__;__MMX__;__SSE2__;__LITTLE_ENDIAN__;WITH_OPENGL;WITH_ASSERT_ABORT;WITH_FREESTYLE;WITH_DNA_GHASH;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\blender-git\goo-engine\intern\atomic;C:\blender-git\goo-engine\intern\guardedalloc;C:\blender-git\goo-engine\source\blender\blenlib;C:\blender-git\goo-engine\source\blender\imbuf;C:\blender-git\goo-engine\source\blender\makesdna;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern;C:\blender-git\lib\win64_vc15\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\206e19211371c61c73dfd4b0c5ba2319\dna.c.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating dna.c, dna_type_offsets.h, dna_verify.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\..\bin\Debug\makesdna.exe C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/dna.c C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/dna_type_offsets.h C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/dna_verify.c C:/blender-git/goo-engine/source/blender/makesdna/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\bin\Debug\makesdna.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\dna.c;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\dna_type_offsets.h;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\dna_verify.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating dna.c, dna_type_offsets.h, dna_verify.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\..\bin\Release\makesdna.exe C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/dna.c C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/dna_type_offsets.h C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/dna_verify.c C:/blender-git/goo-engine/source/blender/makesdna/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\bin\Release\makesdna.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\dna.c;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\dna_type_offsets.h;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\dna_verify.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating dna.c, dna_type_offsets.h, dna_verify.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\..\bin\MinSizeRel\makesdna.exe C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/dna.c C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/dna_type_offsets.h C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/dna_verify.c C:/blender-git/goo-engine/source/blender/makesdna/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\bin\MinSizeRel\makesdna.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\dna.c;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\dna_type_offsets.h;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\dna_verify.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating dna.c, dna_type_offsets.h, dna_verify.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\..\bin\RelWithDebInfo\makesdna.exe C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/dna.c C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/dna_type_offsets.h C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/dna_verify.c C:/blender-git/goo-engine/source/blender/makesdna/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\bin\RelWithDebInfo\makesdna.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\dna.c;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\dna_type_offsets.h;C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\dna_verify.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\blender\makesdna\intern\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/blender-git/goo-engine/source/blender/makesdna/intern/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/blender-git/goo-engine/source/blender/makesdna/intern/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/blender-git/goo-engine/source/blender/makesdna/intern/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/blender-git/goo-engine/source/blender/makesdna/intern/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/blender/makesdna/intern/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\makesdna\intern\dna_defaults.c" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\makesdna\intern\dna_genfile.c" />
+    <ClCompile Include="C:\blender-git\goo-engine\source\blender\makesdna\intern\dna_utils.c" />
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\dna.c" />
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\dna_verify.c" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_ID.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_ID_enums.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_action_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_anim_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_armature_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_asset_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_boid_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_brush_enums.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_brush_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_cachefile_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_camera_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_cloth_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_collection_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_color_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_constraint_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_curve_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_curveprofile_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_curves_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_customdata_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_defs.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_documentation.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_dynamicpaint_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_effect_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_fileglobal_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_fluid_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_freestyle_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_genfile.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_gpencil_modifier_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_gpencil_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_gpu_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_image_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_ipo_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_key_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_lattice_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_layer_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_light_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_lightprobe_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_lineart_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_linestyle_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_listBase.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_mask_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_material_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_mesh_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_meshdata_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_meta_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_modifier_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_movieclip_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_nla_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_node_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_object_enums.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_object_fluidsim_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_object_force_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_object_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_outliner_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_packedFile_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_particle_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_pointcache_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_pointcloud_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_rigidbody_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_scene_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_screen_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_sdna_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_sequence_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_session_uuid_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_shader_fx_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_simulation_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_sound_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_space_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_speaker_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_text_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_texture_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_tracking_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_userdef_enums.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_userdef_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_uuid_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_vec_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_vfont_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_view2d_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_view3d_enums.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_view3d_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_volume_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_windowmanager_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_workspace_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_world_types.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\DNA_xr_types.h" />
+    <ClInclude Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\dna_type_offsets.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\intern\dna_rename_defs.h" />
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\makesdna\intern\dna_utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\ZERO_CHECK.vcxproj">
+      <Project>{0B18E108-1544-3A9C-9810-3B45BB3BAEA5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\makesdna\intern\makesdna.vcxproj">
+      <Project>{E4262AE0-54D3-3158-AD21-8E14F606187A}</Project>
+      <Name>makesdna</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

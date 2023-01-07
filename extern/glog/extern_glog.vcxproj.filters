@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\glog\src\demangle.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\glog\src\logging.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\glog\src\raw_logging.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\glog\src\signalhandler.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\glog\src\symbolize.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\glog\src\utilities.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\glog\src\vlog_is_on.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\glog\src\windows\port.cc">
+      <Filter>src\windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\demangle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\symbolize.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\utilities.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\config.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\config_freebsd.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\config_haiku.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\config_hurd.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\config_linux.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\config_mac.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\base\commandlineflags.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\base\googleinit.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\base\mutex.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\stacktrace.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\stacktrace_generic-inl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\stacktrace_libunwind-inl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\stacktrace_powerpc-inl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\stacktrace_x86_64-inl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\stacktrace_x86-inl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\stacktrace_windows-inl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\windows\glog\raw_logging.h">
+      <Filter>src\windows\glog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\windows\glog\vlog_is_on.h">
+      <Filter>src\windows\glog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\windows\glog\logging.h">
+      <Filter>src\windows\glog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\windows\glog\log_severity.h">
+      <Filter>src\windows\glog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\windows\port.h">
+      <Filter>src\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\glog\src\windows\config.h">
+      <Filter>src\windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\extern\glog\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{99A74A51-D7F5-3E41-8CF7-501A18D81587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\base">
+      <UniqueIdentifier>{90B9AC24-6DD3-3235-9063-D5345F427C62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\windows">
+      <UniqueIdentifier>{0A6DD6AB-E96C-30FE-8646-DD5B7A692F8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\windows\glog">
+      <UniqueIdentifier>{D01DAB7A-5611-3F7B-8D28-7DD8C405CA9C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

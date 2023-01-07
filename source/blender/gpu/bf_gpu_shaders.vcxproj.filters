@@ -1,0 +1,1574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\GPU_shader_shared.h.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\opengl\glsl_shader_defines.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_depth_only_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_uniform_color_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_checker_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_diag_stripes_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_simple_lighting_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_flat_color_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_flat_color_alpha_test_0_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_flat_id_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_area_borders_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_area_borders_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_widget_base_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_widget_base_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_widget_shadow_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_widget_shadow_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_nodelink_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_nodelink_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_flat_color_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_line_dashed_uniform_color_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_line_dashed_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_smooth_color_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_smooth_color_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_image_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_image_rect_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_image_multi_rect_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_image_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_image_desaturate_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_image_overlays_merge_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_image_overlays_stereo_merge_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_image_modulate_alpha_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_image_shuffle_color_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_image_color_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_image_varying_color_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_3D_image_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_3D_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_3D_normal_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_3D_flat_color_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_3D_line_dashed_uniform_color_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_3D_polyline_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_3D_polyline_geom.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_3D_polyline_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_3D_smooth_color_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_3D_smooth_color_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_3D_passthrough_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_3D_clipped_uniform_color_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_instance_variying_size_variying_color_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_point_uniform_color_aa_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_point_uniform_color_outline_aa_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_point_varying_color_varying_outline_aa_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_point_varying_color_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_3D_point_fixed_size_varying_color_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_3D_point_varying_size_varying_color_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_3D_point_uniform_size_aa_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_point_varying_size_varying_color_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_point_uniform_size_aa_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_2D_point_uniform_size_outline_aa_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_text_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_text_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_keyframe_shape_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_keyframe_shape_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_codegen_lib.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\common\gpu_shader_common_color_ramp.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\common\gpu_shader_common_color_utils.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\common\gpu_shader_common_curves.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\common\gpu_shader_common_hash.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\common\gpu_shader_common_math.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\common\gpu_shader_common_math_utils.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\common\gpu_shader_common_mix_rgb.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_add_shader.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_ambient_occlusion.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_anisotropic.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_attribute.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_background.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_bevel.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_wavelength.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_blackbody.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_bright_contrast.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_bump.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_camera.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_clamp.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_combine_color.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_combine_hsv.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_combine_rgb.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_combine_xyz.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_diffuse.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_displacement.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_eevee_specular.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_emission.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_fractal_noise.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_fresnel.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_gamma.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_geometry.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_glass.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_glossy.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_hair_info.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_hair.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_holdout.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_hue_sat_val.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_invert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_layer_weight.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_light_falloff.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_light_path.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_mapping.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_map_range.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_mix_shader.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_noise.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_normal.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_normal_map.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_object_info.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_output_aov.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_output_material.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_output_world.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_particle_info.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_point_info.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_principled.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_refraction.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_rgb_to_bw.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_separate_color.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_separate_hsv.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_separate_rgb.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_separate_xyz.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_set.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_shader_to_rgba.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_squeeze.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_subsurface_scattering.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_tangent.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_tex_brick.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_tex_checker.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_tex_environment.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_tex_gradient.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_tex_image.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_tex_magic.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_tex_musgrave.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_tex_noise.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_tex_sky.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_texture_coordinates.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_tex_voronoi.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_tex_wave.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_tex_white_noise.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_toon.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_transform_utils.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_translucent.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_transparent.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_uv_map.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_vector_displacement.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_vector_math.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_vector_rotate.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_velvet.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_vertex_color.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_volume_absorption.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_volume_principled.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_volume_scatter.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_wireframe.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_world_normals.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_screenspace_info.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_curvature.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_shader_info.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_set_depth.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_sdf_primitive.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_sdf_op.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_sdf_vector_op.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_sdf_noise.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\material\gpu_shader_material_sdf_util.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_gpencil_stroke_vert.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_gpencil_stroke_frag.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_gpencil_stroke_geom.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_cfg_world_clip_lib.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\shaders\gpu_shader_colorspace_lib.glsl.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\source\blender\gpu\GPU_shader_shared_utils.h.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_shader_shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\source\blender\gpu\GPU_shader_shared_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a4483a5de8e8f6723279980b65301f9a\GPU_shader_shared.h.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\84f70518b03823ec6fa699bd12255255\glsl_shader_defines.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_depth_only_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_uniform_color_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_checker_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_diag_stripes_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_simple_lighting_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_flat_color_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_flat_color_alpha_test_0_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_flat_id_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_area_borders_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_area_borders_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_widget_base_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_widget_base_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_widget_shadow_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_widget_shadow_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_nodelink_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_nodelink_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_flat_color_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_line_dashed_uniform_color_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_line_dashed_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_smooth_color_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_smooth_color_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_image_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_image_rect_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_image_multi_rect_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_image_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_image_desaturate_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_image_overlays_merge_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_image_overlays_stereo_merge_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_image_modulate_alpha_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_image_shuffle_color_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_image_color_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_image_varying_color_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_3D_image_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_3D_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_3D_normal_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_3D_flat_color_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_3D_line_dashed_uniform_color_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_3D_polyline_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_3D_polyline_geom.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_3D_polyline_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_3D_smooth_color_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_3D_smooth_color_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_3D_passthrough_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_3D_clipped_uniform_color_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_instance_variying_size_variying_color_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_point_uniform_color_aa_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_point_uniform_color_outline_aa_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_point_varying_color_varying_outline_aa_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_point_varying_color_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_3D_point_fixed_size_varying_color_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_3D_point_varying_size_varying_color_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_3D_point_uniform_size_aa_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_point_varying_size_varying_color_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_point_uniform_size_aa_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_2D_point_uniform_size_outline_aa_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_text_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_text_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_keyframe_shape_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_keyframe_shape_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_codegen_lib.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\6690ce1b8ffe87cef6be2509f733596a\gpu_shader_common_color_ramp.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\6690ce1b8ffe87cef6be2509f733596a\gpu_shader_common_color_utils.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\6690ce1b8ffe87cef6be2509f733596a\gpu_shader_common_curves.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\6690ce1b8ffe87cef6be2509f733596a\gpu_shader_common_hash.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\6690ce1b8ffe87cef6be2509f733596a\gpu_shader_common_math.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\6690ce1b8ffe87cef6be2509f733596a\gpu_shader_common_math_utils.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\6690ce1b8ffe87cef6be2509f733596a\gpu_shader_common_mix_rgb.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_add_shader.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_ambient_occlusion.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_anisotropic.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_attribute.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_background.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_bevel.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_wavelength.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_blackbody.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_bright_contrast.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_bump.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_camera.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_clamp.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_combine_color.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_combine_hsv.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_combine_rgb.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_combine_xyz.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_diffuse.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_displacement.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_eevee_specular.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_emission.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_fractal_noise.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_fresnel.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_gamma.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_geometry.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_glass.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_glossy.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_hair_info.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_hair.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_holdout.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_hue_sat_val.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_invert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_layer_weight.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_light_falloff.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_light_path.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_mapping.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_map_range.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_mix_shader.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_noise.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_normal.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_normal_map.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_object_info.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_output_aov.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_output_material.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_output_world.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_particle_info.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_point_info.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_principled.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_refraction.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_rgb_to_bw.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_separate_color.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_separate_hsv.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_separate_rgb.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_separate_xyz.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_set.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_shader_to_rgba.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_squeeze.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_subsurface_scattering.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_tangent.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_tex_brick.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_tex_checker.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_tex_environment.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_tex_gradient.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_tex_image.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_tex_magic.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_tex_musgrave.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_tex_noise.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_tex_sky.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_texture_coordinates.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_tex_voronoi.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_tex_wave.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_tex_white_noise.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_toon.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_transform_utils.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_translucent.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_transparent.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_uv_map.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_vector_displacement.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_vector_math.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_vector_rotate.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_velvet.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_vertex_color.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_volume_absorption.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_volume_principled.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_volume_scatter.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_wireframe.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_world_normals.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_screenspace_info.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_curvature.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_shader_info.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_set_depth.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_sdf_primitive.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_sdf_op.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_sdf_vector_op.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_sdf_noise.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\02507bd8af17b5519fa21fdb6c76f9e1\gpu_shader_material_sdf_util.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_gpencil_stroke_vert.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_gpencil_stroke_frag.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_gpencil_stroke_geom.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_cfg_world_clip_lib.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\c7f7891a369b4dccc3d244a3fd79bb3c\gpu_shader_colorspace_lib.glsl.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a4483a5de8e8f6723279980b65301f9a\GPU_shader_shared_utils.h.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\blender\gpu\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\opengl\glsl_shader_defines.glsl">
+      <Filter>shaders\opengl</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_depth_only_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_uniform_color_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_checker_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_diag_stripes_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_simple_lighting_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_flat_color_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_flat_color_alpha_test_0_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_flat_id_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_area_borders_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_area_borders_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_widget_base_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_widget_base_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_widget_shadow_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_widget_shadow_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_nodelink_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_nodelink_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_flat_color_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_line_dashed_uniform_color_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_line_dashed_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_smooth_color_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_smooth_color_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_image_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_image_rect_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_image_multi_rect_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_image_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_image_desaturate_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_image_overlays_merge_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_image_overlays_stereo_merge_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_image_modulate_alpha_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_image_shuffle_color_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_image_color_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_image_varying_color_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_3D_image_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_3D_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_3D_normal_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_3D_flat_color_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_3D_line_dashed_uniform_color_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_3D_polyline_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_3D_polyline_geom.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_3D_polyline_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_3D_smooth_color_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_3D_smooth_color_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_3D_passthrough_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_3D_clipped_uniform_color_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_instance_variying_size_variying_color_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_point_uniform_color_aa_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_point_uniform_color_outline_aa_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_point_varying_color_varying_outline_aa_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_point_varying_color_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_3D_point_fixed_size_varying_color_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_3D_point_varying_size_varying_color_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_3D_point_uniform_size_aa_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_point_varying_size_varying_color_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_point_uniform_size_aa_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_2D_point_uniform_size_outline_aa_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_text_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_text_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_keyframe_shape_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_keyframe_shape_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_codegen_lib.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\common\gpu_shader_common_color_ramp.glsl">
+      <Filter>shaders\common</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\common\gpu_shader_common_color_utils.glsl">
+      <Filter>shaders\common</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\common\gpu_shader_common_curves.glsl">
+      <Filter>shaders\common</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\common\gpu_shader_common_hash.glsl">
+      <Filter>shaders\common</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\common\gpu_shader_common_math.glsl">
+      <Filter>shaders\common</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\common\gpu_shader_common_math_utils.glsl">
+      <Filter>shaders\common</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\common\gpu_shader_common_mix_rgb.glsl">
+      <Filter>shaders\common</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_add_shader.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_ambient_occlusion.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_anisotropic.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_attribute.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_background.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_bevel.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_wavelength.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_blackbody.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_bright_contrast.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_bump.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_camera.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_clamp.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_combine_color.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_combine_hsv.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_combine_rgb.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_combine_xyz.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_diffuse.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_displacement.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_eevee_specular.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_emission.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_fractal_noise.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_fresnel.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_gamma.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_geometry.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_glass.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_glossy.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_hair_info.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_hair.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_holdout.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_hue_sat_val.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_invert.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_layer_weight.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_light_falloff.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_light_path.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_mapping.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_map_range.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_mix_shader.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_noise.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_normal.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_normal_map.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_object_info.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_output_aov.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_output_material.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_output_world.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_particle_info.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_point_info.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_principled.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_refraction.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_rgb_to_bw.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_separate_color.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_separate_hsv.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_separate_rgb.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_separate_xyz.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_set.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_shader_to_rgba.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_squeeze.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_subsurface_scattering.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_tangent.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_tex_brick.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_tex_checker.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_tex_environment.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_tex_gradient.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_tex_image.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_tex_magic.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_tex_musgrave.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_tex_noise.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_tex_sky.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_texture_coordinates.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_tex_voronoi.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_tex_wave.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_tex_white_noise.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_toon.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_transform_utils.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_translucent.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_transparent.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_uv_map.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_vector_displacement.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_vector_math.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_vector_rotate.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_velvet.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_vertex_color.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_volume_absorption.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_volume_principled.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_volume_scatter.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_wireframe.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_world_normals.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_screenspace_info.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_curvature.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_shader_info.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_set_depth.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_sdf_primitive.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_sdf_op.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_sdf_vector_op.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_sdf_noise.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\material\gpu_shader_material_sdf_util.glsl">
+      <Filter>shaders\material</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_gpencil_stroke_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_gpencil_stroke_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_gpencil_stroke_geom.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_cfg_world_clip_lib.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\blender-git\goo-engine\source\blender\gpu\shaders\gpu_shader_colorspace_lib.glsl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{93D321BE-D925-34CD-9F6A-689691A7BFE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{2C01B952-6754-3379-B1CA-FF75F50311DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF785239-3054-3D1C-9CBE-53CD9878A5F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{0E2A1928-BBFC-3CFF-86EE-2CDA2D377844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\common">
+      <UniqueIdentifier>{382060FD-AFA1-3DC8-B259-597937BAF6EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\material">
+      <UniqueIdentifier>{B961095E-9757-3B65-9D92-836CB1BF0C36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\opengl">
+      <UniqueIdentifier>{4C940A80-0D8A-3427-B206-33E93222219C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

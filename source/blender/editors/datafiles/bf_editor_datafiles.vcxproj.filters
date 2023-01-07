@@ -1,0 +1,642 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\bfont.pfb.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\preview.blend.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\preview_grease_pencil.blend.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\splash.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\alert_icons.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\blender_logo.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\blender_icons16.png.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\blender_icons32.png.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\prvicons.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\blob.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\blur.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\clay.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\claystrips.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\clone.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\crease.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\draw.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\fill.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\flatten.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\grab.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\inflate.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\layer.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\mask.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\mix.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\nudge.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\paint_select.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\pinch.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\scrape.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\smear.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\smooth.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\snake_hook.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\soften.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\texdraw.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\texfill.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\texmask.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\thumb.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\twist.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_smooth.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_thickness.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_strength.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_grab.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_push.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_twist.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_pinch.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_randomize.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_clone.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_weight.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_pencil.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_pen.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_ink.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_inknoise.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_block.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_marker.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_fill.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_airbrush.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_chisel.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_erase_soft.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_erase_hard.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\gp_brush_erase_stroke.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\curves_sculpt_add.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\curves_sculpt_comb.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\curves_sculpt_cut.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\curves_sculpt_delete.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\curves_sculpt_density.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\curves_sculpt_grow_shrink.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\curves_sculpt_pinch.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\curves_sculpt_puff.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\curves_sculpt_slide.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\curves_sculpt_smooth.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\brushicons\curves_sculpt_snake_hook.png.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\blender-git\build_windows_x64_vc16_Release\release\datafiles\startup.blend.c">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\0dd546ae9d72f6578ee1edb440a6089a\bfont.pfb.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\0dd546ae9d72f6578ee1edb440a6089a\preview.blend.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\0dd546ae9d72f6578ee1edb440a6089a\preview_grease_pencil.blend.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\0dd546ae9d72f6578ee1edb440a6089a\splash.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\0dd546ae9d72f6578ee1edb440a6089a\alert_icons.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\0dd546ae9d72f6578ee1edb440a6089a\blender_logo.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\0dd546ae9d72f6578ee1edb440a6089a\blender_icons16.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\0dd546ae9d72f6578ee1edb440a6089a\blender_icons32.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\0dd546ae9d72f6578ee1edb440a6089a\prvicons.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\blob.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\blur.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\clay.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\claystrips.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\clone.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\crease.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\draw.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\fill.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\flatten.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\grab.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\inflate.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\layer.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\mask.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\mix.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\nudge.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\paint_select.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\pinch.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\scrape.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\smear.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\smooth.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\snake_hook.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\soften.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\texdraw.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\texfill.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\texmask.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\thumb.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\twist.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_smooth.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_thickness.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_strength.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_grab.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_push.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_twist.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_pinch.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_randomize.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_clone.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_weight.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_pencil.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_pen.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_ink.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_inknoise.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_block.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_marker.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_fill.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_airbrush.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_chisel.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_erase_soft.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_erase_hard.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\gp_brush_erase_stroke.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\curves_sculpt_add.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\curves_sculpt_comb.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\curves_sculpt_cut.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\curves_sculpt_delete.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\curves_sculpt_density.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\curves_sculpt_grow_shrink.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\curves_sculpt_pinch.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\curves_sculpt_puff.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\curves_sculpt_slide.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\curves_sculpt_smooth.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\a3d674ed2e2be4d427f8b4324c029dbd\curves_sculpt_snake_hook.png.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\build_windows_x64_vc16_Release\CMakeFiles\0dd546ae9d72f6578ee1edb440a6089a\startup.blend.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\blender-git\goo-engine\source\blender\editors\datafiles\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\splash.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\alert_icons.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\blender_logo.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\prvicons.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\blob.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\blur.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\clay.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\claystrips.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\clone.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\crease.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\draw.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\fill.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\flatten.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\grab.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\inflate.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\layer.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\mask.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\mix.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\nudge.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\paint_select.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\pinch.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\scrape.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\smear.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\smooth.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\snake_hook.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\soften.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\texdraw.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\texfill.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\texmask.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\thumb.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\twist.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_smooth.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_thickness.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_strength.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_grab.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_push.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_twist.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_pinch.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_randomize.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_clone.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_weight.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_pencil.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_pen.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_ink.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_inknoise.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_block.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_marker.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_fill.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_airbrush.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_chisel.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_erase_soft.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_erase_hard.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\gp_brush_erase_stroke.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\curves_sculpt_add.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\curves_sculpt_comb.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\curves_sculpt_cut.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\curves_sculpt_delete.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\curves_sculpt_density.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\curves_sculpt_grow_shrink.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\curves_sculpt_pinch.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\curves_sculpt_puff.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\curves_sculpt_slide.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\curves_sculpt_smooth.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\blender-git\goo-engine\release\datafiles\brushicons\curves_sculpt_snake_hook.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\blender-git\goo-engine\release\datafiles\bfont.pfb" />
+    <None Include="C:\blender-git\goo-engine\release\datafiles\preview.blend" />
+    <None Include="C:\blender-git\goo-engine\release\datafiles\preview_grease_pencil.blend" />
+    <None Include="C:\blender-git\goo-engine\release\datafiles\startup.blend" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{93D321BE-D925-34CD-9F6A-689691A7BFE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{2C01B952-6754-3379-B1CA-FF75F50311DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{A470AA4E-9677-38F3-AD7A-418327104CBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1F461DDB-8F37-3AFA-B6E0-78FA459DB46E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

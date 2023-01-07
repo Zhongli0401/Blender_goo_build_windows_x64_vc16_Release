@@ -1,0 +1,22 @@
+^C:\BLENDER-GIT\BUILD_WINDOWS_X64_VC16_RELEASE\CMAKEFILES\8011971C5673546A32E964579D28CE8A\COM_OPENCLKERNELS.CL.H.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/blender-git/build_windows_x64_vc16_Release/source/blender/compositor/operations
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\bin\Release\datatoc.exe C:/blender-git/goo-engine/source/blender/compositor/operations/COM_OpenCLKernels.cl C:/blender-git/build_windows_x64_vc16_Release/source/blender/compositor/operations/COM_OpenCLKernels.cl.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BLENDER-GIT\GOO-ENGINE\SOURCE\BLENDER\COMPOSITOR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/blender-git/goo-engine -BC:/blender-git/build_windows_x64_vc16_Release --check-stamp-file C:/blender-git/build_windows_x64_vc16_Release/source/blender/compositor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

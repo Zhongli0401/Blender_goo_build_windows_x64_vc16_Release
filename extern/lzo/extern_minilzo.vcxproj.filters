@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\blender-git\goo-engine\extern\lzo\minilzo\minilzo.c">
+      <Filter>minilzo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\lzo\minilzo\lzoconf.h">
+      <Filter>minilzo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\lzo\minilzo\lzodefs.h">
+      <Filter>minilzo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\blender-git\goo-engine\extern\lzo\minilzo\minilzo.h">
+      <Filter>minilzo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\blender-git\goo-engine\extern\lzo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="minilzo">
+      <UniqueIdentifier>{9EFC346E-8D71-3B9E-B8FE-752B751F3FA6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
