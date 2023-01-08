@@ -1,10 +1,15 @@
 .. Keep this document short & concise,
    linking to external resources instead of including content in-line.
    See 'release/text/readme.html' for the end user read-me.
+new download link with gpu support
+==================================
 
+with library (as i forgot toadd those in first build and used 250% of by github lfs lmao)
+
+https://drive.google.com/file/d/1U4yk5b0mRo-z1HsIX_8QMvmZU_uq3Mks/view?usp=share_link
 
 Blender
-=======
+-------
 
 Blender is the free and open source 3D creation suite.
 It supports the entirety of the 3D pipeline-modeling, rigging, animation, simulation, rendering, compositing,
